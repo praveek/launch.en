@@ -1,0 +1,25 @@
+{
+    "ignorePatterns": [
+        {
+            "pattern": "^.*corp.adobe.com"
+        },
+        {
+            "pattern": "^.*digitalu.adobe.com"
+        },
+        {
+            "pattern": "^.*adobe-marketing-cloud.github.io"
+        },
+        {
+            "pattern": "^.*forums.adobe.com"
+        },
+        {
+            "pattern": "^.*adobe.com/go/"
+        },
+        {
+            "pattern": "^.*github.com"
+        },
+        {
+            "pattern": "^.*testsite.com/spa"
+        }
+    ]
+}
