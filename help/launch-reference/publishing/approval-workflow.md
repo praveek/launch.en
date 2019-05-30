@@ -23,7 +23,7 @@ There are four basic states that a library can be in. Specific actions must be t
 * [Approved](approval-workflow.md#approved)
 * [Published](approval-workflow.md#published)
 
-![](../../.gitbook/assets/library-state.png)
+![](/help/assets/library-state.png)
 
 ### Development
 

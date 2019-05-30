@@ -32,7 +32,7 @@ The publishing process consists of:
 2. Testing the functionality of those libraries where you need to test them.
 3. Deploying those libraries to your production environment.
 
-![](../../.gitbook/assets/publishing.jpg)
+![](/help/assets/publishing.jpg)
 
 For example, if you create a new checkout event, create a revenue data element related to that event, and make a change to the Adobe Analytics extension configuration to support the new event and data element, you can save them all at once to a checkout library, then test, approve, and publish them as a group.
 

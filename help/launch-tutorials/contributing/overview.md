@@ -1,5 +1,22 @@
 # Tutorials
 
+Step through these tutorials to learn more about Launch.
+
+* [Companies](companies.md)
+* [Hosts](hosts.md)
+* [Data Elements](data-elements.md)
+* [Environments](environments.md)
+* [Extensions](extensions.md)
+* [Properties](properties.md)
+* [Publishing](publishing.md)
+* [Rules](rules.md)
+* [Miscellaneous](miscellaneous.md)
+* [Example Tutorial](template.md)
+
+
+
+
+<!--
 This step-by-step guide provides all you need to know to be an active contributor to the tutorials section of our user documentation. The goal is to get as many users involved in providing example how-to content as possible. We're excited to have you contributing!
 
 Adobe Launch uses the GitBook platform to display its documentation. It can be found [here](https://docs.adobelaunch.com/).
@@ -117,3 +134,4 @@ Once you've finished with your tutorial and are happy with the changes, it's tim
 
    _\*Please note that there will be no expectations on how long it will take for your contribution to be approved and merged._
 
+-->

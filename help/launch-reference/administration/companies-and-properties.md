@@ -125,7 +125,7 @@ Before beginning, review the [Best practices for planning properties](companies-
 
 Navigate to your company page, then click Add Property, or select an existing property from the list and click Configure.
 
-![](../../.gitbook/assets/property-create.jpg)
+![](/help/assets/property-create.jpg)
 
 ### For Web
 

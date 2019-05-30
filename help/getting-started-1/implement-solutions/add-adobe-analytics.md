@@ -34,7 +34,7 @@ The Analytics extension consists of two main parts:
 
   In this tutorial, you can use one report suite for all environments, but in production you would want to use separate report suites, as shown in the image below:
 
-  ![](../../.gitbook/assets/analytics-config-reportsuite.png)
+  ![](/help/assets/analytics-config-reportsuite.png)
 
   **Note:** Use the **Manage the library for me** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
 
@@ -42,7 +42,7 @@ The Analytics extension consists of two main parts:
 
   Enter your SSL Tracking Server if your site supports `https://`.
 
-  ![](../../.gitbook/assets/analytics-config-trackingserver.png)
+  ![](/help/assets/analytics-config-trackingserver.png)
 
 * In the Global Variables section, set the Page Name variable using your Page Name data element, then click the **Data Element** icon to open the modal and choose the page Page Name data element.
 * Click **Save to Library and Build**.
@@ -65,7 +65,7 @@ You have already created an "All Pages - Library Loaded" rule in the Add a Data 
 5. Click **Keep Changes**.
 6. Under **Actions**, click the **Add** icon to add a new action.
 
-   ![](../../.gitbook/assets/analytics-ruleaddaction.png)
+   ![](/help/assets/analytics-ruleaddaction.png)
 
 7. Select **Extension &gt; Adobe Analytics**.
 8. Select **Action Type &gt; Send Beacon**.
@@ -84,12 +84,12 @@ After you have created a rule to send an Analytics beacon, you should be able to
 2. Click the Debugger icon to open the **Adobe Experience Cloud Debugger**.
 3. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](../../.gitbook/assets/switchenvironments-debuggeronweretail%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail%20%281%29.png)
 
 4. Open the Analytics tab, then expand your Report Suite name to show all of the requests made to it.
 5. Confirm the request has fired with the Page Name variable and value.
 
-   ![](../../.gitbook/assets/analytics-validatepagehit.png)
+   ![](/help/assets/analytics-validatepagehit.png)
 
 **Note:** If the Page Name is not showing up for you, go back through the steps in this page to make sure that you haven't missed anything.
 
@@ -114,7 +114,7 @@ First, you need to identify which pages are the Product Detail pages. You do tha
 1. Click **Data Elements** in the top navigation.
 2. Click **Add Data Element**.
 
-   ![](../../.gitbook/assets/analytics-adddataelement.png)
+   ![](/help/assets/analytics-adddataelement.png)
 
 3. Name the data element Page Type.
 4. Select **Data Element Type &gt; JavaScript Variable**.
@@ -128,7 +128,7 @@ Next, collect the product ID of the current Product Detail page with a Data Elem
 
 1. Click **Data Elements** in the top navigation, then click **Add Data Element**.
 
-   ![](../../.gitbook/assets/analytics-adddataelement.png)
+   ![](/help/assets/analytics-adddataelement.png)
 
 2. Name the data element "Product ID."
 3. Select **Data Element Type &gt; JavaScript Variable**.
@@ -146,12 +146,12 @@ In this section you will add an extension created by Adobe Consulting for use on
 1. Go to the **Extensions &gt; Catalog** page.
 2. Find the Adobe Analytics Product String extension by Adobe Consulting Services and click **Install**.
 
-   ![](../../.gitbook/assets/analytics-addproductstringextension.png)
+   ![](/help/assets/analytics-addproductstringextension.png)
 
 3. Take a moment to read the instructions.
 4. Click **Save to Library and Build**.
 
-   ![](../../.gitbook/assets/analytics-addproductstringextensionsave.png)
+   ![](/help/assets/analytics-addproductstringextensionsave.png)
 
 ### Create the Rule for Product Detail Pages
 
@@ -162,12 +162,12 @@ Use your new data elements and extension to build your Product Detail page rule.
 1. Go to the **Rules** section in the top navigation, click **Add Rule**, then name the rule "Product Details - DOM Ready."
 2. Click **Events &gt; Add** to open the Event Configuration screen.
 
-   ![](../../.gitbook/assets/analytics-domreadyaddevent%20%281%29.png)
+   ![](/help/assets/analytics-domreadyaddevent%20%281%29.png)
 
 3. Select **Event Type &gt; DOM Ready**.
 4. Set the **Order** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.
 
-   ![](../../.gitbook/assets/analytics-configdomreadyevent.png)
+   ![](/help/assets/analytics-configdomreadyevent.png)
 
 5. Click **Keep Changes**.
 
@@ -198,7 +198,7 @@ Use your new data elements and extension to build your Product Detail page rule.
 
 1. Under Actions, click the Add icon to add a new action.
 
-   ![](../../.gitbook/assets/analytics-pdpaddproductstringaction.png)
+   ![](/help/assets/analytics-pdpaddproductstringaction.png)
 
 2. Select **Extension &gt; Adobe Analytics Product String**.
 3. Select **Action Type &gt; Set s.products**.
@@ -208,7 +208,7 @@ Use your new data elements and extension to build your Product Detail page rule.
 7. Click **Keep Changes**.
 8. Click **Save to Library and Build**.
 
-   ![](../../.gitbook/assets/analytics-pdp-saverule.png)
+   ![](/help/assets/analytics-pdp-saverule.png)
 
 ### Validate the Product Detail Page Data
 
@@ -222,7 +222,7 @@ In the previous section, you created a rule that sets variables before the beaco
 
    Notice the Product Detail Variables that are now in the debugger, namely that eVar1 has been set to `product detail page`, that the Events variable has been set to `event1` and `prodView`, that the products variable is set with the product ID of the product you are viewing, and that your Page Name is still set by the Analytics extension.
 
-![](../../.gitbook/assets/analytics-validatepdpvars.png)
+![](/help/assets/analytics-validatepdpvars.png)
 
 ## Send a Track Link beacon
 
@@ -242,7 +242,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 2. Name the rule "Homepage - New Arrivals enters Viewport."
 3. Click **Events &gt; Add** to open the Event Configuration screen.
 
-   ![](../../.gitbook/assets/analytics-newarrivalsruleadd2.png)
+   ![](/help/assets/analytics-newarrivalsruleadd2.png)
 
 4. Select **Event Type &gt; Enters Viewport**.
 
@@ -256,7 +256,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 7. In that area of the page, possibly right below the selected section, locate the `&lt;div&gt;` element with `class="we-productgrid aem-GridColumn aem-GridColumn--default--12"`.
 8. Right-click on this element and select **Copy &gt; Copy Selector**
 
-   ![](../../.gitbook/assets/analytics-copyelementselector.png)
+   ![](/help/assets/analytics-copyelementselector.png)
 
 9. Go back to Launch and paste this value from the clipboard into the field labeled **Elements** matching the CSS selector.
 
@@ -289,7 +289,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
 1. Under Actions, click the **Add** icon to add another new action.
 
-   ![](../../.gitbook/assets/analytics-newarrivalssendbeacon2.png)
+   ![](/help/assets/analytics-newarrivalssendbeacon2.png)
 
 2. Select **Extension &gt; Adobe Analytics**.
 3. Select **Action Type &gt; Send Beacon**.
@@ -310,7 +310,7 @@ Make sure that this hit occurs when you scroll down to the New Arrivals section 
 
    Notice the normal page view hit for the home page with the page name and other elements, but nothing in eVar3 or prop3.
 
-   ![](../../.gitbook/assets/analytics-debuggerpageview.png)
+   ![](/help/assets/analytics-debuggerpageview.png)
 
 3. With the Debugger open, scroll down on your site until you can see the New Arrivals section.
 4. View the Debugger again. Another Analytics hit should appear.
@@ -323,7 +323,7 @@ Make sure that this hit occurs when you scroll down to the New Arrivals section 
    * eVar3 = "Home Page - New Arrivals"
    * Events = "event3"
 
-![](../../.gitbook/assets/analytics-debuggerentersviewport.png)
+![](/help/assets/analytics-debuggerentersviewport.png)
 
 ## Add a plug-in
 
@@ -342,7 +342,7 @@ If you are going to add the `doPlugins` function \(below\) and use plug-ins, you
 1. Go to **Extensions &gt; Installed**.
 2. In the Adobe Analytics extension, Click **Configure**.
 
-   ![](../../.gitbook/assets/analytics-configureextension.png)
+   ![](/help/assets/analytics-configureextension.png)
 
 3. Under **Library Management**, select the box labeled **Make tracker globally accessible**.
 
@@ -390,7 +390,7 @@ The code for this plug-in is available in the [Analytics Documentation](https://
 
    If you don't still have extension open, reopen it as per the previous step.
 
-   ![](../../.gitbook/assets/analytics-dopluginsandgevaloncecode.png)
+   ![](/help/assets/analytics-dopluginsandgevaloncecode.png)
 
 You can now call this plug-in from within `doPlugins`.
 
@@ -418,7 +418,7 @@ First, call a plug-in which has been incorporated into the AppMeasurement librar
 
    This code makes sure that the same value is not sent in more than once in a row for 30 days. See the documentation for ways to customize this code to your needs.
 
-   ![](../../.gitbook/assets/analytics-dopluginswithplugins.png)
+   ![](/help/assets/analytics-dopluginswithplugins.png)
 
 4. Save the code window.
 5. Click **Save to Library and Build**.
@@ -434,11 +434,11 @@ Make sure that the plug-ins are working.
 
 3. Leaving the Debugger open, go back to the We.Retail site and add `?cid=1234` to the URL, then press **Enter** to refresh the page with that query string included.
 
-   ![](../../.gitbook/assets/analytics-cidadded.png)
+   ![](/help/assets/analytics-cidadded.png)
 
 4. Check the Debugger and confirm that there is a second Analytics request with a Campaign variable set to 1234.
 
-   ![](../../.gitbook/assets/analytics-getqueryparam1.png)
+   ![](/help/assets/analytics-getqueryparam1.png)
 
 5. Go back and refresh the We.Retail page again, with the query string still in the URL.
 6. Check the next hit in the Debugger.
@@ -447,7 +447,7 @@ Make sure that the plug-ins are working.
 
 ### Rule Validation: Product, Cart, and Checkout flow
 
-![](../../.gitbook/assets/analytics-getqueryparam2.png)
+![](/help/assets/analytics-getqueryparam2.png)
 
 You can test this over and over by changing the value of the `cid` parameter in the query string. The Campaign variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the Campaign value in the debugger, simply change the value of the `cid` in the query string of the URL and press **Enter** to see it again in the debugger. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the Analytics extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
 

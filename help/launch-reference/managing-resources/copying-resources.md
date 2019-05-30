@@ -27,11 +27,11 @@ Copy a resource creates a duplicate of that resource in the specified destinatio
 
 You can initiate a copy of an extension by viewing your installed extensions, clicking the drop-down arrow on the **Configure** button and selecting **Copy**.
 
-![Copying the Analytics extension](../../.gitbook/assets/copy-initiate-extension.png)
+![Copying the Analytics extension](/help/assets/copy-initiate-extension.png)
 
 For Rules and Data Elements, simply select the resource you want to copy and then click the **Copy** button in the actions menu.
 
-![Copying my Analytics rule](../../.gitbook/assets/copy-initiate-rule.png)
+![Copying my Analytics rule](/help/assets/copy-initiate-rule.png)
 
 Once inside the copy dialog, you may use the drop-down menu to select a Destination Property you want to copy to. Rules and Data Elements will select the current property by default. Extensions cannot be copied to the same property, so those will not have a default selection.
 
@@ -50,7 +50,7 @@ When you copy an extension to another property, there are a few things that you 
 
 All Rules and Data Elements are provided by an extension, so when you copy across properties, Launch must account for these underlying extensions.
 
-![Copying a Rule to my Demo Property](../../.gitbook/assets/copy-rules-dialog%20%281%29.png)
+![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog%20%281%29.png)
 
 An explanation of exactly what Launch is planning on doing is available inside the Copy dialog before you actually begin copying. The above dialog is for a Rule, but the same applies to Data Elements.
 

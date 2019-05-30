@@ -16,7 +16,7 @@ Each Environment has a set of instructions used to connect it to your applicatio
 
 Installation instuctions can be accessed by clicking the Install Icon on the Environments list page.
 
-![](../../.gitbook/assets/install_instructions.png)
+![](/help/assets/install_instructions.png)
 
 ## Web Configuration
 

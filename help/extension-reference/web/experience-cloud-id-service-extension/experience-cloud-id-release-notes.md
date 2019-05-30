@@ -11,7 +11,7 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 * Updated visitor.js to 4.3
 * Added data element type for ECID as part of Launch Extension
 
-  ![](../../../.gitbook/assets/ecid-data-element.png)
+  ![](..//help/assets/ecid-data-element.png)
 
 ## April 9, 2019
 
@@ -30,7 +30,7 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 * Updated visitor.js to 4.0
 * Added a configuration options for the new built-in Opt-In Object. Opti-In settings can be used to suppress cookie and beacon calls of Adobe Solutions to better support regulations such as GDPR
 
-  ![](../../../.gitbook/assets/ext-mcid-opt-in.png)
+  ![](..//help/assets/ext-mcid-opt-in.png)
 
 ## March 20, 2018
 

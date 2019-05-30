@@ -14,7 +14,7 @@ If the Experience Cloud ID extension is not yet installed, open your property, t
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
 
-![](../../.gitbook/assets/ext-mcid-config.png)
+![](/help/assets/ext-mcid-config.png)
 
 The following configuration options are available:
 

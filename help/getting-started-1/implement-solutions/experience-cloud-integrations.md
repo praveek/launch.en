@@ -38,14 +38,14 @@ These validation steps focus on the critical part visible in the client-side imp
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 2. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](../../.gitbook/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
 
 3. Go to the Network tab of the Debugger, then click **Clear All Requests** to clean things up.
 4. Reload the We.Retail page, making sure that you see both the Target and Analytics requests in the Debugger.
 5. Reload the We.Retail page again. You should now see four requests in the Network tab of the Debugger—two for Target and two for Analytics.
 6. Look in the row labeled "Experience Cloud Visitor ID." The IDs in every request by every solution should always be the same.
 
-   ![](../../.gitbook/assets/integrations-matchingecids.png)
+   ![](/help/assets/integrations-matchingecids.png)
 
    The IDs are unique per visitor, which you can confirm by asking a co-worker to repeat these steps.
 
@@ -67,7 +67,7 @@ The best way to validate the A4T integration is to build a Target activity using
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 2. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](../../.gitbook/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
 
 3. Go to the Network tab of the Debugger.
 4. Click **Clear All Requests** to clean things up.
@@ -77,7 +77,7 @@ The best way to validate the A4T integration is to build a Target activity using
 
    The IDs from the first page load should match between Target and Analytics. The IDs from the second page load should also match, but be different from the first page load.
 
-   ![](../../.gitbook/assets/integrations-matchingsdids.png)
+   ![](/help/assets/integrations-matchingsdids.png)
 
 If you make additional Target requests in the scope of a page load \(not including single-page apps\) that are part of A4T activities, give them unique names \(not target-global-mbox\) so that they continue to have the same SDIDs of the initial Target and Analytics requests.
 
@@ -99,7 +99,7 @@ You validated that the Customer IDs are passed to both the ID Service and to Tar
 3. Go to the Network tab.
 4. In the filter field, type b/ss, which limits what you see to the Adobe Analytics requests.
 
-   ![](../../.gitbook/assets/aam-openthejsconsole.png)
+   ![](/help/assets/aam-openthejsconsole.png)
 
 5. Click the **LOGIN** link in the top right corner of the site, enter `test@adobe.com` as the username, and enter `test` as the password, then click **Login**.
 
@@ -112,5 +112,5 @@ You validated that the Customer IDs are passed to both the ID Service and to Tar
    * `id`: The Customer ID value coming from your Email \(Hashed\) data element
    * `as`: The Authentication State, with "1" meaning logged in
 
-![](../../.gitbook/assets/integrations-analyticscustomeridvalidation.png)
+![](/help/assets/integrations-analyticscustomeridvalidation.png)
 

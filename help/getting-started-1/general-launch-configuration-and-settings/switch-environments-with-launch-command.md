@@ -18,29 +18,29 @@ At the end of this lesson, you will be able to:
 3. Click **Copy** to copy the embed code to your clipboard.
 4. Click **Close** to close the modal.
 
-![](../../.gitbook/assets/launch-copyinstallcode%20%281%29.png)
+![](/help/assets/launch-copyinstallcode%20%281%29.png)
 
 ## Replace the Launch URL on the We.Retail demo site
 
-Open the [We.Retail demo site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html) in your Chrome browser, then open the [Experience Cloud Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) by clicking the ![](../../.gitbook/assets/icon-debugger.png) icon.
+Open the [We.Retail demo site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html) in your Chrome browser, then open the [Experience Cloud Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) by clicking the ![](/help/assets/icon-debugger.png) icon.
 
-![](../../.gitbook/assets/switchenvironments-opendebugger%20%281%29.png)
+![](/help/assets/switchenvironments-opendebugger%20%281%29.png)
 
 Note that the currently implemented Launch property is shown on the Summary tab.
 
-![](../../.gitbook/assets/switchenvironments-debuggeronweretail%20%282%29.png)
+![](/help/assets/switchenvironments-debuggeronweretail%20%282%29.png)
 
 Open the Tools tab, then click **Adobe Launch &gt; Dynamically Insert Launch &gt; Embed Code** to open the text input field:
 
-![](../../.gitbook/assets/switchenvironments-debugger-editembedcode.png)
+![](/help/assets/switchenvironments-debugger-editembedcode.png)
 
 Make sure the Chrome tab with the We.Retail site is in focus behind the Debugger \(not the tab with this tutorial or the tab with the Launch interface\), then paste the embed code from your clipboard. Click the disk icon to save.
 
-![](../../.gitbook/assets/switchenvironments-debugger-save.png)
+![](/help/assets/switchenvironments-debugger-save.png)
 
 Reload the site and check the Summary tab of the Debugger. Under the Launch section, you should see that your Development Property is being used. Confirm that the Name of the property matches yours and that the Environment says "development."
 
-![](../../.gitbook/assets/switchenvironments-debuggeronweretail.png)
+![](/help/assets/switchenvironments-debuggeronweretail.png)
 
 **Note:** The Debugger saves this configuration and replaces the Launch embed codes whenever you come back to the We.Retail site. It does not impact other sites you visit in other open tabs. To stop the Debugger from replacing the embed code, click the X next to the embed code in the Tools tab of the Debugger.
 

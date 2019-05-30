@@ -174,11 +174,11 @@ Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](
 
 Sign in to [https://experiencecloud.adobe.com/](http://experiencecloud.adobe.com/) with your Adobe ID, then choose the organization to use within Launch from the Navigation menu.
 
-![](../../.gitbook/assets/nav-menu.png)
+![](/help/assets/nav-menu.png)
 
 Open the solution picker by clicking the 9-dots icon from the navigation menu, then click Administration.
 
-![](../../.gitbook/assets/choose-admin.png)
+![](/help/assets/choose-admin.png)
 
 If you can't see this link, both of the following conditions are true:
 
@@ -193,21 +193,21 @@ In either case, ask an org admin to perform these steps for you, or to make you 
 
 Click Launch Admin Console.
 
-![](../../.gitbook/assets/launch-admin-console-button.png)
+![](/help/assets/launch-admin-console-button.png)
 
 Click the Launch, by Adobe - %Company Name% card.
 
-![](../../.gitbook/assets/launch-card.png)
+![](/help/assets/launch-card.png)
 
 You can also click Products in the top nav, then select Launch, by Adobe - %Company Name% from the left nav.
 
-![](../../.gitbook/assets/products-select-launch.png)
+![](/help/assets/products-select-launch.png)
 
 If you do not see a Launch, by Adobe card and or if Launch, by Adobe does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
 
 After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - %Company Name%.
 
-![](../../.gitbook/assets/product-profiles.png)
+![](/help/assets/product-profiles.png)
 
 ### 3. Create your product profile
 
@@ -219,27 +219,27 @@ To create a new product profile, click New Profile.
 
 Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click Done.
 
-![](../../.gitbook/assets/profile-new.png)
+![](/help/assets/profile-new.png)
 
 ### 4. Edit your product profile
 
 Select the product profile from the list, then open the Permissions tab. You can assign permissions across two dimensions: Properties and Rights.
 
-![](../../.gitbook/assets/profile-permissions.png)
+![](/help/assets/profile-permissions.png)
 
 To assign properties to this group definition, open the Properties section.
 
-![](../../.gitbook/assets/profile-properties-select.png)
+![](/help/assets/profile-properties-select.png)
 
 A list shows your Launch properties.
 
-![](../../.gitbook/assets/profile-properties.png)
+![](/help/assets/profile-properties.png)
 
 By default, new product configurations automatically include properties. This means that all properties \(present and future\) are included in the group definition.
 
 If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking Add.
 
-![](../../.gitbook/assets/profile-properties-add.png)
+![](/help/assets/profile-properties-add.png)
 
 Click Save when finished.
 
@@ -247,17 +247,17 @@ Click Save when finished.
 
 Assign the rights you want to be part of your group definition. Open the Rights section.
 
-![](../../.gitbook/assets/profile-rights-select.png)
+![](/help/assets/profile-rights-select.png)
 
 Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the + Add All button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights details](user-permissions.md#rights-details). Click Save when finished. If Save is not available, you didn't make any changes and the profile won't give you any rights.
 
 First, assign Property Rights:
 
-![](../../.gitbook/assets/rights-property.png)
+![](/help/assets/rights-property.png)
 
 Then, assign Company Rights.
 
-![](../../.gitbook/assets/rights-company.png)
+![](/help/assets/rights-company.png)
 
 Some important notes:
 
@@ -274,7 +274,7 @@ Some important notes:
 
 To assign users to be part of your group, open the Users tab, then click Add User.
 
-![](../../.gitbook/assets/profile-user.png)
+![](/help/assets/profile-user.png)
 
 Click ... for additional options, such as bulk user operations.
 
@@ -292,7 +292,7 @@ Once you've added users, they receive an email letting them know that they now h
 
 When you log in to launch, you receive a message saying "Error Loading Account".
 
-![](../../.gitbook/assets/profile-error.png)
+![](/help/assets/profile-error.png)
 
 Resolution: Your user does not belong to any Launch product profiles. See the steps above to create a profile and assign rights to it, and to assign a user to a profile.
 

@@ -10,7 +10,7 @@ If the Adobe Experience Platform extension is not yet installed, open your prope
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
 
-![](../../.gitbook/assets/adobe_experience_platform_extension_configuration.png)
+![](/help/assets/adobe_experience_platform_extension_configuration.png)
 
 #### Streaming Connection
 
@@ -18,13 +18,13 @@ Choosing a streaming connection is the first step for you to start streaming dat
 
 If you click on the **"Create a streaming connection"** button a modal window will appear.
 
-![](../../.gitbook/assets/adobe_experienc_platform_create_streaming_connection.png)
+![](/help/assets/adobe_experienc_platform_create_streaming_connection.png)
 
 The modal contains fields with pre-populated values that can be changed to suit your needs. If you plan to create more that one streaming connection, you should be aware that the **Data Source** field needs to be unique. Trying to create another streaming connection using a **Data Source** already used on another connection will fail.
 
 Once you selected a streaming endpoint, you will the streaming endpoint URL and source.
 
-![](../../.gitbook/assets/adobe_experience_platform_streaming_endpoint_selected.png)
+![](/help/assets/adobe_experience_platform_streaming_endpoint_selected.png)
 
 ## Adobe Experience Platform extension action types
 
@@ -36,11 +36,11 @@ The extension provides a [Send Beacon](adobe-experience-platform-extension.md#se
 
 This is the action type you will use in order to send data to the Adobe Experience Platform.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_dataset.png)
+![](/help/assets/adobe_experience_platform_send_beacon_dataset.png)
 
 You first need to select the dataset where the data will be stored. Generally, datasets represent a table that will store the data sent via the streaming connection. You need to create the datasets inside the Adobe Experience Platform before using this action type.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_dataset_selected%20%281%29.png)
+![](/help/assets/adobe_experience_platform_send_beacon_dataset_selected%20%281%29.png)
 
 Once you select the dataset where the data will be stored, you will see details about the schema that is linked to the selected dataset.
 
@@ -48,7 +48,7 @@ Once you select the dataset where the data will be stored, you will see details 
 
 After selecting the dataset you can define your schema mapping.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_schema_mapping.png)
+![](/help/assets/adobe_experience_platform_send_beacon_schema_mapping.png)
 
 The source value field accepts a value or a data element. You can add a data element by clicking on the data element button that is located next to the source value field.
 
@@ -58,7 +58,7 @@ The target schema field contains the path of a XDM field defined in the dataset 
 
 The extension offers also the possibility to select a target schema field using a visual selector. If you click on the target button that sits next to the target schema field input, a modal will be shown where you will see the dataset's schema tree. You can select a field, then click the Select button and the target schema field input will be updated the contain the correct XDM path.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_schema_field_selector.png)
+![](/help/assets/adobe_experience_platform_send_beacon_schema_field_selector.png)
 
 #### Identity fields inside the Adobe Experience Platform
 
@@ -73,19 +73,19 @@ Identity fields can be defined in two ways inside the schema:
 
 For each schema field defined as an identity field, a row will be added to the schema mapping section. Each added row will contain the target schema field already filled in with its corresponding XDM schema path. You can recognize if a schema field is also an identity field if you see a profile icon near the field. 
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_identity_field.png)
+![](/help/assets/adobe_experience_platform_send_beacon_identity_field.png)
 
 The primary identity fields are always required, so you can not delete the rows containing them from the schema mapping section.
 
 A schema field that is defined as a non-primary identity field, will be automatically added to the schema mapping section, but the source value input can remain empty. That field can be deleted. The field will get discarded if its corresponding source value input is empty. 
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_identity_field_warning.png)
+![](/help/assets/adobe_experience_platform_send_beacon_identity_field_warning.png)
 
 You will see a warning icon near each non-primary identity field that doesn't contain a value.
 
 An identity section will be visible if your schema contains an **xdm:identityMap** field. You can use this section if you prefer to send data related to identities using the **xdm:identityMap**.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_identity_section.png)
+![](/help/assets/adobe_experience_platform_send_beacon_identity_section.png)
 
 The identity mapping section can contain multiple rows. Each row can define a certain identity type. You can define the following attributes for an identity: type, authenticated state, primary and value.
 
@@ -93,7 +93,7 @@ If you have multiple identities inside the identity mapping section, only one id
 
 If you have a schema that has an **xdm:identityMap** field and at the same time another field is marked an a primary identity field, the primary column from inside the identity mapping section will not be visible.
 
-![](../../.gitbook/assets/adobe_experience_platform_send_beacon_identity_section_not_primary.png)
+![](/help/assets/adobe_experience_platform_send_beacon_identity_section_not_primary.png)
 
 #### Required fields
 

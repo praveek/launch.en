@@ -30,7 +30,7 @@ At the end of this lesson, you will be able to:
 
 From the property Overview screen, click on the Environments tab to go to the environments page. Note that Development, Staging, and Production environments have already been created for you.
 
-![](../../.gitbook/assets/launch-environments.png)
+![](/help/assets/launch-environments.png)
 
 Development, Staging, and Production environments correspond to the typical environments in the code development and release process. Code is first written by developers in a Development environment. When they have completed their work, they send it to a Staging environment for QA and other teams to review. After the QA and other teams are satisfied, the code is published to the Production environment, which is the public-facing environment which your visitors experience when they come to your website.
 
@@ -42,12 +42,12 @@ These are the only environments needed to complete the tutorial. Environments al
 
    Launch defaults to the asynchronous embed codes.
 
-2. Click the copy icon to copy the installation code to your clipboard.
-3. Click **Close** to close the modal.
+1. Click the copy icon to copy the installation code to your clipboard.
+1. Click **Close** to close the modal.
 
-![](../../.gitbook/assets/launch-copyinstallcode.png)
+![](/help/assets/launch-copyinstallcode.png)
 
-### Implement the embed code in the `<head>` of the sample HTML page   <a id="implement-the-install-code-in-the-head-of-the-sample-site"></a>
+### Implement the embed code in the `<head>` of the sample HTML page {#implement-the-install-code-in-the-head-of-the-sample-site}
 
 The embed code should be implemented in the `<head>` element of all HTML pages that share the property. You might have one or several template files that control the `<head>` globally across the site, making it a straightforward process to add Launch.
 
@@ -63,7 +63,7 @@ Replace the existing embed code on or around line 34 with the one on your clipbo
 
 Open your web browser’s developer tools and go to the Network tab. At this point, you should see a 404 error for the Launch environment URL:
 
-![](../../.gitbook/assets/samplepage-404.png)
+![](/help/assets/samplepage-404.png)
 
 The 404 error is expected because you haven't built a library in this Launch environment yet. You will do that in the next lesson. If you see a "failed" message instead of a 404 error, you probably forgot to add the `https://` protocol in the embed code. Again, you only need to specify the `https://` protocol if you are loading the sample page using the `file://` protocol. Make that change and reload the page until the 404 error appears.
 

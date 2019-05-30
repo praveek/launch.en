@@ -18,15 +18,15 @@ You should have already completed the lessons in the Configure Launch section.
 1. In the top navigation, click **Extensions**.
 2. Click **Catalog** to open the Extensions Catalog page.
 
-   ![](../../.gitbook/assets/extensions-gotoextensionscatalog.png)
+   ![](/help/assets/extensions-gotoextensionscatalog.png)
 
 3. In the filter at the top, type “id” to filter the catalog, then on the card for the Experience Cloud ID Service, click **Install**.
 
-   ![](../../.gitbook/assets/idservice-install.png)
+   ![](/help/assets/idservice-install.png)
 
 4. Leave all of the default settings and click **Save to Library and Build**. Note that your Experience Cloud Organization ID has been auto-detected for you.
 
-![](../../.gitbook/assets/idservice-save.png)
+![](/help/assets/idservice-save.png)
 
 The ID Service is added to your installed extensions. For more details on the advanced options, see the [configuration options documentation](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-function-vars.html).
 
@@ -69,7 +69,7 @@ Create the data element for Authentication State:
 1. Click **Data Elements** in the top navigation.
 2. Click **Add Data Element**.
 
-   ![](../../.gitbook/assets/idservice-adddataelement1.png)
+   ![](/help/assets/idservice-adddataelement1.png)
 
 3. Name the data element "Authentication State."
 4. For `Data Element Type`, select `Custom Code`.
@@ -81,13 +81,13 @@ Create the data element for Authentication State:
 7. Leave all of the other settings on their default values.
 8. Save the data element.
 
-   ![](../../.gitbook/assets/idservice-authenticationstate.png)
+   ![](/help/assets/idservice-authenticationstate.png)
 
 By knowing the authentication state of the user, you know when a customer ID should exist on the page to send to the ID Service. The next step is to create a data element for the customer ID itself. On the We.Retail demo site, you will use the hashed version of the visitor's email address.
 
 1. Click **Add Data Element**.
 
-   ![](../../.gitbook/assets/idservice-adddataelement2.png)
+   ![](/help/assets/idservice-adddataelement2.png)
 
 2. Name the data element "Email \(Hashed\)."
 3. For`Data Element Type`, select **JavaScript Variable.**
