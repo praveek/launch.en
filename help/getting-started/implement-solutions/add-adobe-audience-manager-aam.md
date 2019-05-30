@@ -63,12 +63,12 @@ A configuration in the Adobe Analytics Admin Console is required to start forwar
 
    ![](/help/assets/aam-selectssfmenu.png)
 
-   **Note:** As stated above, you will need to have administrator privileges to see this menu item.
+   >[!NOTE]  As stated above, you will need to have administrator privileges to see this menu item.
 
 1. Once you are on the Server-Side Forwarding page, read the info and check the box to **Enable Server-Side Forwarding** for the report suite\(s\).
 1. Click **Save**.
 
-**Note:** Because SSF needs to be enabled per report suite, make sure you repeat this step for your real report suites when you deploy SSF on your own site's report suite. If the SSF option is grayed out, you need to map the report suites to your Experience Cloud Org to enable the option. This is explained in [the documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
+>[!NOTE]  Because SSF needs to be enabled per report suite, make sure you repeat this step for your real report suites when you deploy SSF on your own site's report suite. If the SSF option is grayed out, you need to map the report suites to your Experience Cloud Org to enable the option. This is explained in [the documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 
 Once this step has been completed, and if you have the Experience Cloud ID Service enabled, data is forwarded from Analytics to AAM. However, to complete the process so the response comes back correctly from AAM to the page \(and to Analytics via the Audience Analytics feature\), you must complete the following step in Launch as well.
 
@@ -109,7 +109,7 @@ Next, verify that the debugger is picking up the right partner ID from the code.
 
    ![](/help/assets/aam-verifypartnerid.png)
 
-**Note:** The Audience Manager section of the debugger refers to "DIL," which is the Data Integration Library that typically refers to a client-side implementation, as opposed to the server-side approach used here. The AAM Module used in this SSF approach uses much of the same code as the client-side DIL library, so the Debugger repors it as such. If you have followed the steps in this tutorial, and the rest of the items in this validation section are correct, be assured that server-side forwarding is working.
+>[!NOTE]  The Audience Manager section of the debugger refers to "DIL," which is the Data Integration Library that typically refers to a client-side implementation, as opposed to the server-side approach used here. The AAM Module used in this SSF approach uses much of the same code as the client-side DIL library, so the Debugger repors it as such. If you have followed the steps in this tutorial, and the rest of the items in this validation section are correct, be assured that server-side forwarding is working.
 
 #### Verify the Analytics request and response
 

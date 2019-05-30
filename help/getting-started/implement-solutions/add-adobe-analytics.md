@@ -36,7 +36,7 @@ The Analytics extension consists of two main parts:
 
   ![](/help/assets/analytics-config-reportsuite.png)
 
-  **Note:** Use the **Manage the library for me** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
+  >[!NOTE]  Use the **Manage the library for me** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
 
 * Under **General &gt; Tracking Server**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
 
@@ -47,7 +47,7 @@ The Analytics extension consists of two main parts:
 * In the Global Variables section, set the Page Name variable using your Page Name data element, then click the **Data Element** icon to open the modal and choose the page Page Name data element.
 * Click **Save to Library and Build**.
 
-**Note:** Global variables can be set in the extension configuration or in rule actions. Be aware that when setting variables with the extension configuration, the data layer must be defined before the Launch embed codes.
+>[!NOTE]  Global variables can be set in the extension configuration or in rule actions. Be aware that when setting variables with the extension configuration, the data layer must be defined before the Launch embed codes.
 
 ## Send the Page View beacon
 
@@ -71,9 +71,9 @@ You have already created an "All Pages - Library Loaded" rule in the Add a Data 
 1. Select **Action Type &gt; Send Beacon**.
 1. Leave Tracking set to `s.t()`.
 
-   **Note:** If you wanted to make an `s.tl()` call in a click-event rule, you could do that using the Send Beacon action as well.
+   >[!NOTE]  If you wanted to make an `s.tl()` call in a click-event rule, you could do that using the Send Beacon action as well.
 
-10. Click **Keep Changes**.
+1. Click **Keep Changes**.
 1. Click **Save to Library and Build**.
 
 ### Validate the Page View beacon
@@ -91,7 +91,7 @@ After you have created a rule to send an Analytics beacon, you should be able to
 
    ![](/help/assets/analytics-validatepagehit.png)
 
-**Note:** If the Page Name is not showing up for you, go back through the steps in this page to make sure that you haven't missed anything.
+>[!NOTE]  If the Page Name is not showing up for you, go back through the steps in this page to make sure that you haven't missed anything.
 
 ## Add Variables with Rules
 
@@ -262,7 +262,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
    It is up to you to decide how to identify CSS selectors. This method requires care, because certain changes on the page can break this selector. Consider this when using any CSS selectors in Launch.
 
-10. Click **Keep Changes**.
+1. Click **Keep Changes**.
 
 **Create a condition**
 

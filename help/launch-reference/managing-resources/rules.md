@@ -32,7 +32,7 @@ If a specified event occurs, the conditions are evaluated, then the specified ac
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../../extension-reference/web/core-extension/#core-extension-event-types).
 
-**Note:** DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
+>[!NOTE]  DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
 
 Only events are required. The conditions and exceptions are optional.
 
@@ -79,7 +79,7 @@ Create a rule by specifying what actions occur if a condition is met.
 You can add other conditions. Multiple conditions within the same condition are joined with an OR, multiple conditions configurations are joined by AND. The rule's exceptions are evaluated if any of the events are met, along with their conditions.
 
 1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click Keep Changes.
-   **Note:** The available action types are defined by the extension.
+   >[!NOTE]  The available action types are defined by the extension.
 
    ![](/help/assets/rule-action-config.jpg)
 

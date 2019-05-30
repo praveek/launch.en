@@ -42,7 +42,7 @@ Reload the site and check the Summary tab of the Debugger. Under the Launch sect
 
 ![](/help/assets/switchenvironments-debuggeronweretail.png)
 
-**Note:** The Debugger saves this configuration and replaces the Launch embed codes whenever you come back to the We.Retail site. It does not impact other sites you visit in other open tabs. To stop the Debugger from replacing the embed code, click the X next to the embed code in the Tools tab of the Debugger.
+>[!NOTE]  The Debugger saves this configuration and replaces the Launch embed codes whenever you come back to the We.Retail site. It does not impact other sites you visit in other open tabs. To stop the Debugger from replacing the embed code, click the X next to the embed code in the Tools tab of the Debugger.
 
 Use this technique of mapping the We.Retail site to your own Launch property to validate your Launch implementation. When you start using Launch on your production website, you can use this same technique to validate changes you make to your Development and Staging environments before you publish them to Production.
 

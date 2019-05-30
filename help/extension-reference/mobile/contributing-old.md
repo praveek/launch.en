@@ -1,10 +1,8 @@
-
-
 # Contributing Guide
 
 This step-by-step guide will provide you with all you need to know to be an active contributor to the tutorials section of our user documentation. Our goal is to get as many of our users involved in providing example how-to content as possible. We're excited to have you contributing!
 
-
+<!-- Old GitBook instructions
 
 ## Process
 
@@ -35,22 +33,19 @@ This step-by-step guide will provide you with all you need to know to be an acti
    ````
 
 
-1. Create a Pull Request against **'master'** branch, and let Rekha or other team member reviewing it.
-
+1. Create a Pull Request against **master** branch, and let Rekha or other team member review it.
 1. Fix all the comments, and once it gets approve and merged,you can view the docs on https://launch.gitbook.io/marketing-mobile-sdk-v5-by-adobe-documentation/
 
 
 ## Tools
 
-- #### git
+- git
 
   You are free to choose whichever git tool you like, either command line or GUI tools.
 
-- ##### Markdown
+- Markdown
 
   There are a lot Markdown editors you can use, I personal prefer to use Typora https://typora.io/. And you can find the syntax in a [Markdown Cheat sheet](https://www.markdownguide.org/cheat-sheet/).
-
-
 
 
 ## File Structure
@@ -69,12 +64,9 @@ This step-by-step guide will provide you with all you need to know to be an acti
 - ..... - Other extensions
 ```
 
-
 ## Table of Contents
 
-[SUMMARY.md](./SUMMARY.md) is the place where the ToC is defined. Check out https://toolchain.gitbook.com/pages.html to find more detail.
-
-
+The TOC.md is the place where the ToC is defined. Check out https://toolchain.gitbook.com/pages.html to find more detail.
 
 ## Assets
 
@@ -149,3 +141,4 @@ Unfortunately, long tables are not elegantly supported in GB. As a result, inste
 In the extensions section, each module will define the events that it dispatches and the events that it is listening for. Here is an example about how the events are described: [Event Description Template](EVENT_DESCRIPTION_TEMPLATE.md)
 
 **Important:** If you have **any** questions, please ask Rekha or Jiabin!
+-->

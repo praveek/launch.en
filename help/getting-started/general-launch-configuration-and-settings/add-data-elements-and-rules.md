@@ -8,7 +8,7 @@ This lesson introduces some of the main concepts of Launch:
 
 Data elements and rules are the basic building blocks of Launch.
 
-**Note:** New data element types have been added to Launch, which did not exist in DTM. Some of the new data element types include Local Storage, Session Storage, Page Info, and Random Number
+>[!NOTE]  New data element types have been added to Launch, which did not exist in DTM. Some of the new data element types include Local Storage, Session Storage, Page Info, and Random Number
 
 This lesson uses all three of these items to make the sample page perform an action.
 
@@ -27,7 +27,7 @@ At the end of this lesson, you will be able to:
 
 Data elements are Launch’s version of a data layer. They can store values from your own data layer object, cookies, local storage objects, query string parameters, page elements, meta tags, and so on.
 
-**Note:** Data element capabilities can be extended with Extensions. For example, the ContextHub extension allows you to add data elements using features of the extension.
+>[!NOTE]  Data element capabilities can be extended with Extensions. For example, the ContextHub extension allows you to add data elements using features of the extension.
 
 This exercise shows how to create a data element for Page Name, which will be used later in the Target and Analytics implementations.
 
@@ -74,7 +74,7 @@ Use the following steps to create a rule that outputs the Page Name data element
 
    ![Enter custom code](/help/assets/launch-customcodeaction.png)
 
-10. Save the code window.
+1. Save the code window.
 1. On the Action configuration screen, click **Keep Changes**.
 1. Save the rule.
 

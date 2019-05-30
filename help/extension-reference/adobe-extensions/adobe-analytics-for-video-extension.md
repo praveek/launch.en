@@ -30,7 +30,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ![VA Extension Configuration](/help/assets/ext-va-config.jpg)
 
-#### Configuation options:
+### Configuation options:
 
 | Option | Description |
 | :--- | :--- |

@@ -38,7 +38,7 @@ The cache control headers Adobe uses for managed hosting are as follows:
 * Staging builds with "-staging" in the filename: Cache control headers are set to 0 minutes
 * Dev builds with "-development" in the filename: Cache control headers are set to 0 minutes
 
-**Note:** It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
+>[!NOTE]  It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
 
 **Important:** Cache control headers were added in Spring of 2018. Environments that do not have "-development" or "-staging" in their Environment embed codes were created prior to that time. These environments will need to be recreated if you want to take advantage of these new cache control headers. If you don't re-create the environments, you'll have the same 60-minute cache control as the production libraries.
 

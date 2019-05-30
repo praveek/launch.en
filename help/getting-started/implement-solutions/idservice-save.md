@@ -30,7 +30,7 @@ You should have already completed the lessons in the Configure Launch section.
 
 The ID Service is added to your installed extensions. For more details on the advanced options, see the [configuration options documentation](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-function-vars.html).
 
-**Note:** Each version of the ID Service extension comes with a specific version of `VisitorAPI.js` which is noted in the extension description. You update the `VisitorAPI.js` version by updating the ID Service extension.
+>[!NOTE]  Each version of the ID Service extension comes with a specific version of `VisitorAPI.js` which is noted in the extension description. You update the `VisitorAPI.js` version by updating the ID Service extension.
 
 ### Validate the extension
 

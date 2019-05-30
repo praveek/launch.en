@@ -74,7 +74,7 @@ This first exercise adds the extension and examines the configurations. Later ex
 
    At this point, Target isn't doing anything yet, so there is nothing to validate.
 
-**Note:** Each version of the Target extension comes with a specific version of at.js, which is listed in the extension description. Update the at.js version by updating the Target extension.
+>[!NOTE]  Each version of the Target extension comes with a specific version of at.js, which is listed in the extension description. Update the at.js version by updating the Target extension.
 
 ## Load Target and fire the global mbox
 
@@ -147,7 +147,7 @@ Passing parameters in the Target request adds powerful capabilities to your targ
 
 These actions can be used before the Load Target action and can set different parameters on different pages based on your rule configurations. Use the rule ordering feature to set additional parameters on the Library Loaded event before the rule firing the global mbox.
 
-**Note:** Because most implementations use the global mbox for activity delivery, it is usually sufficient to use the Add Params to Global Mbox action.
+>[!NOTE]  Because most implementations use the global mbox for activity delivery, it is usually sufficient to use the Add Params to Global Mbox action.
 
 ### Add an mbox parameter
 
@@ -176,7 +176,7 @@ Add the Page Name data element that we created earlier in [Add a Data Element, a
 
    It can be either before or after Load Target.
 
-10. Click **Save to Library and Build**.
+1. Click **Save to Library and Build**.
 
 ### **Validate the Mbox Parameter**
 
@@ -248,7 +248,7 @@ In the previous tutorial, [Add the Experience Cloud ID Service](idservice-save.m
 
 ### Add the Property Token parameter
 
-**Note:** This is an optional exercise for Target Premium customers.
+>[!NOTE]  This is an optional exercise for Target Premium customers.
 
 The property token is a reserved parameter used with the Premium [Enterprise User Permissions](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html). It is used to define different properties so different members of an Experience Cloud Organization can be assigned different permissions to each property. For example, a group of users can set up activities on the web site, but not on the mobile application.
 

@@ -1,12 +1,12 @@
 # Companies and properties
 
-### Web properties
+## Web properties
 
 A property, or web property, is a collection of rules, data elements, configured extensions, environments, and libraries. There is only one publish embed code per property.
 
 A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
 
-### Mobile properties
+## Mobile properties
 
 A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications.
 
@@ -26,7 +26,7 @@ There are a few ways to handle multiple geo markets, business units, domains, an
 
 For example, you might have three properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, and the third contains all of your lead-generation sites.
 
-**Note:** Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when Dynamic Tag Management is first installed on your site.
+>[!NOTE]  Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when Dynamic Tag Management is first installed on your site.
 
 ### Can we use separate instances for each?
 
@@ -119,7 +119,7 @@ Click a property to see an overview of that property. The overview shows any act
 
 Create or configure a property in Launch.
 
-**Note:** Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
+>[!NOTE]  Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
@@ -152,7 +152,7 @@ Once your property is created, Launch will automatically add a default host, a s
 
 Delete a property from Launch.
 
-**Note:** Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
+>[!NOTE]  Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
 
 1. In the Properties list, select the property you want to delete.
 

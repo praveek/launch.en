@@ -16,7 +16,7 @@ Using page name as an example, suppose you use a particular page-name schema by 
 
 In Launch, you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name \(for example, you have been referencing `document.title` but you now want to reference a particular data layer\), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
 
-**Note:** If a data element is not referenced in a rule, it is not loaded unless specifically called in custom script
+>[!NOTE]  If a data element is not referenced in a rule, it is not loaded unless specifically called in custom script
 
 Data elements are populated with data when they are used in rules or when manually called in a script. At a high level, you:
 

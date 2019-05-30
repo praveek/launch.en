@@ -29,7 +29,7 @@ The default file format for builds is a package of files that contain all the re
 
 However, in certain cases, you might prefer a .zip archive of the files rather than the executable client-side code file. For example, you might want to create an archive if you host your build yourself and want to use the build in another deployment. If you provide anything in the self-hosted path to library field, you can save your environment. Along with your new code, a link to the archived download becomes available. Launch still builds your library and deploys it, but instead of deploying a bunch of code files, you can deploy a zip file to Akamai, and download it from assets.adobedtm.com/...
 
-**Note:** Nothing exists in that location until you make a build.
+>[!NOTE]  Nothing exists in that location until you make a build.
 
 Regardless of file format, the build is always delivered to the location specified by the Host.
 
@@ -45,7 +45,7 @@ To increase performance, Launch minifies everything, including:
 * Module code provided by extension developers as part of an extension
 * Custom code provided by Launch users
 
-**Note:** If your module code and custom code are already minified, Launch minifies it again. This second minification doesn't provide additional benefits, but it doesn't cause any harm and it makes Launch less complex and easier to maintain.
+>[!NOTE]  If your module code and custom code are already minified, Launch minifies it again. This second minification doesn't provide additional benefits, but it doesn't cause any harm and it makes Launch less complex and easier to maintain.
 
 Any client-side code provided in Launch points to the minified version of code, as seen in the file names, which follow the standard naming convention for minified files:
 

@@ -77,7 +77,7 @@ Once a library is created, use the drop down menu for that library to select one
 
 Changes to the library are shown in the Library Contents change log.
 
-**Note:** Data elements can depend upon extensions. Rules can depend on both data elements and extensions. If you do not include all the necessary components in your library, the build will fail at build time and you'll need to add the necessary components before you complete a successful build. A future release will check dependencies when making changes to a library.
+>[!NOTE]  Data elements can depend upon extensions. Rules can depend on both data elements and extensions. If you do not include all the necessary components in your library, the build will fail at build time and you'll need to add the necessary components before you complete a successful build. A future release will check dependencies when making changes to a library.
 
 ## Remove from a library
 

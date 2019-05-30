@@ -12,7 +12,7 @@ To configure the extension, open the Extensions tab, hover over the extension, a
 
 ![](/help/assets/adobe_experience_platform_extension_configuration.png)
 
-#### Streaming Connection
+### Streaming Connection
 
 Choosing a streaming connection is the first step for you to start streaming data to Adobe Experience Platform. You can select one from the streaming connection combobox. Streaming connection is a required field. In case you don't have any streaming connection created, you can create one by clicking the **"Create a streaming connection"** button.
 
@@ -44,7 +44,7 @@ You first need to select the dataset where the data will be stored. Generally, d
 
 Once you select the dataset where the data will be stored, you will see details about the schema that is linked to the selected dataset.
 
-#### Schema Mapping
+### Schema Mapping
 
 After selecting the dataset you can define your schema mapping.
 
@@ -54,13 +54,13 @@ The source value field accepts a value or a data element. You can add a data ele
 
 The target schema field contains the path of a XDM field defined in the dataset schema. For fields defined deeper in the schema hierarchy you can use the dot as a separator between the path parts  \(eg. timeSeriesEvents.eventType\).
 
-#### Schema Field Selector
+### Schema Field Selector
 
 The extension offers also the possibility to select a target schema field using a visual selector. If you click on the target button that sits next to the target schema field input, a modal will be shown where you will see the dataset's schema tree. You can select a field, then click the Select button and the target schema field input will be updated the contain the correct XDM path.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_schema_field_selector.png)
 
-#### Identity fields inside the Adobe Experience Platform
+### Identity fields inside the Adobe Experience Platform
 
 Record data schemas and time series data schemas may contain one or more identity fields. Identity fields stitch together to form a single identity representation of a subject and include information such as a CRM identifier, Experience Cloud ID \(ECID\), browser cookie, AdvertisingId, or other IDs in different domains.
 
@@ -69,7 +69,7 @@ Identity fields can be defined in two ways inside the schema:
 1.  Record and Time Series schemas both contain a special field called **xdm:identityMap** that can contain a map of identities.
 1. Key fields can be marked as "Identity" fields inside the schema.
 
-#### Identity fields inside the Adobe Experience Platform Extension
+### Identity fields inside the Adobe Experience Platform Extension
 
 For each schema field defined as an identity field, a row will be added to the schema mapping section. Each added row will contain the target schema field already filled in with its corresponding XDM schema path. You can recognize if a schema field is also an identity field if you see a profile icon near the field.
 
@@ -95,9 +95,8 @@ If you have a schema that has an **xdm:identityMap** field and at the same time 
 
 ![](/help/assets/adobe_experience_platform_send_beacon_identity_section_not_primary.png)
 
-#### Required fields
+### Required fields
 
 Some schemas will have top level required fields. The most commons ones are timestamp and \_id. Without defining these fields, the beacon will fail. You can defined them inside the schema mapping section.
 
 If your schema mapping section won't contain timestamp or \_id, but the dataset schema requires them, the Adobe Experience Platform extension will send a beacon containing automatically generated values so that the beacon will not fail. The automatically generated values will be added to the beacon data only if you haven't defined those fields inside the schema mapping section.
-
