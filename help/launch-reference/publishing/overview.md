@@ -29,8 +29,8 @@ There are a few components and relationships that are important to understand in
 The publishing process consists of:
 
 1. Creating and editing libraries.
-2. Testing the functionality of those libraries where you need to test them.
-3. Deploying those libraries to your production environment.
+1. Testing the functionality of those libraries where you need to test them.
+1. Deploying those libraries to your production environment.
 
 ![](/help/assets/publishing.jpg)
 

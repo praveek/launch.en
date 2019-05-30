@@ -22,10 +22,10 @@
 
 #### Features
 
-* Updated the Adobe Analytics extension to DIL 9.1. 
+* Updated the Adobe Analytics extension to DIL 9.1.
 * Updated the Adobe Analytics extension to appMeasurement 2.12.
 * Upgraded the Adobe Analytics extension view to React-Spectrum.
-* When configuring your report suites in the configuration page you will now see a dropdown to all of the report suites in your company to make it easier for you to select the appropriate report suite. 
+* When configuring your report suites in the configuration page you will now see a dropdown to all of the report suites in your company to make it easier for you to select the appropriate report suite.
 
 ## March 7, 2019
 
@@ -41,7 +41,7 @@
 
 #### Features
 
-* Updated the Adobe Analytics extension to DIL 9.0 which will support opt-in. 
+* Updated the Adobe Analytics extension to DIL 9.0 which will support opt-in.
 * Updated the Adobe Analytics extension to AppMeasurement 2.11 to support opt-in.
 
 #### Bug fixes

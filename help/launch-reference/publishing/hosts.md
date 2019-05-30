@@ -5,7 +5,7 @@ Extensions, rules, and data elements are building blocks. When you want to make 
 Hosts define available destinations where the builds can be delivered. They come in two types:
 
 1. Managed by Adobe
-2. SFTP
+1. SFTP
 
 The same host can be used for multiple environments within a property.
 
@@ -22,10 +22,10 @@ When you create a new property through the Launch UI, a default host of this typ
 ### Create Managed by Adobe host
 
 1. Open the Hosts tab.
-2. Create the new Host.
-3. Name the host.
-4. Select Managed by Adobe as the host type.
-5. Click Save.
+1. Create the new Host.
+1. Name the host.
+1. Select Managed by Adobe as the host type.
+1. Click Save.
 
 ## SFTP
 
@@ -34,8 +34,8 @@ If you do not want your builds delivered to Akamai, your other option is to have
 Launch connects to your SFTP site using an encrypted key. There are a few steps to set this up correctly:
 
 1. You must have a public/private key pair installed on your SFTP server.  You can generate these keys on your server or generate them somewhere else and install them to your server.  See [here ](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)for an example of how to generate keys.
-2. You must encrypt the private key with Launch's public GPG key so that you can provide your private key to Launch during the SFTP host creation process.  See [here](https://developer.adobelaunch.com/api/guides/encrypting_values/) for instructions and Launch's public GPG keys.  Unless you _know_ you need a different one, use the Production Environment's GPG key.  Finally, you can encrypt your private key from any  machine, you do not need to install GPG on your server in order to complete this step.
-3. You may need to whitelist the Launch IP addresses with your company firewall to allow Launch to be able to reach your SFTP server and connect to it.  Those IP Addresses are:
+1. You must encrypt the private key with Launch's public GPG key so that you can provide your private key to Launch during the SFTP host creation process.  See [here](https://developer.adobelaunch.com/api/guides/encrypting_values/) for instructions and Launch's public GPG keys.  Unless you _know_ you need a different one, use the Production Environment's GPG key.  Finally, you can encrypt your private key from any  machine, you do not need to install GPG on your server in order to complete this step.
+1. You may need to whitelist the Launch IP addresses with your company firewall to allow Launch to be able to reach your SFTP server and connect to it.  Those IP Addresses are:
    1. `35.170.215.3`
    2. `34.202.8.57`
    3. `52.21.198.46`
@@ -45,11 +45,11 @@ There is a full guide on how to setup SFTP servers for Launch delivery [on the L
 ### Create an SFTP host
 
 1. Open the Hosts tab.
-2. Create the new Host.
-3. Name your host.
-4. Select SFTP as the host type.
-5. Enter the host, path, port, username, and encrypted private key.
-6. Click Save.
+1. Create the new Host.
+1. Name your host.
+1. Select SFTP as the host type.
+1. Enter the host, path, port, username, and encrypted private key.
+1. Click Save.
 
 When you click Save, Launch will test whether it is able to connect to - and deliver files to - your SFTP server. It will create a folder, write a file within that folder, and then check to make sure the file is there, then cleanup after itself. If the user account on your SFTP server \(the one attached to the secure certificate you provided to Launch\) does not have the necessary permissions to perform this action, then the Host will go into a "Failed" status.
 

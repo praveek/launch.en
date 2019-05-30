@@ -10,7 +10,7 @@ A property can be any grouping of one or more domains and subdomains. You can ma
 
 A mobile property type can contain multiple applications. For example, in a mobile property you can manage the same set of rules and extensions across multiple iOS and Android applications.
 
-For a video tutorial, see [Creating your first property](../../getting-started/videos.md).
+For a video tutorial, see [Creating your first property](../../quick-start/videos.md).
 
 ## Companies
 
@@ -135,16 +135,16 @@ Navigate to your company page, then click Add Property, or select an existing pr
 
    **Domain:** The base URL of the property
 
-2. \(Advanced\) **Return an empty string for undefined data elements:** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
-3. \(Advanced\) **Configure for extension development:** Select this check box if you plan to install development extensions that are being actively developed by your company
-4. Click Save.
+1. \(Advanced\) **Return an empty string for undefined data elements:** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
+1. \(Advanced\) **Configure for extension development:** Select this check box if you plan to install development extensions that are being actively developed by your company
+1. Click Save.
 
    The extension is automatically installed into the new property.
 
 ### **For Mobile**
 
 1. Fill in the fields: **Name:** The name of your property. **Privacy:** By default the privacy setting is set to Opted In, meaning that you would like for the SDK to collect and send data to solutions. If you select Opted Out, the SDK by default will NOT send data to solutions. If you choose Unknown as the setting, the SDK will require that the application first propmpt the user to allow for data collection and sharing. Note: that these settings can be further controlled via API in the mobile application. **Use HTTPS:** Choose if all data communication should be sent over HTTP or HTTPS.
-2. Click Save.
+1. Click Save.
 
 Once your property is created, Launch will automatically add a default host, a set of environments \(Development, Staging, and Production\) and the default extensions.
 
@@ -158,5 +158,5 @@ Delete a property from Launch.
 
    You can select multiple properties to delete.
 
-2. Click Delete, then confirm the removal of the property.
+1. Click Delete, then confirm the removal of the property.
 

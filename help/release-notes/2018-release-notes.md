@@ -79,7 +79,7 @@ When you save a library, Launch will now check all the resources in it and promp
 ### Updates
 
 1. Rights in the Admin Console have been slightly rearranged.  Manage Properties now belongs to the Company Rights group.  All other permissions \(Manage Environments, Manage Extensions, Develop, Approve, and Publish\) are in the Property Rights group.
-2. Database improvements to improve API response times.
+1. Database improvements to improve API response times.
 
 ### Bug fixes
 
@@ -238,7 +238,9 @@ You can delete data elements, rules, and extensions. See [Delete Resources](../l
 
 #### Link DTM Embed Code to Launch
 
-When you link your DTM embed code to Launch, you can keep your DTM production embed code on a page, but serve Launch files there instead of DTM. See [Link DTM Embed Code to Launch](release-notes.md).
+When you link your DTM embed code to Launch, you can keep your DTM production embed code on a page, but serve Launch files there instead of DTM. See [Link DTM Embed Code to Launch](2018-release-notes.md).
+
+<!--The above link goes to this file-->
 
 ## March 6, 2018
 
@@ -288,7 +290,9 @@ Important: Launch developers who do not have "-development" or "-staging" in the
 
 #### Rule ordering
 
-Events in rules can now be assigned an order. When an event is triggered, any rules that use that event are executed in the order defined. Lower numbers run first \(1 comes before 10\). See [Rule ordering](release-notes.md#rule-ordering) for more information.
+Events in rules can now be assigned an order. When an event is triggered, any rules that use that event are executed in the order defined. Lower numbers run first \(1 comes before 10\). See [Rule ordering](2018-release-notes.md#rule-ordering) for more information.
+
+<!-- The above link points to itself-->
 
 #### Set active library
 

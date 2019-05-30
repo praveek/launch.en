@@ -59,13 +59,13 @@ In order to contribute to our documentation, you **MUST** sign the contributor l
 If you're new to Github, check out their handy guides to get started: [https://guides.github.com/](https://guides.github.com/).
 
 1. Open your terminal and navigate to the place you want to store the project.
-2. Copy this command and paste it into the terminal.
+1. Copy this command and paste it into the terminal.
 
    ```bash
     git clone https://github.com/Adobe-Marketing-Cloud/reactor-user-docs.git
    ```
 
-3. Open the project in your editor.
+1. Open the project in your editor.
 
 ## 4. Checkout to a New Branch
 
@@ -100,8 +100,8 @@ To have your tutorial show up within the documentation navigation, you'll need t
 If, for example, you create a tutorial about how to create a new rule, follow these steps:
 
 1. Open the [SUMMARY.md](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/08d765fa041ac11be27a77e312baa1ab79aa59c0/SUMMARY.md) file.
-2. In the tutorials section, create a new line under the Rules section.
-3. Tab over once, and write markdown for the link. The link to the tutorial would look like this.
+1. In the tutorials section, create a new line under the Rules section.
+1. Tab over once, and write markdown for the link. The link to the tutorial would look like this.
 
    `* [Create a New Rule](tutorials/create-a-new-rule.md)`
 
@@ -112,7 +112,7 @@ The text between the brackets is how the name of your tutorial will show up in t
 Once you've finished with your tutorial and are happy with the changes, it's time for a pull request! This is basically a request to have your changes added to the live site. It's important to note that any changes outisde of your new tutorial files will **not** be accepted.
 
 1. Open your terminal and navigate to the reactor-user-docs project.
-2. Enter
+1. Enter
 
    ```bash
     git add .
@@ -130,7 +130,7 @@ Once you've finished with your tutorial and are happy with the changes, it's tim
     git push origin [name-of-your-branch]
    ```
 
-3. Return to [https://github.com/Adobe-Marketing-Cloud/reactor-user-docs](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs). There should now be a green button that says "Create pull request." If there's not, click on the gray button that says "New pull request." You may choose to leave a comment, then click "Create pull request." You may be asked to make changes after your pull request is reviewed. After those changes are made, repeat the steps 1-4 under "Create a New Pull Request." Once everything is satisfactory, your pull request will be merged into the master branch.
+1. Return to [https://github.com/Adobe-Marketing-Cloud/reactor-user-docs](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs). There should now be a green button that says "Create pull request." If there's not, click on the gray button that says "New pull request." You may choose to leave a comment, then click "Create pull request." You may be asked to make changes after your pull request is reviewed. After those changes are made, repeat the steps 1-4 under "Create a New Pull Request." Once everything is satisfactory, your pull request will be merged into the master branch.
 
    _\*Please note that there will be no expectations on how long it will take for your contribution to be approved and merged._
 

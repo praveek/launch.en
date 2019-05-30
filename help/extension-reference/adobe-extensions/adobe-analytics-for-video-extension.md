@@ -10,21 +10,21 @@ The Video Analytics \(VA\) extension adds the core VA JavaScript library \(VA 2.
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
 * Use `MediaHeartbeat` APIs from your web app
-* Include, or build, a player-specific extension that maps specific video player 
+* Include, or build, a player-specific extension that maps specific video player
 
-  events to the Video Analytics APIs on the `MediaHeartbeat` tracker instance. 
+  events to the Video Analytics APIs on the `MediaHeartbeat` tracker instance.
 
   This instance is exposed through the VA extension.
 
 ## Install and configure the VA extension
 
-* **Install -** To install the VA extension, open your extension property, 
+* **Install -** To install the VA extension, open your extension property,
 
-  click _Extensions &gt; Catalog_, hover over the _Adobe Analytics for Video_ 
+  click _Extensions &gt; Catalog_, hover over the _Adobe Analytics for Video_
 
   extension, and click _Install_.
 
-* **Configure -** To configure the VA extension, open the _Extensions_ tab, 
+* **Configure -** To configure the VA extension, open the _Extensions_ tab,
 
   hover over the extension, and then click _Configure_:
 
@@ -65,7 +65,7 @@ The VA extension exports the MediaHeartbeat APIs in the global window object by 
 
    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
-2. **Access MediaHeartbeat Constants:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat`
+1. **Access MediaHeartbeat Constants:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat`
 
    This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/MediaHeartbeat.html) class.
 
@@ -98,11 +98,11 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
-2. **Access MediaHeartbeat Constants:** `media-heartbeat` Shared Module
+1. **Access MediaHeartbeat Constants:** `media-heartbeat` Shared Module
 
    This module exposes all of the constants and static methods from this class: [https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/MediaHeartbeat.html](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/MediaHeartbeat.html).
 
-3. Create MediaHeartbeat tracker instance as follows:
+1. Create MediaHeartbeat tracker instance as follows:
 
    ```javascript
     var getMediaHeartbeatInstance =
@@ -136,7 +136,7 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
     ...
    ```
 
-4. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
+1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
 
 **Note: Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
@@ -158,7 +158,7 @@ The _Open Video_ action provides various configurations for creating and customi
 
 ![Player Extension Action Configuration](/help/assets/ext-va-sp-action1.png)
 
-* [\[...\]/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) - 
+* [\[...\]/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) -
 
   UI Code to configure the Action is defined here.
 

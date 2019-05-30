@@ -50,11 +50,11 @@ Set one or more customer IDs.
 
    The integration code should contain the value set up as a data source in Audience Manager or Customer Attributes.
 
-2. Select a value.
+1. Select a value.
 
    The value should be a user ID. Data elements are most suitable for dynamic values like IDs from a client-specific internal system.
 
-3. Select an authentication state.
+1. Select an authentication state.
 
    Available options are:
 
@@ -62,6 +62,6 @@ Set one or more customer IDs.
    * Authenticated
    * Logged out
 
-4. \(Optional\) Click Add to set more customer IDs.
-5. Click Keep Changes.
+1. \(Optional\) Click Add to set more customer IDs.
+1. Click Keep Changes.
 

@@ -17,12 +17,12 @@ To complete this lesson, you must have permission to Develop, Approve, Publish, 
 ## Go to Launch   <a id="go-to-launch"></a>
 
 1. Log into the Experience Cloud.
-2. Open the Solution Switcher.
-3. Select **Activation** from the menu.
+1. Open the Solution Switcher.
+1. Select **Activation** from the menu.
 
    ![](/help/assets/launch-solutionswitcheractivation.png)
 
-4. Under **Launch, by Adobe**, click the **Go to Launch** button.
+1. Under **Launch, by Adobe**, click the **Go to Launch** button.
 
 You should now see the Properties screen \(if no properties have ever been created in the account this screen might be empty\):
 

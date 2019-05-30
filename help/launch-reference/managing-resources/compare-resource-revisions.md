@@ -28,7 +28,7 @@ The initial release of Compare view displays settings in their raw form as JSON.
 
 ## Comparing extensions
 
-Extensions have a single screen to show the differences between versions.  
+Extensions have a single screen to show the differences between versions.
 
 In Compare view, differences between settings versions are highlighted.  Additions and removals to individual settings are indicated by an expansion of a line in either direction.
 

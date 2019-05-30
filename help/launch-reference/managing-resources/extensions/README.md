@@ -20,7 +20,7 @@ Important: Changes do not take effect until they are [published](../../publishin
 
 By default, Adobe provides extensions that support common integrations. Extensions can be modified with custom configurations. Configurations are provided through the extensions. To create a configuration, click the extension card, then click Add New Configuration.
 
-For a video introduction, see [Extensions](../../../getting-started/videos.md).
+For a video introduction, see [Extensions](../../../quick-start/videos.md).
 
 ## Extension catalog
 
@@ -49,7 +49,7 @@ Launch is highly extendible. Extensions add core functionality to Launch.
 A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
 1. From a property's overview page, open the Extensions tab.
-2. Select an extension.
+1. Select an extension.
 
    ![](..//help/assets/extensions.png)
 

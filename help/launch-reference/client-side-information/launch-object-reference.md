@@ -369,7 +369,7 @@ Note: A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ru
 The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the Launch library:
 
 1. A rule that has a click event and a browser condition that passes only if the browser is Chrome.
-2. A rule that has a click event and a browser condition that passes only if the browser is Firefox.
+1. A rule that has a click event and a browser condition that passes only if the browser is Firefox.
 
 If you open the page in Chrome, open the browser console, and click the page, the following appears in the console:
 

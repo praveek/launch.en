@@ -4,7 +4,7 @@ Launch is a rule-based system. It looks for user interaction and associated data
 
 Build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into a single solution.
 
-For an introductory video, see [Rule builder](../../getting-started/videos.md).
+For an introductory video, see [Rule builder](../../quick-start/videos.md).
 
 Events are where the majority of interactions take place. You can measure and react to these interactions in real-time, without the need for client-side code.
 
@@ -50,16 +50,16 @@ Create a rule by specifying what actions occur if a condition is met.
 
    ![](/help/assets/launch-rule-builder.jpg)
 
-2. Name the rule.
-3. Click the Events Add icon.
-4. Choose your extension and one of the event types available for that extension, then configure the properties for the event.   
+1. Name the rule.
+1. Click the Events Add icon.
+1. Choose your extension and one of the event types available for that extension, then configure the properties for the event.
    Note: The available event types are defined by the extension.
 
    ![](/help/assets/rule-event-config.png)
 
    Some events don't have any properties that need to be configured.
 
-5. Set the Order parameter, then click Keep Changes.
+1. Set the Order parameter, then click Keep Changes.
 
    Default order for all rule components is 50. If you want one to run sooner, give it a number lower than 50.
 
@@ -69,7 +69,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
      If you want it to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-6. Click the Conditions Add icon, then choose a logic type, extension, condition type and configure the properties for your condition. Then click Keep Changes.
+1. Click the Conditions Add icon, then choose a logic type, extension, condition type and configure the properties for your condition. Then click Keep Changes.
 
    Logic type:
 
@@ -78,14 +78,14 @@ Create a rule by specifying what actions occur if a condition is met.
 
 You can add other conditions. Multiple conditions within the same condition are joined with an OR, multiple conditions configurations are joined by AND. The rule's exceptions are evaluated if any of the events are met, along with their conditions.
 
-1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click Keep Changes.   
+1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click Keep Changes.
    **Note:** The available action types are defined by the extension.
 
    ![](/help/assets/rule-action-config.jpg)
 
    You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
-2. Review your rule, then click Save Rule.
+1. Review your rule, then click Save Rule.
 
    Later, when you [publish](../publishing/), you'll add this rule to a library and deploy it.
 

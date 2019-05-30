@@ -41,12 +41,12 @@ Before you link your embed code:
 ## How to Link the Embed Code  <a id="how-to-link-the-embed-code"></a>
 
 1. In Launch, open the Environments tab.
-2. Create a new Production environment.
-3. Give your environment a name.
-4. Toggle the **Link DTM embed code** option on.
-5. Paste your DTM production embed code into the **DTM Embed Code** field in Launch.
-6. Finish configuring your Launch Production environment \(archive setup, etc\).
-7. Click Save.
+1. Create a new Production environment.
+1. Give your environment a name.
+1. Toggle the **Link DTM embed code** option on.
+1. Paste your DTM production embed code into the **DTM Embed Code** field in Launch.
+1. Finish configuring your Launch Production environment \(archive setup, etc\).
+1. Click Save.
 
 Launch validates a number of things and tells you whether linking was successful.
 
@@ -57,12 +57,12 @@ Launch validates a number of things and tells you whether linking was successful
 If you use embed code linking, the process is mostly the same as without it, but with some highlighted differences:
 
 1. Create your property, install an extension, create data elements, and create rules in Launch, as you normally would.
-2. Create your Development and Staging environments in Launch as usual.
-3. ​Create a linked Production environment as described above.
-4. Create your library in Launch as usual.
-5. Test in Development, submit, test in Staging, and approve as usual.
-6. Publish. The Launch container tag overwrites the DTM container tag and any browser with this embed code retrieves the Launch container tag.
-7. Disable your DTM property to prevent accidentally publishing the DTM file over the top of the Launch file.
+1. Create your Development and Staging environments in Launch as usual.
+1. ​Create a linked Production environment as described above.
+1. Create your library in Launch as usual.
+1. Test in Development, submit, test in Staging, and approve as usual.
+1. Publish. The Launch container tag overwrites the DTM container tag and any browser with this embed code retrieves the Launch container tag.
+1. Disable your DTM property to prevent accidentally publishing the DTM file over the top of the Launch file.
 
 Step 7 can be done any time after Step 3 has been performed.
 

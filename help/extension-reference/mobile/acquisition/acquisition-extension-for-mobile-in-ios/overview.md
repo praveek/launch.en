@@ -11,8 +11,8 @@ Acquisition links with unique tracking codes can be generated in the Adobe Cloud
 Here is information about how to configure and use Acquisition with the iOS library.
 
 1. Add the Acquisition extension library to your project and implement lifecycle.
-2. Import the library: `import "ADBMobileMarketing.h"`.
-3. Verify that the ADBMobileConfig.json file contains the required acquisition settings:
+1. Import the library: `import "ADBMobileMarketing.h"`.
+1. Verify that the ADBMobileConfig.json file contains the required acquisition settings:
 
    ```objectivec
    {
@@ -36,26 +36,26 @@ You can use this information to track deep and deferred deep links in your mobil
 To track deep links in iOS:
 
 1. Add the SDK to your project and implement Lifecycle metrics.
-2. Register the application to handle Inter-App Communications or Support Universal Links.
-3. Track deep link in `openURL`.
+1. Register the application to handle Inter-App Communications or Support Universal Links.
+1. Track deep link in `openURL`.
 
 Here is a sample track deep link:
 
 ```objectivec
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url { 
-    [ACPAcquisition trackAdobeDeepLink:url]; 
-    /* 
-        Handle deep link 
-    */ 
-    return YES; 
-} 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    [ACPAcquisition trackAdobeDeepLink:url];
+    /*
+        Handle deep link
+    */
+    return YES;
+}
 
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options { 
-    [ACPAcquisition trackAdobeDeepLink:url]; 
-    /* 
-        Handle deep link 
-    */ 
-    return YES; 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+    [ACPAcquisition trackAdobeDeepLink:url];
+    /*
+        Handle deep link
+    */
+    return YES;
 }
 ```
 
@@ -88,14 +88,14 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
 1. Set up the Facebook SDK:
    * [Getting Started with the Facebook SDK for iOS](https://developers.facebook.com/docs/ios/getting-started)
    * [Deeplinking Set up](https://developers.facebook.com/docs/app-ads/deep-linking#os)
-2. Set up the Adobe Mobile SDK:
+1. Set up the Adobe Mobile SDK:
 
    Call `trackAdobeDeepLink` and pass the URL to the Mobile SDKs:
 
    ```objectivec
    - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
          [ACPAcquisition trackAdobeDeepLink:url];
-         return YES;    
+         return YES;
    }
    ```
 
@@ -105,7 +105,7 @@ If the application is set up as described above, the current Mobile SDK version 
 
 ### Enable Deep Linking in an iOS Sample Application
 
-1. Register a URL scheme.  
+1. Register a URL scheme.
    Ensure that you registered a URL scheme, which is the same as the deep link URL.
 
    ```markup
@@ -120,9 +120,9 @@ If the application is set up as described above, the current Mobile SDK version 
    </array>
    ```
 
-2. Link the Facebook SDKs.
-3. To edit `AppDelegate`:  
-   a. Import the headers.  
+1. Link the Facebook SDKs.
+1. To edit `AppDelegate`:
+   a. Import the headers.
    b. Add handle for deferred deep linking.
 
    ```objectivec
@@ -173,8 +173,8 @@ Here are some benefits to using Apple ads:
 
 To enable your app for Search Ad attribution:
 
-1. Implement the Adobe SDK. 
-2. Add the iAd framework to the Xcode project file for your app.
+1. Implement the Adobe SDK.
+1. Add the iAd framework to the Xcode project file for your app.
 
 ### Reporting on Search Ads Attribution
 

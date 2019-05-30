@@ -4,13 +4,13 @@ Launch is the next-generation of Adobe's tag management technology, built on the
 
 The basic Launch workflow:
 
-1. [Set up groups and users](./#1-set-up-groups-and-users). 
-2. [Log in](./#2-log-in). 
-3. [Create a property](./#3-create-a-property). 
-4. [Install extensions](./#4-install-extensions). 
-5. [Create data elements and rules](./#5-create-data-elements-and-rules). 
-6. [Test in your dev environment](./#6-test-in-your-dev-environment). 
-7. [Promote to production](./#7-promote-to-production). 
+1. [Set up groups and users](./#1-set-up-groups-and-users).
+1. [Log in](./#2-log-in).
+1. [Create a property](./#3-create-a-property).
+1. [Install extensions](./#4-install-extensions).
+1. [Create data elements and rules](./#5-create-data-elements-and-rules).
+1. [Test in your dev environment](./#6-test-in-your-dev-environment).
+1. [Promote to production](./#7-promote-to-production).
 
 For an introductory video, see [Introduction to Launch, by Adobe](videos.md).
 
@@ -68,11 +68,11 @@ To make sense of that process, there are a couple relationships between Launch, 
 
    As mentioned above, a build is the actual JavaScript file\(s\) that Launch produces. This relationship between Launch and your host location is defined by a host. Read more about Hosts below.
 
-2. Launch provides an embed code `<script>` tag that goes onto your site.
+1. Launch provides an embed code `<script>` tag that goes onto your site.
 
    When you create an environment and attach a host, the environment provides this `<script>` tag for you to put on your pages.
 
-3. When a user browses your site, the Embed Code `<script>` tag retrieves the Build from your host server and performs your defined actions within the browser.
+1. When a user browses your site, the Embed Code `<script>` tag retrieves the Build from your host server and performs your defined actions within the browser.
 
 ### Hosts
 
@@ -96,10 +96,10 @@ Once you have saved your environment, it generates the embed code which you can 
 Now that you understand the basic components, the publishing process should make more sense. You need to:
 
 1. Create an host.
-2. Create a dev environment using the host you created.
-3. Deploy the embed code from your dev environment to your dev test site.
-4. Create a library and assign it to the dev environment you created.
-5. Build your library.
+1. Create a dev environment using the host you created.
+1. Deploy the embed code from your dev environment to your dev test site.
+1. Create a library and assign it to the dev environment you created.
+1. Build your library.
 
 ## 7. Promote to production
 
@@ -108,8 +108,8 @@ Once you've tested your build in your dev environment, the promotion process is 
 Promoting a library all the way through to production will typically require coordination among different people with the appropriate rights.
 
 1. A Developer \(someone with the Develop right\) submits the library, which moves the library to the Submitted state.
-2. An Approver \(someone with the Approve right\) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
-3. A Publisher \(someone with the Publish right\) can build the library to the production environment.
+1. An Approver \(someone with the Approve right\) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
+1. A Publisher \(someone with the Publish right\) can build the library to the production environment.
 
 You can assign all these rights to a single person.
 
@@ -124,7 +124,7 @@ To learn more about Launch, refer to these resources:
 * [**Launch Community**](https://forums.adobe.com/community/experience-cloud/platform/launch)**:** Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your Adobe ID.
 * [**Launch Webinars**](https://adobe.com/go/launchme)**:** Sign up for upcoming webinars and watch recordings of past webinars.
 * [**Developer Docs**](http://developer.adobelaunch.com/)**:** Get involved with the Launch developer community to build extensions or use the Launch APIs
-* [**Videos**](https://docs.adobelaunch.com/getting-started/videos)
+* [**Videos**](https://docs.adobelaunch.com/quick-start/videos)
 
   These videos introduce you to Launch concepts and tasks.
 

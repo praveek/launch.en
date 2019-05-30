@@ -127,7 +127,7 @@ Here are examples in Objective-C and Swift:
 
 ```text
 - (void) userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler {
-    [ACPAcquisition trackNotificationResponse:response];    
+    [ACPAcquisition trackNotificationResponse:response];
     completionHandler();
 }
 ```

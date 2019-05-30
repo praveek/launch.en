@@ -14,9 +14,9 @@ At the end of this lesson, you will be able to:
 ## Get the URL of your Development Environment
 
 1. In your Launch property, open the Environments page.
-2. In the **Development** row, click the **Install** icon to open the modal.
-3. Click **Copy** to copy the embed code to your clipboard.
-4. Click **Close** to close the modal.
+1. In the **Development** row, click the **Install** icon to open the modal.
+1. Click **Copy** to copy the embed code to your clipboard.
+1. Click **Close** to close the modal.
 
 ![](/help/assets/launch-copyinstallcode%20%281%29.png)
 

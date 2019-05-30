@@ -252,8 +252,8 @@ This section describes the condition types available in the Core extension.
 Specify the cookie name and value that must exist for an event to trigger an action.
 
 1. Specify a cookie name.
-2. Enter the value that must exist in the cookie if the event is to trigger an action.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Enter the value that must exist in the cookie if the event is to trigger an action.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -266,65 +266,65 @@ Set whether the user accepts cookies.
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
 1. Click Open Editor.
-2. Type the custom code.
-3. Click Save.
+1. Type the custom code.
+1. Click Save.
 
 #### Value Comparison
 
 Compares two values to determine whether this condition returns true.
 
-If you have a rule with multiple conditions, it is possible that this condition will return true, but the rule will still not fire because the other conditions evaluate as false or one of the exceptions evaluates as true. 					
+If you have a rule with multiple conditions, it is possible that this condition will return true, but the rule will still not fire because the other conditions evaluate as false or one of the exceptions evaluates as true.
 
 1. Provide a value.
-2. Select the operator. Refer to the list of  value comparison operators, below, for more details.
-3. \(Where required\) Select whether the comparison should be case-insensitive. 					  
-4. Provide another value for the comparison.
+1. Select the operator. Refer to the list of  value comparison operators, below, for more details.
+1. \(Where required\) Select whether the comparison should be case-insensitive.
+1. Provide another value for the comparison.
 
 The following value comparison operators are available:
 
-**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent. 
+**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent. 
+**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Contain:** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true. 
+**Does Not Contain:** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true.
 
-**Starts With:** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Starts With:** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Start With:** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not Start With:** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Ends With:** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Ends With:** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not End With:** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not End With:** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Matches Regex:** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Matches Regex:** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Match Regex:** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not Match Regex:** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Is Less Than:** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Less Than:** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Less Than Or Equal To:** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Less Than Or Equal To:** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Greater Than:** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Greater Than:** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Greater Than Or Equal To:** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Greater Than Or Equal To:** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is True:** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false. 
+**Is True:** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false.
 
-**Is Truthy:** The condition returns true if the value is true after being converted to a boolean. See [MDN's Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values. 
+**Is Truthy:** The condition returns true if the value is true after being converted to a boolean. See [MDN's Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values.
 
-**Is False:** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false. 
+**Is False:** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false.
 
-**Is Falsy:** The condition returns true if the value is false after being converted to a boolean. See [MDN's Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.	
+**Is Falsy:** The condition returns true if the value is false after being converted to a boolean. See [MDN's Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.
 
 #### Variable
 
 Specify the JavaScript variable name and value that must exist for an event to trigger an action.
 
 1. Specify the JavaScript variable name.
-2. Specify the variable value that must exist as a condition for the event.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Specify the variable value that must exist as a condition for the event.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ### Engagement
 
@@ -333,7 +333,7 @@ Specify the JavaScript variable name and value that must exist for an event to t
 Specify the page the user must land on to trigger the event.
 
 1. Specify the landing page.
-2. \(Optional\) Enable Regex if this is a regular expression.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -349,8 +349,8 @@ Select one of the following:
 Configure the number of times the visitor must view the page before the action is triggered.
 
 1. Select whether the number of page views must be greater than, equal to, or less than the specified value.
-2. Specify the number of page views that determines whether the condition is met.
-3. Configure when the page views are counted by selecting one of the following:
+1. Specify the number of page views that determines whether the condition is met.
+1. Configure when the page views are counted by selecting one of the following:
    * Lifetime
    * Current Session
 
@@ -359,7 +359,7 @@ Configure the number of times the visitor must view the page before the action i
 Trigger the action if the user's number of sessions meets the specified criteria.
 
 1. Select whether the number of sessions must be greater than, equal to, or less than the specified value.
-2. Specify the number of sessions that determines whether the condition is met.
+1. Specify the number of sessions that determines whether the condition is met.
 
 #### Time On Site
 
@@ -368,7 +368,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 Configure how long the visitor must be on the site before the action is triggered.
 
 1. Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
-2. Specify the number of minutes that determines whether the condition is met.
+1. Specify the number of minutes that determines whether the condition is met.
 
 #### Traffic Source
 
@@ -377,7 +377,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 Specify the source of the visitor's traffic that must be true for the action to be triggered.
 
 1. Specify the traffic source.
-2. \(Optional\) Enable Regex if this is a regular expression.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ### Other
 
@@ -457,18 +457,18 @@ Select one or more of the following operating systems:
 Select the screen resolution visitors must use on their devices for the action to be triggered.
 
 1. Select whether the screen resolution width of the visitor's device must be greater than, equal to, or less than the specified value.
-2. Specify the number of pixels required for the screen resolution width.
-3. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
-4. Specify the number of pixels required for the screen resolution height.
+1. Specify the number of pixels required for the screen resolution width.
+1. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
+1. Specify the number of pixels required for the screen resolution height.
 
 #### Window Size
 
 Select the window size visitors must use on their devices for the action to be triggered.
 
 1. Select whether the window size width of the visitor's device must be greater than, equal to, or less than the specified value.
-2. Specify the number of pixels required for the window size width.
-3. Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
-4. Specify the number of pixels required for the window size height.
+1. Specify the number of pixels required for the window size width.
+1. Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
+1. Specify the number of pixels required for the window size height.
 
 ### URL
 
@@ -483,8 +483,8 @@ Specify one or more hash patterns that must exist in the URL.
 Note: Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other hash patterns.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other hash patterns.
 
 #### Path
 
@@ -493,8 +493,8 @@ Specify one or more paths that must exist in the URL.
 Note: Multiple paths are joined by an OR.
 
 1. Specify the path.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other paths.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other paths.
 
 #### Protocol
 
@@ -512,16 +512,16 @@ Specify one or more subdomains that must exist in the URL.
 Note: Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other subdomains.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other subdomains.
 
 #### URL Parameter
 
 Specify URL parameter used in the URL.
 
 1. Specify a URL parameter name.
-2. Specify the value used for the URL parameter.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Specify the value used for the URL parameter.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ## Core extension exception types
 
@@ -534,8 +534,8 @@ This section describes the exception types available in the Core extension.
 Specify the cookie name and value that can't exist for an event to trigger an action.
 
 1. Specify a cookie name.
-2. Enter the value that must not exist in the cookie if the event is to trigger an action.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Enter the value that must not exist in the cookie if the event is to trigger an action.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -548,65 +548,65 @@ Set whether the user accepts cookies.
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
 1. Click Open Editor.
-2. Type the custom code.
-3. Click Save.
+1. Type the custom code.
+1. Click Save.
 
 #### Value Comparison
 
 Compares two values to determine whether this exception returns true.
 
-If you have a rule with multiple conditions, it is possible that this condition will return true, but the rule will still not fire because the other conditions evaluate as false or one of the exceptions evaluates as true. 	 					
+If you have a rule with multiple conditions, it is possible that this condition will return true, but the rule will still not fire because the other conditions evaluate as false or one of the exceptions evaluates as true.
 
 1. Provide a value.
-2. Select the operator. Refer to the list of  value comparison operators, below, for more details.
-3. \(Where required\) Select whether the comparison should be case-insensitive. 					  
-4. Provide another value for the comparison.
+1. Select the operator. Refer to the list of  value comparison operators, below, for more details.
+1. \(Where required\) Select whether the comparison should be case-insensitive.
+1. Provide another value for the comparison.
 
 The following value comparison operators are available:
 
-**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent. 
+**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent. 
+**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Contain:** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true. 
+**Does Not Contain:** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true.
 
-**Starts With:** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Starts With:** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Start With:** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not Start With:** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Ends With:** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Ends With:** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not End With:** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not End With:** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Matches Regex:** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false. 
+**Matches Regex:** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-**Does Not Match Regex:** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true. 
+**Does Not Match Regex:** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-**Is Less Than:** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Less Than:** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Less Than Or Equal To:** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Less Than Or Equal To:** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Greater Than:** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Greater Than:** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is Greater Than Or Equal To:** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false. 
+**Is Greater Than Or Equal To:** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-**Is True:** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false. 
+**Is True:** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false.
 
-**Is Truthy:** The condition returns true if the value is true after being converted to a boolean. See [MDN's Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values. 
+**Is Truthy:** The condition returns true if the value is true after being converted to a boolean. See [MDN's Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values.
 
-**Is False:** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false. 
+**Is False:** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false.
 
-**Is Falsy:** The condition returns true if the value is false after being converted to a boolean. See [MDN's Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.	
+**Is Falsy:** The condition returns true if the value is false after being converted to a boolean. See [MDN's Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.
 
 #### Variable
 
 Specify the JavaScript variable name and value that must not exist for an event to trigger an action.
 
 1. Specify the JavaScript variable name.
-2. Specify the variable value that must not exist as a condition for the event.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Specify the variable value that must not exist as a condition for the event.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ### Engagement
 
@@ -615,7 +615,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 Specify the page the user must not land on to trigger the event.
 
 1. Specify the landing page.
-2. \(Optional\) Enable Regex if this is a regular expression.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -631,8 +631,8 @@ Select one of the following:
 Configure the number of times the visitor must view the page to keep the action from being triggered.
 
 1. Select whether the number of page views must be greater than, equal to, or less than the specified value.
-2. Specify the number of page views that determines whether the exception is met.
-3. Configure when the page views are counted by selecting one of the following:
+1. Specify the number of page views that determines whether the exception is met.
+1. Configure when the page views are counted by selecting one of the following:
    * Lifetime
    * Current Session
 
@@ -641,21 +641,21 @@ Configure the number of times the visitor must view the page to keep the action 
 Do not trigger the action if the user's number of sessions meets the specified criteria.
 
 1. Select whether the number of sessions must be greater than, equal to, or less than the specified value.
-2. Specify the number of sessions that determines whether the condition is met.
+1. Specify the number of sessions that determines whether the condition is met.
 
 #### Time On Site
 
 Configure how long the visitor must be on the site to prevent the action from being triggered.
 
 1. Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
-2. Specify the number of minutes that determines whether the condition is met.
+1. Specify the number of minutes that determines whether the condition is met.
 
 #### Traffic Source
 
 Specify the source of the visitor's traffic that must be true to prevent the action from being triggered.
 
 1. Specify the traffic source.
-2. \(Optional\) Enable Regex if this is a regular expression.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ### Other
 
@@ -735,18 +735,18 @@ Select one or more of the following operating systems:
 Select the screen resolution visitors must not use on their devices for the action to be triggered.
 
 1. Select whether the screen resolution width of the visitor's device must be greater than, equal to, or less than the specified value.
-2. Specify the number of pixels required for the screen resolution width.
-3. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
-4. Specify the number of pixels required for the screen resolution height.
+1. Specify the number of pixels required for the screen resolution width.
+1. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
+1. Specify the number of pixels required for the screen resolution height.
 
 #### Window Size
 
 Select the window size visitors must not use on their devices for the action to be triggered.
 
 1. Select whether the window size width of the visitor's device must be greater than, equal to, or less than the specified value.
-2. Specify the number of pixels required for the window size width.
-3. Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
-4. Specify the number of pixels required for the window size height.
+1. Specify the number of pixels required for the window size width.
+1. Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
+1. Specify the number of pixels required for the window size height.
 
 ### URL
 
@@ -761,8 +761,8 @@ Specify one or more hash patterns that must not exist in the URL.
 Note: Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other hash patterns.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other hash patterns.
 
 #### Path
 
@@ -771,8 +771,8 @@ Specify one or more paths that must not exist in the URL.
 Note: Multiple paths are joined by an OR.
 
 1. Specify the path.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other paths.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other paths.
 
 #### Protocol
 
@@ -790,16 +790,16 @@ Specify one or more subdomains that must not exist in the URL.
 Note: Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
-2. \(Optional\) Enable Regex if this is a regular expression.
-3. Add any other subdomains.
+1. \(Optional\) Enable Regex if this is a regular expression.
+1. Add any other subdomains.
 
 #### URL Parameter
 
 Specify URL parameter that cannot be used in the URL.
 
 1. Specify a URL parameter name.
-2. Specify the value used for the URL parameter.
-3. \(Optional\) Enable Regex if this is a regular expression.
+1. Specify the value used for the URL parameter.
+1. \(Optional\) Enable Regex if this is a regular expression.
 
 ## Core extension action types
 
@@ -810,12 +810,12 @@ This section describes the action types available in the Core extension.
 Provide the code that runs after the event is triggered and conditions are evaluated.
 
 1. Name the action code.
-2. Select the language used to define the action:
+1. Select the language used to define the action:
    * JavaScript
    * HTML
-3. Select whether to execute the action code globally.
-4. Click Open Editor.
-5. Edit the code, then click Save.
+1. Select whether to execute the action code globally.
+1. Click Open Editor.
+1. Edit the code, then click Save.
 
 ### Custom Code action processing
 

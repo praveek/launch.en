@@ -265,8 +265,8 @@ Event condition types are divided into the following categories:
 Specify the cookie name and value that must exist for an event to trigger an action.
 
 1.  Specify a cookie name.
-2.  Enter the value that must exist in the cookie if the event is to trigger an action.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Enter the value that must exist in the cookie if the event is to trigger an action.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -279,25 +279,25 @@ Set whether the user accepts cookies.
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
 1.  Click Open Editor.
-2.  Type the custom code.
-3.  Click Save.
+1.  Type the custom code.
+1.  Click Save.
 
 #### Value Comparison
 
 Compares two values. See [Value Comparison operators](#value-comparison-operators), below, for more details.
 
 1.  Provide a value.
-2.  Select the operator.
-3.  (Where required) Select whether the comparison should be case-insensitive.
-4.  Provide another value for the comparison.
+1.  Select the operator.
+1.  (Where required) Select whether the comparison should be case-insensitive.
+1.  Provide another value for the comparison.
 
 #### Variable
 
 Specify the JavaScript variable name and value that must exist for an event to trigger an action.
 
 1.  Specify the JavaScript variable name.
-2.  Specify the variable value that must exist as a condition for the event.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Specify the variable value that must exist as a condition for the event.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ### Value Comparison operators
 
@@ -382,7 +382,7 @@ The condition returns true if the value is false after being converted to a bool
 Specify the page the user must land on to trigger the event.
 
 1.  Specify the landing page.
-2.  (Optional) Enable Regex if this is a regular expression.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -398,8 +398,8 @@ Select one of the following:
 Configure the number of times the visitor must view the page before the action is triggered.
 
 1.  Select whether the number of page views must be greater than, equal to, or less than the specified value.
-2.  Specify the number of page views that determines whether the condition is met.
-3.  Configure when the page views are counted by selecting one of the following:
+1.  Specify the number of page views that determines whether the condition is met.
+1.  Configure when the page views are counted by selecting one of the following:
     *   Lifetime
     *   Current Session
 
@@ -408,7 +408,7 @@ Configure the number of times the visitor must view the page before the action i
 Trigger the action if the user's number of sessions meets the specified criteria.
 
 1.  Select whether the number of sessions must be greater than, equal to, or less than the specified value.
-2.  Specify the number of sessions that determines whether the condition is met.
+1.  Specify the number of sessions that determines whether the condition is met.
 
 #### Time On Site
 
@@ -417,7 +417,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 Configure how long the visitor must be on the site before the action is triggered.
 
 1.  Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
-2.  Specify the number of minutes that determines whether the condition is met.
+1.  Specify the number of minutes that determines whether the condition is met.
 
 #### Traffic Source
 
@@ -426,7 +426,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 Specify the source of the visitor's traffic that must be true for the action to be triggered.
 
 1.  Specify the traffic source.
-2.  (Optional) Enable Regex if this is a regular expression.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ### Technology
 
@@ -483,18 +483,18 @@ Select one or more of the following operating systems:
 Select the screen resolution visitors must use on their devices for the action to be triggered.
 
 1.  Select whether the screen resolution width of the visitor's device must be greater than, equal to, or less than the specified value.
-2.  Specify the number of pixels required for the screen resolution width.
-3.  Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
-4.  Specify the number of pixels required for the screen resolution height.
+1.  Specify the number of pixels required for the screen resolution width.
+1.  Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
+1.  Specify the number of pixels required for the screen resolution height.
 
 #### Window Size
 
 Select the window size visitors must use on their devices for the action to be triggered.
 
 1.  Select whether the window size width of the visitor's device must be greater than, equal to, or less than the specified value.
-2.  Specify the number of pixels required for the window size width.
-3.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
-4.  Specify the number of pixels required for the window size height.
+1.  Specify the number of pixels required for the window size width.
+1.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
+1.  Specify the number of pixels required for the window size height.
 
 ### URL
 
@@ -509,8 +509,8 @@ Specify one or more hash patterns that must exist in the URL.
 Note: Multiple hash patterns are joined by an OR.
 
 1.  Specify the hash pattern.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other hash patterns.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other hash patterns.
 
 #### Path
 
@@ -519,8 +519,8 @@ Specify one or more paths that must exist in the URL.
 Note: Multiple paths are joined by an OR.
 
 1.  Specify the path.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other paths.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other paths.
 
 #### Protocol
 
@@ -538,16 +538,16 @@ Specify one or more subdomains that must exist in the URL.
 Note: Multiple subdomains are joined by an OR.
 
 1.  Specify the subdomain.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other subdomains.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other subdomains.
 
 #### URL Parameter
 
 Specify URL parameter used in the URL.
 
 1.  Specify a URL parameter name.
-2.  Specify the value used for the URL parameter.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Specify the value used for the URL parameter.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ## Core extension exception types
 
@@ -567,8 +567,8 @@ Event condition types are divided into the following categories:
 Specify the cookie name and value that can't exist for an event to trigger an action.
 
 1.  Specify a cookie name.
-2.  Enter the value that must not exist in the cookie if the event is to trigger an action.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Enter the value that must not exist in the cookie if the event is to trigger an action.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -581,16 +581,16 @@ Set whether the user accepts cookies.
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
 1.  Click Open Editor.
-2.  Type the custom code.
-3.  Click Save.
+1.  Type the custom code.
+1.  Click Save.
 
 #### Variable
 
 Specify the JavaScript variable name and value that must not exist for an event to trigger an action.
 
 1.  Specify the JavaScript variable name.
-2.  Specify the variable value that must not exist as a condition for the event.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Specify the variable value that must not exist as a condition for the event.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ### <a name="engagement-event"></a>Engagement
 
@@ -599,7 +599,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 Specify the page the user must not land on to trigger the event.
 
 1.  Specify the landing page.
-2.  (Optional) Enable Regex if this is a regular expression.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -615,8 +615,8 @@ Select one of the following:
 Configure the number of times the visitor must view the page to keep the action from being triggered.
 
 1.  Select whether the number of page views must be greater than, equal to, or less than the specified value.
-2.  Specify the number of page views that determines whether the exception is met.
-3.  Configure when the page views are counted by selecting one of the following:
+1.  Specify the number of page views that determines whether the exception is met.
+1.  Configure when the page views are counted by selecting one of the following:
     *   Lifetime
     *   Current Session
 
@@ -625,21 +625,21 @@ Configure the number of times the visitor must view the page to keep the action 
 Do not trigger the action if the user's number of sessions meets the specified criteria.
 
 1.  Select whether the number of sessions must be greater than, equal to, or less than the specified value.
-2.  Specify the number of sessions that determines whether the condition is met.
+1.  Specify the number of sessions that determines whether the condition is met.
 
 #### Time On Site
 
 Configure how long the visitor must be on the site to prevent the action from being triggered.
 
 1.  Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
-2.  Specify the number of minutes that determines whether the condition is met.
+1.  Specify the number of minutes that determines whether the condition is met.
 
 #### Traffic Source
 
 Specify the source of the visitor's traffic that must be true to prevent the action from being triggered.
 
 1.  Specify the traffic source.
-2.  (Optional) Enable Regex if this is a regular expression.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ### <a name="technology-event"></a>Technology
 
@@ -696,18 +696,18 @@ Select one or more of the following operating systems:
 Select the screen resolution visitors must not use on their devices for the action to be triggered.
 
 1.  Select whether the screen resolution width of the visitor's device must be greater than, equal to, or less than the specified value.
-2.  Specify the number of pixels required for the screen resolution width.
-3.  Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
-4.  Specify the number of pixels required for the screen resolution height.
+1.  Specify the number of pixels required for the screen resolution width.
+1.  Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
+1.  Specify the number of pixels required for the screen resolution height.
 
 #### Window Size
 
 Select the window size visitors must not use on their devices for the action to be triggered.
 
 1.  Select whether the window size width of the visitor's device must be greater than, equal to, or less than the specified value.
-2.  Specify the number of pixels required for the window size width.
-3.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
-4.  Specify the number of pixels required for the window size height.
+1.  Specify the number of pixels required for the window size width.
+1.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
+1.  Specify the number of pixels required for the window size height.
 
 ### <a name="url-event"></a>URL
 
@@ -722,8 +722,8 @@ Specify one or more hash patterns that must not exist in the URL.
 Note: Multiple hash patterns are joined by an OR.
 
 1.  Specify the hash pattern.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other hash patterns.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other hash patterns.
 
 #### Path
 
@@ -732,8 +732,8 @@ Specify one or more paths that must not exist in the URL.
 Note: Multiple paths are joined by an OR.
 
 1.  Specify the path.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other paths.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other paths.
 
 #### Protocol
 
@@ -751,16 +751,16 @@ Specify one or more subdomains that must not exist in the URL.
 Note: Multiple subdomains are joined by an OR.
 
 1.  Specify the subdomain.
-2.  (Optional) Enable Regex if this is a regular expression.
-3.  Add any other subdomains.
+1.  (Optional) Enable Regex if this is a regular expression.
+1.  Add any other subdomains.
 
 #### URL Parameter
 
 Specify URL parameter that cannot be used in the URL.
 
 1.  Specify a URL parameter name.
-2.  Specify the value used for the URL parameter.
-3.  (Optional) Enable Regex if this is a regular expression.
+1.  Specify the value used for the URL parameter.
+1.  (Optional) Enable Regex if this is a regular expression.
 
 ## Core extension action types
 
@@ -771,12 +771,12 @@ This section describes the action types available in the Core extension.
 Provide the code that runs after the event is triggered and conditions are evaluated.
 
 1.  Name the action code.
-2.  Select the language used to define the action:
+1.  Select the language used to define the action:
     *   JavaScript
     *   HTML
-3.  Select whether to execute the action code globally.
-4.  Click Open Editor.
-5.  Edit the code, then click Save.
+1.  Select whether to execute the action code globally.
+1.  Click Open Editor.
+1.  Edit the code, then click Save.
 
 ### Custom Code action processing
 

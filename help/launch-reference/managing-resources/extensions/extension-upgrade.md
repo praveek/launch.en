@@ -27,8 +27,8 @@ There is currently no capability to downgrade your extension to a previous versi
 Installing an upgrade is pretty much the same as [installing the extension](./#add-a-new-extension) for the first time.
 
 1. Click the Upgrade button to go to the Extension Configuration screen.
-2. Make any configuration changes you'd like to make.
-3. Click Save.
+1. Make any configuration changes you'd like to make.
+1. Click Save.
 
 The upgrade is not actually performed until you hit Save. At any time previous to that, you can click Cancel and stay with the currently installed version. Clicking Save is the point of no return.
 

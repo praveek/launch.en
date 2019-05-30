@@ -52,8 +52,8 @@ Rule A → Rule B → Rule C → Rule D
 Although the order is always enforced, some rules might be executed immediately when the Launch library finishes loading, while others might be executed later. The following occurs when the Launch library finishes loading:
 
 1. Rule A is executed immediately.
-2. If the `DOMContentLoaded` browser event \(DOM Ready\) has already occurred, Rule B and Rule C are executed immediately. Otherwise, Rule B and Rule C are executed later when the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event occurs.
-3. If the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event \(Window Loaded\) has already occurred, Rule D is executed immediately. Otherwise, Rule D will be executed later when the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs. Note that if you've installed the Launch library according to the instructions, the Launch library _always_ finishes loading before the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs.
+1. If the `DOMContentLoaded` browser event \(DOM Ready\) has already occurred, Rule B and Rule C are executed immediately. Otherwise, Rule B and Rule C are executed later when the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event occurs.
+1. If the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event \(Window Loaded\) has already occurred, Rule D is executed immediately. Otherwise, Rule D will be executed later when the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs. Note that if you've installed the Launch library according to the instructions, the Launch library _always_ finishes loading before the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs.
 
 When applying these principles to your own website, consider the following:
 
@@ -80,7 +80,7 @@ Launch provides a toggle to turn on asynchronous loading when creating an embed 
    <script src="//www.yoururl.com/launch-EN1a3807879cfd4acdc492427deca6c74e.min.js" async></script>
    ```
 
-2. Remove any code you may have previously added at the bottom of your tag:
+1. Remove any code you may have previously added at the bottom of your tag:
 
    ```markup
    <script type="text/javascript">_satellite.pageBottom();</script>

@@ -11,16 +11,16 @@ The removal process works a little differently depending on which state the libr
 Resources in Development libraries can be directly manipulated.
 
 1. Open the library.
-2. Remove the resource.
-3. Save the library.
-4. Build the library.
+1. Remove the resource.
+1. Save the library.
+1. Build the library.
 
 ## Submitted and Approved libraries
 
 Resources that are in Submitted or Approved libraries cannot be directly manipulated. You'll have to move the library back to Development state.
 
 1. Reject the library \(moves library back to Development\).
-2. Follow the steps in "Development libraries," above, to remove resources from Development libraries.
+1. Follow the steps in "Development libraries," above, to remove resources from Development libraries.
 
 ## Production libraries
 
@@ -31,9 +31,9 @@ Instead, you must disable the resource. This disabling is a change that you then
 1. Disable the resource.
    1. Select the resource from the list view.
    2. Click Disable.
-2. Create a new Development library.
-3. Add the `latest` version of the disabled resource.
-4. Save and Build.
-5. Follow your normal process for promoting libraries to Production.
-6. Publish to Production to remove the resource.
+1. Create a new Development library.
+1. Add the `latest` version of the disabled resource.
+1. Save and Build.
+1. Follow your normal process for promoting libraries to Production.
+1. Publish to Production to remove the resource.
 

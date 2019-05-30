@@ -41,7 +41,7 @@ Because you have already deployed Adobe Analytics in these tutorials, you can de
 There are two main steps when implementing Server-Side Forwarding:
 
 1. Turn on a "switch" in the Analytics Admin Console to forward data from Analytics to Audience Manager per the report suite.
-2. Put the code in place via Launch.
+1. Put the code in place via Launch.
 
    For this to work correctly, you need to install the Experience Cloud ID Service extension, as well as the Analytics extension. You will actually not need the AAM extension, which is explained below.
 
@@ -55,18 +55,18 @@ A configuration in the Adobe Analytics Admin Console is required to start forwar
 
    ![](/help/assets/aam-logintoanalytics.png)
 
-2. From the top navigation in Analytics, choose **Admin &gt; Report Suites**, and from the list, select the report suites that you want to forward to Audience Manager.
+1. From the top navigation in Analytics, choose **Admin &gt; Report Suites**, and from the list, select the report suites that you want to forward to Audience Manager.
 
    ![](/help/assets/aam-analyticsadminconsolereportsuites.png)
 
-3. From the Report Suites screen and with the report suites selected, choose **Edit Settings &gt; General &gt; Server-Side Forwarding**.
+1. From the Report Suites screen and with the report suites selected, choose **Edit Settings &gt; General &gt; Server-Side Forwarding**.
 
    ![](/help/assets/aam-selectssfmenu.png)
 
    **Note:** As stated above, you will need to have administrator privileges to see this menu item.
 
-4. Once you are on the Server-Side Forwarding page, read the info and check the box to **Enable Server-Side Forwarding** for the report suite\(s\).
-5. Click **Save**.
+1. Once you are on the Server-Side Forwarding page, read the info and check the box to **Enable Server-Side Forwarding** for the report suite\(s\).
+1. Click **Save**.
 
 **Note:** Because SSF needs to be enabled per report suite, make sure you repeat this step for your real report suites when you deploy SSF on your own site's report suite. If the SSF option is grayed out, you need to map the report suites to your Experience Cloud Org to enable the option. This is explained in [the documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 
@@ -78,12 +78,12 @@ Once this step has been completed, and if you have the Experience Cloud ID Servi
 
    ![](/help/assets/aam-configanalyticsextension.png)
 
-2. Expand the Adobe Audience Manager section, then check the box to **Automatically share Analytics Data with Audience Manager**.
+1. Expand the Adobe Audience Manager section, then check the box to **Automatically share Analytics Data with Audience Manager**.
 
    This adds the Audience Manager module \(code\) to the Analytics AppMeasurement.js implementation.
 
-3. Add your Audience Manager Subdomain, also known as the Partner Name, Partner ID, or Partner Subdomain.
-4. Click **Save to Library and Build**.
+1. Add your Audience Manager Subdomain, also known as the Partner Name, Partner ID, or Partner Subdomain.
+1. Click **Save to Library and Build**.
 
 ### Validate the Server-Side Forwarding
 
@@ -94,9 +94,9 @@ The main way to validate that the Server-Side Forwarding is up and running is to
 The code that Adobe Launch installs to handle the forwarding, and especially the response from AAM to the page, is called the Audience Manager Module. Use the Experience Cloud Debugger to ensure that it has loaded.
 
 1. Open the We.Retail site.
-2. Click the debugger icon in your browser to open the Experience Cloud debugger.
-3. On the Summary tab, scroll down to the Analytics section.
-4. Verify that **AudienceManagement** is listed under the Modules section.
+1. Click the debugger icon in your browser to open the Experience Cloud debugger.
+1. On the Summary tab, scroll down to the Analytics section.
+1. Verify that **AudienceManagement** is listed under the Modules section.
 
    ![](/help/assets/aam-verifyaammodule.png)
 
@@ -105,7 +105,7 @@ The code that Adobe Launch installs to handle the forwarding, and especially the
 Next, verify that the debugger is picking up the right partner ID from the code.
 
 1. In the Debugger, on the Summary tab, scroll down to the Audience Manager section.
-2. Verify your Partner ID/Subdomain under Partner.
+1. Verify your Partner ID/Subdomain under Partner.
 
    ![](/help/assets/aam-verifypartnerid.png)
 
@@ -116,12 +116,12 @@ Next, verify that the debugger is picking up the right partner ID from the code.
 If you are not doing server-side forwarding of data from Analytics to Audience Manager, then there is no response to the Analytics beacon \(besides a 2x2 pixel\). However, if you are doing SSF, then there are items that you can verify in the Analytics request and response that let you know that it is working correctly. Unfortunately, at this time, the Experience Cloud Debugger does not support showing the response to the beacons. Therefore, you should use another debugger/packet sniffer, like Charles Proxy or the browser's Developer Tools.
 
 1. Open the Developer Tools in your browser and go to the Network tab.
-2. In the Filter field, type b/ss, which limits what you see to the Adobe Analytics requests.
-3. Refresh the page to see the Analytics request.
+1. In the Filter field, type b/ss, which limits what you see to the Adobe Analytics requests.
+1. Refresh the page to see the Analytics request.
 
    ![](/help/assets/aam-openthejsconsole%20%281%29.png)
 
-4. In the Analytics beacon \(request\), look for a "callback" parameter. This parameter is set to something like this: `s_c_il[1].doPostbacks.`
+1. In the Analytics beacon \(request\), look for a "callback" parameter. This parameter is set to something like this: `s_c_il[1].doPostbacks.`
 
    ![](/help/assets/aam-callbackparam.png)
 

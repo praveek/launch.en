@@ -177,8 +177,8 @@ See [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [http://www.google.com](http://www.google.com). 
-* If there are some links that you want to track on your SPA, use the Always Track section.  
+* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [http://www.google.com](http://www.google.com).
+* If there are some links that you want to track on your SPA, use the Always Track section.
 
 For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.
 
@@ -267,29 +267,29 @@ Important: Using a "set variables" action won't send the beacon. You must use th
 Set one or more [eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
 
 1. Select an eVar from the dropdown.
-2. Specify whether you want to set the eVar as the value \(Set As\) or copy \(Duplicate From\) another eVar.
-3. Provide a Set As value, or select the eVar you want to duplicate.
-4. \(Optional\) Click Add eVar to set more eVars.
-5. Click Keep Changes.
+1. Specify whether you want to set the eVar as the value \(Set As\) or copy \(Duplicate From\) another eVar.
+1. Provide a Set As value, or select the eVar you want to duplicate.
+1. \(Optional\) Click Add eVar to set more eVars.
+1. Click Keep Changes.
 
 #### Props
 
 Set one or more [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
 
 1. Select a prop from the dropdown.
-2. Specify whether you want to set the prop as the value \(Set As\) or copy \(Duplicate From\) another eVar.
-3. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-4. \(Optional\) Click Add prop to set more props.
-5. Click Keep Changes.
+1. Specify whether you want to set the prop as the value \(Set As\) or copy \(Duplicate From\) another eVar.
+1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
+1. \(Optional\) Click Add prop to set more props.
+1. Click Keep Changes.
 
 #### Events
 
 Set one or more [events](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-events.html).
 
 1. Select an event from the dropdown.
-2. \(Optional\) Select or specify a data element used for [event serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
-3. \(Optional\) Click Add event to set more props.
-4. Click Keep Changes.
+1. \(Optional\) Select or specify a data element used for [event serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
+1. \(Optional\) Click Add event to set more props.
+1. Click Keep Changes.
 
 #### Hierarchy
 
@@ -327,8 +327,8 @@ Use the editor to specify your custom page code.
 **Settings**
 
 1. Click Open Editor.
-2. Type the custom code.
-3. Click Save.
+1. Type the custom code.
+1. Click Save.
 
 ### Send Beacon
 
@@ -350,11 +350,11 @@ Select if you do not want to increment a pageview.
    * Download Link
    * Exit Link
 
-2. Set the parameter for the selected link.
+1. Set the parameter for the selected link.
    * Custom Link: Specify the link name.
    * Download Link: Specify a file name.
    * Exit Link: Specify the destination URL.
-3. Click Keep Changes.
+1. Click Keep Changes.
 
 ### Clear Variables
 

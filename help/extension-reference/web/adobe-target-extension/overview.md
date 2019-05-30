@@ -78,14 +78,14 @@ No configuration is needed.
 Add parameters to all mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the Plus icon to add more parameters.
+1. Click the Plus icon to add more parameters.
 
 ### Add Global Mbox Params
 
 Add parameters only to your global mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the Plus icon to add more parameters.
+1. Click the Plus icon to add more parameters.
 
 ### Fire Global Mbox
 

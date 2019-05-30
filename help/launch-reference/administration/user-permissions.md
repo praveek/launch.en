@@ -71,8 +71,8 @@ If you run a small company that has one person in charge of everything, grant th
 Many people are involved in tagging. You have one set of people \(maybe an external consultant\) that creates rules and data elements, but you don't want them to have access to the production environment. You want to make sure that nobody deploys to Production except the IT team.
 
 1. Create an account for your consultants and grant them only the develop right.
-2. The consultant builds and tests within the confines you set.
-3. If the consultant wants a new extension, or is ready to go live, a representative from your organization \(with the appropriate rights\), performs those actions.
+1. The consultant builds and tests within the confines you set.
+1. If the consultant wants a new extension, or is ready to go live, a representative from your organization \(with the appropriate rights\), performs those actions.
 
 ### Enterprise
 
@@ -96,11 +96,11 @@ A few examples of the types of roles you might have in your organization, and wh
 
 Here are a few descriptions of different roles that could apply in your organization and a matrix to show what permissions they need to do their job.
 
-* The Manager: Wants to see what's going on, but shouldn't be able to make any changes.    
-* The Marketer: Can install extensions and setup new tags for existing properties, but cannot publish to the staging or production environments. 
+* The Manager: Wants to see what's going on, but shouldn't be able to make any changes.
+* The Marketer: Can install extensions and setup new tags for existing properties, but cannot publish to the staging or production environments.
 * The Mobile App Developer: Is responsible for implementing Adobe and 3rd party solutions inside a native mobile app.
 * The IT Team: Doesn't actually modify any tags, but they have full control over the staging and production environments and what is in them.
-* Jack of All Trades: Does everything.  
+* Jack of All Trades: Does everything.
 
 <table>
   <thead>

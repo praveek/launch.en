@@ -18,8 +18,8 @@ All rules and data elements are provided by an extension, so when you copy acros
 An explanation of exactly what Launch is planning to do is available inside the Copy dialog before you actually begin copying.  The above dialog is for a rule, but the same applies to data elements.
 
 1. **Extensions required by these rules are copied.** This lets you know that required extensions will go along with the rule.  These copies follow the same rules as a regular extension copy outlined above.
-2. **Extension settings will NOT be copied if the extension is already installed.** This means if the required extensions already exist on the destination property, the extension remains as is.  If you wish to copy the extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation is updated accordingly.
-3. **Data Elements required by these Rules will NOT be copied.** This explanation only applies to rules.  Rules often rely on data elements to function correctly.  If you copy a rule to a new property, you'll also need to copy any required data elements as a separate action.
+1. **Extension settings will NOT be copied if the extension is already installed.** This means if the required extensions already exist on the destination property, the extension remains as is.  If you wish to copy the extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation is updated accordingly.
+1. **Data Elements required by these Rules will NOT be copied.** This explanation only applies to rules.  Rules often rely on data elements to function correctly.  If you copy a rule to a new property, you'll also need to copy any required data elements as a separate action.
 
 Copy a resource creates a duplicate of that resource in the specified destination. This is a discreet, one-time action and there is no ongoing relationship between the original resource and any copies that have been made.
 
@@ -55,8 +55,8 @@ All Rules and Data Elements are provided by an extension, so when you copy acros
 An explanation of exactly what Launch is planning on doing is available inside the Copy dialog before you actually begin copying. The above dialog is for a Rule, but the same applies to Data Elements.
 
 1. **Extensions required by these rules will be copied** - this is just letting you know that required extensions will go along with the rule.  These copies will follow the same rules as a regular Extension copy outlined above.
-2. **Extension settings will NOT be copied if the extension is already installed** - This means if the required extensions already exist on the Destination property, that we'll just leave the extension alone.  If you wish to copy the Extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation will be updated accordingly.
-3. **Data Elements required by these Rules will NOT be copied** - This explanation only applies to rules.  Rules often rely on Data Elements in order to function correctly.  If you copy a Rule to a new property, you'll also need to copy any required Data Elements as a separate action.
+1. **Extension settings will NOT be copied if the extension is already installed** - This means if the required extensions already exist on the Destination property, that we'll just leave the extension alone.  If you wish to copy the Extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation will be updated accordingly.
+1. **Data Elements required by these Rules will NOT be copied** - This explanation only applies to rules.  Rules often rely on Data Elements in order to function correctly.  If you copy a Rule to a new property, you'll also need to copy any required Data Elements as a separate action.
 
 Once you've configured the behavior you want, click **Copy**.
 

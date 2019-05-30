@@ -67,17 +67,17 @@ Record data schemas and time series data schemas may contain one or more identit
 Identity fields can be defined in two ways inside the schema:
 
 1.  Record and Time Series schemas both contain a special field called **xdm:identityMap** that can contain a map of identities.
-2. Key fields can be marked as "Identity" fields inside the schema.
+1. Key fields can be marked as "Identity" fields inside the schema.
 
 #### Identity fields inside the Adobe Experience Platform Extension
 
-For each schema field defined as an identity field, a row will be added to the schema mapping section. Each added row will contain the target schema field already filled in with its corresponding XDM schema path. You can recognize if a schema field is also an identity field if you see a profile icon near the field. 
+For each schema field defined as an identity field, a row will be added to the schema mapping section. Each added row will contain the target schema field already filled in with its corresponding XDM schema path. You can recognize if a schema field is also an identity field if you see a profile icon near the field.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_identity_field.png)
 
 The primary identity fields are always required, so you can not delete the rows containing them from the schema mapping section.
 
-A schema field that is defined as a non-primary identity field, will be automatically added to the schema mapping section, but the source value input can remain empty. That field can be deleted. The field will get discarded if its corresponding source value input is empty. 
+A schema field that is defined as a non-primary identity field, will be automatically added to the schema mapping section, but the source value input can remain empty. That field can be deleted. The field will get discarded if its corresponding source value input is empty.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_identity_field_warning.png)
 

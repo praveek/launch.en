@@ -13,7 +13,7 @@ Resources exist in different states and they depend on one another. Before you d
 Preparing a resource for deletion consists of two basic steps:
 
 1. Resolve Dependencies
-2. Remove from Libraries
+1. Remove from Libraries
 
 ### Resolve dependencies
 
@@ -46,20 +46,20 @@ Before you can delete a resource, you must remove it from any libraries that con
 #### Development
 
 1. Open the library
-2. Remove the resource
-3. Save the library
-4. Delete the resource
+1. Remove the resource
+1. Save the library
+1. Delete the resource
 
 #### Submitted or approved
 
 1. Reject the library \(moves it back to Development\)
-2. Follow the above steps to remove a resource from a development library
+1. Follow the above steps to remove a resource from a development library
 
 #### Production
 
 1. Disable the resource
-2. Publish the disabled resource through to Production
-3. Delete the resource
+1. Publish the disabled resource through to Production
+1. Delete the resource
 
 ## Delete a resource
 

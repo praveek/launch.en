@@ -19,9 +19,9 @@ Using page name as an example, suppose you use a particular page-name schema by 
 Data elements are populated with data when they are used in rules or when manually called in a script. At a high level, you:
 
 1. [Create a data element](data-elements.md#create-a-data-element), if you haven't done so already.
-2. Use the data element in a [rule](../../managing-resources/rules.md) or a custom script.
+1. Use the data element in a [rule](../../managing-resources/rules.md) or a custom script.
 
-For an introductory video, see [Data elements](../../getting-started/videos.md).
+For an introductory video, see [Data elements](../../quick-start/videos.md).
 
 ## Data element usage
 
@@ -40,18 +40,18 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for any object that is contained on your site.
 
 1. From a Property page, open the Data Elements tab, then click Create New Data Element.
-2. Name the data element.
-3. Select an extension and type.
+1. Name the data element.
+1. Select an extension and type.
 
    The available data element types are determined by the extension. For information about the types available with the Launch Core extension, refer to [Types of data elements](data-elements.md#types-of-data-elements).
 
-4. Provide any requested information about the chosen type in the fields provided.
-5. \(Optional\) Enter a default value.
+1. Provide any requested information about the chosen type in the fields provided.
+1. \(Optional\) Enter a default value.
 
    If you do not provide a value, no value is sent. Some people choose to enter something like "none" or "n/a" so they can determine what is sent if there isn't a value. Different solutions deal with an empty variable differently. This creates consistency even if a value doesn't exist.
 
-6. Select whether to force a lowercase value and whether to remove line breaks and spaces.
-7. Select a duration.
+1. Select whether to force a lowercase value and whether to remove line breaks and spaces.
+1. Select a duration.
 
    The available choices are:
 
@@ -68,7 +68,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
    * Visitor
      * The value is stored indefinitely in the brower's local storage.
 
-8. Click Save.
+1. Click Save.
 
 When creating or editing elements, you can save and build to your [active library](../../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 
@@ -144,7 +144,7 @@ If you use a data collector object as party of your data layer, simply use dot n
 
 Provide the name of your local storage item in the Local Storage Item Name field.
 
-Local storage gives browsers a way to store information from page to page \([https://www.w3schools.com/html/html5\_webstorage.asp](https://www.w3schools.com/html/html5_webstorage.asp)\). Local storage works a lot like cookies, but is much larger and more flexible. 
+Local storage gives browsers a way to store information from page to page \([https://www.w3schools.com/html/html5\_webstorage.asp](https://www.w3schools.com/html/html5_webstorage.asp)\). Local storage works a lot like cookies, but is much larger and more flexible.
 
 Use the provided field to specify the value you created for a local storage item, such as `lastProductViewed.`
 
@@ -180,7 +180,7 @@ Use this data element to generate a random number. It’s often used for samplin
 * Perform a one-way hash on PII data
 * Randomly decide when to show a survey request on the site
 
-Specify the minimum and maximum values for your random number. 
+Specify the minimum and maximum values for your random number.
 
 **Defaults:**
 

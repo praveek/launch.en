@@ -12,7 +12,7 @@ The concept of reusable data elements is very powerful and you should use them a
 
 For example, if there is a particular way that you reference page names or product IDs, or grab information from query string parameters from an affiliate marketing link or from AdWords, and so forth, you can create a data dictionary \(data elements\) by getting information from its source and then using this data in various Launch rules.
 
-Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within a website. 
+Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within a website.
 
 In Launch, you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name \(for example, you have been referencing `document.title` but you now want to reference a particular data layer\), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
 
@@ -21,9 +21,9 @@ In Launch, you can create a data element as a single point of reference for that
 Data elements are populated with data when they are used in rules or when manually called in a script. At a high level, you:
 
 1. [Create a data element](data-elements.md#create-a-data-element), if you haven't done so already.
-2. Use the data element in a [rule](rules.md) or a custom script.
+1. Use the data element in a [rule](rules.md) or a custom script.
 
-For an introductory video, see [Data elements](../../getting-started/videos.md).
+For an introductory video, see [Data elements](../../quick-start/videos.md).
 
 ## Data element usage
 
@@ -42,19 +42,19 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for any object that is contained on your site or in your application.
 
 1. From a Property page, open the Data Elements tab, then click Add Data Element.
-2. Name the data element.
-3. Select an extension and type.
+1. Name the data element.
+1. Select an extension and type.
 
    The available data element types are determined by the extension. For information about the types available with the Launch Core extension, refer to [Types of data elements](data-elements.md#types-of-data-elements).
 
-4. Provide any requested information about the chosen type in the fields provided.
-5. \(Optional\) Enter a default value.
+1. Provide any requested information about the chosen type in the fields provided.
+1. \(Optional\) Enter a default value.
 
    If you do not provide a value, no value is sent. Some people choose to enter something like "none" or "n/a" so they can determine what is sent if there isn't a value. Different solutions deal with an empty variable differently. This creates consistency even if a value doesn't exist.
 
-6. Select whether to force a lowercase value and whether to remove line breaks and spaces.
-7. Select whether to use clean text. The Clean Text option removes any whitespace from the beginning and end and replaces any successive spaces in the middle with single spaces. Use this option to normalize element values for easier matching.
-8. Select a duration.
+1. Select whether to force a lowercase value and whether to remove line breaks and spaces.
+1. Select whether to use clean text. The Clean Text option removes any whitespace from the beginning and end and replaces any successive spaces in the middle with single spaces. Use this option to normalize element values for easier matching.
+1. Select a duration.
 
    The available choices are:
 
@@ -71,7 +71,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
    * Visitor
      * The value is stored indefinitely in the client device's local storage.
 
-9. Click Save.
+1. Click Save.
 
 When creating or editing elements, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 

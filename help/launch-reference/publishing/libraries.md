@@ -24,13 +24,13 @@ A library moves between several environments as it makes its way through the pub
 
    The Publishing page lists the Dev libraries and provides the means to submit them for approval, move them to staging, or publish them to production.
 
-2. Click Add New Library.
+1. Click Add New Library.
 
    ![](/help/assets/library-create.jpg)
 
-3. Name the library.
-4. Assign the library to a Dev environment.
-5. Add a change to the library.   
+1. Name the library.
+1. Assign the library to a Dev environment.
+1. Add a change to the library.
    To add an item, click Add a Change, then choose the items you want to add. Any item that has been edited or deleted is available to add to the chosen library.
 
    ![](/help/assets/library-add-change.jpg)
@@ -41,8 +41,8 @@ A library moves between several environments as it makes its way through the pub
    * Data elements
    * Extension configurations
 
-6. To add any resources that have changed, click Add All Changed Resources.
-7. Click Save or Save and Build for Development.
+1. To add any resources that have changed, click Add All Changed Resources.
+1. Click Save or Save and Build for Development.
 
    Deploying compiles a build and deploys it to the assigned environment.
 
@@ -69,11 +69,11 @@ Once a library is created, use the drop down menu for that library to select one
 ## Add to a library
 
 1. Install the [extensions](../managing-resources/extensions/) you want to add.
-2. Create the [data elements](../managing-resources/data-elements.md) and rules you want to add.
-3. Open the Publishing tab.
-4. Select the [library](libraries.md) you want to change, then click Edit.
-5. Use the rules, data elements, and extensions buttons to select the items you want to add to the library.
-6. Save.
+1. Create the [data elements](../managing-resources/data-elements.md) and rules you want to add.
+1. Open the Publishing tab.
+1. Select the [library](libraries.md) you want to change, then click Edit.
+1. Use the rules, data elements, and extensions buttons to select the items you want to add to the library.
+1. Save.
 
 Changes to the library are shown in the Library Contents change log.
 
@@ -84,11 +84,11 @@ Changes to the library are shown in the Library Contents change log.
 To remove something from a library, you must deactivate it and then publish the deactivated state.
 
 1. Disable the extensions you want to remove, along with any data elements and rules that depend on those extensions.
-2. Disable the data elements and rules you want to remove.
-3. Open the Publishing tab.
-4. Select the library you want to change.
-5. Use the rules, data elements, and extensions buttons to select the disabled items you want to remove from the library.
-6. Save.
+1. Disable the data elements and rules you want to remove.
+1. Open the Publishing tab.
+1. Select the library you want to change.
+1. Use the rules, data elements, and extensions buttons to select the disabled items you want to remove from the library.
+1. Save.
 
 ## Manage library changes
 
@@ -96,13 +96,13 @@ To remove something from a library, you must deactivate it and then publish the 
 
    ![](/help/assets/library-contents.jpg)
 
-2. Click a change to view and select a revision.
+1. Click a change to view and select a revision.
 
    ![](/help/assets/library-contents-revision.jpg)
 
-3. Select whether to show all items or changed items.
-4. Click the revision, then click Select Revision.
-5. Click either Add a Change or Add All Changed Resources.
+1. Select whether to show all items or changed items.
+1. Click the revision, then click Select Revision.
+1. Click either Add a Change or Add All Changed Resources.
 
 ## Active Library
 
@@ -111,8 +111,8 @@ Libraries encapsulate a set of changes you'd like to make to your deployed code.
 You can save new and existing extensions, rules, and data elements directly to the library you're working on and, if desired, immediately kick off a build. You can also create a new library from the Active Library drop down.
 
 1. [Create a new library](libraries.md#create-a-library).
-2. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions/).
-3. Select your Active Library.
-4. Make your changes, then save and build the library.
-5. Test your changes, and repeat these steps as needed.
+1. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions/).
+1. Select your Active Library.
+1. Make your changes, then save and build the library.
+1. Test your changes, and repeat these steps as needed.
 

@@ -14,7 +14,7 @@ To configure the extension, open the Extensions tab, hover over the extension, a
 
 ### at.js Settings
 
-All of your at.js settings, with the exception of the Timeout. are automatically retrieved from your at.js configuration in the Target user interface. The extension only retrieves settings from the Target user interface when it is first added, so all settings should be managed in the Launch interface if additional updates are needed. 
+All of your at.js settings, with the exception of the Timeout. are automatically retrieved from your at.js configuration in the Target user interface. The extension only retrieves settings from the Target user interface when it is first added, so all settings should be managed in the Launch interface if additional updates are needed.
 
 The following configuration options are available:
 
@@ -78,14 +78,14 @@ No configuration is needed.
 Add parameters to all mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the Plus icon to add more parameters.
+1. Click the Plus icon to add more parameters.
 
 ### Add Global Mbox Params
 
 Add parameters only to your global mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the Plus icon to add more parameters.
+1. Click the Plus icon to add more parameters.
 
 ### Fire Global Mbox
 
@@ -114,13 +114,13 @@ Once you have saved this rule, you'll need to add it to a Library and build/depl
 
 Launch can be deployed asynchronously. If you are loading the Launch library asynchronously with Target inside it, then Target will also be loaded asynchronously. This is a fully supported scenario, but there is one additional consideration that must be handled.
 
-In asynchronous deployments, it is possible for the page to finish rendering the default content before the Target library is fully loaded and has performed the content swap. This can lead to what is known as "flicker" where the default content shows up briefly before being replaced by the personalized content specified by Target. If you want to avoid this flicker, we suggest you use a pre-hiding snippet and load the Launch bundle asynchronously to avoid any content flicker. 
+In asynchronous deployments, it is possible for the page to finish rendering the default content before the Target library is fully loaded and has performed the content swap. This can lead to what is known as "flicker" where the default content shows up briefly before being replaced by the personalized content specified by Target. If you want to avoid this flicker, we suggest you use a pre-hiding snippet and load the Launch bundle asynchronously to avoid any content flicker.
 
 Here are some things to keep in mind when using the pre-hiding snippet:
 
 * The snippet must be added before loading the Launch header embed code.
 * This code can't be managed by Launch, so it must be added to the page directly.
-* The page will be displayed when the earliest of the following events occur: 
+* The page will be displayed when the earliest of the following events occur:
   * When the global mbox response has been received
   * When the global mbox request times out
   * When the snippet itself times out
@@ -168,7 +168,7 @@ The pre-hiding code snippet is as follows and can be minified. The configurable 
 }(window, document, "body {opacity: 0 !important}", 3000));
 ```
 
-By default, the snippet pre-hides the whole HTML BODY. In some cases, you might want to pre-hide only certain HTML elements and not the entire page. You can achieve that by customizing the style parameter. Replace it with something that pre-hides only particular regions of the page. 
+By default, the snippet pre-hides the whole HTML BODY. In some cases, you might want to pre-hide only certain HTML elements and not the entire page. You can achieve that by customizing the style parameter. Replace it with something that pre-hides only particular regions of the page.
 
 For example, if you have two regions identified by IDs container-1 and container-2, the style can be replaced with the following:
 

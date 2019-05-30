@@ -13,7 +13,7 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 * AdCloud
 
 1. Select one or more solutions, then click Update.
-2. When you have selected and configured your solutions, click Save. The Adobe Privacy Extension is added to your installed extensions list.
+1. When you have selected and configured your solutions, click Save. The Adobe Privacy Extension is added to your installed extensions list.
 
  The options for each solution are described below.
 
@@ -23,7 +23,7 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 
 By default, you must provide your report suite by entering a string or selecting a data element.
 
-To configure other items, click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element. 
+To configure other items, click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element.
 
 ### Audience Manager
 

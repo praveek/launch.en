@@ -2,7 +2,7 @@
 
 This implementation guide is for front-end developers or technical marketers who want to learn how to implement the Adobe Experience Cloud solutions in their website.
 
-A detailed guide to set up Launch for use inside a mobile app with the Adobe Experience Platform SDK v5 is available [here](https://aep-sdks.gitbook.io/docs/).  
+A detailed guide to set up Launch for use inside a mobile app with the Adobe Experience Platform SDK v5 is available [here](https://aep-sdks.gitbook.io/docs/).
 
 Each lesson contains how-to exercises and foundational information to help you implement the Experience Cloud and understand its value. Callouts are provided to highlight information which might be useful to customers migrating from the older tag manager, Dynamic Tag Management \(DTM\). Demo sites are provided for you to complete the tutorial, so you can learn the underlying techniques in a safe environment. After completing this tutorial, you should be comfortable implementing these solutions as well as non-Adobe marketing tags on your own website.
 
@@ -38,8 +38,8 @@ In these lessons, you’ll be implementing the Adobe Experience Cloud into a fak
 ## Get the Tools
 
 1.  Because you will be using some browser-specific extensions, we recommend completing the tutorial using the [Chrome Web Browser](https://www.google.com/chrome/).
-2. Add the [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) extension to your Chrome browser.
-3. Downloaded the [sample html page](https://adobe-marketing-cloud.github.io/launch-reference-architectures/basic/index.html) \(right-click on this link and click “Save Link As”\).
-4. Get a text editor in which you can make changes to the sample HTML page.
-5. Bookmark [the We.Retail site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html).
+1. Add the [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) extension to your Chrome browser.
+1. Downloaded the [sample html page](https://adobe-marketing-cloud.github.io/launch-reference-architectures/basic/index.html) \(right-click on this link and click “Save Link As”\).
+1. Get a text editor in which you can make changes to the sample HTML page.
+1. Bookmark [the We.Retail site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html).
 

@@ -29,11 +29,11 @@ If you mouse over the button, a message informs you why it is not available. The
 ## What does the recommended upgrade process look like?  <a id="what-does-the-recommended-upgrade-process-look-like"></a>
 
 1. Complete the upgrade process in DTM.
-2. Go to Launch and make a new Development library with all your new changes.
-3. Test thoroughly in your Launch Development environment.
-4. Adjust data elements and rules as desired.
-5. Promote changes through to the Launch Production environment.
-6. \(Optional\) Disable the DTM property any time after completing Step 1.
+1. Go to Launch and make a new Development library with all your new changes.
+1. Test thoroughly in your Launch Development environment.
+1. Adjust data elements and rules as desired.
+1. Promote changes through to the Launch Production environment.
+1. \(Optional\) Disable the DTM property any time after completing Step 1.
 
 ## What do I do if the upgrade doesn't work?  <a id="what-do-i-do-if-the-upgrade-doesnt-work"></a>
 
