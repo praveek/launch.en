@@ -99,7 +99,7 @@ To have your tutorial show up within the documentation navigation, you'll need t
 
 If, for example, you create a tutorial about how to create a new rule, follow these steps:
 
-1. Open the [SUMMARY.md](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/08d765fa041ac11be27a77e312baa1ab79aa59c0/SUMMARY.md) file.
+1. Open the SUMMARY.md file.
 1. In the tutorials section, create a new line under the Rules section.
 1. Tab over once, and write markdown for the link. The link to the tutorial would look like this.
 

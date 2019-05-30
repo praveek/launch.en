@@ -33,7 +33,7 @@ Also, it is assumed that you are familiar with front-end development languages l
 
 In these lessons, you’ll be implementing the Adobe Experience Cloud into a fake retail website called We.Retail. The We.Retail site has rich functionality that will allow you to build a realistic implementation that resembles a real implementation.  You will build your own Launch property, in your own Experience Cloud organization, and map it to the Adobe-hosted We.Retail site using the Experience Cloud Debugger.
 
-![](../.gitbook/assets/overview-weretail.png)
+![](/help/assets/overview-weretail.png)
 
 ## Get the Tools
 

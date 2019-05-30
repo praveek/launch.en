@@ -7,7 +7,7 @@ The Media Analytics \(MA\) extension adds the core JavaScript Media SDK \(Media 
 * [Analytics Extension](https://docs.adobelaunch.com/~/edit/drafts/-LNQre1_XrQVLOEWB0Jz/extension-reference/web/adobe-analytics-extension)
 * [Experience Cloud ID Extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension)
 
-**Important:** Audio tracking requires Analytics Extension v1.6 or higher.
+>[!IMPORTANT]  Audio tracking requires Analytics Extension v1.6 or higher.
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
@@ -26,7 +26,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
   hover over the extension, and then click _Configure_:
 
-![MA Extension Configuration](..//help/assets/ext-va-config.jpg)
+![MA Extension Configuration](/help/assets/ext-va-config.jpg)
 
 ### Configuration options:
 
@@ -50,7 +50,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 The MA extension exports the MediaHeartbeat APIs in the global window object by enabling the _"Export APIs to Window Object"_ setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
-**Important:** The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
+>[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
 1. **Create MediaHeartbeat Instance:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
 
@@ -73,7 +73,7 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
 The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. \(For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).\)
 
-**Important:** Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` \(see code sample below\) outside of an extension.
+>[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` \(see code sample below\) outside of an extension.
 
 1. **Create MediaHeartbeat Instance:** `get-instance` Shared Module
 
@@ -152,9 +152,9 @@ The _Open Video_ action provides various configurations for creating and customi
 
 **Action Configuration / Player Settings:** Note the CSS Selector setting which specifics the `<div>` in the web page where the player is added. Note also that the _Enable Adobe Analytics_ checkbox is checked in the Analytics Settings pane.
 
-![Player Extension Action Configuration](..//help/assets/ext-va-sp-action.png)
+![Player Extension Action Configuration](/help/assets/ext-va-sp-action.png)
 
-![Player Extension Action Configuration](..//help/assets/ext-va-sp-action1.png)
+![Player Extension Action Configuration](/help/assets/ext-va-sp-action1.png)
 
 * [\[...\]/openVideo/openVideo.jsx](https://github.com/adobe/reactor-adobe-va-sample-player/blob/master/src/view/actions/openVideo/openVideo.jsx) -
 
@@ -191,6 +191,6 @@ The _Open Video_ action provides various configurations for creating and customi
 
 Once the Sample Player extension is installed, you'll need to create at least one rule to properly deploy it. The Image below shows a sample rule that opens the specified video when the core extension fires the `DOMLoaded` event.
 
-![Player Extension Sample Rule](..//help/assets/ext-va-sp-rule.png)
+![Player Extension Sample Rule](/help/assets/ext-va-sp-rule.png)
 
 After you have saved this rule, you will need to add it to a Library, and then build and deploy so that you can test the behavior.

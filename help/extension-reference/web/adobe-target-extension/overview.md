@@ -4,13 +4,13 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Target extension
 
-**Important:** The Adobe Target extension requires at.js. It does not support mbox.js.
+>[!IMPORTANT]  The Adobe Target extension requires at.js. It does not support mbox.js.
 
 If the Adobe Target extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Target extension, and click Install.
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
 
-![](..//help/assets/ext-target-config.png)
+![](/help/assets/ext-target-config.png)
 
 ### at.js Settings
 
@@ -106,7 +106,7 @@ Once the Target Extension is installed, you'll need to create at least one rule 
 
 A Target rule with this basic implementation looks like this:
 
-![](..//help/assets/basic_target_implementation.png)
+![](/help/assets/basic_target_implementation.png)
 
 Once you have saved this rule, you'll need to add it to a Library and build/deploy so that you can test the behavior.
 

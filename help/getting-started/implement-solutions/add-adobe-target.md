@@ -244,7 +244,7 @@ In the previous tutorial, [Add the Experience Cloud ID Service](idservice-save.m
 
 ![](/help/assets/target-debugger-customerid.png)
 
-**Important:** The Experience Cloud ID Service allows you to send multiple IDs to the Service, but only the first one is sent to Target.
+>[!IMPORTANT]  The Experience Cloud ID Service allows you to send multiple IDs to the Service, but only the first one is sent to Target.
 
 ### Add the Property Token parameter
 

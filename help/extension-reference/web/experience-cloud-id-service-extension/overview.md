@@ -12,7 +12,7 @@ If the Experience Cloud ID extension is not yet installed, open your property, t
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
 
-![](..//help/assets/optin.jpg)
+![](/help/assets/optin.jpg)
 
 The following configuration options are available:
 

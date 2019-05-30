@@ -28,7 +28,7 @@ In the diagram below, Step 3 represents Launch publishing its container tag over
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAxHla2X11_-j5Ak32l%2F-LAyfZuSJ0NwVoeH8Fxx%2F-LAyfa5x25lPFZDNEA0o%2Flaunch_publishing.png?generation=1524691284013660&alt=media)
 
-**Important:** This overwriting works both ways. If you publish Launch, then subsequently publish from DTM, the DTM container tag overwrites the Launch one. You have two systems publishing to the same location. This means you don't have to change the code on your page, but it also means you need to be careful when you publish. It's recommended that you disable your DTM property to prevent this situation.
+>[!IMPORTANT]  This overwriting works both ways. If you publish Launch, then subsequently publish from DTM, the DTM container tag overwrites the Launch one. You have two systems publishing to the same location. This means you don't have to change the code on your page, but it also means you need to be careful when you publish. It's recommended that you disable your DTM property to prevent this situation.
 
 ## Linking Prerequisites  <a id="linking-prerequisites"></a>
 
@@ -50,7 +50,7 @@ Before you link your embed code:
 
 Launch validates a number of things and tells you whether linking was successful.
 
-**Important:** You can only have one Production environment in Launch. If you have already created one on this property, you need to delete the existing Production environment so you can create a new linked environment. The new one does not have the same embed code as the old one, so don't do this unless you are familiar with the process.
+>[!IMPORTANT]  You can only have one Production environment in Launch. If you have already created one on this property, you need to delete the existing Production environment so you can create a new linked environment. The new one does not have the same embed code as the old one, so don't do this unless you are familiar with the process.
 
 ## Recommended Test Process  <a id="recommended-test-process"></a>
 

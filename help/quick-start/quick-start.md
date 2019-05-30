@@ -62,7 +62,7 @@ Nothing in Launch is published automatically. Each set of changes you make is en
 
 To make sense of that process, there are a couple relationships between Launch, your web page, and your hosting location that you need to understand.
 
-![](../.gitbook/assets/loop.png)
+![](/help/assets/loop.png)
 
 1. Launch publishes a build to your host server.
 

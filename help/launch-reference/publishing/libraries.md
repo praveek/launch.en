@@ -104,7 +104,7 @@ To remove something from a library, you must deactivate it and then publish the 
 1. Click the revision, then click Select Revision.
 1. Click either Add a Change or Add All Changed Resources.
 
-## Active Library
+## Active Library {#active-library}
 
 Libraries encapsulate a set of changes you'd like to make to your deployed code. Active Library makes this easier, allowing you to rapidly iterate through changes and see the impact.
 

@@ -17,7 +17,7 @@ After you have created and validated your library in the Development environment
 1. Go to the **Publishing** page.
 1. Open the drop down next to your library and select **Submit for Approval**.
 
-   ![](../.gitbook/assets/publishing-submitforapproval.png)
+   ![](/help/assets/publishing-submitforapproval.png)
 
 1. Click **Submit**.
 
@@ -25,7 +25,7 @@ After you have created and validated your library in the Development environment
 
 1. Open the drop down and select **Build for Staging**.
 
-   ![](../.gitbook/assets/publishing-buildforstaging.png)
+   ![](/help/assets/publishing-buildforstaging.png)
 
 Once the green-dot icon appears, the library can be previewed in the Staging environment.
 
@@ -36,28 +36,28 @@ In a real-life scenario, the next step in the process would typically be to have
 1. In your Launch property, open the Environments page.
 1. In the Staging row, click the **Install** icon.
 
-   ![](../.gitbook/assets/publishing-getstagingcode.png)
+   ![](/help/assets/publishing-getstagingcode.png)
 
 1. Click the **Copy** icon to copy the embed code to your clipboard, then click **Close**.
 
-   ![](../.gitbook/assets/publishing-copystagingcode.png)
+   ![](/help/assets/publishing-copystagingcode.png)
 
 1. Open the [We.Retail demo site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser.
 1. Open the [Experience Cloud Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
 
-   ![](../.gitbook/assets/switchenvironments-opendebugger.png)
+   ![](/help/assets/switchenvironments-opendebugger.png)
 
 1. Open the Tools tab and click **Adobe Launch &gt; Dynamically Insert Launch &gt; Embed Code** to open the text input field \(it might currently have the URL of your Development embed code\):
 
-   ![](../.gitbook/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
+   ![](/help/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
 
 1. Paste the Staging embed code that is in your clipboard, then click the disk icon to save.
 
-   ![](../.gitbook/assets/switchenvironments-debugger-save%20%281%29.png)
+   ![](/help/assets/switchenvironments-debugger-save%20%281%29.png)
 
 1. Reload and check the Summary tab of the Debugger. Under the Launch section, you should see that your Staging Property is implemented, showing your property name \(for example, "Launch Tutorial" or whatever you named your property\).
 
-   ![](../.gitbook/assets/publishing-debugger-staging.png)
+   ![](/help/assets/publishing-debugger-staging.png)
 
 In real life, once your QA team has signed off by reviewing the changes in the Staging environment, it is time to publish to production.
 
@@ -65,16 +65,16 @@ In real life, once your QA team has signed off by reviewing the changes in the S
 
 1. Go to the Publishing page, then from the dropdown, click **Approve for Publishing**:
 
-   ![](../.gitbook/assets/publishing-approveforpublishing.png)
+   ![](/help/assets/publishing-approveforpublishing.png)
 
 1. Click **Approve**. The library appears in the Approved column in the unbuilt state \(yellow dot\).
 1. Open the drop down and select **Build and Publish to Production**:
 
-   ![](../.gitbook/assets/publishing-buildandpublishtoproduction.png)
+   ![](/help/assets/publishing-buildandpublishtoproduction.png)
 
 1. Click **Publish**. The library appears in the Published column:
 
-   ![](../.gitbook/assets/publishing-published.png)
+   ![](/help/assets/publishing-published.png)
 
 You've completed the tutorial and published your first property in Launch.
 

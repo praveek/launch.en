@@ -4,7 +4,7 @@ Data elements are the building blocks for your data dictionary \(or data map\). 
 
 A single data element is a variable whose value can be mapped to query strings, URLs, cookie values, JavaScript variables, and so on. You can reference this value by its variable name throughout Launch. This collection of data elements becomes the dictionary of defined data that you can use to build your rules \(events, conditions, and actions\). This data dictionary is shared across all of Launch for use with any extension you've added to your property.
 
-**Important:** Changes do not take effect until they are [published](../../publishing/).
+>[!IMPORTANT]  Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 Use data elements as widely as possible throughout rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and then use them in multiple places.
 
@@ -18,8 +18,8 @@ Using page name as an example, suppose you use a particular page-name schema by 
 
 Data elements are populated with data when they are used in rules or when manually called in a script. At a high level, you:
 
-1. [Create a data element](data-elements.md#create-a-data-element), if you haven't done so already.
-1. Use the data element in a [rule](../../managing-resources/rules.md) or a custom script.
+1. [Create a data element](#create-a-data-element), if you haven't done so already.
+1. Use the data element in a [rule](/help/launch-reference/managing-resources/rules.md) or a custom script.
 
 For an introductory video, see [Data elements](../../quick-start/videos.md).
 
@@ -35,7 +35,7 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 
 `_satellite.getVar('data element name');`
 
-## Create a data element
+## Create a data element {#create-a-data-element}
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for any object that is contained on your site.
 
@@ -70,7 +70,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
 
 1. Click Save.
 
-When creating or editing elements, you can save and build to your [active library](../../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
+When creating or editing elements, you can save and build to your [active library](/help/launch-reference/publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 
 ## Types of data elements
 

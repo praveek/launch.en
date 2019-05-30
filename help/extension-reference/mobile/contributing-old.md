@@ -140,5 +140,5 @@ Unfortunately, long tables are not elegantly supported in GB. As a result, inste
 
 In the extensions section, each module will define the events that it dispatches and the events that it is listening for. Here is an example about how the events are described: [Event Description Template](EVENT_DESCRIPTION_TEMPLATE.md)
 
-**Important:** If you have **any** questions, please ask Rekha or Jiabin!
+>[!IMPORTANT]  If you have **any** questions, please ask Rekha or Jiabin!
 -->

@@ -129,7 +129,7 @@ This is a response to the Analytics beacon. It contains references to `doPostbac
 
 ![](/help/assets/aam-stuffobjectinresponse.png)
 
-**Important:** Beware the false "Success." If there is a response, and everything seems to be working, make sure you have that `stuff` object. If you don't, you might see a message in the response that says "status":"SUCCESS".
+>[!IMPORTANT]  Beware the false "Success." If there is a response, and everything seems to be working, make sure you have that `stuff` object. If you don't, you might see a message in the response that says "status":"SUCCESS".
 
 ![](/help/assets/aam-responsefalsesuccess.png)
 
