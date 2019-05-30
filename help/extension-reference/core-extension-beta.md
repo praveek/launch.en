@@ -560,7 +560,7 @@ Event condition types are divided into the following categories:
 *   [Technology](#technology-event)
 *   [URL](#url-event)
 
-### Data{#data-event}
+### <a name="data-event"></a>Data
 
 #### Cookie
 
@@ -592,7 +592,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 2.  Specify the variable value that must not exist as a condition for the event.
 3.  (Optional) Enable Regex if this is a regular expression.
 
-### Engagement{#engagement-event}
+### <a name="engagement-event"></a>Engagement
 
 #### Landing Page
 
@@ -641,7 +641,7 @@ Specify the source of the visitor's traffic that must be true to prevent the act
 1.  Specify the traffic source.
 2.  (Optional) Enable Regex if this is a regular expression.
 
-### Technology{#technology-event}
+### <a name="technology-event"></a>Technology
 
 #### Browser
 
@@ -709,7 +709,7 @@ Select the window size visitors must not use on their devices for the action to 
 3.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
 4.  Specify the number of pixels required for the window size height.
 
-### URL {#url-event}
+### <a name="url-event"></a>URL
 
 #### Domain
 
