@@ -2,7 +2,7 @@
 title: Example Tutorial
 seo-title: Example Tutorial in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Example Tutorial

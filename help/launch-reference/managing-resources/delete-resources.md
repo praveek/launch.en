@@ -2,7 +2,7 @@
 title: Deleting resources
 seo-title: Deleting resources in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Deleting resources

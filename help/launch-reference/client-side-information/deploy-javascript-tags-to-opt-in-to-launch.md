@@ -2,7 +2,7 @@
 title: Deploy JavaScript tags to opt in to Launch
 seo-title: Deploy JavaScript tags to opt in to Launch in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Deploy JavaScript tags to opt in to Launch

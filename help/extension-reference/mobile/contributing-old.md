@@ -2,7 +2,7 @@
 title: Contributing Guide
 seo-title: Contributing Guide in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Contributing Guide

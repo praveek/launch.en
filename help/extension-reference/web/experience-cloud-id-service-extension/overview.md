@@ -2,7 +2,7 @@
 title: Experience Cloud ID Service Extension
 seo-title: Experience Cloud ID Service Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Experience Cloud ID Service Extension

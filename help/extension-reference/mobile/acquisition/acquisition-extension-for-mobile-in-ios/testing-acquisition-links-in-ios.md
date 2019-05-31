@@ -2,7 +2,7 @@
 title: Testing Acquisition Links in iOS
 seo-title: Testing Acquisition Links in iOS in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Testing Acquisition Links in iOS

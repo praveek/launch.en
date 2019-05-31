@@ -2,7 +2,7 @@
 title: Configuration Keys
 seo-title: Configuration Keys in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Configuration Keys

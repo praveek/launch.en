@@ -2,7 +2,7 @@
 title: Link DTM Embed Code
 seo-title: Link DTM Embed Code in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Link DTM Embed Code

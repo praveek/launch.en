@@ -2,7 +2,7 @@
 title: Administration
 seo-title: Administration in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Administration

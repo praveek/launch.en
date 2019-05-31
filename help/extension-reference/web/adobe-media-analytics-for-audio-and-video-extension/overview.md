@@ -2,7 +2,7 @@
 title: Adobe Media Analytics for Audio and Video Extension
 seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Media Analytics for Audio and Video Extension

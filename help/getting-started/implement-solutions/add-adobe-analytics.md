@@ -2,7 +2,7 @@
 title: Add Adobe Analytics
 seo-title: Add Adobe Analytics in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Add Adobe Analytics

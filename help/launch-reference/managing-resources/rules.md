@@ -2,7 +2,7 @@
 title: Rules
 seo-title: Rules in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Rules

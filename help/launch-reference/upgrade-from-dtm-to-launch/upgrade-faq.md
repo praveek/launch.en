@@ -2,7 +2,7 @@
 title: Upgrade FAQ
 seo-title: Upgrade FAQ in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Upgrade FAQ

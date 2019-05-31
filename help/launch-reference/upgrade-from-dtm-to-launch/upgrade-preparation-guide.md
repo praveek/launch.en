@@ -2,7 +2,7 @@
 title: Upgrade Preparation Guide
 seo-title: Upgrade Preparation Guide in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Upgrade Preparation Guide

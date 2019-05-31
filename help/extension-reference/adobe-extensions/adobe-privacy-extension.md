@@ -2,7 +2,7 @@
 title: Adobe Privacy Extension
 seo-title: Adobe Privacy Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Privacy Extension

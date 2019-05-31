@@ -2,7 +2,7 @@
 title: Videos
 seo-title: Videos in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Videos

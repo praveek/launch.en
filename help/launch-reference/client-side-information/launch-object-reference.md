@@ -2,7 +2,7 @@
 title: Launch object reference
 seo-title: Launch object reference in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Launch object reference

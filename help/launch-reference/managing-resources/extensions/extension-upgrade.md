@@ -2,7 +2,7 @@
 title: Extension Upgrade
 seo-title: Extension Upgrade in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Extension Upgrade

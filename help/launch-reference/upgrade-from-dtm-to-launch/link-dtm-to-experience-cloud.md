@@ -2,7 +2,7 @@
 title: Link DTM to Experience Cloud
 seo-title: Link DTM to Experience Cloud in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Link DTM to Experience Cloud

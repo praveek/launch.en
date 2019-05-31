@@ -2,7 +2,7 @@
 title: Companies and properties
 seo-title: Companies and properties in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Companies and properties

@@ -2,7 +2,7 @@
 title: Miscellaneous
 seo-title: Miscellaneous in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Miscellaneous

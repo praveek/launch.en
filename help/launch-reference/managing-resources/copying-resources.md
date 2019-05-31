@@ -2,7 +2,7 @@
 title: Copying resources
 seo-title: Copying resources in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Copying resources

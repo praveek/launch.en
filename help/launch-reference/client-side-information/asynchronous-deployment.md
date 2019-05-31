@@ -2,7 +2,7 @@
 title: Asynchronous deployment
 seo-title: Asynchronous deployment in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Asynchronous deployment

@@ -2,7 +2,7 @@
 title: Adobe Target Extension
 seo-title: Adobe Target Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Target Extension

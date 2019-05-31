@@ -2,7 +2,7 @@
 title: Experience Cloud integrations
 seo-title: Experience Cloud integrations in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Experience Cloud integrations

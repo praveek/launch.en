@@ -2,7 +2,7 @@
 title: Quick Start
 seo-title: Quick Start in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Quick Start

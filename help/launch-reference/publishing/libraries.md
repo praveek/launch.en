@@ -2,7 +2,7 @@
 title: Libraries
 seo-title: Libraries in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Libraries

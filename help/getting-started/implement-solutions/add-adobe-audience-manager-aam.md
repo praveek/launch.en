@@ -2,7 +2,7 @@
 title: Add Adobe Audience Manager \(AAM\)
 seo-title: Add Adobe Audience Manager \(AAM\) in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Add Adobe Audience Manager \(AAM\)

@@ -1,12 +1,8 @@
 ---
-description: Release notes for Adobe Experience Platform Launch.
----
-
----
 title: Release notes
-seo-title: Release notes in Adobe Launch
+seo-title: Adobe Launch Release notes
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Release notes

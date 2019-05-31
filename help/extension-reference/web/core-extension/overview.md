@@ -2,7 +2,7 @@
 title: Core Extension
 seo-title: Core Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Core Extension

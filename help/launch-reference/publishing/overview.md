@@ -2,7 +2,7 @@
 title: Publishing
 seo-title: Publishing in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Publishing

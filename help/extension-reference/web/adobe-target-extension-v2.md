@@ -2,7 +2,7 @@
 title: Adobe Target v2 Extension
 seo-title: Adobe Target v2 Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Target v2 Extension

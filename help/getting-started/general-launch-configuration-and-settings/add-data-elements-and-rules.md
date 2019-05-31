@@ -2,7 +2,7 @@
 title: Add a Data Element, a Rule, and a Library
 seo-title: Add a Data Element, a Rule, and a Library in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Add a Data Element, a Rule, and a Library

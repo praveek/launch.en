@@ -2,7 +2,7 @@
 title: Compare resource revisions
 seo-title: Compare resource revisions in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Compare resource revisions

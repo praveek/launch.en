@@ -2,7 +2,7 @@
 title: Self-hosting libraries
 seo-title: Self-hosting libraries in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Self-hosting libraries

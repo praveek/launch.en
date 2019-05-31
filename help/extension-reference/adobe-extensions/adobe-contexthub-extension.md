@@ -2,7 +2,7 @@
 title: Adobe ContextHub Extension
 seo-title: Adobe ContextHub Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe ContextHub Extension

@@ -1,8 +1,8 @@
 ---
 title: 2018 release notes
-seo-title: 2018 release notes in Adobe Launch
+seo-title: 2018 release notes for Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # 2018 release notes

@@ -2,7 +2,7 @@
 title: Adobe Experience Platform Extension
 seo-title: Adobe Experience Platform Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Experience Platform Extension

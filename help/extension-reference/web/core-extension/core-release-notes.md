@@ -2,7 +2,7 @@
 title: Core Release Notes
 seo-title: Core Release Notes in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Core Release Notes

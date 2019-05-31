@@ -2,7 +2,7 @@
 title: Approval Workflow
 seo-title: Approval Workflow in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Approval Workflow

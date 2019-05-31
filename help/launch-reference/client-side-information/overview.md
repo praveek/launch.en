@@ -2,7 +2,7 @@
 title: Client-side information
 seo-title: Client-side information in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Client-side information

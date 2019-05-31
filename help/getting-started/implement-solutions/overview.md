@@ -2,7 +2,7 @@
 title: Implement Solutions
 seo-title: Implement Solutions in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Implement Solutions

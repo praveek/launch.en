@@ -8,7 +8,7 @@ description: >-
 title: Release Notes
 seo-title: Release Notes in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Release Notes

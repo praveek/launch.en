@@ -2,7 +2,7 @@
 title: Publish your Launch property
 seo-title: Publish your Launch property in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Publish your Launch property

@@ -2,7 +2,7 @@
 title: Interacting with rules
 seo-title: Interacting with rules in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Interacting with rules

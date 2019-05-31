@@ -9,7 +9,7 @@ description: >-
 title: Third-Party Extensions
 seo-title: Third-Party Extensions in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Third-Party Extensions

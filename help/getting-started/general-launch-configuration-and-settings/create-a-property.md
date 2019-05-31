@@ -2,7 +2,7 @@
 title: Create a Property
 seo-title: Create a Property in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Create a Property

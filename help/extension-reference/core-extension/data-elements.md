@@ -2,7 +2,7 @@
 title: Data Elements
 seo-title: Data Elements in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Data Elements

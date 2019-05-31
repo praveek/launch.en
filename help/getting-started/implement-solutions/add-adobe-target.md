@@ -2,7 +2,7 @@
 title: Add Adobe Target
 seo-title: Add Adobe Target in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Add Adobe Target

@@ -2,7 +2,7 @@
 title: Acquisition Methods in Android
 seo-title: Acquisition Methods in Android in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Acquisition Methods in Android

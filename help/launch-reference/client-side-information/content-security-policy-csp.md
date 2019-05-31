@@ -2,7 +2,7 @@
 title: Content Security Policy \(CSP\)
 seo-title: Content Security Policy \(CSP\) in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Content Security Policy \(CSP\)

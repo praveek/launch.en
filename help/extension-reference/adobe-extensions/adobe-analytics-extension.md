@@ -2,7 +2,7 @@
 title: Adobe Analytics Extension
 seo-title: Adobe Analytics Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Analytics Extension

@@ -2,7 +2,7 @@
 title: Experience Cloud ID Release Notes
 seo-title: Experience Cloud ID Release Notes in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Experience Cloud ID Release Notes

@@ -2,7 +2,7 @@
 title: Remove resources from a library
 seo-title: Remove resources from a library in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Remove resources from a library

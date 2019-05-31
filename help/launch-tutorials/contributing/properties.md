@@ -2,7 +2,7 @@
 title: Properties
 seo-title: Properties in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Properties

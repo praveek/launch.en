@@ -2,7 +2,7 @@
 title: Environments
 seo-title: Environments in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Environments

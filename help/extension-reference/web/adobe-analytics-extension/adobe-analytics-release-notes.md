@@ -2,7 +2,7 @@
 title: Adobe Analytics Release Notes
 seo-title: Adobe Analytics Release Notes in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Analytics Release Notes

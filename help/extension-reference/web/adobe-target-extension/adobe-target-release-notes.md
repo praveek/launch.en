@@ -2,7 +2,7 @@
 title: Adobe Target Release Notes
 seo-title: Adobe Target Release Notes in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Target Release Notes

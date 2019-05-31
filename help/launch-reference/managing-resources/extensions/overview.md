@@ -2,7 +2,7 @@
 title: Extensions
 seo-title: Extensions in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Extensions

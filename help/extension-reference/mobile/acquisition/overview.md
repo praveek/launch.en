@@ -2,7 +2,7 @@
 title: Adobe Acquisition
 seo-title: Adobe Acquisition in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Acquisition

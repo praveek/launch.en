@@ -2,7 +2,7 @@
 title: User permissions
 seo-title: User permissions in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # User permissions

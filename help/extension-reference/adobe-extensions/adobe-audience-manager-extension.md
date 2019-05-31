@@ -2,7 +2,7 @@
 title: Adobe Audience Manager Extension
 seo-title: Adobe Audience Manager Extension in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Adobe Audience Manager Extension

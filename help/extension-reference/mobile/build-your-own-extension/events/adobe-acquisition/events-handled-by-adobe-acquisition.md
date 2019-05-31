@@ -2,7 +2,7 @@
 title: Events Handled by Adobe Acquisition
 seo-title: Events Handled by Adobe Acquisition in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Events Handled by Adobe Acquisition

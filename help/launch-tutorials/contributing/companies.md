@@ -2,7 +2,7 @@
 title: Companies
 seo-title: Companies in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Companies

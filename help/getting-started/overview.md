@@ -2,7 +2,7 @@
 title: Overview
 seo-title: Overview in Adobe Launch
 description: 
-seo- description: 
+seo-description: 
 ---
 
 # Overview
