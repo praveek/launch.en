@@ -1,3 +1,10 @@
+---
+title: Core Extension
+seo-title: Core Extension in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Core Extension
 
 The Core extension is the default extension released with Launch.

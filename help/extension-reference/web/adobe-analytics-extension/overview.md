@@ -1,3 +1,10 @@
+---
+title: Adobe Analytics Extension
+seo-title: Adobe Analytics Extension in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Adobe Analytics Extension
 
 Use this reference for information about configuring the Adobe Analytics extension, and the options available when using this extension to build a rule.

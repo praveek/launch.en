@@ -1,3 +1,10 @@
+---
+title: Publish your Launch property
+seo-title: Publish your Launch property in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Publish your Launch property
 
 After you have implemented some key solutions of the Adobe Experience Cloud in your Development environment, it's time to learn the publishing workflow.

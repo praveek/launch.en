@@ -1,3 +1,10 @@
+---
+title: Quick Start
+seo-title: Quick Start in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Quick Start
 
 Launch is the next-generation of Adobe's tag management technology, built on the Adobe Experience Platform. It is built from the ground up to support an open and sustainable ecosystem where anyone can build their own integrations that Adobe customers can deploy to their sites. It is an API first application so anything you can do through the UI you can also do programmatically through an API.

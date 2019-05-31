@@ -1,3 +1,10 @@
+---
+title: Add Adobe Target
+seo-title: Add Adobe Target in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Add Adobe Target
 
 This tutorial shows how to implement Adobe Target with a global mbox with custom parameters.

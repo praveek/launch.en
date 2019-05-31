@@ -1,3 +1,10 @@
+---
+title: Launch object reference
+seo-title: Launch object reference in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Launch object reference
 
 In many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.

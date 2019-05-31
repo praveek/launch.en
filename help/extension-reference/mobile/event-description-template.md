@@ -2,6 +2,13 @@
 description: This page contains tips&templates about the event page structure.
 ---
 
+---
+title: Event Description Template
+seo-title: Event Description Template in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Event Description Template
 
 >[!NOTE]  This page contains tips&templates about the event page structure.

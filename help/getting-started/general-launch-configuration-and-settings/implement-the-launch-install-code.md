@@ -1,3 +1,10 @@
+---
+title: Add the Launch Embed Code
+seo-title: Add the Launch Embed Code in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Add the Launch Embed Code
 
 This lesson introduces two of the main concepts of Launch:

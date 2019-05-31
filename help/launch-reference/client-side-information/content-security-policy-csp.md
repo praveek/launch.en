@@ -1,3 +1,10 @@
+---
+title: Content Security Policy \(CSP\)
+seo-title: Content Security Policy \(CSP\) in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Content Security Policy \(CSP\)
 
 The primary goal of a Content Security Policy \(CSP\) is to prevent cross site scripting attacks \(XSS\).  This happens when the browser is tricked into running malicious content that appears to come from trusted source, but is really coming from somewhere else.

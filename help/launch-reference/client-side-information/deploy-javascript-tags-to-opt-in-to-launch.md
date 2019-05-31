@@ -1,3 +1,10 @@
+---
+title: Deploy JavaScript tags to opt in to Launch
+seo-title: Deploy JavaScript tags to opt in to Launch in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Deploy JavaScript tags to opt in to Launch
 
 The combination of the European Union [General Data Protection Regulation \(GDPR\)](https://gdpr-info.eu/art-7-gdpr/) and [ePrivacy](https://medium.com/mydata/consent-lost-gdpr-and-found-eprivacy-e85cf881ffb) legislation requires companies to be able to manage consent for their users. Adobe customers may require visitors to opt-in before Adobe solutions execute for any given visitor. Visitors should have the ability to manage their opt-in and opt-out status.

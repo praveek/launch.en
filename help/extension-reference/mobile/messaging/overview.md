@@ -1,3 +1,10 @@
+---
+title: Messaging
+seo-title: Messaging in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Messaging
 
 In the Adobe Experience Cloud Platform SDKs, messaging is handled with the following components:

@@ -1,3 +1,10 @@
+---
+title: Compare resource revisions
+seo-title: Compare resource revisions in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Compare resource revisions
 
 Compare resource revisions to see the history of an individual resource.  You can compare the current state of the resource to older versions, or compare the currently published version of a resource to the most recent set of changes that have been saved.

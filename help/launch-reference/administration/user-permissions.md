@@ -1,3 +1,10 @@
+---
+title: User permissions
+seo-title: User permissions in Adobe Launch
+description: 
+seo- description: 
+---
+
 # User permissions
 
 ## Permission types

@@ -1,3 +1,10 @@
+---
+title: Link DTM Embed Code
+seo-title: Link DTM Embed Code in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Link DTM Embed Code
 
 Linking embed codes primarily applies to DTM and Launch users who use built-in Akamai hosting. Those who are self-hosting, please see the [self-hosting section](#self-hosting) at the end of this article.

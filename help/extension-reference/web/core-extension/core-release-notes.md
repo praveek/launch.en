@@ -1,3 +1,10 @@
+---
+title: Core Release Notes
+seo-title: Core Release Notes in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Core Release Notes
 
 ## May 8, 2019

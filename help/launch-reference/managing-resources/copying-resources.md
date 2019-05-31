@@ -1,3 +1,10 @@
+---
+title: Copying resources
+seo-title: Copying resources in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Copying resources
 
 For rules and data elements, simply select the resource you want to copy and then click the **Copy** button in the actions menu.

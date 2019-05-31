@@ -2,6 +2,13 @@
 Testing: Spaghetti
 ---
 
+---
+title: Managing Resources
+seo-title: Managing Resources in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Managing Resources
 
 In Launch, the word "resources" refers to any of the following:

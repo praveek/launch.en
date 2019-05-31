@@ -1,3 +1,10 @@
+---
+title: Adobe Target Extension
+seo-title: Adobe Target Extension in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Adobe Target Extension
 
 Use this reference for information about the options available when using this extension to build a rule.

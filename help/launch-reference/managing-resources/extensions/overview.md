@@ -1,3 +1,10 @@
+---
+title: Extensions
+seo-title: Extensions in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Extensions
 
 An extension is a packaged set of code that extends the Launch interface and the library functionality. Launch is the platform, and extensions are like apps that run on the platform.

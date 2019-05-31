@@ -1,3 +1,10 @@
+---
+title: Link DTM to Experience Cloud
+seo-title: Link DTM to Experience Cloud in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Link DTM to Experience Cloud
 
 If you've been using DTM for a while, it's possible that your company's account is older than the Experience Cloud \(or even the Marketing Cloud\). Unless you've already gone through the process to link your DTM account to the Experience Cloud, this work still lies ahead of you.

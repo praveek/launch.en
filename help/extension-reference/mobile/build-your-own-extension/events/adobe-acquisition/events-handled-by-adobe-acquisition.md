@@ -1,3 +1,10 @@
+---
+title: Events Handled by Adobe Acquisition
+seo-title: Events Handled by Adobe Acquisition in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Events Handled by Adobe Acquisition
 
 ## Acquistion Request Content

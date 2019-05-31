@@ -1,3 +1,10 @@
+---
+title: Adobe Analytics for Video Extension
+seo-title: Adobe Analytics for Video Extension in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Adobe Analytics for Video Extension
 
 Use this documentation for information on installing, configuring, and implementing the Adobe Analytics for Video extension \(Video Analytics extension\). Included are the options available when using this extension to build a rule, along with examples and links to samples.

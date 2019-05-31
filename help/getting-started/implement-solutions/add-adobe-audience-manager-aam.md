@@ -1,3 +1,10 @@
+---
+title: Add Adobe Audience Manager \(AAM\)
+seo-title: Add Adobe Audience Manager \(AAM\) in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Add Adobe Audience Manager \(AAM\)
 
 This tutorial guides you through the steps to enable Adobe Audience Manager using Server-Side Forwarding.

@@ -2,6 +2,13 @@
 description: ''
 ---
 
+---
+title: Acquisition Extension for Mobile in Android
+seo-title: Acquisition Extension for Mobile in Android in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Acquisition Extension for Mobile in Android
 
 Marketers can create tracking links to promote and drive traffic to their apps. These tracking links can then drive users to app stores, app deep links, and interstitials, which can be correlated to in-app behavior. A marketer can create separate links that route users to different platforms, such as iOS, Android, and so on.

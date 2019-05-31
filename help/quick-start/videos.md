@@ -1,3 +1,10 @@
+---
+title: Videos
+seo-title: Videos in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Videos
 
 These videos introduce you to Launch concepts and tasks.
@@ -10,4 +17,3 @@ These videos introduce you to Launch concepts and tasks.
 * [Rule builder](https://www.youtube.com/embed/u0ohTL6hI1w)
 * [Publishing workflow](https://www.youtube.com/embed/Pe-YSn26_xI)
 * [Adobe Cloud Platform Launch Mobile Capability](https://video.tv.adobe.com/v/23741/)
-

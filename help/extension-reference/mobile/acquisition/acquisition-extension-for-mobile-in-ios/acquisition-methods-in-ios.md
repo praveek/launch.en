@@ -2,6 +2,13 @@
 description: 'The following Acquisition methods are provided by the iOS library:'
 ---
 
+---
+title: Acquisition Methods in iOS
+seo-title: Acquisition Methods in iOS in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Acquisition Methods in iOS
 
 ## startCampaign :withData:

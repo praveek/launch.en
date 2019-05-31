@@ -1,3 +1,10 @@
+---
+title: Self-hosting libraries
+seo-title: Self-hosting libraries in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Self-hosting libraries
 
 Everything you do in Launch has the ultimate goal of producing a set of files to control the behavior of your application at run-time. This set of files is called a [build](builds.md).

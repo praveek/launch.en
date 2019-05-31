@@ -1,3 +1,10 @@
+---
+title: Administration
+seo-title: Administration in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Administration
 
 This section contains information that is useful for Launch administrators.

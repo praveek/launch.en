@@ -1,3 +1,10 @@
+---
+title: Extension Upgrade
+seo-title: Extension Upgrade in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Extension Upgrade
 
 Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Launch catalog as upgrades.

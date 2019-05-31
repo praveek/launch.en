@@ -1,3 +1,10 @@
+---
+title: Events Dispatched by Adobe Acquistion
+seo-title: Events Dispatched by Adobe Acquistion in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Events Dispatched by Adobe Acquistion
 
 ## Acquisition Content Response

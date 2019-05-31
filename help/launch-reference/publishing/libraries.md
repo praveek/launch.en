@@ -1,3 +1,10 @@
+---
+title: Libraries
+seo-title: Libraries in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Libraries
 
 A library is a set of instructions for how extensions, data elements, and rules interact with one another after they are deployed.

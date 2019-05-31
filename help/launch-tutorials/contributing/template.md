@@ -1,3 +1,10 @@
+---
+title: Example Tutorial
+seo-title: Example Tutorial in Adobe Launch
+description: 
+seo- description: 
+---
+
 # Example Tutorial
 
 By Rudi Shumpert
