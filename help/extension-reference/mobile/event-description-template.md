@@ -25,7 +25,7 @@ Describe the situations when this event will be generated. You can use plain tex
 
 | **Event Type**                                        | **Event Source**                                        | **Paired**                                                   | **Paired Event**                                             |
 | :---------------------------------------------------- | :------------------------------------------------------ | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| com.adobe.eventType.exampleType                       | com.adobe.eventSource.exampleSource                     | Yes / No                                                     | [Link To The Paired Event](../link/to/the/eventpage/andsection) |
+| com.adobe.eventType.exampleType                       | com.adobe.eventSource.exampleSource                     | Yes / No                                                     | `[Link To The Paired Event](../link/to/the/eventpage/andsection)` |
 | event type value exactly as it is represented in code | event source value exactly as it is represented in code | Indicates if this event is a request/response for another event | Link to the git book page where the event is described       |
 
 ### Data Payload Definition
@@ -53,4 +53,6 @@ Here are the key-value pairs in this event:
 
 Short description about why this module listens for this event and a link to the detailed description of this event. This way we won't duplicate documentation about the same event in multiple modules and when an event is changed, the information will be updated ascross modules.
 
-For more details about the this event see  [Link to the event page](../example/path)
+For more details about the this event see `[Link to the event page](../example/path)`
+
+<!--2 incomplete links like line above-->
