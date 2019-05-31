@@ -33,7 +33,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Experience Cloud integrations](getting-started/implement-solutions/experience-cloud-integrations.md)
   * [Publish your Launch property](getting-started/validate-and-publish.md)
 * Launch Reference {#launch-reference}
-  * [Managing Resources](launch-reference/managing-resources/overview.md)
+  * Managing Resources {#manage-resources}
+    * [Managing Resources Overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
       * [Extensions Overview](launch-reference/managing-resources/extensions/overview.md)
       * [Extensions Upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
