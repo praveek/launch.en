@@ -12,7 +12,7 @@ The Core extension is the default extension released with Launch.
 Use this reference for information about the options available when using this extension to build a rule.
 
 
-## Core extension event types
+## Core extension event types {#core-extension-event-types}
 
 This topic describes the event types available in the Core extension.
 
@@ -29,7 +29,7 @@ Event types are divided into the following categories:
 
 For information about options that can be set for several different event types, see [Options](#options).
 
-### Browser
+### Browser {#browser}
 
 #### Tab Blur
 
@@ -43,7 +43,7 @@ Trigger the action when a tab gains the focus.
 
 There are no settings for this event type.
 
-### Form
+### Form {#form}
 
 #### Blur
 
@@ -133,7 +133,7 @@ Trigger the event if the user zooms in or out.
 
 There are no settings for this event type.
 
-### Mouse
+### Mouse {#mouse}
 
 #### Click
 
@@ -153,7 +153,7 @@ See [Options](#options), below.
 
 In addition, configure whether the rule is triggered immediately or after a specified number of milliseconds.
 
-### Other
+### Other {#other}
 
 #### Custom Event
 
@@ -203,7 +203,7 @@ Trigger the event if the user remains on the page for a specified number of seco
 
 Specify the number of seconds that must pass before the event is triggered.
 
-### Page load
+### Page load {#page-load}
 
 #### DOM Ready
 
@@ -217,13 +217,13 @@ Trigger the event when the page loads.
 
 There are no settings for this event type.
 
-#### Page Bottom
+#### Page Bottom {#page-bottom}
 
 Trigger the event if the user reaches the bottom of the page
 
 There are no settings for this option.
 
-### Options
+### Options {#options}
 
 Each of the form event types uses the following settings:
 
@@ -265,7 +265,7 @@ Event condition types are divided into the following categories:
 *   [Technology](#technology)
 *   [URL](#url)
 
-### Data
+### Data {#data}
 
 #### Cookie
 
@@ -306,7 +306,7 @@ Specify the JavaScript variable name and value that must exist for an event to t
 1.  Specify the variable value that must exist as a condition for the event.
 1.  (Optional) Enable Regex if this is a regular expression.
 
-### Value Comparison operators
+### Value Comparison operators {#value-comparison-operators}
 
 The Data category also includes the following Value Comparison operators:
 
@@ -382,7 +382,7 @@ The condition returns true if the value is a boolean with the value of false. Th
 
 The condition returns true if the value is false after being converted to a boolean. See [MDN's Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.
 
-### Engagement
+### Engagement {#engagement}
 
 #### Landing Page
 
@@ -435,7 +435,7 @@ Specify the source of the visitor's traffic that must be true for the action to 
 1.  Specify the traffic source.
 1.  (Optional) Enable Regex if this is a regular expression.
 
-### Technology
+### Technology {#technology}
 
 #### Browser
 
@@ -503,7 +503,7 @@ Select the window size visitors must use on their devices for the action to be t
 1.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
 1.  Specify the number of pixels required for the window size height.
 
-### URL
+### URL {#url}
 
 #### Domain
 
@@ -567,7 +567,7 @@ Event condition types are divided into the following categories:
 *   [Technology](#technology-event)
 *   [URL](#url-event)
 
-### <a name="data-event"></a>Data
+### Data {#data-event}
 
 #### Cookie
 
@@ -599,7 +599,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 1.  Specify the variable value that must not exist as a condition for the event.
 1.  (Optional) Enable Regex if this is a regular expression.
 
-### <a name="engagement-event"></a>Engagement
+### Engagement {#engagement}
 
 #### Landing Page
 
@@ -648,7 +648,7 @@ Specify the source of the visitor's traffic that must be true to prevent the act
 1.  Specify the traffic source.
 1.  (Optional) Enable Regex if this is a regular expression.
 
-### <a name="technology-event"></a>Technology
+### Technology {#technology}
 
 #### Browser
 
@@ -716,7 +716,7 @@ Select the window size visitors must not use on their devices for the action to 
 1.  Select whether the window size height of the visitor's device must be greater than, equal to, or less than the specified value.
 1.  Specify the number of pixels required for the window size height.
 
-### <a name="url-event"></a>URL
+### URL {#url-event}
 
 #### Domain
 
@@ -773,7 +773,7 @@ Specify URL parameter that cannot be used in the URL.
 
 This section describes the action types available in the Core extension.
 
-### Custom Code
+### Custom Code {#custom-code}
 
 Provide the code that runs after the event is triggered and conditions are evaluated.
 
@@ -785,7 +785,7 @@ Provide the code that runs after the event is triggered and conditions are evalu
 1.  Click Open Editor.
 1.  Edit the code, then click Save.
 
-### Custom Code action processing
+### Custom Code action processing {#custom-code-action-processing}
 
 The Core extension, available to all Launch users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
 

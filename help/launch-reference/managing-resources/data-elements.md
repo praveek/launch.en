@@ -44,7 +44,7 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 
 `_satellite.getVar('data element name');`
 
-## Create a data element
+## Create a data element {#create-a-data-element}
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary \(or data map\) of commonly used items on a page, regardless of where they originate \(query strings, URLs, or cookie values\) for any object that is contained on your site or in your application.
 

@@ -13,7 +13,7 @@ Builds need to be hosted somewhere so client devices can retrieve them at run-ti
 
 Launch can either manage the hosting of these files for you or you can do it yourself.
 
-## Managed by Adobe
+## Managed by Adobe {#managed-by-adobe}
 
 Adobe does not actually host the builds for you. Instead, they are delivered to a third-party content delivery network \(CDN\) that has a contract with Adobe.
 

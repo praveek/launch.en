@@ -69,7 +69,7 @@ When applying these principles to your own website, consider the following:
 
 If you see things occurring out of order, it is likely that you have some timing issues to work through. Deployments requiring precise timing might need to use event listeners and the Custom Event or Direct Call event type to make their implementations more robust and consistent.
 
-## Loading the Launch embed code asynchronously
+## Loading the Launch embed code asynchronously {#loading-the-launch-embed-code-asynchronously}
 
 Launch provides a toggle to turn on asynchronous loading when creating an embed code when you configure an [environment](../publishing/environments.md). You can also configure asynchronous loading yourself:
 

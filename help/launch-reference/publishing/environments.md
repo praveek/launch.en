@@ -39,7 +39,7 @@ On the environment screen, you have a drop-down menu to select from the existing
 
 When a build is created, Launch will deliver that build to whatever location you've specified with the assigned host.
 
-### Archive
+### Archive {#archive}
 
 Most builds consist of multiple files. Multi-file builds contain a main library file \(linked in the embed code\) that contains internal references to the other files. Those other files are pulled in as needed.
 
@@ -51,7 +51,7 @@ If you use the archive option, all build files are delivered as a .zip file \(op
 1. You need to run code analysis on the build prior to deployment.
 1. You just want to look at the build contents to see what's in it.
 
-### Embed code
+### Embed code {#embed-code}
 
 The embed code is a `<script>` tag that you put on the pages of your site to load and execute the code you build in Launch.
 

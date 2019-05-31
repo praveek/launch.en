@@ -81,6 +81,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
   * [Example Tutorial](launch-tutorials/contributing/template.md)
 * Extensions Reference {#extensions-reference}
+  * [Extenstion Reference Overview](extension-reference/adobe-extensions/overview.md)
   * Adobe Extensions {#adobe-extension}
     * [Adobe Extensions Overview](extension-reference/web/overview.md)
     * Analytics Extension {#analytics-extensions}
@@ -104,6 +105,101 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
       * [Experience Cloud ID Release Notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
     * [Adobe Experience Platform Extension](extension-reference/web/adobe-experience-platform-extension.md)
   * [Third-Party Extensions](extension-reference/3rd-party-extensions.md)
+
+<!--
+
+# Table of contents
+
+* [Overview](README.md)
+* [Release notes](release-notes/README.md)
+  * [2019 release notes](release-notes/2019-release-notes.md)
+  * [2018 release notes](release-notes/release-notes.md)
+* [Quick Start](getting-started/README.md)
+  * [Videos](getting-started/videos.md)
+
+## Getting Started
+
+* [Overview](getting-started-1/overview.md)
+* [Configure Launch](getting-started-1/general-launch-configuration-and-settings/README.md)
+  * [Create a Property](getting-started-1/general-launch-configuration-and-settings/create-a-property.md)
+  * [Add the Launch Embed Code](getting-started-1/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
+  * [Add a Data Element, a Rule, and a Library](getting-started-1/general-launch-configuration-and-settings/add-data-elements-and-rules.md)
+  * [Switch Environments with the Experience Cloud Debugger](getting-started-1/general-launch-configuration-and-settings/switch-environments-with-launch-command.md)
+* [Implement Solutions](getting-started-1/implement-solutions/README.md)
+  * [Add the Experience Cloud ID Service Extension](getting-started-1/implement-solutions/idservice-save.md)
+  * [Add Adobe Analytics](getting-started-1/implement-solutions/add-adobe-analytics.md)
+  * [Add Adobe Target](getting-started-1/implement-solutions/add-adobe-target.md)
+  * [Add Adobe Audience Manager \(AAM\)](getting-started-1/implement-solutions/add-adobe-audience-manager-aam.md)
+  * [Experience Cloud integrations](getting-started-1/implement-solutions/experience-cloud-integrations.md)
+* [Publish your Launch property](getting-started-1/validate-and-publish.md)
+
+## Launch Reference
+
+* [Managing Resources](launch-reference/managing-resources/README.md)
+  * [Extensions](launch-reference/managing-resources/extensions/README.md)
+    * [Extension Upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
+  * [Data elements](launch-reference/managing-resources/data-elements.md)
+  * [Rules](launch-reference/managing-resources/rules.md)
+  * [Copying resources](launch-reference/managing-resources/copying-resources.md)
+  * [Compare resource revisions](launch-reference/managing-resources/compare-resource-revisions.md)
+  * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
+  * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
+* [Publishing](launch-reference/publishing/README.md)
+  * [Approval Workflow](launch-reference/publishing/approval-workflow.md)
+  * [Hosts](launch-reference/publishing/hosts.md)
+  * [Builds](launch-reference/publishing/builds.md)
+  * [Environments](launch-reference/publishing/environments.md)
+  * [Libraries](launch-reference/publishing/libraries.md)
+  * [Self-hosting libraries](launch-reference/publishing/self-hosting-libraries.md)
+* [Client-side information](launch-reference/client-side-information/README.md)
+  * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
+  * [Launch object reference](launch-reference/client-side-information/launch-object-reference.md)
+  * [Deploy JavaScript tags to opt in to Launch](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+  * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
+* [Administration](launch-reference/administration/README.md)
+  * [Companies and properties](launch-reference/administration/companies-and-properties.md)
+  * [User permissions](launch-reference/administration/user-permissions.md)
+* [Upgrade From DTM to Launch](launch-reference/upgrade-from-dtm-to-launch/README.md)
+  * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
+  * [Upgrade Preparation Guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
+  * [Link DTM Embed Code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
+  * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
+
+## Launch Tutorials
+
+* [Tutorials](launch-tutorials/contributing/README.md)
+  * [Companies](launch-tutorials/contributing/companies.md)
+  * [Hosts](launch-tutorials/contributing/hosts.md)
+  * [Data Elements](launch-tutorials/contributing/data-elements.md)
+  * [Environments](launch-tutorials/contributing/environments.md)
+  * [Extensions](launch-tutorials/contributing/extensions.md)
+  * [Properties](launch-tutorials/contributing/properties.md)
+  * [Publishing](launch-tutorials/contributing/publishing.md)
+  * [Rules](launch-tutorials/contributing/rules.md)
+  * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
+  * [Example Tutorial](launch-tutorials/contributing/template.md)
+
+## Extension Reference
+
+* [Adobe Extensions](extension-reference/web/README.md)
+  * [Adobe Analytics Extension](extension-reference/web/adobe-analytics-extension/README.md)
+    * [Adobe Analytics Release Notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
+  * [Adobe Media Analytics for Audio and Video Extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/README.md)
+    * [Adobe Media Analytics for Audio and Video Release Notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+  * [Adobe Audience Manager Extension](extension-reference/web/adobe-audience-manager-extension.md)
+  * [Adobe ContextHub Extension](extension-reference/web/adobe-contexthub-extension.md)
+  * [Adobe Privacy Extension](extension-reference/web/adobe-privacy-extension.md)
+  * [Adobe Target Extension](extension-reference/web/adobe-target-extension/README.md)
+    * [Adobe Target Release Notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
+  * [Adobe Target v2 Extension](extension-reference/web/adobe-target-extension-v2.md)
+  * [Core Extension](extension-reference/web/core-extension/README.md)
+    * [Core Release Notes](extension-reference/web/core-extension/core-release-notes.md)
+  * [Experience Cloud ID Service Extension](extension-reference/web/experience-cloud-id-service-extension/README.md)
+    * [Experience Cloud ID Release Notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
+  * [Adobe Experience Platform Extension](extension-reference/web/adobe-experience-platform-extension.md)
+* [Third-Party Extensions](extension-reference/3rd-party-extensions.md)
+
+-->
 
 <!-- Old sample TOC
 

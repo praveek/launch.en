@@ -184,12 +184,12 @@ See [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [http://www.google.com](http://www.google.com).
+* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
 * If there are some links that you want to track on your SPA, use the Always Track section.
 
 For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.
 
-The "about" page is the only outbound link that is tracked. Any other links on the page \(for example, [http://www.google.com](http://www.google.com)\) are not tracked.
+The "about" page is the only outbound link that is tracked. Any other links on the page \(for example, [https://www.google.com](https://www.google.com)\) are not tracked.
 
 Note that these two options are mutually exclusive.
 
@@ -265,7 +265,7 @@ The Analytics extension provides the following actions:
 * [Send Beacon](adobe-analytics-extension.md#send-beacon)
 * [Clear Variables](adobe-analytics-extension.md#clear-variables)
 
-### Set Variables
+### Set Variables {#set-variables}
 
 Important: Using a "set variables" action won't send the beacon. You must use the "send beacon" action.
 
@@ -337,7 +337,7 @@ Use the editor to specify your custom page code.
 1. Type the custom code.
 1. Click Save.
 
-### Send Beacon
+### Send Beacon {#send-beacon}
 
 #### Increment a pageview - s.t\(\)
 
@@ -363,7 +363,7 @@ Select if you do not want to increment a pageview.
    * Exit Link: Specify the destination URL.
 1. Click Keep Changes.
 
-### Clear Variables
+### Clear Variables {#clear-variables}
 
 There are no configuration options if the Clear Variables action type is selected.
 

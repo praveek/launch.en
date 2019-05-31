@@ -25,7 +25,7 @@ Libraries are approved or rejected as a whole. You cannot approve or reject indi
 
 A library moves between several environments as it makes its way through the publishing workflow.
 
-## Create a library
+## Create a library {#create-a-library}
 
 1. Open the Publishing tab.
 
@@ -73,7 +73,7 @@ Once a library is created, use the drop down menu for that library to select one
 
 ![](/help/assets/library-menu.png)
 
-## Add to a library
+## Add to a library {#add-to-a-library}
 
 1. Install the [extensions](../managing-resources/extensions/overview.md) you want to add.
 1. Create the [data elements](../managing-resources/data-elements.md) and rules you want to add.

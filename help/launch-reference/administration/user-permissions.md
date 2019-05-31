@@ -16,7 +16,7 @@ To work in Launch, there are two user permissions to understand:
 
 This article examines these different permissions types in detail.
 
-### Experience Cloud permissions
+### Experience Cloud permissions {#experience-cloud-permissions}
 
 This section discusses factors that are important to understand when using Launch. See [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html) for a comprehensive view of Experience Cloud permissions.
 
@@ -63,7 +63,7 @@ An individual user's total permissions are determined by their total membership 
 
 For example: Product Profile A grants Henry the Develop right for Property 1. Product Profile B grants Henry the Publish right for Property 2. Henry can Develop in Property 1 and Publish in Property 2, but he cannot Publish in Property 1 or Develop in Property 2 because he has not been granted explicit rights to do so.
 
-## Rights scenarios
+## Rights scenarios {#rights-scenarios}
 
 Different companies have different needs when creating new Product Profiles. These needs vary based on company size, org structure, number of sites, number of people involved in managing tags, and so on.
 
@@ -203,7 +203,7 @@ Assign the rights you want to be part of your group definition. Open the Rights 
 
 ![](/help/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the + Add All button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights details](user-permissions.md#rights-details). Click Save when finished. If Save is not available, you didn't make any changes and the profile won't give you any rights.
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the + Add All button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](user-permissions.md#rights-scenarios). Click Save when finished. If Save is not available, you didn't make any changes and the profile won't give you any rights.
 
 First, assign Property Rights:
 
