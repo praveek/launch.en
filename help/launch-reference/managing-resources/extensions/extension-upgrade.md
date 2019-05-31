@@ -24,7 +24,7 @@ There is currently no capability to downgrade your extension to a previous versi
 
 ## Upgrade Process
 
-Installing an upgrade is pretty much the same as [installing the extension](./#add-a-new-extension) for the first time.
+Installing an upgrade is pretty much the same as [installing the extension](#add-a-new-extension) for the first time.
 
 1. Click the Upgrade button to go to the Extension Configuration screen.
 1. Make any configuration changes you'd like to make.

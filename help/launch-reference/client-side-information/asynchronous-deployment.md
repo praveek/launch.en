@@ -36,7 +36,7 @@ First, because the Launch library can finish loading before or after the bottom 
 
 Second, the Launch library can finish loading before or after the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event \(DOM Ready\) has occurred.
 
-Because of these two points, it's worth demonstrating how the [Library Loaded](../../extension-reference/web/core-extension/#library-loaded-page-top), [Page Bottom](../../extension-reference/web/core-extension/#page-bottom), [DOM Ready](../../extension-reference/web/core-extension/#page-bottom), and [Window Loaded](../../extension-reference/web/core-extension/#window-loaded) event types from the Core extension function when loading a Launch library asynchronously.
+Because of these two points, it's worth demonstrating how the [Library Loaded](../../extension-reference/web/core-extension/overview.md#library-loaded-page-top), [Page Bottom](../../extension-reference/web/core-extension/overview.md#page-bottom), [DOM Ready](../../extension-reference/web/core-extension/overview.md#page-bottom), and [Window Loaded](../../extension-reference/web/core-extension/overview.md#window-loaded) event types from the Core extension function when loading a Launch library asynchronously.
 
 Let's assume your Launch property contains the following four rules:
 

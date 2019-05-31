@@ -254,9 +254,9 @@ This section describes the action types available in the Analytics extension.
 
 The Analytics extension provides the following actions:
 
-* [Set Variables](./#set-variables)
-* [Send Beacon](./#send-beacon)
-* [Clear Variables](./#clear-variables)
+* [Set Variables](#set-variables)
+* [Send Beacon](#send-beacon)
+* [Clear Variables](#clear-variables)
 
 ### Set Variables
 

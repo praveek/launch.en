@@ -19,7 +19,7 @@ At the end of this lesson, you will be able to:
 
 ## Prerequisites
 
-To complete the exercises in this tutorial, you must first complete the exercises in [Configure Launch](../general-launch-configuration-and-settings/) and [Add the ID Service](idservice-save.md).
+To complete the exercises in this tutorial, you must first complete the exercises in [Configure Launch](../general-launch-configuration-and-settings/overview.md) and [Add the ID Service](idservice-save.md).
 
 ## Add the Target prehiding snippet
 

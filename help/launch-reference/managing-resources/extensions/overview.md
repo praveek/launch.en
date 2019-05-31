@@ -14,7 +14,7 @@ Extensions determine the elements that are available when building properties, r
 
 Use the links at the top of the Extensions list to view installed extensions, the extensions catalog, or updates.
 
-Select an extension, then click Configure to view and change the extension's settings. See [Add a new extension](./#add-a-new-extension) for information about extension options.
+Select an extension, then click Configure to view and change the extension's settings. See [Add a new extension](#add-a-new-extension) for information about extension options.
 
 Important: Changes do not take effect until they are [published](../../publishing/).
 
@@ -42,7 +42,7 @@ Click Extensions to see all your installed extensions. You can also use the cata
 
 See [Extensions Reference](./) for details about the Adobe-owned extensions.
 
-## Add a new extension
+## Add a new extension {#add-a-new-extension}
 
 Launch is highly extendible. Extensions add core functionality to Launch.
 
