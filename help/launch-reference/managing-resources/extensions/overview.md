@@ -40,7 +40,7 @@ The Extensions page provides three views:
 
 Click Extensions to see all your installed extensions. You can also use the catalog to see a list of all available extensions and which extensions have updates available.
 
-See [Extensions Reference](./) for details about the Adobe-owned extensions.
+See [Extensions Reference](/help/extension-reference/web/overview.md) for details about the Adobe-owned extensions.
 
 ## Add a new extension {#add-a-new-extension}
 

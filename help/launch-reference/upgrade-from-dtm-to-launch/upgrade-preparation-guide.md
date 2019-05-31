@@ -68,7 +68,7 @@ The Upgrade Assistant creates this rule in Launch, as long as an Analytics tool 
 
 Analytics tools that don't define a production report suite are not copied to Launch.
 
-Evars that don't match the pattern of **eVar\#\#** are not copied to Launch.
+Evars that don't match the pattern of **`eVar\#\#`** are not copied to Launch.
 
 ### Experience Cloud ID Tool {#experience-cloud-id-tool}
 

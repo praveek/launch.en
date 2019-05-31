@@ -6,7 +6,7 @@ This document explains the reasons you may want to do that work and what you nee
 
 ## Why would I link to Experience Cloud?
 
-The most common reason to link your DTM account to the Experience Cloud is in preparation for a [migration to Launch](./). Launch permissions are managed through the Experience Cloud and migrations can only be performed between DTM and Launch when company accounts are linked to the same Experience Cloud **Organization**.
+The most common reason to link your DTM account to the Experience Cloud is in preparation for a [migration to Launch](/help/launch-reference/upgrade-from-dtm-to-launch/overview.md). Launch permissions are managed through the Experience Cloud and migrations can only be performed between DTM and Launch when company accounts are linked to the same Experience Cloud **Organization**.
 
 Linking can also be a good idea if you want to improve your governance. When linked to the Experience Cloud, all permissions for Adobe products are managed in a central place. If you have a new employee \(or need to remove permissions for an old one\), there's a single place to take care of that for all Adobe products.
 
