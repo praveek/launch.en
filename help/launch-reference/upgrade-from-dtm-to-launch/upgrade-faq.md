@@ -8,11 +8,11 @@ When the upgrade is complete, a new property appears in Launch and a link to the
 
 The upgrade does not make any changes to your DTM property.
 
-## How should I prepare to upgrade? {#how-do-i-start-the-upgrade}
+## How should I prepare to upgrade? {#how-do-i-prepare-to-upgrade}
 
 Not everything you can do in DTM is compatible with Launch. A list of differences is available in the [preparation guide](upgrade-preparation-guide.md). Make any necessary changes to your DTM property before you attempt the upgrade.
 
-## How do I start the upgrade?
+## How do I start the upgrade? {#how-do-i-start-the-upgrade}
 
 Log in to DTM through the Experience Cloud, select your DTM property, then click **Upgrade to Launch**.
 

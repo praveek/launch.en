@@ -113,40 +113,40 @@ Here are a few descriptions of different roles that could apply in your organiza
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">The Manager</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td>The Manager</td>
+      <td>Auto-include</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="text-align:left">The Marketer</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left">Manage Properties</td>
-      <td style="text-align:left">Develop
+      <td>The Marketer</td>
+      <td>Auto-include</td>
+      <td>Manage Properties</td>
+      <td>Develop
         <br />Manage Extensions</td>
     </tr>
     <tr>
-      <td style="text-align:left">The Mobile App Developer</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left">Manage Properties</td>
-      <td style="text-align:left">Develop
+      <td>The Mobile App Developer</td>
+      <td>Auto-include</td>
+      <td>Manage Properties</td>
+      <td>Develop
         <br />Manage Extensions</td>
     </tr>
     <tr>
-      <td style="text-align:left">The IT Team</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
+      <td>The IT Team</td>
+      <td>Auto-include</td>
+      <td></td>
+      <td>
         <p>Approve</p>
         <p>Publish</p>
         <p>Manage Environments</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">The Jack of All Trades</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left">Manage Properties</td>
-      <td style="text-align:left">
+      <td>The Jack of All Trades</td>
+      <td>Auto-include</td>
+      <td>Manage Properties</td>
+      <td>
         <p>Develop</p>
         <p>Approve</p>
         <p>Publish</p>
@@ -155,13 +155,13 @@ Here are a few descriptions of different roles that could apply in your organiza
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">The Extension Developer</td>
-      <td style="text-align:left">Auto-include</td>
-      <td style="text-align:left">
+      <td>The Extension Developer</td>
+      <td>Auto-include</td>
+      <td>
         <p>Manage Properties</p>
         <p>Develop Extensions</p>
       </td>
-      <td style="text-align:left">Develop</td>
+      <td>Develop</td>
     </tr>
   </tbody>
 </table>## Assigning user permissions
