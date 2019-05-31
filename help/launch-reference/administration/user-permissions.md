@@ -102,69 +102,14 @@ Here are a few descriptions of different roles that could apply in your organiza
 * The IT Team: Doesn't actually modify any tags, but they have full control over the staging and production environments and what is in them.
 * Jack of All Trades: Does everything.
 
-<table>
-  <thead>
-    <tr>
-      <th>Role</th>
-      <th>Properties</th>
-      <th>Company Rights</th>
-      <th>Property Rights</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>The Manager</td>
-      <td>Auto-include</td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>The Marketer</td>
-      <td>Auto-include</td>
-      <td>Manage Properties</td>
-      <td>Develop
-        <br />Manage Extensions</td>
-    </tr>
-    <tr>
-      <td>The Mobile App Developer</td>
-      <td>Auto-include</td>
-      <td>Manage Properties</td>
-      <td>Develop
-        <br />Manage Extensions</td>
-    </tr>
-    <tr>
-      <td>The IT Team</td>
-      <td>Auto-include</td>
-      <td></td>
-      <td>
-        <p>Approve</p>
-        <p>Publish</p>
-        <p>Manage Environments</p>
-      </td>
-    </tr>
-    <tr>
-      <td>The Jack of All Trades</td>
-      <td>Auto-include</td>
-      <td>Manage Properties</td>
-      <td>
-        <p>Develop</p>
-        <p>Approve</p>
-        <p>Publish</p>
-        <p>Manage Extensions</p>
-        <p>Manage Environments</p>
-      </td>
-    </tr>
-    <tr>
-      <td>The Extension Developer</td>
-      <td>Auto-include</td>
-      <td>
-        <p>Manage Properties</p>
-        <p>Develop Extensions</p>
-      </td>
-      <td>Develop</td>
-    </tr>
-  </tbody>
-</table>
+|Role|Properties|Company Rights|Property Rights|
+|--- |--- |--- |--- |
+|The Manager|Auto-include|||
+|The Marketer|Auto-include|Manage Properties|Develop<br>Manage Extensions|
+|The Mobile App Developer|Auto-include|Manage Properties|Develop<br>Manage Extensions|
+|The IT Team|Auto-include|Approve<br>Publish<br>Manage Environments|
+|The Jack of All Trades|Auto-include|Manage Properties|Develop<br>Approve<br>Publish<br>Manage Extensions<br>Manage Environments|
+|The Extension Developer|Auto-include|Manage Properties<br>Develop Extensions|Develop|
 
 ## Assigning user permissions
 
@@ -197,17 +142,17 @@ Click Launch Admin Console.
 
 ![](/help/assets/launch-admin-console-button.png)
 
-Click the Launch, by Adobe - %Company Name% card.
+Click the Launch, by Adobe - `%Company Name%` card.
 
 ![](/help/assets/launch-card.png)
 
-You can also click Products in the top nav, then select Launch, by Adobe - %Company Name% from the left nav.
+You can also click Products in the top nav, then select Launch, by Adobe - `%Company Name%` from the left nav.
 
 ![](/help/assets/products-select-launch.png)
 
 If you do not see a Launch, by Adobe card and or if Launch, by Adobe does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
 
-After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - %Company Name%.
+After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - `%Company Name%`.
 
 ![](/help/assets/product-profiles.png)
 
