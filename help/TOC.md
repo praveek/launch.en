@@ -34,7 +34,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Publish your Launch property](getting-started/validate-and-publish.md)
 * Launch Reference {#launch-reference}
   * [Managing Resources](launch-reference/managing-resources/overview.md)
-    Extensions {#extensions}
+    * Extensions {#extensions}
       * [Extensions Overview](launch-reference/managing-resources/extensions/overview.md)
       * [Extensions Upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
     * [Data elements](launch-reference/managing-resources/data-elements.md)
