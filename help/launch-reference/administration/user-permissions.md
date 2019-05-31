@@ -105,10 +105,10 @@ Here are a few descriptions of different roles that could apply in your organiza
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Role</th>
-      <th style="text-align:left">Properties</th>
-      <th style="text-align:left">Company Rights</th>
-      <th style="text-align:left">Property Rights</th>
+      <th>Role</th>
+      <th>Properties</th>
+      <th>Company Rights</th>
+      <th>Property Rights</th>
     </tr>
   </thead>
   <tbody>
@@ -164,7 +164,9 @@ Here are a few descriptions of different roles that could apply in your organiza
       <td>Develop</td>
     </tr>
   </tbody>
-</table>## Assigning user permissions
+</table>
+
+## Assigning user permissions
 
 The steps below guide you through the process of assigning permissions. You can also view this process [on video](https://www.youtube.com/watch?v=ba28BHX8cwU).
 
