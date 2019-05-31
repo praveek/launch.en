@@ -94,6 +94,8 @@ Here is an example:
 
 You should provide support for the events, actions and conditions you published to Launch at runtime.
 
+<!--the following three anchor links go nowhere-->
+
 ### Publishing a shared state `condition` at runtime
 
 Any shared state published by your extension can be used as a `condition` when configuring a rule in Launch. To learn how you can publish a shared state, see [Updating the Shared State](#updating-the-shared-state).
@@ -105,5 +107,3 @@ Any event dispatched by your extension can be used as a `condition` when configu
 ### Handling an event `action` at runtime
 
 Any event your extension has registered a listener for can be used as an `action` when configuring a rule in Launch. To learn how you can register an listener for your events, see [Listening for Events](#event-listeners).
-
-<!--these anchor links go nowhere-->

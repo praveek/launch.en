@@ -11,7 +11,7 @@ The Core extension is the default extension released with Launch.
 
 Use this reference for information about the options available when using this extension to build a rule.
 
-## Core extension event types
+## Core extension event types {#core-extension-event-types}
 
 This topic describes the event types available in the Core extension.
 
@@ -201,13 +201,13 @@ Trigger when the DOM is ready and the user can interact with the page
 
 There are no settings for this event type.
 
-#### Library Loaded \(Page Top\)
+#### Library Loaded \(Page Top\) {#library-loaded-page-top}
 
 Trigger the event as soon as the Launch library is loaded.
 
 There are no settings for this event type.
 
-#### Page Bottom
+#### Page Bottom {#page-bottom}
 
 Trigger the event once `_satellite.pageBottom();` has been called. When loading the Launch library asynchronously, this event type should not be used.
 
@@ -282,7 +282,7 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 1. Type the custom code.
 1. Click Save.
 
-#### Value Comparison
+#### Value Comparison {#value-comparison}
 
 Compares two values to determine whether this condition returns true.
 

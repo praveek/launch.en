@@ -11,7 +11,7 @@ The Core extension is the default extension released with Launch.
 
 Use this reference for information about the options available when using this extension to build a rule.
 
-## Core extension event types
+## Core extension event types {#core-extension-event-types}
 
 This topic describes the event types available in the Core extension.
 
@@ -207,13 +207,13 @@ Trigger the event when the page loads.
 
 There are no settings for this event type.
 
-#### Page Bottom
+#### Page Bottom {#page-bottom}
 
 Trigger the event if the user reaches the bottom of the page
 
 There are no settings for this event type.
 
-### Options
+### Options {#options}
 
 Each of the form event types uses the following settings:
 

@@ -39,7 +39,7 @@ This section describes the action types available in the Adobe Experience Platfo
 
 The extension provides a [Send Beacon](adobe-experience-platform-extension.md#send-beacon) action type.
 
-### Send Beacon
+### Send Beacon {#send-beacon}
 
 This is the action type you will use in order to send data to the Adobe Experience Platform.
 

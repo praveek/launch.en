@@ -17,7 +17,7 @@ Strict security policies can be problematic for Launch implementations because L
 
 If you have a strict CSP, these dynamically loaded scripts are blocked by the browser and your actions will not execute as you'd expect.
 
-## Options
+## Options {#options}
 
 ### unsafe-inline
 

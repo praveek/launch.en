@@ -37,9 +37,9 @@ Once Launch rights have been added to your Adobe ID, you need to log in to Launc
 
 Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags.
 
-For more about creating properties, see [Create a property](../launch-reference/administration/companies-and-properties.md#create-a-property).
+For more about creating properties, see [Create a property](../launch-reference/administration/companies-and-properties.md).
 
-## 4. Install extensions {#install-extension}
+## 4. Install extensions {#install-extensions}
 
 An extension is an integration built by Adobe or an Adobe partner that adds new and endless options for the tags that you can deploy to your sites. If you think of Launch as an operating system, extensions are the apps that you install so Launch can do the things you need it to do.
 

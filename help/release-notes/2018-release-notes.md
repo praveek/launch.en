@@ -295,7 +295,7 @@ Important: Launch developers who do not have "-development" or "-staging" in the
 
 ### Features
 
-#### Rule ordering
+#### Rule ordering {#rule-ordering}
 
 Events in rules can now be assigned an order. When an event is triggered, any rules that use that event are executed in the order defined. Lower numbers run first \(1 comes before 10\). See [Rule ordering](2018-release-notes.md#rule-ordering) for more information.
 

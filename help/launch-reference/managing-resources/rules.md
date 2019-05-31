@@ -100,7 +100,7 @@ When you edit or update an existing rule, a new version of the rule is created, 
 
 When creating or editing rules, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed.
 
-## Rule ordering
+## Rule ordering {#rule-ordering}
 
 Rule ordering allows you to control the order of execution for rules that share an event.
 

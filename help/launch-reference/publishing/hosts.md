@@ -16,7 +16,7 @@ Hosts define available destinations where the builds can be delivered. They come
 
 The same host can be used for multiple environments within a property.
 
-## Managed by Adobe
+## Managed by Adobe {#managed-by-adobe}
 
 This host type is the default selection and is simplest to manage.
 
@@ -34,7 +34,7 @@ When you create a new property through the Launch UI, a default host of this typ
 1. Select Managed by Adobe as the host type.
 1. Click Save.
 
-## SFTP
+## SFTP {#sftp}
 
 If you do not want your builds delivered to Akamai, your other option is to have Launch deliver builds to a secured SFTP server that you host.
 

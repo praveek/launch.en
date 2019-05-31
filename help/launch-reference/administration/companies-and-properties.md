@@ -51,7 +51,7 @@ With one property that contains multiple domains or applications, you may eventu
 
 Multiple Launch companies are not recommended. Adobe strongly suggests multiple properties in a single company.
 
-## Best practices for planning properties
+## Best practices for planning properties {#best-practices-for-planning-properties}
 
 Each implementation can be very different in Launch, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
 
