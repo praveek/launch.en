@@ -6,7 +6,7 @@ Data Elements are an incredibly useful and necessary tool in Launch. Check out t
 
 // Embed video here. Link: [https://www.youtube.com/watch?v=zf05jwkDR4c](https://www.youtube.com/watch?v=zf05jwkDR4c)
 
-{% embed url="https://www.youtube.com/watch?v=zf05jwkDR4c" %}
+>[!VIDEO](https://www.youtube.com/watch?v=zf05jwkDR4c)
 
 ## About Rudi Shumpert
 
