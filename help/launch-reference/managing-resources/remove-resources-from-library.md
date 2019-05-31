@@ -1,3 +1,10 @@
+---
+title: Remove resources from a library
+seo-title: Remove resources from a library in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Remove resources from a library
 
 When you no longer want a resource to have an effect inside a build, you must remove it from the library that contains that resource and create a new build.

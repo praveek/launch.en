@@ -1,3 +1,10 @@
+---
+title: Deleting resources
+seo-title: Deleting resources in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Deleting resources
 
 Deleting a resource is a permanent removal of that resource from Launch. If you still want the resource to appear in Launch, but not be in your library, see [Remove Resources from a Library](remove-resources-from-library.md).

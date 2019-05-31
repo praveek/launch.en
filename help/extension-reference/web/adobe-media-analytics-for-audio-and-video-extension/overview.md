@@ -1,3 +1,10 @@
+---
+title: Adobe Media Analytics for Audio and Video Extension
+seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Adobe Media Analytics for Audio and Video Extension
 
 Use this documentation for information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension \(Media Analytics extension\). Included are the options available when using this extension to build a rule, along with examples and links to samples.

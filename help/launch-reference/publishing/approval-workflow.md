@@ -1,3 +1,10 @@
+---
+title: Approval Workflow
+seo-title: Approval Workflow in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Approval Workflow
 
 The Approval workflow refers to the process of creating libraries, testing builds, and approving them for production.

@@ -1,3 +1,10 @@
+---
+title: Switch Environments with the Experience Cloud Debugger
+seo-title: Switch Environments with the Experience Cloud Debugger in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Switch Environments with the Experience Cloud Debugger
 
 This tutorial shows how to use the [Adobe Experience Cloud Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) to replace the Launch property hardcoded on the [We.Retail demo site](https://aem.enablementadobe.com/content/we-retail/us/en.html) with your own property.
@@ -30,7 +37,7 @@ Note that the currently implemented Launch property is shown on the Summary tab.
 
 ![](/help/assets/switchenvironments-debuggeronweretail%20%282%29.png)
 
-Open the Tools tab, then click **Adobe Launch &gt; Dynamically Insert Launch &gt; Embed Code** to open the text input field:
+Open the Tools tab, then click **Adobe Launch** > **Dynamically Insert Launch &gt; Embed Code** to open the text input field:
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 

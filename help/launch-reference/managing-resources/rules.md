@@ -1,3 +1,10 @@
+---
+title: Rules
+seo-title: Rules in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Rules
 
 Launch is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or client-side code you identified.

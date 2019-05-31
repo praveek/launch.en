@@ -1,3 +1,10 @@
+---
+title: Upgrade FAQ
+seo-title: Upgrade FAQ in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Upgrade FAQ
 
 ## What does the Launch Upgrade do? {#what-does-the-launch-upgrade-do}

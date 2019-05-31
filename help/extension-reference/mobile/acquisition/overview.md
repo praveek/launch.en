@@ -1,3 +1,10 @@
+---
+title: Adobe Acquisition
+seo-title: Adobe Acquisition in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Adobe Acquisition
 
 To configure the Acquistion extension in Adobe Launch, see the following sections:

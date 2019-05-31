@@ -1,3 +1,10 @@
+---
+title: Environments
+seo-title: Environments in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Environments
 
 Extensions, rules, and data elements are building blocks. When you want to make your application do something, these building blocks are added to a Library. This Library is then built to produce the actual artifacts that are used by your application.

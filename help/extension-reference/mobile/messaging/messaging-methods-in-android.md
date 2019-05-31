@@ -1,3 +1,10 @@
+---
+title: Messaging Methods in Android
+seo-title: Messaging Methods in Android in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Messaging Methods in Android
 
 **Important**: The Messaging extension is currently available **only** for Android.

@@ -1,3 +1,10 @@
+---
+title: Client-side information
+seo-title: Client-side information in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Client-side information
 
 This section contains information that is useful when managing client-side operations of Launch.

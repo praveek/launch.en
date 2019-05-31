@@ -1,3 +1,10 @@
+---
+title: Interacting with rules
+seo-title: Interacting with rules in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Interacting with rules
 
 Rules are defined in the Launch interface and can include `data elements`, `events`, `conditions` and `actions` provided by extensions.

@@ -1,3 +1,10 @@
+---
+title: Events Dispatched by Messaging
+seo-title: Events Dispatched by Messaging in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Events Dispatched by Messaging
 
 ## Analytics Content Request

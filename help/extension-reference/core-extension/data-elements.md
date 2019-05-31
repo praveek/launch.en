@@ -1,3 +1,10 @@
+---
+title: Data Elements
+seo-title: Data Elements in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Data Elements
 
 Data elements are the building blocks for your data dictionary \(or data map\). Use data elements to collect, organize, and deliver data across marketing and ad technology.

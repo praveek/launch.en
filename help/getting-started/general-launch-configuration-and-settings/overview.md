@@ -1,3 +1,10 @@
+---
+title: Configure Launch
+seo-title: Configure Adobe Launch 
+description: 
+seo-description: 
+---
+
 # Configure Launch
 
 This lesson gets you familiar with some of the basic components within Launch–properties, hosts, environments, data elements, and rules.

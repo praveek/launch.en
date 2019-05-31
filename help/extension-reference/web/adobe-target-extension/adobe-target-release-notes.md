@@ -1,3 +1,10 @@
+---
+title: Adobe Target Release Notes
+seo-title: Adobe Target Release Notes in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Adobe Target Release Notes
 
 ## May 4, 2019

@@ -1,3 +1,10 @@
+---
+title: Adobe Acquisition Extension for Mobile in iOS
+seo-title: Adobe Acquisition Extension for Mobile in iOS in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Adobe Acquisition Extension for Mobile in iOS
 
 These tracking links can drive users to app stores, app deep links, and interstitials, which can be correlated to in-app behavior. A marketer can create separate links that route users to different platforms, such as iOS, Android, and so on.

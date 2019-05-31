@@ -1,3 +1,10 @@
+---
+title: Hosts
+seo-title: Hosts in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Hosts
 
 Extensions, rules, and data elements are building blocks. When you want to make your application do something, these building blocks are added to libraries and then a library is "built" into a build. Those builds are delivered to a hosted location.

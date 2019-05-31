@@ -1,3 +1,10 @@
+---
+title: Builds
+seo-title: Builds in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Builds
 
 A build is the set of files containing all the code that runs on the client device.

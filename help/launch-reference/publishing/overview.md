@@ -1,3 +1,10 @@
+---
+title: Publishing
+seo-title: Publishing in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Publishing
 
 This section contains information to help you understand the publishing process for Web extensions.

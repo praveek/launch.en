@@ -1,3 +1,10 @@
+---
+title: Create a Property
+seo-title: Create a Property in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Create a Property
 
 A property is a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly.

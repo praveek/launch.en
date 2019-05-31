@@ -1,3 +1,10 @@
+---
+title: Upgrade Preparation Guide
+seo-title: Upgrade Preparation Guide in Adobe Launch
+description: 
+seo-description: 
+---
+
 # Upgrade Preparation Guide
 
 Launch, by Adobe, is an entirely different system than DTM. Conceptually, they achieve the same goal, but the way they do so is different.
