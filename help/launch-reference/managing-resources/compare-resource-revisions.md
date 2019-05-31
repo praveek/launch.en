@@ -16,12 +16,11 @@ When you initiate a comparison, the default view shows the latest version on the
 
 On the left, you can choose from any existing revisions to compare to **Latest**.
 
-![Comparing versions of the Analytics extension.](/help/assets/compare-interpret-extension.png)
+![Comparing versions of the Analytics extension](/help/assets/compare-interpret-extension.png)
 
 Click **Use These Changes** to copy the settings from your selected revision \(left\) to the latest version \(right\).  This copies the settings from the old revision to the latest unsaved changes.  If you want these changes to stick, be sure to **Save** after exiting the Compare view.
 
-{% hint style="info" %}
->[!NOTE]  Individual resources can have both attributes and settings.  These settings are stored as a JSON block, which is a structured way to store data, but flexible enough that extension developers can put whatever they need to make their extensions do what they want.
+>[!TIP]  Individual resources can have both attributes and settings.  These settings are stored as a JSON block, which is a structured way to store data, but flexible enough that extension developers can put whatever they need to make their extensions do what they want.
 
 The initial release of Compare view displays settings in their raw form as JSON. Future enhancements will allow you to view versions in different ways, including detailed code comparisons and using the extension views provided by the extension developers.
 {% endhint %}
