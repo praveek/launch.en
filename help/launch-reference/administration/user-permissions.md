@@ -40,7 +40,7 @@ You can set the following property rights:
 * **Develop:** Grants the ability to create rules and data elements. You can also create libraries and build them in existing development environments. You can submit a library for approval when ready.  Most day-to-day tasks in Launch require this right.
 * **Approve:** Grants the ability to take a submitted library and build to the staging environment.  You can also approve a library for publishing once testing has been completed.
 * **Publish:** Grants the ability to publish approved libraries to the production environment.
-* **Manage Extensions:** Grants the abilities to install new extensions to a property, to modify the extension configuration for an already installed extension, and to delete an extension.  More information on extensions is available [here](../managing-resources/extensions/). This role typically belongs to IT or Marketing, depending on your organization.
+* **Manage Extensions:** Grants the abilities to install new extensions to a property, to modify the extension configuration for an already installed extension, and to delete an extension.  More information on extensions is available [here](../managing-resources/extensions/overview.md). This role typically belongs to IT or Marketing, depending on your organization.
 * **Manage Environments:** Grants the ability to create and modify environments. Read more about Environments [here](../publishing/environments.md). This role typically belongs to the IT group.
 
 #### Company rights

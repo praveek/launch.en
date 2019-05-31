@@ -27,13 +27,13 @@ The smaller files contain code and configuration for individual Actions that are
 
 The default file format for builds is a package of files that contain all the required code for your extensions, data elements, and rules to run in the way that you want them to.
 
-However, in certain cases, you might prefer a .zip archive of the files rather than the executable client-side code file. For example, you might want to create an archive if you host your build yourself and want to use the build in another deployment. If you provide anything in the self-hosted path to library field, you can save your environment. Along with your new code, a link to the archived download becomes available. Launch still builds your library and deploys it, but instead of deploying a bunch of code files, you can deploy a zip file to Akamai, and download it from assets.adobedtm.com/...
+However, in certain cases, you might prefer a .zip archive of the files rather than the executable client-side code file. For example, you might want to create an archive if you host your build yourself and want to use the build in another deployment. If you provide anything in the self-hosted path to library field, you can save your environment. Along with your new code, a link to the archived download becomes available. Launch still builds your library and deploys it, but instead of deploying a bunch of code files, you can deploy a zip file to Akamai, and download it from `assets.adobedtm.com/...`
 
 >[!NOTE]  Nothing exists in that location until you make a build.
 
 Regardless of file format, the build is always delivered to the location specified by the Host.
 
-To complete a build, select a library and click the Build option that is available at that level of the publishing process \(Build for Development, Build for Staging, and so on..
+To complete a build, select a library and click the Build option that is available at that level of the publishing process \(Build for Development, Build for Staging, and so on.
 
 ## Minification
 
@@ -60,4 +60,3 @@ If an extension developer provides minified code with their extension, Launch do
 For more information about minification, see [https://blog.stackpath.com/glossary/minification/](https://blog.stackpath.com/glossary/minification/).
 
 When performing a build, Launch will construct the unminified library first, then minify the entire library all at once.
-

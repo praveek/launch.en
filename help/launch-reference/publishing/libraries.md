@@ -68,7 +68,7 @@ Once a library is created, use the drop down menu for that library to select one
 
 ## Add to a library
 
-1. Install the [extensions](../managing-resources/extensions/) you want to add.
+1. Install the [extensions](../managing-resources/extensions/overview.md) you want to add.
 1. Create the [data elements](../managing-resources/data-elements.md) and rules you want to add.
 1. Open the Publishing tab.
 1. Select the [library](libraries.md) you want to change, then click Edit.
@@ -111,7 +111,7 @@ Libraries encapsulate a set of changes you'd like to make to your deployed code.
 You can save new and existing extensions, rules, and data elements directly to the library you're working on and, if desired, immediately kick off a build. You can also create a new library from the Active Library drop down.
 
 1. [Create a new library](libraries.md#create-a-library).
-1. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions/).
+1. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions/overview.md).
 1. Select your Active Library.
 1. Make your changes, then save and build the library.
 1. Test your changes, and repeat these steps as needed.
