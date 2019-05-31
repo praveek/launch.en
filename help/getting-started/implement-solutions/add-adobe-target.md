@@ -72,7 +72,7 @@ The Target extension consists of two main parts:
 
 This first exercise adds the extension and examines the configurations. Later exercises use the actions defined in this exercise.
 
-1. Go to **Extensions &gt; Catalog**, then type "Target" in the filter to quickly locate the Adobe Target extension.
+1. Go to **Extensions** > **Catalog**, then type "Target" in the filter to quickly locate the Adobe Target extension.
 1. Click **Install**.
 
    When you add the extension, it imports many of your at.js settings from the Target interface. One setting that is not imported is the Timeout, which is always 3000ms after adding the extension. For the tutorial, leave the default settings. Note that the at.js version that ships with the current version of the extension is shown on the left side of the screen.
@@ -99,8 +99,8 @@ You can use the All Pages - Library Loaded rule you created in "[Add a Data Elem
 
    ![](/help/assets/target-addloadtargetaction.png)
 
-1. Select **Extension &gt; Adobe Target**.
-1. Select **Action Type &gt; Load Target**.
+1. Select **Extension** > **Adobe Target**.
+1. Select **Action Type** > **Load Target**.
 1. Click **Keep Changes**.
 
 With the Load Target action added, at.js loads on the page. However, no Target requests fire until you add the Fire Global Mbox action.
@@ -111,8 +111,8 @@ With the Load Target action added, at.js loads on the page. However, no Target r
 
    ![](/help/assets/target-addglobalmboxaction.png)
 
-1. Select **Extension &gt; Adobe Target**.
-1. Select **Action Type &gt; Fire Global Mbox**.
+1. Select **Extension** > **Adobe Target**.
+1. Select **Action Type** > **Fire Global Mbox**.
 
    There are some configurations available for the global mbox related to whether to hide the page and CSS selector to use for prehiding. These settings work in conjunction with the prehiding snippet hard-coded on the page. Leave the default settings.
 
@@ -170,8 +170,8 @@ Add the Page Name data element that we created earlier in [Add a Data Element, a
 
    ![](/help/assets/target-addparamsaction.png)
 
-1. Select **Extension &gt; Adobe Target**.
-1. Select **Action Type &gt; Add Params to Global Mbox**.
+1. Select **Extension** > **Adobe Target**.
+1. Select **Action Type** > **Add Params to Global Mbox**.
 1. Enter pageName as the **Name**.
 1. Click the **Data Elements** icon to open the data element modal.
 1. Click the Page Name data element, then click **Select**.
@@ -265,7 +265,7 @@ The property token is implemented like an mbox parameter. Name the parameter `at
 
 Here is an optional exercise, if you would like to implement a property token in your Tutorial property:
 
-1. In a separate tab, open the Target user interface, go to **Setup &gt; Properties**, and identify the property that you want to use, then click the **&lt;/&gt;** \(or create a new property\).
+1. In a separate tab, open the Target user interface, go to **Setup** > **Properties**, and identify the property that you want to use, then click the **&lt;/&gt;** \(or create a new property\).
 1. Copy the at\_property value to your clipboard.
 
    ![](/help/assets/target-addatproperty-targetproperties.png)
@@ -323,7 +323,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
 1. Click **Rules** in the top navigation, then click **Add Data Element**.
 1. Name the data element Order Id.
-1. Select **Data Element Type &gt; JavaScript Variable**.
+1. Select **Data Element Type** > **JavaScript Variable**.
 1. Use `digitalData.cart.orderId` as the Path to Variable.
 1. Select the Clean Text option.
 1. Click **Save to Library and Build**.
@@ -332,7 +332,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
 1. Click **Add Data Element**.
 1. Name the data element Cart Amount.
-1. Select **Data Element Type &gt; JavaScript Variable**.
+1. Select **Data Element Type** > **JavaScript Variable**.
 1. Use `digitalData.cart.cartAmount` as the Path to Variable.
 1. Select the Clean Text option.
 1. Click **Save to Library and Build**.
@@ -341,7 +341,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
 1. Click **Add Data Element**.
 1. Name the data element Cart SKUs \(Target\).
-1. Select **Data Element Type &gt; Custom Code**. For Target, the skus must be a comma separated list.
+1. Select **Data Element Type** > **Custom Code**. For Target, the skus must be a comma separated list.
 
    This custom code reformats the data layer array into the proper format.
 
@@ -366,11 +366,11 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 1. Click **Rules** in the top navigation, then click **Add New Rule**.
 1. Name the rule Order Confirmation Page - Library Loaded - 60.
 1. Create an event.
-   1. Click **Events &gt; Add**, then select **Events &gt; Library Loaded \(Page Top\)**.
+   1. Click **Events** > **Add**, then select **Events** > **Library Loaded \(Page Top\)**.
    2. Change the Order to 60 so that it fires after the Load Target action \(which is in the All Pages - Library Loaded rule where Order is set to 50\).
    3. Click **Keep Changes**.
 1. Create a condition.
-   1. Click **Conditions &gt; Add**, then select **Condition Type &gt; Path Without Query String**.
+   1. Click **Conditions** > **Add**, then select **Condition Type** > **Path Without Query String**.
    2. For Path equals enter thank-you.html.
    3. Toggle on the Regex option to change the logic from equals to contains.
 
@@ -380,7 +380,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
    4. Click **Keep Changes**.
 1. Create an action.
-   1. Click **Actions &gt; Add**, then select **Action Type &gt; Custom Code**.
+   1. Click **Actions** > **Add**, then select **Action Type** > **Custom Code**.
    2. Click **Open Editor**.
    3. Paste the following code into the Edit Code modal:
 

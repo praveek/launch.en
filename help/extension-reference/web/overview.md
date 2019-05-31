@@ -1,15 +1,13 @@
 ---
-description: Documentation for the Launch Extensions provided by Adobe solutions.
----
-
----
 title: Adobe Extensions
 seo-title: Adobe Extensions in Adobe Launch
-description: 
-seo-description: 
+description: Documentation for the Launch Extensions provided by Adobe solutions.
+seo-description: Documentation for the Launch Extensions provided by Adobe solutions.
 ---
 
 # Adobe Extensions
+
+Documentation for the Launch Extensions provided by Adobe solutions.
 
 * [Analytics Extension](adobe-analytics-extension/overview.md)
 * [Adobe Media Analytics for Audio and Video Extension](adobe-media-analytics-for-audio-and-video-extension/overview.md)

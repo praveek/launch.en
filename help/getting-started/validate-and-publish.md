@@ -54,7 +54,7 @@ In a real-life scenario, the next step in the process would typically be to have
 
    ![](/help/assets/switchenvironments-opendebugger.png)
 
-1. Open the Tools tab and click **Adobe Launch &gt; Dynamically Insert Launch &gt; Embed Code** to open the text input field \(it might currently have the URL of your Development embed code\):
+1. Open the Tools tab and click **Adobe Launch** > **Dynamically Insert Launch &gt; Embed Code** to open the text input field \(it might currently have the URL of your Development embed code\):
 
    ![](/help/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
 

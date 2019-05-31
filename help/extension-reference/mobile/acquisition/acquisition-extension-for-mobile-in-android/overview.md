@@ -1,8 +1,4 @@
 ---
-description: ''
----
-
----
 title: Acquisition Extension for Mobile in Android
 seo-title: Acquisition Extension for Mobile in Android in Adobe Launch
 description: 

@@ -1,6 +1,6 @@
 ---
 title: Configure Launch
-seo-title: Configure Launch in Adobe Launch
+seo-title: Configure Adobe Launch 
 description: 
 seo-description: 
 ---

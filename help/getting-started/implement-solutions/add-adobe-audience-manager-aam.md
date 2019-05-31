@@ -62,11 +62,11 @@ A configuration in the Adobe Analytics Admin Console is required to start forwar
 
    ![](/help/assets/aam-logintoanalytics.png)
 
-1. From the top navigation in Analytics, choose **Admin &gt; Report Suites**, and from the list, select the report suites that you want to forward to Audience Manager.
+1. From the top navigation in Analytics, choose **Admin** > **Report Suites**, and from the list, select the report suites that you want to forward to Audience Manager.
 
    ![](/help/assets/aam-analyticsadminconsolereportsuites.png)
 
-1. From the Report Suites screen and with the report suites selected, choose **Edit Settings &gt; General &gt; Server-Side Forwarding**.
+1. From the Report Suites screen and with the report suites selected, choose **Edit Settings** > **General &gt; Server-Side Forwarding**.
 
    ![](/help/assets/aam-selectssfmenu.png)
 
@@ -81,7 +81,7 @@ Once this step has been completed, and if you have the Experience Cloud ID Servi
 
 ### Enable Server-Side Forwarding in Launch
 
-1. Go to **Extensions &gt; Installed** and click to configure the Analytics extension.
+1. Go to **Extensions** > **Installed** and click to configure the Analytics extension.
 
    ![](/help/assets/aam-configanalyticsextension.png)
 

@@ -1,8 +1,4 @@
 ---
-Testing: Spaghetti
----
-
----
 title: Managing Resources
 seo-title: Managing Resources in Adobe Launch
 description: 

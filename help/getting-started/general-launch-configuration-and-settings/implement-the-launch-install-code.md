@@ -1,6 +1,6 @@
 ---
 title: Add the Launch Embed Code
-seo-title: Add the Launch Embed Code in Adobe Launch
+seo-title: Add the Adobe Launch Embed Code
 description: 
 seo-description: 
 ---

@@ -35,9 +35,9 @@ The Analytics extension consists of two main parts:
   * Set Variables
   * Clear Variables
   * Send the Analytics Beacon
-* Go to **Extensions &gt; Catalog** and locate the Adobe Analytics extension.
+* Go to **Extensions** > **Catalog** and locate the Adobe Analytics extension.
 * Click **Install**.
-* Under **Library Management &gt; Report Suites**, enter the report suite IDs you want to use with each Launch environment.
+* Under **Library Management** > **Report Suites**, enter the report suite IDs you want to use with each Launch environment.
 
   In this tutorial, you can use one report suite for all environments, but in production you would want to use separate report suites, as shown in the image below:
 
@@ -45,7 +45,7 @@ The Analytics extension consists of two main parts:
 
   >[!NOTE]  Use the **Manage the library for me** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
 
-* Under **General &gt; Tracking Server**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
+* Under **General** > **Tracking Server**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
 
   Enter your SSL Tracking Server if your site supports `https://`.
 
@@ -64,8 +64,8 @@ You have already created an "All Pages - Library Loaded" rule in the Add a Data 
 
 1. Go to the **Rules** in the top navigation and then click **Add Rule**.
 1. Name the rule All Pages - DOM Ready.
-1. Click **Events &gt; Add** to open the Event Configuration screen.
-1. Select **Event Type &gt; DOM Ready**.
+1. Click **Events** > **Add** to open the Event Configuration screen.
+1. Select **Event Type** > **DOM Ready**.
 
    Note that the order of the rule is "50."
 
@@ -74,8 +74,8 @@ You have already created an "All Pages - Library Loaded" rule in the Add a Data 
 
    ![](/help/assets/analytics-ruleaddaction.png)
 
-1. Select **Extension &gt; Adobe Analytics**.
-1. Select **Action Type &gt; Send Beacon**.
+1. Select **Extension** > **Adobe Analytics**.
+1. Select **Action Type** > **Send Beacon**.
 1. Leave Tracking set to `s.t()`.
 
    >[!NOTE]  If you wanted to make an `s.tl()` call in a click-event rule, you could do that using the Send Beacon action as well.
@@ -124,7 +124,7 @@ First, you need to identify which pages are the Product Detail pages. You do tha
    ![](/help/assets/analytics-adddataelement.png)
 
 1. Name the data element Page Type.
-1. Select **Data Element Type &gt; JavaScript Variable**.
+1. Select **Data Element Type** > **JavaScript Variable**.
 1. Use `digitalData.page.category.type` as the Path to Variable.
 1. Check the **Clean Text** and **Force Lower Case** options.
 1. Click **Save to Library and Build**.
@@ -138,7 +138,7 @@ Next, collect the product ID of the current Product Detail page with a Data Elem
    ![](/help/assets/analytics-adddataelement.png)
 
 1. Name the data element "Product ID."
-1. Select **Data Element Type &gt; JavaScript Variable**.
+1. Select **Data Element Type** > **JavaScript Variable**.
 1. Use digitalData.product.0.productInfo.sku as the Path to Variable.
 1. Check the Force Lowercase Value option.
 1. Check the Clean Text option.
@@ -150,7 +150,7 @@ If you are familiar with Adobe Analytics implementations, you are probably alrea
 
 In this section you will add an extension created by Adobe Consulting for use on the Product Detail page.
 
-1. Go to the **Extensions &gt; Catalog** page.
+1. Go to the **Extensions** > **Catalog** page.
 1. Find the Adobe Analytics Product String extension by Adobe Consulting Services and click **Install**.
 
    ![](/help/assets/analytics-addproductstringextension.png)
@@ -167,11 +167,11 @@ Use your new data elements and extension to build your Product Detail page rule.
 #### Set the event type and order
 
 1. Go to the **Rules** section in the top navigation, click **Add Rule**, then name the rule "Product Details - DOM Ready."
-1. Click **Events &gt; Add** to open the Event Configuration screen.
+1. Click **Events** > **Add** to open the Event Configuration screen.
 
    ![](/help/assets/analytics-domreadyaddevent%20%281%29.png)
 
-1. Select **Event Type &gt; DOM Ready**.
+1. Select **Event Type** > **DOM Ready**.
 1. Set the **Order** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.
 
    ![](/help/assets/analytics-configdomreadyevent.png)
@@ -181,7 +181,7 @@ Use your new data elements and extension to build your Product Detail page rule.
 #### Set the conditions
 
 1. Under **Conditions**, click the **Plus** icon to open the Condition Configuration screen.
-1. Select **Condition Type &gt; Value Comparison**.
+1. Select **Condition Type** > **Value Comparison**.
 1. Use the data element picker, choose Page Type in the first field.
 1. Select **Contains** from the comparison operator drop down.
 1. In the next field, type product-page. This is the unique part of the page type value pulled from the data layer on PDPs.
@@ -190,8 +190,8 @@ Use your new data elements and extension to build your Product Detail page rule.
 #### Add an action
 
 1. Under Actions, click the **Add** icon to add a new action.
-1. Select **Extension &gt; Adobe Analytics**.
-1. Select **Action Type &gt; Set Variables**.
+1. Select **Extension** > **Adobe Analytics**.
+1. Select **Action Type** > **Set Variables**.
 1. Set **eVar1** as product detail page.
 1. Set **event1**, leaving the optional values blank.
 
@@ -207,9 +207,9 @@ Use your new data elements and extension to build your Product Detail page rule.
 
    ![](/help/assets/analytics-pdpaddproductstringaction.png)
 
-1. Select **Extension &gt; Adobe Analytics Product String**.
-1. Select **Action Type &gt; Set s.products**.
-1. Select **Action Type &gt; Set Variables**.
+1. Select **Extension** > **Adobe Analytics Product String**.
+1. Select **Action Type** > **Set s.products**.
+1. Select **Action Type** > **Set Variables**.
 1. In the **Analytics E-commerce Event** section, select **prodView**.
 1. In the **Data layer variables for product data** section, use the Data Element picker to choose the Product ID data element.
 1. Click **Keep Changes**.
@@ -247,11 +247,11 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
 1. Select **Rules** from the top navigation and click **Add Rule**.
 1. Name the rule "Homepage - New Arrivals enters Viewport."
-1. Click **Events &gt; Add** to open the Event Configuration screen.
+1. Click **Events** > **Add** to open the Event Configuration screen.
 
    ![](/help/assets/analytics-newarrivalsruleadd2.png)
 
-1. Select **Event Type &gt; Enters Viewport**.
+1. Select **Event Type** > **Enters Viewport**.
 
    This brings up a field where you enter the CSS selector that identifies the item on your page that should trigger the rule when becomes visible in the browser.
 
@@ -261,7 +261,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
    This is near the section you want to be visible.
 
 1. In that area of the page, possibly right below the selected section, locate the `&lt;div&gt;` element with `class="we-productgrid aem-GridColumn aem-GridColumn--default--12"`.
-1. Right-click on this element and select **Copy &gt; Copy Selector**
+1. Right-click on this element and select **Copy** > **Copy Selector**
 
    ![](/help/assets/analytics-copyelementselector.png)
 
@@ -274,7 +274,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 **Create a condition**
 
 1. Under Conditions, click the **Add** icon to add a new condition.
-1. Select **Condition Type &gt; Value Comparison**
+1. Select **Condition Type** > **Value Comparison**
 1. Use the data element picker to choose Page Name in the first field.
 1. Select **Equals** from the comparison operator dropdown, then type `content:we-retail:us:en` in the next field.
 
@@ -285,8 +285,8 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 #### Create an action
 
 1. Under Actions, click the **Add** icon to add a new action.
-1. Select **Extension &gt; Adobe Analytics**.
-1. Select **Action Type &gt; Set Variables**.
+1. Select **Extension** > **Adobe Analytics**.
+1. Select **Action Type** > **Set Variables**.
 1. Set eVar3 to Home Page - New Arrivals.
 1. Set prop3 to Home Page - New Arrivals.
 1. Set the Events variable to event3.
@@ -298,8 +298,8 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
    ![](/help/assets/analytics-newarrivalssendbeacon2.png)
 
-1. Select **Extension &gt; Adobe Analytics**.
-1. Select **Action Type &gt; Send Beacon**.
+1. Select **Extension** > **Adobe Analytics**.
+1. Select **Action Type** > **Send Beacon**.
 1. Choose the **s.tl\(\)** tracking option.
 1. In the **Link Name** field, enter Scrolled down to New Arrivals.
 
@@ -346,7 +346,7 @@ To implement plug-ins, there are three steps:
 
 If you are going to add the `doPlugins` function \(below\) and use plug-ins, you need to check a box to make the Analytics `s` object available globally in the Analytics implementation.
 
-1. Go to **Extensions &gt; Installed**.
+1. Go to **Extensions** > **Installed**.
 1. In the Adobe Analytics extension, Click **Configure**.
 
    ![](/help/assets/analytics-configureextension.png)

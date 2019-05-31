@@ -37,7 +37,7 @@ Note that the currently implemented Launch property is shown on the Summary tab.
 
 ![](/help/assets/switchenvironments-debuggeronweretail%20%282%29.png)
 
-Open the Tools tab, then click **Adobe Launch &gt; Dynamically Insert Launch &gt; Embed Code** to open the text input field:
+Open the Tools tab, then click **Adobe Launch** > **Dynamically Insert Launch &gt; Embed Code** to open the text input field:
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 

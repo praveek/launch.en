@@ -106,7 +106,7 @@ In an earlier lesson, you implemented the embed code of your development environ
    ![Add New Library](/help/assets/launch-addnewlibrary.png)
 
 1. Name the library "Initial Setup."
-1. Select **Environment &gt; Development.**
+1. Select **Environment** > **Development.**
 1. Click **Add All Changed Resources.** Launch summarizes the changes you just made.
 1. Click **Save & Build for Development**
 
@@ -118,7 +118,7 @@ After a few moments, the status turns green, indicating the library built succes
 
 ## Validate your rule
 
-To validate that your rule is working as expected, reload your sample page. If you look at the **Developer Tools &gt; Network** tab, you should see a 200 response for your Launch Library.
+To validate that your rule is working as expected, reload your sample page. If you look at the **Developer Tools** > **Network** tab, you should see a 200 response for your Launch Library.
 
 ![](/help/assets/samplepage-200.png)
 
