@@ -14,7 +14,7 @@ Events are where the majority of interactions take place. You can measure and re
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
-Important: Changes do not take effect until they are [published](../publishing/).
+Important: Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 ## Events and conditions \(if\)
 
@@ -87,7 +87,7 @@ You can add other conditions. Multiple conditions within the same condition are 
 
 1. Review your rule, then click Save Rule.
 
-   Later, when you [publish](../publishing/), you'll add this rule to a library and deploy it.
+   Later, when you [publish](/help/launch-reference/publishing/overview.md), you'll add this rule to a library and deploy it.
 
 When you edit or update an existing rule, a new version of the rule is created, which you can then deploy.
 

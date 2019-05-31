@@ -16,7 +16,7 @@ Use the links at the top of the Extensions list to view installed extensions, th
 
 Select an extension, then click Configure to view and change the extension's settings. See [Add a new extension](#add-a-new-extension) for information about extension options.
 
-Important: Changes do not take effect until they are [published](../../publishing/).
+Important: Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 By default, Adobe provides extensions that support common integrations. Extensions can be modified with custom configurations. Configurations are provided through the extensions. To create a configuration, click the extension card, then click Add New Configuration.
 
