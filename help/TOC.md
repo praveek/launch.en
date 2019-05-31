@@ -18,7 +18,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Videos](quick-start/videos.md)
 * Implementation {#implementation}
   * [Implementation overview](getting-started/overview.md)
-  * Configure Launch (#configure)
+  * Configure Launch {#configure}
     * [Configure Launch](getting-started/general-launch-configuration-and-settings/overview.md)
     * [Create a Property](getting-started/general-launch-configuration-and-settings/create-a-property.md)
     * [Add the Launch Embed Code](getting-started/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
@@ -80,7 +80,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
   * [Example Tutorial](launch-tutorials/contributing/template.md)
 * Extensions Reference {#extensions-reference}
-  * [Adobe Extensions](extension-reference/web/overview.md)
+  * Adobe Extensions {#adobe-extension}
+    * [Adobe Extensions Overview](extension-reference/web/overview.md)
     * Analytics Extension {#analytics-extensions}
       * [Analytics Extension](extension-reference/web/adobe-analytics-extension/overview.md)
       * [Adobe Analytics Release Notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
