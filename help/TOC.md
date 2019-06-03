@@ -230,7 +230,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Adobe Audience Manager Extension](extension-reference/adobe-audience-manager-extension.md)
   * [Adobe Privacy Extension](extension-reference/adobe-privacy-extension.md)
 -->
-<!--
+<!-- removed from toc
 * Tutorials {#tutorials}
   * [Overview](launch-tutorials/contributing/overview.md)
   * [Companies](launch-tutorials/contributing/companies.md)
