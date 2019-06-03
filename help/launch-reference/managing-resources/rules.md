@@ -1,8 +1,8 @@
 ---
 title: Rules
 seo-title: Rules in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch rules
+seo-description: Adobe Launch rules
 ---
 
 # Rules
@@ -132,4 +132,3 @@ You can order different custom code types among each other. For example, you can
 
 * **JavaScript:** The JavaScript is loaded from the server as regular text, wrapped in a script tag, and added to the document using Postscribe. If the rule has multiple JavaScript custom scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
 * **HTML:** The HTML is loaded from the server and added to the document using Postscribe. If the rule has multiple custom HTML scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
-

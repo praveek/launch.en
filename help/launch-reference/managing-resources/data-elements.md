@@ -1,8 +1,8 @@
 ---
 title: Data elements
 seo-title: Data elements in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch data elements
+seo-description: Adobe Launch data elements
 ---
 
 # Data elements
@@ -89,4 +89,3 @@ If you used any of the following data elements in the past, you must create a cu
 * URI
 * Protocol
 * Hostname
-

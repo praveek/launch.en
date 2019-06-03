@@ -1,8 +1,8 @@
 ---
 title: Approval Workflow
 seo-title: Approval Workflow in Adobe Launch
-description: 
-seo-description: 
+description: Approval Workflow in Adobe Launch
+seo-description: Approval Workflow in Adobe Launch
 ---
 
 # Approval Workflow
@@ -97,4 +97,3 @@ Available actions for a library in Approved state are:
 ### Published {#published}
 
 The library is live in the production environment. This column shows which libraries have been published and their publish dates. You can look at these libraries, but you cannot make changes. If you want to change what's in your production environment, you'll need to create a new library and push it through the approval process.
-

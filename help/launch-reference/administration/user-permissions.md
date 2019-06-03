@@ -1,8 +1,8 @@
 ---
 title: User permissions
 seo-title: User permissions in Adobe Launch
-description: 
-seo-description: 
+description: User permissions in Adobe Launch
+seo-description: User permissions in Adobe Launch
 ---
 
 # User permissions
@@ -255,4 +255,3 @@ Resolution: Your user does not belong to any Launch product profiles. See the st
 Once you've logged in, you can't add any properties.
 
 Resolution: Your user account does not belong to a product configuration that has the Manage Properties right. Go back to Step 5 above.
-

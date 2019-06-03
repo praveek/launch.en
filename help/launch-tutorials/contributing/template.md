@@ -1,8 +1,8 @@
 ---
 title: Example Tutorial
 seo-title: Example Tutorial in Adobe Launch
-description: 
-seo-description: 
+description: Example tutorial in Adobe Launch
+seo-description: Example tutorial in Adobe Launch
 ---
 
 # Example Tutorial
@@ -18,4 +18,3 @@ Data Elements are an incredibly useful and necessary tool in Launch. Check out t
 ## About Rudi Shumpert
 
 > Rudi graduated from Clemson University, and is now a Sr. Product Manager at Adobe. He's a digital data plumber and occasional curmudgeon. Follow him on [twitter](https://twitter.com/RudiShumpert).
-

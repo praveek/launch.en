@@ -1,8 +1,8 @@
 ---
 title: Libraries
 seo-title: Libraries in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch libraries
+seo-description: Adobe Launch libraries
 ---
 
 # Libraries
@@ -122,4 +122,3 @@ You can save new and existing extensions, rules, and data elements directly to t
 1. Select your Active Library.
 1. Make your changes, then save and build the library.
 1. Test your changes, and repeat these steps as needed.
-

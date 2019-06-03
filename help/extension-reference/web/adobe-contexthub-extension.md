@@ -1,8 +1,8 @@
 ---
 title: Adobe ContextHub Extension
 seo-title: Adobe ContextHub Extension in Adobe Launch
-description: 
-seo-description: 
+description: Information about configuring the Adobe ContextHub extension, and the options available when using this extension to build a rule
+seo-description: Adobe ContextHub Extension in Adobe Launch
 ---
 
 # Adobe ContextHub Extension
@@ -28,4 +28,3 @@ Use this option if you want Launch to reference the default ContextHub schema fo
 ### Customized ContextHub Data Layer
 
 Use this option if you have edited your data layer schema, or if you plan to edit it.
-

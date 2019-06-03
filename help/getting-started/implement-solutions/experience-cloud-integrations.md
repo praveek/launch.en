@@ -1,8 +1,8 @@
 ---
 title: Experience Cloud integrations
 seo-title: Experience Cloud integrations in Adobe Launch
-description: 
-seo-description: 
+description:  review the key integrations between Adobe launch and the solutions you have implemented
+seo-description: Review the key integrations between Adobe launch and the solutions you have implemented
 ---
 
 # Experience Cloud integrations
@@ -120,4 +120,3 @@ You validated that the Customer IDs are passed to both the ID Service and to Tar
    * `as`: The Authentication State, with "1" meaning logged in
 
 ![](/help/assets/integrations-analyticscustomeridvalidation.png)
-

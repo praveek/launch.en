@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Extension
-seo-title: Adobe Analytics Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Adobe Analytics Extension for Adobe Launch
+description: Information about configuring the Adobe Analytics extension, and the options available when using this extension to build a rule.
+seo-description: Adobe Analytics Extension for Adobe Launch
 ---
 
 # Adobe Analytics Extension
@@ -366,4 +366,3 @@ Select if you do not want to increment a pageview.
 ### Clear Variables {#clear-variables}
 
 There are no configuration options if the Clear Variables action type is selected.
-

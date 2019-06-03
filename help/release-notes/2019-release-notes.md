@@ -1,8 +1,8 @@
 ---
 title: 2019 release notes
 seo-title: 2019 release notes for Adobe Launch
-description: 
-seo-description: 
+description: 2019 release notes for Adobe Launch
+seo-description: 2019 release notes for Adobe Launch
 ---
 
 # 2019 release notes
@@ -95,4 +95,3 @@ The Reactor API that powers Launch is officially reaching 1.0 status today.  Thi
 * In certain scenarios, when you saved a library, the dependency checker would prompt you to add a new revision of an extension that was already in your Library. It doesn't do that anymore.
 * Tooltips will now reliably show up in Safari.
 * Searches in the search bar will now trigger a bit faster than before.
-

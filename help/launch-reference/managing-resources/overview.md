@@ -1,8 +1,8 @@
 ---
 title: Managing Resources
 seo-title: Managing Resources in Adobe Launch
-description: 
-seo-description: 
+description: Managing Adobe Launch Resources
+seo-description: Managing Adobe Launch Resources
 ---
 
 # Managing Resources
@@ -14,4 +14,3 @@ In Launch, the word "resources" refers to any of the following:
 * [Rules](rules.md) - Rules are a collection of Rule Components \(Events, Conditions, and Actions\) that control the behavior of the deployed tags.
 
 You can learn more about each of these resource types by clicking the links above.
-

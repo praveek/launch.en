@@ -1,11 +1,11 @@
 ---
 title: Core Release Notes
-seo-title: Core Release Notes in Adobe Launch
-description: 
-seo-description: 
+seo-title: Core extension Release Notes in Adobe Launch
+description: Release notes for the Adobe Launch core extension
+seo-description: Release notes for the Adobe Launch core extension
 ---
 
-# Core Release Notes
+# Core Extension Release Notes
 
 ## May 8, 2019
 
@@ -51,4 +51,3 @@ v1.4.2
 * **Feature** - Page Info Data Element
 * **Feature** - Date Condition
 * **Feature** - Sampling Condition
-

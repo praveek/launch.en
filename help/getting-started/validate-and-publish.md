@@ -1,8 +1,8 @@
 ---
 title: Publish your Launch property
 seo-title: Publish your Launch property in Adobe Launch
-description: 
-seo-description: 
+description: Publish your Launch property in Adobe Launch
+seo-description: Publish your Launch property in Adobe Launch
 ---
 
 # Publish your Launch property
@@ -84,4 +84,3 @@ In real life, once your QA team has signed off by reviewing the changes in the S
    ![](/help/assets/publishing-published.png)
 
 You've completed the tutorial and published your first property in Launch.
-

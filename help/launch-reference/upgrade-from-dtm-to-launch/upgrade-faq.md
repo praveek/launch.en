@@ -1,8 +1,8 @@
 ---
 title: Upgrade FAQ
 seo-title: Upgrade FAQ in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch upgrade FAQ
+seo-description: Adobe Launch upgrade FAQ
 ---
 
 # Upgrade FAQ
@@ -50,4 +50,3 @@ The upgrade is expected to succeed in nearly every scenario. There are a few rea
 * Your property has configuration issues.  If the upgrade fails for this reason, DTM informs you that you have property configuration issues. Please check the [Preparation Guide](upgrade-preparation-guide.md) and try again.
 
 In the rare case that your upgrade fails for any other reason, please contact Client Care and provide your DTM Company and Property Name. Client Care will work with the Launch team to help you out.
-

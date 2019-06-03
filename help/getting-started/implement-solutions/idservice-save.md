@@ -1,8 +1,8 @@
 ---
 title: Add the Experience Cloud ID Service Extension
 seo-title: Add the Experience Cloud ID Service Extension in Adobe Launch
-description: 
-seo-description: 
+description: Add the Experience Cloud ID Service Extension with Adobe Launch
+seo-description: Add the Experience Cloud ID Service Extension with Adobe Launch
 ---
 
 # Add the Experience Cloud ID Service Extension
@@ -153,4 +153,3 @@ Next, confirm the customer id is sent to the Service using the Debugger extensio
 Launch also has rich console logging features. To turn them on, go to the **Tools** tab in the Debugger and turn on the **Launch Console Logging** Toggle.
 
 This turns on console logging, both in your browser console and in the Logs tab of the Debugger. You should see the logging of all of the rules you have created so far. New log entries are added to the top of the list, so your rule "All Pages - Library Loaded - Authenticated - 10" should fire before the "All Pages - Library Loaded" rule and appear below it in the Debugger's Console Logging.
-

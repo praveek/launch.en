@@ -1,8 +1,8 @@
 ---
 title: Adobe Audience Manager Extension
 seo-title: Adobe Audience Manager Extension in Adobe Launch
-description: 
-seo-description: 
+description: With the Audience Manager extension, you can integrate the DIL code used by Audience Manager with your properties in Adobe Launch
+seo-description: Adobe Audience Manager Extension in Adobe Launch
 ---
 
 # Adobe Audience Manager Extension
@@ -76,4 +76,3 @@ Enter the desired code in the Code Editor, then provide a name for the code. Thi
 ![](/help/assets/ext-aam-then.png)
 
 You can also add a note with information about the configuration.
-

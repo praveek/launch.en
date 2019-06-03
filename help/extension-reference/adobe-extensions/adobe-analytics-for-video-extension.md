@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics for Video Extension
-seo-title: Adobe Analytics for Video Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Adobe Analytics for Video Extension for Adobe Launch
+description: Information on installing, configuring, and implementing the Adobe Analytics for Video extension \(Video Analytics extension\)
+seo-description: Adobe Analytics for Video Extension for Adobe Launch
 ---
 
 # Adobe Analytics for Video Extension
@@ -203,4 +203,3 @@ Once the Sample Player extension is installed, you'll need to create at least on
 ![Player Extension Sample Rule](/help/assets/ext-va-sp-rule.png)
 
 After you have saved this rule, you will need to add it to a Library, and then build and deploy so that you can test the behavior.
-

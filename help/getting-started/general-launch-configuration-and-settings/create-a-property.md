@@ -1,8 +1,8 @@
 ---
 title: Create a Property
 seo-title: Create a Property in Adobe Launch
-description: 
-seo-description: 
+description: A Launch property is a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site
+seo-description: A Launch property is a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site
 ---
 
 # Create a Property
@@ -21,4 +21,3 @@ For example, suppose that you have multiple websites based on one template, and 
 Your new property should display on the Properties page.  If you check the box next to the property name, options to **Configure** or **Delete** the property appear above the property list. Click on the name of your property \(for example, “Launch Tutorial”\) to open the Overview screen.
 
 ![](/help/assets/launch-openproperty.png)
-

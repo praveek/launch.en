@@ -1,8 +1,8 @@
 ---
 title: Environments
 seo-title: Environments in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch environments
+seo-description: Adobe Launch environments
 ---
 
 # Environments
@@ -106,4 +106,3 @@ New properties are created with three environments: one Development, one Staging
 1. Repeat for each environment in your development, approval, and publishing change.
 
 After the environments are created, you are ready to publish.
-

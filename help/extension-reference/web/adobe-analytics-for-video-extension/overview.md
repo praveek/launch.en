@@ -1,9 +1,8 @@
 ---
 title: Adobe Analytics for Video Extension
 seo-title: Adobe Analytics for Video Extension in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Analytics for Video Extension in Adobe Launch
+seo-description: Adobe Analytics for Video Extension in Adobe Launch
 ---
 
 # Adobe Analytics for Video Extension
-

@@ -1,8 +1,8 @@
 ---
 title: Upgrade From DTM to Launch
 seo-title: Upgrade From DTM to Launch in Adobe Launch
-description: 
-seo-description: 
+description: Upgrade From DTM to Adobe Launch
+seo-description: Upgrade From DTM to Adobe Launch
 ---
 
 # Upgrade From DTM to Launch

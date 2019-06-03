@@ -1,8 +1,8 @@
 ---
 title: Content Security Policy \(CSP\)
 seo-title: Content Security Policy \(CSP\) in Adobe Launch
-description: 
-seo-description: 
+description: Content Security Policy \(CSP\) in Adobe Launch
+seo-description: Content Security Policy \(CSP\) in Adobe Launch
 ---
 
 # Content Security Policy \(CSP\)
@@ -34,4 +34,3 @@ at.js 2.X does not use `eval()`.
 ## Future Options
 
 The Launch team is currently working with Adobe's security team to evaluate an alternate approach that would use a `nonce` to validate inline scripts.  More details will be forthcoming if that approach pans out.
-

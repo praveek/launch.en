@@ -1,8 +1,8 @@
 ---
 title: Adobe Privacy Extension
-seo-title: Adobe Privacy Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Adobe Privacy Extension for Adobe Launch
+description: Provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions
+seo-description: Adobe Privacy Extension for Adobe Launch
 ---
 
 # Adobe Privacy Extension
@@ -79,4 +79,3 @@ Enter the name of a JavaScript function you want to pass the data to.  This func
 ### Retrieve Then Remove Identies
 
 When the event and conditions are met, retrieve identity information that is stored for the visitor, then remove it.
-

@@ -1,8 +1,8 @@
 ---
 title: Link DTM Embed Code
 seo-title: Link DTM Embed Code in Adobe Launch
-description: 
-seo-description: 
+description: Link DTM Embed Code using Adobe Launch
+seo-description: Link DTM Embed Code using Adobe Launch
 ---
 
 # Link DTM Embed Code
@@ -93,4 +93,3 @@ If you are using this method for delivery of the container tag, it's recommended
 In Launch, downloading the library no longer exists as a separate option. If you use a library download in DTM, we recommend you skip the embed code migration and set up your Production environment with an Adobe Managed host and Archive enabled.
 
 You can continue to use the same embed code that you use with DTM, but you are responsible for moving the library to your own servers with the correct file name.
-

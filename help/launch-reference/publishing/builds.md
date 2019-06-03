@@ -1,8 +1,8 @@
 ---
 title: Builds
 seo-title: Builds in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch builds
+seo-description: Adobe Launch builds
 ---
 
 # Builds

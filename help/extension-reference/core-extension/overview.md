@@ -1,8 +1,8 @@
 ---
 title: Core Extension
-seo-title: Core Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Core Extension for Adobe Launch
+description: The Core extension is the default extension released with Launch.
+seo-description: Core Extension for Adobe Launch
 ---
 
 # Core Extension
@@ -841,4 +841,3 @@ While using document.write after a page has loaded would typically present probl
 #### Custom Code Validation
 
 The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
-

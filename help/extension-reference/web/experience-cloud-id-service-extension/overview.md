@@ -1,8 +1,8 @@
 ---
 title: Experience Cloud ID Service Extension
 seo-title: Experience Cloud ID Service Extension in Adobe Launch
-description: 
-seo-description: 
+description: Information about configuring the Experience Cloud ID extension, and the options available when using this extension to build a rule
+seo-description: Experience Cloud ID Service Extension in Adobe Launch
 ---
 
 # Experience Cloud ID Service Extension
@@ -111,4 +111,3 @@ Set one or more customer IDs.
 
 1. \(Optional\) Click Add to set more customer IDs.
 1. Click Keep Changes.
-

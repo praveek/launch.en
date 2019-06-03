@@ -1,8 +1,8 @@
 ---
 title: Launch object reference
 seo-title: Launch object reference in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch object reference
+seo-description: Adobe Launch object reference
 ---
 
 # Launch object reference
@@ -383,4 +383,3 @@ If you open the page in Chrome, open the browser console, and click the page, th
 ![](/help/assets/debug.png)
 
 Additional hooks or additional information might be added to theses handlers as needed.
-

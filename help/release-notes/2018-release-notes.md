@@ -1,8 +1,8 @@
 ---
 title: 2018 release notes
 seo-title: 2018 release notes for Adobe Launch
-description: 
-seo-description: 
+description: 2018 release notes for Adobe Launch
+seo-description: 2018 release notes for Adobe Launch
 ---
 
 # 2018 release notes
@@ -422,4 +422,3 @@ Launch provides several improvements over similar systems, including:
 * The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls ​ ​
 * Custom action scripts within a rule can be loaded in parallel, but are executed sequentially ​
 * If you avoid Page Top and Page Bottom rules, the code is mostly asynchronous, with a path to getting fully async ​
-

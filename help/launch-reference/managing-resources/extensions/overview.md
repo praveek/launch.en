@@ -1,8 +1,8 @@
 ---
 title: Extensions
 seo-title: Extensions in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch extensions
+seo-description: Adobe Launch extensions
 ---
 
 # Extensions
@@ -81,4 +81,3 @@ Mouse over an installed extension and click Configure.
 Note: Some extensions do not require configuration and do not offer configuration options.
 
 Each configurable extension has unique options. Refer to [Extensions Reference](../../../extension-reference/web/overview.md) for information about the options available for each Adobe extension.
-

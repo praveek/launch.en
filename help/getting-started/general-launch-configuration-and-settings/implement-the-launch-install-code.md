@@ -1,8 +1,8 @@
 ---
 title: Add the Launch Embed Code
 seo-title: Add the Adobe Launch Embed Code
-description: 
-seo-description: 
+description: Adobe Launch Embed Code
+seo-description: Adobe Launch Embed Code
 ---
 
 # Add the Launch Embed Code
@@ -138,4 +138,3 @@ Here is a summary what these best practices look like in the suggested order. Pl
 </body>
 </html>
 ```
-

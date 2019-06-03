@@ -1,8 +1,8 @@
 ---
 title: Data Elements
 seo-title: Data Elements in Adobe Launch
-description: 
-seo-description: 
+description: Data elements are the building blocks for your data dictionary \(or data map\). Use data elements to collect, organize, and deliver data across marketing and ad technology.
+seo-description: Data Elements in Adobe Launch
 ---
 
 # Data Elements
@@ -229,4 +229,3 @@ If you used any of the following data elements in the past, you must create cust
 * URI
 * Protocol
 * Hostname
-

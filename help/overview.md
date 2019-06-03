@@ -1,8 +1,8 @@
 ---
 title: Launch Overview
 seo-title: Launch Overview in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch overview
+seo-description: Adobe Launch overview
 ---
 
 # Launch Overview
@@ -203,4 +203,3 @@ Adobe continues to recommend the [Mobile Services App SDK](https://www.adobe.com
 These are the questions we've received most often from customers and partners since the Launch announcement. If you have other questions, please ask in the Adobe Community on the main Launch page located at [https://adobe.com/go/launchme](https://adobe.com/go/launchme).
 
 Launch is just one example of where our platform is headed: more open, more integrated and as always dedicated to customer success.
-

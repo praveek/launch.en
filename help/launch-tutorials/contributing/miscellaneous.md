@@ -1,8 +1,8 @@
 ---
 title: Miscellaneous
 seo-title: Miscellaneous in Adobe Launch
-description: 
-seo-description: 
+description: Miscellaneous tutorials for Adobe Launch
+seo-description: Miscellaneous tutorials for Adobe Launch
 ---
 
 # Miscellaneous

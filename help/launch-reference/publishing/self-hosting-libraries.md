@@ -1,8 +1,8 @@
 ---
 title: Self-hosting libraries
 seo-title: Self-hosting libraries in Adobe Launch
-description: 
-seo-description: 
+description: Self-hosting libraries in Adobe Launch
+seo-description: Self-hosting libraries in Adobe Launch
 ---
 
 # Self-hosting libraries
@@ -87,4 +87,3 @@ Use a [Managed by Adobe](hosts.md#managed-by-adobe) host and select the [Archive
 You can have Launch deliver builds directly to an SFTP server that you created. You take responsibility to get these filed into your release cycle and push them live.
 
 To perform a direct delivery, you should create an [SFTP host](hosts.md#sftp) and assign that host to your environment. Whenever you build a library in that environment, the files are delivered to your SFTP server.
-

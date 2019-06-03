@@ -1,8 +1,8 @@
 ---
 title: Deleting resources
 seo-title: Deleting resources in Adobe Launch
-description: 
-seo-description: 
+description: Deleting Adobe Launch resources
+seo-description: Deleting Adobe Launch resources
 ---
 
 # Deleting resources
@@ -71,4 +71,3 @@ Before you can delete a resource, you must remove it from any libraries that con
 ## Delete a resource
 
 From the appropriate list view, select the resource you want to delete, then click **Delete**.
-

@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Release Notes
-seo-title: Adobe Analytics Release Notes in Adobe Launch
-description: 
-seo-description: 
+seo-title: Adobe Analytics Release Notes for Adobe Launch
+description: Adobe Analytics Release Notes for Adobe Launch
+seo-description: Adobe Analytics Release Notes for Adobe Launch
 ---
 
 # Adobe Analytics Release Notes
@@ -125,4 +125,3 @@ seo-description:
 #### **Bug fixes**
 
 * Fixed an error in the Adobe Analytics Extension that caused "Error, missing Report Suite ID in AppMeasurement initialization" to appear in the browser console.
-

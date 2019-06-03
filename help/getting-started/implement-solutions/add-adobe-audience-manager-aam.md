@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Audience Manager \(AAM\)
 seo-title: Add Adobe Audience Manager \(AAM\) in Adobe Launch
-description: 
-seo-description: 
+description: enable Adobe Audience Manager in Adobe Launch using Server-Side Forwarding
+seo-description: enable Adobe Audience Manager in Adobe Launch using Server-Side Forwarding
 ---
 
 # Add Adobe Audience Manager \(AAM\)
@@ -141,4 +141,3 @@ This is a response to the Analytics beacon. It contains references to `doPostbac
 ![](/help/assets/aam-responsefalsesuccess.png)
 
 Despite its appearance, this is actually proof that it is **not** working correctly. If you see this, it means that you have completed this second step \(the code in Launch\), but that the forwarding in the Analytics Admin Console \(first step of this section\) has not yet completed. In this case, verify that you have enabled SSF in the Analytics Admin Console. If you have, and it hasn't been four hours yet, be patient.
-

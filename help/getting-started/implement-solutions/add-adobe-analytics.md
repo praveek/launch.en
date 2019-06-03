@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Analytics
 seo-title: Add Adobe Analytics in Adobe Launch
-description: 
-seo-description: 
+description: Add Adobe Analytics in Adobe Launch
+seo-description: Add Adobe Analytics in Adobe Launch
 ---
 
 # Add Adobe Analytics
@@ -459,4 +459,3 @@ Make sure that the plug-ins are working.
 You can test this over and over by changing the value of the `cid` parameter in the query string. The Campaign variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the Campaign value in the debugger, simply change the value of the `cid` in the query string of the URL and press **Enter** to see it again in the debugger. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the Analytics extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
 
 You have completed the Analytics tutorials. Of course, there are many other things that you can do to enhance your Analytics implementation, but these tutorials have demonstrated some of the core skills needed to implement Analytics.
-

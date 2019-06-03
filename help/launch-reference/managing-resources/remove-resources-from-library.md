@@ -1,8 +1,8 @@
 ---
 title: Remove resources from a library
 seo-title: Remove resources from a library in Adobe Launch
-description: 
-seo-description: 
+description: Remove resources from an Adobe Launch library
+seo-description: Remove resources from an Adobe Launch library
 ---
 
 # Remove resources from a library
@@ -43,4 +43,3 @@ Instead, you must disable the resource. This disabling is a change that you then
 1. Save and Build.
 1. Follow your normal process for promoting libraries to Production.
 1. Publish to Production to remove the resource.
-

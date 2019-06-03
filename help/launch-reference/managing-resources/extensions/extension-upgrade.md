@@ -1,8 +1,8 @@
 ---
 title: Extension Upgrade
 seo-title: Extension Upgrade in Adobe Launch
-description: 
-seo-description: 
+description: Upgrade extensions in Adobe Launch
+seo-description: Upgrade extensions in Adobe Launch
 ---
 
 # Extension Upgrade
@@ -50,4 +50,3 @@ From the Edit Library screen, you can use the "Add All Changed Resources" button
 >[!TIP] It is possible for extension developers to add new configuration items to their extension views in order to enable new functionality.  If you see build failures after upgrading to a new extension version - and you have isolated to build failures to that extension -  then the first thing to do is go to the extension's Configure page and be sure to Save \(even if you didn't change anything\).  Then add the new change to your Library and try to build again.
 
 Once you have added the extension upgrade to your Library, you can follow the steps outlined in [Approval Workflow](../../publishing/approval-workflow.md) to publish your library through to Production.
-

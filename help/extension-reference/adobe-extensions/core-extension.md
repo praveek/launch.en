@@ -1,8 +1,8 @@
 ---
 title: Core Extension
-seo-title: Core Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Core Extension for Adobe Launch
+description: The Core extension is the default extension released with Launch
+seo-description: Core Extension for Adobe Launch
 ---
 
 # Core Extension
@@ -739,4 +739,3 @@ Some common use cases include:
 * If this is the landing page for the visit, populate an Analytics metric
 * Show a new offer to the visitor after X number of Session Counts
 * Display a newsletter sign up if this is a first time visitor
-

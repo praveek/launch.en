@@ -1,8 +1,8 @@
 ---
 title: Tutorials
 seo-title: Tutorials in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch tutorials
+seo-description: Adobe launch tutorials
 ---
 
 # Tutorials

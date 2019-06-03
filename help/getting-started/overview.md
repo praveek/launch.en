@@ -1,8 +1,8 @@
 ---
 title: Implementation Overview
 seo-title: Implementation Overview in Adobe Launch
-description: 
-seo-description: 
+description: Learn how to implement the Adobe Experience Cloud solutions with Adobe Launch
+seo-description: Implement the Adobe Experience Cloud solutions with Adobe Launch
 ---
 
 # Implementation Overview
@@ -50,4 +50,3 @@ In these lessons, you’ll be implementing the Adobe Experience Cloud into a fak
 1. Downloaded the [sample html page](https://adobe-marketing-cloud.github.io/launch-reference-architectures/basic/index.html) \(right-click on this link and click “Save Link As”\).
 1. Get a text editor in which you can make changes to the sample HTML page.
 1. Bookmark [the We.Retail site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html).
-

@@ -1,8 +1,8 @@
 ---
 title: Upgrade Preparation Guide
 seo-title: Upgrade Preparation Guide in Adobe Launch
-description: 
-seo-description: 
+description: Preparing to upgrade with Adobe Launch
+seo-description: Preparing to upgrade with Adobe Launch
 ---
 
 # Upgrade Preparation Guide
@@ -298,4 +298,3 @@ The contents of custom scripts are copied over as is. The code is not inpected t
 * In custom code, it is common to reference the `_satellite` object and various properties and functions that it provides. Launch uses the `satellite` object, but it is not structured the same as before. Functions and properties that were supported in DTM move to Launch, but many of the ones that were unsupported do not. If you use any of these functions in DTM, it is likely that your custom code needs to be updated. To see what is supported on the new Launch `satellite` object,
 
   see the [Launch Object Reference](https://docs.adobelaunch.com/launch-reference/client-side-information/launch-object-reference).
-

@@ -1,8 +1,8 @@
 ---
 title: Link DTM to Experience Cloud
 seo-title: Link DTM to Experience Cloud in Adobe Launch
-description: 
-seo-description: 
+description: Link DTM to Experience Cloud using Adobe Launch
+seo-description: Link DTM to Experience Cloud using Adobe Launch
 ---
 
 # Link DTM to Experience Cloud
@@ -32,4 +32,3 @@ Depending on how many users you have and the complexity of your permissions stru
 Linking your DTM account to the Experience Cloud is not currently a self-service process. You can initiate this process by talking to your Adobe rep \(if you have one\) or Client Care. Maybe even give them a link to this article.
 
 Simply explain to them what you need \(I need to link my DTM account to the Experience Cloud\). They will then make a request to Adobe's provisioning team. That team will make sure there are no hidden issues \(for example, another DTM account is already linked to your Experience Cloud account\) and then perform the linking. These requests are usually fulfilled within 2-3 business days, so plan accordingly.
-

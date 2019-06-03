@@ -1,8 +1,8 @@
 ---
 title: Add a Data Element, a Rule, and a Library
 seo-title: Add a Data Element, a Rule, and a Library in Adobe Launch
-description: 
-seo-description: 
+description: Data Element, a Rule, and a Library in Adobe Launch
+seo-description: Data Element, a Rule, and a Library in Adobe Launch
 ---
 
 # Add a Data Element, a Rule, and a Library
@@ -156,4 +156,3 @@ When you are making a lot of changes in Launch, it is inconvenient to have to op
    ![](/help/assets/samplepage-consolewithcolon.png)
 
    This is a much faster way of working. The rest of the implementation tutorials use this approach.
-

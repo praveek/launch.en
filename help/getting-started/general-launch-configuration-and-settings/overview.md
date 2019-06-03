@@ -1,8 +1,8 @@
 ---
 title: Configure Launch
-seo-title: Configure Adobe Launch 
-description: 
-seo-description: 
+seo-title: Configure Adobe Launch
+description: Launch properties, hosts, environments, data elements, and rules
+seo-description: Launch properties, hosts, environments, data elements, and rules
 ---
 
 # Configure Launch
@@ -36,4 +36,3 @@ You should now see the Properties screen \(if no properties have ever been creat
 ![](/help/assets/launch-gotolaunch.png)
 
 ![](/help/assets/launch-propertiesscreen.png)
-

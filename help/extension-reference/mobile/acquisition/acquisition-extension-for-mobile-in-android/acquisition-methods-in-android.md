@@ -1,8 +1,8 @@
 ---
 title: Acquisition Methods in Android
 seo-title: Acquisition Methods in Android in Adobe Launch
-description: 
-seo-description: 
+description: Allows developers to start an app acquisition campaign as if the user clicked a link. You can create manual acquisition links and handle the app store redirect.
+seo-description: Acquisition Methods in Android in Adobe Launch
 ---
 
 # Acquisition Methods in Android
@@ -47,4 +47,3 @@ Uri testUri = new Uri.Builder()
         .build();
 Acquisition.trackAdobeDeepLink(testUri);
 ```
-

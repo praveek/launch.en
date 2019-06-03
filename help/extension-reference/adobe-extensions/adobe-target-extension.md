@@ -1,8 +1,8 @@
 ---
 title: Adobe Target Extension
-seo-title: Adobe Target Extension in Adobe Launch
-description: 
-seo-description: 
+seo-title: Adobe Target Extension for Adobe Launch
+description: Information about the options available when using this extension to build a rule
+seo-description: Adobe Target Extension for Adobe Launch
 ---
 
 # Adobe Target Extension
@@ -190,4 +190,3 @@ body {opacity: 0 !important}
 ```
 
 By default, the snippet times out at 3000ms or 3 seconds. This value can be customized.
-

@@ -1,8 +1,8 @@
 ---
 title: Copying resources
 seo-title: Copying resources in Adobe Launch
-description: 
-seo-description: 
+description: Copying resources in Adobe Launch
+seo-description: Copying resources in Adobe Launch
 ---
 
 # Copying resources
@@ -66,4 +66,3 @@ An explanation of exactly what Launch is planning on doing is available inside t
 1. **Data Elements required by these Rules will NOT be copied** - This explanation only applies to rules.  Rules often rely on Data Elements in order to function correctly.  If you copy a Rule to a new property, you'll also need to copy any required Data Elements as a separate action.
 
 Once you've configured the behavior you want, click **Copy**.
-

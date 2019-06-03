@@ -1,8 +1,8 @@
 ---
 title: Deploy JavaScript tags to opt in to Launch
 seo-title: Deploy JavaScript tags to opt in to Launch in Adobe Launch
-description: 
-seo-description: 
+description: Deploy JavaScript tags to opt in to Adobe Launch
+seo-description: Deploy JavaScript tags to opt in to Adobe Launch
 ---
 
 # Deploy JavaScript tags to opt in to Launch
@@ -47,4 +47,3 @@ Experience Cloud ID currently fires automatically if it is placed on a customer 
 Launch does not fire Target automatically. Target fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Load Target action.
 
 Integrations with consent managers \(such as OneTrust\) can set and track the consent cookies for customers, which can then be used in the rule builder.
-

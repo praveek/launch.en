@@ -1,8 +1,8 @@
 ---
 title: Quick Start
 seo-title: Quick Start in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Launch Quick Start
+seo-description: Adobe Launch Quick Start
 ---
 
 # Quick Start
@@ -134,4 +134,3 @@ To learn more about Launch, refer to these resources:
 * [**Videos**](https://docs.adobelaunch.com/quick-start/videos)
 
   These videos introduce you to Launch concepts and tasks.
-

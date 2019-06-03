@@ -20,13 +20,13 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Implementation overview](getting-started/overview.md)
   * Configure Launch {#configure}
     * [Configure Launch](getting-started/general-launch-configuration-and-settings/overview.md)
-    * [Create a Property](getting-started/general-launch-configuration-and-settings/create-a-property.md)
-    * [Add the Launch Embed Code](getting-started/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
-    * [Add a Data Element, a Rule, and a Library](getting-started/general-launch-configuration-and-settings/add-data-elements-and-rules.md)
-    * [Switch Environments with the Experience Cloud Debugger](getting-started/general-launch-configuration-and-settings/switch-environments-with-launch-command.md)
+    * [Create a property](getting-started/general-launch-configuration-and-settings/create-a-property.md)
+    * [Add the Launch embed code](getting-started/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
+    * [Add a data element, a rule, and a library](getting-started/general-launch-configuration-and-settings/add-data-elements-and-rules.md)
+    * [Switch environments with the Experience Cloud Debugger](getting-started/general-launch-configuration-and-settings/switch-environments-with-launch-command.md)
   * Implement solutions {#solutions}
-    * [Implement Solutions](getting-started/implement-solutions/overview.md)
-    * [Add the Experience Cloud ID Service Extension](getting-started/implement-solutions/idservice-save.md)
+    * [Implement solutions](getting-started/implement-solutions/overview.md)
+    * [Add the Experience Cloud ID Service extension](getting-started/implement-solutions/idservice-save.md)
     * [Add Adobe Analytics](getting-started/implement-solutions/add-adobe-analytics.md)
     * [Add Adobe Target](getting-started/implement-solutions/add-adobe-target.md)
     * [Add Adobe Audience Manager \(AAM\)](getting-started/implement-solutions/add-adobe-audience-manager-aam.md)
@@ -34,10 +34,10 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Publish your Launch property](getting-started/validate-and-publish.md)
 * Launch Reference {#launch-reference}
   * Managing Resources {#manage-resources}
-    * [Managing Resources Overview](launch-reference/managing-resources/overview.md)
+    * [Managing Resources overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
-      * [Extensions Overview](launch-reference/managing-resources/extensions/overview.md)
-      * [Extensions Upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
+      * [Extensions overview](launch-reference/managing-resources/extensions/overview.md)
+      * [Extensions upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
     * [Data elements](launch-reference/managing-resources/data-elements.md)
     * [Rules](launch-reference/managing-resources/rules.md)
     * [Copying resources](launch-reference/managing-resources/copying-resources.md)
@@ -45,8 +45,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
     * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
   * Publishing {#publishing}
-    * [Publishing Overview](launch-reference/publishing/overview.md)
-    * [Approval Workflow](launch-reference/publishing/approval-workflow.md)
+    * [Publishing overview](launch-reference/publishing/overview.md)
+    * [Approval workflow](launch-reference/publishing/approval-workflow.md)
     * [Hosts](launch-reference/publishing/hosts.md)
     * [Builds](launch-reference/publishing/builds.md)
     * [Environments](launch-reference/publishing/environments.md)
@@ -63,48 +63,48 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
     * [User permissions](launch-reference/administration/user-permissions.md)
   * Upgrade from DTM to Launch {#upgrade}
-    * [Upgrade Overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
+    * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
     * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
-    * [Upgrade Preparation Guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
-    * [Link DTM Embed Code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
+    * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
+    * [Link DTM embed code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
     * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
 * Tutorials {#tutorials}
   * [Overview](launch-tutorials/contributing/overview.md)
   * [Companies](launch-tutorials/contributing/companies.md)
   * [Hosts](launch-tutorials/contributing/hosts.md)
-  * [Data Elements](launch-tutorials/contributing/data-elements.md)
+  * [Data elements](launch-tutorials/contributing/data-elements.md)
   * [Environments](launch-tutorials/contributing/environments.md)
   * [Extensions](launch-tutorials/contributing/extensions.md)
   * [Properties](launch-tutorials/contributing/properties.md)
   * [Publishing](launch-tutorials/contributing/publishing.md)
   * [Rules](launch-tutorials/contributing/rules.md)
   * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
-  * [Example Tutorial](launch-tutorials/contributing/template.md)
-* Extensions Reference {#extensions-reference}
-  * [Extenstion Reference Overview](extension-reference/adobe-extensions/overview.md)
-  * Adobe Extensions {#adobe-extension}
-    * [Adobe Extensions Overview](extension-reference/web/overview.md)
-    * Analytics Extension {#analytics-extensions}
-      * [Analytics Extension](extension-reference/web/adobe-analytics-extension/overview.md)
-      * [Adobe Analytics Release Notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
-    * Media Analytics Extension {#media-analytics-extension}
-      * [Adobe Media Analytics for Audio and Video Extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics for Audio and Video Release Notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
-    * [Adobe Audience Manager Extension](extension-reference/web/adobe-audience-manager-extension.md)
-    * [Adobe ContextHub Extension](extension-reference/web/adobe-contexthub-extension.md)
-    * [Adobe Privacy Extension](extension-reference/web/adobe-privacy-extension.md)
-    * Target Extension {#target-extension}
-      * [Adobe Target Extension](extension-reference/web/adobe-target-extension/overview.md)
-      * [Adobe Target Release Notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
-      * [Adobe Target v2 Extension](extension-reference/web/adobe-target-extension-v2.md)
-    * Core Extension {#core-extension}
-      * [Core Extension](extension-reference/web/core-extension/overview.md)
-      * [Core Release Notes](extension-reference/web/core-extension/core-release-notes.md)
-    * ID Service Extension {#id-service-ext}
-      * [Experience Cloud ID Service Extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
-      * [Experience Cloud ID Release Notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
-    * [Adobe Experience Platform Extension](extension-reference/web/adobe-experience-platform-extension.md)
-  * [Third-Party Extensions](extension-reference/3rd-party-extensions.md)
+  * [Example tutorial](launch-tutorials/contributing/template.md)
+* Extensions reference {#extensions-reference}
+  * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
+  * Adobe extensions {#adobe-extension}
+    * [Adobe extensions overview](extension-reference/web/overview.md)
+    * Analytics extension {#analytics-extensions}
+      * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
+      * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
+    * Media Analytics extension {#media-analytics-extension}
+      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
+      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+    * [Adobe Audience Manager extension](extension-reference/web/adobe-audience-manager-extension.md)
+    * [Adobe ContextHub extension](extension-reference/web/adobe-contexthub-extension.md)
+    * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
+    * Target extension {#target-extension}
+      * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
+      * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
+      * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
+    * Core extension {#core-extension}
+      * [Core extension](extension-reference/web/core-extension/overview.md)
+      * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
+    * ID Service extension {#id-service-ext}
+      * [Experience Cloud ID Service extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
+      * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
+    * [Adobe Experience Platform extension](extension-reference/web/adobe-experience-platform-extension.md)
+  * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
 
 <!--
 

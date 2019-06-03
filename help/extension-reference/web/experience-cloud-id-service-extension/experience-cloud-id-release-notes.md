@@ -1,8 +1,8 @@
 ---
 title: Experience Cloud ID Release Notes
-seo-title: Experience Cloud ID Release Notes in Adobe Launch
-description: 
-seo-description: 
+seo-title: Experience Cloud ID extension Release Notes in Adobe Launch
+description: Experience Cloud ID extension Release Notes in Adobe Launch
+seo-description: Experience Cloud ID extension Release Notes in Adobe Launch
 ---
 
 # Experience Cloud ID Release Notes
@@ -47,4 +47,3 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 
 * Updated visitor.js to 3.1
 * Adds two configuration properties: `resetBeforeVersion` and `serverState`
-

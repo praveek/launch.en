@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Target
 seo-title: Add Adobe Target in Adobe Launch
-description: 
-seo-description: 
+description: implement Adobe Target with Adobe Launch using a global mbox with custom parameters
+seo-description: Implement Adobe Target with Adobe Launch using a global mbox with custom parameters
 ---
 
 # Add Adobe Target
@@ -451,4 +451,3 @@ To learn more about use cases for custom headers and footers see the following r
 * [Use dataProviders to integrate third-party data into Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
 * [Implement dataProviders to integrate third-party data into Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 * [Use Response Tokens and at.js Custom Events with Adobe Target](https://helpx.adobe.com/target/kt/using/response-tokens-atjs-custom-events-technical-video-use.html)
-

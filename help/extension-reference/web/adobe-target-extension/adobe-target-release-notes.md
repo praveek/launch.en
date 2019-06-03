@@ -1,8 +1,8 @@
 ---
 title: Adobe Target Release Notes
 seo-title: Adobe Target Release Notes in Adobe Launch
-description: 
-seo-description: 
+description: Release notes for Adobe Target extension in Adobe Launch
+seo-description: Release notes for Adobe Target extension in Adobe Launch
 ---
 
 # Adobe Target Release Notes
@@ -107,4 +107,3 @@ seo-description:
 
 * Updated views in extension configuration screens
 * at.js has been updated to version 1.2.3 \(adds support for JSON offers\)
-

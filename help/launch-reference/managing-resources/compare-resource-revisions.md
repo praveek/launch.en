@@ -1,8 +1,8 @@
 ---
 title: Compare resource revisions
 seo-title: Compare resource revisions in Adobe Launch
-description: 
-seo-description: 
+description: Compare resource revisions in Adobe Launch
+seo-description: Compare resource revisions in Adobe Launch
 ---
 
 # Compare resource revisions
@@ -90,4 +90,3 @@ Above, you can see the following change:
 * The rule component changed to add eVar2 with a value of "1".
 
 In cases where the settings block is large, you can expand the settings section so you can see it better.
-

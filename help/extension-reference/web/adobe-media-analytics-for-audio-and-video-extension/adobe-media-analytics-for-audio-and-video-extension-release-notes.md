@@ -1,8 +1,8 @@
 ---
 title: Adobe Media Analytics for Audio and Video Release Notes
 seo-title: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
-description: 
-seo-description: 
+description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
+seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
 ---
 
 # Adobe Media Analytics for Audio and Video Release Notes
@@ -32,4 +32,3 @@ The [Adobe Analytics for Video Extension](https://docs.adobelaunch.com/~/revisio
 
 * Analytics Extension
 * Experience Cloud ID Extension
-
