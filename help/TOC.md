@@ -68,18 +68,6 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
     * [Link DTM embed code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
     * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
-* Tutorials {#tutorials}
-  * [Overview](launch-tutorials/contributing/overview.md)
-  * [Companies](launch-tutorials/contributing/companies.md)
-  * [Hosts](launch-tutorials/contributing/hosts.md)
-  * [Data elements](launch-tutorials/contributing/data-elements.md)
-  * [Environments](launch-tutorials/contributing/environments.md)
-  * [Extensions](launch-tutorials/contributing/extensions.md)
-  * [Properties](launch-tutorials/contributing/properties.md)
-  * [Publishing](launch-tutorials/contributing/publishing.md)
-  * [Rules](launch-tutorials/contributing/rules.md)
-  * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
-  * [Example tutorial](launch-tutorials/contributing/template.md)
 * Extensions reference {#extensions-reference}
   * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
   * Adobe extensions {#adobe-extension}
@@ -242,3 +230,17 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Adobe Audience Manager Extension](extension-reference/adobe-audience-manager-extension.md)
   * [Adobe Privacy Extension](extension-reference/adobe-privacy-extension.md)
 -->
+<!--
+* Tutorials {#tutorials}
+  * [Overview](launch-tutorials/contributing/overview.md)
+  * [Companies](launch-tutorials/contributing/companies.md)
+  * [Hosts](launch-tutorials/contributing/hosts.md)
+  * [Data elements](launch-tutorials/contributing/data-elements.md)
+  * [Environments](launch-tutorials/contributing/environments.md)
+  * [Extensions](launch-tutorials/contributing/extensions.md)
+  * [Properties](launch-tutorials/contributing/properties.md)
+  * [Publishing](launch-tutorials/contributing/publishing.md)
+  * [Rules](launch-tutorials/contributing/rules.md)
+  * [Miscellaneous](launch-tutorials/contributing/miscellaneous.md)
+  * [Example tutorial](launch-tutorials/contributing/template.md)
+  * -->
