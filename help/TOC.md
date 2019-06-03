@@ -1,5 +1,6 @@
 ---
 audience: end-user
+solution: launch
 user-guide-title: Launch User Guide
 index: no
 git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
@@ -8,7 +9,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
 # Launch User Guide {#using}
 
 * [Launch User Guide](overview.md)
-* Introduction {#introduction}
+* Introduction {#intro}
   * Release notes {#release-notes}
     * [Release notes](release-notes/current.md)
     * [2019 release notes](release-notes/2019-release-notes.md)
@@ -16,7 +17,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * Quick start and videos {#get-started}
     * [Quick Start](quick-start/quick-start.md)
     * [Videos](quick-start/videos.md)
-* Implementation {#implementation}
+* Implementation {#implement}
   * [Implementation overview](getting-started/overview.md)
   * Configure Launch {#configure}
     * [Configure Launch](getting-started/general-launch-configuration-and-settings/overview.md)
@@ -32,7 +33,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Add Adobe Audience Manager \(AAM\)](getting-started/implement-solutions/add-adobe-audience-manager-aam.md)
     * [Experience Cloud integrations](getting-started/implement-solutions/experience-cloud-integrations.md)
   * [Publish your Launch property](getting-started/validate-and-publish.md)
-* Launch Reference {#launch-reference}
+* Launch Reference {#reference}
   * Managing Resources {#manage-resources}
     * [Managing Resources overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
@@ -44,7 +45,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Compare resource revisions](launch-reference/managing-resources/compare-resource-revisions.md)
     * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
     * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
-  * Publishing {#publishing}
+  * Publishing {#publish}
     * [Publishing overview](launch-reference/publishing/overview.md)
     * [Approval workflow](launch-reference/publishing/approval-workflow.md)
     * [Hosts](launch-reference/publishing/hosts.md)
@@ -68,11 +69,11 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
     * [Link DTM embed code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
     * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
-* Extensions reference {#extensions-reference}
+* Extensions reference {#extensions-ref}
   * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
   * Adobe extensions {#adobe-extension}
     * [Adobe extensions overview](extension-reference/web/overview.md)
-    * Analytics extension {#analytics-extensions}
+    * Analytics extension {#analytics-extension}
       * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
       * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
     * Media Analytics extension {#media-analytics-extension}
@@ -88,7 +89,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
     * Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
-    * ID Service extension {#id-service-ext}
+    * ID Service extension {#id-service-extension}
       * [Experience Cloud ID Service extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
       * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
     * [Adobe Experience Platform extension](extension-reference/web/adobe-experience-platform-extension.md)
