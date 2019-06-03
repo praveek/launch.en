@@ -1,6 +1,6 @@
 ---
 audience: end-user
-solution: launch
+product: launch
 user-guide-title: Launch User Guide
 index: no
 git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
