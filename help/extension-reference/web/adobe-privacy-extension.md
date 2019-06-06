@@ -29,13 +29,13 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 
 By default, you must provide your report suite by entering a string or selecting a data element.
 
-To configure other items, click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element.
+To configure other items, click **[!UICONTROL Choose an Item]**, select the item you want to configure, then click **[!UICONTROL Add]** and enter the requested parameter or a data element.
 
 ### Audience Manager
 
 ![](/help/assets/ext-privacy-aam.jpg)
 
-Click Choose an Item, select the item you want to configure, then click Add and enter the requested parameter or a data element. Currently, you can configure only the aamUUIDCookieName.
+Click **[!UICONTROL Choose an Item]**, select the item you want to configure, then click **[!UICONTROL Add]** and enter the requested parameter or a data element. Currently, you can configure only the `aamUUIDCookieName`.
 
 ### Target
 
@@ -57,7 +57,7 @@ There are no specific parameters to configure for AdCloud.
 
 ## Configure the Adobe Privacy Extension
 
-After you install the extension, you can disable or delete it. Click Configure on the Adobe Privacy card in your installed extensions, then select either Disable or Uninstall.
+After you install the extension, you can disable or delete it. Click **[!UICONTROL Configure]** on the Adobe Privacy card in your installed extensions, then select either **[!UICONTROL Disable]** or **[!UICONTROL Uninstall]**.
 
 ## Actions
 

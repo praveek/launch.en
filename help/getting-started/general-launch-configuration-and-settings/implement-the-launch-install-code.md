@@ -45,12 +45,12 @@ Launch permits additional Development environments, which is useful in large org
 
 These are the only environments needed to complete the tutorial. Environments allow you to have different working versions of your Launch libraries hosted at different URLs, so you can safely add new features and make them available to the right users \(such as developers, QA engineers, the public, and so on\) at the right time
 
-1. In the Development row, click the **Install** icon to open the modal.
+1. In the Development row, click the **[!UICONTROL Install]** icon to open the modal.
 
    Launch defaults to the asynchronous embed codes.
 
-1. Click the copy icon to copy the installation code to your clipboard.
-1. Click **Close** to close the modal.
+1. Click the **[!UICONTROL Copy]** icon to copy the installation code to your clipboard.
+1. Click **[!UICONTROL Close]** to close the modal.
 
 ![](/help/assets/launch-copyinstallcode.png)
 
@@ -58,9 +58,9 @@ These are the only environments needed to complete the tutorial. Environments al
 
 The embed code should be implemented in the `<head>` element of all HTML pages that share the property. You might have one or several template files that control the `<head>` globally across the site, making it a straightforward process to add Launch.
 
-If you haven’t already, download [the sample HTML page](https://www.enablementadobe.com/multi/web/basic-sample.html). Right-click on this link and click **Save Link As**. Then, open the page in a code editor.
+If you haven’t already, download [the sample HTML page](https://www.enablementadobe.com/multi/web/basic-sample.html). Right-click on this link and click **[!UICONTROL Save Link As]**. Then, open the page in a code editor.
 
-Replace the existing embed code on or around line 34 with the one on your clipboard and save the page. Next, open the page in a web browser. If you are loading the page using the file:// protocol, you need to add "https:" at the beginning of the embed code URL in your code editor. Lines 33-36 of your sample page might look something like this:
+Replace the existing embed code on or around line 34 with the one on your clipboard and save the page. Next, open the page in a web browser. If you are loading the page using the `file://` protocol, you need to add "https:" at the beginning of the embed code URL in your code editor. Lines 33-36 of your sample page might look something like this:
 
 ```text
     <!--Launch Header Embed Code: REPLACE LINE 39 WITH THE EMBED CODE FROM YOUR OWN DEVELOPMENT ENVIRONMENT-->

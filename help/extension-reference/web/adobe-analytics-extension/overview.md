@@ -13,9 +13,9 @@ Use this reference for information about configuring the Adobe Analytics extensi
 
 This section provides a reference for the options available when configuring the Adobe Analytics extension.
 
-If the Adobe Analytics extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Adobe Analytics extension, and click Install.
+If the Adobe Analytics extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Adobe Analytics extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-analytics-config.png)
 
@@ -45,7 +45,7 @@ If you select this option, specify one or more report suites for each of the fol
 
 #### Tracker is accessible on the global variable named
 
-Checking this box allows the tracker object to be used globally. For example, you could define the variable window.s.pageName anywhere on your site.
+Checking this box allows the tracker object to be used globally. For example, you could define the variable `window.s.pageName` anywhere on your site.
 
 ### Load the library from a custom URL
 
@@ -75,7 +75,7 @@ Specify the tracker object to be used globally.
 
 Lets you [insert core AppMeasurement code](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/t_appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
-Note: The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+>[!NOTE] The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
 
 #### Set the following report suites on tracker
 
@@ -97,7 +97,7 @@ Select an option from the General section of the configuration page. The followi
 
 Enables or disables tracking based on the EU privacy cookie.
 
-When you check the EU Compliance check box, the **Tracking Cookie Name** field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
+When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
 
 When a page is loaded, the system checks to see if a cookie called sat\_track is set \(or the custom cookie name specified on the Edit Property page\). Consider the following information:
 
@@ -120,7 +120,7 @@ _satellite.setCookie("sat_track", "true");
 
 Determines how the image request is encoded. If your implementation or site uses non-ASCII characters, it is important to define character set here. You can select a preset character set or specify a custom character set. Adobe recommends using the same character coding as your site. Typically this value is UTF-8.
 
-Character Set can be set in Analytics custom code using the variable s.charSet.
+Character Set can be set in Analytics custom code using the variable `s.charSet`.
 
 For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).
 
@@ -134,7 +134,7 @@ For more information about the supported currency codes, see the [Multi-Currency
 
 Used for first-party cookie implementations to dictate where the first-party cookie is stored. If you use the Experience Cloud ID Service, Adobe advises against populating this field.
 
-Tracking Server can be set in Analytics custom code using the variable s.trackingServer.
+Tracking Server can be set in Analytics custom code using the variable `s.trackingServer`.
 
 See [trackingServer](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) in the Adobe Analytics Implementation guide.
 
@@ -142,7 +142,7 @@ See [trackingServer](https://experiencecloud.adobe.com/resources/help/en_US/sc/i
 
 Used for SSL first-party cookie implementations to dictate where the first-party cookie is stored. If you use the Experience Cloud ID Service, Adobe advises against populating this field. If not defined, SSL data uses Tracking Server.
 
-SSL Tracking Server can be set in Analytics custom code using the variable s.trackingServerSecure.
+SSL Tracking Server can be set in Analytics custom code using the variable `s.trackingServerSecure`.
 
 See [trackingServerSecure](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
 
@@ -277,7 +277,7 @@ Set one or more [eVars](https://experiencecloud.adobe.com/resources/help/en_US/s
 1. Specify whether you want to set the eVar as the value \(Set As\) or copy \(Duplicate From\) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate.
 1. \(Optional\) Click Add eVar to set more eVars.
-1. Click Keep Changes.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Props
 
@@ -286,8 +286,8 @@ Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/s
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value \(Set As\) or copy \(Duplicate From\) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-1. \(Optional\) Click Add prop to set more props.
-1. Click Keep Changes.
+1. \(Optional\) Click **[!UICONTROL Add prop]** to set more props.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Events
 
@@ -295,8 +295,8 @@ Set one or more [events](https://experiencecloud.adobe.com/resources/help/en_US/
 
 1. Select an event from the dropdown.
 1. \(Optional\) Select or specify a data element used for [event serialization](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
-1. \(Optional\) Click Add event to set more props.
-1. Click Keep Changes.
+1. \(Optional\) Click **[!UICONTROL Add event]** to set more events.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
@@ -333,9 +333,9 @@ Use the editor to specify your custom page code.
 
 **Settings**
 
-1. Click Open Editor.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 ### Send Beacon {#send-beacon}
 
@@ -361,7 +361,7 @@ Select if you do not want to increment a pageview.
    * Custom Link: Specify the link name.
    * Download Link: Specify a file name.
    * Exit Link: Specify the destination URL.
-1. Click Keep Changes.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ### Clear Variables {#clear-variables}
 

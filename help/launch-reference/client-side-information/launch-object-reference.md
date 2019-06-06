@@ -209,7 +209,7 @@ _satellite.notify(message: string[, level: number])
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.logger.log()` instead.
+>[!NOTE] This method has been deprecated. Please use `_satellite.logger.log()` instead.
 
 ```javascript
 _satellite.notify('Hello world!');
@@ -237,7 +237,7 @@ _satellite.setCookie(name: string, value: string, days: number)
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.set()` instead.
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.set()` instead.
 
 ```javascript
 _satellite.setCookie('product', 'Circuit Pro', 3);
@@ -255,7 +255,7 @@ _satellite.readCookie(name: string) => string
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.get()` instead.
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.get()` instead.
 
 ```javascript
 var product = _satellite.readCookie('product');
@@ -273,7 +273,7 @@ _satellite.removeCookie(name: string)
 
 #### Example
 
-Note: This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
 
 ```javascript
 _satellite.removeCookie('product');
@@ -313,7 +313,7 @@ Important: This function should not be accessed from production code. It is inte
 
 On your web page running a Launch library, add a snippet of code to your HTML. Typically, the code is placed in the `<head>` tag before the `<script>` tag that loads the Launch library. This allows the monitor to catch the earliest system events that occur in the Launch library. For example:
 
-```markup
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -369,7 +369,7 @@ Called after a rule has been triggered and one of its conditions has failed. The
 
 If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` will be called shortly thereafter.
 
-Note: A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with whatever supported methods have been provided by the monitor.
+>[!NOTE] A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with whatever supported methods have been provided by the monitor.
 
 #### Testing the Monitor
 

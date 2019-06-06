@@ -47,13 +47,13 @@ Before you link your embed code:
 
 ## How to Link the Embed Code {#how-to-link-the-embed-code}
 
-1. In Launch, open the Environments tab.
+1. In Launch, open the [!UICONTROL Environments] tab.
 1. Create a new Production environment.
 1. Give your environment a name.
-1. Toggle the **Link DTM embed code** option on.
-1. Paste your DTM production embed code into the **DTM Embed Code** field in Launch.
+1. Toggle the **[!UICONTROL Link DTM embed code]** option on.
+1. Paste your DTM production embed code into the **[!UICONTROL DTM Embed Code]** field in Launch.
 1. Finish configuring your Launch Production environment \(archive setup, etc\).
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 Launch validates a number of things and tells you whether linking was successful.
 

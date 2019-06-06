@@ -72,12 +72,12 @@ The Target extension consists of two main parts:
 
 This first exercise adds the extension and examines the configurations. Later exercises use the actions defined in this exercise.
 
-1. Go to **Extensions** > **Catalog**, then type "Target" in the filter to quickly locate the Adobe Target extension.
-1. Click **Install**.
+1. Go to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]**, then type "Target" in the filter to quickly locate the Adobe Target extension.
+1. Click **[!UICONTROL Install]**.
 
    When you add the extension, it imports many of your at.js settings from the Target interface. One setting that is not imported is the Timeout, which is always 3000ms after adding the extension. For the tutorial, leave the default settings. Note that the at.js version that ships with the current version of the extension is shown on the left side of the screen.
 
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
    At this point, Target isn't doing anything yet, so there is nothing to validate.
 
@@ -91,38 +91,38 @@ Marketers use Target to control the visitor experience on the page when testing 
 
 You can use the All Pages - Library Loaded rule you created in "[Add a Data Elements, a Rule, and a Library](../general-launch-configuration-and-settings/add-data-elements-and-rules.md)" to implement Target because it is already triggered on the first event that fires on a page load, the Library Loaded event.
 
-1. Go to the **Rules** in the top navigation, then click on All Pages - Library Loaded to open the rule editor.
+1. Go to the **[!UICONTROL Rules]** in the top navigation, then click on All Pages - Library Loaded to open the rule editor.
 
    ![](/help/assets/target-editrule.png)
 
-1. Under Actions, click the **Add** icon to add a new action.
+1. Under Actions, click the **[!UICONTROL Add]** icon to add a new action.
 
    ![](/help/assets/target-addloadtargetaction.png)
 
-1. Select **Extension** > **Adobe Target**.
-1. Select **Action Type** > **Load Target**.
-1. Click **Keep Changes**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Target]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Load Target]**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 With the Load Target action added, at.js loads on the page. However, no Target requests fire until you add the Fire Global Mbox action.
 
 ### Add the Fire Global Mbox action
 
-1. Under Actions, click the **Add** icon again to add another action.
+1. Under Actions, click the **[!UICONTROL Add]** icon again to add another action.
 
    ![](/help/assets/target-addglobalmboxaction.png)
 
-1. Select **Extension** > **Adobe Target**.
-1. Select **Action Type** > **Fire Global Mbox**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Target]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Fire Global Mbox]**.
 
    There are some configurations available for the global mbox related to whether to hide the page and CSS selector to use for prehiding. These settings work in conjunction with the prehiding snippet hard-coded on the page. Leave the default settings.
 
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
    The new action is added in sequence after the Load Target action. The actions will execute in this order. You can drag-and-drop the actions to rearrange the order. In this scenario, Load Target needs fire before Fire Global Mbox.
 
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-### **Validate the global mbox**
+### Validate the global mbox
 
 Now that you have added the Target extension and fired the Load Target and Fire Global Mbox actions, there should be a global mbox request from all pages where your Launch property is used.
 
@@ -135,13 +135,13 @@ Now that you have added the Target extension and fired the Load Target and Fire 
 
    ![](/help/assets/switchenvironments-debuggeronweretail2.png)
 
-1. Go to the Summary tab of the Debugger.
+1. Go to the [!UICONTROL Summary] tab of the Debugger.
 1. In the Launch section, confirm that Target appears under the Extensions heading.
 1. In the Target section, confirm that your client code, at.js library version, and global mbox name appear.
 
    ![](/help/assets/target-summarytab.png)
 
-1. Finally, go to the Target tab, expand your client code, and confirm that the request for your global mbox appears:
+1. Finally, go to the [!UICONTROL Target] tab, expand your client code, and confirm that the request for your global mbox appears:
 
    ![](/help/assets/target-debugger-globalmbox.png)
 
@@ -162,33 +162,33 @@ Mbox parameters pass custom data to Target, enriching your personalization capab
 
 Add the Page Name data element that we created earlier in [Add a Data Element, a Rule, and a Library](../general-launch-configuration-and-settings/add-data-elements-and-rules.md) as an mbox parameter.
 
-1. Go to the **Rules** in the top navigation and then click on All Pages - Library Loaded to open the rule editor.
+1. Go to the **Rules** in the top navigation and then click on **[!UICONTROL All Pages - Library Loaded]** to open the rule editor.
 
    ![](/help/assets/target-editrule.png)
 
-1. Under Actions, click the **Add** icon to add a new action.
+1. Under Actions, click the **[!UICONTROL Add]** icon to add a new action.
 
    ![](/help/assets/target-addparamsaction.png)
 
-1. Select **Extension** > **Adobe Target**.
-1. Select **Action Type** > **Add Params to Global Mbox**.
-1. Enter pageName as the **Name**.
-1. Click the **Data Elements** icon to open the data element modal.
-1. Click the Page Name data element, then click **Select**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Target]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Add Params to Global Mbox]**.
+1. Enter pageName as the **[!UICONTROL Name]**.
+1. Click the **[!UICONTROL Data Elements]** icon to open the data element modal.
+1. Click the Page Name data element, then click **[!UICONTROL Select]**.
 
    ![](/help/assets/target-mboxparam-pagename.png)
 
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 1. Click-and-drag the left edge of the Add Params to Global Mbox action to rearrange the actions so Add Params to Global Mbox is before Fire Global Mbox.
 
    It can be either before or after Load Target.
 
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-### **Validate the Mbox Parameter**
+### Validate the Mbox Parameter
 
 1. Reload the We.Retail site with it mapped to your property with Experience Cloud Debugger.
-1. Go to the **Target** tab in the Debugger, then expand your client code and look at the requests.
+1. Go to the [!UICONTROL Target] tab in the Debugger, then expand your client code and look at the requests.
 
    You should see the new pageName parameter passed in the request:
 
@@ -265,17 +265,17 @@ The property token is implemented like an mbox parameter. Name the parameter `at
 
 Here is an optional exercise, if you would like to implement a property token in your Tutorial property:
 
-1. In a separate tab, open the Target user interface, go to **Setup** > **Properties**, and identify the property that you want to use, then click the **&lt;/&gt;** \(or create a new property\).
+1. In a separate tab, open the Target user interface, go to **[!UICONTROL Setup]** > **[!UICONTROL Properties]**, and identify the property that you want to use, then click the **[!UICONTROL &lt;/&gt;]** \(or create a new property\).
 1. Copy the at\_property value to your clipboard.
 
    ![](/help/assets/target-addatproperty-targetproperties.png)
 
-1. In your Launch tab, go to the **Rules** in the top navigation, then click on **All Pages - Library Loaded** to open the rule editor.
-1. Under Actions, click the **Adobe Target - Add Params to Global Mbox** action top open the Action Configuration.
+1. In your [!UICONTROL Launch] tab, go to the **[!UICONTROL Rules]** in the top navigation, then click on **[!UICONTROL All Pages - Library Loaded]** to open the rule editor.
+1. Under [!UICONTROL Actions], click the **[!UICONTROL Adobe Target - Add Params to Global Mbox]** action top open the Action Configuration.
 
    ![](/help/assets/target-openparamsaction.png)
 
-1. Under the pageName parameter, click **Add**.
+1. Under the pageName parameter, click **[!UICONTROL Add]**.
 
    ![](/help/assets/target-addatproperty.png)
 
@@ -283,10 +283,10 @@ Here is an optional exercise, if you would like to implement a property token in
 
    ![](/help/assets/target-addatproperty-keepchanges.png)
 
-1. Click **Keep Changes.**
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Keep Changes.]**
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### **Validate the Property Token**
+#### Validate the Property Token
 
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described earlier.
@@ -319,29 +319,29 @@ The order confirmation mbox should fire from a rule that is only triggered on yo
 
 Add the data elements and rule required to fire an order confirmation mbox on the We.Retail site. Because you have already created several data elements, these instructions are abbreviated.
 
-#### **Create Data Element for Order Id**
+#### Create Data Element for Order Id
 
-1. Click **Rules** in the top navigation, then click **Add Data Element**.
+1. Click **[!UICONTROL Rules]** in the top navigation, then click **[!UICONTROL Add Data Element]**.
 1. Name the data element Order Id.
-1. Select **Data Element Type** > **JavaScript Variable**.
+1. Select **[!UICONTROL Data Element Type]** > **[!UICONTROL JavaScript Variable]**.
 1. Use `digitalData.cart.orderId` as the Path to Variable.
 1. Select the Clean Text option.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### **Create Data Element for Cart Amount**
+#### Create Data Element for Cart Amount
 
-1. Click **Add Data Element**.
+1. Click **[!UICONTROL Add Data Element]**.
 1. Name the data element Cart Amount.
-1. Select **Data Element Type** > **JavaScript Variable**.
+1. Select **[!UICONTROL Data Element Type]** > **[!UICONTROL JavaScript Variable]**.
 1. Use `digitalData.cart.cartAmount` as the Path to Variable.
 1. Select the Clean Text option.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### **Create Data Element for Cart SKUs \(Target\)**
+#### Create Data Element for Cart SKUs \(Target\)
 
-1. Click **Add Data Element**.
+1. Click **[!UICONTROL Add Data Element]**.
 1. Name the data element Cart SKUs \(Target\).
-1. Select **Data Element Type** > **Custom Code**. For Target, the skus must be a comma separated list.
+1. Select **[!UICONTROL Data Element Type]** > **[!UICONTROL Custom Code]**. For Target, the skus must be a comma separated list.
 
    This custom code reformats the data layer array into the proper format.
 
@@ -358,19 +358,19 @@ Add the data elements and rule required to fire an order confirmation mbox on th
    return targetProdSkus;
    ```
 
-1. Check the **Force lowercase value** and **Clean text** options.
-1. Click **Save to Library and Build**.
+1. Check the **[!UICONTROL Force lowercase value]** and **[!UICONTROL Clean text]** options.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### **Create Rule for Order Confirmation page**
+#### Create Rule for Order Confirmation page
 
-1. Click **Rules** in the top navigation, then click **Add New Rule**.
+1. Click **[!UICONTROL Rules]** in the top navigation, then click **[!UICONTROL Add New Rule]**.
 1. Name the rule Order Confirmation Page - Library Loaded - 60.
 1. Create an event.
-   1. Click **Events** > **Add**, then select **Events** > **Library Loaded \(Page Top\)**.
+   1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]**, then select **[!UICONTROL Events]** > **[!UICONTROL Library Loaded \(Page Top\)]**.
    2. Change the Order to 60 so that it fires after the Load Target action \(which is in the All Pages - Library Loaded rule where Order is set to 50\).
-   3. Click **Keep Changes**.
+   3. Click **[!UICONTROL Keep Changes]**.
 1. Create a condition.
-   1. Click **Conditions** > **Add**, then select **Condition Type** > **Path Without Query String**.
+   1. Click **[!UICONTROL Conditions]** > **[!UICONTROL Add]**, then select **[!UICONTROL Condition Type]** > **[!UICONTROL Path Without Query String]**.
    2. For Path equals enter thank-you.html.
    3. Toggle on the Regex option to change the logic from equals to contains.
 
@@ -378,10 +378,10 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
       ![](/help/assets/target-orderconfirm-test.png)
 
-   4. Click **Keep Changes**.
+   4. Click **[!UICONTROL Keep Changes]**.
 1. Create an action.
-   1. Click **Actions** > **Add**, then select **Action Type** > **Custom Code**.
-   2. Click **Open Editor**.
+   1. Click **[!UICONTROL Actions]** > **[!UICONTROL Add]**, then select **[!UICONTROL Action Type]** > **[!UICONTROL Custom Code]**.
+   2. Click **[!UICONTROL Open Editor]**.
    3. Paste the following code into the Edit Code modal:
 
       ```javascript
@@ -404,11 +404,11 @@ Add the data elements and rule required to fire an order confirmation mbox on th
         });
       ```
 
-   4. Click **Save** to save the custom code.
-   5. Click **Keep Changes** to keep the action.
-1. Click **Save to Library and Build**.
+   4. Click **[!UICONTROL Save]** to save the custom code.
+   5. Click **[!UICONTROL Keep Changes]** to keep the action.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### **Validate the Order Confirmation Mbox**
+#### Validate the Order Confirmation Mbox
 
 1. Open the We.Retail site.
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described [earlier](../general-launch-configuration-and-settings/switch-environments-with-launch-command.md).
@@ -422,7 +422,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
    ![](/help/assets/target-testordercart.png)
 
 1. On the Review Order page, be sure to click the Place Order button.
-1. Open the Debugger, go to the **Target tab**, then expand your client code.
+1. Open the Debugger, go to the [!UICONTROL Target] tab, then expand your client code.
 
    You should see the `orderConfirmPage` request as the latest Target request with the `orderId`, `orderTotal`, and `productPurchasedId` parameters populated with the details of your order.
 
@@ -432,7 +432,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
 There are rare instances when you need to make Target requests other than the global and order confirmation mbox. For example, sometimes important data you would like to use for personalization is not defined on the page before the Launch embed codes. It might be hardcoded on the bottom of the page or get returned from an asynchronous API request. This data can still be sent to Target using an additional request, although it is not optimal to use this request for content delivery since the page is already visible. It can be used to enrich the visitor profile for later use \(using profile parameters\) or to populate the Recommendations catalog.
 
-In these circumstances, use the Custom Code action in the Core extension to fire an mbox using the [`getOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/?f=r_target-atjs-getoffer) /[`applyOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-applyoffer.html) and [`trackEvent`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-trackevent.html) methods. This is similar to what you did in the Order Confirmation mbox exercise, but you use a different mbox name and do not use the special order parameters. Be sure to use the **Load Target** action before making mbox calls from custom code.
+In these circumstances, use the Custom Code action in the Core extension to fire an mbox using the [`getOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/?f=r_target-atjs-getoffer) /[`applyOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-applyoffer.html) and [`trackEvent`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-trackevent.html) methods. This is similar to what you did in the Order Confirmation mbox exercise, but you use a different mbox name and do not use the special order parameters. Be sure to use the Load Target action before making mbox calls from custom code.
 
 ## Library Header and Library Footer
 

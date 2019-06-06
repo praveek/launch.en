@@ -26,7 +26,7 @@ Examples of differences that are further defined below:
 
 ### Name {#name}
 
-The name of your DTM property is copied to Launch. "**\(DTM - yyyy-mm-dd hh:mm:ss\)"** is added to the end of the Launch property name so you know exactly when it was migrated. You can remove this timestamp from your Launch property name.
+The name of your DTM property is copied to Launch. `\(DTM - yyyy-mm-dd hh:mm:ss\)` is added to the end of the Launch property name so you know exactly when it was migrated. You can remove this timestamp from your Launch property name.
 
 ### Domains {#domains}
 
@@ -62,7 +62,7 @@ If you're using `Managed by Adobe` in the DTM tool, be aware that it lets you se
 
 #### Initial Beacon {#initial-beacon}
 
-In DTM, an Analytics beacon is fired on every page when App Measurement loads, even if no rules have been defined. In Launch, this beacon call is controlled by a rule and does not happen automatically. The upgrade process creates this rule for you unless you use the `Page code is already present` option in DTM. This rule is called **Migrated from DTM: Adobe Analytics - Send beacon on every page** and has the following definition:
+In DTM, an Analytics beacon is fired on every page when App Measurement loads, even if no rules have been defined. In Launch, this beacon call is controlled by a rule and does not happen automatically. The upgrade process creates this rule for you unless you use the `Page code is already present` option in DTM. This rule is called "Migrated from DTM: Adobe Analytics - Send beacon on every page" and has the following definition:
 
 * Event: `Page Bottom`  This most closely matches the DTM behavior even though Launch recommends`Library Load` rather than `Page Bottom` in most cases.
 * Conditions: None
@@ -75,7 +75,7 @@ The Upgrade Assistant creates this rule in Launch, as long as an Analytics tool 
 
 Analytics tools that don't define a production report suite are not copied to Launch.
 
-Evars that don't match the pattern of **`eVar\#\#`** are not copied to Launch.
+Evars that don't match the pattern of `eVar\#\#` are not copied to Launch.
 
 ### Experience Cloud ID Tool {#experience-cloud-id-tool}
 

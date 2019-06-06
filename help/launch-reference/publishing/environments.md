@@ -17,11 +17,11 @@ When you create a Library, you must assign it to an Environment. Each Environmen
 
 Different Launch artifacts can exist in each Environment. This allows you to test different Libraries in different environments as you push them through your Workflow.
 
-## Installation Instructions
+## Installation instructions
 
 Each Environment has a set of instructions used to connect it to your application. For web properties, these instructions provide embed codes. For mobile properties, these instructions provide the code necessary to instantiate the libraries you're using and retrieve the configuration at run-time.
 
-Installation instuctions can be accessed by clicking the Install Icon on the Environments list page.
+Installation instructions can be accessed by clicking the **[!UICONTROL Install]** Icon on the [!UICONTROL Environments] list page.
 
 ![](/help/assets/install_instructions.png)
 
@@ -29,9 +29,9 @@ Installation instuctions can be accessed by clicking the Install Icon on the Env
 
 For web properties, Launch also uses the settings from the assigned Environment to determine the following:
 
-1. Destination - This is the location where you want your build to be deployed. It is controlled by selecting a host for the environment to use.
-1. Archive Format - You can get a deployable set of files or have it zipped up in an archive format. This is controlled by the archive settings.
-1. Embed Code - This is the code you'll use to deploy your build at run-time and will be different based on property type.
+* **Destination:** This is the location where you want your build to be deployed. It is controlled by selecting a host for the environment to use.
+* **Archive Format:** You can get a deployable set of files or have it zipped up in an archive format. This is controlled by the archive settings.
+* **Embed Code:** This is the code you'll use to deploy your build at run-time and will be different based on property type.
 
 ### Destination
 
@@ -85,8 +85,8 @@ When the embed code changes in Launch, you'll need to update the embed codes in 
 
 New properties are created with three environments: one Development, one Staging, and one Production. This is enough to run the publishing workflow. If desired, you may add additional Development environments. This is most common on larger teams with multiple developers working on different projects at the same time.
 
-1. Open the Environments tab.
-1. Click Create New Environment.
+1. Open the [!UICONTROL Environments] tab.
+1. Click **[!UICONTROL Create New Environment]**.
 1. Select the type of environment you want to create.
    * Development
 
@@ -101,8 +101,8 @@ New properties are created with three environments: one Development, one Staging
      The environment where your embed codes are placed in the pages or applications that are available to the public.
 1. Select your host.
 1. \(Optional\) Enable Create Archive if you want your build delivered as a .zip package. If you want to encrypt the .zip file, enable Encrypt Archive and enter an encryption password. Enter the location where the library is hosted. The path can be either a full URL or a relative path that can be used across multiple domains. This is important because most builds have multiple files that contain internal references to one another.
-1. Click Save.
-1. In the Web Install Instructions dialog box, select whether to load the library asynchronously. If you choose to load the library asynchronously, copy the embed code provided in the dialog box.  You can also install your embed code later by clicking the Install icon for that environment in your Environments list.  Refer to the information below.
+1. Click **[!UICONTROL Save]**.
+1. In the [!UICONTROL Web Install Instructions] dialog box, select whether to load the library asynchronously. If you choose to load the library asynchronously, copy the embed code provided in the dialog box.  You can also install your embed code later by clicking the Install icon for that environment in your Environments list.  Refer to the information below.
 1. Repeat for each environment in your development, approval, and publishing change.
 
 After the environments are created, you are ready to publish.

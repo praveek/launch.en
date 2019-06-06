@@ -13,21 +13,21 @@ Use this reference for information about configuring the Adobe Experience Platfo
 
 This section provides a reference for the options available when configuring the Adobe Experience Platform extension.
 
-If the Adobe Experience Platform extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Adobe Experience Platform extension, and click Install.
+If the Adobe Experience Platform extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Adobe Experience Platform extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ![](/help/assets/adobe_experience_platform_extension_configuration.png)
 
 ### Streaming Connection
 
-Choosing a streaming connection is the first step for you to start streaming data to Adobe Experience Platform. You can select one from the streaming connection combobox. Streaming connection is a required field. In case you don't have any streaming connection created, you can create one by clicking the **"Create a streaming connection"** button.
+Choosing a streaming connection is the first step for you to start streaming data to Adobe Experience Platform. You can select one from the streaming connection combobox. Streaming connection is a required field. In case you don't have any streaming connection created, you can create one by clicking the **[!UICONTROL Create a streaming connection]** button.
 
-If you click on the **"Create a streaming connection"** button a modal window will appear.
+If you click on the **[!UICONTROL Create a streaming connection]** button a modal window will appear.
 
 ![](/help/assets/adobe_experienc_platform_create_streaming_connection.png)
 
-The modal contains fields with pre-populated values that can be changed to suit your needs. If you plan to create more that one streaming connection, you should be aware that the **Data Source** field needs to be unique. Trying to create another streaming connection using a **Data Source** already used on another connection will fail.
+The modal contains fields with pre-populated values that can be changed to suit your needs. If you plan to create more that one streaming connection, you should be aware that the **[!UICONTROL Data Source]** field needs to be unique. Trying to create another streaming connection using a **[!UICONTROL Data Source]** already used on another connection will fail.
 
 Once you selected a streaming endpoint, you will the streaming endpoint URL and source.
 
@@ -73,7 +73,7 @@ Record data schemas and time series data schemas may contain one or more identit
 
 Identity fields can be defined in two ways inside the schema:
 
-1.  Record and Time Series schemas both contain a special field called **xdm:identityMap** that can contain a map of identities.
+1. Record and Time Series schemas both contain a special field called `xdm:identityMap` that can contain a map of identities.
 1. Key fields can be marked as "Identity" fields inside the schema.
 
 ### Identity fields inside the Adobe Experience Platform Extension
@@ -90,7 +90,7 @@ A schema field that is defined as a non-primary identity field, will be automati
 
 You will see a warning icon near each non-primary identity field that doesn't contain a value.
 
-An identity section will be visible if your schema contains an **xdm:identityMap** field. You can use this section if you prefer to send data related to identities using the **xdm:identityMap**.
+An identity section will be visible if your schema contains an `xdm:identityMap` field. You can use this section if you prefer to send data related to identities using the `xdm:identityMap`.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_identity_section.png)
 
@@ -98,12 +98,12 @@ The identity mapping section can contain multiple rows. Each row can define a ce
 
 If you have multiple identities inside the identity mapping section, only one identity can be marked as primary.
 
-If you have a schema that has an **xdm:identityMap** field and at the same time another field is marked an a primary identity field, the primary column from inside the identity mapping section will not be visible.
+If you have a schema that has an `xdm:identityMap` field and at the same time another field is marked an a primary identity field, the primary column from inside the identity mapping section will not be visible.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_identity_section_not_primary.png)
 
 ### Required fields
 
-Some schemas will have top level required fields. The most commons ones are timestamp and \_id. Without defining these fields, the beacon will fail. You can defined them inside the schema mapping section.
+Some schemas will have top level required fields. The most commons ones are `timestamp` and `_id`. Without defining these fields, the beacon will fail. You can defined them inside the schema mapping section.
 
-If your schema mapping section won't contain timestamp or \_id, but the dataset schema requires them, the Adobe Experience Platform extension will send a beacon containing automatically generated values so that the beacon will not fail. The automatically generated values will be added to the beacon data only if you haven't defined those fields inside the schema mapping section.
+If your schema mapping section won't contain `timestamp` or `_id`, but the dataset schema requires them, the Adobe Experience Platform extension will send a beacon containing automatically generated values so that the beacon will not fail. The automatically generated values will be added to the beacon data only if you haven't defined those fields inside the schema mapping section.

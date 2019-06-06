@@ -21,16 +21,16 @@ At the end of this tutorial, you will be able to:
 
 After you have created and validated your library in the Development environment, it is time to publish it to Staging.
 
-1. Go to the **Publishing** page.
-1. Open the drop down next to your library and select **Submit for Approval**.
+1. Go to the **[!UICONTROL Publishing]** page.
+1. Open the drop down next to your library and select **[!UICONTROL Submit for Approval]**.
 
    ![](/help/assets/publishing-submitforapproval.png)
 
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.
 
    Your library appears in the Submitted column in an unbuilt state.
 
-1. Open the drop down and select **Build for Staging**.
+1. Open the drop down and select **[!UICONTROL Build for Staging]**.
 
    ![](/help/assets/publishing-buildforstaging.png)
 
@@ -41,11 +41,11 @@ In a real-life scenario, the next step in the process would typically be to have
 ### Validate the changes in the Staging library
 
 1. In your Launch property, open the Environments page.
-1. In the Staging row, click the **Install** icon.
+1. In the Staging row, click the **[!UICONTROL Install]** icon.
 
    ![](/help/assets/publishing-getstagingcode.png)
 
-1. Click the **Copy** icon to copy the embed code to your clipboard, then click **Close**.
+1. Click the **[!UICONTROL Copy]** icon to copy the embed code to your clipboard, then click **[!UICONTROL Close]**.
 
    ![](/help/assets/publishing-copystagingcode.png)
 
@@ -54,7 +54,7 @@ In a real-life scenario, the next step in the process would typically be to have
 
    ![](/help/assets/switchenvironments-opendebugger.png)
 
-1. Open the Tools tab and click **Adobe Launch** > **Dynamically Insert Launch &gt; Embed Code** to open the text input field \(it might currently have the URL of your Development embed code\):
+1. Open the Tools tab and click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field \(it might currently have the URL of your Development embed code\):
 
    ![](/help/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
 
@@ -70,16 +70,16 @@ In real life, once your QA team has signed off by reviewing the changes in the S
 
 ## Publish to Production
 
-1. Go to the Publishing page, then from the dropdown, click **Approve for Publishing**:
+1. Go to the Publishing page, then from the dropdown, click **[!UICONTROL Approve for Publishing]**:
 
    ![](/help/assets/publishing-approveforpublishing.png)
 
-1. Click **Approve**. The library appears in the Approved column in the unbuilt state \(yellow dot\).
-1. Open the drop down and select **Build and Publish to Production**:
+1. Click **[!UICONTROL Approve]**. The library appears in the Approved column in the unbuilt state \(yellow dot\).
+1. Open the drop down and select **[!UICONTROL Build and Publish to Production]**:
 
    ![](/help/assets/publishing-buildandpublishtoproduction.png)
 
-1. Click **Publish**. The library appears in the Published column:
+1. Click **[!UICONTROL Publish]**. The library appears in the Published column:
 
    ![](/help/assets/publishing-published.png)
 

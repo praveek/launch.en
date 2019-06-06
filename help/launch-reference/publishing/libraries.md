@@ -27,18 +27,18 @@ A library moves between several environments as it makes its way through the pub
 
 ## Create a library {#create-a-library}
 
-1. Open the Publishing tab.
+1. Open the [!UICONTROL Publishing] tab.
 
-   The Publishing page lists the Dev libraries and provides the means to submit them for approval, move them to staging, or publish them to production.
+   The [!UICONTROL Publishing] page lists the Dev libraries and provides the means to submit them for approval, move them to staging, or publish them to production.
 
-1. Click Add New Library.
+1. Click **[!UICONTROL Add New Library]**.
 
    ![](/help/assets/library-create.jpg)
 
 1. Name the library.
 1. Assign the library to a Dev environment.
 1. Add a change to the library.
-   To add an item, click Add a Change, then choose the items you want to add. Any item that has been edited or deleted is available to add to the chosen library.
+   To add an item, click **[!UICONTROL Add a Change]**, then choose the items you want to add. Any item that has been edited or deleted is available to add to the chosen library.
 
    ![](/help/assets/library-add-change.jpg)
 
@@ -48,8 +48,8 @@ A library moves between several environments as it makes its way through the pub
    * Data elements
    * Extension configurations
 
-1. To add any resources that have changed, click Add All Changed Resources.
-1. Click Save or Save and Build for Development.
+1. To add any resources that have changed, click **[!UICONTROL Add All Changed Resources]**.
+1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and Build for Development]**.
 
    Deploying compiles a build and deploys it to the assigned environment.
 
@@ -77,8 +77,8 @@ Once a library is created, use the drop down menu for that library to select one
 
 1. Install the [extensions](../managing-resources/extensions/overview.md) you want to add.
 1. Create the [data elements](../managing-resources/data-elements.md) and rules you want to add.
-1. Open the Publishing tab.
-1. Select the [library](libraries.md) you want to change, then click Edit.
+1. Open the [!UICONTROL Publishing] tab.
+1. Select the [library](libraries.md) you want to change, then click **[!UICONTROL Edit]**.
 1. Use the rules, data elements, and extensions buttons to select the items you want to add to the library.
 1. Save.
 
@@ -92,14 +92,14 @@ To remove something from a library, you must deactivate it and then publish the 
 
 1. Disable the extensions you want to remove, along with any data elements and rules that depend on those extensions.
 1. Disable the data elements and rules you want to remove.
-1. Open the Publishing tab.
+1. Open the [!UICONTROL Publishing] tab.
 1. Select the library you want to change.
 1. Use the rules, data elements, and extensions buttons to select the disabled items you want to remove from the library.
 1. Save.
 
 ## Manage library changes
 
-1. Click on a library and select Edit to view library changes. All changes are shown in the Library Contents list.
+1. Click on a library and select **[!UICONTROL Edit]** to view library changes. All changes are shown in the [!UICONTROL Library Contents] list.
 
    ![](/help/assets/library-contents.jpg)
 
@@ -108,14 +108,14 @@ To remove something from a library, you must deactivate it and then publish the 
    ![](/help/assets/library-contents-revision.jpg)
 
 1. Select whether to show all items or changed items.
-1. Click the revision, then click Select Revision.
-1. Click either Add a Change or Add All Changed Resources.
+1. Click the revision, then click **[!UICONTROL Select Revision]**.
+1. Click either **[!UICONTROL Add a Change]** or **[!UICONTROL Add All Changed Resources]**.
 
 ## Active Library {#active-library}
 
 Libraries encapsulate a set of changes you'd like to make to your deployed code. Active Library makes this easier, allowing you to rapidly iterate through changes and see the impact.
 
-You can save new and existing extensions, rules, and data elements directly to the library you're working on and, if desired, immediately kick off a build. You can also create a new library from the Active Library drop down.
+You can save new and existing extensions, rules, and data elements directly to the library you're working on and, if desired, immediately kick off a build. You can also create a new library from the [!UICONTROL Active Library] drop down.
 
 1. [Create a new library](libraries.md#create-a-library).
 1. Go to [Rules](../managing-resources/rules.md), [Data Elements](../managing-resources/data-elements.md), or [Extensions](../managing-resources/extensions/overview.md).

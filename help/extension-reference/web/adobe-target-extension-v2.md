@@ -11,11 +11,11 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Target v2 extension
 
-**Important:** The Adobe Target extension requires At.js 2.x.
+>[!IMPORTANT] The Adobe Target extension requires At.js 2.x.
 
-If the Adobe Target extension is not yet installed, open your property, then click **Extensions &gt; Catalog**, hover over the Target extension, and click **Install**.
+If the Adobe Target extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Target extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click **Configure**.
+To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ![](/help/assets/targetv2config.png)
 

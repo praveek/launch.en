@@ -27,13 +27,13 @@ After you have included all three of the extensions mentioned above in your Laun
 
 * **Install -** To install the VA extension, open your extension property,
 
-  click _Extensions &gt; Catalog_, hover over the _Adobe Analytics for Video_
+  click **[UICONTROL Extensions &gt; Catalog]**, hover over the **[UICONTROL Adobe Analytics for Video]**
 
-  extension, and click _Install_.
+  extension, and click **[!UICONTROL Install]**.
 
-* **Configure -** To configure the VA extension, open the _Extensions_ tab,
+* **Configure -** To configure the VA extension, open the **[!UICONTROL Extensions]** tab,
 
-  hover over the extension, and then click _Configure_:
+  hover over the extension, and then click **[!UICONTROL Configure]**:
 
 ![VA Extension Configuration](/help/assets/ext-va-config.jpg)
 
@@ -57,9 +57,10 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ### Using from a webpage/JS-app
 
-The VA extension exports the MediaHeartbeat APIs in the global window object by enabling the _"Export APIs to Window Object"_ setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
+The VA extension exports the MediaHeartbeat APIs in the global window object by enabling the **[!UICONTROL "Export APIs to Window Object"]** setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
->[!IMPORTANT]  The VA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
+>[!IMPORTANT]  
+>The VA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
 1. **Create MediaHeartbeat Instance:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
 
@@ -145,7 +146,8 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
 
-**Note: Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE]
+>**Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 ## Leveraging the sample HTML5 player
 
@@ -157,9 +159,9 @@ This section describes the action types available in the Sample Player extension
 
 #### Open Video
 
-The _Open Video_ action provides various configurations for creating and customizing an HTML5 player, providing a video to play and enabling/disabling Adobe Video Analytics tracking.
+The **[!UICONTROL Open Video]** action provides various configurations for creating and customizing an HTML5 player, providing a video to play and enabling/disabling Adobe Video Analytics tracking.
 
-**Action Configuration / Player Settings:** Note the CSS Selector setting which specifics the `<div>` in the web page where the player is added. Note also that the _Enable Adobe Analytics_ checkbox is checked in the Analytics Settings pane.
+**Action Configuration / Player Settings:** Note the CSS Selector setting which specifics the `<div>` in the web page where the player is added. Note also that the **[!UICONTROL Enable Adobe Analytics]** checkbox is checked in the [!UICONTROL Analytics Settings] pane.
 
 ![Player Extension Action Configuration](/help/assets/ext-va-sp-action.png)
 
@@ -198,7 +200,7 @@ The _Open Video_ action provides various configurations for creating and customi
 
 ### Sample player extension basic deployment
 
-Once the Sample Player extension is installed, you'll need to create at least one rule to properly deploy it. The Image below shows a sample rule that opens the specified video when the core extension fires the `DOMLoaded` event.
+After the Sample Player extension is installed, you'll need to create at least one rule to properly deploy it. The Image below shows a sample rule that opens the specified video when the core extension fires the `DOMLoaded` event.
 
 ![Player Extension Sample Rule](/help/assets/ext-va-sp-rule.png)
 

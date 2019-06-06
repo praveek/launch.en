@@ -5,21 +5,21 @@ description: Information about configuring the Adobe Analytics extension, and th
 seo-description: Adobe Analytics Extension for Adobe Launch
 ---
 
-# Adobe Analytics Extension
+# [!DNL Adobe Analytics] Extension
 
-Use this reference for information about configuring the Adobe Analytics extension, and the options available when using this extension to build a rule.
+Use this reference for information about configuring the [!DNL Adobe Analytics] extension, and the options available when using this extension to build a rule.
 
-## Configure the Adobe Analytics extension
+## Configure the [!DNL Adobe Analytics] extension
 
-This section provides a reference for the options available when configuring the Adobe Analytics extension.
+This section provides a reference for the options available when configuring the [!DNL Adobe Analytics] extension.
 
-If the Adobe Analytics extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Adobe Analytics extension, and click Install.
+If the [!DNL Adobe Analytics] extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the [!DNL Adobe Analytics] extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click [!UICONTROL Configure].
 
 ![](/help/assets/ext-analytics-config.png)
 
-## Library Management
+## Library management
 
 Select an option from the Library Management section of the configuration page. The following configuration options are available:
 
@@ -45,7 +45,7 @@ If you select this option, specify one or more report suites for each of the fol
 
 #### Tracker is accessible on the global variable named
 
-Checking this box allows the tracker object to be used globally. For example, you could define the variable window.s.pageName anywhere on your site.
+Checking this box allows the tracker object to be used globally. For example, you could define the variable `window.s.pageName` anywhere on your site.
 
 ### Load the library from a custom URL
 
@@ -75,7 +75,8 @@ Specify the tracker object to be used globally.
 
 Lets you [insert core AppMeasurement code](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
-Note: The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+>[!NOTE]
+>The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
 
 #### Set the following report suites on tracker
 
@@ -97,7 +98,7 @@ Select an option from the General section of the configuration page. The followi
 
 Enables or disables tracking based on the EU privacy cookie.
 
-When you check the EU Compliance check box, the **Tracking Cookie Name** field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
+When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
 
 When a page is loaded, the system checks to see if a cookie called sat\_track is set \(or the custom cookie name specified on the Edit Property page\). Consider the following information:
 
@@ -120,7 +121,7 @@ _satellite.setCookie("sat_track", "true");
 
 Determines how the image request is encoded. If your implementation or site uses non-ASCII characters, it is important to define character set here. You can select a preset character set or specify a custom character set. Adobe recommends using the same character coding as your site. Typically this value is UTF-8.
 
-Character Set can be set in Analytics custom code using the variable s.charSet.
+Character Set can be set in [!DNL Adobe Analytics] custom code using the variable `s.charSet`.
 
 For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).
 
@@ -132,17 +133,17 @@ For more information about the supported currency codes, see the [Multi-Currency
 
 ### Tracking Server
 
-Used for first-party cookie implementations to dictate where the first-party cookie is stored. If you use the Experience Cloud ID Service, Adobe advises against populating this field.
+Used for first-party cookie implementations to dictate where the first-party cookie is stored. If you use the [!DNL Experience Cloud ID Service], [!DNL Adobe] advises against populating this field.
 
-[!UICONTROL Tracking Server] can be set in Analytics custom code using the variable s.trackingServer.
+[!UICONTROL Tracking Server] can be set in [!DNL Adobe Analytics] custom code using the variable `s.trackingServer`.
 
 See [trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) in the Adobe Analytics Implementation guide.
 
 ### SSL Tracking Server
 
-Used for SSL first-party cookie implementations to dictate where the first-party cookie is stored. If you use the Experience Cloud ID Service, Adobe advises against populating this field. If not defined, SSL data uses [!UICONTROL Tracking Server].
+Used for SSL first-party cookie implementations to dictate where the first-party cookie is stored. If you use the [!DNL Experience Cloud ID Service], [!DNL Adobe] advises against populating this field. If not defined, SSL data uses [!UICONTROL Tracking Server].
 
-SSL Tracking Server can be set in Analytics custom code using the variable s.trackingServerSecure.
+[!DNL SSL Tracking Server] can be set in [!DNL Adobe Analytics] custom code using the variable `s.trackingServerSecure`.
 
 See [trackingServerSecure](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
 
@@ -150,17 +151,17 @@ See [trackingServerSecure](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 Use this section to set up [eVars and Props](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html), and to create hierarchies.
 
-Global variables are variables that are set on the Analytics tracking object when that object is initialized on the page. Any variables you set here will be set when the tracking object is created on each page. Once these variables are set, they are just like any other variables set any other way. Specifically, this means that a rule can modify, change, or clear these variables.
+Global variables are variables that are set on the [!DNL Analytics] tracking object when that object is initialized on the page. Any variables you set here will be set when the tracking object is created on each page. Once these variables are set, they are just like any other variables set any other way. Specifically, this means that a rule can modify, change, or clear these variables.
 
 If your web application typically sends one beacon per page, this section can help make it simple to set your variables in one place. If your application sends more than one beacon per page \(such as in a single-page application\), and you need to clear your variables and reset them using the same tracking object, it is simpler to rely on rules to set and clear your variables.
 
 ## Link Tracking
 
-Select an option from the Link Tracking section of the configuration page. The following configuration options are available:
+Select an option from the [!UICONTROL Link Tracking] section of the configuration page. The following configuration options are available:
 
 ### Enable ClickMap
 
-[ClickMap](https://marketing.adobe.com/resources/help/en_US/sc/user/clickmap.html) is a plug-in for Internet Explorer and Firefox, and a module of Reports & Analytics.
+[ClickMap](https://marketing.adobe.com/resources/help/en_US/sc/user/clickmap.html) is a plug-in for [!DNL Internet Explorer] and [!DNL Firefox], and a module of [!DNL Reports & Analytics].
 
 ### Track download links
 
@@ -170,7 +171,7 @@ See [s.trackDownLoadLinks](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 ### Download Extensions
 
-If the Track Download Links option is enabled, you can select the extensions of file links that are included in the Downloads Report If your site contains links to files with any of the listed extensions, the URLs of these links will appear in reporting.
+If the [!UICONTROL Track Download Links] option is enabled, you can select the extensions of file links that are included in the Downloads Report If your site contains links to files with any of the listed extensions, the URLs of these links will appear in reporting.
 
 See [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/linkDownloadFileTypes.html).
 
@@ -184,10 +185,10 @@ See [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
-* If there are some links that you want to track on your SPA, use the Always Track section.
+* If you do not want to track any outbound links from your SPA, insert an entry into the [!UI CONTROL Never Track] section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
+* If there are some links that you want to track on your SPA, use the [!UICONTROL Always Track] section.
 
-For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.
+For example, if you have a spa/\#/about page, you could put "about" in the [!UICONTROL Always Track] section.
 
 The "about" page is the only outbound link that is tracked. Any other links on the page \(for example, [https://www.google.com](https://www.google.com)\) are not tracked.
 
@@ -201,7 +202,7 @@ See [s.linkLeaveQueryString](https://marketing.adobe.com/resources/help/en_US/sc
 
 ## Cookies
 
-Configure field descriptions for the Cookies global settings used for deploying the Adobe Analytics extension. The following configuration options are available:
+Configure field descriptions for the Cookies global settings used for deploying the [!DNL Adobe Analytics] extension. The following configuration options are available:
 
 ### Visitor ID
 
@@ -217,7 +218,7 @@ See [visitorNamespace](https://marketing.adobe.com/resources/help/en_US/sc/imple
 
 ### Domain Periods
 
-The domain on which the Analytics cookie `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie.
+The domain on which the [!DNL Analytics] cookie `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie.
 
 See [s.cookieDomainPeriods](https://marketing.adobe.com/resources/help/en_US/sc/implement/cookiedomainperiods.html).
 
@@ -239,7 +240,7 @@ Use the editor to customize your page code.
 
 ## Adobe Audience Manager
 
-Use this section of the extension configuration to specify how Audience Manager works with Analytics.
+Use this section of the extension configuration to specify how [!DNL Audience Manager] works with [!DNL Analytics].
 
 Enable **Automatically share Analytics data with Audience Manager**.
 
@@ -247,7 +248,7 @@ The following options appear:
 
 ![](/help/assets/an-ext-aam.png)
 
-The Audience Manager subdomain is assigned by Adobe Audience Manager. It is sometimes referred to as your "Partner Name" or "Partner Subdomain." Contact your Adobe consultant or Customer Care if you do not know your Partner Name.
+The [!DNL Audience Manager] subdomain is assigned by [!DNL Adobe Audience Manager]. It is sometimes referred to as your "Partner Name" or "Partner Subdomain." Contact your [!DNL Adobe] consultant or Customer Care if you do not know your Partner Name.
 
 You can configure advanced settings by showing the advanced settings and entering your preferences.
 
@@ -257,9 +258,9 @@ For information about each setting, click the info icon, or refer to the [Adobe 
 
 ## Analytics extension action types
 
-This section describes the action types available in the Analytics extension.
+This section describes the action types available in the [!DNL Analytics] extension.
 
-The Analytics extension provides the following actions:
+The [!DNL Analytics] extension provides the following actions:
 
 * [Set Variables](adobe-analytics-extension.md#set-variables)
 * [Send Beacon](adobe-analytics-extension.md#send-beacon)
@@ -267,7 +268,8 @@ The Analytics extension provides the following actions:
 
 ### Set Variables {#set-variables}
 
-Important: Using a "set variables" action won't send the beacon. You must use the "send beacon" action.
+>[!IMPORTANT]
+>Using a "set variables" action won't send the beacon. You must use the "send beacon" action.
 
 #### eVars
 
@@ -276,8 +278,8 @@ Set one or more [eVars](https://marketing.adobe.com/resources/help/en_US/sc/impl
 1. Select an eVar from the dropdown.
 1. Specify whether you want to set the eVar as the value \(Set As\) or copy \(Duplicate From\) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate.
-1. \(Optional\) Click Add eVar to set more eVars.
-1. Click Keep Changes.
+1. \(Optional\) Click **[!UICONTROL Add eVar]** to set more eVars.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Props
 
@@ -286,8 +288,8 @@ Set one or more [props](https://marketing.adobe.com/resources/help/en_US/sc/impl
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value \(Set As\) or copy \(Duplicate From\) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-1. \(Optional\) Click Add prop to set more props.
-1. Click Keep Changes.
+1. \(Optional\) Click **[UICONTROL Add prop]** to set more props.
+1. Click **[UICONTROL Keep Changes]**.
 
 #### Events
 
@@ -295,12 +297,12 @@ Set one or more [events](https://marketing.adobe.com/resources/help/en_US/sc/imp
 
 1. Select an event from the dropdown.
 1. \(Optional\) Select or specify a data element used for [event serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
-1. \(Optional\) Click Add event to set more props.
-1. Click Keep Changes.
+1. \(Optional\) Click **[UICONTROL Add event]** to set more events.
+1. Click **[UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
-Set the Analytics [Hierarchy](https://marketing.adobe.com/resources/help/en_US/reference/hierarchy.html) variable.
+Set the [!DNL Analytics] [Hierarchy](https://marketing.adobe.com/resources/help/en_US/reference/hierarchy.html) variable.
 
 Specify each level in the hierarchy.
 
@@ -333,9 +335,9 @@ Use the editor to specify your custom page code.
 
 **Settings**
 
-1. Click Open Editor.
+1. Click **[UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 ### Send Beacon {#send-beacon}
 
@@ -361,7 +363,7 @@ Select if you do not want to increment a pageview.
    * Custom Link: Specify the link name.
    * Download Link: Specify a file name.
    * Exit Link: Specify the destination URL.
-1. Click Keep Changes.
+1. Click **[!UICONTROL Keep Changes]**.
 
 ### Clear Variables {#clear-variables}
 

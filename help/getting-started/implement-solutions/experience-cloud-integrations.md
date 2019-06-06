@@ -47,7 +47,7 @@ These validation steps focus on the critical part visible in the client-side imp
 
    ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
 
-1. Go to the Network tab of the Debugger, then click **Clear All Requests** to clean things up.
+1. Go to the Network tab of the Debugger, then click **[!UICONTROL Clear All Requests]** to clean things up.
 1. Reload the We.Retail page, making sure that you see both the Target and Analytics requests in the Debugger.
 1. Reload the We.Retail page again. You should now see four requests in the Network tab of the Debugger—two for Target and two for Analytics.
 1. Look in the row labeled "Experience Cloud Visitor ID." The IDs in every request by every solution should always be the same.
@@ -77,7 +77,7 @@ The best way to validate the A4T integration is to build a Target activity using
    ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
 
 1. Go to the Network tab of the Debugger.
-1. Click **Clear All Requests** to clean things up.
+1. Click **[!UICONTROL Clear All Requests]** to clean things up.
 1. Reload the We.Retail page, making sure that you see both the Target and Analytics requests in the Debugger.
 1. Reload the We.Retail page again. You should see four requests in the Network tab of the Debugger, two for Target and two for Analytics.
 1. Look in the row labeled "Supplemental Data ID."
@@ -108,7 +108,7 @@ You validated that the Customer IDs are passed to both the ID Service and to Tar
 
    ![](/help/assets/aam-openthejsconsole.png)
 
-1. Click the **LOGIN** link in the top right corner of the site, enter `test@adobe.com` as the username, and enter `test` as the password, then click **Login**.
+1. Click the **[!UICONTROL LOGIN]** link in the top right corner of the site, enter `test@adobe.com` as the username, and enter `test` as the password, then click **[!UICONTROL Login]**.
 
    You are returned to the home page, which triggers a beacon that you can see in the developer tools.
 

@@ -272,9 +272,9 @@ Set whether the user accepts cookies.
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
-1. Click Open Editor.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 #### Value Comparison
 
@@ -487,7 +487,7 @@ Specify the visitor's domain.
 
 Specify one or more hash patterns that must exist in the URL.
 
-Note: Multiple hash patterns are joined by an OR.
+>[!NOTE] Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -497,7 +497,7 @@ Note: Multiple hash patterns are joined by an OR.
 
 Specify one or more paths that must exist in the URL.
 
-Note: Multiple paths are joined by an OR.
+>[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -516,7 +516,7 @@ Select one of the following:
 
 Specify one or more subdomains that must exist in the URL.
 
-Note: Multiple subdomains are joined by an OR.
+>[!NOTE] Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -554,9 +554,9 @@ Set whether the user accepts cookies.
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
-1. Click Open Editor.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 #### Value Comparison
 
@@ -765,7 +765,7 @@ Specify the visitor's domain that will prevent the action from being triggered.
 
 Specify one or more hash patterns that must not exist in the URL.
 
-Note: Multiple hash patterns are joined by an OR.
+>[!NOTE] Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -775,7 +775,7 @@ Note: Multiple hash patterns are joined by an OR.
 
 Specify one or more paths that must not exist in the URL.
 
-Note: Multiple paths are joined by an OR.
+>[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -794,7 +794,7 @@ Select one of the following:
 
 Specify one or more subdomains that must not exist in the URL.
 
-Note: Multiple subdomains are joined by an OR.
+>[!NOTE] Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -821,8 +821,8 @@ Provide the code that runs after the event is triggered and conditions are evalu
    * JavaScript
    * HTML
 1. Select whether to execute the action code globally.
-1. Click Open Editor.
-1. Edit the code, then click Save.
+1. Click **[!UICONTROL Open Editor]**.
+1. Edit the code, then click **[!UICONTROL Save]**.
 
 ### Custom Code action processing
 

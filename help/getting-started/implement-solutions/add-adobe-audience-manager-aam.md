@@ -62,18 +62,18 @@ A configuration in the Adobe Analytics Admin Console is required to start forwar
 
    ![](/help/assets/aam-logintoanalytics.png)
 
-1. From the top navigation in Analytics, choose **Admin** > **Report Suites**, and from the list, select the report suites that you want to forward to Audience Manager.
+1. From the top navigation in Analytics, choose **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**, and from the list, select the report suites that you want to forward to Audience Manager.
 
    ![](/help/assets/aam-analyticsadminconsolereportsuites.png)
 
-1. From the Report Suites screen and with the report suites selected, choose **Edit Settings** > **General &gt; Server-Side Forwarding**.
+1. From the Report Suites screen and with the report suites selected, choose **[!UICONTROL Edit Settings]** > **[!UICONTROL General &gt; Server-Side Forwarding]**.
 
    ![](/help/assets/aam-selectssfmenu.png)
 
    >[!NOTE]  As stated above, you will need to have administrator privileges to see this menu item.
 
-1. Once you are on the Server-Side Forwarding page, read the info and check the box to **Enable Server-Side Forwarding** for the report suite\(s\).
-1. Click **Save**.
+1. Once you are on the Server-Side Forwarding page, read the info and check the box to **[!UICONTROL Enable Server-Side Forwarding]** for the report suite\(s\).
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]  Because SSF needs to be enabled per report suite, make sure you repeat this step for your real report suites when you deploy SSF on your own site's report suite. If the SSF option is grayed out, you need to map the report suites to your Experience Cloud Org to enable the option. This is explained in [the documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 
@@ -81,16 +81,16 @@ Once this step has been completed, and if you have the Experience Cloud ID Servi
 
 ### Enable Server-Side Forwarding in Launch
 
-1. Go to **Extensions** > **Installed** and click to configure the Analytics extension.
+1. Go to **[!UICONTROL Extensions]** > **[!UICONTROL Installed]** and click to configure the Analytics extension.
 
    ![](/help/assets/aam-configanalyticsextension.png)
 
-1. Expand the Adobe Audience Manager section, then check the box to **Automatically share Analytics Data with Audience Manager**.
+1. Expand the Adobe Audience Manager section, then check the box to **[!UICONTROL Automatically share Analytics Data with Audience Manager]**.
 
    This adds the Audience Manager module \(code\) to the Analytics AppMeasurement.js implementation.
 
 1. Add your Audience Manager Subdomain, also known as the Partner Name, Partner ID, or Partner Subdomain.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Validate the Server-Side Forwarding
 
@@ -103,7 +103,7 @@ The code that Adobe Launch installs to handle the forwarding, and especially the
 1. Open the We.Retail site.
 1. Click the debugger icon in your browser to open the Experience Cloud debugger.
 1. On the Summary tab, scroll down to the Analytics section.
-1. Verify that **AudienceManagement** is listed under the Modules section.
+1. Verify that "AudienceManagement" is listed under the Modules section.
 
    ![](/help/assets/aam-verifyaammodule.png)
 

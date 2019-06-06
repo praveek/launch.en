@@ -20,10 +20,10 @@ At the end of this lesson, you will be able to:
 
 ## Get the URL of your Development Environment
 
-1. In your Launch property, open the Environments page.
-1. In the **Development** row, click the **Install** icon to open the modal.
-1. Click **Copy** to copy the embed code to your clipboard.
-1. Click **Close** to close the modal.
+1. In your Launch property, open the [!UICONTROL Environments] page.
+1. In the **[!UICONTROL Development]** row, click the **[!UICONTROL Install]** icon to open the modal.
+1. Click **[!UICONTROL Copy]** to copy the embed code to your clipboard.
+1. Click **[!UICONTROL Close]** to close the modal.
 
 ![](/help/assets/launch-copyinstallcode%20%281%29.png)
 
@@ -37,7 +37,7 @@ Note that the currently implemented Launch property is shown on the Summary tab.
 
 ![](/help/assets/switchenvironments-debuggeronweretail%20%282%29.png)
 
-Open the Tools tab, then click **Adobe Launch** > **Dynamically Insert Launch &gt; Embed Code** to open the text input field:
+Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field:
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 
