@@ -11,21 +11,21 @@ Compare resource revisions to see the history of an individual resource.  You ca
 
 ## Initiate a comparison
 
-Initiating a comparison is the same for all resource types.  Open the Edit view for an individual resource, then find the three dots icon next to the **Save** button to view available actions for that resource.  Select **Compare Revisions** from the list.
+Initiating a comparison is the same for all resource types.  Open the Edit view for an individual resource, then find the three dots icon next to the **[!UICONTROL Save]** button to view available actions for that resource.  Select **[!UICONTROL Compare Revisions]** from the list.
 
 ![Initiate a comparison for an extension](/help/assets/compare-initiate-extension.png)
 
-For extensions, access the detail view by clicking the **Configure** button when viewing your list of installed extensions.  For data elements and rules, select one from the list.
+For extensions, access the detail view by clicking the **[!UICONTROL Configure]** button when viewing your list of installed extensions.  For data elements and rules, select one from the list.
 
 ## Using the Compare view
 
-When you initiate a comparison, the default view shows the latest version on the right.  This version includes any unsaved changes you've made to the resource within the Edit view. \(Notice the **Unsaved Changes** label on the right in the picture below.\)
+When you initiate a comparison, the default view shows the latest version on the right.  This version includes any unsaved changes you've made to the resource within the Edit view. \(Notice the "Unsaved Changes" label on the right in the picture below.\)
 
-On the left, you can choose from any existing revisions to compare to **Latest**.
+On the left, you can choose from any existing revisions to compare to "Latest."
 
 ![Comparing versions of the Analytics extension](/help/assets/compare-interpret-extension.png)
 
-Click **Use These Changes** to copy the settings from your selected revision \(left\) to the latest version \(right\).  This copies the settings from the old revision to the latest unsaved changes.  If you want these changes to stick, be sure to **Save** after exiting the Compare view.
+Click **[!UICONTROL Use These Changes]** to copy the settings from your selected revision \(left\) to the latest version \(right\).  This copies the settings from the old revision to the latest unsaved changes.  If you want these changes to stick, be sure to **[!UICONTROL Save]** after exiting the Compare view.
 
 >[!TIP]
 >Individual resources can have both attributes and settings.  These settings are stored as a JSON block, which is a structured way to store data, but flexible enough that extension developers can put whatever they need to make their extensions do what they want.

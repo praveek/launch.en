@@ -287,9 +287,9 @@ Cache control headers are now automatically set for libraries hosted on Akamai \
 * Launch Staging builds without "-staging" in the filename: The default of 60 minutes is inherited
 * Launch Development builds without "-development" in the filename: The default of 60 minutes is inherited
 
-Note: It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
+>[!NOTE] It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
 
-Important: Launch developers who do not have "-development" or "-staging" in their Environment embed codes need to re-create their Development and Staging environments to get the 0 cache control header. If you don't re-create the environments, you'll have the same 60-minute cache control as the production libraries.
+>[!IMPORTANT] Launch developers who do not have `-development` or `-staging` in their Environment embed codes need to re-create their Development and Staging environments to get the 0 cache control header. If you don't re-create the environments, you'll have the same 60-minute cache control as the production libraries.
 
 ## January 18, 2018
 

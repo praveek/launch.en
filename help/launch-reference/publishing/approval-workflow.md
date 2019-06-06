@@ -23,7 +23,7 @@ The rights are not inclusive. For a single person to perform the workflow from s
 
 ## Library state
 
-There are four basic states that a library can be in. Specific actions must be taken to move a library between these states. These four states are represented as columns within the Publishing tab.
+There are four basic states that a library can be in. Specific actions must be taken to move a library between these states. These four states are represented as columns within the [!UICONTROL Publishing] tab.
 
 * [Development](approval-workflow.md#development)
 * [Submitted](approval-workflow.md#submitted)

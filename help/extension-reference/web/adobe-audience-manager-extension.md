@@ -11,13 +11,13 @@ With the Audience Manager extension, you can integrate the DIL code used by Audi
 
 Use this reference for information about the options available when using this extension to build a rule.
 
-Note: This extension is not meant to be used for server-side forwarding of Adobe Analytics data. For server-side forwarding, use the [Adobe Analytics extension](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension).
+>[!NOTE] This extension is not meant to be used for server-side forwarding of Adobe Analytics data. For server-side forwarding, use the [Adobe Analytics extension](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension).
 
 ## Configure the Adobe Audience Manager extension
 
-If the Adobe Audience Manager extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Adobe Audience Manager extension, and click Install.
+If the Adobe Audience Manager extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Adobe Audience Manager extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ### DIL Settings
 
@@ -35,7 +35,7 @@ This setting cannot be changed.
 
 If the URL matches any of the excluded paths, the extension is not loaded.
 
-Click Add Path to specify an excluded URL.
+Click **[!UICONTROL Add Path]** to specify an excluded URL.
 
 Enable Regex if the URL is a regular expression.
 
@@ -55,11 +55,11 @@ Enable the [Google Analytics module](https://experiencecloud.adobe.com/resources
 
 Add initialization properties used by [DIL.create](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_create.html) and the namespace subproperty for the [visitorService object](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_visitor_service.html). Two sample use cases are included in the code comments, in the Code Editor.
 
-Click Choose an Item to add additional properties.
+Click **[!UICONTROL Choose an Item]** to add additional properties.
 
 Hover over the "i" icons to learn what each property does. You can find more information for the properties in the [Audience Manager DIL documentation](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_create.html).
 
-Click Save when you have finished configuring the extension.
+Click **[!UICONTROL Save]** when you have finished configuring the extension.
 
 ## Adobe Audience Manager extension action types
 

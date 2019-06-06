@@ -25,13 +25,13 @@ After you have included all three of the extensions mentioned above in your Laun
 
 * **Install -** To install the MA extension, open your extension property,
 
-  click _Extensions &gt; Catalog_, hover over the _Adobe Media Analytics for Audio and Video_
+  click **[!UICONTROL Extensions &gt; Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
 
-  extension, and click _Install_.
+  extension, and click **[!UICONTROL Install]**.
 
-* **Configure -** To configure the MA extension, open the _Extensions_ tab,
+* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab,
 
-  hover over the extension, and then click _Configure_:
+  hover over the extension, and then click **[!UICONTROL Configure]**:
 
 ![MA Extension Configuration](/help/assets/ext-va-config.jpg)
 
@@ -55,7 +55,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ### Using from a webpage/JS-app
 
-The MA extension exports the MediaHeartbeat APIs in the global window object by enabling the _"Export APIs to Window Object"_ setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
+The MA extension exports the MediaHeartbeat APIs in the global window object by enabling the "Export APIs to Window Object" setting in the [!UICONTROL Configuration] page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
 >[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
@@ -143,7 +143,7 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
-**Note: Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE] Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 ## Leveraging the sample HTML5 player
 

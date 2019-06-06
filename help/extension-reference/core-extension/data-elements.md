@@ -75,7 +75,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
    * Visitor
      * The value is stored indefinitely in the brower's local storage.
 
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 When creating or editing elements, you can save and build to your [active library](/help/launch-reference/publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the Active Library drop down.
 

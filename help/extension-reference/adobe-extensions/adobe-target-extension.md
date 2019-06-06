@@ -11,11 +11,12 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Target extension
 
-Important: The Adobe Target extension requires at.js. It does not support mbox.js.
+>[!IMPORTANT]
+>The Adobe Target extension requires at.js. It does not support mbox.js.
 
-If the Adobe Target extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Target extension, and click Install.
+If the Adobe Target extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Target extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-target-config.png)
 
@@ -62,11 +63,11 @@ For more information about how the Timeout setting works, refer to the [Adobe Ta
 
 #### Other at.js settings available in the Target user interface
 
-Several settings that are available on the “Edit at.js settings” page of the Target user interface are not part of the Target extension. Here are suggested workarounds:
+Several settings that are available on the [!UICONTROL Edit at.js settings] page of the Target user interface are not part of the Target extension. Here are suggested workarounds:
 
-* Auto-create global mbox This setting is replaced by the Fire Global Mbox action in the Target extension.
-* Library Header This setting is not part of the Target extension. Put code that needs to load before at.js in a Core Extension&gt;Custom Code action before using the Load Target action.
-* Library Footer This setting is not part of the Target extension. Put code that needs to load after at.js in a Core Extension&gt;Custom Code action after using the Load Target action.
+* **Auto-create global mbox:** This setting is replaced by the Fire Global Mbox action in the Target extension.
+* **Library Header:** This setting is not part of the Target extension. Put code that needs to load before at.js in a Core Extension&gt;Custom Code action before using the Load Target action.
+* **Library Footer:** This setting is not part of the Target extension. Put code that needs to load after at.js in a Core Extension&gt;Custom Code action after using the Load Target action.
 
 ## Target extension action types
 

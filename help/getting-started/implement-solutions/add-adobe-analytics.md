@@ -35,24 +35,24 @@ The Analytics extension consists of two main parts:
   * Set Variables
   * Clear Variables
   * Send the Analytics Beacon
-* Go to **Extensions** > **Catalog** and locate the Adobe Analytics extension.
-* Click **Install**.
-* Under **Library Management** > **Report Suites**, enter the report suite IDs you want to use with each Launch environment.
+* Go to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]** and locate the Adobe Analytics extension.
+* Click **[!UICONTROL Install]**.
+* Under **[!UICONTROL Library Management]** > **[!UICONTROL Report Suites]**, enter the report suite IDs you want to use with each Launch environment.
 
   In this tutorial, you can use one report suite for all environments, but in production you would want to use separate report suites, as shown in the image below:
 
   ![](/help/assets/analytics-config-reportsuite.png)
 
-  >[!NOTE]  Use the **Manage the library for me** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
+  >[!NOTE]  Use the **[!UICONTROL Manage the library for me]** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
 
-* Under **General** > **Tracking Server**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
+* Under **[!UICONTROL General]** > **[!UICONTROL Tracking Server]**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
 
   Enter your SSL Tracking Server if your site supports `https://`.
 
   ![](/help/assets/analytics-config-trackingserver.png)
 
-* In the Global Variables section, set the Page Name variable using your Page Name data element, then click the **Data Element** icon to open the modal and choose the page Page Name data element.
-* Click **Save to Library and Build**.
+* In the Global Variables section, set the Page Name variable using your Page Name data element, then click the **[!UICONTROL Data Element]** icon to open the modal and choose the page Page Name data element.
+* Click **[!UICONTROL Save to Library and Build]**.
 
 >[!NOTE]  Global variables can be set in the extension configuration or in rule actions. Be aware that when setting variables with the extension configuration, the data layer must be defined before the Launch embed codes.
 
@@ -62,38 +62,38 @@ Next, create a rule to fire the Analytics beacon, which sends the Page Name vari
 
 You have already created an "All Pages - Library Loaded" rule in the Add a Data Element, a Rule and a Library tutorial, which is triggered on every page when the Launch library loads. You could use this rule for Analytics as well. However, this setup requires all data layer attributes used in the Analytics beacon to be defined before the Launch embed codes. To allow more flexibility with the data collection, create a new "all pages" rule triggered on DOM Ready to fire the Analytics beacon.
 
-1. Go to the **Rules** in the top navigation and then click **Add Rule**.
+1. Go to the **[!UICONTROL Rules]** in the top navigation and then click **[!UICONTROL Add Rule]**.
 1. Name the rule All Pages - DOM Ready.
-1. Click **Events** > **Add** to open the Event Configuration screen.
-1. Select **Event Type** > **DOM Ready**.
+1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the Event Configuration screen.
+1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
 
    Note that the order of the rule is "50."
 
-1. Click **Keep Changes**.
-1. Under **Actions**, click the **Add** icon to add a new action.
+1. Click **[!UICONTROL Keep Changes]**.
+1. Under **[!UICONTROL Actions]**, click the **[!UICONTROL Add]** icon to add a new action.
 
    ![](/help/assets/analytics-ruleaddaction.png)
 
-1. Select **Extension** > **Adobe Analytics**.
-1. Select **Action Type** > **Send Beacon**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Send Beacon]**.
 1. Leave Tracking set to `s.t()`.
 
    >[!NOTE]  If you wanted to make an `s.tl()` call in a click-event rule, you could do that using the Send Beacon action as well.
 
-1. Click **Keep Changes**.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Validate the Page View beacon
 
 After you have created a rule to send an Analytics beacon, you should be able to see the request in the Experience Cloud Debugger.
 
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser.
-1. Click the Debugger icon to open the **Adobe Experience Cloud Debugger**.
+1. Click the Debugger icon to open the **[!UICONTROL Adobe Experience Cloud Debugger]**.
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
    ![](/help/assets/switchenvironments-debuggeronweretail%20%281%29.png)
 
-1. Open the Analytics tab, then expand your Report Suite name to show all of the requests made to it.
+1. Open the [!UICONTROL Analytics] tab, then expand your Report Suite name to show all of the requests made to it.
 1. Confirm the request has fired with the Page Name variable and value.
 
    ![](/help/assets/analytics-validatepagehit.png)
@@ -118,31 +118,31 @@ Product Detail Pages \(PDP\) are important points for data collection on retail 
 
 First, you need to identify which pages are the Product Detail pages. You do that with a Data Element.
 
-1. Click **Data Elements** in the top navigation.
-1. Click **Add Data Element**.
+1. Click **[!UICONTROL Data Elements]** in the top navigation.
+1. Click **[!UICONTROL Add Data Element]**.
 
    ![](/help/assets/analytics-adddataelement.png)
 
 1. Name the data element Page Type.
-1. Select **Data Element Type** > **JavaScript Variable**.
+1. Select **[!UICONTROL Data Element Type]** > **[!UICONTROL JavaScript Variable]**.
 1. Use `digitalData.page.category.type` as the Path to Variable.
-1. Check the **Clean Text** and **Force Lower Case** options.
-1. Click **Save to Library and Build**.
+1. Check the **[!UICONTROL Clean Text]** and **[!UICONTROL Force Lower Case]** options.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Create Data Element for Product ID
 
 Next, collect the product ID of the current Product Detail page with a Data Element.
 
-1. Click **Data Elements** in the top navigation, then click **Add Data Element**.
+1. Click **[!UICONTROL Data Elements]** in the top navigation, then click **[!UICONTROL Add Data Element]**.
 
    ![](/help/assets/analytics-adddataelement.png)
 
 1. Name the data element "Product ID."
-1. Select **Data Element Type** > **JavaScript Variable**.
-1. Use digitalData.product.0.productInfo.sku as the Path to Variable.
-1. Check the Force Lowercase Value option.
-1. Check the Clean Text option.
-1. Click **Save to Library and Build**.
+1. Select ****[!UICONTROL Data Element Type]** > **[!UICONTROL JavaScript Variable]**.
+1. Use `digitalData.product.0.productInfo.sku` as the Path to Variable.
+1. Check the **[!UICONTROL Force Lowercase Value]** option.
+1. Check the **[!UICONTROL Clean Text]** option.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Add the Adobe Analytics Product String Extension
 
@@ -150,13 +150,13 @@ If you are familiar with Adobe Analytics implementations, you are probably alrea
 
 In this section you will add an extension created by Adobe Consulting for use on the Product Detail page.
 
-1. Go to the **Extensions** > **Catalog** page.
-1. Find the Adobe Analytics Product String extension by Adobe Consulting Services and click **Install**.
+1. Go to the **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]** page.
+1. Find the Adobe Analytics Product String extension by Adobe Consulting Services and click **[!UICONTROL Install]**.
 
    ![](/help/assets/analytics-addproductstringextension.png)
 
 1. Take a moment to read the instructions.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
    ![](/help/assets/analytics-addproductstringextensionsave.png)
 
@@ -166,54 +166,54 @@ Use your new data elements and extension to build your Product Detail page rule.
 
 #### Set the event type and order
 
-1. Go to the **Rules** section in the top navigation, click **Add Rule**, then name the rule "Product Details - DOM Ready."
-1. Click **Events** > **Add** to open the Event Configuration screen.
+1. Go to the **[!UICONTROL Rules]** section in the top navigation, click **[!UICONTROL Add Rule]**, then name the rule "Product Details - DOM Ready."
+1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the [!UICONTROL Event Configuration] screen.
 
    ![](/help/assets/analytics-domreadyaddevent%20%281%29.png)
 
-1. Select **Event Type** > **DOM Ready**.
-1. Set the **Order** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.
+1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
+1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.
 
    ![](/help/assets/analytics-configdomreadyevent.png)
 
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Set the conditions
 
-1. Under **Conditions**, click the **Plus** icon to open the Condition Configuration screen.
-1. Select **Condition Type** > **Value Comparison**.
+1. Under **[!UICONTROL Conditions]**, click the **[!UICONTROL Plus]** icon to open the Condition Configuration screen.
+1. Select **[!UICONTROL Condition Type]** > **[!UICONTROL Value Comparison]**.
 1. Use the data element picker, choose Page Type in the first field.
-1. Select **Contains** from the comparison operator drop down.
+1. Select **[!UICONTROL Contains]** from the comparison operator drop down.
 1. In the next field, type product-page. This is the unique part of the page type value pulled from the data layer on PDPs.
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Add an action
 
-1. Under Actions, click the **Add** icon to add a new action.
-1. Select **Extension** > **Adobe Analytics**.
-1. Select **Action Type** > **Set Variables**.
-1. Set **eVar1** as product detail page.
-1. Set **event1**, leaving the optional values blank.
+1. Under Actions, click the **[!UICONTROL Add]** icon to add a new action.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set Variables]**.
+1. Set **[!UICONTROL eVar1]** as product detail page.
+1. Set **[!UICONTROL event1]**, leaving the optional values blank.
 
 #### Add another event
 
-1. Under Events, click **Add Another**.
-1. Set the **prodView** event, leaving the optional values blank.
-1. Click **Keep Changes**.
+1. Under Events, click **[!UICONTROL Add Another]**.
+1. Set the **[!UICONTROL prodView]** event, leaving the optional values blank.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Add another action and save the rule
 
-1. Under Actions, click the Add icon to add a new action.
+1. Under **[!UICONTROL Actions]**, click the **[!UICONTROL Add]** icon to add a new action.
 
    ![](/help/assets/analytics-pdpaddproductstringaction.png)
 
-1. Select **Extension** > **Adobe Analytics Product String**.
-1. Select **Action Type** > **Set s.products**.
-1. Select **Action Type** > **Set Variables**.
-1. In the **Analytics E-commerce Event** section, select **prodView**.
-1. In the **Data layer variables for product data** section, use the Data Element picker to choose the Product ID data element.
-1. Click **Keep Changes**.
-1. Click **Save to Library and Build**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics Product String]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set s.products]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set Variables]**.
+1. In the **[!UICONTROL Analytics E-commerce Event]** section, select **[!UICONTROL prodView]**.
+1. In the **[!UICONTROL Data layer variables for product data]** section, use the Data Element picker to choose the Product ID data element.
+1. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
    ![](/help/assets/analytics-pdp-saverule.png)
 
@@ -245,13 +245,13 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
 #### Create the rule and add an event
 
-1. Select **Rules** from the top navigation and click **Add Rule**.
+1. Select **[!UICONTROL Rules]** from the top navigation and click **[!UICONTROL Add Rule]**.
 1. Name the rule "Homepage - New Arrivals enters Viewport."
-1. Click **Events** > **Add** to open the Event Configuration screen.
+1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the [!UICONTROL Event Configuration] screen.
 
    ![](/help/assets/analytics-newarrivalsruleadd2.png)
 
-1. Select **Event Type** > **Enters Viewport**.
+1. Select **[!UICONTROL Event Type]** > **[!UICONTROL Enters Viewport]**.
 
    This brings up a field where you enter the CSS selector that identifies the item on your page that should trigger the rule when becomes visible in the browser.
 
@@ -261,52 +261,52 @@ You want to know if people are scrolling far enough down on the We.Retail home p
    This is near the section you want to be visible.
 
 1. In that area of the page, possibly right below the selected section, locate the `&lt;div&gt;` element with `class="we-productgrid aem-GridColumn aem-GridColumn--default--12"`.
-1. Right-click on this element and select **Copy** > **Copy Selector**
+1. Right-click on this element and select **[!UICONTROL Copy]** > **[!UICONTROL Copy Selector]**.
 
    ![](/help/assets/analytics-copyelementselector.png)
 
-1. Go back to Launch and paste this value from the clipboard into the field labeled **Elements** matching the CSS selector.
+1. Go back to Launch and paste this value from the clipboard into the field labeled **[!UICONTROL Elements]** matching the CSS selector.
 
    It is up to you to decide how to identify CSS selectors. This method requires care, because certain changes on the page can break this selector. Consider this when using any CSS selectors in Launch.
 
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
-**Create a condition**
+#### Create a condition
 
-1. Under Conditions, click the **Add** icon to add a new condition.
-1. Select **Condition Type** > **Value Comparison**
+1. Under **[!UICONTROL Conditions]**, click the **[!UICONTROL Add]** icon to add a new condition.
+1. Select **[!UICONTROL Condition Type]** > **[!UICONTROL Value Comparison]**
 1. Use the data element picker to choose Page Name in the first field.
-1. Select **Equals** from the comparison operator dropdown, then type `content:we-retail:us:en` in the next field.
+1. Select **[!UICONTROL Equals]** from the comparison operator dropdown, then type `content:we-retail:us:en` in the next field.
 
    This is the page name of the home page as pulled from the data layer. This rule runs only on the home page.
 
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Create an action
 
-1. Under Actions, click the **Add** icon to add a new action.
-1. Select **Extension** > **Adobe Analytics**.
-1. Select **Action Type** > **Set Variables**.
+1. Under Actions, click the **[!UICONTROL Add]** icon to add a new action.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set Variables]**.
 1. Set eVar3 to Home Page - New Arrivals.
 1. Set prop3 to Home Page - New Arrivals.
 1. Set the Events variable to event3.
-1. Click **Keep Changes**.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Create another action and save the rule
 
-1. Under Actions, click the **Add** icon to add another new action.
+1. Under Actions, click the **[!UICONTROL Add]** icon to add another new action.
 
    ![](/help/assets/analytics-newarrivalssendbeacon2.png)
 
-1. Select **Extension** > **Adobe Analytics**.
-1. Select **Action Type** > **Send Beacon**.
+1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics]**.
+1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Send Beacon]**.
 1. Choose the **s.tl\(\)** tracking option.
-1. In the **Link Name** field, enter Scrolled down to New Arrivals.
+1. In the **[!UICONTROL Link Name]** field, enter Scrolled down to New Arrivals.
 
    This value will be included in the Custom Links report in Analytics.
 
-1. Click **Keep Changes**.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Keep Changes]**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Validate the Track Link beacon
 
@@ -346,12 +346,12 @@ To implement plug-ins, there are three steps:
 
 If you are going to add the `doPlugins` function \(below\) and use plug-ins, you need to check a box to make the Analytics `s` object available globally in the Analytics implementation.
 
-1. Go to **Extensions** > **Installed**.
-1. In the Adobe Analytics extension, Click **Configure**.
+1. Go to **[!UICONTROL Extensions]** > **[!UICONTROL Installed]**.
+1. In the Adobe Analytics extension, click **[!UICONTROL Configure]**.
 
    ![](/help/assets/analytics-configureextension.png)
 
-1. Under **Library Management**, select the box labeled **Make tracker globally accessible**.
+1. Under **[!UICONTROL Library Management]**, select the box labeled **[!UICONTROL Make tracker globally accessible]**.
 
    As you can see in the help bubble, this causes the tracker to be scoped globally under window.s, which is important when you refer to it in your customer JavaScript.
 
@@ -360,7 +360,7 @@ If you are going to add the `doPlugins` function \(below\) and use plug-ins, you
 To add plug-ins, you need to add a function called `doPlugins`. This function is not added by default, but once added, is handled by the AppMeasurement library. It is called last when a hit is sent to Adobe Analytics. Therefore, you can use this function to run some JavaScript to set variables that are easier set this way.
 
 1. While still in the Analytics extension, scroll down and expand the section titled Configure Tracking Using Custom Code.
-1. Click **Open Editor**.
+1. Click **[!UICONTROL Open Editor]**.
 1. Paste the following code into the code editor:
 
    ```text
@@ -428,18 +428,18 @@ First, call a plug-in which has been incorporated into the AppMeasurement librar
    ![](/help/assets/analytics-dopluginswithplugins.png)
 
 1. Save the code window.
-1. Click **Save to Library and Build**.
+1. Click **[!UICONTROL Save to Library and Build]**.
 
 ### Validate the plug-ins
 
 Make sure that the plug-ins are working.
 
-1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser, then click the Debugger icon to open the **Adobe Experience Cloud Debugger**.
+1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser, then click the Debugger icon to open the Adobe Experience Cloud Debugger.
 1. Click to the Analytics tab and expand your report suite.
 
    Notice the Analytics hit does not have a Campaign variable.
 
-1. Leaving the Debugger open, go back to the We.Retail site and add `?cid=1234` to the URL, then press **Enter** to refresh the page with that query string included.
+1. Leaving the Debugger open, go back to the We.Retail site and add `?cid=1234` to the URL, then press **[!UICONTROL Enter]** to refresh the page with that query string included.
 
    ![](/help/assets/analytics-cidadded.png)
 
@@ -456,6 +456,6 @@ Make sure that the plug-ins are working.
 
 ![](/help/assets/analytics-getqueryparam2.png)
 
-You can test this over and over by changing the value of the `cid` parameter in the query string. The Campaign variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the Campaign value in the debugger, simply change the value of the `cid` in the query string of the URL and press **Enter** to see it again in the debugger. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the Analytics extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
+You can test this over and over by changing the value of the `cid` parameter in the query string. The Campaign variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the Campaign value in the debugger, simply change the value of the `cid` in the query string of the URL and press **[!UICONTROL Enter]** to see it again in the debugger. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the Analytics extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
 
 You have completed the Analytics tutorials. Of course, there are many other things that you can do to enhance your Analytics implementation, but these tutorials have demonstrated some of the core skills needed to implement Analytics.

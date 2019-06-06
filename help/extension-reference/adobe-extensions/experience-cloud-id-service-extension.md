@@ -17,9 +17,9 @@ The ECID JS library can be found at this location: [https://github.com/Adobe-Mar
 
 This section provides a reference for the options available when configuring the Experience Cloud ID extension.
 
-If the Experience Cloud ID extension is not yet installed, open your property, then click Extensions &gt; Catalog, hover over the Experience Cloud ID extension, and click Install.
+If the Experience Cloud ID extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Experience Cloud ID extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click Configure.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-mcid-config.png)
 
@@ -29,7 +29,7 @@ The following configuration options are available:
 
 The ID for your Experience Cloud Organization.
 
-Your ID is a 24-character, alphanumeric string followed by @AdobeOrg. If you do not know this ID, contact Customer Care.
+Your ID is a 24-character, alphanumeric string followed by `@AdobeOrg`. If you do not know this ID, contact Customer Care.
 
 ### Exclude specific paths
 
@@ -37,7 +37,7 @@ The Experience Cloud ID does not load if the URL matches any of the specified pa
 
 \(Optional\) Enable Regex if this is a regular expression.
 
-Click Add to exclude another path.
+Click **[!UICONTROL Add]** to exclude another path.
 
 ### Variables
 
@@ -69,5 +69,5 @@ Set one or more customer IDs.
    * Authenticated
    * Logged out
 
-1. \(Optional\) Click Add to set more customer IDs.
-1. Click Keep Changes.
+1. \(Optional\) Click **[!UICONTROL Add]** to set more customer IDs.
+1. Click **[!UICONTROL Keep Changes]**.

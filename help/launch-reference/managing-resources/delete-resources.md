@@ -19,8 +19,8 @@ Resources exist in different states and they depend on one another. Before you d
 
 Preparing a resource for deletion consists of two basic steps:
 
-1. Resolve Dependencies
-1. Remove from Libraries
+1. Resolve dependencies.
+1. Remove from libraries.
 
 ### Resolve dependencies
 
@@ -52,22 +52,22 @@ Before you can delete a resource, you must remove it from any libraries that con
 
 #### Development
 
-1. Open the library
-1. Remove the resource
-1. Save the library
-1. Delete the resource
+1. Open the library.
+1. Remove the resource.
+1. Save the library.
+1. Delete the resource.
 
 #### Submitted or approved
 
-1. Reject the library \(moves it back to Development\)
-1. Follow the above steps to remove a resource from a development library
+1. Reject the library \(moves it back to Development\).
+1. Follow the above steps to remove a resource from a development library.
 
 #### Production
 
-1. Disable the resource
-1. Publish the disabled resource through to Production
-1. Delete the resource
+1. Disable the resource.
+1. Publish the disabled resource through to Production.
+1. Delete the resource.
 
 ## Delete a resource
 
-From the appropriate list view, select the resource you want to delete, then click **Delete**.
+From the appropriate list view, select the resource you want to delete, then click **[!UICONTROL Delete]**.

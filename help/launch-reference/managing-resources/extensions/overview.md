@@ -11,7 +11,7 @@ An extension is a packaged set of code that extends the Launch interface and the
 
 Adding an extension adds new data elements and new options for creating rules.
 
-Note: Extensions are similar to _tools_ in the previous Dynamic Tag Management.
+>[!NOTE] Extensions are similar to _tools_ in the previous Dynamic Tag Management.
 
 Extensions determine the elements that are available when building properties, rules, and data elements. They provide:
 
@@ -55,7 +55,7 @@ Launch is highly extendible. Extensions add core functionality to Launch.
 
 A common use of extensions is to create integrations with other applications. In the previous version of Launch, known as Dynamic Tag Management, extensions were called _tools_.
 
-1. From a property's overview page, open the Extensions tab.
+1. From a property's overview page, open the [!UICONTROL Extensions] tab.
 1. Select an extension.
 
    ![](/help/assets/extensions.png)
@@ -78,6 +78,6 @@ When creating or editing elements, you can save and build to your [active librar
 
 Mouse over an installed extension and click Configure.
 
-Note: Some extensions do not require configuration and do not offer configuration options.
+>[!NOTE] Some extensions do not require configuration and do not offer configuration options.
 
 Each configurable extension has unique options. Refer to [Extensions Reference](../../../extension-reference/web/overview.md) for information about the options available for each Adobe extension.

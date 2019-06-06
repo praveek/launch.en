@@ -53,14 +53,14 @@ The action, or _then_ , part of the formula determines what happens when the eve
 
 Create a rule by specifying what actions occur if a condition is met.
 
-1. Open the Rules tab, then click Create New Rule.
+1. Open the [!UICONTROL Rules] tab, then click **[!UICONTROL Create New Rule]**.
 
    ![](/help/assets/launch-rule-builder.jpg)
 
 1. Name the rule.
-1. Click the Events Add icon.
+1. Click the Events **[!UICONTROL Add]** icon.
 1. Choose your extension and one of the event types available for that extension, then configure the properties for the event.
-   Note: The available event types are defined by the extension.
+   >[!NOTE] The available event types are defined by the extension.
 
    ![](/help/assets/rule-event-config.png)
 
@@ -76,7 +76,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
      If you want it to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-1. Click the Conditions Add icon, then choose a logic type, extension, condition type and configure the properties for your condition. Then click Keep Changes.
+1. Click the Conditions **[!UICONTROL Add]** icon, then choose a logic type, extension, condition type and configure the properties for your condition. Then click **[!UICONTROL Keep Changes]**.
 
    Logic type:
 
@@ -85,14 +85,14 @@ Create a rule by specifying what actions occur if a condition is met.
 
 You can add other conditions. Multiple conditions within the same condition are joined with an OR, multiple conditions configurations are joined by AND. The rule's exceptions are evaluated if any of the events are met, along with their conditions.
 
-1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click Keep Changes.
+1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click **[!UICONTROL Keep Changes]**.
    >[!NOTE]  The available action types are defined by the extension.
 
    ![](/help/assets/rule-action-config.jpg)
 
    You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
-1. Review your rule, then click Save Rule.
+1. Review your rule, then click **[!UICONTROL Save Rule]**.
 
    Later, when you [publish](/help/launch-reference/publishing/overview.md), you'll add this rule to a library and deploy it.
 

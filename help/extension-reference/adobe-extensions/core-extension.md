@@ -117,7 +117,7 @@ In addition, specify that the event is triggered after a specific amount of time
 
 #### Zoom Change
 
-pTrigger the event if the user zooms in or out.
+Trigger the event if the user zooms in or out.
 
 There are no settings for this event type.
 
@@ -225,8 +225,8 @@ Each of the form event types uses the following settings:
 
 #### Specific Elements \| Any Element
 
-* If you choose Specific Elements, the options to select the elements and property values appear.
-* If you choose Any Element, there are no further options required to narrow down the elements.
+* If you choose [!UICONTROL Specific Elements], the options to select the elements and property values appear.
+* If you choose [!UICONTROL Any Element], there are no further options required to narrow down the elements.
 
 #### Elements matching the CSS selector
 
@@ -278,9 +278,9 @@ Set whether the user accepts cookies.
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
-1. Click Open Editor.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
 #### Value Comparison
 
@@ -518,7 +518,8 @@ Specify the visitor's domain.
 
 Specify one or more hash patterns that must exist in the URL.
 
-Note: Multiple hash patterns are joined by an OR.
+>[!NOTE]
+>Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -528,7 +529,8 @@ Note: Multiple hash patterns are joined by an OR.
 
 Specify one or more paths that must exist in the URL.
 
-Note: Multiple paths are joined by an OR.
+>[!NOTE]
+>Multiple paths are joined by an OR.
 
 1. Specify the path.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -547,7 +549,8 @@ Select one of the following:
 
 Specify one or more subdomains that must exist in the URL.
 
-Note: Multiple subdomains are joined by an OR.
+>[!NOTE]
+>Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
 1. \(Optional\) Enable Regex if this is a regular expression.
@@ -574,8 +577,8 @@ Provide the code that runs after the event is triggered and conditions are evalu
    * JavaScript
    * HTML
 1. Select whether to execute the action code globally.
-1. Click Open Editor.
-1. Edit the code, then click Save.
+1. Click **[!UICONTROL Open Editor]**.
+1. Edit the code, then click **[!UICONTROL Save]**.
 
 ### Custom Code action processing
 
@@ -667,7 +670,7 @@ To reference the price of the shirt product, you would provide the following for
 
 ### Local storage
 
-Provide the name of your local storage item in the Local Storage Item Name field.
+Provide the name of your local storage item in the [!UICONTROL Local Storage Item Name] field.
 
 Local storage gives browsers a way to store information from page to page \([https://www.w3schools.com/html/html5\_webstorage.asp](https://www.w3schools.com/html/html5_webstorage.asp)\). Local storage works a lot like cookies, but is much larger and more flexible.
 
@@ -688,7 +691,7 @@ You can select one of the following page attributes to use in your data element:
 
 ### Query string parameter
 
-Specify a single URL parameter in the URL Parameter field.
+Specify a single URL parameter in the [!UICONTROL URL Parameter] field.
 
 Only the name section is necessary and any special designators like "?" or "=" should be omitted
 
@@ -715,7 +718,7 @@ Maximum: 1000000000
 
 ### Session storage
 
-Provide the name of your session storage item in the Session Storage Item Name field.
+Provide the name of your session storage item in the [!UICONTROL Session Storage Item Name] field.
 
 Session storage is similar to local storage, except the data is discarded after the session ends, whereas local storage or a cookie might retain the data.
 
