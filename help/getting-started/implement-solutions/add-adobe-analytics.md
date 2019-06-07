@@ -172,7 +172,7 @@ Use your new data elements and extension to build your Product Detail page rule.
    ![](/help/assets/analytics-domreadyaddevent1.png)
 
 1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
-1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.
+1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the Analytics > Send Beacon action.
 
    ![](/help/assets/analytics-configdomreadyevent.png)
 
@@ -260,7 +260,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
    This is near the section you want to be visible.
 
-1. In that area of the page, possibly right below the selected section, locate the `&lt;div&gt;` element with `class="we-productgrid aem-GridColumn aem-GridColumn--default--12"`.
+1. In that area of the page, possibly right below the selected section, locate the `<div>` element with `class="we-productgrid aem-GridColumn aem-GridColumn--default--12"`.
 1. Right-click on this element and select **[!UICONTROL Copy]** > **[!UICONTROL Copy Selector]**.
 
    ![](/help/assets/analytics-copyelementselector.png)

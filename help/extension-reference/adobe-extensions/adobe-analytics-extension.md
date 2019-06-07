@@ -13,7 +13,7 @@ Use this reference for information about configuring the [!DNL Adobe Analytics] 
 
 This section provides a reference for the options available when configuring the [!DNL Adobe Analytics] extension.
 
-If the [!DNL Adobe Analytics] extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the [!DNL Adobe Analytics] extension, and click **[!UICONTROL Install]**.
+If the [!DNL Adobe Analytics] extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the [!DNL Adobe Analytics] extension, and click **[!UICONTROL Install]**.
 
 To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click [!UICONTROL Configure].
 

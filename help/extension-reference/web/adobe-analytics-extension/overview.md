@@ -13,7 +13,7 @@ Use this reference for information about configuring the Adobe Analytics extensi
 
 This section provides a reference for the options available when configuring the Adobe Analytics extension.
 
-If the Adobe Analytics extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Adobe Analytics extension, and click **[!UICONTROL Install]**.
+If the Adobe Analytics extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Analytics extension, and click **[!UICONTROL Install]**.
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 

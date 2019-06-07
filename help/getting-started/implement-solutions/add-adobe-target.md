@@ -265,7 +265,7 @@ The property token is implemented like an mbox parameter. Name the parameter `at
 
 Here is an optional exercise, if you would like to implement a property token in your Tutorial property:
 
-1. In a separate tab, open the Target user interface, go to **[!UICONTROL Setup]** > **[!UICONTROL Properties]**, and identify the property that you want to use, then click the **[!UICONTROL &lt;/&gt;]** (or create a new property).
+1. In a separate tab, open the Target user interface, go to **[!UICONTROL Setup]** > **[!UICONTROL Properties]**, and identify the property that you want to use, then click the **[!UICONTROL </>]** (or create a new property).
 1. Copy the at\_property value to your clipboard.
 
    ![](/help/assets/target-addatproperty-targetproperties.png)

@@ -66,7 +66,7 @@ A configuration in the Adobe Analytics Admin Console is required to start forwar
 
    ![](/help/assets/aam-analyticsadminconsolereportsuites.png)
 
-1. From the Report Suites screen and with the report suites selected, choose **[!UICONTROL Edit Settings]** > **[!UICONTROL General &gt; Server-Side Forwarding]**.
+1. From the Report Suites screen and with the report suites selected, choose **[!UICONTROL Edit Settings]** > **[!UICONTROL General > Server-Side Forwarding]**.
 
    ![](/help/assets/aam-selectssfmenu.png)
 
