@@ -33,7 +33,7 @@ Open the [We.Retail demo site](https://aem100-us.adobevlab.com/content/we-retail
 
 ![](/help/assets/switchenvironments-opendebugger1.png)
 
-Note that the currently implemented Launch property is shown on the Summary tab.
+Note that the currently implemented Launch property is shown on the [!UICONTROL Summary] tab.
 
 ![](/help/assets/switchenvironments-debuggeronweretail2.png)
 
