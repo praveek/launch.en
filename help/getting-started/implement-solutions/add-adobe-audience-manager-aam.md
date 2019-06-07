@@ -126,7 +126,7 @@ If you are not doing server-side forwarding of data from Analytics to Audience M
 1. In the Filter field, type b/ss, which limits what you see to the Adobe Analytics requests.
 1. Refresh the page to see the Analytics request.
 
-   ![](/help/assets/aam-openthejsconsole%20%281%29.png)
+   ![](/help/assets/aam-openthejsconsole1.png)
 
 1. In the Analytics beacon (request), look for a "callback" parameter. This parameter is set to something like this: `s_c_il[1].doPostbacks.`
 

@@ -57,7 +57,7 @@ When you copy an extension to another property, there are a few things that you 
 
 All Rules and Data Elements are provided by an extension, so when you copy across properties, Launch must account for these underlying extensions.
 
-![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog%20%281%29.png)
+![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog1.png)
 
 An explanation of exactly what Launch is planning on doing is available inside the Copy dialog before you actually begin copying. The above dialog is for a Rule, but the same applies to Data Elements.
 

@@ -16,7 +16,7 @@ For example, suppose that you have multiple websites based on one template, and 
 1.  As the domain, enter `enablementadobe.com`. This tutorial uses this property in conjunction with the We.Retail demo site, which is hosted on this domain.
 1. Click **[!UICONTROL Save]**.
 
-![](/help/assets/launch-newproperty%20%281%29.png)
+![](/help/assets/launch-newproperty1.png)
 
 Your new property should display on the Properties page.  If you check the box next to the property name, options to **[!UICONTROL Configure]** or **[!UICONTROL Delete]** the property appear above the property list. Click on the name of your property (for example, “Launch Tutorial”) to open the [!UICONTROL Overview] screen.
 

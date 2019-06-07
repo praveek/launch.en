@@ -91,7 +91,7 @@ After you have created a rule to send an Analytics beacon, you should be able to
 1. Click the Debugger icon to open the **[!UICONTROL Adobe Experience Cloud Debugger]**.
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](/help/assets/switchenvironments-debuggeronweretail%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail1.png)
 
 1. Open the [!UICONTROL Analytics] tab, then expand your Report Suite name to show all of the requests made to it.
 1. Confirm the request has fired with the Page Name variable and value.
@@ -169,7 +169,7 @@ Use your new data elements and extension to build your Product Detail page rule.
 1. Go to the **[!UICONTROL Rules]** section in the top navigation, click **[!UICONTROL Add Rule]**, then name the rule "Product Details - DOM Ready."
 1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the [!UICONTROL Event Configuration] screen.
 
-   ![](/help/assets/analytics-domreadyaddevent%20%281%29.png)
+   ![](/help/assets/analytics-domreadyaddevent1.png)
 
 1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
 1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the Analytics &gt; Send Beacon action.

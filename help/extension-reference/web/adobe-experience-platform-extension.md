@@ -47,7 +47,7 @@ This is the action type you will use in order to send data to the Adobe Experien
 
 You first need to select the dataset where the data will be stored. Generally, datasets represent a table that will store the data sent via the streaming connection. You need to create the datasets inside the Adobe Experience Platform before using this action type.
 
-![](/help/assets/adobe_experience_platform_send_beacon_dataset_selected%20%281%29.png)
+![](/help/assets/adobe_experience_platform_send_beacon_dataset_selected1.png)
 
 Once you select the dataset where the data will be stored, you will see details about the schema that is linked to the selected dataset.
 

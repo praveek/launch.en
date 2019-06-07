@@ -241,7 +241,7 @@ In the previous tutorial, [Add the Experience Cloud ID Service](idservice-save.m
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the [earlier lesson](../general-launch-configuration-and-settings/switch-environments-with-launch-command.md).
 
-   ![](/help/assets/switchenvironments-debuggeronweretail%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail1.png)
 
 1. Log in to the We.Retail site using the credentials `test@adobe.com /test`.
 1. Return to the [We.Retail homepage](https://aem.enablementadobe.com/content/we-retail/us/en.html).
@@ -291,7 +291,7 @@ Here is an optional exercise, if you would like to implement a property token in
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described earlier.
 
-   ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail21.png)
 
 1. Open the Debugger, go to the Target tab, and expand your client code.
 1. You should see the parameter for `at_property` in every global mbox request:
@@ -413,7 +413,7 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 1. Open the We.Retail site.
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described [earlier](../general-launch-configuration-and-settings/switch-environments-with-launch-command.md).
 
-   ![](/help/assets/switchenvironments-debuggeronweretail%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail1.png)
 
 1. Browse the site and add several products to your cart.
 1. Continue to checkout.

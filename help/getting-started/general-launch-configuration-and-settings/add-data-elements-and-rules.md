@@ -41,7 +41,7 @@ This exercise shows how to create a data element for Page Name, which will be us
 1. In the top navigation, click **[!UICONTROL Data Elements]**.  Because you haven’t created any data elements yet in this property, a brief video appears with additional information on this topic. Watch this video, if you like.
 1. Click **[!UICONTROL Create New Data Element]**.
 
-   ![Click the Create New Data Element button](/help/assets/launch-newdataelement%20%282%29.png)
+   ![Click the Create New Data Element button](/help/assets/launch-newdataelement2.png)
 
 1. Name the data element (for example, "Page Name").
 1. Use the JavaScript Variable Data Element type to point to a value in your sample page's data layer: `digitalData.page.pageInfo.pageName`.
