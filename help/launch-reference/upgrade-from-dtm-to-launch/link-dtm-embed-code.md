@@ -21,7 +21,7 @@ When a user visits your site in a browser, the browser requests the DTM file fro
 
 In the diagram below, Step 1 shows DTM publishing the container tag to your specified web host. In Step 2, the browser requests the container tag, using the embed code, and the host responds with the published file.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAxHla2X11_-j5Ak32l%2F-LAyfZuSJ0NwVoeH8Fxx%2F-LAyfa5bqgTovB_vZ6yU%2Fdtm_publishing.png?generation=1524691284072582&alt=media)
+![](/help/assets/dtm_publishing.png)
 
 ## Linking Embed Codes {#linking-embed-codes}
 
@@ -33,7 +33,7 @@ When you publish in Launch, the Launch container tag file overwrites the DTM fil
 
 In the diagram below, Step 3 represents Launch publishing its container tag over the top of the DTM container tag (from Step 1). When Step 2 occurs, it gets the Launch container tag instead.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAxHla2X11_-j5Ak32l%2F-LAyfZuSJ0NwVoeH8Fxx%2F-LAyfa5x25lPFZDNEA0o%2Flaunch_publishing.png?generation=1524691284013660&alt=media)
+![](/help/assets/launch_publishing.png)
 
 >[!IMPORTANT]  This overwriting works both ways. If you publish Launch, then subsequently publish from DTM, the DTM container tag overwrites the Launch one. You have two systems publishing to the same location. This means you don't have to change the code on your page, but it also means you need to be careful when you publish. It's recommended that you disable your DTM property to prevent this situation.
 
