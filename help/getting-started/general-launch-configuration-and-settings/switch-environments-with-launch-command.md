@@ -37,7 +37,7 @@ Note that the currently implemented Launch property is shown on the [!UICONTROL 
 
 ![](/help/assets/switchenvironments-debuggeronweretail2.png)
 
-Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field:
+Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch > Embed Code]** to open the text input field:
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 

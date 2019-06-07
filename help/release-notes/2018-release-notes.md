@@ -202,7 +202,7 @@ Rule ID is now emitted for each rule in a build, and can be referenced in the br
 
 #### Page Load event order
 
-Page Load events now execute in logical order in async deployments (Library Loaded &gt; Page Bottom &gt; DOM Ready &gt; Window Loaded).
+Page Load events now execute in logical order in async deployments (Library Loaded > Page Bottom > DOM Ready > Window Loaded).
 
 ## April 11, 2018
 

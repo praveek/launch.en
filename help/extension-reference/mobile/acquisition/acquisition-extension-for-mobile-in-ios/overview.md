@@ -191,10 +191,10 @@ If `attribution = true`, all of the `iad-*` fields will be included in the lifec
 
 In addition, the following values will be mapped from the `iad` dictionary to our typical acquisition context data fields:
 
-* "iad-campaign-id"--&gt; "a.referrer.campaign.trackingcode"
-* "iad-campaign-name"--&gt; "a.referrer.campaign.name"
-* "iad-adgroup-id"--&gt; "a.referrer.campaign.content"
-* "iad-keyword"--&gt; "a.referrer.campaign.term"
+* "iad-campaign-id"--> "a.referrer.campaign.trackingcode"
+* "iad-campaign-name"--> "a.referrer.campaign.name"
+* "iad-adgroup-id"--> "a.referrer.campaign.content"
+* "iad-keyword"--> "a.referrer.campaign.term"
 
 This mapping will make the values available in our standard reporting.
 

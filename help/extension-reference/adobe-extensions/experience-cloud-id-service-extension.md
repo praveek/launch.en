@@ -17,7 +17,7 @@ The ECID JS library can be found at this location: [https://github.com/Adobe-Mar
 
 This section provides a reference for the options available when configuring the Experience Cloud ID extension.
 
-If the Experience Cloud ID extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Experience Cloud ID extension, and click **[!UICONTROL Install]**.
+If the Experience Cloud ID extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Experience Cloud ID extension, and click **[!UICONTROL Install]**.
 
 To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 

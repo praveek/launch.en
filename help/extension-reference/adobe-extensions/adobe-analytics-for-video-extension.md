@@ -27,7 +27,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 * **Install -** To install the VA extension, open your extension property,
 
-  click **[UICONTROL Extensions &gt; Catalog]**, hover over the **[UICONTROL Adobe Analytics for Video]**
+  click **[UICONTROL Extensions > Catalog]**, hover over the **[UICONTROL Adobe Analytics for Video]**
 
   extension, and click **[!UICONTROL Install]**.
 

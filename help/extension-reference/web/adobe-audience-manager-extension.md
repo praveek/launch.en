@@ -15,7 +15,7 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Audience Manager extension
 
-If the Adobe Audience Manager extension is not yet installed, open your property, then click **[!UICONTROL Extensions &gt; Catalog]**, hover over the Adobe Audience Manager extension, and click **[!UICONTROL Install]**.
+If the Adobe Audience Manager extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Audience Manager extension, and click **[!UICONTROL Install]**.
 
 To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 

@@ -25,7 +25,7 @@ Here are the key-value pairs in this event:
 | **Key + Key Type** | **Value Type** | **Optional** | **Description** |
 | :--- | :--- | :--- | :--- |
 | ADB\_APP\_ID(String) | String | False | The app ID. |
-| &lt;CUSTOMER\_KEY&gt;(String) | String | True | The customer supplied Acquisition data that is sent to the V3 Acquisition server as part of the Campaign start request. |
+| <CUSTOMER\_KEY>(String) | String | True | The customer supplied Acquisition data that is sent to the V3 Acquisition server as part of the Campaign start request. |
 
 #### Track Deep Link Event
 

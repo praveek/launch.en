@@ -25,7 +25,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 * **Install -** To install the MA extension, open your extension property,
 
-  click **[!UICONTROL Extensions &gt; Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
+  click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
 
   extension, and click **[!UICONTROL Install]**.
 
