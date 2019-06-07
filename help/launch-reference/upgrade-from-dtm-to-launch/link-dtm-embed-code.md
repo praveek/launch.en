@@ -31,7 +31,7 @@ If you do this, DTM and Launch share the server location and the container tag f
 
 When you publish in Launch, the Launch container tag file overwrites the DTM file, so when the browser requests the file from the server, the Launch file is returned.
 
-In the diagram below, Step 3 represents Launch publishing its container tag over the top of the DTM container tag \(from Step 1\). When Step 2 occurs, it gets the Launch container tag instead.
+In the diagram below, Step 3 represents Launch publishing its container tag over the top of the DTM container tag (from Step 1). When Step 2 occurs, it gets the Launch container tag instead.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LAxHla2X11_-j5Ak32l%2F-LAyfZuSJ0NwVoeH8Fxx%2F-LAyfa5x25lPFZDNEA0o%2Flaunch_publishing.png?generation=1524691284013660&alt=media)
 
@@ -52,7 +52,7 @@ Before you link your embed code:
 1. Give your environment a name.
 1. Toggle the **[!UICONTROL Link DTM embed code]** option on.
 1. Paste your DTM production embed code into the **[!UICONTROL DTM Embed Code]** field in Launch.
-1. Finish configuring your Launch Production environment \(archive setup, etc\).
+1. Finish configuring your Launch Production environment (archive setup, etc).
 1. Click **[!UICONTROL Save]**.
 
 Launch validates a number of things and tells you whether linking was successful.

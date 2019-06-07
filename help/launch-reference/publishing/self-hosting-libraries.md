@@ -15,7 +15,7 @@ Launch can either manage the hosting of these files for you or you can do it you
 
 ## Managed by Adobe {#managed-by-adobe}
 
-Adobe does not actually host the builds for you. Instead, they are delivered to a third-party content delivery network \(CDN\) that has a contract with Adobe.
+Adobe does not actually host the builds for you. Instead, they are delivered to a third-party content delivery network (CDN) that has a contract with Adobe.
 
 The primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com).
 
@@ -78,7 +78,7 @@ There are two methods you can use to acquire completed builds so that you can se
 
 #### Download
 
-You can have Launch deliver builds as a packaged .zip file \(encryption optional\). You can then unzip the package and insert the contents into your release cycle to place them on your own servers.
+You can have Launch deliver builds as a packaged .zip file (encryption optional). You can then unzip the package and insert the contents into your release cycle to place them on your own servers.
 
 Use a [Managed by Adobe](hosts.md#managed-by-adobe) host and select the [Archive](environments.md#archive) option on your environment. The environment provides a download link. Whenever a build is created, you can retrieve it from the provided download link.
 

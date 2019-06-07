@@ -45,7 +45,7 @@ The Analytics extension consists of two main parts:
 
   >[!NOTE]  Use the **[!UICONTROL Manage the library for me]** option as the Library Management setting. This makes it much easier to keep the core AppMeasurement.js code up-to-date.
 
-* Under **[!UICONTROL General]** > **[!UICONTROL Tracking Server]**, enter your tracking server \(for example, `tmd.sc.omtrdc.net`\).
+* Under **[!UICONTROL General]** > **[!UICONTROL Tracking Server]**, enter your tracking server (for example, `tmd.sc.omtrdc.net`).
 
   Enter your SSL Tracking Server if your site supports `https://`.
 
@@ -108,11 +108,11 @@ A more flexible location to set variables, as well as events, is in rules using 
 
 ### Use Case
 
-Product Detail Pages \(PDP\) are important points for data collection on retail sites. Typically, you want Analytics to register that a product view occurred and which product was viewed. This is helpful in understanding which products are popular with your customers. On a media site, article or video pages could use similar tracking techniques to the ones demonstrated in this section. When you load a Product Detail Page, you might want to put that value into a Page Type eVar, as well as set some events and the product id. This allows us to see the following in our analysis:
+Product Detail Pages (PDP) are important points for data collection on retail sites. Typically, you want Analytics to register that a product view occurred and which product was viewed. This is helpful in understanding which products are popular with your customers. On a media site, article or video pages could use similar tracking techniques to the ones demonstrated in this section. When you load a Product Detail Page, you might want to put that value into a Page Type eVar, as well as set some events and the product id. This allows us to see the following in our analysis:
 
 1. How many times product detail pages are loaded?
 1. Which specific products are viewed and how many times?
-1. How other factors \(campaigns, search, etc\) affect how many PDP's people load?
+1. How other factors (campaigns, search, etc) affect how many PDP's people load?
 
 ### Create Data Element for Page Type
 
@@ -233,11 +233,11 @@ In the previous section, you created a rule that sets variables before the beaco
 
 ## Send a Track Link beacon
 
-When a page loads, you typically fire a page load beacon triggered by the `s.t(\)` function. This automatically increments a page view metric for the page listed in the pageName variable.
+When a page loads, you typically fire a page load beacon triggered by the `s.t()` function. This automatically increments a page view metric for the page listed in the pageName variable.
 
-However, sometimes you don't want to increment page views on your site, because the action that is taking place is smaller, or maybe just different, than a page view. In this case, use the `s.tl(\)` function, which is commonly referred to as a _track link_ request. Even though it is referred to as a track link request, it doesn't have to be triggered on a link click. It can be triggered by any of the events that are available to you in the Launch rule builder, including your own custom JavaScript.
+However, sometimes you don't want to increment page views on your site, because the action that is taking place is smaller, or maybe just different, than a page view. In this case, use the `s.tl()` function, which is commonly referred to as a _track link_ request. Even though it is referred to as a track link request, it doesn't have to be triggered on a link click. It can be triggered by any of the events that are available to you in the Launch rule builder, including your own custom JavaScript.
 
-This tutorial shows how to trigger an `s.tl(\)` call using an "Enters Viewport" JavaScript event.
+This tutorial shows how to trigger an `s.tl()` call using an "Enters Viewport" JavaScript event.
 
 ### The Use Case
 
@@ -300,7 +300,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
 1. Select **[!UICONTROL Extension]** > **[!UICONTROL Adobe Analytics]**.
 1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Send Beacon]**.
-1. Choose the **s.tl\(\)** tracking option.
+1. Choose the **s.tl()** tracking option.
 1. In the **[!UICONTROL Link Name]** field, enter Scrolled down to New Arrivals.
 
    This value will be included in the Custom Links report in Analytics.
@@ -322,7 +322,7 @@ Make sure that this hit occurs when you scroll down to the New Arrivals section 
 1. With the Debugger open, scroll down on your site until you can see the New Arrivals section.
 1. View the Debugger again. Another Analytics hit should appear.
 
-   This hit should have the parameters associated with the `s.tl(\)` hit that you set up, namely:
+   This hit should have the parameters associated with the `s.tl()` hit that you set up, namely:
 
    * LinkType = `link_o`:  This means that the hit is a custom link hit, not a page view hit.
    * LinkName = "Scrolled down to New Items"
@@ -344,7 +344,7 @@ To implement plug-ins, there are three steps:
 
 ### Make the Analytics object globally accessible
 
-If you are going to add the `doPlugins` function \(below\) and use plug-ins, you need to check a box to make the Analytics `s` object available globally in the Analytics implementation.
+If you are going to add the `doPlugins` function (below) and use plug-ins, you need to check a box to make the Analytics `s` object available globally in the Analytics implementation.
 
 1. Go to **[!UICONTROL Extensions]** > **[!UICONTROL Installed]**.
 1. In the Adobe Analytics extension, click **[!UICONTROL Configure]**.
@@ -375,7 +375,7 @@ To add plug-ins, you need to add a function called `doPlugins`. This function is
 
 ### Add Function Code for the Plug-in
 
-The function code calls two plug-ins, but one of them is built into the AppMeasurement library, so you do not need to add the function to call that one. However, for the second one, you need to add the function code. This function is called `getValOnce(\)`.
+The function code calls two plug-ins, but one of them is built into the AppMeasurement library, so you do not need to add the function to call that one. However, for the second one, you need to add the function code. This function is called `getValOnce()`.
 
 The purpose of this plug-in is to keep values from being falsely duplicated in the code when a visitor refreshes a page or uses the browser's back button to go back to a page where a value was set. This tutorial uses it to keep the clickthrough event from being duplicated.
 
@@ -393,7 +393,7 @@ The code for this plug-in is available in the [Analytics Documentation](https://
    +"==0?0:a);}return v==k?'':v");
    ```
 
-1. Paste it into the code window in the Analytics extension, **completely below** the `doPlugins` function \(not inside of it\).
+1. Paste it into the code window in the Analytics extension, **completely below** the `doPlugins` function (not inside of it).
 
    If you don't still have extension open, reopen it as per the previous step.
 

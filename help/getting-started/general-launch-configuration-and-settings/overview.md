@@ -31,7 +31,7 @@ To complete this lesson, you must have permission to Develop, Approve, Publish, 
 
 1. Under **[!UICONTROL Launch, by Adobe]**, click the **[!UICONTROL Go to Launch]** button.
 
-You should now see the Properties screen \(if no properties have ever been created in the account this screen might be empty\):
+You should now see the Properties screen (if no properties have ever been created in the account this screen might be empty):
 
 ![](/help/assets/launch-gotolaunch.png)
 

@@ -59,7 +59,7 @@ After selecting the dataset you can define your schema mapping.
 
 The source value field accepts a value or a data element. You can add a data element by clicking on the data element button that is located next to the source value field.
 
-The target schema field contains the path of a XDM field defined in the dataset schema. For fields defined deeper in the schema hierarchy you can use the dot as a separator between the path parts  \(eg. timeSeriesEvents.eventType\).
+The target schema field contains the path of a XDM field defined in the dataset schema. For fields defined deeper in the schema hierarchy you can use the dot as a separator between the path parts  (eg. timeSeriesEvents.eventType).
 
 ### Schema Field Selector
 
@@ -69,7 +69,7 @@ The extension offers also the possibility to select a target schema field using 
 
 ### Identity fields inside the Adobe Experience Platform
 
-Record data schemas and time series data schemas may contain one or more identity fields. Identity fields stitch together to form a single identity representation of a subject and include information such as a CRM identifier, Experience Cloud ID \(ECID\), browser cookie, AdvertisingId, or other IDs in different domains.
+Record data schemas and time series data schemas may contain one or more identity fields. Identity fields stitch together to form a single identity representation of a subject and include information such as a CRM identifier, Experience Cloud ID (ECID), browser cookie, AdvertisingId, or other IDs in different domains.
 
 Identity fields can be defined in two ways inside the schema:
 

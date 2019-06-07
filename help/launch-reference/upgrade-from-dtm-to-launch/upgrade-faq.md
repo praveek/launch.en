@@ -40,13 +40,13 @@ If you mouse over the button, a message informs you why it is not available. The
 1. Test thoroughly in your Launch Development environment.
 1. Adjust data elements and rules as desired.
 1. Promote changes through to the Launch Production environment.
-1. \(Optional\) Disable the DTM property any time after completing Step 1.
+1. (Optional) Disable the DTM property any time after completing Step 1.
 
 ## What do I do if the upgrade doesn't work? {#what-do-i-do-if-the-upgrade-doesnt-work}
 
 The upgrade is expected to succeed in nearly every scenario. There are a few reasons why it might fail, such as:
 
-* You don't have the Manage Properties right in Launch.  Ask your Org Admin \(or a Launch Product Admin\) to add you to a Product Profile with the Manage Properties right.
+* You don't have the Manage Properties right in Launch.  Ask your Org Admin (or a Launch Product Admin) to add you to a Product Profile with the Manage Properties right.
 * Your property has configuration issues.  If the upgrade fails for this reason, DTM informs you that you have property configuration issues. Please check the [Preparation Guide](upgrade-preparation-guide.md) and try again.
 
 In the rare case that your upgrade fails for any other reason, please contact Client Care and provide your DTM Company and Property Name. Client Care will work with the Launch team to help you out.

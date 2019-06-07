@@ -17,7 +17,7 @@ In many form fields in the Launch user interface, you can use the `%%` syntax to
 
 >[!NOTE]  This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
 
->[!NOTE]  A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with whatever supported methods have been provided by the monitor.
+>[!NOTE]  A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
 
 ## Launch Object Reference
 
@@ -121,7 +121,7 @@ _satellite.logger.error(message: string)
 _satellite.logger.error('No product ID found.');
 ```
 
-Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user \(by calling `_satellite.setDebug(true)` or using an appropriate browser extension\).
+Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 ### cookie
 
@@ -215,7 +215,7 @@ _satellite.notify(message: string[, level: number])
 _satellite.notify('Hello world!');
 ```
 
-Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user \(by calling `_satellite.setDebug(true)` or using an appropriate browser extension\).
+Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 An optional logging level can be passed which will affect styling and filtering of the message being logged. Supported levels are as follows:
 
@@ -369,7 +369,7 @@ Called after a rule has been triggered and one of its conditions has failed. The
 
 If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` will be called shortly thereafter.
 
->[!NOTE] A monitor doesn't have to specify all three methods \(`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`\). Launch works with whatever supported methods have been provided by the monitor.
+>[!NOTE] A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
 
 #### Testing the Monitor
 

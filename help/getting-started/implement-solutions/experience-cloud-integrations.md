@@ -13,7 +13,7 @@ This tutorial reviews the key integrations between the solutions you have implem
 
 At the end of this lesson, you will be able to:
 
-* Explain the use cases for Audience Sharing, Analytics for Target \(A4T\), and Customer Attributes integrations
+* Explain the use cases for Audience Sharing, Analytics for Target (A4T), and Customer Attributes integrations
 * Validate the basic client-side implementation aspects of these integrations
 
 ## Prerequisites
@@ -56,16 +56,16 @@ These validation steps focus on the critical part visible in the client-side imp
 
    The IDs are unique per visitor, which you can confirm by asking a co-worker to repeat these steps.
 
-## Analytics for Target \(A4T\)
+## Analytics for Target (A4T)
 
-The [Analytics for Target \(A4T\)](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) integration allows you to leverage your Analytics data as the source for reporting metrics in Target.
+The [Analytics for Target (A4T)](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) integration allows you to leverage your Analytics data as the source for reporting metrics in Target.
 
 The main requirements to implement A4T, which you have already done, are to:
 
 * Implement the Experience Cloud ID Service
 * Fire the global mbox before the Analytics page view beacon
 
-A4T works by stitching together a server-side request from Target to Analytics with the Analytics page view beacon, referred to as "hit-stitching." Hit-stitching requires that the Target request that delivers the activity \(or increments a Target-based goal metric\) have a parameter that matches a parameter in the Analytics page view beacon. This parameter is called the supplemental data ID \(SDID\).
+A4T works by stitching together a server-side request from Target to Analytics with the Analytics page view beacon, referred to as "hit-stitching." Hit-stitching requires that the Target request that delivers the activity (or increments a Target-based goal metric) have a parameter that matches a parameter in the Analytics page view beacon. This parameter is called the supplemental data ID (SDID).
 
 ### Validate the A4T Implementation
 
@@ -86,11 +86,11 @@ The best way to validate the A4T integration is to build a Target activity using
 
    ![](/help/assets/integrations-matchingsdids.png)
 
-If you make additional Target requests in the scope of a page load \(not including single-page apps\) that are part of A4T activities, give them unique names \(not target-global-mbox\) so that they continue to have the same SDIDs of the initial Target and Analytics requests.
+If you make additional Target requests in the scope of a page load (not including single-page apps) that are part of A4T activities, give them unique names (not target-global-mbox) so that they continue to have the same SDIDs of the initial Target and Analytics requests.
 
 ## Customer attributes
 
-[Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) are a part of the People core service that allows you to upload data from your customer relationship management \(CRM\) database and leverage it in Adobe Analytics and Adobe Target.
+[Customer Attributes](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) are a part of the People core service that allows you to upload data from your customer relationship management (CRM) database and leverage it in Adobe Analytics and Adobe Target.
 
 The main requirements to implement Customer Attributes, which you have already done, are to:
 
@@ -116,7 +116,7 @@ You validated that the Customer IDs are passed to both the ID Service and to Tar
 1. Scroll down until you see some nested parameters:
    * `cid`: The standard delimiter for the Customer ID portion of the request
    * `crm_id`: The custom integration code, which you specified in the ID Service lesson
-   * `id`: The Customer ID value coming from your Email \(Hashed\) data element
+   * `id`: The Customer ID value coming from your Email (Hashed) data element
    * `as`: The Authentication State, with "1" meaning logged in
 
 ![](/help/assets/integrations-analyticscustomeridvalidation.png)

@@ -11,7 +11,7 @@ Launch is the next-generation of tag management capabilities from Adobe. Launch 
 
 Launch empowers anyone to build and maintain their own integrations with Launch, called Extensions. These extensions are available to Launch customers in an app-store experience so they can quickly install, configure, and deploy their tags.
 
-Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management \(DTM\) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
+Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management (DTM) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
 
 ## Key benefits
 
@@ -23,7 +23,7 @@ Launch is offered to Adobe Experience Cloud customers as an included, value-add 
 
 ### Extensions
 
-An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
+An extension is a package of code (JavaScript, HTML, and CSS) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
 
 ### Extension Catalog
 
@@ -106,7 +106,7 @@ No. Launch is an entirely new product with a new code base. The system has been 
 
 ### Will the current DTM product remain available?
 
-Yes, legacy DTM \(the existing production version\) will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
+Yes, legacy DTM (the existing production version) will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
 
 The Launch team is working to make the migration process from legacy DTM to Launch as easy as possible so customers can take advantage of more than twenty new features, extensions, and APIs that Launch provides.
 
@@ -116,7 +116,7 @@ There is no additional charge for Launch. It is available for any Adobe Experien
 
 ### Will I have to change the embed codes in my current DTM implementation?
 
-No, you won't have to change your production embed codes if you're currently using the existing \(legacy\) DTM system. You can continue to work in your current DTM Company and Web Properties without worrying about changing that embed code. The product team has not finalized the migration process just yet, but they are working to make it as easy and automated as possible. For more details, see the [Launch help docs](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/embed-code-link.html), and this [blog post](https://medium.com/launch-by-adobe/migrating-from-dtm-to-launch-57548251a86d).
+No, you won't have to change your production embed codes if you're currently using the existing (legacy) DTM system. You can continue to work in your current DTM Company and Web Properties without worrying about changing that embed code. The product team has not finalized the migration process just yet, but they are working to make it as easy and automated as possible. For more details, see the [Launch help docs](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/embed-code-link.html), and this [blog post](https://medium.com/launch-by-adobe/migrating-from-dtm-to-launch-57548251a86d).
 
 ### I heard there are plug-ins now. What's that about?
 
@@ -136,7 +136,7 @@ Launch is SOC-2 and Gramm-Leach-Bliley Act ready. Launch also offers the capabil
 
 ### I have a project coming up very soon. Should I wait for Launch?
 
-If you are already using legacy DTM, or are currently deploying DTM, you should continue to do so. Don't wait. Move your projects forward using the current DTM. Then, when you're ready to move to Launch, the migration process will make it as easy and automated as possible \(no on-page embed code changes, and automated migration of Rules and Data Elements\).
+If you are already using legacy DTM, or are currently deploying DTM, you should continue to do so. Don't wait. Move your projects forward using the current DTM. Then, when you're ready to move to Launch, the migration process will make it as easy and automated as possible (no on-page embed code changes, and automated migration of Rules and Data Elements).
 
 ### Which capabilities exist in Launch that don't exist in legacy DTM?
 
@@ -170,7 +170,7 @@ Yes. Launch includes an extension that specializes in listening for changes in d
 
 Event types are available through extensions. The pre-loaded DTM extension includes 30 built-in event types. Other extensions could add additional event types. For example, the YouTube extension includes four video event types: play, pause, end, and time played. Through extensions, Launch can support any other browser event types or synthetic event types, such as specific visitor activity sequences.
 
-### Will the new Launch speed up \(or slow down\) my web site?
+### Will the new Launch speed up (or slow down) my web site?
 
 Launch is designed to deliver and run marketing and advertising technologies on your web site as efficiently as possible using today's best practices. When used properly, Launch has proven to improve performance of web sites over alternative methods of providing similar functionality.
 
@@ -178,19 +178,19 @@ Launch is designed to deliver and run marketing and advertising technologies on 
 
 Browser support in the Launch client-side libraries:
 
-* Chrome \(latest\)
-* Safari \(latest\)
-* Firefox \(latest\)
-* Internet Explorer \(10 and above\)
-* iOS Safari \(latest\)
-* Android Chrome \(latest\)
+* Chrome (latest)
+* Safari (latest)
+* Firefox (latest)
+* Internet Explorer (10 and above)
+* iOS Safari (latest)
+* Android Chrome (latest)
 
 Browser support in the Launch application interface:
 
-* Chrome \(latest\)
-* Safari \(latest\)
-* Firefox \(latest\)
-* Internet Explorer \(11 and above\)
+* Chrome (latest)
+* Safari (latest)
+* Firefox (latest)
+* Internet Explorer (11 and above)
 
 Legacy DTM supported older versions of Internet Explorer, but over the last few years, the percentage of overall web users with older, outdated browsers has dropped to a small segment for our clients. Most Adobe clients now leverage more modern web platform features in current browsers and create better user experiences, including single page applications and interactive Ajax-heavy web sites and pages. As most clients move to more modern approaches with their sites, they demand a solution like Launch that enables those approaches.
 

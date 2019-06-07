@@ -69,7 +69,7 @@ In the Add Data Elements, Rules, and Libraries tutorial, you created a data elem
 Start by creating two data elements:
 
 * `Authentication State`: Captures whether the visitor is logged in
-* `Email (Hashed)`: Captures the hashed version of the email address \(used as the customer ID\) from the data layer
+* `Email (Hashed)`: Captures the hashed version of the email address (used as the customer ID) from the data layer
 
 Create the data element for Authentication State:
 
@@ -96,7 +96,7 @@ By knowing the authentication state of the user, you know when a customer ID sho
 
    ![](/help/assets/idservice-adddataelement2.png)
 
-1. Name the data element "Email \(Hashed\)."
+1. Name the data element "Email (Hashed)."
 1. For`Data Element Type`, select **[!UICONTROL JavaScript Variable.]**
 1. In `Path to variable`, paste the following:`digitalData.user.0.profile.0.attributes.username`
 1. Leave all of the other settings on their default values
@@ -112,7 +112,7 @@ The Experience Cloud ID Service passes the customer IDs using a rule action call
    >[!TIP] This naming convention indicates you are implementing this rule at the top of all pages when the user is authenticated and it will have an order of “10.” Using a naming convention like this, rather than naming it for the solutions triggered in the actions, minimizes the overall number of rules needed in this implementation.
 
 1. Under **[!UICONTROL Events]**, click **[!UICONTROL Add]**. 
-    1. For the **[!UICONTROL Event Type]** select **[!UICONTROL Library Loaded \(Page Top\)]**. 
+    1. For the **[!UICONTROL Event Type]** select **[!UICONTROL Library Loaded (Page Top)]**. 
     2. Specify the order “10”. The Order controls the sequence of rules that are triggered by the same event. Rules with a lower order fire before rules with a higher order. In this case, you want to set the customer ID before you fire the Target request, which you will do in the next lesson with a rule with an order of 50 . 
     3. Click **[!UICONTROL Keep Changes]** to return to the Rule Builder.
 1. Under **[!UICONTROL Conditions]** click **[!UICONTROL Add]**:
@@ -126,7 +126,7 @@ The Experience Cloud ID Service passes the customer IDs using a rule action call
    1. Select the Experience Cloud ID Service extension.
    2. Select the “Set Customer IDs” Action Type.
    3. For the **[!UICONTROL Integration Code]** enter `crm_id`.
-   4. For the **[!UICONTROL Value]** open the Data Element selector modal and select the Email \(Hashed\) option.
+   4. For the **[!UICONTROL Value]** open the Data Element selector modal and select the Email (Hashed) option.
    5. For the **[!UICONTROL Auth State]** select **[!UICONTROL Authenticated]**.
    6. Click the **[!UICONTROL Keep Changes]** button to save the action and return to the Rule Builder.
 1. Click **[!UICONTROL Save to Library and Build]**.

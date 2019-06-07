@@ -52,9 +52,9 @@ The domain where Target requests are sent. This should almost always be left as 
 Determines where Target sets cookies in the browsers.
 
 * **Disabled:** Sets the cookies on the first-party domain only. This is the typical setting.
-* **Enabled:** Sets cookies on both the first-party domain and the third-party Target domain \(the "Server Domain"\).
+* **Enabled:** Sets cookies on both the first-party domain and the third-party Target domain (the "Server Domain").
 
-#### Timeout \(ms\)
+#### Timeout (ms)
 
 If the response from Target is not received within the defined period, the request times out and default content is displayed. Additional requests continue to be attempted during the visitor's session. The default is 3000ms, which might be different from the Timeout configured in the Target user interface.
 
@@ -109,7 +109,7 @@ For more information, refer to the [Target online help documentation](https://do
 
 ## Adobe Target basic deployment
 
-Once the Target Extension is installed, you'll need to create at least one rule to properly deploy it. You first need to load the Target library \(at.js\), specify the parameters you want to use with the global mbox, and fire the global mbox.
+Once the Target Extension is installed, you'll need to create at least one rule to properly deploy it. You first need to load the Target library (at.js), specify the parameters you want to use with the global mbox, and fire the global mbox.
 
 A Target rule with this basic implementation looks like this:
 

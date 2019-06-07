@@ -39,9 +39,9 @@ This indicates to the browser that when this script tag is parsed, the browser s
 
 As described above, in synchronous deployments, the browser pauses parsing and rendering the page while the Launch library is loaded and executed. In asynchronous deployments, on the other hand, the browser continues parsing and rendering the page while the library loads. The variability of when the Launch library might finish loading in relation to page parsing and rendering must be taken into consideration.
 
-First, because the Launch library can finish loading before or after the bottom of the page has been parsed and executed, you should no longer call `_satellite.pageBottom()` from your page code \(`_satellite` won't be available until after the library has loaded\). This is explained in [Loading the Launch embed code asynchronously](asynchronous-deployment.md#loading-the-launch-embed-code-asynchronously).
+First, because the Launch library can finish loading before or after the bottom of the page has been parsed and executed, you should no longer call `_satellite.pageBottom()` from your page code (`_satellite` won't be available until after the library has loaded). This is explained in [Loading the Launch embed code asynchronously](asynchronous-deployment.md#loading-the-launch-embed-code-asynchronously).
 
-Second, the Launch library can finish loading before or after the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event \(DOM Ready\) has occurred.
+Second, the Launch library can finish loading before or after the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event (DOM Ready) has occurred.
 
 Because of these two points, it's worth demonstrating how the [Library Loaded](../../extension-reference/web/core-extension/overview.md#library-loaded-page-top), [Page Bottom](../../extension-reference/web/core-extension/overview.md#page-bottom), [DOM Ready](../../extension-reference/web/core-extension/overview.md#page-bottom), and [Window Loaded](../../extension-reference/web/core-extension/overview.md#window-loaded) event types from the Core extension function when loading a Launch library asynchronously.
 
@@ -59,8 +59,8 @@ Rule A → Rule B → Rule C → Rule D
 Although the order is always enforced, some rules might be executed immediately when the Launch library finishes loading, while others might be executed later. The following occurs when the Launch library finishes loading:
 
 1. Rule A is executed immediately.
-1. If the `DOMContentLoaded` browser event \(DOM Ready\) has already occurred, Rule B and Rule C are executed immediately. Otherwise, Rule B and Rule C are executed later when the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event occurs.
-1. If the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event \(Window Loaded\) has already occurred, Rule D is executed immediately. Otherwise, Rule D will be executed later when the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs. Note that if you've installed the Launch library according to the instructions, the Launch library _always_ finishes loading before the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs.
+1. If the `DOMContentLoaded` browser event (DOM Ready) has already occurred, Rule B and Rule C are executed immediately. Otherwise, Rule B and Rule C are executed later when the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event occurs.
+1. If the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event (Window Loaded) has already occurred, Rule D is executed immediately. Otherwise, Rule D will be executed later when the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs. Note that if you've installed the Launch library according to the instructions, the Launch library _always_ finishes loading before the [`load`](https://developer.mozilla.org/en-US/docs/Web/Events/load) browser event occurs.
 
 When applying these principles to your own website, consider the following:
 

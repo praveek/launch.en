@@ -27,7 +27,7 @@ If you want to upgrade to a newer version available in the catalog, you must ins
 
 Upgrading should not be taken lightly. You should not upgrade unless you are prepared to test the new extension and are ready to deploy it. Once the upgrade has been added to your property, it must be included in all libraries. Any library that does not include the upgraded extension will fail at build time.
 
-There is currently no capability to downgrade your extension to a previous version. Once you've upgraded \(whether you publish or not\), the new extension version is on your property to stay.
+There is currently no capability to downgrade your extension to a previous version. Once you've upgraded (whether you publish or not), the new extension version is on your property to stay.
 
 ## Upgrade Process
 
@@ -47,6 +47,6 @@ Beyond that, adding the upgraded extension to your library is the same as [addin
 
 From the Edit Library screen, you can use the "Add All Changed Resources" button or you can use the "Add a Resource" button and select the upgraded extension on its own.
 
->[!TIP] It is possible for extension developers to add new configuration items to their extension views in order to enable new functionality.  If you see build failures after upgrading to a new extension version - and you have isolated to build failures to that extension -  then the first thing to do is go to the extension's Configure page and be sure to Save \(even if you didn't change anything\).  Then add the new change to your Library and try to build again.
+>[!TIP] It is possible for extension developers to add new configuration items to their extension views in order to enable new functionality.  If you see build failures after upgrading to a new extension version - and you have isolated to build failures to that extension -  then the first thing to do is go to the extension's Configure page and be sure to Save (even if you didn't change anything).  Then add the new change to your Library and try to build again.
 
 Once you have added the extension upgrade to your Library, you can follow the steps outlined in [Approval Workflow](../../publishing/approval-workflow.md) to publish your library through to Production.

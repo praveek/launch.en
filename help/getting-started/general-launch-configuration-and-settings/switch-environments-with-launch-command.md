@@ -41,7 +41,7 @@ Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dyn
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 
-Make sure the Chrome tab with the We.Retail site is in focus behind the Debugger \(not the tab with this tutorial or the tab with the Launch interface\), then paste the embed code from your clipboard. Click the disk icon to save.
+Make sure the Chrome tab with the We.Retail site is in focus behind the Debugger (not the tab with this tutorial or the tab with the Launch interface), then paste the embed code from your clipboard. Click the disk icon to save.
 
 ![](/help/assets/switchenvironments-debugger-save.png)
 

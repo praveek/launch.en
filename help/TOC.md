@@ -118,7 +118,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Add the Experience Cloud ID Service Extension](getting-started-1/implement-solutions/idservice-save.md)
   * [Add Adobe Analytics](getting-started-1/implement-solutions/add-adobe-analytics.md)
   * [Add Adobe Target](getting-started-1/implement-solutions/add-adobe-target.md)
-  * [Add Adobe Audience Manager \(AAM\)](getting-started-1/implement-solutions/add-adobe-audience-manager-aam.md)
+  * [Add Adobe Audience Manager (AAM)](getting-started-1/implement-solutions/add-adobe-audience-manager-aam.md)
   * [Experience Cloud integrations](getting-started-1/implement-solutions/experience-cloud-integrations.md)
 * [Publish your Launch property](getting-started-1/validate-and-publish.md)
 
@@ -144,7 +144,7 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
   * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
   * [Launch object reference](launch-reference/client-side-information/launch-object-reference.md)
   * [Deploy JavaScript tags to opt in to Launch](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
-  * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
+  * [Content Security Policy (CSP)](launch-reference/client-side-information/content-security-policy-csp.md)
 * [Administration](launch-reference/administration/README.md)
   * [Companies and properties](launch-reference/administration/companies-and-properties.md)
   * [User permissions](launch-reference/administration/user-permissions.md)

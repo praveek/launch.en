@@ -24,14 +24,14 @@ Here are the key-value pairs in this event:
 
 | **Key + Key Type** | **Value Type** | **Optional** | **Description** |
 | :--- | :--- | :--- | :--- |
-| ADB\_APP\_ID\(String\) | String | False | The app ID. |
-| &lt;CUSTOMER\_KEY&gt;\(String\) | String | True | The customer supplied Acquisition data that is sent to the V3 Acquisition server as part of the Campaign start request. |
+| ADB\_APP\_ID(String) | String | False | The app ID. |
+| &lt;CUSTOMER\_KEY&gt;(String) | String | True | The customer supplied Acquisition data that is sent to the V3 Acquisition server as part of the Campaign start request. |
 
 #### Track Deep Link Event
 
 | **Key + Key Type** | **Value Type** | **Optional** | **Description** |
 | :--- | :--- | :--- | :--- |
-| deepLink \(String\) | String | False | Deep link query parameters as String. |
+| deepLink (String) | String | False | Deep link query parameters as String. |
 
 ## Acquistion OS
 

@@ -22,7 +22,7 @@ This host type is the default selection and is simplest to manage.
 
 When you choose the Adobe-managed option, libraries that Launch builds will be delivered to a 3rd-party CDN that Adobe has contracted with. These CDNs operate independently from Adobe, so even when Launch has maintenance or downtime, the code deployed to your sites and applications continues to function as normal. The embed code references the main library file on the CDN so a client device can retrieve the files at run-time.
 
-Today, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com). This can be referenced securely or not securely \(http:// or https://\) based on how you call it in your `<script>` code.
+Today, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com). This can be referenced securely or not securely (http:// or https://) based on how you call it in your `<script>` code.
 
 When you create a new property through the Launch UI, a default host of this type is created for you.
 
@@ -58,4 +58,4 @@ There is a full guide on how to setup SFTP servers for Launch delivery [on the L
 1. Enter the host, path, port, username, and encrypted private key.
 1. Click **[!UICONTROL Save]**.
 
-When you click **[!UICONTROL Save]**, Launch tests whether it is able to connect and deliver files to your SFTP server. It creates a folder, writes a file within that folder, and then checks to make sure the file is there, then cleans up after itself. If the user account on your SFTP server \(the one attached to the secure certificate you provided to Launch\) does not have the necessary permissions to perform this action, then the Host goes into a "Failed" status.
+When you click **[!UICONTROL Save]**, Launch tests whether it is able to connect and deliver files to your SFTP server. It creates a folder, writes a file within that folder, and then checks to make sure the file is there, then cleans up after itself. If the user account on your SFTP server (the one attached to the secure certificate you provided to Launch) does not have the necessary permissions to perform this action, then the Host goes into a "Failed" status.
