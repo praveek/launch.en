@@ -1,15 +1,15 @@
 ---
 title: Adobe Media Analytics for Audio and Video Extension
 seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
-description: Information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension \(Media Analytics extension\)
+description: Information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension (Media Analytics extension)
 seo-description: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
 ---
 
 # Adobe Media Analytics for Audio and Video Extension
 
-Use this documentation for information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension \(Media Analytics extension\). Included are the options available when using this extension to build a rule, along with examples and links to samples.
+Use this documentation for information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension (Media Analytics extension). Included are the options available when using this extension to build a rule, along with examples and links to samples.
 
-The Media Analytics \(MA\) extension adds the core JavaScript Media SDK \(Media 2.x SDK\). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The MA extension requires two additional extensions:
+The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The MA extension requires two additional extensions:
 
 * [Analytics Extension](https://docs.adobelaunch.com/~/edit/drafts/-LNQre1_XrQVLOEWB0Jz/extension-reference/web/adobe-analytics-extension)
 * [Experience Cloud ID Extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension)
@@ -39,9 +39,9 @@ After you have included all three of the extensions mentioned above in your Laun
 
 | Option | Description |
 | :--- | :--- |
-| Tracking Server | Defines the server for tracking media heartbeats \(this is not the same server as your analytics tracking server\) |
+| Tracking Server | Defines the server for tracking media heartbeats (this is not the same server as your analytics tracking server) |
 | Application Version | The version of the media player app/SDK |
-| Player Name | Name of the media player in use \(e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer"\) |
+| Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") |
 | Channel | Channel name property |
 | Online Video Provider | Name of the online video platform through which content gets distributed |
 | Debug Logging | Enable or Disable logging |
@@ -78,9 +78,9 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
 ### Using from other extensions
 
-The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. \(For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).\)
+The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).)
 
->[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` \(see code sample below\) outside of an extension.
+>[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
 1. **Create MediaHeartbeat Instance:** `get-instance` Shared Module
 
@@ -98,7 +98,7 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
      | Property | Description | Required |
      | :--- | :--- | :--- |
      | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
-     | Player Name | Name of the media player in use \(e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer"\) | No. If present, overrides the value defined during extension configuration. |
+     | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
      | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
 
    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
@@ -143,7 +143,7 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
->[!NOTE] Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 ## Leveraging the sample HTML5 player
 

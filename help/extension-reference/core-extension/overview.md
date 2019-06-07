@@ -242,7 +242,7 @@ If you select this option, the following parameters become available:
 
   Add another `property=value` pair.
 
-#### Advanced options \(Bubbling\)
+#### Advanced options (Bubbling)
 
 * Run this rule even when the event originates from a descendant element
 * Allow this rule to run even if the event already triggered a rule targeting a descendant element
@@ -260,7 +260,7 @@ Specify the cookie name and value that must exist for an event to trigger an act
 
 1. Specify a cookie name.
 1. Enter the value that must exist in the cookie if the event is to trigger an action.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -284,14 +284,14 @@ If you have a rule with multiple conditions, it is possible that this condition 
 
 1. Provide a value.
 1. Select the operator. Refer to the list of  value comparison operators, below, for more details.
-1. \(Where required\) Select whether the comparison should be case-insensitive.
+1. (Where required) Select whether the comparison should be case-insensitive.
 1. Provide another value for the comparison.
 
 The following value comparison operators are available:
 
-**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Equal:** The condition returns true if the two values are equal using a non-strict comparison (in JavaScript, the == operator). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison (in JavaScript, the != operator). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
 **Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
@@ -331,7 +331,7 @@ Specify the JavaScript variable name and value that must exist for an event to t
 
 1. Specify the JavaScript variable name.
 1. Specify the variable value that must exist as a condition for the event.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ### Engagement
 
@@ -340,7 +340,7 @@ Specify the JavaScript variable name and value that must exist for an event to t
 Specify the page the user must land on to trigger the event.
 
 1. Specify the landing page.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -384,7 +384,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 Specify the source of the visitor's traffic that must be true for the action to be triggered.
 
 1. Specify the traffic source.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ### Other
 
@@ -490,7 +490,7 @@ Specify one or more hash patterns that must exist in the URL.
 >[!NOTE] Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other hash patterns.
 
 #### Path
@@ -500,7 +500,7 @@ Specify one or more paths that must exist in the URL.
 >[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other paths.
 
 #### Protocol
@@ -519,7 +519,7 @@ Specify one or more subdomains that must exist in the URL.
 >[!NOTE] Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other subdomains.
 
 #### URL Parameter
@@ -528,7 +528,7 @@ Specify URL parameter used in the URL.
 
 1. Specify a URL parameter name.
 1. Specify the value used for the URL parameter.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ## Core extension exception types
 
@@ -542,7 +542,7 @@ Specify the cookie name and value that can't exist for an event to trigger an ac
 
 1. Specify a cookie name.
 1. Enter the value that must not exist in the cookie if the event is to trigger an action.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 #### Cookie Opt-out
 
@@ -566,14 +566,14 @@ If you have a rule with multiple conditions, it is possible that this condition 
 
 1. Provide a value.
 1. Select the operator. Refer to the list of  value comparison operators, below, for more details.
-1. \(Where required\) Select whether the comparison should be case-insensitive.
+1. (Where required) Select whether the comparison should be case-insensitive.
 1. Provide another value for the comparison.
 
 The following value comparison operators are available:
 
-**Equal:** The condition returns true if the two values are equal using a non-strict comparison \(in JavaScript, the == operator\). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Equal:** The condition returns true if the two values are equal using a non-strict comparison (in JavaScript, the == operator). The values may be of any type. When typing a word like _true_,  _false_,  _null_, or  _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison \(in JavaScript, the != operator\). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Does Not Equal:**  The condition returns true if the two values are not equalusing a non-strict comparison (in JavaScript, the != operator). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
 **Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
@@ -613,7 +613,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 
 1. Specify the JavaScript variable name.
 1. Specify the variable value that must not exist as a condition for the event.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ### Engagement
 
@@ -622,7 +622,7 @@ Specify the JavaScript variable name and value that must not exist for an event 
 Specify the page the user must not land on to trigger the event.
 
 1. Specify the landing page.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 #### New/Returning Visitor
 
@@ -662,7 +662,7 @@ Configure how long the visitor must be on the site to prevent the action from be
 Specify the source of the visitor's traffic that must be true to prevent the action from being triggered.
 
 1. Specify the traffic source.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ### Other
 
@@ -768,7 +768,7 @@ Specify one or more hash patterns that must not exist in the URL.
 >[!NOTE] Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other hash patterns.
 
 #### Path
@@ -778,7 +778,7 @@ Specify one or more paths that must not exist in the URL.
 >[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other paths.
 
 #### Protocol
@@ -797,7 +797,7 @@ Specify one or more subdomains that must not exist in the URL.
 >[!NOTE] Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other subdomains.
 
 #### URL Parameter
@@ -806,7 +806,7 @@ Specify URL parameter that cannot be used in the URL.
 
 1. Specify a URL parameter name.
 1. Specify the value used for the URL parameter.
-1. \(Optional\) Enable Regex if this is a regular expression.
+1. (Optional) Enable Regex if this is a regular expression.
 
 ## Core extension action types
 

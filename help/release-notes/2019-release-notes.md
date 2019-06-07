@@ -9,7 +9,7 @@ seo-description: 2019 release notes for Adobe Launch
 
 ## May 8, 2019
 
-The Reactor API that powers Launch is officially reaching 1.0 status today.  This comes with a commitment to maintaining backwards compatibility within this major version \(the 1.x series\).  To get started working with the Reactor API, please visit [https://developer.adobelaunch.com/api/\#](https://developer.adobelaunch.com/api/#).
+The Reactor API that powers Launch is officially reaching 1.0 status today.  This comes with a commitment to maintaining backwards compatibility within this major version (the 1.x series).  To get started working with the Reactor API, please visit [https://developer.adobelaunch.com/api/\#](https://developer.adobelaunch.com/api/#).
 
 ### Updates
 
@@ -73,7 +73,7 @@ The Reactor API that powers Launch is officially reaching 1.0 status today.  Thi
 
 ### Updates
 
-* Builds should be running ~15% faster than before.  Large builds \(hundreds of resources\) will have more dramatic improvements.
+* Builds should be running ~15% faster than before.  Large builds (hundreds of resources) will have more dramatic improvements.
 
 ## January 8, 2019
 

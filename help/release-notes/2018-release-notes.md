@@ -32,7 +32,7 @@ You can now make a copy of a rule within the same property. Before you ask, the 
 #### Core extension:
 
 * **Persist Cohort option** The option to persist a cohort has been added to the Sampling condition. This has the effect of keeping a user in or out of the sample cohort across sessions. For example, if the “persist cohort” checkbox is checked and the condition returns true the first time it is run for a given visitor, it will return true on all subsequent runs of the condition for the same visitor. Similarly, if the “persist cohort” checkbox is checked and the condition returns false the first time it is run for a given visitor, it will return false on all subsequent runs of the condition for the same visitor.
-* **Bug fix** Fixed an issue where a rule using a Page Bottom event and a Custom Code action on a page where Launch was being loaded synchronously but improperly installed \(no call to `_satellite.pageBottom()`\) would clear website content.
+* **Bug fix** Fixed an issue where a rule using a Page Bottom event and a Custom Code action on a page where Launch was being loaded synchronously but improperly installed (no call to `_satellite.pageBottom()`) would clear website content.
 * **Bug fix** Fixed an issue where the Enters Viewport would not function if the Launch library was loaded asynchronously and finished loading after the browser's DOMContentLoaded event was fired.
 
 ### Bug fixes
@@ -40,7 +40,7 @@ You can now make a copy of a rule within the same property. Before you ask, the 
 * Fixed an issue where attempting to use scrollbars within some dropdowns would close the dropdown.
 * Fixed an issue in Safari that prevented removing an item from a publishing library.
 * Fixed an issue where some buttons in Launch extensions were not spaced properly.
-* Fixed an issue where a rule using a Library Loaded event could not successfully trigger a separate rule \(usually attempting to trigger a separate rule by using `_satellite.track()`\).
+* Fixed an issue where a rule using a Library Loaded event could not successfully trigger a separate rule (usually attempting to trigger a separate rule by using `_satellite.track()`).
 
 ## October 9, 2018
 
@@ -85,7 +85,7 @@ When you save a library, Launch will now check all the resources in it and promp
 
 ### Updates
 
-1. Rights in the Admin Console have been slightly rearranged.  Manage Properties now belongs to the Company Rights group.  All other permissions \(Manage Environments, Manage Extensions, Develop, Approve, and Publish\) are in the Property Rights group.
+1. Rights in the Admin Console have been slightly rearranged.  Manage Properties now belongs to the Company Rights group.  All other permissions (Manage Environments, Manage Extensions, Develop, Approve, and Publish) are in the Property Rights group.
 1. Database improvements to improve API response times.
 
 ### Bug fixes
@@ -96,7 +96,7 @@ There were some edge cases where the rule builder would not display rule compone
 
 ### Features
 
-Newly created Launch properties now come with a "Managed by Adobe" host and three environments \(one of each type\) by default.
+Newly created Launch properties now come with a "Managed by Adobe" host and three environments (one of each type) by default.
 
 ## August 14, 2018
 
@@ -202,7 +202,7 @@ Rule ID is now emitted for each rule in a build, and can be referenced in the br
 
 #### Page Load event order
 
-Page Load events now execute in logical order in async deployments \(Library Loaded &gt; Page Bottom &gt; DOM Ready &gt; Window Loaded\).
+Page Load events now execute in logical order in async deployments (Library Loaded &gt; Page Bottom &gt; DOM Ready &gt; Window Loaded).
 
 ## April 11, 2018
 
@@ -227,13 +227,13 @@ Minor style improvements.
 
 ### Features
 
-#### Exchange Link on Extension Cards \(Support for future use\)
+#### Exchange Link on Extension Cards (Support for future use)
 
 Support was added to extension cards on the catalog page for future Learn More links to more information on the Extension Detail page on adobeexchange.com
 
 #### Client-side enhancement
 
-Event details are copied to the top-level event object \(`%event.detail%` in text fields and `event.detail` in custom code\)
+Event details are copied to the top-level event object (`%event.detail%` in text fields and `event.detail` in custom code)
 
 ## March 13, 2018
 
@@ -279,7 +279,7 @@ Fixed an issue that caused a database query to take a long time to run and cause
 
 #### Akamai cache control headers
 
-Cache control headers are now automatically set for libraries hosted on Akamai \(assets.adobedtm.com\). Previously, we did not set cache control headers for any files hosted on assets.adobedtm.com.
+Cache control headers are now automatically set for libraries hosted on Akamai (assets.adobedtm.com). Previously, we did not set cache control headers for any files hosted on assets.adobedtm.com.
 
 * Production builds: Cache control headers are set to 60 minutes
 * Staging builds with "-staging" in the filename: Cache control headers are set to 0 minutes
@@ -297,7 +297,7 @@ Cache control headers are now automatically set for libraries hosted on Akamai \
 
 #### Rule ordering {#rule-ordering}
 
-Events in rules can now be assigned an order. When an event is triggered, any rules that use that event are executed in the order defined. Lower numbers run first \(1 comes before 10\). See [Rule ordering](2018-release-notes.md#rule-ordering) for more information.
+Events in rules can now be assigned an order. When an event is triggered, any rules that use that event are executed in the order defined. Lower numbers run first (1 comes before 10). See [Rule ordering](2018-release-notes.md#rule-ordering) for more information.
 
 <!-- The above link points to itself-->
 
@@ -356,7 +356,7 @@ Launch empowers anyone to build and maintain their own integrations with Launch,
 
 Launch enables you to:
 
-Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management \(DTM\) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
+Launch is offered to Adobe Experience Cloud customers as an included, value-add feature. Launch is an entirely new product with a new code base, designed to replace the previous Dynamic Tag Management (DTM) service. However, DTM will continue to be supported for the foreseeable future. Adobe will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy DTM.
 
 ### Key benefits
 
@@ -368,7 +368,7 @@ Launch is offered to Adobe Experience Cloud customers as an included, value-add 
 
 #### Extensions
 
-An extension is a package of code \(JavaScript, HTML, and CSS\) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
+An extension is a package of code (JavaScript, HTML, and CSS) that extends the Launch UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of Launch as an operating system, and extensions are the apps you use to achieve your tasks.
 
 #### Extension catalog
 

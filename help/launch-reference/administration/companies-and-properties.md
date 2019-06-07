@@ -98,7 +98,7 @@ For example, If you are deploying Adobe Analytics, Target, and the same 3rd-part
 
 For the individuals, teams, and organizations that are working in Launch, will they need access to all of your websites and applications, some of them, or just one?
 
-The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that Launch company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users \(non-admins\) by not giving them any role in that property.
+The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that Launch company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users (non-admins) by not giving them any role in that property.
 
 ## Deactivating a property
 
@@ -142,8 +142,8 @@ Navigate to your company page, then click Add Property, or select an existing pr
 
    **Domain:** The base URL of the property
 
-1. \(Advanced\) **[!UICONTROL Return an empty string for undefined data elements:]** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
-1. \(Advanced\) **[!UICONTROL Configure for extension development:]** Select this check box if you plan to install development extensions that are being actively developed by your company
+1. (Advanced) **[!UICONTROL Return an empty string for undefined data elements:]** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
+1. (Advanced) **[!UICONTROL Configure for extension development:]** Select this check box if you plan to install development extensions that are being actively developed by your company
 1. Click Save.
 
    The extension is automatically installed into the new property.
@@ -157,7 +157,7 @@ Navigate to your company page, then click Add Property, or select an existing pr
     * **Use HTTPS:** Choose if all data communication should be sent over HTTP or HTTPS.
 1. Click **[!UICONTROL Save]**.
 
-Once your property is created, Launch will automatically add a default host, a set of environments \(Development, Staging, and Production\) and the default extensions.
+Once your property is created, Launch will automatically add a default host, a set of environments (Development, Staging, and Production) and the default extensions.
 
 ## Delete a property
 

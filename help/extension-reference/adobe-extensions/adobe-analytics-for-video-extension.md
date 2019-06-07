@@ -1,15 +1,15 @@
 ---
 title: Adobe Analytics for Video Extension
 seo-title: Adobe Analytics for Video Extension for Adobe Launch
-description: Information on installing, configuring, and implementing the Adobe Analytics for Video extension \(Video Analytics extension\)
+description: Information on installing, configuring, and implementing the Adobe Analytics for Video extension (Video Analytics extension)
 seo-description: Adobe Analytics for Video Extension for Adobe Launch
 ---
 
 # Adobe Analytics for Video Extension
 
-Use this documentation for information on installing, configuring, and implementing the Adobe Analytics for Video extension \(Video Analytics extension\). Included are the options available when using this extension to build a rule, along with examples and links to samples.
+Use this documentation for information on installing, configuring, and implementing the Adobe Analytics for Video extension (Video Analytics extension). Included are the options available when using this extension to build a rule, along with examples and links to samples.
 
-The Video Analytics \(VA\) extension adds the core VA JavaScript library \(VA 2.x SDK\). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
+The Video Analytics (VA) extension adds the core VA JavaScript library (VA 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
 
 * [Analytics Extension](https://docs.adobelaunch.com/extension-reference/adobe-analytics-extension)
 * [Experience Cloud ID Extension](https://docs.adobelaunch.com/extension-reference/experience-cloud-id-service-extension)
@@ -41,9 +41,9 @@ After you have included all three of the extensions mentioned above in your Laun
 
 | Option | Description |
 | :--- | :--- |
-| Tracking Server | Defines the server for tracking media heartbeats \(this is not the same server as your analytics tracking server\) |
+| Tracking Server | Defines the server for tracking media heartbeats (this is not the same server as your analytics tracking server) |
 | Application Version | The version of the video player app/SDK |
-| Player Name | Name of the video player in use \(e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer"\) |
+| Player Name | Name of the video player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") |
 | Channel | Channel name property |
 | Online Video Provider | Name of the online video platform through which content gets distributed |
 | Debug Logging | Enable or Disable logging |
@@ -81,9 +81,9 @@ The VA extension exports the MediaHeartbeat APIs in the global window object by 
 
 ### Using from other extensions
 
-The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. \(For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).\)
+The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).)
 
->[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` \(see code sample below\) outside of an extension.
+>[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
 1. **Create MediaHeartbeat Instance:** `get-instance` Shared Module
 
@@ -101,7 +101,7 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
      | Property | Description | Required |
      | :--- | :--- | :--- |
      | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
-     | Player Name | Name of the video player in use \(e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer"\) | No. If present, overrides the value defined during extension configuration. |
+     | Player Name | Name of the video player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
      | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
 
    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.

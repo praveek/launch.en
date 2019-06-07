@@ -37,18 +37,18 @@ The following instructions help you roundtrip an acquisition campaign with a mar
    | acquisition | The server should be `c00.adobe.com`, and the `appid` should equal the in your acquisition link. |
    | analytics | `referrerTimeout` should have a value greater than 0. |
 
-1. \(Conditional\) If the SSL setting in your app's config file is false, update your acquisition link to use the HTTP protocol instead of HTTPS.
+1. (Conditional) If the SSL setting in your app's config file is false, update your acquisition link to use the HTTP protocol instead of HTTPS.
 1. Click the generated link from the mobile device on which you want to install the app.
-1. Adobe's servers \(c00.adobe.com\) store the fingerprint and redirect to the App Store.  The app does not need to be downloaded for testing.
+1. Adobe's servers (c00.adobe.com) store the fingerprint and redirect to the App Store.  The app does not need to be downloaded for testing.
 1. Launch the application for the first time from the same mobile device that you used in step 6.
 1. You can delete and install the app again, if necessary.
 
 Remember the following information:
 
-* The acquisition server provides an attribution match that based on the IP address and user-agent information that was recorded in the link click \(step 6\) and when the app is launched \(step 7\).  You should be on the same network when you click the URL and when you open the app.
+* The acquisition server provides an attribution match that based on the IP address and user-agent information that was recorded in the link click (step 6) and when the app is launched (step 7).  You should be on the same network when you click the URL and when you open the app.
 * By using HTTP monitoring tools, hits that are sent from the app can be monitored to provide verification of the acquisition attribution.  You should see one `/v3//start` request and one `/v3//end` request that are sent to the acquisition server.
 * Variations in the user-agent sent might cause attribution to fail.  Ensure that [http://c00.adobe.com/v3/](http://c00.adobe.com/v3/)/start and [http://c00.adobe.com/v3/](http://c00.adobe.com/v3/)/end have the same user-agent values.
-* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. If the link and the hit are using different protocols \(for example, the link uses HTTP and the SDK uses HTTPS\) the IP address might differ for each request \(on some carriers\). This could cause the attribution to fail.
+* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol. If the link and the hit are using different protocols (for example, the link uses HTTP and the SDK uses HTTPS) the IP address might differ for each request (on some carriers). This could cause the attribution to fail.
 * The marketing links are cached on the server side with a ten-minutes expiration time.  When you make changes to marketing links, you should wait about 10 minutes before using the links.
 
 ## Testing V3 Acquisition in iOS
@@ -87,18 +87,18 @@ If the mobile app is not yet in the App Store, when you create the campaign link
    | acquisition | The server should be `c00.adobe.com`, and the `appid` should equal the in your acquisition link. |
    | analytics | `referrerTimeout` should have a value greater than 0. |
 
-1. \(Conditional\) If the ssl setting in your app's config file is true, update your acquisition link to use the HTTPS protocol.
+1. (Conditional) If the ssl setting in your app's config file is true, update your acquisition link to use the HTTPS protocol.
 1. Click the generated link from the mobile device on which you will install the app.
-1. Adobe's servers \(c00.adobe.com\) store the fingerprint and redirect to the App Store.  The app does not need to be downloaded for testing.
+1. Adobe's servers (c00.adobe.com) store the fingerprint and redirect to the App Store.  The app does not need to be downloaded for testing.
 1. Launch the application for the first time from the same mobile device that you used in step 6.
 1. You can delete and install the app again, if necessary.
 
 Remember the following information:
 
-* The acquisition server provides an attribution match that is based on the IP address and user-agent information that is recorded in the link click \(step 6\) and when the app is launched \(step 7\).  You should be on the same network when you click the URL and when you open the app.
+* The acquisition server provides an attribution match that is based on the IP address and user-agent information that is recorded in the link click (step 6) and when the app is launched (step 7).  You should be on the same network when you click the URL and when you open the app.
 * By using HTTP monitoring tools, hits sent from the app can be monitored to provide verification of the acquisition attribution. You should see one `/v3//start` request and one `/v3//end` request sent to the acquisition server. Variations in the user-agent sent might cause attribution to fail.
 * Ensure that [http://c00.adobe.com/v3//start](http://c00.adobe.com/v3//start) and [http://c00.adobe.com/v3//end](http://c00.adobe.com/v3//end) have the same user-agent values.
-* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol.  If they are using different protocols \(for example, the link uses HTTP and the SDK uses HTTPS\), the IP address might differ for each request \(on some carriers\), and the attribution might fail.
+* The acquisition link and the hit from the SDK should be using the same HTTP/HTTPS protocol.  If they are using different protocols (for example, the link uses HTTP and the SDK uses HTTPS), the IP address might differ for each request (on some carriers), and the attribution might fail.
 
 ## Testing Legacy Acquisition in iOS
 
@@ -107,14 +107,14 @@ The following information helps you roundtrip an legacy acquisition campaign lin
 If the mobile app is not yet in Apple Store, you can select any mobile app as a destination when creating the campaign link. This only affects which app the acquisition server redirects you to, after you click the acquisition link, not the ability to test the acquisition link.
 
 1. Navigate to _Use Legacy Acquisition Links_ in Adobe Mobile Services and generate an acquisition campaign URL.
-1. From the mobile device on which you will install the app, click the generated link. Adobe's servers \(c00.adobe.com\) store the fingerprint and then redirect to the App Store. The app does not have to be downloaded for testing.
+1. From the mobile device on which you will install the app, click the generated link. Adobe's servers (c00.adobe.com) store the fingerprint and then redirect to the App Store. The app does not have to be downloaded for testing.
 1. On the same mobile device that you used in step 2, launch the application for the first time.
 
 The easiest way to ensure that this happens is to delete and install the app again.
 
 Remember the following information:
 
-* The acquisition server provides an attribution match that is based on IP address and user-agent information that recorded in the link click \(step 2\) and when the app is launched \(step 3\).
+* The acquisition server provides an attribution match that is based on IP address and user-agent information that recorded in the link click (step 2) and when the app is launched (step 3).
 * By using HTTP monitoring tools, hits that are sent from the app can be monitored to provide verification of the acquisition attribution.
 * Ensure that [http://c00.adobe.com/v3//start](http://c00.adobe.com/v3//start) and [http://c00.adobe.com/v3//end](http://c00.adobe.com/v3//end) have the same user-agent values.
 

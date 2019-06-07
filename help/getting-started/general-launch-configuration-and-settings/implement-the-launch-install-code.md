@@ -43,7 +43,7 @@ Development, Staging, and Production environments correspond to the typical envi
 
 Launch permits additional Development environments, which is useful in large organizations where multiple developers work on different projects at the same time.
 
-These are the only environments needed to complete the tutorial. Environments allow you to have different working versions of your Launch libraries hosted at different URLs, so you can safely add new features and make them available to the right users \(such as developers, QA engineers, the public, and so on\) at the right time
+These are the only environments needed to complete the tutorial. Environments allow you to have different working versions of your Launch libraries hosted at different URLs, so you can safely add new features and make them available to the right users (such as developers, QA engineers, the public, and so on) at the right time
 
 1. In the Development row, click the **[!UICONTROL Install]** icon to open the modal.
 

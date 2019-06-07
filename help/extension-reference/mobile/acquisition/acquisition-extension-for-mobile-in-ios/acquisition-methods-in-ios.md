@@ -48,9 +48,9 @@ Provide user info to the SDK from various launch points in your application. Thi
 * Tracking Push Message click-throughs
   * From `application:didReceiveRemoteNotification:fetchCompletionHandler:`
 * Tracking Local Notification click-throughs
-  * From `application:didFinishLaunchingWithOptions`: \(pre iOS 10\)
+  * From `application:didFinishLaunchingWithOptions`: (pre iOS 10)
     * Extract `userInfo` from `UIApplicationLaunchOptionsLocalNotificationKey`
-  * \(pre-iOS 10\) From `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler`:
+  * (pre-iOS 10) From `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler`:
 
     If Analytics is enabled in your SDK, the collection of this launch data will result in an Analytics request being sent. Other modules in the SDK might use the collected data, for example, as a rule condition for an In-App Message.
 

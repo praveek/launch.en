@@ -84,7 +84,7 @@ seo-description: Release notes for Adobe Target extension in Adobe Launch
 
 #### **Features**
 
-* Target Extension has been updated to use at.js v1.3.1. When you deploy Target with Analytics, we now wait until all Target calls have resolved \(including redirect offers\) before Analytics fires, resolving the race condition that previously existed.
+* Target Extension has been updated to use at.js v1.3.1. When you deploy Target with Analytics, we now wait until all Target calls have resolved (including redirect offers) before Analytics fires, resolving the race condition that previously existed.
 
 ## February 22, 2018
 
@@ -106,4 +106,4 @@ seo-description: Release notes for Adobe Target extension in Adobe Launch
 #### **Features**
 
 * Updated views in extension configuration screens
-* at.js has been updated to version 1.2.3 \(adds support for JSON offers\)
+* at.js has been updated to version 1.2.3 (adds support for JSON offers)

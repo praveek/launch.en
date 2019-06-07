@@ -13,8 +13,8 @@ The Adobe Privacy extension provides functionality for collecting and removing u
 
 When you install the Adobe Privacy extension from the Extension Catalog, you are prompted to select the solutions you want to update. Currently you can update the following solutions:
 
-* Analytics \(AA\)
-* Audience Manager \(AAM\)
+* Analytics (AA)
+* Audience Manager (AAM)
 * Target
 * Visitor Service
 * AdCloud

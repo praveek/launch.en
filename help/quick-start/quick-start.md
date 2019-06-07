@@ -25,17 +25,17 @@ For an introductory video, see [Introduction to Launch, by Adobe](videos.md).
 
 Launch is fully integrated with your Adobe ID. User permissions are managed through the Admin Console with other Adobe products and solutions from the Creative Cloud, Document Cloud, and Experience Cloud.
 
-Unlike DTM, Launch has rights-based user management. \(DTM was role-based.\) This means that instead of getting a role which implies a certain set of rights, individual rights must be granted explicitly. These rights are assigned to groups, then users are added to the appropriate groups in order to gain access. Even if your company has access to Launch, individual users cannot do anything until an Org Administrator explicitly grants them some rights.
+Unlike DTM, Launch has rights-based user management. (DTM was role-based.) This means that instead of getting a role which implies a certain set of rights, individual rights must be granted explicitly. These rights are assigned to groups, then users are added to the appropriate groups in order to gain access. Even if your company has access to Launch, individual users cannot do anything until an Org Administrator explicitly grants them some rights.
 
 For detailed instructions on how to create groups and add users for Launch, see [Users](../launch-reference/administration/user-permissions.md).
 
 ## 2. Log in {#log-in}
 
-Once Launch rights have been added to your Adobe ID, you need to log in to Launch. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud \(https://experiencecloud.adobe.com\)](https://experiencecloud.adobe.com), navigating to the Activation page, and clicking on Launch.
+Once Launch rights have been added to your Adobe ID, you need to log in to Launch. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud (https://experiencecloud.adobe.com)](https://experiencecloud.adobe.com), navigating to the Activation page, and clicking on Launch.
 
 ## 3. Create a property {#create-a-property}
 
-Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. Many people create a property for each website \(or group of closely related sites\) where they want to deploy the same set of tags.
+Once you're in Launch, the first thing you'll want to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. Many people create a property for each website (or group of closely related sites) where they want to deploy the same set of tags.
 
 For more about creating properties, see [Create a property](../launch-reference/administration/companies-and-properties.md).
 
@@ -43,7 +43,7 @@ For more about creating properties, see [Create a property](../launch-reference/
 
 An extension is an integration built by Adobe or an Adobe partner that adds new and endless options for the tags that you can deploy to your sites. If you think of Launch as an operating system, extensions are the apps that you install so Launch can do the things you need it to do.
 
-All new properties come with the [Core extension](../extension-reference/web/core-extension/overview.md) installed. Mobile properties come with additional extensions. The Core extension is built by the Launch team to provide a robust default set of data element types for your data layer and event types for your rules. Most actions you will want to perform \(get an ECID, send Adobe Analytics beacons, load the Target global mbox, etc\) will come from extensions that you install from the catalog.
+All new properties come with the [Core extension](../extension-reference/web/core-extension/overview.md) installed. Mobile properties come with additional extensions. The Core extension is built by the Launch team to provide a robust default set of data element types for your data layer and event types for your rules. Most actions you will want to perform (get an ECID, send Adobe Analytics beacons, load the Target global mbox, etc) will come from extensions that you install from the catalog.
 
 What makes Launch truly unique among tag management systems is that these extensions can be built by anyone. Do you need to drop a Facebook remarketing pixel on your site? Check out the extension that Facebook built. Do you want the same for Twitter or Linked In? Use those extensions. Do you need to run a survey? Look at Question Pro or Foresee. Do you need to manage privacy and consent from your end users to help out with GDPR? Take a good look at Evidon and Trust Arc. Would you like to see really granular insight into the behavior of individual users on your site? Maybe take a look at Clicktale. For more information, see [Add a new extension](../launch-reference/managing-resources/extensions/overview.md#add-a-new-extension).
 
@@ -57,7 +57,7 @@ What makes Launch truly unique among tag management systems is that these extens
 * Session and local storage
 * Just about everything else
 
-Once defined in a data element, you can use the element anywhere throughout Launch for any extension. \(See [Data Elements](../launch-reference/managing-resources/data-elements.md).\)
+Once defined in a data element, you can use the element anywhere throughout Launch for any extension. (See [Data Elements](../launch-reference/managing-resources/data-elements.md).)
 
 **Rules** are at the logical core of your implementation and control the what, when, where, and how of all the tags on your site. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../launch-reference/managing-resources/rules.md).
 
@@ -65,7 +65,7 @@ Once defined in a data element, you can use the element anywhere throughout Laun
 
 ### Libraries and builds
 
-Nothing in Launch is published automatically. Each set of changes you make is encapsulated into a [library](../launch-reference/publishing/libraries.md). Each library you create automatically inherits anything upstream \(published, approved, or submitted\) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](/help/launch-reference/publishing/builds.md). A build is the actual set of JavaScript files that are deployed and used.
+Nothing in Launch is published automatically. Each set of changes you make is encapsulated into a [library](../launch-reference/publishing/libraries.md). Each library you create automatically inherits anything upstream (published, approved, or submitted) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](/help/launch-reference/publishing/builds.md). A build is the actual set of JavaScript files that are deployed and used.
 
 To make sense of that process, there are a couple relationships between Launch, your web page, and your hosting location that you need to understand.
 
@@ -73,7 +73,7 @@ To make sense of that process, there are a couple relationships between Launch, 
 
 1. Launch publishes a build to your host server.
 
-   As mentioned above, a build is the actual JavaScript file\(s\) that Launch produces. This relationship between Launch and your host location is defined by a host. Read more about Hosts below.
+   As mentioned above, a build is the actual JavaScript file(s) that Launch produces. This relationship between Launch and your host location is defined by a host. Read more about Hosts below.
 
 1. Launch provides an embed code `<script>` tag that goes onto your site.
 
@@ -85,7 +85,7 @@ To make sense of that process, there are a couple relationships between Launch, 
 
 An host is a connection between Launch and your hosting location. Launch currently supports an Akamai host and an SFTP host. Whenever you produce a build, Launch connects to the server defined by your host and delivers the build.
 
-If you want to self-host, you can have Launch push directly to your servers through SFTP or you can push it to Akamai and download it \(using your environment's Archive option\).
+If you want to self-host, you can have Launch push directly to your servers through SFTP or you can push it to Akamai and download it (using your environment's Archive option).
 
 For more information, see [Hosts](../launch-reference/publishing/hosts.md).
 
@@ -94,7 +94,7 @@ For more information, see [Hosts](../launch-reference/publishing/hosts.md).
 Each library is created inside an environment. An environment defines how you want your build to look when it is published. You can specify:
 
 * **Host:** Each environment needs a host which determines where Launch will push any builds created in this environment
-* **Archive:** The default is to deploy your build as a minified .js file \(or if you're using custom code, multiple files which reference each other\). You can have wrap all these together into a zip file and encrypt it.
+* **Archive:** The default is to deploy your build as a minified .js file (or if you're using custom code, multiple files which reference each other). You can have wrap all these together into a zip file and encrypt it.
 
 Once you have saved your environment, it generates the embed code which you can copy and paste into your website. Note that the embed code will not work until you have actually created a library and produced a build. For more information, see [Environments](../launch-reference/publishing/environments.md).
 
@@ -110,13 +110,13 @@ Now that you understand the basic components, the publishing process should make
 
 ## 7. Promote to production {#promote-to-production}
 
-Once you've tested your build in your dev environment, the promotion process is pretty straightforward. Before you try it out, make sure to create your stage and production environments and put the embed codes in the necessary places. \(You can reuse existing hosts.\)
+Once you've tested your build in your dev environment, the promotion process is pretty straightforward. Before you try it out, make sure to create your stage and production environments and put the embed codes in the necessary places. (You can reuse existing hosts.)
 
 Promoting a library all the way through to production will typically require coordination among different people with the appropriate rights.
 
-1. A Developer \(someone with the Develop right\) submits the library, which moves the library to the Submitted state.
-1. An Approver \(someone with the Approve right\) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
-1. A Publisher \(someone with the Publish right\) can build the library to the production environment.
+1. A Developer (someone with the Develop right) submits the library, which moves the library to the Submitted state.
+1. An Approver (someone with the Approve right) can build the library to the stage environment and can approve it after testing. This moves the library to the approved state. Only one library can be submitted and approved at a time.
+1. A Publisher (someone with the Publish right) can build the library to the production environment.
 
 You can assign all these rights to a single person.
 

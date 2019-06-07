@@ -65,7 +65,7 @@ The Target extension consists of two main parts:
 
 * The extension configuration, which manages the core library settings.
 * Rule actions to do the following:
-  * Load Target \(at.js\)
+  * Load Target (at.js)
   * Add parameters to all mboxes
   * Add parameters to the global mbox
   * Fire the global mbox
@@ -212,14 +212,14 @@ Entity parameters are special parameters used in [Recommendations implementation
 
 * As a key to trigger product recommendations.
 
-  For example, when using a recommendations algorithm like "People who viewed Product X, also viewed Y," "X" is the "key" of the recommendation. It is usually the product sku \(`entity.id`\) or category \(`entity.categoryId`\) that the visitor is currently viewing.
+  For example, when using a recommendations algorithm like "People who viewed Product X, also viewed Y," "X" is the "key" of the recommendation. It is usually the product sku (`entity.id`) or category (`entity.categoryId`) that the visitor is currently viewing.
 
 * To collect visitor behavior to power recommendations algorithms, such as "Recently Viewed Products" or "Most Viewed Products."
 * To populate the Recommendations catalog.
 
-  Recommendations contains a database of all of the products or articles on your website, so they can be served in the recommendation offer. For example, when recommending products, you typically want to display attributes like the product name \(`entity.name`\) and image \(`entity.thumbnailUrl`\). Some customers populate their catalog using backend feeds, but they can also be populated using entity parameters in Target requests.
+  Recommendations contains a database of all of the products or articles on your website, so they can be served in the recommendation offer. For example, when recommending products, you typically want to display attributes like the product name (`entity.name`) and image (`entity.thumbnailUrl`). Some customers populate their catalog using backend feeds, but they can also be populated using entity parameters in Target requests.
 
-You don't need to pass any profile parameters in this tutorial, but the workflow is identical to what you did earlier when passing the pageName mbox parameter: give the parameter a name prefixed with `entity.` and map it to the relevant data element. Some common entities have reserved names that must be used \(for example, `entity.id` for the product sku\). This is what it would look like to set entity parameters in the Pass Parameters to Global Mbox action:
+You don't need to pass any profile parameters in this tutorial, but the workflow is identical to what you did earlier when passing the pageName mbox parameter: give the parameter a name prefixed with `entity.` and map it to the relevant data element. Some common entities have reserved names that must be used (for example, `entity.id` for the product sku). This is what it would look like to set entity parameters in the Pass Parameters to Global Mbox action:
 
 ![](/help/assets/target-entityparameters.png)
 
@@ -231,7 +231,7 @@ It is imperative that the customer ID is sent before firing the global mbox. To 
 
 * The customer ID must be available on the page before the Launch Embed Code
 * The Experience Cloud ID Service extension must be installed
-* You must use the "Set Customer IDs" action in a rule that fires at the "Library Loaded \(Page Top\)" event
+* You must use the "Set Customer IDs" action in a rule that fires at the "Library Loaded (Page Top)" event
 * Use the "Fire global mbox" action in a rule that fires after the "Set Customer IDs" action
 
 In the previous tutorial, [Add the Experience Cloud ID Service](idservice-save.md), you created the All Pages - Library Loaded - Authenticated - 10 rule to fire the "Set Customer ID" action. Because this rule has an Order setting of 10, the customer IDs are set before the global mbox fires from the All Pages - Library Loaded rule with its Order setting of 50. So, you have already implemented the collection of customer IDs for Target.
@@ -265,7 +265,7 @@ The property token is implemented like an mbox parameter. Name the parameter `at
 
 Here is an optional exercise, if you would like to implement a property token in your Tutorial property:
 
-1. In a separate tab, open the Target user interface, go to **[!UICONTROL Setup]** > **[!UICONTROL Properties]**, and identify the property that you want to use, then click the **[!UICONTROL &lt;/&gt;]** \(or create a new property\).
+1. In a separate tab, open the Target user interface, go to **[!UICONTROL Setup]** > **[!UICONTROL Properties]**, and identify the property that you want to use, then click the **[!UICONTROL &lt;/&gt;]** (or create a new property).
 1. Copy the at\_property value to your clipboard.
 
    ![](/help/assets/target-addatproperty-targetproperties.png)
@@ -307,13 +307,13 @@ Next, add a custom mbox.
 The order confirmation mbox is a special type of mbox used to define order submissions in Target. The inclusion of three specific mbox parameters--`orderId`, `orderTotal`, and `productPurchasedId`--is what turns an mbox into an order mbox. In addition to reporting revenue, the order mbox also does the following:
 
 * Deduplicates accidental order resubmissions
-* Filters extreme orders \(any order whose total was more than three standard deviations from the mean\)
+* Filters extreme orders (any order whose total was more than three standard deviations from the mean)
 * Uses a different algorithm behind the scenes to calculate statistical confidence
 * Creates a special, downloadable Audit report of individual order details
 
-The best practice is to use an order confirmation mbox in all order funnels, even on non-retail sites. For example, lead generation sites usually have lead funnels with a unique "lead id" generated at the end. These sites should implement an order mbox, using a static value \(such as "1"\) for the `orderTotal`.
+The best practice is to use an order confirmation mbox in all order funnels, even on non-retail sites. For example, lead generation sites usually have lead funnels with a unique "lead id" generated at the end. These sites should implement an order mbox, using a static value (such as "1") for the `orderTotal`.
 
-Customers using the Analytics for Target \(A4T\) integration for most of their reporting should also implement the order mbox, because A4T is not yet compatible with activity types like Auto Allocate, Automated Personalization, and Auto Target. Additionally, the order mbox is a critical element in Recommendations implementations, powering algorithms based on purchase behavior.
+Customers using the Analytics for Target (A4T) integration for most of their reporting should also implement the order mbox, because A4T is not yet compatible with activity types like Auto Allocate, Automated Personalization, and Auto Target. Additionally, the order mbox is a critical element in Recommendations implementations, powering algorithms based on purchase behavior.
 
 The order confirmation mbox should fire from a rule that is only triggered on your order confirmation page or event. Often, it can be combined in a rule that also sets the Adobe Analytics purchase event. It must be configured by using the Custom Code action of the Core extension, using the appropriate data elements to set the `orderId`, `orderTotal`, and `productPurchasedId` parameters.
 
@@ -337,10 +337,10 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 1. Select the Clean Text option.
 1. Click **[!UICONTROL Save to Library and Build]**.
 
-#### Create Data Element for Cart SKUs \(Target\)
+#### Create Data Element for Cart SKUs (Target)
 
 1. Click **[!UICONTROL Add Data Element]**.
-1. Name the data element Cart SKUs \(Target\).
+1. Name the data element Cart SKUs (Target).
 1. Select **[!UICONTROL Data Element Type]** > **[!UICONTROL Custom Code]**. For Target, the skus must be a comma separated list.
 
    This custom code reformats the data layer array into the proper format.
@@ -366,8 +366,8 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 1. Click **[!UICONTROL Rules]** in the top navigation, then click **[!UICONTROL Add New Rule]**.
 1. Name the rule Order Confirmation Page - Library Loaded - 60.
 1. Create an event.
-   1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]**, then select **[!UICONTROL Events]** > **[!UICONTROL Library Loaded \(Page Top\)]**.
-   2. Change the Order to 60 so that it fires after the Load Target action \(which is in the All Pages - Library Loaded rule where Order is set to 50\).
+   1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]**, then select **[!UICONTROL Events]** > **[!UICONTROL Library Loaded (Page Top)]**.
+   2. Change the Order to 60 so that it fires after the Load Target action (which is in the All Pages - Library Loaded rule where Order is set to 50).
    3. Click **[!UICONTROL Keep Changes]**.
 1. Create a condition.
    1. Click **[!UICONTROL Conditions]** > **[!UICONTROL Add]**, then select **[!UICONTROL Condition Type]** > **[!UICONTROL Path Without Query String]**.
@@ -430,9 +430,9 @@ Add the data elements and rule required to fire an order confirmation mbox on th
 
 ### Custom mboxes
 
-There are rare instances when you need to make Target requests other than the global and order confirmation mbox. For example, sometimes important data you would like to use for personalization is not defined on the page before the Launch embed codes. It might be hardcoded on the bottom of the page or get returned from an asynchronous API request. This data can still be sent to Target using an additional request, although it is not optimal to use this request for content delivery since the page is already visible. It can be used to enrich the visitor profile for later use \(using profile parameters\) or to populate the Recommendations catalog.
+There are rare instances when you need to make Target requests other than the global and order confirmation mbox. For example, sometimes important data you would like to use for personalization is not defined on the page before the Launch embed codes. It might be hardcoded on the bottom of the page or get returned from an asynchronous API request. This data can still be sent to Target using an additional request, although it is not optimal to use this request for content delivery since the page is already visible. It can be used to enrich the visitor profile for later use (using profile parameters) or to populate the Recommendations catalog.
 
-In these circumstances, use the Custom Code action in the Core extension to fire an mbox using the [`getOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/?f=r_target-atjs-getoffer) /[`applyOffer`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-applyoffer.html) and [`trackEvent`\(\)](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-trackevent.html) methods. This is similar to what you did in the Order Confirmation mbox exercise, but you use a different mbox name and do not use the special order parameters. Be sure to use the Load Target action before making mbox calls from custom code.
+In these circumstances, use the Custom Code action in the Core extension to fire an mbox using the [`getOffer`()](https://marketing.adobe.com/resources/help/en_US/target/?f=r_target-atjs-getoffer) /[`applyOffer`()](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-applyoffer.html) and [`trackEvent`()](https://marketing.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-trackevent.html) methods. This is similar to what you did in the Order Confirmation mbox exercise, but you use a different mbox name and do not use the special order parameters. Be sure to use the Load Target action before making mbox calls from custom code.
 
 ## Library Header and Library Footer
 
@@ -442,7 +442,7 @@ The Library Header is sometimes used to override at.js settings via the [`target
 
 The Library Footer is sometimes used to add at.js library extensions or at.js custom event listeners.
 
-To replicate this capability in Launch, use the Custom Code action in the Core extension and sequence the action before \(Library Header\) or after \(Library Footer\) the Load Target action. This can be done in the same rule as the Load Target action, as pictured below, or in separate rules with events or order settings that reliably fire before or after the rule containing Load Target:
+To replicate this capability in Launch, use the Custom Code action in the Core extension and sequence the action before (Library Header) or after (Library Footer) the Load Target action. This can be done in the same rule as the Load Target action, as pictured below, or in separate rules with events or order settings that reliably fire before or after the rule containing Load Target:
 
 ![](/help/assets/target-libraryheaderfooter.png)
 

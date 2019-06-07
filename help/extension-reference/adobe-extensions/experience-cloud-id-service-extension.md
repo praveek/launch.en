@@ -35,7 +35,7 @@ Your ID is a 24-character, alphanumeric string followed by `@AdobeOrg`. If you d
 
 The Experience Cloud ID does not load if the URL matches any of the specified paths.
 
-\(Optional\) Enable Regex if this is a regular expression.
+(Optional) Enable Regex if this is a regular expression.
 
 Click **[!UICONTROL Add]** to exclude another path.
 
@@ -69,5 +69,5 @@ Set one or more customer IDs.
    * Authenticated
    * Logged out
 
-1. \(Optional\) Click **[!UICONTROL Add]** to set more customer IDs.
+1. (Optional) Click **[!UICONTROL Add]** to set more customer IDs.
 1. Click **[!UICONTROL Keep Changes]**.

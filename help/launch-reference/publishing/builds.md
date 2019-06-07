@@ -15,9 +15,9 @@ The build consists of client-side code files that reference each other. These fi
 
 ## File Contents
 
-A Library defines a discreet set of Launch resources \(Extensions, Rules, and Data Elements\) that should be included within it.
+A Library defines a discreet set of Launch resources (Extensions, Rules, and Data Elements) that should be included within it.
 
-A Build contains all the module code \(provided by the extension developers\) and the configuration \(entered by you\) that is needed to power the resources contained within the Library. For example, if an extension provides actions that are not used within your rules, then the code to perform those actions is not contained within the Build.
+A Build contains all the module code (provided by the extension developers) and the configuration (entered by you) that is needed to power the resources contained within the Library. For example, if an extension provides actions that are not used within your rules, then the code to perform those actions is not contained within the Build.
 
 Builds are divided into the main library file and potentially many smaller files. The main library file is referenced in your embed code and loaded onto the page at run-time. It contains:
 
@@ -26,7 +26,7 @@ Builds are divided into the main library file and potentially many smaller files
 * All Data Element code and configuration
 * All Rule Event code and configuration
 * All Condition code and configuration
-* Event code and configuration for any rules that have Library Loaded or Page Bottom as the event \(since we know we'll need that right away\).
+* Event code and configuration for any rules that have Library Loaded or Page Bottom as the event (since we know we'll need that right away).
 
 The smaller files contain code and configuration for individual Actions that are loaded onto the page as needed. When a Rule is triggered and its Conditions are evaluated such that the Actions need to be executed, the necessary code and configuration for that specific action is retrieved from one of the smaller files. This means that only the code needed to perform the necessary Actions is ever loaded onto the page, making the main library as small as possible.
 
@@ -40,7 +40,7 @@ However, in certain cases, you might prefer a .zip archive of the files rather t
 
 Regardless of file format, the build is always delivered to the location specified by the Host.
 
-To complete a build, select a library and click the Build option that is available at that level of the publishing process \(Build for Development, Build for Staging, and so on.
+To complete a build, select a library and click the Build option that is available at that level of the publishing process (Build for Development, Build for Staging, and so on.
 
 ## Minification
 

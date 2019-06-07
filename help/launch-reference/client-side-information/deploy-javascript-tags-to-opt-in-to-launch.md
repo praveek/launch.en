@@ -7,7 +7,7 @@ seo-description: Deploy JavaScript tags to opt in to Adobe Launch
 
 # Deploy JavaScript tags to opt in to Launch
 
-The combination of the European Union [General Data Protection Regulation \(GDPR\)](https://gdpr-info.eu/art-7-gdpr/) and [ePrivacy](https://medium.com/mydata/consent-lost-gdpr-and-found-eprivacy-e85cf881ffb) legislation requires companies to be able to manage consent for their users. Adobe customers may require visitors to opt-in before Adobe solutions execute for any given visitor. Visitors should have the ability to manage their opt-in and opt-out status.
+The combination of the European Union [General Data Protection Regulation (GDPR)](https://gdpr-info.eu/art-7-gdpr/) and [ePrivacy](https://medium.com/mydata/consent-lost-gdpr-and-found-eprivacy-e85cf881ffb) legislation requires companies to be able to manage consent for their users. Adobe customers may require visitors to opt-in before Adobe solutions execute for any given visitor. Visitors should have the ability to manage their opt-in and opt-out status.
 
 Adobe Experience Cloud customers require a variety of implementations of these requirements. Some use enterprise-level consent managers and others build their own.
 
@@ -19,7 +19,7 @@ This document contains information about how to prevent Adobe tags from firing u
 
 Launch does not fire Advertising Cloud automatically. Advertising Cloud only fires if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Track Conversion action.
 
-Integrations with consent managers \(such as OneTrust\) can set and track the consent cookies for customers, which can then be used in the rule builder.
+Integrations with consent managers (such as OneTrust) can set and track the consent cookies for customers, which can then be used in the rule builder.
 
 ## Analytics
 
@@ -30,7 +30,7 @@ In the Link Tracking section of the Analytics extension's configuration settings
 
 When these settings are not selected, Launch does not fire Adobe Analytics automatically. Analytics fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Send Beacon action.
 
-Integrations with consent managers \(such as OneTrust\) can set and track the consent cookies for customers, which can then be used in the rule builder.
+Integrations with consent managers (such as OneTrust) can set and track the consent cookies for customers, which can then be used in the rule builder.
 
 ## Audience Manager
 
@@ -46,4 +46,4 @@ Experience Cloud ID currently fires automatically if it is placed on a customer 
 
 Launch does not fire Target automatically. Target fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Load Target action.
 
-Integrations with consent managers \(such as OneTrust\) can set and track the consent cookies for customers, which can then be used in the rule builder.
+Integrations with consent managers (such as OneTrust) can set and track the consent cookies for customers, which can then be used in the rule builder.

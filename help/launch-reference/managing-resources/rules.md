@@ -15,15 +15,15 @@ For an introductory video, see [Rule builder](../../quick-start/videos.md).
 
 Events are where the majority of interactions take place. You can measure and react to these interactions in real-time, without the need for client-side code.
 
-**Events \(If\):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
+**Events (If):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
 
-**Actions \(Then\):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in Launch can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
+**Actions (Then):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in Launch can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
 Important: Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
-## Events and conditions \(if\)
+## Events and conditions (if)
 
 Events with any conditions are the _If_ portion of a rule.
 
@@ -43,7 +43,7 @@ The events that are available depend on which extensions are installed. For info
 
 Only events are required. The conditions and exceptions are optional.
 
-## Actions \(then\)
+## Actions (then)
 
 Actions are the Then portion of a rule. When an event is triggered, if conditions evaluate to true and exceptions evaluate to false, the actions are performed. You can drag and drop actions to order them as desired.
 
@@ -104,16 +104,16 @@ When creating or editing rules, you can save and build to your [active library](
 
 Rule ordering allows you to control the order of execution for rules that share an event.
 
-It is often important to have your rules fire in a specific order. Examples: \(1\) you have several rules that conditionally set Analytics variables and you need to make sure that the rule with Send Beacon goes last. \(2\) you have a rule that fires Target and another rule that fires Analytics and you want the Target rule to run first.
+It is often important to have your rules fire in a specific order. Examples: (1) you have several rules that conditionally set Analytics variables and you need to make sure that the rule with Send Beacon goes last. (2) you have a rule that fires Target and another rule that fires Analytics and you want the Target rule to run first.
 
 Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you're using. For Adobe extensions, Adobe makes sure this works properly. For 3rd party extensions, Adobe provides guidance to extension developers to implement this properly, but it is up to them to do so.
 
-Adobe highly recommends that you order your rules with positive numbers between 1 and 100 \(default is 50\). Simpler is better. Remember you have to maintain your order. However, Adobe recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. Launch supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
+Adobe highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, Adobe recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. Launch supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
 
 ### Scenarios
 
-* Five rules share an event. All have default priority. I want one of them to run last. I just need to edit that one rule component and give it a number higher than 50 \(60 for example\).
-* Five rules share an event. All have default priority. I want one of them to run first. I just need to edit that one rule component and give it a number lower than 50 \(40 for example\).
+* Five rules share an event. All have default priority. I want one of them to run last. I just need to edit that one rule component and give it a number higher than 50 (60 for example).
+* Five rules share an event. All have default priority. I want one of them to run first. I just need to edit that one rule component and give it a number lower than 50 (40 for example).
 
 ### Client-side rule handling
 

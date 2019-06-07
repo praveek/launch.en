@@ -26,7 +26,7 @@ Resources in Development libraries can be directly manipulated.
 
 Resources that are in Submitted or Approved libraries cannot be directly manipulated. You'll have to move the library back to Development state.
 
-1. Reject the library \(moves library back to Development\).
+1. Reject the library (moves library back to Development).
 1. Follow the steps in "Development libraries," above, to remove resources from Development libraries.
 
 ## Production libraries

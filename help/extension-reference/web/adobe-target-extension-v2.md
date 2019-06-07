@@ -43,9 +43,9 @@ The domain where Target requests are sent. This should almost always be left as 
 
 #### GDPR Opt-In
 
-When enabled, Adobe Target provides opt-in functionality to help support your consent management strategy. Opt-in functionality lets customers control how and when the Target tag is fired.  For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation \(GDPR\)](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation.html).
+When enabled, Adobe Target provides opt-in functionality to help support your consent management strategy. Opt-in functionality lets customers control how and when the Target tag is fired.  For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation.html).
 
-#### Timeout \(ms\)
+#### Timeout (ms)
 
 If the response from Target is not received within the defined period, the request times out and default content is displayed. Additional requests continue to be attempted during the visitor's session. The default is 3000ms, which might be different from the Timeout configured in the Target user interface.
 
@@ -101,7 +101,7 @@ For more information about triggering a view, please refer to the [`triggerView(
 
 ## Adobe Target basic deployment
 
-Once the Target Extension is installed, create at least one rule to properly deploy it. You first need to load the Target library \(at.js\), specify the parameters you want to use with the page load request, and fire the page load request.
+Once the Target Extension is installed, create at least one rule to properly deploy it. You first need to load the Target library (at.js), specify the parameters you want to use with the page load request, and fire the page load request.
 
 A Target rule with this basic implementation looks like this:
 

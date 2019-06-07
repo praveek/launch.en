@@ -22,17 +22,17 @@ This section discusses factors that are important to understand when using Launc
 
 #### Organization Administrator
 
-Organization Administrators are often referred to as Org Admins. An Org Admin's main function is to assign permissions to other users. They do this by creating Product Profiles \(or groups\) that contain a specific set of rights within a specific product and then assigning users, existing or new, to that Product Profile.
+Organization Administrators are often referred to as Org Admins. An Org Admin's main function is to assign permissions to other users. They do this by creating Product Profiles (or groups) that contain a specific set of rights within a specific product and then assigning users, existing or new, to that Product Profile.
 
 Enterprise Org Admins do not inherit any rights in Launch. They must add themselves to a Product Profile that has Launch rights if they want to do anything in Launch.
 
 #### Product Administrator
 
-A Product Administrator \(or Product Admin\) is similar to an Org Admin, but is narrower in scope. A Product Admin only has the permission to modify Product Profiles for a specific Adobe product, rather than all Adobe products the company has access to.
+A Product Administrator (or Product Admin) is similar to an Org Admin, but is narrower in scope. A Product Admin only has the permission to modify Product Profiles for a specific Adobe product, rather than all Adobe products the company has access to.
 
 ### Launch permissions
 
-Within the Experience Cloud, no rights or permissions are assigned to individual users. They are assigned to a Product Profile \(see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above\). Individual users are then assigned to one or more Product Profile.
+Within the Experience Cloud, no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profile.
 
 Within a Product Profile, Launch permissions are divided into two categories, property rights and company rights.
 
@@ -75,11 +75,11 @@ If you run a small company that has one person in charge of everything, grant th
 
 ### Separation of duties
 
-Many people are involved in tagging. You have one set of people \(maybe an external consultant\) that creates rules and data elements, but you don't want them to have access to the production environment. You want to make sure that nobody deploys to Production except the IT team.
+Many people are involved in tagging. You have one set of people (maybe an external consultant) that creates rules and data elements, but you don't want them to have access to the production environment. You want to make sure that nobody deploys to Production except the IT team.
 
 1. Create an account for your consultants and grant them only the develop right.
 1. The consultant builds and tests within the confines you set.
-1. If the consultant wants a new extension, or is ready to go live, a representative from your organization \(with the appropriate rights\), performs those actions.
+1. If the consultant wants a new extension, or is ready to go live, a representative from your organization (with the appropriate rights), performs those actions.
 
 ### Enterprise
 
@@ -189,7 +189,7 @@ A list shows your Launch properties.
 
 ![](/help/assets/profile-properties.png)
 
-By default, new product configurations automatically include properties. This means that all properties \(present and future\) are included in the group definition.
+By default, new product configurations automatically include properties. This means that all properties (present and future) are included in the group definition.
 
 If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking Add.
 

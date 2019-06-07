@@ -54,7 +54,7 @@ In a real-life scenario, the next step in the process would typically be to have
 
    ![](/help/assets/switchenvironments-opendebugger.png)
 
-1. Open the Tools tab and click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field \(it might currently have the URL of your Development embed code\):
+1. Open the Tools tab and click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field (it might currently have the URL of your Development embed code):
 
    ![](/help/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
 
@@ -62,7 +62,7 @@ In a real-life scenario, the next step in the process would typically be to have
 
    ![](/help/assets/switchenvironments-debugger-save%20%281%29.png)
 
-1. Reload and check the Summary tab of the Debugger. Under the Launch section, you should see that your Staging Property is implemented, showing your property name \(for example, "Launch Tutorial" or whatever you named your property\).
+1. Reload and check the Summary tab of the Debugger. Under the Launch section, you should see that your Staging Property is implemented, showing your property name (for example, "Launch Tutorial" or whatever you named your property).
 
    ![](/help/assets/publishing-debugger-staging.png)
 
@@ -74,7 +74,7 @@ In real life, once your QA team has signed off by reviewing the changes in the S
 
    ![](/help/assets/publishing-approveforpublishing.png)
 
-1. Click **[!UICONTROL Approve]**. The library appears in the Approved column in the unbuilt state \(yellow dot\).
+1. Click **[!UICONTROL Approve]**. The library appears in the Approved column in the unbuilt state (yellow dot).
 1. Open the drop down and select **[!UICONTROL Build and Publish to Production]**:
 
    ![](/help/assets/publishing-buildandpublishtoproduction.png)

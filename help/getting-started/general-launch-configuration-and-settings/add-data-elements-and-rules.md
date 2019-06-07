@@ -43,7 +43,7 @@ This exercise shows how to create a data element for Page Name, which will be us
 
    ![Click the Create New Data Element button](/help/assets/launch-newdataelement%20%282%29.png)
 
-1. Name the data element \(for example, "Page Name"\).
+1. Name the data element (for example, "Page Name").
 1. Use the JavaScript Variable Data Element type to point to a value in your sample page's data layer: `digitalData.page.pageInfo.pageName`.
 1. Use `not available` as the Default Value. The Default Value tells Launch what value to use for the data element if your JavaScript Variable specified above is not found.
 1. Check the boxes for **[!UICONTROL Force lowercase value]** and **[!UICONTROL Clean text]** to standardize the case and remove extraneous spaces.
@@ -61,14 +61,14 @@ Use the following steps to create a rule that outputs the Page Name data element
 
    ![Click the Create New Rule button](/help/assets/launch-newrule.png)
 
-1. Name the Rule \(for example, "All Pages - Library Loaded"\). This name uses a convention that indicates where and when the rule will fire, which makes it easier to identify and reuse as your Launch property matures.
+1. Name the Rule (for example, "All Pages - Library Loaded"). This name uses a convention that indicates where and when the rule will fire, which makes it easier to identify and reuse as your Launch property matures.
 1. Under Events, click **[!UICONTROL Add]**.
 
    ![Name the Rule and Add an event](/help/assets/launch-addeventtorule.png)
 
    The Event tells Launch when the rule should fire and can be many things, including a page load, a click, a custom JavaScript event, and so on.
 
-1. As the Event Type, select **[!UICONTROL Library Loaded \(Page Top\)]**. When you select the Event Type, Launch pre-populates a name for the event using your selection. The default order for the event is 50. Ordering is a powerful feature in Launch that gives you precise control over the sequence of actions when multiple rules are triggered by the same event. This feature is used later in the tutorial.
+1. As the Event Type, select **[!UICONTROL Library Loaded (Page Top)]**. When you select the Event Type, Launch pre-populates a name for the event using your selection. The default order for the event is 50. Ordering is a powerful feature in Launch that gives you precise control over the sequence of actions when multiple rules are triggered by the same event. This feature is used later in the tutorial.
 1. Click **[!UICONTROL Keep Changes]**.
 
    ![Select an Event](/help/assets/launch-ruleselectevent.png)
@@ -151,7 +151,7 @@ When you are making a lot of changes in Launch, it is inconvenient to have to op
 
 1. Wait a moment until the green status reappears next to the Working Library dropdown, then reload your sample page.
 
-   You should see your change reflected in the console message. \(You might need to clear your browser cache and reload to see the change to the page.
+   You should see your change reflected in the console message. (You might need to clear your browser cache and reload to see the change to the page.
 
    ![](/help/assets/samplepage-consolewithcolon.png)
 

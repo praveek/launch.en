@@ -17,7 +17,7 @@ Here are the key-value pairs in this event:
 
 | **Key** | **Value Type** | **Optional** | **Description** |
 | :--- | :--- | :--- | :--- |
-| RULES\_REQUEST\_CONTENT\_DOWNLOAD\_RULES \("download\_rules"\) | boolean | Yes | Key indicates that the Request Content event is specifically for the extension to download rules from the rules URL  in the latest configuration. |
+| RULES\_REQUEST\_CONTENT\_DOWNLOAD\_RULES ("download\_rules") | boolean | Yes | Key indicates that the Request Content event is specifically for the extension to download rules from the rules URL  in the latest configuration. |
 
 ## Hub Shared State
 

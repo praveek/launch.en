@@ -99,12 +99,12 @@ Enables or disables tracking based on the EU privacy cookie.
 
 When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
 
-When a page is loaded, the system checks to see if a cookie called sat\_track is set \(or the custom cookie name specified on the Edit Property page\). Consider the following information:
+When a page is loaded, the system checks to see if a cookie called sat\_track is set (or the custom cookie name specified on the Edit Property page). Consider the following information:
 
 * If the cookie does not exist or if the cookie exists and is set to anything but true, the loading of the tool is skipped when this setting is enabled. Meaning, any portion of a rule that uses the tool will not apply. If a rule has analytics with EU compliance on and third-party code, and the cookie is set to false, the third-party code still runs. However, the analytics variables will not be set.
 * If the cookie exists but it is set to true, the tool loads normally.
 
-You are responsible for setting the sat\_track \(or custom named\) cookie to false if a visitor opts out. You can accomplish this using custom code:
+You are responsible for setting the sat\_track (or custom named) cookie to false if a visitor opts out. You can accomplish this using custom code:
 
 ```javascript
 _satellite.setCookie("sat_track", "false");
@@ -152,7 +152,7 @@ Use this section to set up [eVars and Props](https://experiencecloud.adobe.com/r
 
 Global variables are variables that are set on the Analytics tracking object when that object is initialized on the page. Any variables you set here will be set when the tracking object is created on each page. Once these variables are set, they are just like any other variables set any other way. Specifically, this means that a rule can modify, change, or clear these variables.
 
-If your web application typically sends one beacon per page, this section can help make it simple to set your variables in one place. If your application sends more than one beacon per page \(such as in a single-page application\), and you need to clear your variables and reset them using the same tracking object, it is simpler to rely on rules to set and clear your variables.
+If your web application typically sends one beacon per page, this section can help make it simple to set your variables in one place. If your application sends more than one beacon per page (such as in a single-page application), and you need to clear your variables and reset them using the same tracking object, it is simpler to rely on rules to set and clear your variables.
 
 ## Link Tracking
 
@@ -189,7 +189,7 @@ You can use one of the following methods to track outbound links from SPA sites:
 
 For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.
 
-The "about" page is the only outbound link that is tracked. Any other links on the page \(for example, [https://www.google.com](https://www.google.com)\) are not tracked.
+The "about" page is the only outbound link that is tracked. Any other links on the page (for example, [https://www.google.com](https://www.google.com)) are not tracked.
 
 Note that these two options are mutually exclusive.
 
@@ -223,7 +223,7 @@ See [s.cookieDomainPeriods](https://experiencecloud.adobe.com/resources/help/en_
 
 ### First-Party Domain Periods
 
-The `fpCookieDomainPeriods` variable is for cookies set by JavaScript \(`s_sq`, `s_cc`, plug-ins\) that are inherently first-party cookies, even if your implementation uses the third-party 2o7.net or omtrdc.net domains.
+The `fpCookieDomainPeriods` variable is for cookies set by JavaScript (`s_sq`, `s_cc`, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party 2o7.net or omtrdc.net domains.
 
 See [s.fpCookieDomainPeriods](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/fpCookieDomainPeriods.html).
 
@@ -274,9 +274,9 @@ Important: Using a "set variables" action won't send the beacon. You must use th
 Set one or more [eVars](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
 
 1. Select an eVar from the dropdown.
-1. Specify whether you want to set the eVar as the value \(Set As\) or copy \(Duplicate From\) another eVar.
+1. Specify whether you want to set the eVar as the value (Set As) or copy (Duplicate From) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate.
-1. \(Optional\) Click Add eVar to set more eVars.
+1. (Optional) Click Add eVar to set more eVars.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Props
@@ -284,9 +284,9 @@ Set one or more [eVars](https://experiencecloud.adobe.com/resources/help/en_US/s
 Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
 
 1. Select a prop from the dropdown.
-1. Specify whether you want to set the prop as the value \(Set As\) or copy \(Duplicate From\) another eVar.
+1. Specify whether you want to set the prop as the value (Set As) or copy (Duplicate From) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-1. \(Optional\) Click **[!UICONTROL Add prop]** to set more props.
+1. (Optional) Click **[!UICONTROL Add prop]** to set more props.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Events
@@ -294,8 +294,8 @@ Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/s
 Set one or more [events](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/ref-events.html).
 
 1. Select an event from the dropdown.
-1. \(Optional\) Select or specify a data element used for [event serialization](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
-1. \(Optional\) Click **[!UICONTROL Add event]** to set more events.
+1. (Optional) Select or specify a data element used for [event serialization](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
+1. (Optional) Click **[!UICONTROL Add event]** to set more events.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
@@ -339,11 +339,11 @@ Use the editor to specify your custom page code.
 
 ### Send Beacon {#send-beacon}
 
-#### Increment a pageview - s.t\(\)
+#### Increment a pageview - s.t()
 
 Select if you want to increment a pageview.
 
-#### Do not increment a pageview - s.t\(\)
+#### Do not increment a pageview - s.t()
 
 Select if you do not want to increment a pageview.
 

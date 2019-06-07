@@ -26,7 +26,7 @@ Examples of differences that are further defined below:
 
 ### Name {#name}
 
-The name of your DTM property is copied to Launch. `\(DTM - yyyy-mm-dd hh:mm:ss\)` is added to the end of the Launch property name so you know exactly when it was migrated. You can remove this timestamp from your Launch property name.
+The name of your DTM property is copied to Launch. `(DTM - yyyy-mm-dd hh:mm:ss)` is added to the end of the Launch property name so you know exactly when it was migrated. You can remove this timestamp from your Launch property name.
 
 ### Domains {#domains}
 
@@ -69,7 +69,7 @@ In DTM, an Analytics beacon is fired on every page when App Measurement loads, e
 * Exceptions: None
 * Actions: `Adobe Analytics - Send Beacon`
 
-The Upgrade Assistant creates this rule in Launch, as long as an Analytics tool is installed in DTM. If you used a `return false` inside custom code in DTM to suppress the initial beacon call, then you should leave the Launch rule out of your library \(or delete it\) after the upgrade is complete.
+The Upgrade Assistant creates this rule in Launch, as long as an Analytics tool is installed in DTM. If you used a `return false` inside custom code in DTM to suppress the initial beacon call, then you should leave the Launch rule out of your library (or delete it) after the upgrade is complete.
 
 #### Other {#other}
 
@@ -145,7 +145,7 @@ You can control which tool instance to copy by changing the name of the tool.
 
 In DTM, a beacon is fired on every page even if no rules are defined. In Launch, this beacon call is controlled by a rule and does not happen automatically. The Upgrade process creates this rule for you unless you use the `Google Universal Analytics page code is already present` option. This rule is called **Migrated from DTM: Google Universal Analytics - Send beacon on every page** and has the following definition:
 
-* Event: `Core - Page Bottom` \(This most closely matches the DTM behavior even though Launch recommends`Library Load` rather than `Page Bottom` in most cases.\)
+* Event: `Core - Page Bottom` (This most closely matches the DTM behavior even though Launch recommends`Library Load` rather than `Page Bottom` in most cases.)
 * Conditions: None
 * Exceptions: None
 * Actions: `Google Univeral Analytics - Send Page View`
@@ -178,7 +178,7 @@ The following DTM tools installed on your property are not copied to Launch exte
 
 ## Data Elements {#data-elements}
 
-In DTM, if a data element resolves to a value that is [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) \(e.g., `""`, `0`, `false`, `null`, `undefined`\), the data element will fall back to the configured default value. In Launch, the data element will _only_ fall back to the configured default value if the resolved value is `null` or `undefined` .
+In DTM, if a data element resolves to a value that is [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) (e.g., `""`, `0`, `false`, `null`, `undefined`), the data element will fall back to the configured default value. In Launch, the data element will _only_ fall back to the configured default value if the resolved value is `null` or `undefined` .
 
 ### Cookie {#cookie}
 
@@ -246,7 +246,7 @@ DTM `Cart Item Quantity` conditions that don't define a data element, or that de
 
 The DTM `Data Element` condition has been replaced by the Launch `Value Comparison` condition, so any `Data Element` conditions are copied to Launch as `Value Comparison` conditions.
 
-DTM `Data Element` conditions that don't define a data element \(or that define a data element that no longer exists\) are not copied to Launch.
+DTM `Data Element` conditions that don't define a data element (or that define a data element that no longer exists) are not copied to Launch.
 
 ### Device {#device}
 
@@ -293,7 +293,7 @@ The DTM `Registered User` condition has been replaced by the `Value Comparison` 
 
 The contents of custom scripts are copied over as is. The code is not inpected to determine its purpose. It is simply copied to custom code in Launch. There are a few things you should know about this process:
 
-* Any custom script in DTM \(Non-sequential, Sequential JS, Sequential HTML\) without content is not copied to Launch.
+* Any custom script in DTM (Non-sequential, Sequential JS, Sequential HTML) without content is not copied to Launch.
 * ES6 is not supported in Launch.  ES6 is not supported in DTM either, but the compiler wouldn't catch it because it didn't exist when the DTM compiler was developed.   >[!IMPORTANT]  If you use ES6 code in DTM, the code is copied to Launch, but your build fails with compile errors when you make the build. You can fix this before or after you upgrade.
 * In custom code, it is common to reference the `_satellite` object and various properties and functions that it provides. Launch uses the `satellite` object, but it is not structured the same as before. Functions and properties that were supported in DTM move to Launch, but many of the ones that were unsupported do not. If you use any of these functions in DTM, it is likely that your custom code needs to be updated. To see what is supported on the new Launch `satellite` object,
 

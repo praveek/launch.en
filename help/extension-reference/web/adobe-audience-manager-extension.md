@@ -27,7 +27,7 @@ Configure your DIL settings. The following configuration options are available:
 
 #### DIL Version
 
-Shows the Data Integration Library \(DIL\) version.
+Shows the Data Integration Library (DIL) version.
 
 This setting cannot be changed.
 

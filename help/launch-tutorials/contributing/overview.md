@@ -57,7 +57,7 @@ All third-party contributions to this project must be accompanied by a signed co
 
 All submissions should come in the form of pull requests and need to be reviewed by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
 
-## 2. Sign the CLA \(Contributor License Agreement\)
+## 2. Sign the CLA (Contributor License Agreement)
 
 In order to contribute to our documentation, you **MUST** sign the contributor license agreement, also known as the CLA. If you've signed and submitted one previously, you're good to go. Otherwise, visit [here](http://opensource.adobe.com/cla.html) to get signing.
 
