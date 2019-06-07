@@ -56,11 +56,11 @@ In a real-life scenario, the next step in the process would typically be to have
 
 1. Open the Tools tab and click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field (it might currently have the URL of your Development embed code):
 
-   ![](/help/assets/switchenvironments-debugger-editembedcode%20%281%29.png)
+   ![](/help/assets/switchenvironments-debugger-editembedcode1.png)
 
 1. Paste the Staging embed code that is in your clipboard, then click the disk icon to save.
 
-   ![](/help/assets/switchenvironments-debugger-save%20%281%29.png)
+   ![](/help/assets/switchenvironments-debugger-save1.png)
 
 1. Reload and check the Summary tab of the Debugger. Under the Launch section, you should see that your Staging Property is implemented, showing your property name (for example, "Launch Tutorial" or whatever you named your property).
 

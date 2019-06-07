@@ -45,7 +45,7 @@ These validation steps focus on the critical part visible in the client-side imp
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail21.png)
 
 1. Go to the Network tab of the Debugger, then click **[!UICONTROL Clear All Requests]** to clean things up.
 1. Reload the We.Retail page, making sure that you see both the Target and Analytics requests in the Debugger.
@@ -74,7 +74,7 @@ The best way to validate the A4T integration is to build a Target activity using
 1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html).
 1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
 
-   ![](/help/assets/switchenvironments-debuggeronweretail2%20%281%29.png)
+   ![](/help/assets/switchenvironments-debuggeronweretail21.png)
 
 1. Go to the Network tab of the Debugger.
 1. Click **[!UICONTROL Clear All Requests]** to clean things up.

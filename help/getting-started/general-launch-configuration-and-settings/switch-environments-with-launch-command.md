@@ -25,17 +25,17 @@ At the end of this lesson, you will be able to:
 1. Click **[!UICONTROL Copy]** to copy the embed code to your clipboard.
 1. Click **[!UICONTROL Close]** to close the modal.
 
-![](/help/assets/launch-copyinstallcode%20%281%29.png)
+![](/help/assets/launch-copyinstallcode1.png)
 
 ## Replace the Launch URL on the We.Retail demo site
 
 Open the [We.Retail demo site](https://aem100-us.adobevlab.com/content/we-retail/us/en.html) in your Chrome browser, then open the [Experience Cloud Debugger extension](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) by clicking the ![](/help/assets/icon-debugger.png) icon.
 
-![](/help/assets/switchenvironments-opendebugger%20%281%29.png)
+![](/help/assets/switchenvironments-opendebugger1.png)
 
 Note that the currently implemented Launch property is shown on the Summary tab.
 
-![](/help/assets/switchenvironments-debuggeronweretail%20%282%29.png)
+![](/help/assets/switchenvironments-debuggeronweretail2.png)
 
 Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch &gt; Embed Code]** to open the text input field:
 
