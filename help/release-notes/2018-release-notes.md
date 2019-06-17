@@ -1,8 +1,8 @@
 ---
 title: 2018 release notes
-seo-title: 2018 release notes for Adobe Launch
-description: 2018 release notes for Adobe Launch
-seo-description: 2018 release notes for Adobe Launch
+seo-title: 2018 release notes for Adobe Experience Platform Launch
+description: 2018 release notes for Adobe Experience Platform Launch
+seo-description: 2018 release notes for Adobe Experience Platform Launch
 ---
 
 # 2018 release notes
@@ -62,7 +62,7 @@ You can now make a copy of a rule within the same property. Before you ask, the 
 
 Launch has gone mobile!!
 
-Used by thousands of customers for web tag management, Adobe Launch can now be used to manage your mobile SDKs.
+Used by thousands of customers for web tag management, Adobe Experience Platform Launch can now be used to manage your mobile SDKs.
 
 Creating a mobile property in Launch allows you to:
 

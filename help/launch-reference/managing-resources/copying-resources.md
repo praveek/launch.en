@@ -1,8 +1,8 @@
 ---
 title: Copying resources
-seo-title: Copying resources in Adobe Launch
-description: Copying resources in Adobe Launch
-seo-description: Copying resources in Adobe Launch
+seo-title: Copying resources in Adobe Experience Platform Launch
+description: Copying resources in Adobe Experience Platform Launch
+seo-description: Copying resources in Adobe Experience Platform Launch
 ---
 
 # Copying resources

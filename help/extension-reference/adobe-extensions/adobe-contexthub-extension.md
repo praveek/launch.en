@@ -1,8 +1,8 @@
 ---
 title: Adobe ContextHub Extension
-seo-title: Adobe ContextHub Extension in Adobe Launch
+seo-title: Adobe ContextHub Extension in Adobe Experience Platform Launch
 description: Information about configuring the Adobe ContextHub extension, and the options available when using this extension to build a rule
-seo-description: Adobe ContextHub Extension in Adobe Launch
+seo-description: Adobe ContextHub Extension in Adobe Experience Platform Launch
 ---
 
 # Adobe ContextHub Extension

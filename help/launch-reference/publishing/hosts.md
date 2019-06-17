@@ -1,8 +1,8 @@
 ---
 title: Hosts
-seo-title: Hosts in Adobe Launch
-description: Adobe launch hosts
-seo-description: Adobe launch hosts
+seo-title: Hosts in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch hosts
+seo-description: Adobe Experience Platform Launch hosts
 ---
 
 # Hosts

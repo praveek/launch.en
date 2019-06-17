@@ -1,8 +1,8 @@
 ---
 title: Companies
-seo-title: Companies in Adobe Launch
-description: Adobe Launch companies
-seo-description: Adobe Launch companies
+seo-title: Companies in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch companies
+seo-description: Adobe Experience Platform Launch companies
 ---
 
 # Companies

@@ -1,13 +1,13 @@
 ---
 title: Adobe Acquisition
-seo-title: Adobe Acquisition in Adobe Launch
+seo-title: Adobe Acquisition in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---
 
 # Adobe Acquisition
 
-To configure the Acquistion extension in Adobe Launch, see the following sections:
+To configure the Acquistion extension in Adobe Experience Platform Launch, see the following sections:
 
 * To install and configure extensions, see [https://docs.adobelaunch.com/managing-resources/extensions](https://docs.adobelaunch.com/managing-resources/extensions).
 * For more information rules and conditions, see [https://docs.adobelaunch.com/managing-resources/rules](https://docs.adobelaunch.com/managing-resources/rules).

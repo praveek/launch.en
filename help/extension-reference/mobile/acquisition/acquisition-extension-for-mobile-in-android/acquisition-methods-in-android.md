@@ -1,8 +1,8 @@
 ---
 title: Acquisition Methods in Android
-seo-title: Acquisition Methods in Android in Adobe Launch
+seo-title: Acquisition Methods in Android in Adobe Experience Platform Launch
 description: Allows developers to start an app acquisition campaign as if the user clicked a link. You can create manual acquisition links and handle the app store redirect.
-seo-description: Acquisition Methods in Android in Adobe Launch
+seo-description: Acquisition Methods in Android in Adobe Experience Platform Launch
 ---
 
 # Acquisition Methods in Android

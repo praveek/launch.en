@@ -1,8 +1,8 @@
 ---
 title: Experience Cloud ID Release Notes
-seo-title: Experience Cloud ID extension Release Notes in Adobe Launch
-description: Experience Cloud ID extension Release Notes in Adobe Launch
-seo-description: Experience Cloud ID extension Release Notes in Adobe Launch
+seo-title: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
+description: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
+seo-description: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
 ---
 
 # Experience Cloud ID Release Notes

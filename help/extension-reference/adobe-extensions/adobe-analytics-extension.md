@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Extension
-seo-title: Adobe Analytics Extension for Adobe Launch
+seo-title: Adobe Analytics Extension for Adobe Experience Platform Launch
 description: Information about configuring the Adobe Analytics extension, and the options available when using this extension to build a rule.
-seo-description: Adobe Analytics Extension for Adobe Launch
+seo-description: Adobe Analytics Extension for Adobe Experience Platform Launch
 ---
 
 # [!DNL Adobe Analytics] Extension

@@ -1,8 +1,8 @@
 ---
 title: Environments
-seo-title: Environments in Adobe Launch
-description: Adobe Launch environments
-seo-description: Adobe Launch environments
+seo-title: Environments in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch environments
+seo-description: Adobe Experience Platform Launch environments
 ---
 
 # Environments

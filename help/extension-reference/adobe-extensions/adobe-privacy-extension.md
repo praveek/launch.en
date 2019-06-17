@@ -1,8 +1,8 @@
 ---
 title: Adobe Privacy Extension
-seo-title: Adobe Privacy Extension for Adobe Launch
+seo-title: Adobe Privacy Extension for Adobe Experience Platform Launch
 description: Provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions
-seo-description: Adobe Privacy Extension for Adobe Launch
+seo-description: Adobe Privacy Extension for Adobe Experience Platform Launch
 ---
 
 # Adobe Privacy Extension

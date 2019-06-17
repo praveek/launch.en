@@ -1,6 +1,6 @@
 ---
 title: Messaging Methods in Android
-seo-title: Messaging Methods in Android in Adobe Launch
+seo-title: Messaging Methods in Android in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

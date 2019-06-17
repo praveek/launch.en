@@ -1,8 +1,8 @@
 ---
 title: Client-side information
-seo-title: Client-side information in Adobe Launch
-description: managing client-side operations of Adobe Launch
-seo-description: managing client-side operations of Adobe Launch
+seo-title: Client-side information in Adobe Experience Platform Launch
+description: managing client-side operations of Adobe Experience Platform Launch
+seo-description: managing client-side operations of Adobe Experience Platform Launch
 ---
 
 # Client-side information

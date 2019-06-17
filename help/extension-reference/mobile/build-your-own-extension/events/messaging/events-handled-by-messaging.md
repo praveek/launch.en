@@ -1,6 +1,6 @@
 ---
 title: Events Handled by Messaging
-seo-title: Events Handled by Messaging in Adobe Launch
+seo-title: Events Handled by Messaging in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

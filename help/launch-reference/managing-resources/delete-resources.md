@@ -1,8 +1,8 @@
 ---
 title: Deleting resources
-seo-title: Deleting resources in Adobe Launch
-description: Deleting Adobe Launch resources
-seo-description: Deleting Adobe Launch resources
+seo-title: Deleting resources in Adobe Experience Platform Launch
+description: Deleting Adobe Experience Platform Launch resources
+seo-description: Deleting Adobe Experience Platform Launch resources
 ---
 
 # Deleting resources

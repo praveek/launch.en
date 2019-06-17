@@ -1,8 +1,8 @@
 ---
 title: Data Elements
-seo-title: Data Elements in Adobe Launch
+seo-title: Data Elements in Adobe Experience Platform Launch
 description: Data elements are the building blocks for your data dictionary (or data map). Use data elements to collect, organize, and deliver data across marketing and ad technology.
-seo-description: Data Elements in Adobe Launch
+seo-description: Data Elements in Adobe Experience Platform Launch
 ---
 
 # Data Elements

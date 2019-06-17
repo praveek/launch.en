@@ -1,8 +1,8 @@
 ---
 title: Add the Launch Embed Code
-seo-title: Add the Adobe Launch Embed Code
-description: Adobe Launch Embed Code
-seo-description: Adobe Launch Embed Code
+seo-title: Add the Adobe Experience Platform Launch Embed Code
+description: Adobe Experience Platform Launch Embed Code
+seo-description: Adobe Experience Platform Launch Embed Code
 ---
 
 # Add the Launch Embed Code

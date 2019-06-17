@@ -1,6 +1,6 @@
 ---
 title: Configure Launch
-seo-title: Configure Adobe Launch
+seo-title: Configure Adobe Experience Platform Launch
 description: Launch properties, hosts, environments, data elements, and rules
 seo-description: Launch properties, hosts, environments, data elements, and rules
 ---

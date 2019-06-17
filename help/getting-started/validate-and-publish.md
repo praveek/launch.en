@@ -1,8 +1,8 @@
 ---
 title: Publish your Launch property
-seo-title: Publish your Launch property in Adobe Launch
-description: Publish your Launch property in Adobe Launch
-seo-description: Publish your Launch property in Adobe Launch
+seo-title: Publish your Launch property in Adobe Experience Platform Launch
+description: Publish your Launch property in Adobe Experience Platform Launch
+seo-description: Publish your Launch property in Adobe Experience Platform Launch
 ---
 
 # Publish your Launch property
@@ -55,6 +55,8 @@ In a real-life scenario, the next step in the process would typically be to have
    ![](/help/assets/switchenvironments-opendebugger.png)
 
 1. Open the Tools tab and click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch > Embed Code]** to open the text input field (it might currently have the URL of your Development embed code):
+
+<!-- Scott check Adobe Launch in UI -->
 
    ![](/help/assets/switchenvironments-debugger-editembedcode1.png)
 

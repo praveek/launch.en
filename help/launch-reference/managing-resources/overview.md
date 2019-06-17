@@ -1,8 +1,8 @@
 ---
 title: Managing Resources
-seo-title: Managing Resources in Adobe Launch
-description: Managing Adobe Launch Resources
-seo-description: Managing Adobe Launch Resources
+seo-title: Managing Resources in Adobe Experience Platform Launch
+description: Managing Adobe Experience Platform Launch Resources
+seo-description: Managing Adobe Experience Platform Launch Resources
 ---
 
 # Managing Resources

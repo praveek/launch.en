@@ -1,15 +1,15 @@
 ---
 title: Videos
-seo-title: Videos in Adobe Launch
-description: Adobe Launch videos
-seo-description: Adobe Launch videos
+seo-title: Videos in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch videos
+seo-description: Adobe Experience Platform Launch videos
 ---
 
 # Videos
 
 These videos introduce you to Launch concepts and tasks.
 
-* [Introduction to Launch, by Adobe](https://www.youtube.com/embed/rwqqkG1SERU)
+* [Introduction to Experience Platform Launch](https://www.youtube.com/embed/rwqqkG1SERU)
 * [User management](https://www.youtube.com/embed/ba28BHX8cwU)
 * [Creating your first property](https://www.youtube.com/embed/Fb2pcbAYjIE)
 * [Extensions](https://www.youtube.com/embed/yD0tBqZX4fA)

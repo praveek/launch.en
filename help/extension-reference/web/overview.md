@@ -1,6 +1,6 @@
 ---
 title: Adobe Extensions
-seo-title: Adobe Extensions in Adobe Launch
+seo-title: Adobe Extensions in Adobe Experience Platform Launch
 description: Documentation for the Launch Extensions provided by Adobe solutions.
 seo-description: Documentation for the Launch Extensions provided by Adobe solutions.
 ---

@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Audience Manager (AAM)
-seo-title: Add Adobe Audience Manager (AAM) in Adobe Launch
-description: enable Adobe Audience Manager in Adobe Launch using Server-Side Forwarding
-seo-description: enable Adobe Audience Manager in Adobe Launch using Server-Side Forwarding
+seo-title: Add Adobe Audience Manager (AAM) in Adobe Experience Platform Launch
+description: enable Adobe Audience Manager in Adobe Experience Platform Launch using Server-Side Forwarding
+seo-description: enable Adobe Audience Manager in Adobe Experience Platform Launch using Server-Side Forwarding
 ---
 
 # Add Adobe Audience Manager (AAM)
@@ -98,7 +98,7 @@ The main way to validate that the Server-Side Forwarding is up and running is to
 
 #### Verify that the code loads correctly
 
-The code that Adobe Launch installs to handle the forwarding, and especially the response from AAM to the page, is called the Audience Manager Module. Use the Experience Cloud Debugger to ensure that it has loaded.
+The code that Adobe Experience Platform Launch installs to handle the forwarding, and especially the response from AAM to the page, is called the Audience Manager Module. Use the Experience Cloud Debugger to ensure that it has loaded.
 
 1. Open the We.Retail site.
 1. Click the debugger icon in your browser to open the Experience Cloud debugger.

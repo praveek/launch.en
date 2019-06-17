@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics for Video Extension
-seo-title: Adobe Analytics for Video Extension for Adobe Launch
+seo-title: Adobe Analytics for Video Extension for Adobe Experience Platform Launch
 description: Information on installing, configuring, and implementing the Adobe Analytics for Video extension (Video Analytics extension)
-seo-description: Adobe Analytics for Video Extension for Adobe Launch
+seo-description: Adobe Analytics for Video Extension for Adobe Experience Platform Launch
 ---
 
 # Adobe Analytics for Video Extension
@@ -147,7 +147,7 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
 1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
 
 >[!NOTE]
->**Testing -** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>**Testing -** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 ## Leveraging the sample HTML5 player
 

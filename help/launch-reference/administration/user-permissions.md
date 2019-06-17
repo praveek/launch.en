@@ -1,8 +1,8 @@
 ---
 title: User permissions
-seo-title: User permissions in Adobe Launch
-description: User permissions in Adobe Launch
-seo-description: User permissions in Adobe Launch
+seo-title: User permissions in Adobe Experience Platform Launch
+description: User permissions in Adobe Experience Platform Launch
+seo-description: User permissions in Adobe Experience Platform Launch
 ---
 
 # User permissions
@@ -149,17 +149,19 @@ Click **Launch Admin Console**.
 
 ![](/help/assets/launch-admin-console-button.png)
 
-Click the [!DNL Experience Platform Launch - `Company Name`] card.
+Click the **[!DNL Experience Platform Launch] - `Company Name`** card.
 
 ![](/help/assets/launch-card.png)
 
-You can also click Products in the top nav, then select Launch, by Adobe - `%Company Name%` from the left nav.
+<!-- Scott, update above image. Rebranding. -->
+
+You can also click Products in the top nav, then select **[!DNL Experience Platform Launch] - `Company Name`** from the left nav.
 
 ![](/help/assets/products-select-launch.png)
 
-If you do not see a [!DNL Experience Platform Launch] card and or if [!DNL Experience Platform Launch] does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Experience Platform Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
+If you do not see a [!DNL Experience Platform Launch] card and or if [!DNL Experience Platform Launch] does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Experience Platform Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for [!DNL Launch].
 
-After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - `Company Name`.
+After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named "[!DNL Launch] - `Company Name`."
 
 ![](/help/assets/product-profiles.png)
 

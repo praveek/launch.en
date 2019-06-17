@@ -1,8 +1,8 @@
 ---
 title: Experience Cloud integrations
-seo-title: Experience Cloud integrations in Adobe Launch
-description:  review the key integrations between Adobe launch and the solutions you have implemented
-seo-description: Review the key integrations between Adobe launch and the solutions you have implemented
+seo-title: Experience Cloud integrations in Adobe Experience Platform Launch
+description:  review the key integrations between Adobe Experience Platform Launch and the solutions you have implemented
+seo-description: Review the key integrations between Adobe Experience Platform Launch and the solutions you have implemented
 ---
 
 # Experience Cloud integrations

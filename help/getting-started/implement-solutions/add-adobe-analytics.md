@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Analytics
-seo-title: Add Adobe Analytics in Adobe Launch
-description: Add Adobe Analytics in Adobe Launch
-seo-description: Add Adobe Analytics in Adobe Launch
+seo-title: Add Adobe Analytics in Adobe Experience Platform Launch
+description: Add Adobe Analytics in Adobe Experience Platform Launch
+seo-description: Add Adobe Analytics in Adobe Experience Platform Launch
 ---
 
 # Add Adobe Analytics

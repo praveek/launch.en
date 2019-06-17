@@ -1,8 +1,8 @@
 ---
 title: Libraries
-seo-title: Libraries in Adobe Launch
-description: Adobe Launch libraries
-seo-description: Adobe Launch libraries
+seo-title: Libraries in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch libraries
+seo-description: Adobe Experience Platform Launch libraries
 ---
 
 # Libraries

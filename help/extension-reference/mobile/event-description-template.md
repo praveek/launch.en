@@ -1,8 +1,8 @@
 ---
 title: Event Description Template
-seo-title: Event Description Template in Adobe Launch
+seo-title: Event Description Template in Adobe Experience Platform Launch
 description: This page contains tips and templates about the event page structure.
-seo-description: This page contains tips and templates about the event page structure in Adobe Launch.
+seo-description: This page contains tips and templates about the event page structure in Adobe Experience Platform Launch.
 ---
 
 # Event Description Template

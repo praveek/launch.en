@@ -1,8 +1,8 @@
 ---
 title: Administration
-seo-title: Administration in Adobe Launch
-description: Adobe Launch administration
-seo-description: Adobe Launch administration
+seo-title: Administration in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch administration
+seo-description: Adobe Experience Platform Launch administration
 ---
 
 # Administration

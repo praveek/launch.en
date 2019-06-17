@@ -1,8 +1,8 @@
 ---
 title: Data Elements
-seo-title: Data Elements in Adobe Launch
-description: Adobe Launch data elements
-seo-description: Adobe Launch data elements
+seo-title: Data Elements in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch data elements
+seo-description: Adobe Experience Platform Launch data elements
 ---
 
 # Data Elements

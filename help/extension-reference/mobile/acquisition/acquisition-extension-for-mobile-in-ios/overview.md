@@ -1,6 +1,6 @@
 ---
 title: Adobe Acquisition Extension for Mobile in iOS
-seo-title: Adobe Acquisition Extension for Mobile in iOS in Adobe Launch
+seo-title: Adobe Acquisition Extension for Mobile in iOS in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

@@ -1,8 +1,8 @@
 ---
 title: Upgrade FAQ
-seo-title: Upgrade FAQ in Adobe Launch
-description: Adobe Launch upgrade FAQ
-seo-description: Adobe Launch upgrade FAQ
+seo-title: Upgrade FAQ in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch upgrade FAQ
+seo-description: Adobe Experience Platform Launch upgrade FAQ
 ---
 
 # Upgrade FAQ

@@ -1,8 +1,8 @@
 ---
 title: Adobe Target Release Notes
-seo-title: Adobe Target Release Notes in Adobe Launch
-description: Release notes for Adobe Target extension in Adobe Launch
-seo-description: Release notes for Adobe Target extension in Adobe Launch
+seo-title: Adobe Target Release Notes in Adobe Experience Platform Launch
+description: Release notes for Adobe Target extension in Adobe Experience Platform Launch
+seo-description: Release notes for Adobe Target extension in Adobe Experience Platform Launch
 ---
 
 # Adobe Target Release Notes
@@ -31,7 +31,7 @@ seo-description: Release notes for Adobe Target extension in Adobe Launch
 
 #### **Features**
 
-* Updated Extension to use at.js 1.7.0 that has Opt-in privacy functionality supported via Adobe Launch to control how and when the Target tag is fired. Please check Launch Documentation on how to setup your implementation of Opt-in. Added possibility to customize if an mbox parameter that has an empty value should be sent to Target or not.
+* Updated Extension to use at.js 1.7.0 that has Opt-in privacy functionality supported via Adobe Experience Platform Launch to control how and when the Target tag is fired. Please check Launch Documentation on how to setup your implementation of Opt-in. Added possibility to customize if an mbox parameter that has an empty value should be sent to Target or not.
 
 ## January 23, 2019
 

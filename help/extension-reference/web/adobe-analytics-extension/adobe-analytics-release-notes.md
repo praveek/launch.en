@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Release Notes
-seo-title: Adobe Analytics Release Notes for Adobe Launch
-description: Adobe Analytics Release Notes for Adobe Launch
-seo-description: Adobe Analytics Release Notes for Adobe Launch
+seo-title: Adobe Analytics Release Notes for Adobe Experience Platform Launch
+description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
+seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
 ---
 
 # Adobe Analytics Release Notes

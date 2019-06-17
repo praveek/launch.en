@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics Extension
-seo-title: Adobe Analytics Extension in Adobe Launch
-description: Adobe Analytics Extension in Adobe Launch
-seo-description: Adobe Analytics Extension in Adobe Launch
+seo-title: Adobe Analytics Extension in Adobe Experience Platform Launch
+description: Adobe Analytics Extension in Adobe Experience Platform Launch
+seo-description: Adobe Analytics Extension in Adobe Experience Platform Launch
 ---
 
 # Adobe Analytics Extension
