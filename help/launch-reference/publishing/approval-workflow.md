@@ -1,8 +1,8 @@
 ---
 title: Approval Workflow
-seo-title: Approval Workflow in Adobe Launch
-description: Approval Workflow in Adobe Launch
-seo-description: Approval Workflow in Adobe Launch
+seo-title: Approval Workflow in Adobe Experience Platform Launch
+description: Approval Workflow in Adobe Experience Platform Launch
+seo-description: Approval Workflow in Adobe Experience Platform Launch
 ---
 
 # Approval Workflow

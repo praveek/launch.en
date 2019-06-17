@@ -1,8 +1,8 @@
 ---
 title: Deploy JavaScript tags to opt in to Launch
-seo-title: Deploy JavaScript tags to opt in to Launch in Adobe Launch
-description: Deploy JavaScript tags to opt in to Adobe Launch
-seo-description: Deploy JavaScript tags to opt in to Adobe Launch
+seo-title: Deploy JavaScript tags to opt in to Launch in Adobe Experience Platform Launch
+description: Deploy JavaScript tags to opt in to Adobe Experience Platform Launch
+seo-description: Deploy JavaScript tags to opt in to Adobe Experience Platform Launch
 ---
 
 # Deploy JavaScript tags to opt in to Launch

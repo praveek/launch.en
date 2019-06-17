@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign
-seo-title: Adobe Campaign in Adobe Launch
+seo-title: Adobe Campaign in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

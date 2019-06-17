@@ -1,6 +1,6 @@
 ---
 title: Acquisition Methods in iOS
-seo-title: Acquisition Methods in iOS in Adobe Launch
+seo-title: Acquisition Methods in iOS in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

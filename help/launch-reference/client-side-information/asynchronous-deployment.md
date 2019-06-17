@@ -1,8 +1,8 @@
 ---
 title: Asynchronous deployment
-seo-title: Asynchronous deployment in Adobe Launch
-description: Asynchronous deployment with Adobe Launch
-seo-description: Asynchronous deployment with Adobe Launch
+seo-title: Asynchronous deployment in Adobe Experience Platform Launch
+description: Asynchronous deployment with Adobe Experience Platform Launch
+seo-description: Asynchronous deployment with Adobe Experience Platform Launch
 ---
 
 # Asynchronous deployment

@@ -1,8 +1,8 @@
 ---
 title: Rules
-seo-title: Rules in Adobe Launch
-description: Adobe Launch rules
-seo-description: Adobe Launch rules
+seo-title: Rules in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch rules
+seo-description: Adobe Experience Platform Launch rules
 ---
 
 # Rules

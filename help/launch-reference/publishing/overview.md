@@ -1,8 +1,8 @@
 ---
 title: Publishing
-seo-title: Publishing in Adobe Launch
-description: Publishing in Adobe Launch
-seo-description: Publishing in Adobe Launch
+seo-title: Publishing in Adobe Experience Platform Launch
+description: Publishing in Adobe Experience Platform Launch
+seo-description: Publishing in Adobe Experience Platform Launch
 ---
 
 # Publishing

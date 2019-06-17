@@ -1,8 +1,8 @@
 ---
 title: Tutorials
-seo-title: Tutorials in Adobe Launch
-description: Adobe Launch tutorials
-seo-description: Adobe launch tutorials
+seo-title: Tutorials in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch tutorials
+seo-description: Adobe Experience Platform Launch tutorials
 ---
 
 # Tutorials
@@ -26,7 +26,7 @@ Step through these tutorials to learn more about Launch.
 <!--
 This step-by-step guide provides all you need to know to be an active contributor to the tutorials section of our user documentation. The goal is to get as many users involved in providing example how-to content as possible. We're excited to have you contributing!
 
-Adobe Launch uses the GitBook platform to display its documentation. It can be found [here](https://docs.adobelaunch.com/).
+Adobe Experience Platform Launch uses the GitBook platform to display its documentation. It can be found [here](https://docs.adobelaunch.com/).
 
 **Found a bug or issue? Submit it** [**here**](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/issues/new)**.**
 

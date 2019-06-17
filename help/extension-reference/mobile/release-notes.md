@@ -1,6 +1,6 @@
 ---
 title: Release Notes
-seo-title: Release Notes in Adobe Launch
+seo-title: Release Notes in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

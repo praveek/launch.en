@@ -1,8 +1,8 @@
 ---
 title: Content Security Policy (CSP)
-seo-title: Content Security Policy (CSP) in Adobe Launch
-description: Content Security Policy (CSP) in Adobe Launch
-seo-description: Content Security Policy (CSP) in Adobe Launch
+seo-title: Content Security Policy (CSP) in Adobe Experience Platform Launch
+description: Content Security Policy (CSP) in Adobe Experience Platform Launch
+seo-description: Content Security Policy (CSP) in Adobe Experience Platform Launch
 ---
 
 # Content Security Policy (CSP)

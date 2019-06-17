@@ -1,8 +1,8 @@
 ---
 title: Launch Overview
-seo-title: Launch Overview in Adobe Launch
-description: Adobe Launch overview
-seo-description: Adobe Launch overview
+seo-title: Launch Overview in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch overview
+seo-description: Adobe Experience Platform Launch overview
 ---
 
 # Launch Overview
@@ -85,7 +85,7 @@ Launch requires the following:
 * You must be an Adobe Experience Cloud customer.
 * You must deploy the Launch or DTM embed code on your web pages.
 
-## Adobe Launch FAQ
+## Adobe Experience Platform Launch FAQ
 
 Frequently asked questions about dynamic tag management.
 

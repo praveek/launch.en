@@ -1,8 +1,8 @@
 ---
 title: Core Extension
-seo-title: Core Extension for Adobe Launch
+seo-title: Core Extension for Adobe Experience Platform Launch
 description: The Core extension is the default extension released with Launch
-seo-description: Core Extension for Adobe Launch
+seo-description: Core Extension for Adobe Experience Platform Launch
 ---
 
 # Core Extension

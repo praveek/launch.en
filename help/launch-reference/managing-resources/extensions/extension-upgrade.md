@@ -1,8 +1,8 @@
 ---
 title: Extension Upgrade
-seo-title: Extension Upgrade in Adobe Launch
-description: Upgrade extensions in Adobe Launch
-seo-description: Upgrade extensions in Adobe Launch
+seo-title: Extension Upgrade in Adobe Experience Platform Launch
+description: Upgrade extensions in Adobe Experience Platform Launch
+seo-description: Upgrade extensions in Adobe Experience Platform Launch
 ---
 
 # Extension Upgrade

@@ -1,6 +1,6 @@
 ---
 title: Interacting with rules
-seo-title: Interacting with rules in Adobe Launch
+seo-title: Interacting with rules in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

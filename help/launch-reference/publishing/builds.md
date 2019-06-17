@@ -1,8 +1,8 @@
 ---
 title: Builds
-seo-title: Builds in Adobe Launch
-description: Adobe Launch builds
-seo-description: Adobe Launch builds
+seo-title: Builds in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch builds
+seo-description: Adobe Experience Platform Launch builds
 ---
 
 # Builds

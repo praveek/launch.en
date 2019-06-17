@@ -1,8 +1,8 @@
 ---
 title: Add the Experience Cloud ID Service Extension
-seo-title: Add the Experience Cloud ID Service Extension in Adobe Launch
-description: Add the Experience Cloud ID Service Extension with Adobe Launch
-seo-description: Add the Experience Cloud ID Service Extension with Adobe Launch
+seo-title: Add the Experience Cloud ID Service Extension in Adobe Experience Platform Launch
+description: Add the Experience Cloud ID Service Extension with Adobe Experience Platform Launch
+seo-description: Add the Experience Cloud ID Service Extension with Adobe Experience Platform Launch
 ---
 
 # Add the Experience Cloud ID Service Extension

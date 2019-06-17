@@ -1,6 +1,6 @@
 ---
 title: Configure Launch
-seo-title: Configure Adobe Launch
+seo-title: Configure Adobe Experience Platform Launch
 description: Launch properties, hosts, environments, data elements, and rules
 seo-description: Launch properties, hosts, environments, data elements, and rules
 ---
@@ -29,7 +29,7 @@ To complete this lesson, you must have permission to Develop, Approve, Publish, 
 
    ![](/help/assets/launch-solutionswitcheractivation.png)
 
-1. Under **[!UICONTROL Launch, by Adobe]**, click the **[!UICONTROL Go to Launch]** button.
+1. Under **[!UICONTROL Experience Platform Launch]**, click the **[!UICONTROL Go to Launch]** button.
 
 You should now see the Properties screen (if no properties have ever been created in the account this screen might be empty):
 

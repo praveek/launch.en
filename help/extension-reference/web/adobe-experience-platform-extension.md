@@ -1,8 +1,8 @@
 ---
 title: Adobe Experience Platform Extension
-seo-title: Adobe Experience Platform Extension in Adobe Launch
+seo-title: Adobe Experience Platform Extension in Adobe Experience Platform Launch
 description: Information about configuring the Adobe Experience Platform extension, and the options available when using this extension to build a rule
-seo-description: Adobe Experience Platform Extension in Adobe Launch
+seo-description: Adobe Experience Platform Extension in Adobe Experience Platform Launch
 ---
 
 # Adobe Experience Platform Extension

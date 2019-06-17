@@ -1,8 +1,8 @@
 ---
 title: Extensions
-seo-title: Extensions in Adobe Launch
-description: Adobe Launch extensions
-seo-description: Adobe Launch extensions
+seo-title: Extensions in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch extensions
+seo-description: Adobe Experience Platform Launch extensions
 ---
 
 # Extensions

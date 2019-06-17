@@ -1,19 +1,19 @@
 ---
 title: Upgrade Preparation Guide
-seo-title: Upgrade Preparation Guide in Adobe Launch
-description: Preparing to upgrade with Adobe Launch
-seo-description: Preparing to upgrade with Adobe Launch
+seo-title: Upgrade Preparation Guide in Adobe Experience Platform Launch
+description: Preparing to upgrade with Adobe Experience Platform Launch
+seo-description: Preparing to upgrade with Adobe Experience Platform Launch
 ---
 
 # Upgrade Preparation Guide
 
-Launch, by Adobe, is an entirely different system than DTM. Conceptually, they achieve the same goal, but the way they do so is different.
+Experience Platform Launch is an entirely different system than DTM. Conceptually, they achieve the same goal, but the way they do so is different.
 
 * The`_satellite`object looks different in Launch than it does in DTM.
 * The relationships between extensions, rules, and data elements are also different than before.
 * Some things that exist in both systems have moved to different locations or are accessed in different ways.
 
-The Upgrade Assistant creates a Launch property that works as closely as possible to the on-page behavior that you had in DTM. Refer to the following information about what moves and where it moves to in cases where the behavior differs from what you might expect.
+The [!UICONTROL Upgrade Assistant] creates a Launch property that works as closely as possible to the on-page behavior that you had in DTM. Refer to the following information about what moves and where it moves to in cases where the behavior differs from what you might expect.
 
 Examples of differences that are further defined below:
 

@@ -1,8 +1,8 @@
 ---
 title: Companies and properties
-seo-title: Companies and properties in Adobe Launch
-description: Adobe Launch companies and properties
-seo-description: Adobe Launch companies and properties
+seo-title: Companies and properties in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch companies and properties
+seo-description: Adobe Experience Platform Launch companies and properties
 ---
 
 # Companies and properties

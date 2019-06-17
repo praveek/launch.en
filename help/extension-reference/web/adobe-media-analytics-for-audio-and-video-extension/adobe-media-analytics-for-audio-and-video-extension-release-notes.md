@@ -1,8 +1,8 @@
 ---
 title: Adobe Media Analytics for Audio and Video Release Notes
-seo-title: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
-seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Launch
+seo-title: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
+description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
+seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
 ---
 
 # Adobe Media Analytics for Audio and Video Release Notes

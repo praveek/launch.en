@@ -1,6 +1,6 @@
 ---
 title: Configuration Keys
-seo-title: Configuration Keys in Adobe Launch
+seo-title: Configuration Keys in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

@@ -1,8 +1,8 @@
 ---
 title: Miscellaneous
-seo-title: Miscellaneous in Adobe Launch
-description: Miscellaneous tutorials for Adobe Launch
-seo-description: Miscellaneous tutorials for Adobe Launch
+seo-title: Miscellaneous in Adobe Experience Platform Launch
+description: Miscellaneous tutorials for Adobe Experience Platform Launch
+seo-description: Miscellaneous tutorials for Adobe Experience Platform Launch
 ---
 
 # Miscellaneous

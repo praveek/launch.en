@@ -1,8 +1,8 @@
 ---
 title: Quick Start
-seo-title: Quick Start in Adobe Launch
-description: Adobe Launch Quick Start
-seo-description: Adobe Launch Quick Start
+seo-title: Quick Start in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch Quick Start
+seo-description: Adobe Experience Platform Launch Quick Start
 ---
 
 # Quick Start
@@ -19,7 +19,7 @@ The basic Launch workflow:
 1. [Test in your dev environment](#test-in-your-dev-environment).
 1. [Promote to production](#promote-to-production).
 
-For an introductory video, see [Introduction to Launch, by Adobe](videos.md).
+For an introductory video, see [Introduction to Experience Platform Launch](videos.md).
 
 ## 1. Set up groups and users {#set-up-groups-and-users}
 

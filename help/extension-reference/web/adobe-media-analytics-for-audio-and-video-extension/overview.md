@@ -1,8 +1,8 @@
 ---
 title: Adobe Media Analytics for Audio and Video Extension
-seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
+seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Experience Platform Launch
 description: Information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension (Media Analytics extension)
-seo-description: Adobe Media Analytics for Audio and Video Extension in Adobe Launch
+seo-description: Adobe Media Analytics for Audio and Video Extension in Adobe Experience Platform Launch
 ---
 
 # Adobe Media Analytics for Audio and Video Extension
@@ -143,7 +143,7 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
->[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 ## Leveraging the sample HTML5 player
 

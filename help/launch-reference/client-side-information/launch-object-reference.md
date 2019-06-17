@@ -1,8 +1,8 @@
 ---
 title: Launch object reference
-seo-title: Launch object reference in Adobe Launch
-description: Adobe Launch object reference
-seo-description: Adobe Launch object reference
+seo-title: Launch object reference in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch object reference
+seo-description: Adobe Experience Platform Launch object reference
 ---
 
 # Launch object reference

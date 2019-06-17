@@ -1,8 +1,8 @@
 ---
 title: Implement Solutions
-seo-title: Implement Solutions in Adobe Launch
-description: Implement Adobe Experience Cloud Solutions in Adobe Launch
-seo-description: Implement Adobe Experience Cloud Solutions in Adobe Launch
+seo-title: Implement Solutions in Adobe Experience Platform Launch
+description: Implement Adobe Experience Cloud Solutions in Adobe Experience Platform Launch
+seo-description: Implement Adobe Experience Cloud Solutions in Adobe Experience Platform Launch
 ---
 
 # Implement Solutions

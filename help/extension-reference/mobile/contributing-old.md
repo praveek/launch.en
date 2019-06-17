@@ -1,6 +1,6 @@
 ---
 title: Contributing Guide
-seo-title: Contributing Guide in Adobe Launch
+seo-title: Contributing Guide in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

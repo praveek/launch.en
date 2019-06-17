@@ -1,8 +1,8 @@
 ---
 title: Adobe Target Extension
-seo-title: Adobe Target Extension for Adobe Launch
+seo-title: Adobe Target Extension for Adobe Experience Platform Launch
 description: Information about the options available when using this extension to build a rule
-seo-description: Adobe Target Extension for Adobe Launch
+seo-description: Adobe Target Extension for Adobe Experience Platform Launch
 ---
 
 # Adobe Target Extension

@@ -1,8 +1,8 @@
 ---
 title: Add a Data Element, a Rule, and a Library
-seo-title: Add a Data Element, a Rule, and a Library in Adobe Launch
-description: Data Element, a Rule, and a Library in Adobe Launch
-seo-description: Data Element, a Rule, and a Library in Adobe Launch
+seo-title: Add a Data Element, a Rule, and a Library in Adobe Experience Platform Launch
+description: Data Element, a Rule, and a Library in Adobe Experience Platform Launch
+seo-description: Data Element, a Rule, and a Library in Adobe Experience Platform Launch
 ---
 
 # Add a Data Element, a Rule, and a Library

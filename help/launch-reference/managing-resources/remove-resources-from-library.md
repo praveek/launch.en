@@ -1,8 +1,8 @@
 ---
 title: Remove resources from a library
-seo-title: Remove resources from a library in Adobe Launch
-description: Remove resources from an Adobe Launch library
-seo-description: Remove resources from an Adobe Launch library
+seo-title: Remove resources from a library in Adobe Experience Platform Launch
+description: Remove resources from an Adobe Experience Platform Launch library
+seo-description: Remove resources from an Adobe Experience Platform Launch library
 ---
 
 # Remove resources from a library

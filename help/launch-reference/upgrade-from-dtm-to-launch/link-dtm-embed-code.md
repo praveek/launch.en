@@ -1,8 +1,8 @@
 ---
 title: Link DTM Embed Code
-seo-title: Link DTM Embed Code in Adobe Launch
-description: Link DTM Embed Code using Adobe Launch
-seo-description: Link DTM Embed Code using Adobe Launch
+seo-title: Link DTM Embed Code in Adobe Experience Platform Launch
+description: Link DTM Embed Code using Adobe Experience Platform Launch
+seo-description: Link DTM Embed Code using Adobe Experience Platform Launch
 ---
 
 # Link DTM Embed Code

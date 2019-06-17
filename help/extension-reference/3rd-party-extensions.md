@@ -1,6 +1,6 @@
 ---
 title: Third-Party Extensions
-seo-title: Third-Party Extensions in Adobe Launch
+seo-title: Third-Party Extensions in Adobe Experience Platform Launch
 description: Provide documentation for your Launch extension here.
 seo-description: Provide documentation for your Launch extension here.
 ---

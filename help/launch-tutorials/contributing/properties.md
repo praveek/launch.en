@@ -1,8 +1,8 @@
 ---
 title: Properties
-seo-title: Properties in Adobe Launch
-description: Adobe Launch properties
-seo-description: Adobe Launch properties
+seo-title: Properties in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch properties
+seo-description: Adobe Experience Platform Launch properties
 ---
 
 # Properties

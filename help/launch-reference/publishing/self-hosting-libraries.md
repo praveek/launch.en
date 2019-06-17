@@ -1,8 +1,8 @@
 ---
 title: Self-hosting libraries
-seo-title: Self-hosting libraries in Adobe Launch
-description: Self-hosting libraries in Adobe Launch
-seo-description: Self-hosting libraries in Adobe Launch
+seo-title: Self-hosting libraries in Adobe Experience Platform Launch
+description: Self-hosting libraries in Adobe Experience Platform Launch
+seo-description: Self-hosting libraries in Adobe Experience Platform Launch
 ---
 
 # Self-hosting libraries

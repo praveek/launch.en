@@ -1,6 +1,6 @@
 ---
 title: Events Dispatched by Adobe Acquistion
-seo-title: Events Dispatched by Adobe Acquistion in Adobe Launch
+seo-title: Events Dispatched by Adobe Acquistion in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

@@ -1,8 +1,8 @@
 ---
 title: Implementation Overview
-seo-title: Implementation Overview in Adobe Launch
-description: Learn how to implement the Adobe Experience Cloud solutions with Adobe Launch
-seo-description: Implement the Adobe Experience Cloud solutions with Adobe Launch
+seo-title: Implementation Overview in Adobe Experience Platform Launch
+description: Learn how to implement the Adobe Experience Cloud solutions with Adobe Experience Platform Launch
+seo-description: Implement the Adobe Experience Cloud solutions with Adobe Experience Platform Launch
 ---
 
 # Implementation Overview

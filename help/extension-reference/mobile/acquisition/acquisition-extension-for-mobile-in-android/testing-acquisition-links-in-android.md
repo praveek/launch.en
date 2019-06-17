@@ -1,6 +1,6 @@
 ---
 title: Testing Acquisition Links in Android
-seo-title: Testing Acquisition Links in Android in Adobe Launch
+seo-title: Testing Acquisition Links in Android in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

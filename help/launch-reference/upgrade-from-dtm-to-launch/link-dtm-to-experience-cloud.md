@@ -1,8 +1,8 @@
 ---
 title: Link DTM to Experience Cloud
-seo-title: Link DTM to Experience Cloud in Adobe Launch
-description: Link DTM to Experience Cloud using Adobe Launch
-seo-description: Link DTM to Experience Cloud using Adobe Launch
+seo-title: Link DTM to Experience Cloud in Adobe Experience Platform Launch
+description: Link DTM to Experience Cloud using Adobe Experience Platform Launch
+seo-description: Link DTM to Experience Cloud using Adobe Experience Platform Launch
 ---
 
 # Link DTM to Experience Cloud

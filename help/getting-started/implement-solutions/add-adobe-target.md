@@ -1,8 +1,8 @@
 ---
 title: Add Adobe Target
-seo-title: Add Adobe Target in Adobe Launch
-description: implement Adobe Target with Adobe Launch using a global mbox with custom parameters
-seo-description: Implement Adobe Target with Adobe Launch using a global mbox with custom parameters
+seo-title: Add Adobe Target in Adobe Experience Platform Launch
+description: implement Adobe Target with Adobe Experience Platform Launch using a global mbox with custom parameters
+seo-description: Implement Adobe Target with Adobe Experience Platform Launch using a global mbox with custom parameters
 ---
 
 # Add Adobe Target

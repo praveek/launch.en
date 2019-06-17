@@ -1,8 +1,8 @@
 ---
 title: Core Release Notes
-seo-title: Core extension Release Notes in Adobe Launch
-description: Release notes for the Adobe Launch core extension
-seo-description: Release notes for the Adobe Launch core extension
+seo-title: Core extension Release Notes in Adobe Experience Platform Launch
+description: Release notes for the Adobe Experience Platform Launch core extension
+seo-description: Release notes for the Adobe Experience Platform Launch core extension
 ---
 
 # Core Extension Release Notes

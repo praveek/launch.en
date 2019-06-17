@@ -1,8 +1,8 @@
 ---
 title: Switch Environments with the Experience Cloud Debugger
-seo-title: Switch Environments with the Experience Cloud Debugger in Adobe Launch
-description: Switch Environments with the Experience Cloud Debugger in Adobe Launch
-seo-description: Switch Environments with the Experience Cloud Debugger in Adobe Launch
+seo-title: Switch Environments with the Experience Cloud Debugger in Adobe Experience Platform Launch
+description: Switch Environments with the Experience Cloud Debugger in Adobe Experience Platform Launch
+seo-description: Switch Environments with the Experience Cloud Debugger in Adobe Experience Platform Launch
 ---
 
 # Switch Environments with the Experience Cloud Debugger
@@ -38,6 +38,8 @@ Note that the currently implemented Launch property is shown on the [!UICONTROL 
 ![](/help/assets/switchenvironments-debuggeronweretail2.png)
 
 Open the Tools tab, then click **[!UICONTROL Adobe Launch]** > **[!UICONTROL Dynamically Insert Launch > Embed Code]** to open the text input field:
+
+<!-- Scott - Check UI. Adobe Launch or Adobe Experience Platform Launch? -->
 
 ![](/help/assets/switchenvironments-debugger-editembedcode.png)
 

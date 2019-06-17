@@ -1,8 +1,8 @@
 ---
 title: Example Tutorial
-seo-title: Example Tutorial in Adobe Launch
-description: Example tutorial in Adobe Launch
-seo-description: Example tutorial in Adobe Launch
+seo-title: Example Tutorial in Adobe Experience Platform Launch
+description: Example tutorial in Adobe Experience Platform Launch
+seo-description: Example tutorial in Adobe Experience Platform Launch
 ---
 
 # Example Tutorial

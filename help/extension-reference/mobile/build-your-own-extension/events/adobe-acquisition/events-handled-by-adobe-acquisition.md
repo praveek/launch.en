@@ -1,6 +1,6 @@
 ---
 title: Events Handled by Adobe Acquisition
-seo-title: Events Handled by Adobe Acquisition in Adobe Launch
+seo-title: Events Handled by Adobe Acquisition in Adobe Experience Platform Launch
 description: 
 seo-description: 
 ---

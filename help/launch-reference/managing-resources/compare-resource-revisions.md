@@ -1,8 +1,8 @@
 ---
 title: Compare resource revisions
-seo-title: Compare resource revisions in Adobe Launch
-description: Compare resource revisions in Adobe Launch
-seo-description: Compare resource revisions in Adobe Launch
+seo-title: Compare resource revisions in Adobe Experience Platform Launch
+description: Compare resource revisions in Adobe Experience Platform Launch
+seo-description: Compare resource revisions in Adobe Experience Platform Launch
 ---
 
 # Compare resource revisions
