@@ -145,11 +145,11 @@ In either case, ask an org admin to perform these steps for you, or to make you 
 
 ### 2. Open Admin Console
 
-Click Launch Admin Console.
+Click **Launch Admin Console**.
 
 ![](/help/assets/launch-admin-console-button.png)
 
-Click the Launch, by Adobe - `%Company Name%` card.
+Click the [!DNL Experience Platform Launch - `Company Name`] card.
 
 ![](/help/assets/launch-card.png)
 
@@ -157,9 +157,9 @@ You can also click Products in the top nav, then select Launch, by Adobe - `%Com
 
 ![](/help/assets/products-select-launch.png)
 
-If you do not see a Launch, by Adobe card and or if Launch, by Adobe does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
+If you do not see a [!DNL Experience Platform Launch] card and or if [!DNL Experience Platform Launch] does not appear in this list, then you are not an Org Admin, but you are a Product Admin for other Experience Cloud products. Because you are not an Administrator for Experience Platform Launch, you need to find an Org Admin who can perform these steps for you or who can make you a Product Admin for Launch.
 
-After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - `%Company Name%`.
+After you select Launch, a list of product profiles displays. Think of these profiles as permission groups. One profile is created for you and is named Launch - `Company Name`.
 
 ![](/help/assets/product-profiles.png)
 
