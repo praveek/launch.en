@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## June 18, 2019
+
+v1.5.0
+
+* **Direct Call Logging** - Browser logging for direct call rules will now provide additional details when it is passed.
+
 ## May 8, 2019
 
 v1.4.3
