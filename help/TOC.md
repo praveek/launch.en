@@ -73,26 +73,26 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
   * Adobe extensions {#adobe-extension}
     * [Adobe extensions overview](extension-reference/web/overview.md)
-    * Analytics extension {#analytics-extension}
+    * Adobe Analytics extension {#analytics-extension}
       * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
       * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
-    * Media Analytics extension {#media-analytics-extension}
-      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
     * [Adobe Audience Manager extension](extension-reference/web/adobe-audience-manager-extension.md)
     * [Adobe ContextHub extension](extension-reference/web/adobe-contexthub-extension.md)
-    * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
-    * Target extension {#target-extension}
-      * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
-      * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
-      * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
-    * Core extension {#core-extension}
-      * [Core extension](extension-reference/web/core-extension/overview.md)
-      * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
-    * ID Service extension {#id-service-extension}
+    * Adobe Experience Cloud ID Service extension {#id-service-extension}
       * [Experience Cloud ID Service extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
       * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
     * [Adobe Experience Platform extension](extension-reference/web/adobe-experience-platform-extension.md)
+    * Adobe Media Analytics extension {#media-analytics-extension}
+      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
+      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+    * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
+    * Adobe Target extension {#target-extension}
+      * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
+      * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
+    * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
+    * Launch Core extension {#core-extension}
+      * [Core extension](extension-reference/web/core-extension/overview.md)
+      * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
 
 <!--
