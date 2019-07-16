@@ -1,7 +1,7 @@
 ---
 title: Quick Start
 seo-title: Quick Start in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch Quick Start
+description: Adobe Experience Platform Launch Quick Start.
 seo-description: Adobe Experience Platform Launch Quick Start
 ---
 
