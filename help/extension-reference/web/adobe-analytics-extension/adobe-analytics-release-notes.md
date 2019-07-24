@@ -5,6 +5,32 @@ description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
 seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
 ---
 
+## July 18, 2019
+
+### Adobe Analytics Extension 1.7.6
+
+#### Features
+
+* Updated the Adobe Analytics extension to support DIL 9.2 for Audience Manager
+* Updated extension to support [AppMeasurement 2.15.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)    
+* Removed the following checkbox since it’s not supported anymore: "Do not attach the destination publishing IFRAME to the DOM or fire destinations"
+ 
+
+## June 4, 2019
+
+### Adobe Analytics Extension 1.7.5
+
+#### Features
+
+* Updated the Adobe Analytics Extension to [AppMeasurement 2.14.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) which includes a fix to a known clearVars issue
+* Added an Exchange link to the extension. The Exchange listing can be reached by clicking on the dropdown and selecting "extension info"
+
+#### Bug fixes
+
+* Fixed a bug in the UI that showed the incorrect evar being deleted from a list
+* Fixed a bug that was requiring an SSL tracking server when trying to add multiple report suites. When adding multiple report suites a tracking server is required but the SSL tracking server field is optional. 
+
+
 # Adobe Analytics Release Notes
 
 ## April 15, 2019
@@ -13,7 +39,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Bug Fixes
 
-* Rolled extension back after a bug was found in appMeasurement 2.13.0. appMeasurement 2.13.0 was causing an issue that wasn't sending the ECID, so if you installed 1.7.3 we recommend upgrading to 1.7.4 to avoid this problem. Note that the clearVars will continue until an updated version of appMeasurement is released.
+* Rolled extension back after a bug was found in appMeasurement 2.13.0. appMeasurement 2.13.0 was causing an issue that wasn't sending the ECID, so if you installed 1.7.3 we recommend upgrading to 1.7.4 to avoid this problem. Note that the clearVars will continue until an updated version of appMeasurement is released
 
 ## April 12, 2019
 
