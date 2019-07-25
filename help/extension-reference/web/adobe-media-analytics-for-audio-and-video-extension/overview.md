@@ -23,15 +23,11 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ## Install and configure the MA extension
 
-* **Install -** To install the MA extension, open your extension property,
-
-  click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
+* **Install -** To install the MA extension, open your extension property, click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
 
   extension, and click **[!UICONTROL Install]**.
 
-* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab,
-
-  hover over the extension, and then click **[!UICONTROL Configure]**:
+* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**:
 
 ![MA Extension Configuration](/help/assets/ext-va-config.jpg)
 
@@ -61,20 +57,45 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
 1. **Create MediaHeartbeat Instance:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
 
-   **Params:** A valid delegate object exposing these functions:
-
-   | Method | &nbsp;Description&nbsp;&nbsp; |
-   | :--- | :--- |
-   | `getQoSObject()` | Returns `theMediaObject` instance that contains current QoS information. This method will be called multiple times during a playback session. Player implementation must always return the most recently available QoS data. |
-   | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
-
-   **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
+    **Params:** A valid delegate object exposing these functions:
+ 
+    | Method | &nbsp;Description&nbsp;&nbsp; |
+    | :--- | :--- |
+    | `getQoSObject()` | Returns `theMediaObject` instance that contains current QoS information. This method will be called multiple times during a playback session. Player implementation must always return the most recently available QoS data. |
+    | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
+ 
+    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
 1. **Access MediaHeartbeat Constants:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat`
 
-   This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html) class.
+    This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html) class.
+ 
+    You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/js/samples/Launch/MediaExtensionSample). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
 
-   You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/js/samples/Launch/MediaExtensionSample). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
+1. Create the MediaHeartbeat tracker instance as follows:
+
+    ```javascript
+    var MediaHeartbeat = window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat;
+
+    var delegate = {
+        getCurrentPlaybackTime: this._getCurrentPlaybackTime.bind(this),
+        getQoSObject: this._getQoSObject.bind(this),
+    };
+    
+    var config = {
+        playerName: "Custom Player",
+        ovp: "Custom OVP",
+        channel: "Custom Channel"
+    };
+    
+    var self = this;
+    MediaHeartbeat.getInstance(delegate, config).then(function(instance) {
+        self._mediaHeartbeat = instance;
+        // Do Tracking using the MediaHeartbeat instance.
+    }).catch(function(err){
+        // Getting MediaHeartbeat instance failed.
+    });
+    ```
 
 ### Using from other extensions
 
@@ -84,32 +105,32 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. **Create MediaHeartbeat Instance:**&nbsp;`get-instance` Shared Module
 
-   **Params:**
-
-   * A valid delegate object exposing these functions:
-
-     | Method | Description |
-     | :--- | :--- |
-     | `getQoSObject()` | Returns the `MediaObject` instance that contains the current QoS information. This method will be called multiple times during a playback session. The player implementation must always return the most recently available QoS data. |
-     | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
-
-   * An optional config object exposing these properties:
-
-     | Property | Description | Required |
-     | :--- | :--- | :--- |
-     | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
-     | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
-     | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
-
-   **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
+    **Params:**
+ 
+    * A valid delegate object exposing these functions:
+ 
+       | Method | Description |
+       | :--- | :--- |
+       | `getQoSObject()` | Returns the `MediaObject` instance that contains the current QoS information. This method will be called multiple times during a playback session. The player implementation must always return the most recently available QoS data. |
+       | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
+ 
+    * An optional config object exposing these properties:
+ 
+       | Property | Description | Required |
+       | :--- | :--- | :--- |
+       | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
+       | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
+       | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
+ 
+    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
 1. **Access MediaHeartbeat Constants:**&nbsp;`media-heartbeat` Shared Module
 
-   This module exposes all of the constants and static methods from this class: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html).
+    This module exposes all of the constants and static methods from this class: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html).
 
 1. Create MediaHeartbeat tracker instance as follows:
 
-   ```javascript
+    ```javascript
     var getMediaHeartbeatInstance =
       turbine.getSharedModule('adobe-video-analytics', 'get-instance');
 
@@ -139,7 +160,7 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
     });
 
     ...
-   ```
+    ```
 
 1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
