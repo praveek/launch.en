@@ -5,6 +5,8 @@ description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
 seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
 ---
 
+# Adobe Analytics Release Notes
+
 ## July 18, 2019
 
 ### Adobe Analytics Extension 1.7.6
@@ -15,7 +17,6 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 * Updated extension to support [AppMeasurement 2.15.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)    
 * Removed the following checkbox since it’s not supported anymore: "Do not attach the destination publishing IFRAME to the DOM or fire destinations"
  
-
 ## June 4, 2019
 
 ### Adobe Analytics Extension 1.7.5
@@ -29,9 +30,6 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 * Fixed a bug in the UI that showed the incorrect evar being deleted from a list
 * Fixed a bug that was requiring an SSL tracking server when trying to add multiple report suites. When adding multiple report suites a tracking server is required but the SSL tracking server field is optional. 
-
-
-# Adobe Analytics Release Notes
 
 ## April 15, 2019
 
