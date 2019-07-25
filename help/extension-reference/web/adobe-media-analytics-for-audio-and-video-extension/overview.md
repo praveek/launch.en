@@ -11,8 +11,8 @@ Use this documentation for information on installing, configuring, and implement
 
 The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The MA extension requires two additional extensions:
 
-* [Analytics Extension](https://docs.adobelaunch.com/~/edit/drafts/-LNQre1_XrQVLOEWB0Jz/extension-reference/web/adobe-analytics-extension)
-* [Experience Cloud ID Extension](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension)
+* [Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)
+* [Experience Cloud ID Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)
 
 >[!IMPORTANT]  Audio tracking requires Analytics Extension v1.6 or higher.
 
@@ -23,15 +23,11 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ## Install and configure the MA extension
 
-* **Install -** To install the MA extension, open your extension property,
-
-  click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
+* **Install -** To install the MA extension, open your extension property, click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
 
   extension, and click **[!UICONTROL Install]**.
 
-* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab,
-
-  hover over the extension, and then click **[!UICONTROL Configure]**:
+* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**:
 
 ![MA Extension Configuration](/help/assets/ext-va-config.jpg)
 
@@ -49,7 +45,7 @@ After you have included all three of the extensions mentioned above in your Laun
 | Export APIs to Window Object | Enable or Disable exporting Media Analytics APIs to global scope |
 | Variable Name | A variable you use to export Media Analytics APIs under the `window` object |
 
-**Reminder:** The MA extension requires the [Analytics Extension](https://docs.adobelaunch.com/~/edit/drafts/-LNQre1_XrQVLOEWB0Jz/extension-reference/web/adobe-analytics-extension) and [Experience Cloud ID](https://docs.adobelaunch.com/extension-reference/web/experience-cloud-id-service-extension) extensions. You must also add these extensions to your extension property and configure them.
+**Reminder:** The MA extension requires the [Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) and [Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) extensions. You must also add these extensions to your extension property and configure them.
 
 ## Using the MA extension
 
@@ -59,57 +55,82 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
 >[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
-1. **Create MediaHeartbeat Instance:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
+1. **Create MediaHeartbeat Instance:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
 
-   **Params:** A valid delegate object exposing these functions:
+    **Params:** A valid delegate object exposing these functions:
+ 
+    | Method | &nbsp;Description&nbsp;&nbsp; |
+    | :--- | :--- |
+    | `getQoSObject()` | Returns `theMediaObject` instance that contains current QoS information. This method will be called multiple times during a playback session. Player implementation must always return the most recently available QoS data. |
+    | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
+ 
+    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
-   | Method | Description |
-   | :--- | :--- |
-   | `getQoSObject()` | Returns `theMediaObject` instance that contains current QoS information. This method will be called multiple times during a playback session. Player implementation must always return the most recently available QoS data. |
-   | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
+1. **Access MediaHeartbeat Constants:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat`
 
-   **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
+    This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html) class.
+ 
+    You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/js/samples/Launch/MediaExtensionSample). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
 
-1. **Access MediaHeartbeat Constants:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat`
+1. Create the MediaHeartbeat tracker instance as follows:
 
-   This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html) class.
+    ```javascript
+    var MediaHeartbeat = window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat;
 
-   You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/js/samples/Launch/MediaExtensionSample). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
+    var delegate = {
+        getCurrentPlaybackTime: this._getCurrentPlaybackTime.bind(this),
+        getQoSObject: this._getQoSObject.bind(this),
+    };
+    
+    var config = {
+        playerName: "Custom Player",
+        ovp: "Custom OVP",
+        channel: "Custom Channel"
+    };
+    
+    var self = this;
+    MediaHeartbeat.getInstance(delegate, config).then(function(instance) {
+        self._mediaHeartbeat = instance;
+        // Do Tracking using the MediaHeartbeat instance.
+    }).catch(function(err){
+        // Getting MediaHeartbeat instance failed.
+    });
+    ```
 
 ### Using from other extensions
 
-The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).)
+The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/extensions/shared_modules/).)
 
 >[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
-1. **Create MediaHeartbeat Instance:** `get-instance` Shared Module
+1. **Create MediaHeartbeat Instance:**&nbsp;`get-instance` Shared Module
 
-   **Params:**
+    **Params:**
+ 
+    * A valid delegate object exposing these functions:
+ 
+       | Method | Description |
+       | :--- | :--- |
+       | `getQoSObject()` | Returns the `MediaObject` instance that contains the current QoS information. This method will be called multiple times during a playback session. The player implementation must always return the most recently available QoS data. |
+       | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
+ 
+    * An optional config object exposing these properties:
+ 
+       | Property | Description | Required |
+       | :--- | :--- | :--- |
+       | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
+       | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
+       | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
+ 
+    **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
 
-   * A valid delegate object exposing these functions:
+1. **Access MediaHeartbeat Constants:**&nbsp;`media-heartbeat` Shared Module
 
-     | Method | Description |
-     | :--- | :--- |
-     | `getQoSObject()` | Returns the `MediaObject` instance that contains the current QoS information. This method will be called multiple times during a playback session. The player implementation must always return the most recently available QoS data. |
-     | `getCurrentPlaybackTime()` | Returns the current position of the playhead. For VOD tracking, the value is specified in seconds from the beginning of the media item. For LIVE/LIVE tracking, the value is specified in seconds from the beginning of the program. |
-
-   * An optional config object exposing these properties:
-
-     | Property | Description | Required |
-     | :--- | :--- | :--- |
-     | Online Video Provider | Name of the online video platform through which content is distributed. | No. If present, overrides the value defined during extension configuration. |
-     | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") | No. If present, overrides the value defined during extension configuration. |
-     | Channel | Channel name property | No. If present, overrides the value defined during extension configuration. |
-
-   **Return Value:** A promise which either resolves with a `MediaHeartbeat` instance or rejects with an error message.
-
-1. **Access MediaHeartbeat Constants:** `media-heartbeat` Shared Module
-
-   This module exposes all of the constants and static methods from this class: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html).
+    This module exposes all of the constants and static methods from this class: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html).
 
 1. Create MediaHeartbeat tracker instance as follows:
 
-   ```javascript
+    ```javascript
     var getMediaHeartbeatInstance =
       turbine.getSharedModule('adobe-video-analytics', 'get-instance');
 
@@ -139,12 +160,14 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
     });
 
     ...
-   ```
+    ```
 
-1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
+1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
 >[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
+
+<!--
 ## Leveraging the sample HTML5 player
 
 You can obtain the MA extension sample HTML5 player here: [HTML5 Sample Player](https://github.com/adobe/reactor-adobe-va-sample-player). The sample player acts as a reference to create video player extensions and to showcase using the MA extension to support media tracking.
@@ -201,3 +224,5 @@ Once the Sample Player extension is installed, you'll need to create at least on
 ![Player Extension Sample Rule](/help/assets/ext-va-sp-rule.png)
 
 After you have saved this rule, you will need to add it to a Library, and then build and deploy so that you can test the behavior.
+
+-->
