@@ -145,6 +145,8 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 >[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
+
+<!--
 ## Leveraging the sample HTML5 player
 
 You can obtain the MA extension sample HTML5 player here: [HTML5 Sample Player](https://github.com/adobe/reactor-adobe-va-sample-player). The sample player acts as a reference to create video player extensions and to showcase using the MA extension to support media tracking.
@@ -201,3 +203,5 @@ Once the Sample Player extension is installed, you'll need to create at least on
 ![Player Extension Sample Rule](/help/assets/ext-va-sp-rule.png)
 
 After you have saved this rule, you will need to add it to a Library, and then build and deploy so that you can test the behavior.
+
+-->
