@@ -18,6 +18,6 @@ For example, suppose that you have multiple websites based on one template, and 
 
 ![](/help/assets/launch-newproperty1.png)
 
-Your new property should display on the Properties page.  If you check the box next to the property name, options to **[!UICONTROL Configure]** or **[!UICONTROL Delete]** the property appear above the property list. Click on the name of your property (for example, “Launch Tutorial”) to open the [!UICONTROL Overview] screen.
+Your new property should display on the [!UICONTROL Properties] page.  If you check the box next to the property name, options to **[!UICONTROL Configure]** or **[!UICONTROL Delete]** the property appear above the property list. Click on the name of your property (for example, “Launch Tutorial”) to open the [!UICONTROL Overview] screen.
 
 ![](/help/assets/launch-openproperty.png)

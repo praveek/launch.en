@@ -5,22 +5,22 @@ description: Provides functionality for collecting and removing user IDs assigne
 seo-description: Adobe Privacy Extension for Adobe Experience Platform Launch
 ---
 
-# Adobe Privacy Extension
+# Adobe Privacy extension
 
- The Adobe Privacy extension provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions.
+ The [!DNL Adobe Privacy] extension provides functionality for collecting and removing user IDs assigned to end users by Adobe solutions.
 
-## Configure Solutions During Installation
+## Configure solutions during installation
 
-When you install the Adobe Privacy extension from the Extension Catalog, you are prompted to select the solutions you want to update. Currently you can update the following solutions:
+When you install the [!DNL Adobe Privacy] extension from the Extension Catalog, you are prompted to select the solutions you want to update. Currently you can update the following solutions:
 
-* Analytics (AA)
-* Audience Manager (AAM)
-* Target
-* Visitor Service
-* AdCloud
+* [!DNL Analytics (AA)]
+* [!DNL Audience Manager (AAM)]
+* [!DNL Target]
+* [!DNL Visitor Service]
+* [!DNL AdCloud]
 
 1. Select one or more solutions, then click **[!UICONTROL Update]**.
-1. When you have selected and configured your solutions, click **[!UICONTROL Save]**. The Adobe Privacy Extension is added to your installed extensions list.
+1. When you have selected and configured your solutions, click **[!UICONTROL Save]**. The [!DNL Adobe Privacy Extension] is added to your installed extensions list.
 
  The options for each solution are described below.
 
@@ -42,40 +42,40 @@ Click **[!UICONTROL Choose an Item]**, select the item you want to configure, th
 
 ![](/help/assets/ext-privacy-target.jpg)
 
-Enter the Target client code.
+Enter the [!DNL Target] client code.
 
 ### Visitor Service
 
 ![](/help/assets/ext-privacy-visitor.jpg)
 
-Enter your IMS Organization ID.
+Enter your [!DNL IMS] Organization ID.
 
 ### AdCloud
 
 ![](/help/assets/ext-privacy-adcloud.jpg)
 
-There are no specific parameters to configure for AdCloud.
+There are no specific parameters to configure for [!DNL AdCloud].
 
-## Configure the Adobe Privacy Extension
+## Configure the Adobe Privacy extension
 
-After you install the extension, you can disable or delete it. Click **[!UICONTROL Configure]** on the Adobe Privacy card in your installed extensions, then select either **[!UICONTROL Disable]** or **[!UICONTROL Uninstall]**.
+After you install the extension, you can disable or delete it. Click **[!UICONTROL Configure]** on the [!DNL Adobe Privacy] card in your installed extensions, then select either **[!UICONTROL Disable]** or **[!UICONTROL Uninstall]**.
 
 ## Actions
 
-The following actions are available when you configure a rule using the Adobe Privacy extension.
+The following actions are available when you configure a rule using the [!DNL Adobe Privacy] extension.
 
-### Retrieve Identities
+### Retrieve identities
 
 When the event and conditions are met, retrieve identity information that is stored for the visitor.
 
-Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
+Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the [!DNL Adobe GDPR] API, is within your control.
 
-### Remove Identities
+### Remove identities
 
 When the event and conditions are met, remove identity information that is stored for the visitor.
 
-Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the Adobe GDPR API, is within your control.
+Enter the name of a JavaScript function you want to pass the data to.  This function or method handles the retrieved Identities.  Whether you store them, display them, or send them to the [!DNL Adobe GDPR] API, is within your control.
 
-### Retrieve Then Remove Identies
+### Retrieve then remove identies
 
 When the event and conditions are met, retrieve identity information that is stored for the visitor, then remove it.

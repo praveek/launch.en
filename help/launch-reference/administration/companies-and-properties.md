@@ -21,19 +21,19 @@ For a video tutorial, see [Creating your first property](../../quick-start/video
 
 ## Companies
 
-In Launch, there is a 1:1 relationship between your companies and your Experience Cloud organizations.
+In [!DNL Launch], there is a 1:1 relationship between your companies and your [!DNL Experience Cloud] organizations.
 
-First, you can have one or several Launch company accounts. Companies contain properties. You can have one or several or any number of properties within a company account. Within a property, you can have one or any number of domains or subdomains.
+First, you can have one or several [!DNL Launch] company accounts. Companies contain properties. You can have one or several or any number of properties within a company account. Within a property, you can have one or any number of domains or subdomains.
 
 Some customers have one company that contains all of their properties. Some have a company that contains many properties, one for each domain or application. Some have a company that contains several properties, one for each type of site or app they manage.
 
 ## Separating the Launch environment for multiple entities
 
-There are a few ways to handle multiple geo markets, business units, domains, and subdomains in Launch.
+There are a few ways to handle multiple geo markets, business units, domains, and subdomains in [!DNL Launch].
 
 For example, you might have three properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, and the third contains all of your lead-generation sites.
 
->[!NOTE]  Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when Dynamic Tag Management is first installed on your site.
+>[!NOTE]  Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when [!DNL Dynamic Tag Management] is first installed on your site.
 
 ### Can we use separate instances for each?
 
@@ -49,19 +49,19 @@ With one property that contains multiple domains or applications, you may eventu
 
 ### What is the approach recommended by Adobe: one or separate companies?
 
-Multiple Launch companies are not recommended. Adobe strongly suggests multiple properties in a single company.
+Multiple [!DNL Launch] companies are not recommended. [!DNL Adobe] strongly suggests multiple properties in a single company.
 
 ## Best practices for planning properties {#best-practices-for-planning-properties}
 
-Each implementation can be very different in Launch, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
+Each implementation can be very different in [!DNL Launch], with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
 
 ### Web property groupings
 
-If the scenarios you are tracking, the data you are collecting, the extensions you are deploying, and the variables you are setting are similar across all or some of your domains and subdomains, it is easier to have those domains and subdomains grouped into the same property in Launch. If those are unique for each domain and subdomain, it is easier to have those domains and subdomains in their own property. If you choose to group domains and subdomains in a single property now, you can always change your mind and later create several web properties.
+If the scenarios you are tracking, the data you are collecting, the extensions you are deploying, and the variables you are setting are similar across all or some of your domains and subdomains, it is easier to have those domains and subdomains grouped into the same property in [!DNL Launch]. If those are unique for each domain and subdomain, it is easier to have those domains and subdomains in their own property. If you choose to group domains and subdomains in a single property now, you can always change your mind and later create several web properties.
 
 ### Mobile property groupings
 
-For mobile applications, if you are planning to send data to the same report suites, use the same 3rd party extensions and utilizie the same rules and data elements, it would make sense to group all of these mobile apps into the same property. If however, you need to send data to different report suites, or you wish to configure different extensions, then it would make sense to create separate properties. If you choose to group applications in a single property now, you can always change your mind and later create several properties.
+For mobile applications, if you are planning to send data to the same report suites, use the same 3rd-party extensions and use the same rules and data elements, it would make sense to group all of these mobile apps into the same property. If however, you need to send data to different report suites, or you wish to configure different extensions, then it would make sense to create separate properties. If you choose to group applications in a single property now, you can always change your mind and later create several properties.
 
 Considering the following when planning properties:
 
@@ -80,25 +80,25 @@ If your data collection needs are unique for each site or application, it might 
 
 ### Variables
 
-Similar to data, are the variables you are going to set in your Analytics and other extensions very similar, somewhat similar, or unique?
+Similar to data, are the variables you are going to set in your [!DNL Analytics] and other extensions very similar, somewhat similar, or unique?
 
 For example, if eVar27 is used for the same source value across all of your websites or applications, it might make sense to group those sites or applications together so you can set those common variables in just one property.
 
 ### Extensions, tags, and systems
 
-Are the extensions, tags and systems you are going to deploy through Launch very similar, somewhat similar, or unique?
+Are the extensions, tags and systems you are going to deploy through [!DNL Launch] very similar, somewhat similar, or unique?
 
-If the extensions, tags, and systems you are going to deploy through Launch are very similar across your sites or applications, you might want to include them in the same property.
+If the extensions, tags, and systems you are going to deploy through [!DNL Launch] are very similar across your sites or applications, you might want to include them in the same property.
 
-If you are deploying Adobe Analytics on only one site or application, and your other extensions and tags are also unique, you might want to create separate properties so that you have more control.
+If you are deploying [!DNL Adobe Analytics] on only one site or application, and your other extensions and tags are also unique, you might want to create separate properties so that you have more control.
 
-For example, If you are deploying Adobe Analytics, Target, and the same 3rd-party extensions across all of your sites or applications, that is a reason to group together.
+For example, If you are deploying [!DNL Adobe Analytics], [!DNL Target], and the same 3rd-party extensions across all of your sites or applications, that is a reason to group together.
 
 ### People
 
-For the individuals, teams, and organizations that are working in Launch, will they need access to all of your websites and applications, some of them, or just one?
+For the individuals, teams, and organizations that are working in [!DNL Launch], will they need access to all of your websites and applications, some of them, or just one?
 
-The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that Launch company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users (non-admins) by not giving them any role in that property.
+The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that [!DNL Launch] company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users (non-admins) by not giving them any role in that property.
 
 ## Deactivating a property
 
@@ -124,13 +124,13 @@ Click a property to see an overview of that property. The overview shows any act
 
 ## Create or configure a property
 
-Create or configure a property in Launch.
+Create or configure a property in [!DNL Launch].
 
 >[!NOTE]  Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
-Navigate to your company page, then click Add Property, or select an existing property from the list and click Configure.
+Navigate to your company page, then click [!UICONTROL Add Property], or select an existing property from the list and click [!UICONTROL Configure].
 
 ![](/help/assets/property-create.jpg)
 
@@ -157,11 +157,11 @@ Navigate to your company page, then click Add Property, or select an existing pr
     * **Use HTTPS:** Choose if all data communication should be sent over HTTP or HTTPS.
 1. Click **[!UICONTROL Save]**.
 
-Once your property is created, Launch will automatically add a default host, a set of environments (Development, Staging, and Production) and the default extensions.
+After your property is created, [!DNL Launch] automatically adds a default host, a set of environments (Development, Staging, and Production) and the default extensions.
 
 ## Delete a property
 
-Delete a property from Launch.
+Delete a property from [!DNL Launch].
 
 >[!NOTE]  Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
 

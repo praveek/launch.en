@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch rules
 
 # Rules
 
-Launch is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or client-side code you identified.
+[!DNL Launch] is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or client-side code you identified.
 
 Build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into a single solution.
 
@@ -17,11 +17,11 @@ Events are where the majority of interactions take place. You can measure and re
 
 **Events (If):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
 
-**Actions (Then):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in Launch can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
+**Actions (Then):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in [!DNL Launch] can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
-Important: Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!Important] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 ## Events and conditions (if)
 
@@ -39,7 +39,7 @@ If a specified event occurs, the conditions are evaluated, then the specified ac
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../../extension-reference/web/core-extension/overview.md#core-extension-event-types).
 
->[!NOTE]  DTM provided page load, event-based, and direct call event types. This is no longer true in Launch. Rather than event types, Launch extensions configure different individual events.
+>[!NOTE]  [!DNL DTM] provided page load, event-based, and direct call event types. This is no longer true in [!DNL Launch]. Rather than event types, [!DNL Launch] extensions configure different individual events.
 
 Only events are required. The conditions and exceptions are optional.
 
@@ -66,7 +66,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
    Some events don't have any properties that need to be configured.
 
-1. Set the Order parameter, then click Keep Changes.
+1. Set the Order parameter, then click **[!UICONTROL Keep Changes]**.
 
    Default order for all rule components is 50. If you want one to run sooner, give it a number lower than 50.
 
@@ -85,7 +85,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
 You can add other conditions. Multiple conditions within the same condition are joined with an OR, multiple conditions configurations are joined by AND. The rule's exceptions are evaluated if any of the events are met, along with their conditions.
 
-1. Click the Actions Add icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click **[!UICONTROL Keep Changes]**.
+1. Click the Actions **[!UICONTROL Add]** icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click **[!UICONTROL Keep Changes]**.
    >[!NOTE]  The available action types are defined by the extension.
 
    ![](/help/assets/rule-action-config.jpg)
@@ -104,11 +104,11 @@ When creating or editing rules, you can save and build to your [active library](
 
 Rule ordering allows you to control the order of execution for rules that share an event.
 
-It is often important to have your rules fire in a specific order. Examples: (1) you have several rules that conditionally set Analytics variables and you need to make sure that the rule with Send Beacon goes last. (2) you have a rule that fires Target and another rule that fires Analytics and you want the Target rule to run first.
+It is often important to have your rules fire in a specific order. Examples: (1) you have several rules that conditionally set [!DNL Analytics] variables and you need to make sure that the rule with Send Beacon goes last. (2) you have a rule that fires [!DNL Target] and another rule that fires [!DNL Analytics] and you want the [!DNL Target] rule to run first.
 
-Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you're using. For Adobe extensions, Adobe makes sure this works properly. For 3rd party extensions, Adobe provides guidance to extension developers to implement this properly, but it is up to them to do so.
+Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you're using. For [!DNL Adobe] extensions, [!DNL Adobe] makes sure this works properly. For 3rd-party extensions, [!DNL Adobe] provides guidance to extension developers to implement this properly, but it is up to them to do so.
 
-Adobe highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, Adobe recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. Launch supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
+[!DNL Adobe] highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, [!DNL Adobe] recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. [!DNL Launch] supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
 
 ### Scenarios
 
@@ -121,11 +121,11 @@ The load order for rules depends on whether the rule action is configured with J
 
 You can use `document.write` within your custom scripts regardless of the events configured for the rule.
 
-You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. Launch ensures that they are executed in that order.
+You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. [!DNL Launch] ensures that they are executed in that order.
 
 ### Rules with page bottom or page top event
 
-* **Javascript:** The JavaScript is embedded in the main Launch library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
+* **Javascript:** The JavaScript is embedded in the main [!DNL Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
 * **HTML:** The HTML is embedded in the main Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
 
 ### Rules with any other event

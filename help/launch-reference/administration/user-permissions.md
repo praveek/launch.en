@@ -9,59 +9,59 @@ seo-description: User permissions in Adobe Experience Platform Launch
 
 ## Permission types
 
-To work in Launch, there are two user permissions to understand:
+To work in [!DNL Launch], there are two user permissions to understand:
 
-* **Experience Cloud Permissions:** Found in the Admin Console at the company level, Experience Cloud permissions govern who can control group permissions and group membership for all Experience Cloud products.
-* **Launch Permissions:** The permissions for Launch, one of the Experience Cloud products, are found in the Admin Console at the Product Profile level. Launch permissions govern which users can actually perform certain actions when logged into Launch.
+* **Experience Cloud Permissions:** Found in the Admin Console at the company level, [!DNL Experience Cloud] permissions govern who can control group permissions and group membership for all [!DNL Experience Cloud] products.
+* **Launch Permissions:** The permissions for [!DNL Launch], one of the [!DNL Experience Cloud] products, are found in the Admin Console at the Product Profile level. [!DNL Launch] permissions govern which users can actually perform certain actions when logged into [!DNL Launch].
 
 This article examines these different permissions types in detail.
 
 ### Experience Cloud permissions {#experience-cloud-permissions}
 
-This section discusses factors that are important to understand when using Launch. See [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html) for a comprehensive view of Experience Cloud permissions.
+This section discusses factors that are important to understand when using [!DNL Launch]. See [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html) for a comprehensive view of [!DNL Experience Cloud] permissions.
 
 #### Organization Administrator
 
 Organization Administrators are often referred to as Org Admins. An Org Admin's main function is to assign permissions to other users. They do this by creating Product Profiles (or groups) that contain a specific set of rights within a specific product and then assigning users, existing or new, to that Product Profile.
 
-Enterprise Org Admins do not inherit any rights in Launch. They must add themselves to a Product Profile that has Launch rights if they want to do anything in Launch.
+Enterprise Org Admins do not inherit any rights in [!DNL Launch]. They must add themselves to a Product Profile that has [!DNL Launch] rights if they want to do anything in [!DNL Launch].
 
 #### Product Administrator
 
-A Product Administrator (or Product Admin) is similar to an Org Admin, but is narrower in scope. A Product Admin only has the permission to modify Product Profiles for a specific Adobe product, rather than all Adobe products the company has access to.
+A Product Administrator (or Product Admin) is similar to an Org Admin, but is narrower in scope. A Product Admin only has the permission to modify Product Profiles for a specific [!DNL Adobe] product, rather than all [!DNL Adobe] products the company has access to.
 
 ### Launch permissions
 
-Within the Experience Cloud, no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profile.
+Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profile.
 
-Within a Product Profile, Launch permissions are divided into two categories, property rights and company rights.
+Within a Product Profile, [!DNL Launch] permissions are divided into two categories, property rights and company rights.
 
 #### Property rights
 
-Any properties you create in Launch become available in the Admin Console for you to assign permissions. If a given Product Profile does not have access to Property A1, users who belong to that profile cannot see or modify any settings within Property A1.
+Any properties you create in [!DNL Launch] become available in the Admin Console for you to assign permissions. If a given Product Profile does not have access to Property A1, users who belong to that profile cannot see or modify any settings within Property A1.
 
 Assuming that a user belongs to a profile with access to Property A1, what they can do within Property A1 is determined by the rights they have been granted. Users with permissions to Property A1, but no assigned rights, have read-only access.
 
 You can set the following property rights:
 
-* **Develop:** Grants the ability to create rules and data elements. You can also create libraries and build them in existing development environments. You can submit a library for approval when ready.  Most day-to-day tasks in Launch require this right.
+* **Develop:** Grants the ability to create rules and data elements. You can also create libraries and build them in existing development environments. You can submit a library for approval when ready.  Most day-to-day tasks in [!DNL Launch] require this right.
 * **Approve:** Grants the ability to take a submitted library and build to the staging environment.  You can also approve a library for publishing once testing has been completed.
 * **Publish:** Grants the ability to publish approved libraries to the production environment.
 * **Manage Extensions:** Grants the abilities to install new extensions to a property, to modify the extension configuration for an already installed extension, and to delete an extension.  More information on extensions is available [here](../managing-resources/extensions/overview.md). This role typically belongs to IT or Marketing, depending on your organization.
-* **Manage Environments:** Grants the ability to create and modify environments. Read more about Environments [here](../publishing/environments.md). This role typically belongs to the IT group.
+* **Manage Environments:** Grants the ability to create and modify environments. Read more about environments [here](../publishing/environments.md). This role typically belongs to the IT group.
 
 #### Company rights
 
 Company rights apply to permissions that span multiple properties.  There are currently two:
 
-* **Manage Properties:** Grants the ability to create new properties in Launch and to modify the metadata and settings at the property level. You can also delete properties.  Read more about properties [here](companies-and-properties.md). Administrators usually perform this role.
-* **Develop Extensions:** Grants the ability to create and modify extension packages that are owned by the Company including private releases and requests for public release.
+* **Manage Properties:** Grants the ability to create new properties in [!DNL Launch] and to modify the metadata and settings at the property level. You can also delete properties.  Read more about properties [here](companies-and-properties.md). Administrators usually perform this role.
+* **Develop Extensions:** Grants the ability to create and modify extension packages that are owned by the company including private releases and requests for public release.
 
 ### Total user permissions
 
 An individual user's total permissions are determined by their total membership in different Product Profiles. If a user belongs to multiple Product Profiles, the permissions from each profile are added together rather than multiplied.
 
-For example: Product Profile A grants Henry the Develop right for Property 1. Product Profile B grants Henry the Publish right for Property 2. Henry can Develop in Property 1 and Publish in Property 2, but he cannot Publish in Property 1 or Develop in Property 2 because he has not been granted explicit rights to do so.
+For example: Product Profile A grants Henry the Develop right for Property 1. Product Profile B grants Henry the Publish right for Property 2. Henry can Develop in Property 1 and Publish in Property 2, but he cannot publish in Property 1 or Develop in Property 2 because he has not been granted explicit rights to do so.
 
 ## Rights scenarios {#rights-scenarios}
 
@@ -71,7 +71,7 @@ Below are a few common scenarios and a recommended starting point as you think a
 
 ### One-person show
 
-If you run a small company that has one person in charge of everything, grant this user permission to all Properties and assign them all rights listed above.
+If you run a small company that has one person in charge of everything, grant this user permission to all properties and assign them all rights listed above.
 
 ### Separation of duties
 
@@ -105,7 +105,7 @@ Here are a few descriptions of different roles that could apply in your organiza
 
 * The Manager: Wants to see what's going on, but shouldn't be able to make any changes.
 * The Marketer: Can install extensions and setup new tags for existing properties, but cannot publish to the staging or production environments.
-* The Mobile App Developer: Is responsible for implementing Adobe and 3rd party solutions inside a native mobile app.
+* The Mobile App Developer: Is responsible for implementing Adobe and 3rd-party solutions inside a native mobile app.
 * The IT Team: Doesn't actually modify any tags, but they have full control over the staging and production environments and what is in them.
 * Jack of All Trades: Does everything.
 
@@ -126,20 +126,20 @@ Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](
 
 ### 1. Sign in to Experience Cloud
 
-Sign in to [https://experiencecloud.adobe.com/](http://experiencecloud.adobe.com/) with your Adobe ID, then choose the organization to use within Launch from the Navigation menu.
+Sign in to [https://experiencecloud.adobe.com/](http://experiencecloud.adobe.com/) with your [!DNL Adobe] ID, then choose the organization to use within [!DNL Launch] from the [!UICONTROL Navigation] menu.
 
 ![](/help/assets/nav-menu.png)
 
-Open the solution picker by clicking the 9-dots icon from the navigation menu, then click Administration.
+Open the solution picker by clicking the 9-dots icon from the [!UICONTROL Navigation] menu, then click [!UICONTROL Administration].
 
 ![](/help/assets/choose-admin.png)
 
 If you can't see this link, both of the following conditions are true:
 
 * You are not an org admin.
-* You are not a product admin for any Experience Cloud products.
+* You are not a product admin for any [!DNL Experience Cloud] products.
 
-In either case, ask an org admin to perform these steps for you, or to make you a product admin for Launch so you can do it yourself.
+In either case, ask an org admin to perform these steps for you, or to make you a product admin for [!DNL Launch] so you can do it yourself.
 
 >[!NOTE]  If you don't know who your org admin is, contact Client Care.
 
@@ -155,7 +155,7 @@ Click the **[!DNL Experience Platform Launch] - `Company Name`** card.
 
 <!-- Scott, update above image. Rebranding. -->
 
-You can also click Products in the top nav, then select **[!DNL Experience Platform Launch] - `Company Name`** from the left nav.
+You can also click [!UICONTROL Products] in the top nav, then select **[!DNL Experience Platform Launch] - `Company Name`** from the left nav.
 
 ![](/help/assets/products-select-launch.png)
 
@@ -171,41 +171,41 @@ If you are editing an existing product profile, skip this step.
 
 Choose to edit this product profile, or create a new one.
 
-To create a new product profile, click New Profile.
+To create a new product profile, click [!UICONTROL New Profile].
 
-Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click Done.
+Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click [!UICONTROL Done].
 
 ![](/help/assets/profile-new.png)
 
 ### 4. Edit your product profile
 
-Select the product profile from the list, then open the Permissions tab. You can assign permissions across two dimensions: Properties and Rights.
+Select the product profile from the list, then open the [!UICONTROL Permissions] tab. You can assign permissions across two dimensions: Properties and Rights.
 
 ![](/help/assets/profile-permissions.png)
 
-To assign properties to this group definition, open the Properties section.
+To assign properties to this group definition, open the [!UICONTROL Properties] section.
 
 ![](/help/assets/profile-properties-select.png)
 
-A list shows your Launch properties.
+A list shows your [!DNL Launch] properties.
 
 ![](/help/assets/profile-properties.png)
 
 By default, new product configurations automatically include properties. This means that all properties (present and future) are included in the group definition.
 
-If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking Add.
+If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking [!UICONTROL Add].
 
 ![](/help/assets/profile-properties-add.png)
 
-Click Save when finished.
+Click [!UICONTROL Save] when finished.
 
 ### 5. Assign rights
 
-Assign the rights you want to be part of your group definition. Open the Rights section.
+Assign the rights you want to be part of your group definition. Open the [!UICONTROL Rights] section.
 
 ![](/help/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the + Add All button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](user-permissions.md#rights-scenarios). Click Save when finished. If Save is not available, you didn't make any changes and the profile won't give you any rights.
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the [!UICONTROL + Add All] button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](user-permissions.md#rights-scenarios). Click [!UICONTROL Save] when finished. If [!UICONTROL Save] is not available, you didn't make any changes and the profile won't give you any rights.
 
 First, assign Property Rights:
 
@@ -228,29 +228,29 @@ Some important notes:
 
 ### 6. Assign users to groups
 
-To assign users to be part of your group, open the Users tab, then click Add User.
+To assign users to be part of your group, open the [!UICONTROL Users] tab, then click [!UICONTROL Add User].
 
 ![](/help/assets/profile-user.png)
 
-Click ... for additional options, such as bulk user operations.
+Click [!UICONTROL ...] for additional options, such as bulk user operations.
 
->[!NOTE]  Being an Org Admin or a Product Admin does not grant you any rights within the Launch product. You must belong to at least one product profile.
+>[!NOTE]  Being an Org Admin or a Product Admin does not grant you any rights within the [!DNL Launch] product. You must belong to at least one product profile.
 
 Search for the user you'd like to add to the group. You can search by name or by email address. This auto-populates from existing users in your Org. Once you have found the user you want, click on their name.
 
-Once you've added users, they receive an email letting them know that they now have rights to Launch. They can login to Launch at [https://launch.adobe.com](https://launch.adobe.com).
+Once you've added users, they receive an email letting them know that they now have rights to [!DNL Launch]. They can login to [!DNL Launch] at [https://launch.adobe.com](https://launch.adobe.com).
 
->[!NOTE]  If the user does not exist, you can simply type their entire email address, then provide a first and last name. The new user receives an email, and when they create an Adobe ID from that email invitation, they are linked together with the user account you created for them. If you are assigning permissions for yourself, you won't have this issue.
+>[!NOTE]  If the user does not exist, you can simply type their entire email address, then provide a first and last name. The new user receives an email, and when they create an [!DNL Adobe] ID from that email invitation, they are linked together with the user account you created for them. If you are assigning permissions for yourself, you won't have this issue.
 
 ## Common issues
 
 ### Error loading account
 
-When you log in to launch, you receive a message saying "Error Loading Account".
+When you log in to [!DNL Launch], you receive a message saying "Error Loading Account".
 
 ![](/help/assets/profile-error.png)
 
-Resolution: Your user does not belong to any Launch product profiles. See the steps above to create a profile and assign rights to it, and to assign a user to a profile.
+Resolution: Your user does not belong to any [!DNL Launch] product profiles. See the steps above to create a profile and assign rights to it, and to assign a user to a profile.
 
 ### Grayed-out Property button
 

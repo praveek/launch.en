@@ -5,9 +5,9 @@ description: Documentation for the Launch Extensions provided by Adobe solutions
 seo-description: Documentation for the Launch Extensions provided by Adobe solutions.
 ---
 
-# Adobe Extensions
+# Adobe extensions
 
-Learn about the extansions available from the Launch extensions library.
+Learn about the extensions available from the [!DNL Launch] extensions library.
 
 * [Adobe Extensions Overview](/help/extension-reference/web/overview.md)
 * [Third-Party Extensions](/help/extension-reference/3rd-party-extensions.md)

@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch object reference
 
 # Launch object reference
 
-In many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+In many form fields in the [!DNL Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
 >[!NOTE]  This method has been deprecated. Please use `_satellite.logger.log()` instead.
 
@@ -17,7 +17,7 @@ In many form fields in the Launch user interface, you can use the `%%` syntax to
 
 >[!NOTE]  This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
 
->[!NOTE]  A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
+>[!NOTE]  A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). [!DNL Launch] works with whatever supported methods have been provided by the monitor.
 
 ## Launch Object Reference
 
@@ -55,7 +55,7 @@ var product = _satellite.getVar('product');
 
 If a data element exists with a matching name, the data element's value will be returned. If no matching data element exists, it will then check to see if a custom variable with a matching name has previously been set using `_satellite.setVar()`. If a matching custom variable is found, its value will be returned.
 
-Note that in many form fields in the Launch user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+Note that in many form fields in the [!DNL Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
 ### setVar
 
@@ -93,7 +93,7 @@ _satellite.getVisitorId() => Object
 var visitorIdInstance = _satellite.getVisitorId();
 ```
 
-If the Adobe Experience Cloud ID extension is installed on the property, this method returns the Visitor ID instance. See the [Experience Cloud ID Service documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fmarketing.adobe.com%2Fresources%2Fhelp%2Fen_US%2Fmcvid%2F) for more information.
+If the [!DNL Adobe Experience Cloud ID] extension is installed on the property, this method returns the Visitor ID instance. See the [Experience Cloud ID Service documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fmarketing.adobe.com%2Fresources%2Fhelp%2Fen_US%2Fmcvid%2F) for more information.
 
 ### logger
 
@@ -121,7 +121,7 @@ _satellite.logger.error(message: string)
 _satellite.logger.error('No product ID found.');
 ```
 
-Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
+Logs a message to the browser console. The message will only be displayed if [!DNL Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 ### cookie
 
@@ -166,7 +166,7 @@ A utility for reading and writing cookies. This is an exposed copy of the third-
 _satellite.buildInfo
 ```
 
-This object contains information about the build of the current Launch runtime library. The object contains the following properties:
+This object contains information about the build of the current [!DNL Launch] runtime library. The object contains the following properties:
 
 #### turbineVersion
 
@@ -215,7 +215,7 @@ _satellite.notify(message: string[, level: number])
 _satellite.notify('Hello world!');
 ```
 
-Logs a message to the browser console. The message will only be displayed if Launch debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
+Logs a message to the browser console. The message will only be displayed if [!DNL Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 An optional logging level can be passed which will affect styling and filtering of the message being logged. Supported levels are as follows:
 
@@ -295,7 +295,7 @@ _satellite._container
 
 #### Example
 
-Important: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!Important] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 ### monitor
 
@@ -307,11 +307,11 @@ _satellite._monitors
 
 #### Example
 
-Important: This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!Important] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 #### Sample
 
-On your web page running a Launch library, add a snippet of code to your HTML. Typically, the code is placed in the `<head>` tag before the `<script>` tag that loads the Launch library. This allows the monitor to catch the earliest system events that occur in the Launch library. For example:
+On your web page running a Launch library, add a snippet of code to your HTML. Typically, the code is placed in the `<head>` tag before the `<script>` tag that loads the [!DNL Launch] library. This allows the monitor to catch the earliest system events that occur in the [!DNL Launch] library. For example:
 
 ```html
 <!DOCTYPE html>
@@ -353,7 +353,7 @@ On your web page running a Launch library, add a snippet of code to your HTML. T
 </html>
 ```
 
-In the first script tag, because the Launch library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array. The monitor object can specify the following methods which will later be called by the Launch library:
+In the first script tag, because the [!DNL Launch] library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array. The monitor object can specify the following methods which will later be called by the [!DNL Launch] library:
 
 #### ruleTriggered
 
@@ -373,12 +373,12 @@ If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` wi
 
 #### Testing the Monitor
 
-The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the Launch library:
+The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the [!DNL Launch] library:
 
-1. A rule that has a click event and a browser condition that passes only if the browser is Chrome.
-1. A rule that has a click event and a browser condition that passes only if the browser is Firefox.
+1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Chrome].
+1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Firefox].
 
-If you open the page in Chrome, open the browser console, and click the page, the following appears in the console:
+If you open the page in [!DNL Chrome], open the browser console, and click the page, the following appears in the console:
 
 ![](/help/assets/debug.png)
 

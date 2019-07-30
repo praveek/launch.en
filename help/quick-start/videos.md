@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch videos
 
 # Videos
 
-These videos introduce you to Launch concepts and tasks.
+These videos introduce you to [!DNL Launch] concepts and tasks.
 
 * [Introduction to Experience Platform Launch](https://www.youtube.com/embed/rwqqkG1SERU)
 * [User management](https://www.youtube.com/embed/ba28BHX8cwU)

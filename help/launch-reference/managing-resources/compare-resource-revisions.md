@@ -41,7 +41,7 @@ In Compare view, differences between settings versions are highlighted.  Additio
 
 Above, you can see the following changes:
 
-* The Adobe Analytics extension is updated to a new version, indicated by the orange version numbers at the top.
+* The [!DNL Adobe Analytics] extension is updated to a new version, indicated by the orange version numbers at the top.
 * The `orgID` and `currencyCode` are changed to the settings indicated by the expansion of the orange section in the settings.
 
 ## Comparing data elements
@@ -73,9 +73,9 @@ Above, you can see the following changes:
 
 * The rule name changed from "Analytics" to "Baseline Analytics," indicated by the orange bar by Name.
 * The "Core - Domain" condition was added,  indicated by the orange "+" icon and the component's addition on the right side.
-* The "Adobe Analytics - Clear Variables" action was removed, indicated by the orange "-" icon and the absence of the component on the right side.
-* The "Adobe Analytics - Set Variables" action was modified, indicated by the orange line between the versions of the component on the left and right sides. This line is straight if the component order has not changed.
-* The "Adobe Analytics - Set Variables" action and the "Adobe Analytics - Send Beacon" action order has changed, indicated by the curved lines connecting the different versions of the components on the left and right sides
+* The "[!DNL Adobe Analytics] - Clear Variables" action was removed, indicated by the orange "-" icon and the absence of the component on the right side.
+* The "[!DNL Adobe Analytics] - Set Variables" action was modified, indicated by the orange line between the versions of the component on the left and right sides. This line is straight if the component order has not changed.
+* The "[!DNL Adobe Analytics] - Set Variables" action and the "[!DNL Adobe Analytics] - Send Beacon" action order has changed, indicated by the curved lines connecting the different versions of the components on the left and right sides
 
 To view the specific modifications to one of the rule components, click the specific component you'd like to view.  The line changes to blue when you mouse over.
 

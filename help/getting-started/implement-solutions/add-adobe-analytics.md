@@ -7,37 +7,37 @@ seo-description: Add Adobe Analytics in Adobe Experience Platform Launch
 
 # Add Adobe Analytics
 
-This tutorial implements the [Adobe Analytics extension](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension) and creates rules to send data to Adobe Analytics. [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/) is an industry-leading solution that empowers you to understand your customers as people and steer your business with customer intelligence.
+This tutorial implements the [Adobe Analytics extension](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension) and creates rules to send data to [!DNL Adobe Analytics]. [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/) is an industry-leading solution that empowers you to understand your customers as people and steer your business with customer intelligence.
 
 ## Objectives
 
 At the end of this lesson, you will be able to:
 
-* Add the Adobe Analytics extension
+* Add the [!DNL Adobe Analytics] extension
 * Set global variables using the extension
 * Add the page view beacon
 * Add additional variables using rules
 * Add click-tracking and other event-based beacons
-* Add Analytics plugins
+* Add [!DNL Analytics] plugins
 
-There are many things that could be implemented for Analytics in Launch. This tutorial is not exhaustive, but should give you a solid overview of the main techniques you need for implementing Analytics on your own site.
+There are many things that could be implemented for [!DNL Analytics] in [!DNL Launch]. This tutorial is not exhaustive, but should give you a solid overview of the main techniques you need for implementing [!DNL Analytics] on your own site.
 
 ## Prerequisites
 
-You should have already completed the tutorials in Configure Launch and Add the ID Service. Additionally, you need at least one report suite ID and your tracking server. If you don't have a test/dev report suite that you can use for this tutorial, create one. If you are unsure how to do that, see [the documentation](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html). You can retrieve your tracking server from your current implementation, Adobe Consultant or Customer Care representative.
+You should have already completed the tutorials in Configure [!DNL Launch] and Add the ID Service. Additionally, you need at least one report suite ID and your tracking server. If you don't have a test/dev report suite that you can use for this tutorial, create one. If you are unsure how to do that, see [the documentation](https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html). You can retrieve your tracking server from your current implementation, [!DNL Adobe] Consultant or Customer Care representative.
 
 ## Add the Analytics Extension
 
-The Analytics extension consists of two main parts:
+The [!DNL Analytics] extension consists of two main parts:
 
 * The extension configuration, which manages the core AppMeasurement.js library settings and can set global variables
 * Rule actions to do the following:
   * Set Variables
   * Clear Variables
-  * Send the Analytics Beacon
-* Go to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]** and locate the Adobe Analytics extension.
+  * Send the [!DNL Analytics] Beacon
+* Go to **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]** and locate the [!DNL Adobe Analytics] extension.
 * Click **[!UICONTROL Install]**.
-* Under **[!UICONTROL Library Management]** > **[!UICONTROL Report Suites]**, enter the report suite IDs you want to use with each Launch environment.
+* Under **[!UICONTROL Library Management]** > **[!UICONTROL Report Suites]**, enter the report suite IDs you want to use with each [!DNL Launch] environment.
 
   In this tutorial, you can use one report suite for all environments, but in production you would want to use separate report suites, as shown in the image below:
 
@@ -58,13 +58,13 @@ The Analytics extension consists of two main parts:
 
 ## Send the Page View beacon
 
-Next, create a rule to fire the Analytics beacon, which sends the Page Name variable set in the extension configuration.
+Next, create a rule to fire the [!DNL Analytics] beacon, which sends the Page Name variable set in the extension configuration.
 
-You have already created an "All Pages - Library Loaded" rule in the Add a Data Element, a Rule and a Library tutorial, which is triggered on every page when the Launch library loads. You could use this rule for Analytics as well. However, this setup requires all data layer attributes used in the Analytics beacon to be defined before the Launch embed codes. To allow more flexibility with the data collection, create a new "all pages" rule triggered on DOM Ready to fire the Analytics beacon.
+You have already created an "All Pages - Library Loaded" rule in the _Add a Data Element, a Rule and a Library_ tutorial, which is triggered on every page when the [!DNL Launch] library loads. You could use this rule for [!DNL Analytics] as well. However, this setup requires all data layer attributes used in the [!DNL Analytics] beacon to be defined before the [!DNL Launch] embed codes. To allow more flexibility with the data collection, create a new "all pages" rule triggered on DOM Ready to fire the [!DNL Analytics] beacon.
 
 1. Go to the **[!UICONTROL Rules]** in the top navigation and then click **[!UICONTROL Add Rule]**.
 1. Name the rule All Pages - DOM Ready.
-1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the Event Configuration screen.
+1. Click **[!UICONTROL Events]** > **[!UICONTROL Add]** to open the [!UICONTROL Event Configuration] screen.
 1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
 
    Note that the order of the rule is "50."
@@ -85,11 +85,11 @@ You have already created an "All Pages - Library Loaded" rule in the Add a Data 
 
 ### Validate the Page View beacon
 
-After you have created a rule to send an Analytics beacon, you should be able to see the request in the Experience Cloud Debugger.
+After you have created a rule to send an [!DNL Analytics] beacon, you should be able to see the request in the [!DNL Experience Cloud Debugger].
 
-1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser.
-1. Click the Debugger icon to open the **[!UICONTROL Adobe Experience Cloud Debugger]**.
-1. Make sure the Debugger is mapping the Launch property to your Development environment, as described in the earlier lesson.
+1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your [!DNL Chrome] browser.
+1. Click the [!DNL Debugger] icon to open the **[!UICONTROL Adobe Experience Cloud Debugger]**.
+1. Make sure the [!DNL Debugger] is mapping the [!DNL Launch] property to your Development environment, as described in the earlier lesson.
 
    ![](/help/assets/switchenvironments-debuggeronweretail1.png)
 
@@ -102,13 +102,13 @@ After you have created a rule to send an Analytics beacon, you should be able to
 
 ## Add Variables with Rules
 
-When you configured the Analytics Extension, you populated the `pageName` variable in the extension configuration. This is a fine location to populate other global variables such as eVars and props, provided the value is available on the page before the Launch embed code loads.
+When you configured the [!DNL Analytics] extension, you populated the `pageName` variable in the extension configuration. This is a fine location to populate other global variables such as eVars and props, provided the value is available on the page before the Launch embed code loads.
 
-A more flexible location to set variables, as well as events, is in rules using the Set Variables action. Rules allow you to set different Analytics variables and events under different conditions. For example, you could set the `prodView` only on product detail pages and the purchase event only on order confirmation pages. This section shows you how to set variables using rules.
+A more flexible location to set variables, as well as events, is in rules using the Set Variables action. Rules allow you to set different [!DNL Analytics] variables and events under different conditions. For example, you could set the `prodView` only on product detail pages and the purchase event only on order confirmation pages. This section shows you how to set variables using rules.
 
 ### Use Case
 
-Product Detail Pages (PDP) are important points for data collection on retail sites. Typically, you want Analytics to register that a product view occurred and which product was viewed. This is helpful in understanding which products are popular with your customers. On a media site, article or video pages could use similar tracking techniques to the ones demonstrated in this section. When you load a Product Detail Page, you might want to put that value into a Page Type eVar, as well as set some events and the product id. This allows us to see the following in our analysis:
+Product Detail Pages (PDP) are important points for data collection on retail sites. Typically, you want [!DNL Analytics] to register that a product view occurred and which product was viewed. This is helpful in understanding which products are popular with your customers. On a media site, article or video pages could use similar tracking techniques to the ones demonstrated in this section. When you load a Product Detail Page, you might want to put that value into a Page Type eVar, as well as set some events and the product id. This allows us to see the following in our analysis:
 
 1. How many times product detail pages are loaded?
 1. Which specific products are viewed and how many times?
@@ -116,7 +116,7 @@ Product Detail Pages (PDP) are important points for data collection on retail si
 
 ### Create Data Element for Page Type
 
-First, you need to identify which pages are the Product Detail pages. You do that with a Data Element.
+First, you need to identify which pages are the Product Detail pages. You do that with a data element.
 
 1. Click **[!UICONTROL Data Elements]** in the top navigation.
 1. Click **[!UICONTROL Add Data Element]**.
@@ -131,7 +131,7 @@ First, you need to identify which pages are the Product Detail pages. You do tha
 
 ### Create Data Element for Product ID
 
-Next, collect the product ID of the current Product Detail page with a Data Element.
+Next, collect the product ID of the current Product Detail page with a data element.
 
 1. Click **[!UICONTROL Data Elements]** in the top navigation, then click **[!UICONTROL Add Data Element]**.
 
@@ -146,12 +146,12 @@ Next, collect the product ID of the current Product Detail page with a Data Elem
 
 ### Add the Adobe Analytics Product String Extension
 
-If you are familiar with Adobe Analytics implementations, you are probably already familiar with the [products variable](https://marketing.adobe.com/resources/help/en_US/sc/implement/products.html) . The products variable has a specific syntax and gets used in slightly different ways depending on the context. To help make the population of the products variable easier in Launch, three additional extensions have been created in the Launch extension marketplace.
+If you are familiar with [!DNL Adobe Analytics] implementations, you are probably already familiar with the [products variable](https://marketing.adobe.com/resources/help/en_US/sc/implement/products.html) . The products variable has a specific syntax and gets used in slightly different ways depending on the context. To help make the population of the products variable easier in [!DNL Launch], three additional extensions have been created in the [!DNL Launch] extension marketplace.
 
-In this section you will add an extension created by Adobe Consulting for use on the Product Detail page.
+In this section, you will add an extension created by [!DNL Adobe] Consulting for use on the Product Detail page.
 
 1. Go to the **[!UICONTROL Extensions]** > **[!UICONTROL Catalog]** page.
-1. Find the Adobe Analytics Product String extension by Adobe Consulting Services and click **[!UICONTROL Install]**.
+1. Find the [!DNL Adobe Analytics] Product String extension by [!DNL Adobe] Consulting Services and click **[!UICONTROL Install]**.
 
    ![](/help/assets/analytics-addproductstringextension.png)
 
@@ -172,7 +172,7 @@ Use your new data elements and extension to build your Product Detail page rule.
    ![](/help/assets/analytics-domreadyaddevent1.png)
 
 1. Select **[!UICONTROL Event Type]** > **[!UICONTROL DOM Ready]**.
-1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the Analytics > Send Beacon action.
+1. Set the **[!UICONTROL Order]** to 40, so that the rule will run before the rule containing the [!DNL Analytics] > Send Beacon action.
 
    ![](/help/assets/analytics-configdomreadyevent.png)
 
@@ -211,7 +211,7 @@ Use your new data elements and extension to build your Product Detail page rule.
 1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set s.products]**.
 1. Select **[!UICONTROL Action Type]** > **[!UICONTROL Set Variables]**.
 1. In the **[!UICONTROL Analytics E-commerce Event]** section, select **[!UICONTROL prodView]**.
-1. In the **[!UICONTROL Data layer variables for product data]** section, use the Data Element picker to choose the Product ID data element.
+1. In the **[!UICONTROL Data layer variables for product data]** section, use the data element picker to choose the Product ID data element.
 1. Click **[!UICONTROL Keep Changes]**.
 1. Click **[!UICONTROL Save to Library and Build]**.
 
@@ -219,15 +219,15 @@ Use your new data elements and extension to build your Product Detail page rule.
 
 ### Validate the Product Detail Page Data
 
-In the previous section, you created a rule that sets variables before the beacon is sent. You should now be able to see the data going out in the hit in the Experience Cloud Debugger.
+In the previous section, you created a rule that sets variables before the beacon is sent. You should now be able to see the data going out in the hit in the [!DNL Experience Cloud Debugger].
 
-1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser.
+1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your [!DNL Chrome] browser.
 1. Navigate to any product detail page.
-1. Click the Debugger icon to open Adobe Experience Cloud Debugger.
-1. Open the Analytics tab.
+1. Click the [!UICONTROL Debugger] icon to open [!DNL Adobe Experience Cloud Debugger].
+1. Open the [!UICONTROL Analytics] tab.
 1. Expand your report suite.
 
-   Notice the Product Detail Variables that are now in the debugger, namely that eVar1 has been set to `product detail page`, that the Events variable has been set to `event1` and `prodView`, that the products variable is set with the product ID of the product you are viewing, and that your Page Name is still set by the Analytics extension.
+   Notice the Product Detail variables that are now in the debugger, namely that eVar1 has been set to `product detail page`, that the Events variable has been set to `event1` and `prodView`, that the products variable is set with the product ID of the product you are viewing, and that your Page Name is still set by the [!DNL Analytics] extension.
 
 ![](/help/assets/analytics-validatepdpvars.png)
 
@@ -241,7 +241,7 @@ This tutorial shows how to trigger an `s.tl()` call using an "Enters Viewport" J
 
 ### The Use Case
 
-You want to know if people are scrolling far enough down on the We.Retail home page to see the New Arrivals section of the page. Some people in the company disagree about whether people are seeing that section, so you want to use Analytics to determine the truth.
+You want to know if people are scrolling far enough down on the We.Retail home page to see the New Arrivals section of the page. Some people in the company disagree about whether people are seeing that section, so you want to use [!DNL Analytics] to determine the truth.
 
 #### Create the rule and add an event
 
@@ -256,7 +256,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
    This brings up a field where you enter the CSS selector that identifies the item on your page that should trigger the rule when becomes visible in the browser.
 
 1. Go back to the home page of We.Retail and scroll down to the New Arrivals section.
-1. Right-click on the space between the "NEW ARRIVALS" title and the items in this section, and select Inspect from the right-click menu.
+1. Right-click on the space between the "NEW ARRIVALS" title and the items in this section, and select **[!UICONTROL Inspect]** from the right-click menu.
 
    This is near the section you want to be visible.
 
@@ -265,9 +265,9 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
    ![](/help/assets/analytics-copyelementselector.png)
 
-1. Go back to Launch and paste this value from the clipboard into the field labeled **[!UICONTROL Elements]** matching the CSS selector.
+1. Go back to [!DNL Launch] and paste this value from the clipboard into the field labeled **[!UICONTROL Elements]** matching the CSS selector.
 
-   It is up to you to decide how to identify CSS selectors. This method requires care, because certain changes on the page can break this selector. Consider this when using any CSS selectors in Launch.
+   It is up to you to decide how to identify CSS selectors. This method requires care, because certain changes on the page can break this selector. Consider this when using any CSS selectors in [!DNL Launch].
 
 1. Click **[!UICONTROL Keep Changes]**.
 
@@ -303,7 +303,7 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 1. Choose the **s.tl()** tracking option.
 1. In the **[!UICONTROL Link Name]** field, enter Scrolled down to New Arrivals.
 
-   This value will be included in the Custom Links report in Analytics.
+   This value will be included in the Custom Links report in [!DNL Analytics].
 
 1. Click **[!UICONTROL Keep Changes]**.
 1. Click **[!UICONTROL Save to Library and Build]**.
@@ -312,15 +312,15 @@ You want to know if people are scrolling far enough down on the We.Retail home p
 
 Make sure that this hit occurs when you scroll down to the New Arrivals section of the home page of the site. When you first load the home page the request shouldn't be made, but after you scroll down and the section comes into view, the hit should fire with the specified values.
 
-1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser, make sure you are at the top of the home page, then click the Debugger icon to open the Adobe Experience Cloud Debugger.
-1. Open the Analytics tab and expand the hit for your report suite.
+1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your [!DNL Chrome] browser, make sure you are at the top of the home page, then click the [!UICONTROL Debugger] icon to open the [!DNL Adobe Experience Cloud Debugger].
+1. Open the [!UICONTROL Analytics] tab and expand the hit for your report suite.
 
    Notice the normal page view hit for the home page with the page name and other elements, but nothing in eVar3 or prop3.
 
    ![](/help/assets/analytics-debuggerpageview.png)
 
-1. With the Debugger open, scroll down on your site until you can see the New Arrivals section.
-1. View the Debugger again. Another Analytics hit should appear.
+1. With the [!DNL Debugger] open, scroll down on your site until you can see the New Arrivals section.
+1. View the [!DNL Debugger] again. Another [!DNL Analytics] hit should appear.
 
    This hit should have the parameters associated with the `s.tl()` hit that you set up, namely:
 
@@ -334,7 +334,7 @@ Make sure that this hit occurs when you scroll down to the New Arrivals section 
 
 ## Add a plug-in
 
-A plug-in is a piece of JavaScript code that you can add to your implementation to perform a function that is not built into the product. Plug-ins can be built by you, by other Adobe Customers or Partners, or by Adobe Consulting.
+A plug-in is a piece of JavaScript code that you can add to your implementation to perform a function that is not built into the product. Plug-ins can be built by you, by other [!DNL Adobe] customers or partners, or by [!DNL Adobe] Consulting.
 
 To implement plug-ins, there are three steps:
 
@@ -344,22 +344,22 @@ To implement plug-ins, there are three steps:
 
 ### Make the Analytics object globally accessible
 
-If you are going to add the `doPlugins` function (below) and use plug-ins, you need to check a box to make the Analytics `s` object available globally in the Analytics implementation.
+If you are going to add the `doPlugins` function (below) and use plug-ins, you need to check a box to make the [!DNL Analytics] `s` object available globally in the [!DNL Analytics] implementation.
 
 1. Go to **[!UICONTROL Extensions]** > **[!UICONTROL Installed]**.
-1. In the Adobe Analytics extension, click **[!UICONTROL Configure]**.
+1. In the [!DNL Adobe Analytics] extension, click **[!UICONTROL Configure]**.
 
    ![](/help/assets/analytics-configureextension.png)
 
 1. Under **[!UICONTROL Library Management]**, select the box labeled **[!UICONTROL Make tracker globally accessible]**.
 
-   As you can see in the help bubble, this causes the tracker to be scoped globally under window.s, which is important when you refer to it in your customer JavaScript.
+   As you can see in the help bubble, this causes the tracker to be scoped globally under `window.s`, which is important when you refer to it in your customer JavaScript.
 
 ### Including the doPlugins function
 
-To add plug-ins, you need to add a function called `doPlugins`. This function is not added by default, but once added, is handled by the AppMeasurement library. It is called last when a hit is sent to Adobe Analytics. Therefore, you can use this function to run some JavaScript to set variables that are easier set this way.
+To add plug-ins, you need to add a function called `doPlugins`. This function is not added by default, but once added, is handled by the [!DNL AppMeasurement] library. It is called last when a hit is sent to [!DNL Adobe Analytics]. Therefore, you can use this function to run some JavaScript to set variables that are easier set this way.
 
-1. While still in the Analytics extension, scroll down and expand the section titled Configure Tracking Using Custom Code.
+1. While still in the [!DNL Analytics] extension, scroll down and expand the section titled Configure Tracking Using Custom Code.
 1. Click **[!UICONTROL Open Editor]**.
 1. Paste the following code into the code editor:
 
@@ -375,7 +375,7 @@ To add plug-ins, you need to add a function called `doPlugins`. This function is
 
 ### Add Function Code for the Plug-in
 
-The function code calls two plug-ins, but one of them is built into the AppMeasurement library, so you do not need to add the function to call that one. However, for the second one, you need to add the function code. This function is called `getValOnce()`.
+The function code calls two plug-ins, but one of them is built into the [!DNL AppMeasurement] library, so you do not need to add the function to call that one. However, for the second one, you need to add the function code. This function is called `getValOnce()`.
 
 The purpose of this plug-in is to keep values from being falsely duplicated in the code when a visitor refreshes a page or uses the browser's back button to go back to a page where a value was set. This tutorial uses it to keep the clickthrough event from being duplicated.
 
@@ -393,7 +393,7 @@ The code for this plug-in is available in the [Analytics Documentation](https://
    +"==0?0:a);}return v==k?'':v");
    ```
 
-1. Paste it into the code window in the Analytics extension, **completely below** the `doPlugins` function (not inside of it).
+1. Paste it into the code window in the [!DNL Analytics] extension, **completely below** the `doPlugins` function (not inside of it).
 
    If you don't still have extension open, reopen it as per the previous step.
 
@@ -405,7 +405,7 @@ You can now call this plug-in from within `doPlugins`.
 
 Now that the code is in place and can be referenced, you can make the calls to plug-ins within the `doPlugins` function.
 
-First, call a plug-in which has been incorporated into the AppMeasurement library, and so is known as a "utility." It is referred to as `s.Util.getQueryParam`, because it is part of the s object, is a built-in utility, and will grab values based on a parameter from the query string in the URL.
+First, call a plug-in which has been incorporated into the [!DNL AppMeasurement] library, and so is known as a "utility." It is referred to as `s.Util.getQueryParam`, because it is part of the s object, is a built-in utility, and will grab values based on a parameter from the query string in the URL.
 
 1. Copy the following code:
 
@@ -434,28 +434,28 @@ First, call a plug-in which has been incorporated into the AppMeasurement librar
 
 Make sure that the plug-ins are working.
 
-1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your Chrome browser, then click the Debugger icon to open the Adobe Experience Cloud Debugger.
-1. Click to the Analytics tab and expand your report suite.
+1. Open the [We.Retail site](https://aem.enablementadobe.com/content/we-retail/us/en.html) in your [!DNL Chrome] browser, then click the [!UICONTROL Debugger] icon to open the [!DNL Adobe Experience Cloud Debugger].
+1. Click to the [!UICONTROL Analytics] tab and expand your report suite.
 
-   Notice the Analytics hit does not have a Campaign variable.
+   Notice the [!DNL Analytics] hit does not have a Campaign variable.
 
-1. Leaving the Debugger open, go back to the We.Retail site and add `?cid=1234` to the URL, then press **[!UICONTROL Enter]** to refresh the page with that query string included.
+1. Leaving the [!DNL Debugger] open, go back to the We.Retail site and add `?cid=1234` to the URL, then press **[!UICONTROL Enter]** to refresh the page with that query string included.
 
    ![](/help/assets/analytics-cidadded.png)
 
-1. Check the Debugger and confirm that there is a second Analytics request with a Campaign variable set to 1234.
+1. Check the [!DNL Debugger] and confirm that there is a second [!DNL Analytics] request with a [!DNL Campaign] variable set to 1234.
 
    ![](/help/assets/analytics-getqueryparam1.png)
 
 1. Go back and refresh the We.Retail page again, with the query string still in the URL.
-1. Check the next hit in the Debugger.
+1. Check the next hit in the [!DNL Debugger].
 
-   The Campaign variable should **not** be present, because the getValOnce plug-in has made sure that it isn't duplicated to look like another person came in from the campaign tracking code.
+   The [!DNL Campaign] variable should **not** be present, because the getValOnce plug-in has made sure that it isn't duplicated to look like another person came in from the campaign tracking code.
 
 ### Rule Validation: Product, Cart, and Checkout flow
 
 ![](/help/assets/analytics-getqueryparam2.png)
 
-You can test this over and over by changing the value of the `cid` parameter in the query string. The Campaign variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the Campaign value in the debugger, simply change the value of the `cid` in the query string of the URL and press **[!UICONTROL Enter]** to see it again in the debugger. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the Analytics extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
+You can test this over and over by changing the value of the `cid` parameter in the query string. The [!DNL Campaign] variable should only be there if it is the **first** time you run the page with the value. If you are not seeing the [!DNL Campaign] value in the debugger, simply change the value of the `cid` in the query string of the URL and press **[!UICONTROL Enter]** to see it again in the [!DNL Debugger]. There are actually a few different ways to fetch a parameter out of the query string of the URL, including in the [!DNL Analytics] extension configuration. However, in these other non-plug-in options, they don't provide the ability to stop unnecessary duplication, as you have done here with the `getValOnce` plug-in. This is a common method, but you should determine which method works best for you and your needs.
 
-You have completed the Analytics tutorials. Of course, there are many other things that you can do to enhance your Analytics implementation, but these tutorials have demonstrated some of the core skills needed to implement Analytics.
+You have completed the [!DNL Analytics] tutorials. Of course, there are many other things that you can do to enhance your [!DNL Analytics] implementation, but these tutorials have demonstrated some of the core skills needed to implement [!DNL Analytics].

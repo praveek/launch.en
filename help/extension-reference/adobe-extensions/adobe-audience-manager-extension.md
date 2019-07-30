@@ -7,7 +7,7 @@ seo-description: Adobe Audience Manager Extension for Adobe Experience Platform 
 
 # Adobe Audience Manager Extension
 
-With the Audience Manager extension, you can integrate the DIL code used by Audience Manager with your properties in Adobe Experience Platform Launch.
+With the [!DNL Audience Manager] extension, you can integrate the DIL code used by [!DNL Audience Manager] with your properties in [!DNL Adobe Experience Platform] [!DNL Launch].
 
 Use this reference for information about the options available when using this extension to build a rule.
 
@@ -16,9 +16,9 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Audience Manager extension
 
-If the Adobe Audience Manager extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Audience Manager extension, and click **[!UICONTROL Install]**.
+If the [!DNL Adobe Audience Manager] extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the [!DNL Adobe Audience Manager] extension, and click **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
 ### DIL Settings
 
@@ -42,7 +42,7 @@ Enable Regex if the URL is a regular expression.
 
 #### Use DIL Site Catalyst Module
 
-The [SiteCatalyst module](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_sc_init.html) works with DIL to send Analytics tag elements to Audience Manager.
+The [SiteCatalyst module](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_sc_init.html) works with DIL to send Analytics tag elements to [!DNL Audience Manager].
 
 Use the Code Editor to configure the siteCatalyst.init file.
 
@@ -64,15 +64,15 @@ Click **[!UICONTROL Save]** when you have finished configuring the extension.
 
 ## Adobe Audience Manager extension action types
 
-This topic describes the action types available in the Audience Manager extension.
+This topic describes the action types available in the [!DNL Audience Manager] extension.
 
-The Adobe Audience Manager extension provides the following actions in the Then portion of a rule:
+The [!DNL Adobe Audience Manager] extension provides the following actions in the Then portion of a rule:
 
 ### Run Custom Code
 
-Run the custom code configured in the code editor.
+Run the custom code configured in the Code Editor.
 
-Enter the desired code in the Code Editor, then provide a name for the code. This code will become available in the Then portion of the rule builder.
+Enter the desired code in the Code Editor, then provide a name for the code. This code becomes available in the Then portion of the rule builder.
 
 ![](/help/assets/ext-aam-then.png)
 
