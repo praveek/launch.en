@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch tutorials
 
 # Tutorials
 
-Step through these tutorials to learn more about Launch.
+Step through these tutorials to learn more about [!DNL Launch].
 
 * [Companies](companies.md)
 * [Hosts](hosts.md)

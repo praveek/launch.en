@@ -5,9 +5,9 @@ description: The Core extension is the default extension released with Launch.
 seo-description: Core Extension for Adobe Experience Platform Launch
 ---
 
-# Core Extension
+# Core extension
 
-The Core extension is the default extension released with Launch.
+The Core extension is the default extension released with [!DNL Launch].
 
 Use this reference for information about the options available when using this extension to build a rule.
 
@@ -19,13 +19,13 @@ For information about options that can be set for several different event types,
 
 ### Browser
 
-#### Tab Blur
+#### Tab blur
 
 Trigger the action when a tab loses the focus.
 
 There are no settings for this event type.
 
-#### Tab Focus
+#### Tab focus
 
 Trigger the action when a tab gains the focus.
 
@@ -53,7 +53,7 @@ See [Options](#options), below.
 
 ### Keyboard
 
-#### Key Press
+#### Key press
 
 Trigger the event if a key is pressed.
 
@@ -61,37 +61,37 @@ See [Options](#options), below.
 
 ### Media
 
-#### Media Ended
+#### Media ended
 
 Trigger the event when the media ends.
 
 See [Options](#options), below.
 
-#### Media Loaded Data
+#### Media loaded data
 
 Trigger the event when the media loads data.
 
 See [Options](#options), below.
 
-#### Media Pause
+#### Media pause
 
 Trigger the event when the media is paused.
 
 See [Options](#options), below.
 
-#### Media Play
+#### Media play
 
 Trigger the even when the media is played.
 
 See [Options](#options), below.
 
-#### Media Stalled
+#### Media stalled
 
 Trigger the event if the media stalls.
 
 See [Options](#options), below.
 
-#### Media Time Played
+#### Media time played
 
 Trigger the event if the media is played for a specified length of time.
 
@@ -99,7 +99,7 @@ See [Options](#options), below.
 
 In addition, specify that the event is triggered after a specific amount of time.
 
-#### Media Volume Changed
+#### Media volume changed
 
 Trigger the event if the volume is raised or lowered.
 
@@ -107,7 +107,7 @@ See [Options](#options), below.
 
 ### Mobile
 
-#### Orientation Change
+#### Orientation change
 
 Trigger the event if the device's orientation changes.
 
@@ -115,7 +115,7 @@ There are no settings for this event type.
 
 In addition, specify that the event is triggered after a specific amount of time.
 
-#### Zoom Change
+#### Zoom change
 
 Trigger the event if the user zooms in or out.
 
@@ -143,7 +143,7 @@ In addition, configure whether the rule is triggered immediately or after a spec
 
 ### Other
 
-#### Custom Event
+#### Custom event
 
 Trigger the event if a custom event type occurs.
 
@@ -151,27 +151,27 @@ You can name a JavaScript function that you've defined elsewhere and use it for 
 
 Specify the name of the custom event type, then configure the other settings as described in [Options](#options), below.
 
-#### Data Element Changed
+#### Data element changed
 
 Trigger the event if a specified data element changes.
 
 Enter the data element name. You can select the data element from a list by clicking the icon and then selecting the data element.
 
-#### Direct Call
+#### Direct call
 
 Designed to bypass event detection and lookup systems.
 
-Direct call rules are ideal for situations where you want to tell Launch exactly what is happening. Also, they are ideal when Launch cannot detect an event in the DOM, such as with Adobe Flash.
+Direct call rules are ideal for situations where you want to tell [!DNL Launch] exactly what is happening. Also, they are ideal when [!DNL Launch] cannot detect an event in the DOM, such as with [!DNL Adobe Flash].
 
 Specify the `_satellite.track` string.
 
-#### Element Exists
+#### Element exists
 
 Trigger the event if a specified element exists.
 
 See [Options](#options), below.
 
-#### Enters Viewport
+#### Enters viewport
 
 Trigger the event if the specified element enters the viewport (the user's visible area of a web page).
 
@@ -181,13 +181,13 @@ You can also specify whether the rule is triggered the first time the element en
 
 In addition, configure whether the rule is triggered immediately or after a specified number of milliseconds.
 
-#### History Change
+#### History change
 
 Trigger the event if a pushState or hashchange occurs.
 
 There are no settings for this event type.
 
-#### Time Spent on Page
+#### Time spent on page
 
 Trigger the event if the user remains on the page for a specified number of seconds.
 
@@ -195,7 +195,7 @@ Specify the number of seconds that must pass before the event is triggered.
 
 ### Page load
 
-#### DOM Ready
+#### DOM ready
 
 Trigger when the DOM is ready.
 
@@ -207,7 +207,7 @@ Trigger the event when the page loads.
 
 There are no settings for this event type.
 
-#### Page Bottom {#page-bottom}
+#### Page bottom {#page-bottom}
 
 Trigger the event if the user reaches the bottom of the page
 
@@ -217,10 +217,10 @@ There are no settings for this event type.
 
 Each of the form event types uses the following settings:
 
-#### Specific Elements \| Any Element
+#### Specific elements \| Any element
 
-* If you choose Specific Elements, the options to select the elements and property values appear.
-* If you choose Any Element, there are no further options required to narrow down the elements.
+* If you choose [!UICONTROL Specific Elements], the options to select the elements and property values appear.
+* If you choose [!UICONTROL Any Element], there are no further options required to narrow down the elements.
 
 #### Elements matching the CSS selector
 
@@ -262,13 +262,13 @@ Specify the cookie name and value that must exist for an event to trigger an act
 1. Enter the value that must exist in the cookie if the event is to trigger an action.
 1. (Optional) Enable Regex if this is a regular expression.
 
-#### Cookie Opt-out
+#### Cookie opt-out
 
 Specify whether the user has opted out of cookies.
 
 Set whether the user accepts cookies.
 
-#### Custom Code
+#### Custom code
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
@@ -335,23 +335,23 @@ Specify the JavaScript variable name and value that must exist for an event to t
 
 ### Engagement
 
-#### Landing Page
+#### Landing page
 
 Specify the page the user must land on to trigger the event.
 
 1. Specify the landing page.
 1. (Optional) Enable Regex if this is a regular expression.
 
-#### New/Returning Visitor
+#### New/returning visitor
 
 Specify whether the visitor should be a new visitor or a returning visitor for an event to trigger an action.
 
 Select one of the following:
 
-* New Visitor
-* Returning Visitor
+* [!UICONTROL New Visitor]
+* [!UICONTROL Returning Visitor]
 
-#### Page Views
+#### Page views
 
 Configure the number of times the visitor must view the page before the action is triggered.
 
@@ -368,7 +368,7 @@ Trigger the action if the user's number of sessions meets the specified criteria
 1. Select whether the number of sessions must be greater than, equal to, or less than the specified value.
 1. Specify the number of sessions that determines whether the condition is met.
 
-#### Time On Site
+#### Time on site
 
 Trigger the action if the user's number of sessions meets the specified criteria.
 
@@ -377,7 +377,7 @@ Configure how long the visitor must be on the site before the action is triggere
 1. Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
 1. Specify the number of minutes that determines whether the condition is met.
 
-#### Traffic Source
+#### Traffic source
 
 Trigger the action if the user's number of sessions meets the specified criteria.
 
@@ -388,11 +388,11 @@ Specify the source of the visitor's traffic that must be true for the action to 
 
 ### Other
 
-#### Date Range
+#### Date range
 
 Specify a date range. Choose the date and time the event occurs after, the date it occurs before, and the time zone.
 
-#### Max Frequency
+#### Max frequency
 
 Specify the maximum number of times the condition returns true. You can select from the following options:
 
@@ -417,49 +417,49 @@ Select the browser the visitor must use for the action to be triggered.
 
 Select one or more of the following browsers:
 
-* Chrome
-* Firefox
-* Internet Explorer/Edge
-* Internet Explorer Mobile
-* Mobile Safari
-* OmniWeb
-* Opera
-* Opera Mini
-* Opera Mobile
-* Safari
+* [!DNL Chrome]
+* [!DNL Firefox]
+* [!DNL Internet Explorer/Edge]
+* [!DNL Internet Explorer] Mobile
+* Mobile [!DNL Safari]
+* [!DNL OmniWeb]
+* [!DNL Opera]
+* [!DNL Opera] Mini
+* [!DNL Opera] Mobile
+* [!DNL Safari]
 
-#### Device Type
+#### Device type
 
 Select the device type the visitor must use for the action to be triggered.
 
 Select one or more of the following device types:
 
-* Android
-* Blackberry
+* [!DNL Android]
+* [!DNL Blackberry]
 * Desktop
-* iPad
-* iPhone
-* iPod
-* Nokia
-* Windows Phone
+* [!DNL iPad]
+* [!DNL iPhone]
+* [!DNL iPod]
+* [!DNL Nokia]
+* [!DNL Windows] Phone
 
-#### Operating System
+#### Operating system
 
 Select the operating system the visitor must use for the action to be triggered.
 
 Select one or more of the following operating systems:
 
-* Android
-* Blackberry
-* iOS
-* Linux
-* MacOS
-* Maemo
-* Symbian OS
-* Unix
-* Windows
+* [!DNL Android]
+* [!DNL Blackberry]
+* [!DNL iOS]
+* [!DNL Linux]
+* [!DNL MacOS]
+* [!DNL Maemo]
+* [!DNL Symbian OS]
+* [!DNL Unix]
+* [!DNL Windows]
 
-#### Screen Resolution
+#### Screen resolution
 
 Select the screen resolution visitors must use on their devices for the action to be triggered.
 
@@ -468,7 +468,7 @@ Select the screen resolution visitors must use on their devices for the action t
 1. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
 1. Specify the number of pixels required for the screen resolution height.
 
-#### Window Size
+#### Window size
 
 Select the window size visitors must use on their devices for the action to be triggered.
 
@@ -522,7 +522,7 @@ Specify one or more subdomains that must exist in the URL.
 1. (Optional) Enable Regex if this is a regular expression.
 1. Add any other subdomains.
 
-#### URL Parameter
+#### URL parameter
 
 Specify URL parameter used in the URL.
 
@@ -544,13 +544,13 @@ Specify the cookie name and value that can't exist for an event to trigger an ac
 1. Enter the value that must not exist in the cookie if the event is to trigger an action.
 1. (Optional) Enable Regex if this is a regular expression.
 
-#### Cookie Opt-out
+#### Cookie opt-out
 
 Specify whether the user has opted out of cookies.
 
 Set whether the user accepts cookies.
 
-#### Custom Code
+#### Custom code
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
@@ -558,7 +558,7 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 1. Type the custom code.
 1. Click **[!UICONTROL Save]**.
 
-#### Value Comparison
+#### Value comparison
 
 Compares two values to determine whether this exception returns true.
 
@@ -617,23 +617,23 @@ Specify the JavaScript variable name and value that must not exist for an event 
 
 ### Engagement
 
-#### Landing Page
+#### Landing page
 
 Specify the page the user must not land on to trigger the event.
 
 1. Specify the landing page.
 1. (Optional) Enable Regex if this is a regular expression.
 
-#### New/Returning Visitor
+#### New/returning visitor
 
 Specify whether the visitor should not be a new visitor or a returning visitor for an event to trigger an action.
 
 Select one of the following:
 
-* New Visitor
-* Returning Visitor
+* [!UICONTROL New Visitor]
+* [!UICONTROL Returning Visitor]
 
-#### Page Views
+#### Page views
 
 Configure the number of times the visitor must view the page to keep the action from being triggered.
 
@@ -650,14 +650,14 @@ Do not trigger the action if the user's number of sessions meets the specified c
 1. Select whether the number of sessions must be greater than, equal to, or less than the specified value.
 1. Specify the number of sessions that determines whether the condition is met.
 
-#### Time On Site
+#### Time on site
 
 Configure how long the visitor must be on the site to prevent the action from being triggered.
 
 1. Select whether the number of minutes the visitor is on the site must be greater than, equal to, or less than the specified value.
 1. Specify the number of minutes that determines whether the condition is met.
 
-#### Traffic Source
+#### Traffic source
 
 Specify the source of the visitor's traffic that must be true to prevent the action from being triggered.
 
@@ -666,11 +666,11 @@ Specify the source of the visitor's traffic that must be true to prevent the act
 
 ### Other
 
-#### Date Range
+#### Date range
 
 Specify a date range. Choose the date and time the event occurs after, the date it occurs before, and the time zone.
 
-#### Max Frequency
+#### Max frequency
 
 Specify the maximum number of times the condition returns true. You can select from the following options:
 
@@ -695,49 +695,49 @@ Select the browser the visitor must not use for the action to be triggered.
 
 Select one or more of the following browsers:
 
-* Chrome
-* Firefox
-* Internet Explorer/Edge
-* Internet Explorer Mobile
-* Mobile Safari
-* OmniWeb
-* Opera
-* Opera Mini
-* Opera Mobile
-* Safari
+* [!DNL Chrome]
+* [!DNL Firefox]
+* [!DNL Internet Explorer/Edge]
+* [!DNL Internet Explorer] Mobile
+* Mobile [!DNL Safari]
+* [!DNL OmniWeb]
+* [!DNL Opera]
+* [!DNL Opera] Mini
+* [!DNL Opera] Mobile
+* [!DNL Safari]
 
-#### Device Type
+#### Device type
 
 Select the device type the visitor must not use for the action to be triggered.
 
 Select one or more of the following device types:
 
-* Android
-* Blackberry
-* Desktop
-* iPad
-* iPhone
-* iPod
-* Nokia
-* Windows Phone
+* [!DNL Android]
+* [!DNL Blackberry]
+* [!DNL Desktop]
+* [!DNL iPad]
+* [!DNL iPhone]
+* [!DNL iPod]
+* [!DNL Nokia]
+* [!DNL Windows] Phone
 
-#### Operating System
+#### Operating system
 
 Select the operating system the visitor must not use for the action to be triggered.
 
 Select one or more of the following operating systems:
 
-* Android
-* Blackberry
-* iOS
-* Linux
-* MacOS
-* Maemo
-* Symbian OS
-* Unix
-* Windows
+* [!DNL Android]
+* [!DNL Blackberry]
+* [!DNL iOS]
+* [!DNL Linux]
+* [!DNL MacOS]
+* [!DNL Maemo]
+* [!DNL Symbian OS]
+* [!DNL Unix]
+* [!DNL Windows]
 
-#### Screen Resolution
+#### Screen resolution
 
 Select the screen resolution visitors must not use on their devices for the action to be triggered.
 
@@ -746,7 +746,7 @@ Select the screen resolution visitors must not use on their devices for the acti
 1. Select whether the screen resolution height of the visitor's device must be greater than, equal to, or less than the specified value.
 1. Specify the number of pixels required for the screen resolution height.
 
-#### Window Size
+#### Window size
 
 Select the window size visitors must not use on their devices for the action to be triggered.
 
@@ -826,11 +826,11 @@ Provide the code that runs after the event is triggered and conditions are evalu
 
 ### Custom Code action processing
 
-The Core extension, available to all Launch users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
+The Core extension, available to all [!DNL Launch] users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
 
 #### Rules using the page top or page bottom events
 
-Code from custom actions is embedded in the main Launch library. The code is written to the document using document.write. If a rule has multiple Custom Code actions, the code is written in the order configured in the rule.
+Code from custom actions is embedded in the main [!DNL Launch] library. The code is written to the document using document.write. If a rule has multiple Custom Code actions, the code is written in the order configured in the rule.
 
 #### Rules using any event other than page top or page bottom
 
@@ -838,6 +838,6 @@ Code from custom actions is loaded from the server and written to the document u
 
 While using document.write after a page has loaded would typically present problems, this is not an issue for code provided through Custom Code actions. You may use document.write within Custom Code actions regardless of when the code will be executed.
 
-#### Custom Code Validation
+#### Custom code validation
 
-The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+The validator used in the [!DNL Launch] code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the [!DNL Launch] validator, which can usually be ignored.

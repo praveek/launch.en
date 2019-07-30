@@ -7,7 +7,7 @@ seo-description: Upgrade extensions in Adobe Experience Platform Launch
 
 # Extension Upgrade
 
-Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the Launch catalog as upgrades.
+Extension developers continually add new features to their extensions, and frequently fix bugs. These updates are packaged into new versions of an extension and made available in the [!DNL Launch] catalog as upgrades.
 
 ## Extension Catalog
 
@@ -17,7 +17,7 @@ When you install an extension to your property, the currently available version 
 
 ## Upgrade Notifications
 
-When you have installed an extension to your property, and a newer version is available in the catalog, you will see an Upgrade button on the extension card when you view the Installed Extensions page.
+When you have installed an extension to your property, and a newer version is available in the catalog, you will see an [!UICONTROL Upgrade] button on the extension card when you view the Installed Extensions page.
 
 You'll also see a notice when editing resources that are provided by that extension.
 
@@ -33,11 +33,11 @@ There is currently no capability to downgrade your extension to a previous versi
 
 Installing an upgrade is pretty much the same as [installing the extension](#add-a-new-extension) for the first time.
 
-1. Click the Upgrade button to go to the Extension Configuration screen.
+1. Click the **[!UICONTROL Upgrade]** button to go to the [!UICONTROL Extension Configuration] screen.
 1. Make any configuration changes you'd like to make.
-1. Click Save.
+1. Click **[!UICONTROL Save]**.
 
-The upgrade is not actually performed until you hit Save. At any time previous to that, you can click Cancel and stay with the currently installed version. Clicking Save is the point of no return.
+The upgrade is not actually performed until you hit [!UICONTROL Save]. At any time previous to that, you can click [!UICONTROL Cancel] and stay with the currently installed version. Clicking [!UICONTROL Save] is the point of no return.
 
 ## Publishing an Upgrade
 
@@ -45,8 +45,8 @@ Once the upgraded extension is installed on your property, you must include it i
 
 Beyond that, adding the upgraded extension to your library is the same as [adding any other change](../../publishing/libraries.md#add-to-a-library) to a library.
 
-From the Edit Library screen, you can use the "Add All Changed Resources" button or you can use the "Add a Resource" button and select the upgraded extension on its own.
+From the [!UICONTROL Edit Library] screen, you can use the "[!UICONTROL Add All Changed Resources]" button or you can use the "[!UICONTROL Add a Resource]" button and select the upgraded extension on its own.
 
->[!TIP] It is possible for extension developers to add new configuration items to their extension views in order to enable new functionality.  If you see build failures after upgrading to a new extension version - and you have isolated to build failures to that extension -  then the first thing to do is go to the extension's Configure page and be sure to Save (even if you didn't change anything).  Then add the new change to your Library and try to build again.
+>[!TIP] It is possible for extension developers to add new configuration items to their extension views in order to enable new functionality.  If you see build failures after upgrading to a new extension version - and you have isolated to build failures to that extension -  then the first thing to do is go to the extension's Configure page and be sure to Save (even if you didn't change anything).  Then add the new change to your library and try to build again.
 
-Once you have added the extension upgrade to your Library, you can follow the steps outlined in [Approval Workflow](../../publishing/approval-workflow.md) to publish your library through to Production.
+Once you have added the extension upgrade to your library, you can follow the steps outlined in [Approval Workflow](../../publishing/approval-workflow.md) to publish your library through to Production.
