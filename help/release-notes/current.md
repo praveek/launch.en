@@ -22,6 +22,12 @@ seo-description: Adobe Launch release notes
 * Fixed a bug with validating uppercase domains on the Property Edit screen.
 * Fixed a bug that caused some buttons to be available when they should not be.
 
+## June 15, 2019
+
+### Updates
+
+* Archive packages on SFTP Hosts will now be delivered to the root patch specified by the Host instead of being delivered two subdirectories deep (which is how all other builds are delivered).  This was change because of permissions issues creating subdirectories on some SFTP servers.
+
 ## June 13, 2019
 
 ### Updates
@@ -38,13 +44,6 @@ seo-description: Adobe Launch release notes
 * Fixed several broken links that were scattered about.
 * Fixed several non-scrollable areas for iOS browsers.
 
-
-## June 15, 2019
-
-### Updates
-
-* Archive packages on SFTP Hosts will now be delivered to the root patch specified by the Host instead of being delivered two subdirectories deep (which is how all other builds are delivered).  This was change because of permissions issues creating subdirectories on some SFTP servers.
-
 ## June 11, 2019
 
 ### Updates
@@ -53,7 +52,13 @@ seo-description: Adobe Launch release notes
 
 ### Bug Fixes
 
-* You can no longer delete a Host that is being used by an environment.
+* You can no longer delete a Host that is being used by an environment
+* Resources in revision selector will now appear alphabetically
+* Fixed a bug that caused certain rules to fail to copy
+* Got rid of a few unnecessary unsaved changes prompts
+* Updated shell to match the rest of Experience Cloud
+* Fixed the polling bug on library build, so we'll retry 5 times before starting the exponential backoff
+* Got rid of a few warnings for deprecation in the developer console
 
 ## May 8, 2019
 
