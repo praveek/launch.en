@@ -7,7 +7,7 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 # Adobe Target v2 Extension Release Notes
 
-### July 31, 2019
+## July 31, 2019
 
 ### Adobe Target v2 Extension 0.11.1
 
