@@ -89,7 +89,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Target extension {#target-extension}
       * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
       * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
-    * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
+    * Adobe Target v2 extension {#targetv2-extension}
+      * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
+      * [Adobe Target V2 release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
     * Launch Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)

@@ -7,6 +7,12 @@ seo-description: Release notes for Adobe Target extension in Adobe Experience Pl
 
 # Adobe Target Release Notes
 
+## July 31, 2019
+
+### Adobe Target Extension 0.10.1
+
+* Hotfix for parameters handling for Adobe Target Launch Extension
+
 ## May 4, 2019
 
 ### Adobe Target Extension 0.10.0
