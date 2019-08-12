@@ -11,7 +11,7 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* Libraries that use the [!DNL Managed by Adobe] host and a non-archived environment will now reference all sub files directly with `https://` instead of inheriting the underlying page protocol.  This enables you to use [!DNL Launch] in embedded HTML scenarios (mobile and set-top-box environment in particular) without self-hosting.
+* Libraries that use the [!DNL Managed by Adobe] host and a non-archived environment now reference all sub files directly with `https://` instead of inheriting the underlying page protocol.  This enables you to use [!DNL Launch] in embedded HTML scenarios (mobile and set-top-box environment in particular) without self-hosting.
 * You can now unset your Working Library.
 * The Edit Library screen now has a button to [!UICONTROL Remove All Resources].
 * The size of the click target has increased to remove individual resources from a library
@@ -26,7 +26,7 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* Archive packages on SFTP Hosts will now be delivered to the root patch specified by the Host instead of being delivered two subdirectories deep (which is how all other builds are delivered).  This was change because of permissions issues creating subdirectories on some SFTP servers.
+* Archive packages on SFTP Hosts are now delivered to the root patch specified by the Host instead of being delivered two subdirectories deep (which is how all other builds are delivered).  This was change because of permissions issues creating subdirectories on some SFTP servers.
 
 ## June 13, 2019
 
