@@ -7,6 +7,18 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## August 14, 2019
+
+### Updates
+
+* Code Validation: The custom code editor now lints and minifies your code behind the scenes and informs you if there are problems. Some of these notifications are warnings, but some are errors that will cause your build to fail if this code is included in a library.
+* Extension Enhancements for Compare View: Rule Components and Data Elements rely on extensions.  Extensions have their own settings and revisions that can potentially modify the behavior of your components, even if the the settings on the component itself is the same.  Compare view now warns you if the component is relying on a different extension revision than its historical counterpart, so you can decide if you'd also like to compare the extension settings.
+
+## Bug Fixes
+
+* Fixed a bug that defaulted some users to the first Org they had access to when opening a new tab. This only affected a few users.
+* Fixed a bug that prevented you from being able re-expand custom code in compare view.
+
 ## June 18, 2019
 
 ### Updates
@@ -148,4 +160,3 @@ The [!DNL Reactor] API that powers [!DNL Launch] is officially reaching 1.0 stat
 * In certain scenarios, when you saved a library, the dependency checker would prompt you to add a new revision of an extension that was already in your library. It doesn't do that anymore.
 * Tooltips will now reliably show up in Safari.
 * Searches in the search bar will now trigger a bit faster than before.
-
