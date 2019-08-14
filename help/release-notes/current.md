@@ -11,13 +11,13 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* Code Validation - in the custom code editor, we're now linting and minifying your code behind the scenes and letting you know if there are problems.  Some of these are just warnings, some of them are errors that will cause your build to fail if this code is included in a library.
-* Extension Enhancements for Compare View - Rule Components and Data Elements rely on extensions.  Extensions have their own settings and revisions that can potentially modify the behavior of your components, even if the the settings on the component itself is exactly the same.  Compare view will now warn you if the component is relying on a different extension revision than it's historical counterpart so you can decide if you'd also like to compare the extension settings.
+* Code Validation: The custom code editor now lints and minifies your code behind the scenes and informs you if there are problems. Some of these notifications are warnings, but some are errors that will cause your build to fail if this code is included in a library.
+* Extension Enhancements for Compare View: Rule Components and Data Elements rely on extensions.  Extensions have their own settings and revisions that can potentially modify the behavior of your components, even if the the settings on the component itself is the same.  Compare view now warns you if the component is relying on a different extension revision than its historical counterpart, so you can decide if you'd also like to compare the extension settings.
 
 ## Bug Fixes
 
-* Fixed a bug that would default you to first Org you had access to when opening a new tab.  This only affected a few users, but it was really annoying and we've fixed it now.
-* Fixed a bug that would prevent you from being able re-expand custom code in compare view.
+* Fixed a bug that defaulted some users to the first Org they had access to when opening a new tab. This only affected a few users.
+* Fixed a bug that prevented you from being able re-expand custom code in compare view.
 
 ## June 18, 2019
 
