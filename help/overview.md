@@ -1,8 +1,8 @@
 ---
-title: Launch Overview
-seo-title: Launch Overview in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch overview
-seo-description: Adobe Experience Platform Launch overview
+title: [!DNL Launch] Overview
+seo-title: [!DNL Launch] Overview in [!DNL Adobe Experience Platform Launch]
+description: [!DNL Adobe Experience Platform Launch] overview
+seo-description: [!DNL Adobe Experience Platform Launch] overview
 ---
 
 # Launch Overview
@@ -93,7 +93,7 @@ A FAQ about the new version of dynamic tag management, announced in March 2017.
 
 ### What is Launch?
 
-[!DNL Launch] is the next-generation of the [!DNL Adobe] tag-management capability, built into the [!DNL Adobe Cloud Platform]. [!DNL Launc]h enables clients to:
+[!DNL Launch] is the next-generation of the [!DNL Adobe] tag-management capability, built into the [!DNL Adobe Cloud Platform]. [!DNL Launch] enables clients to:
 
 * Deploy client-side web products using integrations called _extensions_
 * Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from [!DNL Adobe]
