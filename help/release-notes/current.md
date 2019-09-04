@@ -11,13 +11,13 @@ seo-description: Adobe Launch release notes
 
 ## Updates
 
-* Tokens in Pathnames: Newly created environments now use much shorter IDs for Company, Property, Extension, and Environment in the pathnames referenced in the embed codes.  Self-hosting users were bumping into path length limitations on Windows systems, so they've been shortened across the board.  Existing environments are unaffected.  New environments will have much shorter paths, including the embed codes referenced in the install instructions.
+* Tokens in pathnames: Newly created environments now use much shorter IDs for Company, Property, Extension, and Environment in the pathnames referenced in the embed codes.  Self-hosting users were bumping into path length limitations on Windows systems, so they've been shortened.  Existing environments are unaffected.  New environments have much shorter paths, including the embed codes referenced in the install instructions.
 
 ## Bug Fixes
 
-* We updated the regex tester to be more explicit about the expected inputs and how the pattern you enter will be used at run-time.
-* We fixed a bug that caused you to be unable to upgrade an extension when the installed version had no settings and the latest version did.
-* We fixed a but that in rare cases was causing unavailable environments to show as available.
+* Updated the regex tester to be more explicit about the expected inputs and how the pattern you enter will be used at run-time.
+* Fixed a bug that caused you to be unable to upgrade an extension when the installed version had no settings and the latest version did.
+* Fixed a bug that, in rare cases, caused unavailable environments to show as available.
 
 
 ## August 14, 2019
