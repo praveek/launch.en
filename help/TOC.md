@@ -8,7 +8,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 
 # Experience Platform Launch User Guide {#using}
 
-* [Launch User Guide](overview.md)
+* [[!DNL Launch] User Guide](overview.md)
 * Introduction {#intro}
   * Release notes {#release-notes}
     * [Latest](release-notes/current.md)
@@ -20,9 +20,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
 * Implementation {#implement}
   * [Implementation overview](getting-started/overview.md)
   * Configure Launch {#configure}
-    * [Configure Launch](getting-started/general-launch-configuration-and-settings/overview.md)
+    * [Configure [!DNL Launch]](getting-started/general-launch-configuration-and-settings/overview.md)
     * [Create a property](getting-started/general-launch-configuration-and-settings/create-a-property.md)
-    * [Add the Launch embed code](getting-started/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
+    * [Add the [!DNL Launch] embed code](getting-started/general-launch-configuration-and-settings/implement-the-launch-install-code.md)
     * [Add a data element, a rule, and a library](getting-started/general-launch-configuration-and-settings/add-data-elements-and-rules.md)
     * [Switch environments with the Experience Cloud Debugger](getting-started/general-launch-configuration-and-settings/switch-environments-with-launch-command.md)
   * Implement solutions {#solutions}
@@ -32,8 +32,8 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Add Adobe Target](getting-started/implement-solutions/add-adobe-target.md)
     * [Add Adobe Audience Manager \(AAM\)](getting-started/implement-solutions/add-adobe-audience-manager-aam.md)
     * [Experience Cloud integrations](getting-started/implement-solutions/experience-cloud-integrations.md)
-  * [Publish your Launch property](getting-started/validate-and-publish.md)
-* Launch Reference {#reference}
+  * [Publish your [!DNL Launch] property](getting-started/validate-and-publish.md)
+* [!DNL Launch] Reference {#reference}
   * Managing Resources {#manage-resources}
     * [Managing Resources overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
@@ -56,14 +56,14 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * Client-side information {#client-side-info}
     * [Client-side information](launch-reference/client-side-information/overview.md)
     * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
-    * [Launch object reference](launch-reference/client-side-information/launch-object-reference.md)
-    * [Deploy JavaScript tags to opt in to Launch](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+    * [[!DNL Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
+    * [Deploy JavaScript tags to opt in to [!DNL Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
     * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
   * Administration {#admin}
     * [Administration overview](launch-reference/administration/overview.md)
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
     * [User permissions](launch-reference/administration/user-permissions.md)
-  * Upgrade from DTM to Launch {#upgrade}
+  * Upgrade from DTM to [!DNL Launch] {#upgrade}
     * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
     * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
     * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
@@ -77,7 +77,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
       * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
     * [Adobe Audience Manager extension](extension-reference/web/adobe-audience-manager-extension.md)
-    * [Adobe ContextHub extension](extension-reference/web/adobe-contexthub-extension.md)
+    * [[!DNL Adobe ContextHub] extension](extension-reference/web/adobe-contexthub-extension.md)
     * Adobe Experience Cloud ID Service extension {#id-service-extension}
       * [Experience Cloud ID Service extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
       * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
@@ -92,7 +92,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Target v2 extension {#targetv2-extension}
       * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
       * [Adobe Target V2 release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
-    * Launch Core extension {#core-extension}
+    * [!DNL Launch] Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
