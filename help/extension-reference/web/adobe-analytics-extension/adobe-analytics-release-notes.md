@@ -7,6 +7,23 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## September 6, 2019
+
+### Adobe Analytics Extension 1.7.7
+
+#### Features
+
+* Updated AppMeasurement to 2.17
+* Updated Audience Management module to support DIL 9.3
+* Updated field widths to give you more space
+
+#### Bug Fixes
+
+* Fixed a bug where some users were not seeing report suite options in the dropdown
+* Fixed a bug where events were not firing correctly
+* Fixed a bug for setting opt-in/opt-out
+* Fixed a bug where variables were not being set correctly when using ECID
+
 ## July 18, 2019
 
 ### Adobe Analytics Extension 1.7.6
