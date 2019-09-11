@@ -51,7 +51,7 @@ This method involves generating a nonce and adding it to your CSP and to each in
 
 This nonce should be changed with each new page load.
 
-There is a very important prerequisite: You must load the Launch library [asynchronously](launch-reference/client-side-information/asynchronous-deployment.md). This does not work with a synchronous load of the Launch library (which results in console errors and rules not executing properly).
+There is a very important prerequisite: You must load the Launch library [asynchronously](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html). This does not work with a synchronous load of the Launch library (which results in console errors and rules not executing properly).
 
 You can add your nonce to the above Adobe-hosted CSP example like this:
 
