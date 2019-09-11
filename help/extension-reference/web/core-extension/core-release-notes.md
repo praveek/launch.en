@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## September 11, 2019
+
+v1.6.1
+
+* **Support for CSP Nonce** - The Core extension now has an optional configuration parameter. You can add a data element that references a nonce. If configured, all inline scripts that Launch adds to the page use the nonce that you've configured. This change supports the use of a Content Security Policy with a nonce so that Launch scripts can still load in a CSP environment.  You can read more about using Launch with a CSP [here](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/content-security-policy-csp.html).
+
 ## June 18, 2019
 
 v1.5.0
