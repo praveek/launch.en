@@ -81,7 +81,7 @@ See [Options](core-extension.md#options), below.
 
 #### Media play
 
-Trigger the even when the media is played.
+Trigger the event when the media is played.
 
 See [Options](core-extension.md#options), below.
 
