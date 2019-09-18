@@ -288,8 +288,8 @@ Set one or more [props](https://marketing.adobe.com/resources/help/en_US/sc/impl
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value (Set As) or copy (Duplicate From) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-1. (Optional) Click **[UICONTROL Add prop]** to set more props.
-1. Click **[UICONTROL Keep Changes]**.
+1. (Optional) Click **[!UICONTROL Add prop]** to set more props.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Events
 
@@ -297,8 +297,8 @@ Set one or more [events](https://marketing.adobe.com/resources/help/en_US/sc/imp
 
 1. Select an event from the dropdown.
 1. (Optional) Select or specify a data element used for [event serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
-1. (Optional) Click **[UICONTROL Add event]** to set more events.
-1. Click **[UICONTROL Keep Changes]**.
+1. (Optional) Click **[!UICONTROL Add event]** to set more events.
+1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
@@ -335,7 +335,7 @@ Use the editor to specify your custom page code.
 
 **Settings**
 
-1. Click **[UICONTROL Open Editor]**.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
 1. Click **[!UICONTROL Save]**.
 
