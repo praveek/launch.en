@@ -116,7 +116,7 @@ Next, verify that the [!DNL Debugger] is picking up the right partner ID from th
 
    ![](/help/assets/aam-verifypartnerid.png)
 
->[!NOTE]  The [!DNL Audience Manager] section of the [!DNL Debugger} refers to "DIL," which is the Data Integration Library that typically refers to a client-side implementation, as opposed to the server-side approach used here. The [!DNL AAM] Module used in this SSF approach uses much of the same code as the client-side DIL library, so the [!DNL Debugger] repors it as such. If you have followed the steps in this tutorial, and the rest of the items in this validation section are correct, be assured that server-side forwarding is working.
+>[!NOTE]  The [!DNL Audience Manager] section of the [!DNL Debugger] refers to "DIL", which is the Data Integration Library that typically refers to a client-side implementation, as opposed to the server-side approach used here. The [!DNL AAM] Module used in this SSF approach uses much of the same code as the client-side DIL library, so the [!DNL Debugger] repors it as such. If you have followed the steps in this tutorial, and the rest of the items in this validation section are correct, be assured that server-side forwarding is working.
 
 #### Verify the Analytics request and response
 
