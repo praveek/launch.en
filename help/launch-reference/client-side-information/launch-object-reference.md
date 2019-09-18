@@ -295,7 +295,7 @@ _satellite._container
 
 #### Example
 
->[!Important] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!IMPORTANT] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 ### monitor
 
@@ -307,7 +307,7 @@ _satellite._monitors
 
 #### Example
 
->[!Important] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!IMPORTANT] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 #### Sample
 
