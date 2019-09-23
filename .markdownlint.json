@@ -1,6 +1,6 @@
 {
   "line-length": false,
-
+  
   "MD009": false,
   "MD026": false,
   "MD028": false,
@@ -13,4 +13,4 @@
   "MD024": false,
   "MD036": false,
   "MD045": false
-}
+} 
