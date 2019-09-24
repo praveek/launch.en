@@ -1,6 +1,6 @@
 ---
 title: Managed by Adobe Hosts
-seo-title: "Managed by Adobe" Hosts in Adobe Experience Platform Launch
+seo-title: Managed by Adobe Hosts in Adobe Experience Platform Launch
 description: Adobe Experience Platform Launch hosts
 seo-description: Adobe Experience Platform Launch hosts
 ---
@@ -11,7 +11,7 @@ This host type is the default selection and is simplest to manage.
 
 When you choose the Adobe-managed option, libraries that Launch builds are delivered to a 3rd-party CDN that Adobe has contracted with. These CDNs operate independently from Adobe, so even when Launch has maintenance or downtime, the code deployed to your sites and applications continues to function as normal. The embed code references the main library file on the CDN so a client device can retrieve the files at run-time.
 
-Currently, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com). This can be referenced securely or not (http:// or https://) based on how you call it in your `<script>` code.
+Currently, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com). This can be referenced securely or not (`http://` or `https://`) based on how you call it in your `<script>` code.
 
 When you create a new property through the Launch UI, a default host of this type is created for you. Note that with this host type, the very first published library to any new environment can take up to five minutes to propagate out to the global CDN.
 
