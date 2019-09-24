@@ -15,7 +15,7 @@ Currently, the primary CDN provider is Akamai. Files hosted on Akamai have a dom
 
 When you create a new property through the Launch UI, a default host of this type is created for you. Note that with this host type, the very first published library to any new environment can take up to five minutes to propagate out to the global CDN.
 
-### About Akamai
+## About Akamai
 
 Akamai is robust when serving content to a global, high-volume audience of web visitors. Akamai runs redundant networks of load-balanced, geo-optimized nodes to serve content as quickly as possible to visitors wherever they are located throughout the world.
 
@@ -23,11 +23,11 @@ Specifically, Akamai runs more than 137,000 servers in 87 countries within more 
 
 Akamai also has access to edge nodes in China, so end-users in China get traffic from nodes that are geographically close to them.
 
-#### Can I avoid errors in case of CDN unavailability?
+### Can I avoid errors in case of CDN unavailability?
 
 No. Launch can do nothing if the library is unavailable from the Akamai network.
 
-#### CDN cache control headers
+### CDN cache control headers
 
 When you choose to have Adobe manage your hosting, you do not have control over the headers on the response, so the Adobe default is used. There is no way to get custom headers when you have Adobe manage your hosting.
 
@@ -35,7 +35,7 @@ As of September 25, 2019, there is a 24-hour TTL on all builds managed by Adobe.
 
 >[!NOTE]  It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
 
-#### Cache Invalidations {#cache-invalidation}
+### Cache Invalidations {#cache-invalidation}
 
 Copies of your build are cached on many different *edge nodes* around the world so that they can be served to end-users as quickly as possible.  When edge nodes field a request for a specific file, they check the TTL on the file.  If the file has not expired, the edge nodes serve the cached version.  If the TTL has expired, then it requests a new copy from the nearest *origin*, serve that refreshed copy, and then cache the refreshed copy with the defined TTL.
 
@@ -49,7 +49,7 @@ Because Akamai has multiple origin servers that replicate files between themselv
 
 This is done to give the origin groups time to replicate the latest version of the file between themselves so they all have the latest when the cache invalidations are performed.
 
-### How to use managed hosting
+## How to use managed hosting
 
 To have Adobe manage your hosting, you need to create a Managed by Adobe host, then assign your environments to use this host.
 
