@@ -86,7 +86,7 @@ In either case, it doesn't make much sense to migrate the embed code. Nothing wi
 
 Due to the differences in setup between FTP and SFTP, DTM and Launch cannot perform automated migrations of these settings.
 
-If you are using this method for delivery of the container tag, it's recommended that you move to SFTP in Launch. You can create an [SFTP host](../publishing/hosts.md#sftp) and use this for any environment that you choose.
+If you are using this method for delivery of the container tag, it's recommended that you move to SFTP in Launch. You can create an [SFTP host](/help/launch-reference/publishing/hosts/sftp-host.md) and use this for any environment that you choose.
 
 ### Library Download {#library-download}
 

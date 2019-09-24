@@ -10,7 +10,7 @@ seo-description: Adobe Experience Platform Launch tutorials
 Step through these tutorials to learn more about [!DNL Launch].
 
 * [Companies](companies.md)
-* [Hosts](hosts.md)
+* [Hosts](/help/launch-reference/publishing/hosts/hosts-overview.md)
 * [Data Elements](data-elements.md)
 * [Environments](environments.md)
 * [Extensions](extensions.md)

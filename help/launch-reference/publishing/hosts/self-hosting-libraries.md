@@ -50,10 +50,10 @@ There are two methods you can use to acquire completed builds so that you can se
 
 You can have Launch deliver builds as a packaged .zip file (encryption optional). You can then unzip the package and insert the contents into your release cycle to place them on your own servers.
 
-Use a [Managed by Adobe](self-hosting-libraries.md) host and select the [Archive](launch-reference/publishing/environments.md#archive) option on your environment. The environment provides a download link. Whenever a build is created, you can retrieve it from the environment's download link.
+Use a [Managed by Adobe](self-hosting-libraries.md) host and select the [Archive](/help/launch-reference/publishing/environments.md) option on your environment. The environment provides a download link. Whenever a build is created, you can retrieve it from the environment's download link.
 
 #### Direct Delivery
 
 You can have Launch deliver builds directly to an SFTP server that you created. You take responsibility to get these filed into your release cycle and push them live.
 
-To perform a direct delivery, you should create an [SFTP host](sftp-host.md) and assign that host to your environment. Whenever you build a library in that environment, the files are delivered to your SFTP server.
+To perform a direct delivery, you should create an [SFTP host](/help/launch-reference/publishing/hosts/sftp-host.md) and assign that host to your environment. Whenever you build a library in that environment, the files are delivered to your SFTP server.
