@@ -25,7 +25,7 @@ There are a few components and relationships that are important to understand in
 
   An environment is a set of deployment instructions that tells Launch what format you'd like your build in and where you'd like that build delivered.
 
-* [Hosts](hosts.md)
+* [Hosts](/help/launch-reference/publishing/hosts/hosts-overview.md)
 
   A host represents the connection details for the environment to deliver the build. You can choose to let Launch manage the hosting of your build, or you can provide information for your own host servers.
 

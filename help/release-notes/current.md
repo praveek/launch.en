@@ -7,6 +7,28 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## September 24, 2019
+
+## Updates
+
+Multiple cache invalidations: If you are using the *Managed by Adobe* Host for your environments, Launch now makes multiple cache invalidations each time you publish.  Previously, one invalidation was performed for each build immediately after the build was uploaded.  However, there is a time delay between when the file is uploaded to one origin server and when it is available on all origin servers, so there was a race condition which sometimes caused the stale version of the library to be cached on the edge for up to 6 hours.  Each build is now purged on the following intervals:
+
+* Immediately
+* 5 minutes after build
+* 60 minutes after build
+
+You can read more about cache invalidations on the [Managed by Adobe Host](/help/launch-reference/publishing/hosts/managed-by-adobe-host.md) page.
+
+## Bug Fixes
+
+* Fixed an issue where, in certain edge cases where you had more than 100 libraries on the Publishing screen, there was a bug that caused Libraries in the Submitted column not to show up.  
+
+## September 12, 2019
+
+### Bug Fixes
+
+* There was a bug that prevented you from being able to unassign an Environment from a Library (when you chose No environment, it wasn't saved correctly).  That works again.
+
 ## September 04, 2019
 
 ## Updates

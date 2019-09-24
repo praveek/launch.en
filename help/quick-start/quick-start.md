@@ -87,7 +87,7 @@ An host is a connection between [!DNL Launch] and your hosting location. [!DNL L
 
 If you want to self-host, you can have [!DNL Launch] push directly to your servers through SFTP or you can push it to [!DNL Akamai] and download it (using your environment's Archive option).
 
-For more information, see [Hosts](../launch-reference/publishing/hosts.md).
+For more information, see [Hosts](/help/launch-reference/publishing/hosts/hosts-overview.md).
 
 ### Environments
 
