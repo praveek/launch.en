@@ -11,7 +11,7 @@ seo-description: Adobe Launch release notes
 
 ## Updates
 
-Multiple cache invalidations: If you are using the *Managed by Adobe* Host for your environments, Launch will now make multiple cache invalidations each time you publish.  Previously, one invalidation was performed for each build immediately after the build was uploaded.  However, there is a time delay between when the file is uploaded to one origin server and when it is available on all origin servers, so there was a race condition which sometimes caused the stale version of the library to be cached on the edge for up to 6 hours.  Each build is now purged on the following intervals:
+Multiple cache invalidations: If you are using the *Managed by Adobe* Host for your environments, Launch now makes multiple cache invalidations each time you publish.  Previously, one invalidation was performed for each build immediately after the build was uploaded.  However, there is a time delay between when the file is uploaded to one origin server and when it is available on all origin servers, so there was a race condition which sometimes caused the stale version of the library to be cached on the edge for up to 6 hours.  Each build is now purged on the following intervals:
 
 * Immediately
 * 5 minutes after build
@@ -21,7 +21,7 @@ You can read more about cache invalidations on the [Managed by Adobe Host](launc
 
 ## Bug Fixes
 
-* In certain edge cases where you had more than 100 libraries on the Publishing screen, there was a bug that caused Libraries in the Submitted column not to show up.  That's been fixed now.
+* Fixed an issue where, in certain edge cases where you had more than 100 libraries on the Publishing screen, there was a bug that caused Libraries in the Submitted column not to show up.  
 
 ## September 12, 2019
 
