@@ -31,7 +31,7 @@ No. Launch can do nothing if the library is unavailable from the Akamai network.
 
 When you choose to have Adobe manage your hosting, you do not have control over the headers on the response, so the Adobe default is used. There is no way to get custom headers when you have Adobe manage your hosting.
 
-As of September 25, 2019, there is a 24-hour TTL on all builds managed by Adobe.  If you require different cache control headers, you need to host your own files.  Please see the [Self-hosting Guide](launch-reference/publishing/hosts/self-hosting-libraries.md) for more info.
+As of September 25, 2019, there is a 24-hour TTL on all builds managed by Adobe.  If you require different cache control headers, you need to host your own files.  Please see the [Self-hosting Guide](/help/launch-reference/publishing/hosts/self-hosting-libraries.md) for more info.
 
 >[!NOTE]  It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
 
