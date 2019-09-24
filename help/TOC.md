@@ -50,7 +50,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Approval workflow](launch-reference/publishing/approval-workflow.md)
     * Hosts {#hosts}
       * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
-      * [Self-hosting](launch-reference/publishing/hosts/self-hosting-libraries.md)
+      * [Self-hosting](launch-reference/publishing/self-hosting-libraries.md)
       * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
       * [SFTP Hosts](launch-reference/publishing/hosts/sftp-host.md)
     * [Builds](launch-reference/publishing/builds.md)
