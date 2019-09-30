@@ -16,6 +16,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * Quick start and videos {#get-started}
     * [Quick Start](quick-start/quick-start.md)
     * [Videos](quick-start/videos.md)
+  * [FAQ](launch-faq.md)
   * [Additional Resources](quick-start/additional-resources.md)
 * Implementation {#implement}
   * [Implementation overview](getting-started/overview.md)
