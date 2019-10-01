@@ -185,7 +185,7 @@ See [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/i
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the [!UI CONTROL Never Track] section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
+* If you do not want to track any outbound links from your SPA, insert an entry into the [!UICONTROL Never Track] section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
 * If there are some links that you want to track on your SPA, use the [!UICONTROL Always Track] section.
 
 For example, if you have a spa/\#/about page, you could put "about" in the [!UICONTROL Always Track] section.
