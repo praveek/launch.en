@@ -862,6 +862,14 @@ Any available domain cookie can be referenced in the cookie name field.
 
 `cookieName`
 
+### Constant
+
+Any constant string value that can be then referenced in actions or conditions.
+
+#### Example:
+
+`string`
+
 ### Custom code
 
 Custom JavaScript can be entered into the UI by clicking Open Editor and inserting code into the editor window.
