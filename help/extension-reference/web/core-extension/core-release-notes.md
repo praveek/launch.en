@@ -11,7 +11,7 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 v1.6.2
 
-* **New Data Element 'Constant'** - The Core extension now includes a new data element called 'Constant'.  This can be used when you need to store a constant value that will be referenced in various conditions, actions or custom code.
+* **New Data Element 'Constant'** - The Core extension now includes a new data element called 'Constant'.  This can be used when you need to store a constant value that will be referenced in various conditions, actions or custom code. Many thanks to @janexner for this contribution.
 
 ## September 11, 2019
 
