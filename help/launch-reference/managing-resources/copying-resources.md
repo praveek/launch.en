@@ -7,11 +7,41 @@ seo-description: Copying resources in Adobe Experience Platform Launch
 
 # Copying resources
 
-For rules and data elements, simply select the resource you want to copy and then click the **[!UICONTROL Copy]** button in the actions menu.
+Sometimes, it is convenient to make a new resource using the settings of an existing resource.  In these cases, you can make a copy.
 
-Once inside the copy dialog, use the drop-down menu to select a destination property you want to copy to.  Rules and data elements select the current property by default.  Extensions cannot be copied to the same property, so those do not have a default selection.
+Properties, Extensions, Rules, and Data Elements can all be copied.
+
+Copying a resource creates a duplicate of that resource in the specified destination. This is a discreet, one-time action and there is no ongoing relationship between the original resource and any copies that have been made.
+
+## Initiate a copy
+
+You can initiate a copy of an extension by viewing your installed extensions, clicking the drop-down arrow on the **[!UICONTROL Configure]** button and selecting **[!UICONTROL Copy]**.
+
+![Copying the Analytics extension](/help/assets/copy-initiate-extension.png)
+
+For properties, rules, and data elements, simply select the resource you want to copy and then click the **[!UICONTROL Copy]** button in the actions menu.
+
+![Copying my Analytics rule](/help/assets/copy-initiate-rule.png)
+
+If you are copying a rule or a data element, in the copy dialog you may use the drop-down menu to select a Destination Property you want to copy to (default setting is the current property). Extensions cannot be copied to the same property, so those will not provide that option.
+
+>[!NOTE]  In the Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
+
+Once you've configured the behavior you want, click **[!UICONTROL Copy]**.
+
+## Copying properties
+
+When you make a copy of a full property, there are a few things that you should understand about the process.
+
+* The property settings will be copied exactly as they are (domains, advanced settings, etc)
+* Rules, data elements, and extensions from within the origin property will be copied to the new target property.  Adapters, environments, and libraries will not be copied.
+* Required extensions (Extensions required by any existing data elements or rule components) will be copied to the target property even if they have been uninstalled from the origin property.
+* Copying a property can take awhile.  This happens in the background.  You can monitor the progress of the copy or you can continue on with other tasks while it happens.
+* If you modify an individual resource after it has already been copied to the target property (but before the copy has been completed), the new modifications will not be copied over.
 
 ## Copying extensions
+
+When you copy an extension to another property, there are a few things that you should understand.
 
 * If the destination property does not have the extension installed, it will be installed using the same settings as the origin property.
 * If the destination property already has the extension installed, then only the settings will be copied.
@@ -22,47 +52,10 @@ Once inside the copy dialog, use the drop-down menu to select a destination prop
 
 All rules and data elements are provided by an extension, so when you copy across properties, [!DNL Launch] must account for these underlying extensions.
 
+![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog1.png)
+
 An explanation of exactly what [!DNL Launch] is planning to do is available inside the Copy dialog before you actually begin copying.  The above dialog is for a rule, but the same applies to data elements.
 
 1. **Extensions required by these rules are copied.** This lets you know that required extensions will go along with the rule.  These copies follow the same rules as a regular extension copy outlined above.
 1. **Extension settings will NOT be copied if the extension is already installed.** This means if the required extensions already exist on the destination property, the extension remains as is.  If you wish to copy the extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation is updated accordingly.
 1. **Data Elements required by these Rules will NOT be copied.** This explanation only applies to rules.  Rules often rely on data elements to function correctly.  If you copy a rule to a new property, you'll also need to copy any required data elements as a separate action.
-
-Copy a resource creates a duplicate of that resource in the specified destination. This is a discreet, one-time action and there is no ongoing relationship between the original resource and any copies that have been made.
-
-## Initiate a copy
-
-You can initiate a copy of an extension by viewing your installed extensions, clicking the drop-down arrow on the **[!UICONTROL Configure]** button and selecting **[!UICONTROL Copy]**.
-
-![Copying the Analytics extension](/help/assets/copy-initiate-extension.png)
-
-For rules and data elements, simply select the resource you want to copy and then click the **[!UICONTROL Copy]** button in the actions menu.
-
-![Copying my Analytics rule](/help/assets/copy-initiate-rule.png)
-
-Once inside the copy dialog, you may use the drop-down menu to select a Destination Property you want to copy to. Rules and data elements select the current property by default. Extensions cannot be copied to the same property, so those do not have a default selection.
-
->[!NOTE]  In the Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
-
-## Copying extensions
-
-When you copy an extension to another property, there are a few things that you need to be aware of:
-
-* If the Destination Property does not have the extension installed, it will be installed using the same settings as the Origin Property.
-* If the Destination Property already has the extension installed, then only the settings will be copied.
-* If the Destination Property has a lower version of the extension installed, you'll receive a notice that you need to upgrade the extension on the Destination Property before you can perform the copy.  Extension developers can add settings to their extensions over time, so settings from a newer extension cannot be reliably applied to older versions.
-* If the Destination Property has a higher version of the extension installed, then the settings will be copied over, but no downgrade is performed.  The Destination Property will still retain its current version number.
-
-## Copying rules & data elements
-
-All rules and data elements are provided by an extension, so when you copy across properties, [!DNL Launch] must account for these underlying extensions.
-
-![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog1.png)
-
-An explanation of exactly what Launch is planning on doing is available inside the Copy dialog before you actually begin copying. The above dialog is for a rule, but the same applies to data elements.
-
-* **Extensions required by these rules will be copied:** This is just letting you know that required extensions will go along with the rule.  These copies will follow the same rules as a regular extension copy outlined above.
-* **Extension settings will NOT be copied if the extension is already installed:** This means if the required extensions already exist on the Destination property, that we'll just leave the extension alone.  If you wish to copy the Extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation will be updated accordingly.
-* **Data Elements required by these Rules will NOT be copied:** This explanation only applies to rules.  Rules often rely on data elements in order to function correctly.  If you copy a rule to a new property, you'll also need to copy any required data elements as a separate action.
-
-Once you've configured the behavior you want, click **[!UICONTROL Copy]**.
