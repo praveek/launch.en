@@ -7,6 +7,18 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## October 08, 2019
+
+## Updates
+
+* Property Copy: You can now make a copy of a property and everything in it.  From the Properties list page, simply select a property and click Copy in the toolbar.
+* Working Library Build button: For users who use the Working Library, there's now a build button.  When you have set the working library and make edits to a resource, the default action is now *Save and Add* instead of *Save and Build*.  This will allow users to make edits to multiple resources and then build when you are ready.
+* Visual tweaks to code checks in code editor: We made some visual tweaks to soften the appearance of the Code Validation that we released back in August.
+
+## Bug Fixes
+
+* Dependencies are checked when building a library.  We've done some optimizations there to reduce the number of network requests that are made when performing these checks.
+
 ## September 24, 2019
 
 ## Updates
