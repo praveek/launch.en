@@ -9,7 +9,7 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 ## October 10, 2019
 
-### Adobe Target Extension 0.12.0
+### Adobe Target Extension v2 0.12.0
 
 * Updated at.js to v2.2.
 * Improved performance for integrations between Experience Cloud ID library (ECID) v4.4 and at.js 2.2.
