@@ -7,6 +7,17 @@ seo-description: Release notes for Adobe Target extension in Adobe Experience Pl
 
 # Adobe Target Release Notes
 
+## October 10, 2019
+
+### Adobe Target Extension 0.11.0
+
+* Updated at.js to v1.8.
+* Improved performance for integrations between Experience Cloud ID library (ECID) v4.4 and at.js 1.8.
+* Previously, the ECID library made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.
+
+>[!NOTE]
+>Please upgrade your ECID Launch Extension to v4.4.1 to take advantage of this performance enhancement.
+
 ## July 31, 2019
 
 ### Adobe Target Extension 0.10.1
