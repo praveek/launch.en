@@ -11,8 +11,8 @@ seo-description: Adobe Launch release notes
 
 ## Bug Fixes
 
-* If a user has access to more than one Org, the correct Org ID is now persisted correctly when the user switches between Orgs.
-* When a users session expires, they are now redirected to the login page correctly.
+* If a user has access to more than one organization, the correct Org ID is now persisted correctly when the user switches between orgs.
+* When a user's session expires, they are now redirected to the login page correctly.
 
 ## October 08, 2019
 
