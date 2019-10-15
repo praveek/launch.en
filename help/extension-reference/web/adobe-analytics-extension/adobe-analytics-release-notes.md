@@ -9,6 +9,15 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 ## September 6, 2019
 
+### Adobe Analytics Extension 1.7.8
+
+#### Bug Fixes
+
+* Fixed a bug where some users were not seeing report suite options in the dropdown
+* Fixed a bug where events were not firing correctly
+
+## September 5, 2019
+
 ### Adobe Analytics Extension 1.7.7
 
 #### Features
@@ -19,8 +28,6 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Bug Fixes
 
-* Fixed a bug where some users were not seeing report suite options in the dropdown
-* Fixed a bug where events were not firing correctly
 * Fixed a bug for setting opt-in/opt-out
 * Fixed a bug where variables were not being set correctly when using ECID
 
