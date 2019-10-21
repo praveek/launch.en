@@ -9,7 +9,9 @@ seo-description: Adobe Experience Platform Launch videos
 
 These videos introduce you to [!DNL Launch] concepts and tasks.
 
+* [Experience Cloud Core Services tutorials](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Introduction to Experience Platform Launch](https://www.youtube.com/embed/rwqqkG1SERU)
+* [Publishing process overview](https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-process.html)
 * [User management](https://www.youtube.com/embed/ba28BHX8cwU)
 * [Creating your first property](https://www.youtube.com/embed/Fb2pcbAYjIE)
 * [Extensions](https://www.youtube.com/embed/yD0tBqZX4fA)

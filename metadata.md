@@ -6,12 +6,14 @@ solution-image: help/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-process.html
+tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/launch.en
 index: yes
 ---
 
 # Metadata for internal use
+
+<!--old tutorial link: https://helpx.adobe.com/analytics/how-to/adobe-launch-publishing-process.html -->
 
 The metadata.md file includes repo-level metadata that passes through to user guide TOC.md files in the repo. If you want to change metadata.md content for any user guide, do so in any TOC.md file.
 
