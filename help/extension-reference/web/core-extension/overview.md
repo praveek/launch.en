@@ -564,6 +564,15 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 1. Type the custom code.
 1. Click **[!UICONTROL Save]**.
 
+A variable named `event` will automatically be available that you may reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
+
+```javascipt
+console.log(event);
+return true;
+```
+
+Run the rule in a browser and inspect the logged event object in the browser's console. Once you understand what information is available, you can use it for programmitic decisioning within your custom code.
+
 #### Value Comparison
 
 Compares two values to determine whether this exception returns true.
@@ -830,6 +839,14 @@ Provide the code that runs after the event is triggered and conditions are evalu
 1. Click Open Editor.
 1. Edit the code, then click Save.
 
+When JavaScript is selected as the language, a variable named `event` will automatically be available that you may reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
+
+```javascipt
+console.log(event);
+```
+
+Run the rule in a browser and inspect the logged event object in the browser's console. Once you understand what information is available, you can use it for programmitic decisioning within your custom code, send a piece of the `event` object to a server, etc.
+
 ### Custom Code action processing
 
 The Core extension, available to all Launch users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
@@ -878,7 +895,7 @@ A return statement is necessary in the editor window in order to indicate what v
 
 **Example:**
 
-```text
+```javascript
 var pageType = $('div.page-wrapper').attr('class').split('')[1];
 if (window.location.pathname == '/') {
   return 'homepage';
@@ -886,6 +903,15 @@ if (window.location.pathname == '/') {
   return pageType;
 }
 ```
+
+If the custom code data element is being retrieved as part of a rule execution, a variable named `event` will automatically be available that you may reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
+
+```javascipt
+console.log(event);
+return true;
+```
+
+Run the rule in a browser and inspect the logged event object in the browser's console. Once you understand what information is available under the various rules that may use your data element, you can use it for programmitic decisioning within your custom code or return a piece of the `event` object as the data element's value.
 
 ### DOM attribute
 
