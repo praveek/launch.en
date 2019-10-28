@@ -9,16 +9,6 @@ seo-description: Adobe Experience Platform Launch object reference
 
 In many form fields in the [!DNL Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
->[!NOTE]  This method has been deprecated. Please use `_satellite.logger.log()` instead.
-
->[!NOTE]  This method has been deprecated. Please use `_satellite.cookie.set()` instead.
-
->[!NOTE]  This method has been deprecated. Please use `_satellite.cookie.get()` instead.
-
->[!NOTE]  This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
-
->[!NOTE]  A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). [!DNL Launch] works with whatever supported methods have been provided by the monitor.
-
 ## Launch Object Reference
 
 This reference documents the `_satellite` object and the things you can do with it.
@@ -201,6 +191,8 @@ This example demonstrates the object values:
 
 ### notify
 
+>[!NOTE] This method has been deprecated. Please use `_satellite.logger.log()` instead.
+
 #### Code
 
 ```javascript
@@ -208,8 +200,6 @@ _satellite.notify(message: string[, level: number])
 ```
 
 #### Example
-
->[!NOTE] This method has been deprecated. Please use `_satellite.logger.log()` instead.
 
 ```javascript
 _satellite.notify('Hello world!');
@@ -229,6 +219,8 @@ If you do not provide a logging level or pass any other level value, the message
 
 ### setCookie
 
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.set()` instead.
+
 #### Code
 
 ```javascript
@@ -236,8 +228,6 @@ _satellite.setCookie(name: string, value: string, days: number)
 ```
 
 #### Example
-
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.set()` instead.
 
 ```javascript
 _satellite.setCookie('product', 'Circuit Pro', 3);
@@ -247,6 +237,8 @@ Sets a cookie in the user's browser. The cookie will persist for the number of d
 
 ### readCookie
 
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.get()` instead.
+
 #### Code
 
 ```javascript
@@ -254,8 +246,6 @@ _satellite.readCookie(name: string) => string
 ```
 
 #### Example
-
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.get()` instead.
 
 ```javascript
 var product = _satellite.readCookie('product');
@@ -265,6 +255,8 @@ Reads a cookie from the user's browser.
 
 ### removeCookie
 
+>[!NOTE] This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
+
 #### Code
 
 ```javascript
@@ -272,8 +264,6 @@ _satellite.removeCookie(name: string)
 ```
 
 #### Example
-
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
 
 ```javascript
 _satellite.removeCookie('product');
