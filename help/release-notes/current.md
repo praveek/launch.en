@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## October 29, 2019
+
+## Bug Fixes
+
+* When a user deletes a record, either Rule or Data Element, and that record is on the last page of a multi-page list the user is now redirected back to the correct page in the list.
+* Fixed an issue where property copy data could become stale, mainly caused by closing the browser window when a copy is in process.   
+
 ## October 15, 2019
 
 ## Bug Fixes
