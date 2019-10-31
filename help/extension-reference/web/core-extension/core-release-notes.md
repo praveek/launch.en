@@ -7,11 +7,17 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## November 1st, 2019
+
+v1.7.0
+
+* **Access to `event` Variable Within Custom Code Data Element** - You can now reference the event from within a custom code data element when run within the context of a rule. The object will contain useful information about the event that triggered the rule. Many thanks to [Stewart Schilling](https://twitter.com/sdi_stewart) for this contribution.
+
 ## October 7th, 2019
 
 v1.6.2
 
-* **New Data Element 'Constant'** - The Core extension now includes a new data element called 'Constant'.  This can be used when you need to store a constant value that will be referenced in various conditions, actions or custom code. Many thanks to @janexner for this contribution.
+* **New "Constant" Data Element Type** - The Core extension now includes a new data element type called `Constant`.  This can be used when you need to store a constant value that will be referenced in various conditions, actions or custom code. Many thanks to [Jan Exner](https://twitter.com/jexner) for this contribution.
 
 ## September 11, 2019
 
