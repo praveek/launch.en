@@ -28,22 +28,28 @@ In the Link Tracking section of the [!DNL Analytics] extension's configuration s
 * Track download links
 * Track outbound links
 
-When these settings are not selected, [!DNL Launch] does not fire [!DNL Adobe Analytics] automatically. [!DNL Analytics] fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Send Beacon action.
+When these settings are not selected, [!DNL Launch] does not fire [!DNL Adobe Analytics] automatically. [!DNL Analytics] fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Send Beacon action. You can use the Adobe opt-in object to control the sequence of the firing of this tag in in concert with your consent management platform.
+
+Please consider using the [Adobe opt-in object](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) to control the firing of this tag in concert with your consent management platform.
 
 Integrations with consent managers (such as OneTrust) can set and track the consent cookies for customers, which can then be used in the rule builder.
 
 ## Audience Manager
 
-DIL is currently set to fire automatically if it is placed on a customer page. There is currently no way to stop it from firing. [!DNL Adobe] is developing a way to pause the DIL from automatically firing while maintaining the correct cross-solution sequencing. This will be released soon.
+DIL is currently set to fire automatically if it is placed on a customer page. Please consider using the [Adobe opt-in object](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) to control the firing of this tag in concert with your consent management platform.
 
 [!DNL Adobe] recommends that you use server-side forwarding within [!DNL Analytics].
 
 ## Experience Cloud ID
 
-[!DNL Experience Cloud ID] currently fires automatically if it is placed on a customer page. At this time, there is no way to stop it from firing. [!DNL Adobe] is developing a way to pause [!DNL Experience Cloud ID] from automatically firing while maintaining the correct cross-solution sequencing. This will be released soon.
+[!DNL Experience Cloud ID] currently fires automatically if it is placed on a customer page. 
+
+Please consider using the [Adobe opt-in object](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) to control the firing of this tag in concert with your consent management platform.
 
 ## Target
 
-[!DNL Launch] does not fire [!DNL Target] automatically. [!DNL Target] fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Load [!DNL Target] action.
+[!DNL Launch] does not fire [!DNL Target] automatically. [!DNL Target] fires only if you specifically tell it to in a rule action. Use the rule conditions to determine when and what to fire. For example, to use cookies to determine opt-in status, set a data element to read that cookie and use it as a condition in the rule to determine when to fire the Load [!DNL Target] action. You can use the Adobe opt-in object to control the sequence of the firing of this tag in in concert with your consent management platform.
+
+Please consider using the [Adobe opt-in object](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/opt-in-service/optin-overview.html) to control the firing of this tag in concert with your consent management platform.
 
 Integrations with consent managers (such as OneTrust) can set and track the consent cookies for customers, which can then be used in the rule builder.
