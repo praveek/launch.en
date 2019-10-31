@@ -282,6 +282,15 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 1. Type the custom code.
 1. Click **[!UICONTROL Save]**.
 
+A variable named `event` will automatically be available that you may reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
+
+```javascipt
+console.log(event);
+return true;
+```
+
+Run the rule in a browser and inspect the logged event object in the browser's console. Once you understand what information is available, you can use it for programmitic decisioning within your custom code.
+
 #### Value Comparison {#value-comparison}
 
 Compares two values to determine whether this condition returns true.
