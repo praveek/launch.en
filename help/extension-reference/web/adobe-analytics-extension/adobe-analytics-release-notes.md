@@ -7,6 +7,19 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## November 1, 2019
+
+### Adobe Analytics Extension 1.8.0
+
+#### Bug Fixes
+
+* Fixed a bug where a small number of customers could not see report suite options in drop down
+* Fixed a bug where some variables were not setting correctly when using ECID
+
+#### Features
+* Numerically sorts evars, props, and events in Extension view
+* Made backend schema changes to support Magento context data
+
 ## September 6, 2019
 
 ### Adobe Analytics Extension 1.7.8
