@@ -109,7 +109,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Features
 
-* Updated the Adobe Analytics extension to DIL 9.0 which will support opt-in.
+* Updated the Adobe Analytics extension to DIL 9.0, which will support opt-in.
 * Updated the Adobe Analytics extension to AppMeasurement 2.11 to support opt-in.
 
 #### Bug fixes
