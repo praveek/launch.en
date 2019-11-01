@@ -17,6 +17,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 * Fixed a bug where some variables were not setting correctly when using ECID
 
 #### Features
+
 * Numerically sorts evars, props, and events in Extension view
 * Made backend schema changes to support Magento context data
 
