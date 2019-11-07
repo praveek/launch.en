@@ -1,6 +1,6 @@
 ---
 audience: end-user
-product: launch
+product: al
 user-guide-title: Experience Platform Launch User Guide
 index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
