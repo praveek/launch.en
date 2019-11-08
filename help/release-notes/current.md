@@ -7,35 +7,46 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## November 11, 2019
+
+### Updates
+
+Notes: You can now add textual annotations to `notable` resources.  These include Extensions, Data Elements, Rules, Rule Components, and Libraries.  See the [Notes](/help/launch-reference/managing-resources/notes.md) page for more details.
+
+### Bug Fixes
+
+* Updated the help docs search to search the new docs repository
+* Fixed a bug that would sometimes incorrectly report there were no Audit Events
+
 ## October 29, 2019
 
-## Bug Fixes
+### Bug Fixes
 
 * When a user deletes a record, either Rule or Data Element, and that record is on the last page of a multi-page list the user is now redirected back to the correct page in the list.
 * Fixed an issue where property copy data could become stale, mainly caused by closing the browser window when a copy is in process.   
 
 ## October 15, 2019
 
-## Bug Fixes
+### Bug Fixes
 
 * If a user has access to more than one organization, the correct Org ID is now persisted correctly when the user switches between orgs.
 * When a user's session expires, they are now redirected to the login page correctly.
 
 ## October 08, 2019
 
-## Updates
+### Updates
 
 * Property Copy: You can now make a copy of a property and everything in it.  From the Properties list page, simply select a property and click Copy in the toolbar.
 * Working Library Build button: For users who use the Working Library, there's now a build button.  When you have set the working library and make edits to a resource, the default action is now *Save and Add* instead of *Save and Build*.  This will allow users to make edits to multiple resources and then build when you are ready.
 * Visual tweaks to code checks in code editor: We made some visual tweaks to soften the appearance of the Code Validation that we released back in August.
 
-## Bug Fixes
+### Bug Fixes
 
 * Dependencies are checked when building a library.  We've done some optimizations there to reduce the number of network requests that are made when performing these checks.
 
 ## September 24, 2019
 
-## Updates
+### Updates
 
 Multiple cache invalidations: If you are using the *Managed by Adobe* Host for your environments, Launch now makes multiple cache invalidations each time you publish.  Previously, one invalidation was performed for each build immediately after the build was uploaded.  However, there is a time delay between when the file is uploaded to one origin server and when it is available on all origin servers, so there was a race condition which sometimes caused the stale version of the library to be cached on the edge for up to 6 hours.  Each build is now purged on the following intervals:
 
@@ -45,7 +56,7 @@ Multiple cache invalidations: If you are using the *Managed by Adobe* Host for y
 
 You can read more about cache invalidations on the [Managed by Adobe Host](/help/launch-reference/publishing/hosts/managed-by-adobe-host.md) page.
 
-## Bug Fixes
+### Bug Fixes
 
 * Fixed an issue where, in certain edge cases where you had more than 100 libraries on the Publishing screen, there was a bug that caused Libraries in the Submitted column not to show up.  
 
@@ -57,11 +68,11 @@ You can read more about cache invalidations on the [Managed by Adobe Host](/help
 
 ## September 04, 2019
 
-## Updates
+### Updates
 
 * Tokens in pathnames: Newly created environments now use much shorter IDs for Company, Property, Extension, and Environment in the pathnames referenced in the embed codes.  Self-hosting users were bumping into path length limitations on Windows systems, so they've been shortened.  Existing environments are unaffected.  New environments have much shorter paths, including the embed codes referenced in the install instructions.
 
-## Bug Fixes
+### Bug Fixes
 
 * Updated the regex tester to be more explicit about the expected inputs and how the pattern you enter will be used at run-time.
 * Fixed a bug that caused you to be unable to upgrade an extension when the installed version had no settings and the latest version did.
@@ -75,7 +86,7 @@ You can read more about cache invalidations on the [Managed by Adobe Host](/help
 * Code Validation: The custom code editor now lints and minifies your code behind the scenes and informs you if there are problems. Some of these notifications are warnings, but some are errors that will cause your build to fail if this code is included in a library.
 * Extension Enhancements for Compare View: Rule Components and Data Elements rely on extensions.  Extensions have their own settings and revisions that can potentially modify the behavior of your components, even if the the settings on the component itself is the same.  Compare view now warns you if the component is relying on a different extension revision than its historical counterpart, so you can decide if you'd also like to compare the extension settings.
 
-## Bug Fixes
+### Bug Fixes
 
 * Fixed a bug that defaulted some users to the first Org they had access to when opening a new tab. This only affected a few users.
 * Fixed a bug that prevented you from being able re-expand custom code in compare view.
@@ -109,7 +120,7 @@ You can read more about cache invalidations on the [Managed by Adobe Host](/help
 * The [!UICONTROL Add Resource] buttons on the Library Edit page now float as you scroll up and down so they are always visible.
 * The URLS for Resource Comparison are more informative (and useful for debugging purposes).
 
-## Bug Fixes
+### Bug Fixes
 
 * Fixed a bug in Edge on Windows 10 that wouldn't let you promote libraries in Edge on Windows 10.
 * Fixed a bug in Edge on Windows 10 that prevented library resources from being displayed on the Library edit page.
@@ -179,7 +190,7 @@ The [!DNL Reactor] API that powers [!DNL Launch] is officially reaching 1.0 stat
 
 * Support for custom code has been added to Compare View.
 
-### Bug fixes
+### Bug Fixes
 
 * The cross-property workflow is now a bit smoother.
 
@@ -215,7 +226,7 @@ The [!DNL Reactor] API that powers [!DNL Launch] is officially reaching 1.0 stat
 * OrgID is now available on the \_satellite object.
 * Use of the [!DNL Launch] UI is no longer supported in IE 11, you'll receive a warning if you login with IE 11.
 
-### Bug fixes
+### Bug Fixes
 
 * Better support for long library names in your Active Library and the Publishing view.
 * In certain scenarios, when you saved a library, the dependency checker would prompt you to add a new revision of an extension that was already in your library. It doesn't do that anymore.
