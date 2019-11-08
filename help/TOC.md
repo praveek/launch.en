@@ -15,7 +15,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [2018 release notes](release-notes/2018-release-notes.md)
   * Quick start and videos {#get-started}
     * [Quick Start](quick-start/quick-start.md)
-    * [Implementation Guides](/quick-start/implementation-guides.md)
+    * [Implementation Guides](quick-start/implementation-guides.md)
     * [Videos](quick-start/videos.md)
   * [FAQ](launch-faq.md)
   * [Additional Resources](quick-start/additional-resources.md)
