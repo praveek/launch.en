@@ -42,6 +42,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Extensions upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
     * [Data elements](launch-reference/managing-resources/data-elements.md)
     * [Rules](launch-reference/managing-resources/rules.md)
+    * [Notes](launch-reference/managing-resources/notes.md)
     * [Copying resources](launch-reference/managing-resources/copying-resources.md)
     * [Compare resource revisions](launch-reference/managing-resources/compare-resource-revisions.md)
     * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
