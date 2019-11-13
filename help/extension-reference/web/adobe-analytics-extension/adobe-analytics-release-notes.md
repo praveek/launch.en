@@ -7,6 +7,14 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## November 13, 2019
+
+### Adobe Analytics Extension 1.8.1
+
+#### Bug Fixes
+
+* Fixed a bug where premium evars and props would not save.
+
 ## November 1, 2019
 
 ### Adobe Analytics Extension 1.8.0
