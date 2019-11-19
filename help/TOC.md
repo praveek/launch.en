@@ -74,8 +74,8 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
     * [Adobe Experience Platform Demo extension](extension-reference/web/adobe-experience-platform-extension.md)
     * Adobe Experience Platform extension {#aep-extension}
-      * [Adobe Experience Platform extension release notes](extension-reference/web/overview.md)
-      * [Adobe Experience Platform extension release notes](extension-reference/web/aep-ext-release-notes.md)
+      * [Adobe Experience Platform extension release notes](extension-reference/web/aep-web-sdk/overview.md)
+      * [Adobe Experience Platform extension release notes](extension-reference/web/aep-web-sdk/aep-ext-release-notes.md)
     * Adobe Media Analytics extension {#media-analytics-extension}
       * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
       * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
