@@ -17,7 +17,7 @@ If the AEP Web SDK extension is not yet installed, open your property, then clic
 
 To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
-![](/help/assets/ext-AEP-config.png)
+![](/help/assets/ext-aep-config.png)
 
 ### Instance Name
 
