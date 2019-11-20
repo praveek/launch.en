@@ -70,7 +70,7 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
     This exposes all of the constants and static methods from the [`MediaHeartbeat`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/MediaHeartbeat.html) class.
  
-    You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/sdks/js/samples/Launch/MediaExtensionSample). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
+    You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/samples/launch/js). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
 
 1. Create the MediaHeartbeat tracker instance as follows:
 
