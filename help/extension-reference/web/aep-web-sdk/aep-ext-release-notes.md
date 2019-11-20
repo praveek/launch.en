@@ -15,10 +15,10 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 * Extension winked into existance
 * ECID support with no additional libraries or networks calls
-* Opt-in Support
+* Opt-in support
 * Support sending XDM to AEP
-* First party domain support
+* First-party domain support
 * Automatically collect browser context
-* Fully Open Source ([Extension](https://github.com/adobe/reactor-extension-alloy), [SDK](https://github.com/adobe/reactor-extension-alloy))
-* Detailed Logging
+* Fully open source ([extension](https://github.com/adobe/reactor-extension-alloy), [SDK](https://github.com/adobe/reactor-extension-alloy))
+* Detailed logging
 * Ability to hide errors in production
