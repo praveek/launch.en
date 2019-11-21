@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## November 21, 2019
+
+### Updates
+
+* Library Republish: A user with the appropriate `Publish` permissions can now republish a previously published library. Only the last 5 libraries are eligible for republish.
+* Search: A user can now search for resources in their property and jump directly to that resource. This includes searching Extensions, Data Elements, Rules, Rule Components.
+
 ## November 11, 2019
 
 ### Updates
