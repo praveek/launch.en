@@ -5,9 +5,21 @@ description: Information about configuring the Adobe Experience Platform extensi
 seo-description: Adobe Experience Platform Extension in Adobe Experience Platform Launch
 ---
 
-# Adobe Experience Platform Extension
+# Adobe Experience Platform Demo Extension
 
-Use this reference for information about configuring the Adobe Experience Platform extension, and the options available when using this extension to build a rule.
+This extension will be deprecated in favor of the [AEP Web SDK](aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
+
+| AEP Demo Extension | AEP Web SDK |
+| ------------------ | ----------- |
+| Support for Custom Customer IDs | Support for Custom Cusotmer IDs|
+| Client Side Mapping UI for XDM | Build in ECID (No need for visitor.js)|
+| Ability to create a streaming connection | Opt-in Support |
+| | XDM Support as a data element | 
+| | First Party Domain Support | 
+| | Debugging tools built in | 
+| | Automatically collects browser context | 
+| | Fully open source | 
+
 
 ## Configure the Adobe Experience Platform extension
 
