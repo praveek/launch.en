@@ -114,7 +114,7 @@ Legacy [!DNL DTM] supported older versions of [!DNL Internet Explorer], but over
 
 ## Does Launch work on native mobile apps?
 
-[!DNL Adobe] continues to recommend the [Mobile Services App SDK](https://www.adobe.com/solutions/digital-marketing/mobile-services/app-sdk.html) to implement data collection and delivery in a native mobile app environment. With [!DNL Adobe] mobile services, the process is streamlined with a single SDK that works with multiple [!DNL Adobe Cloud Platform] solutions. Going forward, you will see additional tag management-like functionality in the Mobile Services interface as the [!DNL Launch] and Mobile teams continue working closely together for more seamless [!DNL Cloud Platform] access and user experiences.
+Yes! [!DNL Launch] now supports mobile properties and configuration for the new [!DNL Adobe Experience Platform] [Mobile SDKs](https://sdkdocs.com) to implement data collection and delivery in a native mobile app environment. Please visit [documentation](https://sdkdocs.com) to learn more.
 
 ## What if I have other questions?
 
