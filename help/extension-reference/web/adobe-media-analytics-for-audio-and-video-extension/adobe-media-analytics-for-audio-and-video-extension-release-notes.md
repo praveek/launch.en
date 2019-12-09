@@ -7,6 +7,12 @@ seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adob
 
 # Adobe Media Analytics for Audio and Video Release Notes
 
+## October 25, 2019
+
+### Adobe Media Analytics for Audio and Video Extension 1.2.1
+
+* Update MediaSDK library to 2.2.1 which will support opt-in.
+
 ## February 25, 2019
 
 ### Adobe Media Analytics for Audio and Video Extension 1.2
