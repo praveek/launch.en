@@ -5,7 +5,7 @@ description: Adobe Experience Platform Launch library republish
 seo-description: Adobe Experience Platform Launch library republish
 ---
 
-## Republish Library
+# Republish Library
 
 The most recent 5 Libraries that have been published to your production environment on a Web property are available for later retrieval.  
 
@@ -19,7 +19,7 @@ The retrieval process will depend on your environment settings at the time that 
 
 Retrieval options for Mobile properties are not yet available.
 
-### Republishing
+## Republishing
 
 Each Launch environment provides you with a link you to a Launch library file.  Any library that you build in that environment is referenceable with that link.
 
@@ -38,7 +38,7 @@ Consider the scenario when you rollback back because of a problem with a specifi
 
 For this reason, Launch will notify you that a property is in a republished state as a reminder that what you're seeing in the UI is a little farther removed from Production than usual.  This notification is dismissable and will appear once per browser session the first time that you view the property.
 
-#### How to Republish an older library
+### How to Republish an older library
 
 ![Republish a library](/help/assets/retrieve_republish.png)
 
@@ -48,11 +48,11 @@ From the Publishing screen:
 2. Click the triple-dots in the upper right of the Library card
 3. Click Republish
 
-### Download
+## Download
 
 Downloading an Archived library is more straightforward.  You aren't directly referencing these .zip files on anywhere anyway, so you can simply download the older library to your computer and run your usual process.
 
-#### How to Download and older library
+### How to Download and older library
 
 ![Download a library](/help/assets/retrieve_download.png)
 
