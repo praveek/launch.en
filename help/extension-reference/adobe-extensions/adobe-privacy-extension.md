@@ -79,3 +79,23 @@ Enter the name of a JavaScript function you want to pass the data to.  This func
 ### Retrieve then remove identies
 
 When the event and conditions are met, retrieve identity information that is stored for the visitor, then remove it.
+
+## Tutorial: Configuring the Privacy extension
+
+The following shows one stubbed example of how to set up a data element and use it with the Privacy extension.
+
+1. Create a data element named `privacyFunc`.
+    ``` JavaScript
+    window.privacyFunc = function(a,b){
+        console.log(a,b);
+    }
+    return window.privacyFunc
+    ```
+
+1. Create a rule to run on Library Load (page top), with an action from the Adobe Privacy extension.  Select `privacyFunc` as your data element. 
+    * **Extension:** Adobe Privacy
+    * **Action Type:** Retrieve Identities
+        This action type displays identities that have been created, removed, or not removed.
+    * **Name:** Retrieve Identities
+
+1. Update your development library, then publish and test.
