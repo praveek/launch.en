@@ -82,7 +82,7 @@ When the event and conditions are met, retrieve identity information that is sto
 
 ## Tutorial: Configuring the Privacy extension
 
-The following example shows one example of how to set up a data element and use it with the Privacy extension.
+The following shows one stubbed example of how to set up a data element and use it with the Privacy extension.
 
 1. Create a data element named `privacyFunc`.
     ``` JavaScript
