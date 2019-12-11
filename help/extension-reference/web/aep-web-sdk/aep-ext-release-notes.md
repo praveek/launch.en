@@ -2,7 +2,7 @@
 title: Adobe Experience Platform Web Extension
 seo-title: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
 description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Platform Launch
+seo-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
 ---
 
 # AEP Extension Release Notes
@@ -27,7 +27,7 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 #### Features
 
-* Extension winked into existance
+* Extension winked into existence
 * ECID support with no additional libraries or networks calls
 * Opt-in support
 * Support sending XDM to AEP
