@@ -44,6 +44,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Environments](launch-reference/publishing/environments.md)
     * [Libraries](launch-reference/publishing/libraries.md)
     * [Self-hosting libraries](launch-reference/publishing/hosts/self-hosting-libraries.md)
+    * [Republish library](launch-reference/publishing/republish.md)
   * Client-side information {#client-side-info}
     * [Client-side information](launch-reference/client-side-information/overview.md)
     * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
