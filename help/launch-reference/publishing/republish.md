@@ -37,7 +37,7 @@ This means that when you republish an older library:
 
 * No changes are made to any of the resources (or historical revisions) in your Launch property
 
-* The way that development and staging environments calculate what is upstream will not change
+* The way that development and staging environments calculate what is upstream does not change
 
 Consider the scenario when you roll back because of a problem with a specific rule. The rule revision that is now in production might, for example, be three revisions old.  When you view that rule in [!DNL Launch] to fix it, it still reflects the latest changes saved rather than what is currently in production.
 
