@@ -11,14 +11,14 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* Library Republish: A user with the appropriate `Publish` permissions can now republish a previously published library. Only the last 5 libraries are eligible for republish.  Read [Republish library](/help/launch-reference/publishing/republish.md) for more info.
+* Library Republish: A user with the appropriate `Publish` permissions can now republish a previously published library. Only the last 5 libraries are eligible for republish.  Read [Republish library](../launch-reference/publishing/republish.md) for more info.
 * Search: A user can now search for resources in their property and jump directly to that resource. This includes searching Extensions, Data Elements, Rules, Rule Components.
 
 ## November 11, 2019
 
 ### Updates
 
-Notes: You can now add textual annotations to `notable` resources.  These include Extensions, Data Elements, Rules, Rule Components, and Libraries.  See the [Notes](/help/launch-reference/managing-resources/notes.md) page for more details.
+Notes: You can now add textual annotations to `notable` resources.  These include Extensions, Data Elements, Rules, Rule Components, and Libraries.  See the [Notes](../launch-reference/managing-resources/notes.md) page for more details.
 
 ### Bug Fixes
 
