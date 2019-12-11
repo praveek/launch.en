@@ -9,7 +9,7 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 ## November 25, 2019
 
-### AEP Extention 0.6
+### AEP Extension 0.6
 
 #### Features 
 
@@ -23,7 +23,7 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 ## November 18, 2019
 
-### AEP Extention 0.5
+### AEP Extension 0.5
 
 #### Features
 
