@@ -19,7 +19,7 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 #### Bug Fixes
 
-* Fixed and issue where toggling debugging through a query string parameter or the `debug` command wouldn't persist through the session.
+* Fixed an issue where toggling debugging through a query string parameter or the `debug` command wouldn't persist through the session.
 
 ## November 18, 2019
 
