@@ -45,7 +45,7 @@ For this reason, [!DNL Launch] notifies you that a property is in a republished 
 
 ### How to Republish an older library
 
-![Republish a library](/assets/retrieve_republish.png)
+![Republish a library](assets/retrieve_republish.png)
 
 From the Publishing screen:
 
@@ -59,7 +59,7 @@ Downloading an Archived library is more straightforward.  You aren't directly re
 
 ### How to Download and older library
 
-![Download a library](/assets/retrieve_download.png)
+![Download a library](assets/retrieve_download.png)
 
 From the Publishing screen:
 
