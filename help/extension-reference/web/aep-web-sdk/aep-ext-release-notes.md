@@ -7,6 +7,20 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 # AEP Extension Release Notes
 
+## November 25, 2019
+
+### AEP Extention 0.6
+
+#### Features 
+
+* New Merge ID and Type fields on the Send Event action. Merge ID maps to `xdm.eventMergeID` in the XDM schema and Type maps to `xdm.eventType` in the XDM schema. 
+* Improved error handling and reporting
+* Now uses `sendBeacon` for all links
+
+#### Bug Fixes
+
+* Fixed an issue where toggling debugging through a query string parameter or the `debug` command wouldn't persist through the session.
+
 ## November 18, 2019
 
 ### AEP Extention 0.5
