@@ -7,9 +7,38 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 # AEP Extension Release Notes
 
+## December 20, 2019
+
+### AEP Extension 0.5
+
+#### Features 
+
+* Add Activity Tracker configs to Launch Extension
+* Expose EventType and EventMergeId on event command
+* Add onBeforeEventSend config to Launch Extension
+* Add edgeBasePath config to Launch Extension
+
+#### Update to Alloy v. 0.0.10 which includes the following changes:
+
+* Implement Client Storage: State and cookies logic moved to the server
+* Expose EventType and EventMergeId on event command
+* Use sendBeacon for link tracking other than exit links
+* Bring back ID Syncs minus checking for expiry
+* setCustomerIds command not hashing ids on non-SSL (http) pages
+* Pass the APEX domain to the server to be used when setting state/cookies
+* Pick up the ECID from the response using a new handle type
+* Remove defaults for Activation & Identity configs
+* Rename + move query options to meta
+* Legacy ECID Migration
+
+#### Bug Fixes
+
+* On unexpected status code, parse and format response body for error message
+* Running debug command or using alloy_debug gets overwritten by configuration
+
 ## November 25, 2019
 
-### AEP Extension 0.6
+### AEP Extension 0.3
 
 #### Features 
 
@@ -23,7 +52,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## November 18, 2019
 
-### AEP Extension 0.5
+### AEP Extension 0.2
 
 #### Features
 
