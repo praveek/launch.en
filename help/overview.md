@@ -15,15 +15,15 @@ seo-description: [!DNL Adobe Experience Platform Launch] overview
 
 ## Key benefits
 
-* Faster time to value
-* Trustworthy data through centralized collection, organization, and delivery using data elements
-* Compelling experiences through the integration of data and marketing technology using rule builder
+* Faster time to value.
+* Trustworthy data through centralized collection, organization, and delivery using data elements.
+* Compelling experiences through the integration of data and marketing technology using rule builder.
 
 ## Key features
 
 ### Extensions
 
-An extension is a package of code (JavaScript, HTML, and CSS) that extends the [!DNL Launch] UI and client functionality. ​Build, manage, and update your integrations using a virtually self-service interface. You can think of [!DNL Launch] as an operating system, and extensions are the apps you use to achieve your tasks.
+An extension is a package of code (JavaScript, HTML, and CSS) that extends the [!DNL Launch] UI and client functionality. Build, manage, and update your integrations using a virtually self-service interface. You can think of [!DNL Launch] as an operating system, and extensions are the apps you use to achieve your tasks.
 
 ### Extension Catalog
 
@@ -50,20 +50,20 @@ Collect, organize, and deliver data across web-based marketing and advertising t
 
 The publishing process enables teams to publish code to pages. Different people can create an implementation, approve it, and publish it to your pages.
 
-* Changes to your code are encapsulated within libraries you define ​
-* You specify where and when you want your code deployed ​
-* Multiple libraries can be built in parallel by different teams ​
-* Unlimited development environments ​
-* Deliberate, permissioned process for merging libraries together ​
+* Changes to your code are encapsulated within libraries you define.
+* You specify where and when you want your code deployed.
+* Multiple libraries can be built in parallel by different teams.
+* Unlimited development environments.
+* Deliberate, permissioned process for merging libraries together.
 
 ### Open APIs
 
 Automate implementations of individual technologies, or a group of technologies.
 
-* Launch interacts with the Reactor APIs ​
-* Deployments can be automated through APIs ​
-* Integrate the Launch APIs with your own internal systems ​
-* You can build your own user interface, if desired ​
+* Launch interacts with the Reactor APIs.
+* Deployments can be automated through APIs.
+* Integrate the Launch APIs with your own internal systems.
+* You can build your own user interface, if desired.
 
 ### Light, Modular Container tag
 
@@ -73,10 +73,10 @@ The [!DNL Launch] container tag is 60% lighter than [!DNL DTM] and 40% lighter t
 
 Launch provides several improvements over similar systems, including:
 
-* No use of `document.write ()` where Chrome doesn't allow it ​
-* The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls ​ ​
-* Custom action scripts within a rule can be loaded in parallel, but are executed sequentially ​
-* If you avoid Page Top and Page Bottom rules, the code is mostly asynchronous, with a path to getting fully async ​
+* No use of `document.write ()` where Chrome doesn't allow it.
+* The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls.
+* Custom action scripts within a rule can be loaded in parallel, but are executed sequentially.
+* If you avoid Page Top and Page Bottom rules, the code is mostly asynchronous, with a path to getting fully async.
 
 ## Requirements
 
