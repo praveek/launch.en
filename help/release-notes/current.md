@@ -11,7 +11,7 @@ seo-description: Adobe Launch release notes
 
 ### Bug Fixes
 
-* The republish library feature would sometimes not purge the Launch asset on Akamai properly and allow for the republished library to be served.
+* The republish library feature would sometimes not purge the Launch asset on Akamai properly and result in the original library still being served.
 
 ### Features
 
