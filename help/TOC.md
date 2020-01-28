@@ -91,4 +91,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [!DNL Launch] Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
+    * [!DNL Marketo Munchkin] extension {#marketo-extension}
+      * [Marketo Munchkin extension](extension-reference/web/marketo-munchkin-extension/overview.md)
+      * [Marketo Munchkin release notes](extension-reference/web/marketo-munchkin-extension/marketo-munchkin-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
