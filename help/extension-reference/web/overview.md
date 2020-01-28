@@ -18,6 +18,5 @@ Documentation for the Launch Extensions provided by Adobe solutions.
 * [Core Extension](core-extension/overview.md)
 * [Experience Cloud ID Service Extension](experience-cloud-id-service-extension/overview.md)
 * [Adobe Experience Platform Extension](adobe-experience-platform-extension.md)
-* [Marketo Munchkin Extension](marketo-munchkin-extension.md)
 
 <!--  previously empty parent topic. -->
