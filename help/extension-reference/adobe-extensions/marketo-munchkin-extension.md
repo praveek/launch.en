@@ -7,25 +7,25 @@ seo-description: Marketo Munchkin Extension for Adobe Experience Platform Launch
 
 # Marketo Munchkin Extension
 
-Use this extension to integrate [!DNL Marketo Munchkin] JavaScript tracking code with your property. [!DNL Marketo Munchkin] JavaScript allows for tracking of end-user page visits and clicks to your Marketo landing pages and external web pages.
+Use this extension to integrate the [!DNL Marketo Munchkin] JavaScript tracking code with your property. [!DNL Marketo Munchkin] JavaScript allows for tracking of end-user page visits and clicks to your Marketo landing pages and external web pages.
 
 ## Install Marketo Munchkin Extension
 
-If [!DNL Marketo Munchkin] extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the [!DNL Marketo Munchkin] extension, and click **[!UICONTROL Install]**.
+If the [!DNL Marketo Munchkin] extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the [!DNL Marketo Munchkin] extension, and click **[!UICONTROL Install]**.
 
-This extension has no configuration necessary.
+This extension has no necessary configuration.
 
 ## Marketo Munchkin Extension action types
 
-This section describes the action types available in [!DNL Marketo Munchkin] extension.
+This section describes the action types available in the [!DNL Marketo Munchkin] extension.
 
 ### Initialize
 
 ![](/help/assets/munchkin-Init.png)
 
-**Munchkin ID: (required)** Munchkin Account ID found under Admin > Integration > Munchkin menu.
+**Munchkin ID: (required)** Munchkin Account ID found under the Admin > Integration > Munchkin menu.
 
-**Configurations:** All configurable parameters are documented [here](https://developers.marketo.com/javascript-api/lead-tracking/configuration/)
+**Configurations:** All configurable parameters are documented [here](https://developers.marketo.com/javascript-api/lead-tracking/configuration/).
 
 ### Visit Web page
 
@@ -33,7 +33,7 @@ This section describes the action types available in [!DNL Marketo Munchkin] ext
 
 **url: (required)** The URL file path used to record a page visit.
 
-**params:** A querystring of the desired parameters to be recorded.
+**params:** A query string of the desired parameters to be recorded.
 
 **name:** The custom name of the web page asset.
 
