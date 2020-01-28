@@ -37,7 +37,7 @@ This section describes the action types available in [!DNL Marketo Munchkin] ext
 
 **name:** The custom name of the web page asset.
 
-Click **Clink**
+### Click Clink
 
 ![](/help/assets/munchkin-Init.png)
 

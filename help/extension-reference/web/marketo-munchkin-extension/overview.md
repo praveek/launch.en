@@ -23,26 +23,26 @@ This section describes the action types available in [!DNL Marketo Munchkin] ext
 
 ![](/help/assets/munchkin-Init.png)
 
-#### Munchkin ID: (required) Munchkin Account ID found under Admin > Integration > Munchkin menu.
-#### Configurations: All configurable parameters are documented [here](https://developers.marketo.com/javascript-api/lead-tracking/configuration/)
+**Munchkin ID: (required)** Munchkin Account ID found under Admin > Integration > Munchkin menu.
+
+**Configurations:** All configurable parameters are documented [here](https://developers.marketo.com/javascript-api/lead-tracking/configuration/)
 
 ### Visit Web page
 
 ![](/help/assets/munchkin-Init.png)
 
-#### url: (required) The URL file path used to record a page visit.
-#### params: A querystring of the desired parameters to be recorded.
-#### name: The custom name of the web page asset.
+**url: (required)** The URL file path used to record a page visit.
+
+**params:** A querystring of the desired parameters to be recorded.
+
+**name:** The custom name of the web page asset.
 
 ### Click Clink
 
 ![](/help/assets/munchkin-Init.png)
 
-#### href: (required) The URL file path used to record a link click.
-
+**href: (required)** The URL file path used to record a link click.
 
 ### Associate Lead
 
-#### attributes: Comma-separated key:value pairs to associate lead with.
-
-
+**attributes:** Comma-separated key:value pairs to associate lead with.
