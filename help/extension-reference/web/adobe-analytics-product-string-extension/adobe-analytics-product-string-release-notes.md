@@ -7,7 +7,7 @@ description: Adobe Analytics Product String Release Notes for Adobe Experience P
 
 ## January 31, 2020
 
-Adobe Analytics Product String Extension 2.0.1
+[!DNL Adobe Analytics Product String] Extension 2.0.1
 
 **Features**
 
@@ -15,7 +15,7 @@ Adobe Analytics Product String Extension 2.0.1
 
 ## January 31, 2020
 
-Adobe Analytics Product String Extension 2.0.0
+[!DNL Adobe Analytics Product String] Extension 2.0.0
 
 **Features**
 
@@ -27,4 +27,4 @@ Adobe Analytics Product String Extension 2.0.0
 
 **Bug Fixes**
 
-* Fixed a bug where the products string wasn't included with some versions of the Adobe Analytics extension.
+* Fixed a bug where the products string wasn't included with some versions of the [!DNL Adobe Analytics] extension.
