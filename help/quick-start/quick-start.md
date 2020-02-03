@@ -128,9 +128,9 @@ To learn more about [!DNL Launch], refer to these resources:
 
 [https://forums.adobe.com/community/experience-cloud/platform/launchAsk](https://forums.adobe.com/community/experience-cloud/platform/launchAsk) and answer questions, submit ideas, vote on the ideas of others. Log in with your [!DNL Adobe] ID.
 
-* [**Launch Community**](https://forums.adobe.com/community/experience-cloud/platform/launch)**:** Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your [!DNL Adobe] ID.
-* [**Launch Webinars**](https://adobe.com/go/launchme)**:** Sign up for upcoming webinars and watch recordings of past webinars.
-* [**Developer Docs**](http://developer.adobelaunch.com/)**:** Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
-* [**Videos**](https://docs.adobelaunch.com/quick-start/videos)
+* **[Launch Community](https://forums.adobe.com/community/experience-cloud/platform/launch)**: Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your [!DNL Adobe] ID.
+* **[Launch Webinars](https://adobe.com/go/launchme)**: Sign up for upcoming webinars and watch recordings of past webinars.
+* **[Developer Docs](http://developer.adobelaunch.com/)**: Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
+* **[Videos](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)**
 
   These videos introduce you to [!DNL Launch] concepts and tasks.
