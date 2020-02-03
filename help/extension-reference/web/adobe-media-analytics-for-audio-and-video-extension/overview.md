@@ -11,8 +11,8 @@ Use this documentation for information on installing, configuring, and implement
 
 The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The MA extension requires two additional extensions:
 
-* [Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)
-* [Experience Cloud ID Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)
+* [Analytics Extension](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md)
+* [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
 >[!IMPORTANT]  Audio tracking requires Analytics Extension v1.6 or higher.
 
@@ -45,7 +45,7 @@ After you have included all three of the extensions mentioned above in your Laun
 | Export APIs to Window Object | Enable or Disable exporting Media Analytics APIs to global scope |
 | Variable Name | A variable you use to export Media Analytics APIs under the `window` object |
 
-**Reminder:** The MA extension requires the [Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) and [Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) extensions. You must also add these extensions to your extension property and configure them.
+**Reminder:** The MA extension requires the [Analytics](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md) and [Experience Cloud ID](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) extensions. You must also add these extensions to your extension property and configure them.
 
 ## Using the MA extension
 

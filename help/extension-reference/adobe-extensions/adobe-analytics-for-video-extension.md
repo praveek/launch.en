@@ -11,8 +11,8 @@ Use this documentation for information on installing, configuring, and implement
 
 The [!DNL Video Analytics] (VA) extension adds the core VA JavaScript library (VA 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
 
-* [Analytics Extension](https://docs.adobelaunch.com/extension-reference/adobe-analytics-extension)
-* [Experience Cloud ID Extension](https://docs.adobelaunch.com/extension-reference/experience-cloud-id-service-extension)
+* [Analytics Extension](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md)
+* [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
@@ -51,7 +51,7 @@ After you have included all three of the extensions mentioned above in your Laun
 | Export APIs to Window Object | Enable or Disable exporting [!DNL Video Analytics] APIs to global scope |
 | Variable Name | A variable you use to export [!DNL Video Analytics] APIs under the `window` object |
 
-**Reminder:** The VA extension requires the [Adobe Analytics](https://docs.adobelaunch.com/extension-reference/adobe-analytics-extension) and [Experience Cloud ID](https://docs.adobelaunch.com/extension-reference/experience-cloud-id-service-extension) extensions. You must also add these extensions to your extension property and configure them.
+**Reminder:** The VA extension requires the [Adobe Analytics](https://docs.adobe.com/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) and [Experience Cloud ID](https://docs.adobe.com/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) extensions. You must also add these extensions to your extension property and configure them.
 
 ## Using the VA extension
 
