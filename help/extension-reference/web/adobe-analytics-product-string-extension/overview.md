@@ -25,13 +25,13 @@ For complete documentation, visit [Products](https://docs.adobe.com/content/help
 
 Add the "Adobe Analytics Product String - Set s.products" action to your rule.
 
-![Action configuration](assets/screenshot-action-config.png)
+![Action configuration](/help/extension-reference/adobe-extensions/assets/screenshot-action-config.png)
 
 ### Setting the Standard Product Data
 
 Next, define your data layer variables. After you configure the action as outlined in the previous step, the following screen appears:
 
-![Standard fields](assets/screenshot-standard-fields.png)
+![Standard fields](/help/extension-reference/adobe-extensions/assets/screenshot-standard-fields.png)
 
 For each of the data points you want to include in the product string, enter the path to the appropriate data layer variable.
 
@@ -61,11 +61,11 @@ digitalData.transaction.item.productInfo.productName
 
 The `price` parameter in the [!DNL Adobe Analytics] product string must reflect the total price for the number of units purchased, not the unit price, for that product. When enabling the Price field in the extension action, you must specify whether your data layer exposes the total price or unit price. When using the unit price, the [!DNL Adobe Analytics Product String] extension automatically multiplies the unit price by the quantity to get the total price and set the product string properly.
 
-![Price type](assets/screenshot-price-type.png)
+![Price type](/help/extension-reference/adobe-extensions/assets/screenshot-price-type.png)
 
 ### Custom Events &amp; Merchandising eVars
 
-![Events and eVars](assets/screenshot-events-evars.png)
+![Events and eVars](/help/extension-reference/adobe-extensions/assets/screenshot-events-evars.png)
 
 If your implementation uses custom events or merchandising eVars, follow these steps:
 
@@ -77,7 +77,7 @@ If your implementation uses custom events or merchandising eVars, follow these s
 
 This action must be accompanied by an "Adobe Analytics - Set Variables" action that sets the corresponding success events, as well as an "Adobe Analytics - Send Beacon" action. The proper sequence of actions is illustrated below.
 
-![Standard fields](assets/screenshot-all-actions.png)
+![Standard fields](/help/extension-reference/adobe-extensions/assets/screenshot-price-type.png)
 
 ### Requirements
 
