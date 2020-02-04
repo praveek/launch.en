@@ -69,6 +69,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Analytics extension {#analytics-extension}
       * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
       * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
+    * Adobe Analytics Product String extension {#product-string-extension}
+      * [Adobe Analytics Product String extension](extension-reference/web/adobe-analytics-product-string-extension/overview.md)
+      * [Adobe Analytics Product String extension release notes](extension-reference/web/adobe-analytics-product-string-extension/adobe-analytics-product-string-release-notes.md)    
     * [Adobe Audience Manager extension](extension-reference/web/adobe-audience-manager-extension.md)
     * [[!DNL Adobe ContextHub] extension](extension-reference/web/adobe-contexthub-extension.md)
     * Adobe Experience Cloud ID Service extension {#id-service-extension}
