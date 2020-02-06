@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## February 6, 2020
+
+### Features
+
+* The JavaScript runtime library has been updated to include version 2.2.1 of js-cookie. A vulnerability was discovered in version 2.1.4 that was previously deployed. The next time a library is built, this new version of js-cookie will be automatically included.
+* Code minification errors of user defined custom code, which may occur while building a library, have been enhanced to give the user more context about the error.
+
 ## January 16, 2020
 
 ### Bug Fixes
