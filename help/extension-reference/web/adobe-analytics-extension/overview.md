@@ -111,13 +111,13 @@ When a page is loaded, the system checks to see if a cookie called sat\_track is
 You are responsible for setting the sat\_track (or custom named) cookie to false if a visitor opts out. You can accomplish this using custom code:
 
 ```javascript
-_satellite.setCookie("sat_track", "false");
+_satellite.cookie.set("sat_track", "false");
 ```
 
 You must also have a mechanism to set that cookie to true if you want a visitor to be able to opt in later:
 
 ```javascript
-_satellite.setCookie("sat_track", "true");
+_satellite.cookie.set("sat_track", "true");
 ```
 
 ### Character Set
