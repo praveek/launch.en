@@ -73,7 +73,7 @@ Specify the tracker object to be used globally.
 
 #### Open Editor
 
-Lets you [insert core AppMeasurement code](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/t_appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
+Lets you [insert core AppMeasurement code](https://docs.adobe.com/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
 >[!NOTE] The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
 
@@ -136,7 +136,7 @@ Used for first-party cookie implementations to dictate where the first-party coo
 
 Tracking Server can be set in Analytics custom code using the variable `s.trackingServer`.
 
-See [trackingServer](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) in the Adobe Analytics Implementation guide.
+See [trackingServer](https://docs.adobe.com/help/en/analytics/implementation/vars/config-vars/trackingserver.html) in the Adobe Analytics Implementation guide.
 
 ### SSL Tracking Server
 
@@ -144,7 +144,7 @@ Used for SSL first-party cookie implementations to dictate where the first-party
 
 SSL Tracking Server can be set in Analytics custom code using the variable `s.trackingServerSecure`.
 
-See [trackingServerSecure](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
+See [trackingServerSecure](https://docs.adobe.com/help/en/analytics/implementation/vars/config-vars/trackingserversecure.html).
 
 ## Global Variables
 
@@ -160,7 +160,7 @@ Select an option from the Link Tracking section of the configuration page. The f
 
 ### Enable ClickMap
 
-[ClickMap](https://experiencecloud.adobe.com/resources/help/en_US/sc/user/clickmap.html) is a plug-in for Internet Explorer and Firefox, and a module of Reports & Analytics.
+[ClickMap](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html) is a plug-in for Internet Explorer and Firefox, and a module of Reports & Analytics.
 
 ### Track download links
 
@@ -207,7 +207,7 @@ Configure field descriptions for the Cookies global settings used for deploying 
 
 Unique value that represents a customer in both the online and offline systems.
 
-See [visitorID](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/visitorID.html).
+See [visitorID](https://docs.adobe.com/content/help/en/analytics/import/data-sources/data-types-and-categories/datasrc-visitorid.html).
 
 ### Visitor Namespace
 
@@ -253,7 +253,7 @@ You can configure advanced settings by showing the advanced settings and enterin
 
 ![](/help/assets/an-ext-aam-adv.png)
 
-For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://experiencecloud.adobe.com/resources/help/en_US/aam/c_aam_home.html).
+For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html).
 
 ## Analytics extension action types
 
@@ -291,16 +291,16 @@ Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/s
 
 #### Events
 
-Set one or more [events](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/ref-events.html).
+Set one or more [events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/events-overview.html).
 
 1. Select an event from the dropdown.
-1. (Optional) Select or specify a data element used for [event serialization](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
+1. (Optional) Select or specify a data element used for [event serialization](https://docs.adobe.com/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html).
 1. (Optional) Click **[!UICONTROL Add event]** to set more events.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
-Set the Analytics [Hierarchy](https://experiencecloud.adobe.com/resources/help/en_US/reference/hierarchy.html) variable.
+Set the Analytics [Hierarchy](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-hierarchy.html) variable.
 
 Specify each level in the hierarchy.
 
