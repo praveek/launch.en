@@ -73,7 +73,7 @@ Specify the tracker object to be used globally.
 
 #### Open Editor
 
-Lets you [insert core AppMeasurement code](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/t_appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
+Lets you [insert core AppMeasurement code](https://docs.adobe.com/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
 >[!NOTE] The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
 
@@ -136,7 +136,7 @@ Used for first-party cookie implementations to dictate where the first-party coo
 
 Tracking Server can be set in Analytics custom code using the variable `s.trackingServer`.
 
-See [trackingServer](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) in the Adobe Analytics Implementation guide.
+See [trackingServer](https://docs.adobe.com/help/en/analytics/implementation/vars/config-vars/trackingserver.html) in the Adobe Analytics Implementation guide.
 
 ### SSL Tracking Server
 
@@ -144,11 +144,11 @@ Used for SSL first-party cookie implementations to dictate where the first-party
 
 SSL Tracking Server can be set in Analytics custom code using the variable `s.trackingServerSecure`.
 
-See [trackingServerSecure](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
+See [trackingServerSecure](https://docs.adobe.com/help/en/analytics/implementation/vars/config-vars/trackingserversecure.html).
 
 ## Global Variables
 
-Use this section to set up [eVars and Props](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/props_eVars.html), and to create hierarchies.
+Use this section to set up [eVars and Props](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html), and to create hierarchies.
 
 Global variables are variables that are set on the Analytics tracking object when that object is initialized on the page. Any variables you set here will be set when the tracking object is created on each page. Once these variables are set, they are just like any other variables set any other way. Specifically, this means that a rule can modify, change, or clear these variables.
 
@@ -160,25 +160,25 @@ Select an option from the Link Tracking section of the configuration page. The f
 
 ### Enable ClickMap
 
-[ClickMap](https://experiencecloud.adobe.com/resources/help/en_US/sc/user/clickmap.html) is a plug-in for Internet Explorer and Firefox, and a module of Reports & Analytics.
+[ClickMap](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html) is a plug-in for Internet Explorer and Firefox, and a module of Reports & Analytics.
 
 ### Track download links
 
 Tracks links to downloadable files on your site.
 
-See [s.trackDownLoadLinks](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackDownloadLinks.html).
+See [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackdownloadlinks.html).
 
 ### Download Extensions
 
 If the Track Download Links option is enabled, you can select the extensions of file links that are included in the Downloads Report If your site contains links to files with any of the listed extensions, the URLs of these links will appear in reporting.
 
-See [s.linkDownloadFileTypes](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/linkDownloadFileTypes.html).
+See [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html).
 
 ### Track outbound links
 
 Determines whether any link clicked is an exit link.
 
-See [s.trackExternalLinks](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/trackExternalLinks.html).
+See [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackexternallinks.html).
 
 **Single-Page App Considerations:** Because of the way some SPA websites are coded, an internal link to a page on the SPA site might look like it is an outbound link.
 
@@ -197,7 +197,7 @@ Note that these two options are mutually exclusive.
 
 Preserves query strings.
 
-See [s.linkLeaveQueryString](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/linkLeaveQueryString.html).
+See [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkleavequerystring.html).
 
 ## Cookies
 
@@ -207,31 +207,31 @@ Configure field descriptions for the Cookies global settings used for deploying 
 
 Unique value that represents a customer in both the online and offline systems.
 
-See [visitorID](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/visitorID.html).
+See [visitorID](https://docs.adobe.com/content/help/en/analytics/import/data-sources/data-types-and-categories/datasrc-visitorid.html).
 
 ### Visitor Namespace
 
 Variable to identify the domain with which cookies are set.
 
-See [visitorNamespace](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/visitorNamespace.html).
+See [visitorNamespace](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/visitornamespace.html).
 
 ### Domain Periods
 
 The domain on which the Analytics cookie `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie.
 
-See [s.cookieDomainPeriods](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/cookiedomainperiods.html).
+See [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/cookiedomainperiods.html).
 
 ### First-Party Domain Periods
 
 The `fpCookieDomainPeriods` variable is for cookies set by JavaScript (`s_sq`, `s_cc`, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party 2o7.net or omtrdc.net domains.
 
-See [s.fpCookieDomainPeriods](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/fpCookieDomainPeriods.html).
+See [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/fpcookiedomainperiods.html).
 
 ### Cookie Lifetime
 
 Determines the life span of a cookie.
 
-See [s.cookieLifetime](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/cookielifetime.html).
+See [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/cookielifetime.html).
 
 ## Customize Page Code
 
@@ -253,7 +253,7 @@ You can configure advanced settings by showing the advanced settings and enterin
 
 ![](/help/assets/an-ext-aam-adv.png)
 
-For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://experiencecloud.adobe.com/resources/help/en_US/aam/c_aam_home.html).
+For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html).
 
 ## Analytics extension action types
 
@@ -271,7 +271,7 @@ Important: Using a "set variables" action won't send the beacon. You must use th
 
 #### eVars
 
-Set one or more [eVars](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
+Set one or more [eVars](https://docs.adobe.com/help/en/analytics/implementation/vars/page-vars/evar.html).
 
 1. Select an eVar from the dropdown.
 1. Specify whether you want to set the eVar as the value (Set As) or copy (Duplicate From) another eVar.
@@ -281,7 +281,7 @@ Set one or more [eVars](https://experiencecloud.adobe.com/resources/help/en_US/s
 
 #### Props
 
-Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
+Set one or more [props](https://docs.adobe.com/help/en/analytics/implementation/vars/page-vars/prop.html).
 
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value (Set As) or copy (Duplicate From) another eVar.
@@ -291,16 +291,16 @@ Set one or more [props](https://experiencecloud.adobe.com/resources/help/en_US/s
 
 #### Events
 
-Set one or more [events](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/ref-events.html).
+Set one or more [events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/events-overview.html).
 
 1. Select an event from the dropdown.
-1. (Optional) Select or specify a data element used for [event serialization](https://experiencecloud.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
+1. (Optional) Select or specify a data element used for [event serialization](https://docs.adobe.com/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html).
 1. (Optional) Click **[!UICONTROL Add event]** to set more events.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
-Set the Analytics [Hierarchy](https://experiencecloud.adobe.com/resources/help/en_US/reference/hierarchy.html) variable.
+Set the Analytics [Hierarchy](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/hier.html) variable.
 
 Specify each level in the hierarchy.
 

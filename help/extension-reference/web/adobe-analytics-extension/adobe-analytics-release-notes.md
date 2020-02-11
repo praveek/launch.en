@@ -165,7 +165,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### **Features**
 
-* Updated Adobe Analytics extension to support [AppMeasurement 2.9](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_mjs.html).
+* Updated Adobe Analytics extension to support AppMeasurement 2.9.
 * Added "Make tracker globally accessible" feature in the Adobe Analytics extension, which enables the tracker to be scoped globally under `windows.s`.
 
 #### **Bug Fixes**
