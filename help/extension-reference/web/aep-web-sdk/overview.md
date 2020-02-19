@@ -50,7 +50,7 @@ The Adobe Experience Platform extension uses a new cookie to store the ECID. Thi
 
 ### **[!UICONTROL Use 3rd Party Cookies]**
 
-The Adobe Experience Platform will store a cookie in the first party domain always. This option allows you to use a 3rd party cookie in addition to the cookie on the first party domain. This can be helpful when you have users that move between multiple domains. 
+The Adobe Experience Platform will store a cookie in the first party domain always. This option allows you to use a 3rd party cookie set on demdex.net in addition to the cookie on the first party domain. This can be helpful when you have users that move between multiple domains. This will disable calls to demdex.net. 
 
 ### **[!UICONTROL Context]**
 
