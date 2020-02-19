@@ -7,9 +7,22 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 # AEP Extension Release Notes
 
+## February 18, 2020
+
+### AEP Extension 0.0.7
+
+#### Features
+
+* Removed idSyncContainerId, datasetId, schemaId, urlDestinationsEnabled, and cookieDestinationsEnabled options
+* Added support for hyphens in edgeDomain option value
+* Request made during ID migration is sent to demdex endpoint to improve cross-domain identification when demdex cookie is not set
+* Request made during ID migration always expects a response to ensure identity cookie gets set
+* When executing an invalid command, a list of valid command names will be logged in the console
+* Added checkbox for toggling third-party cookie support to the Launch extension. This disables calls to demdex.net
+
 ## December 20, 2019
 
-### AEP Extension 0.5
+### AEP Extension 0.0.5
 
 #### Features 
 
@@ -38,7 +51,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## November 25, 2019
 
-### AEP Extension 0.3
+### AEP Extension 0.0.3
 
 #### Features 
 
@@ -52,7 +65,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## November 18, 2019
 
-### AEP Extension 0.2
+### AEP Extension 0.0.2
 
 #### Features
 
