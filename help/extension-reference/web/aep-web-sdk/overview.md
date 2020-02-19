@@ -48,6 +48,10 @@ If **[!UICONTROL Enable Opt-in]** is enabled, Adobe Experience Platform extensio
 
 The Adobe Experience Platform extension uses a new cookie to store the ECID. This setting enables compatibility between the new cookie and the old cookie for migration purposes. Adobe highly recommends this be enabled, unless you have no existing visitors with an ECID. 
 
+### **[!UICONTROL Use 3rd Party Cookies]**
+
+The Adobe Experience Platform will store a cookie in the first party domain always. This option allows you to use a 3rd party cookie in addition to the cookie on the first party domain. This can be helpful when you have users that move between multiple domains. 
+
 ### **[!UICONTROL Context]**
 
 The extension collects information automatically about the context of the request (for example, details about the URL and the browser). This can be disabled by deselecting specific contexts. 

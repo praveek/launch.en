@@ -20,7 +20,6 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 * When executing an invalid command, a list of valid command names will be in the logged in the console
 * Added checkbox for toggling third-party cookie support to the Launch extension.
 
-
 ## December 20, 2019
 
 ### AEP Extension 0.5
