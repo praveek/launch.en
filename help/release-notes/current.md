@@ -7,6 +7,14 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## February 19, 2020
+
+### Features
+
+* Improved list view pagination:
+** Users can jump to a specific page in a list
+** Users can select the number of rows to display
+
 ## February 6, 2020
 
 ### Features
