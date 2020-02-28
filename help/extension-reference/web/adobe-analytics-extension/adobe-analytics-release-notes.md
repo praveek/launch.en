@@ -7,6 +7,23 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## March 2, 2020
+
+### Adobe Analytics Extension 1.8.2
+
+#### Bug Fixes
+
+* Fixed an issue where the incorrect syntax was being used for numeric events and serialized currency
+
+#### Features
+
+* Updated [AppMeasurement to 2.18](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)
+* Updated the DIL library in the Audience Manager module to 9.4
+* Increased the length of input fields in the extension
+* eVars and props in the extension and action configurations now show the friendly name from Analytics
+* Added a checkbox in the 'Cookies' section of the extension configuration that allows you to write secure cookies
+* Added three new configurations to the Audience Manager module. Added a setting for enabling logging, for enabling URL destinations, and for enabling cookie destinations
+
 ## November 13, 2019
 
 ### Adobe Analytics Extension 1.8.1
