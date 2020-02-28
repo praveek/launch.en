@@ -233,6 +233,13 @@ Determines the life span of a cookie.
 
 See [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/cookielifetime.html).
 
+### Secure Cookies
+
+This variable allows AppMeasurement to write secure cookies.
+
+See [writeSecureCookies](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/writesecurecookies.html)
+
+
 ## Customize Page Code
 
 Use the editor to customize your page code.
