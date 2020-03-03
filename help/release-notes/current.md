@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## March 3, 2020
+
+### Updates
+
+* We've updated the Launch UI to bring dramatic improvements to the signing in and out.  Switching between Launch and other Adobe products will also be much smoother now.  For those of you have a single account with rights to multiple companies, this will also be much smoother now.
+* The structure of Launch URLs is now mor consistent with other Adobe products.  The new URL format replaces `https://launch.adobe.com` with `https://experience.adobe.com/#/@companyID/launch/`.  The old URLs will redirect to the new ones, but you'll want to update your bookmarks to save yourself a few seconds each time you go there.
+
 ## February 19, 2020
 
 ### Features
