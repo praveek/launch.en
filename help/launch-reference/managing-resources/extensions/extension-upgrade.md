@@ -39,7 +39,7 @@ Installing an upgrade is pretty much the same as [installing the extension](#add
 
 The upgrade is not actually performed until you hit [!UICONTROL Save]. At any time previous to that, you can click [!UICONTROL Cancel] and stay with the currently installed version. Clicking [!UICONTROL Save] is the point of no return.
 
-Extension Upgrades are not permitted if you have a library in the `Approved` or `Submitted` state.  This is because the next build must contain the new extension version.  For a library that is `Approved` or `Submitted`, the next build is the production build.  That build would fail since it doesn't contain the latest version, so the workflow is to either publish or reject libraries in the `Approved` or `Submitted` state before upgrading the extension.
+Extension Upgrades are not permitted if you have a library in the `Approved` or `Submitted` state.  This is because the next build must contain the new extension version.  For a library that is `Approved` or `Submitted`, the next build is the production build.  That build would fail since it doesn't contain the latest version, so the workflow is to publish or reject libraries in the `Approved` or `Submitted` state _before_ upgrading the extension.
 
 ## Publishing an Upgrade
 
