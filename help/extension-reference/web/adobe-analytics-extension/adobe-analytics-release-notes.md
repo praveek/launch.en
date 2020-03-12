@@ -7,6 +7,19 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## March 10, 2020
+
+### Adobe Analytics Extension 1.8.3
+
+#### Bug Fixes
+
+* Fixed a bug affecting the rule configuration that would throw an error when you tried to set variables if you were using a custom library and your report suites weren't configured in Analytics.
+* When creating an eVar, there was a bug that would not show you the option to "duplicate from" a prop or vice versa. This has now been fixed to mirror the behavior in previous versions. 
+
+#### Features
+
+* Updated [AppMeasurement to 2.20.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)
+
 ## March 2, 2020
 
 ### Adobe Analytics Extension 1.8.2
@@ -17,7 +30,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Features
 
-* Updated [AppMeasurement to 2.18](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)
+* Updated [AppMeasurement to 2.18.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)
 * Updated the DIL library in the Audience Manager module to 9.4
 * Increased the length of input fields in the extension
 * eVars and props in the extension and action configurations now show the friendly name from Analytics
