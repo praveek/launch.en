@@ -14,7 +14,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 #### Bug Fixes
 
 * Fixed a bug affecting the rule configuration that would throw an error when you tried to set variables if you were using a custom library and your report suites weren't configured in Analytics.
-* When creating an eVar there was a bug that would not show you the option to 'duplicate from' a prop or vice versa, this has now been fixed to mirror the behavior in previous versions. 
+* When creating an eVar, there was a bug that would not show you the option to "duplicate from" a prop or vice versa. This has now been fixed to mirror the behavior in previous versions. 
 
 #### Features
 
