@@ -34,7 +34,7 @@ seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adob
 
 #### **Features**
 
-The [Adobe Analytics for Video Extension](/help/extension-reference/adobe-extensions/adobe-analytics-for-video-extension.md) adds the core Video Analytics JavaScript library. This library provides the functionality for adding the mediaHeartbeat instance to a Launch site or project. The Adobe Analytics for Video Extension (VA Extension) requires two additional extensions:
+The [Adobe Analytics for Video Extension](/help/extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md) adds the core Video Analytics JavaScript library. This library provides the functionality for adding the mediaHeartbeat instance to a Launch site or project. The Adobe Analytics for Video Extension (VA Extension) requires two additional extensions:
 
 * Analytics Extension
 * Experience Cloud ID Extension
