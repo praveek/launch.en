@@ -11,7 +11,7 @@ Use this documentation for information on installing, configuring, and implement
 
 The [!DNL Video Analytics] (VA) extension adds the core VA JavaScript library (VA 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
 
-* [Analytics Extension](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md)
+* [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
