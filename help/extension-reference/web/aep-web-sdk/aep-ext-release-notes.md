@@ -7,6 +7,15 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 # AEP Extension Release Notes
 
+## March 16, 2020
+
+### AEP Extension 0.0.8
+
+#### Features
+
+* Combined the concepts of Opt-In & Opt-Out under `Consent`, and added a new `setConsent` command.
+* Added a new Data Element of type `XDM Object` which allows mapping from JavaScript/JSON to XDM.
+
 ## February 18, 2020
 
 ### AEP Extension 0.0.7
