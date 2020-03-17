@@ -15,7 +15,7 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* When a rule component (event, condition, or action) is updated, the `updated_at` attribute for the rule it belongs to is also updated. This is more accurately reflects that the behavior of the rule has changed by modifying one or more of its components. If you use callbacks for rules, you will see an increase in rule updated at callbacks. See the [https://developer.adobelaunch.com/api/reference/1.0/rule_components/](https://developer.adobelaunch.com/api/reference/1.0/rule_components/) for more information.
+* When a rule component (event, condition, or action) is updated, the `updated_at` attribute for the rule it belongs to is also updated. This is more accurately reflects that the behavior of the rule has changed by modifying one or more of its components. If you use callbacks for rules, you will see an increase in rule updated at callbacks. See [https://developer.adobelaunch.com/api/reference/1.0/rule_components/](https://developer.adobelaunch.com/api/reference/1.0/rule_components/) for more information.
 
 ## March 3, 2020
 
