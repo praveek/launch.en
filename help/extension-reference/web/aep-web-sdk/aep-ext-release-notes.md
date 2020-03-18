@@ -9,7 +9,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## March 16, 2020
 
-### AEP Extension 0.0.9
+### AEP Extension 0.0.10
 
 #### Features
 
