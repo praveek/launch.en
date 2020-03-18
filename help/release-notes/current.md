@@ -7,6 +7,16 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## March 18th, 2020
+
+### Bug Fixes
+
+* When a user tried to create a rule with a comma in the name, they would receive a false "duplicate name" error.
+
+### Features
+
+* When a rule component (event, condition, or action) is updated, the `updated_at` attribute for the rule it belongs to is also updated. This more accurately reflects that the behavior of the rule has changed by modifying one or more of its components. If you use callbacks for rules, you will see an increase in rule `updated_at` callbacks. See [https://developer.adobelaunch.com/api/reference/1.0/rule_components/](https://developer.adobelaunch.com/api/reference/1.0/rule_components/) for more information.
+
 ## March 3, 2020
 
 ### Updates
