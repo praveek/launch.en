@@ -7,6 +7,15 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 # Adobe Target v2 Extension Release Notes
 
+## March 25, 2020
+
+### Adobe Target v2 Extension 0.13.0
+
+* Updated at.js to v2.3.
+* Added Target Global Mbox support in adobe.target.getOffer API
+* Fixed an issue where params and page load params were not processed correctly
+
+
 ## October 10, 2019
 
 ### Adobe Target v2 Extension 0.12.0
