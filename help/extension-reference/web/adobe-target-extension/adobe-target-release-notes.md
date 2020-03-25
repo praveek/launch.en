@@ -7,6 +7,13 @@ seo-description: Release notes for Adobe Target extension in Adobe Experience Pl
 
 # Adobe Target Release Notes
 
+## March 25, 2020
+
+### Adobe Target Extension 0.11.1
+
+* Updated at.js to v1.8.1
+* Fixed an issue where params and page load params were not processed correctly
+
 ## October 10, 2019
 
 ### Adobe Target Extension 0.11.0
