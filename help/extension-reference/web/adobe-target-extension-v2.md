@@ -171,13 +171,13 @@ By default, the snippet pre-hides the whole HTML BODY. In some cases, you might 
 
 For example, if you have two regions identified by IDs container-1 and container-2, the style can be replaced with the following:
 
-```js
+```css
 #container-1, #container-2 {opacity: 0 !important}
 ```
 
 Instead of default:
 
-```js
+```css
 body {opacity: 0 !important}
 ```
 
