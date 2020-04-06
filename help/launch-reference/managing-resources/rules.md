@@ -21,7 +21,7 @@ Events are where the majority of interactions take place. You can measure and re
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
->[!Important] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!IMPORTANT] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 ## Events and conditions (if)
 
