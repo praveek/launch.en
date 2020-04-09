@@ -21,13 +21,13 @@ seo-description: Common Analytics Plugins Release Notes for Adobe Experience Pla
 
 ## December 5, 2010
 
-###  Common Analytics Plugins Extension 2.1.1
+### Common Analytics Plugins Extension 2.1.1
 
 #### Bug Fixes
 
 * Fixed an issue that prevented backwards compatibility with versions 2.0.X
 * Fixed an issue where documentation links pointed to the wrong documentation
-* Fixed an issue where getTimeSinceLastVisit appeared twice in the initialize action
+* Fixed an issue where `getTimeSinceLastVisit` appeared twice in the initialize action
 
 ## November 15, 2019
 
@@ -36,15 +36,15 @@ seo-description: Common Analytics Plugins Release Notes for Adobe Experience Pla
 #### Bug Fixes
 
 * Reintroduced individual plugin actions to support backwards compatibilty
-* Fixed an issue with the cleanStr plugin
-* Fixed an issue with the getResponsiveLayout plugin
-* Fixed an issue with the getPageName plugin
+* Fixed an issue with the `cleanStr` plugin
+* Fixed an issue with the `getResponsiveLayout` plugin
+* Fixed an issue with the `getPageName` plugin
 
 #### Features
 
-* Version update for getTimeParting
-* Version update for numberSuite
-* Version update for getNewRepeat
+* Version update for `getTimeParting`
+* Version update for `numberSuite`
+* Version update for `getNewRepeat`
 * Updated documentation for all plugins
 
 ## October 30, 2019
