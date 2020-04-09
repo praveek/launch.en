@@ -36,7 +36,7 @@ The Common Analytics Plugins extension provides the following actions:
 * [Initialize](common-analytics-plugins-extension.md#initialize)
 * [Initialize Plugin](common-analytics-plugins-extension.md#initialize-plugin)
 
-### Initialize {#initialize}
+### Initialize
 
 >[!IMPORTANT]
 >
@@ -44,6 +44,6 @@ The Common Analytics Plugins extension provides the following actions:
 
 In this action, you are able to select each plugin you want to include in your implementation and save the changes. Select as many or as few as you intend to use during the implementation. Links to documentation on how to use each plugin and a brief description are provided in the Analytics [Plug-ins overview](https://docs.adobe.com/content/help/en/analytics/implementation/vars/plugins/impl-plugins.html).
 
-### Initialize Plugin {#initialize-plugin}
+### Initialize Plugin
 
 These actions initialize the specific plugin you intend to use individually. To initialize all of the plugins you intend to use in your property, simply add the corresponding action to your rule and save the rule. While there is slightly more effort invovled in configuring the extension this way, it provides greater code efficiency. As such, Adobe recommends this approach.
