@@ -9,6 +9,36 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://marketing.adobe.com/resources/help/en\_US/mcvid/mcvid-release-notes.html](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html)
 
+## April 13, 2020
+
+### Experience Cloud ID Extension 4.6.0
+
+#### **Features**
+
+* Made `loadSSL` flag on by default. All calls to Identity Service will be on `https` by default. Customers can set it to false if they want to call Identity Services on http from their non-ssl pages.
+* Updated the function used to detect Internet-Explorer (IE) version, to fix an issue reported by ESLint.
+* Bug fix for a performance issue on Internet-Explorer (IE) 11 when ECID is given optIn pre-approval and updated later.
+
+## January 22, 2020
+
+### Experience Cloud ID Extension 4.5.2
+
+#### **Features**
+
+* Updated visitor.js to 4.5.2
+* Visitor 4.5.1 includes a bug fix for IAB plugin for Optin
+* Updated `setCustomerIDs` method to reject any empty IDs sent.
+
+## January 7, 2020
+
+### Experience Cloud ID Extension 4.4.2
+
+#### **Features**
+
+* Updated visitor.js to 4.4.2
+* Improvements for `getVisitorValues` method to fetch values faster
+
+
 ## September 19, 2019
 
 ### Experience Cloud ID Extension 4.4.1
