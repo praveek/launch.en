@@ -562,9 +562,9 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 
 ##### Condition Sequencing
 
-When the "Action & Condition Sequencing" option from property settings is enabled you can influence when the next condtion is executed to a moment of your choice.
+When the **[!UICONTROL Action & Condition Sequencing]** option from property settings is enabled you can choose when the next condition is executed.
 
-When you return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the next condition in the rule will be executed only when the returned promise is resolved. If the promise is rejected, Launch considers that condition as failed and no action will be executed.
+When you return a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the next condition in the rule executes only when the returned promise is resolved. If the promise is rejected, [!DNL Launch] considers that condition as failed and no action is executed.
 
 **Example:**
 
@@ -866,9 +866,9 @@ The validator used in the [!DNL Launch] code editor is designed to identify issu
 
 #### Action sequencing
 
-When the "Action & Condition Sequencing" option from property settings is enabled you can influence when the next action is executed to a moment of your choice.
+When the **[!UICONTROL Action & Condition Sequencing]** option from property settings is enabled, you can choose when the next action is executed.
 
-You can return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) when you want to create a JavaScript custom code that is not executed globally. The next action in the rule will be executed only when the returned promise is resolved. If the promise is rejected, the next actions from the rule will not be executed.
+You can return a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) when you want to create a JavaScript custom code that is not executed globally. The next action in the rule executes only when the returned promise is resolved. If the promise is rejected, the next actions from the rule is not executed.
 
 **Example:**
 
@@ -884,7 +884,7 @@ return new Promise(function(resolve) {
 });
 ```
 
-When creating an HTML custom code action, a function named onCustomCodeSuccess will be automatically available to use within your custom code. You may call this function to indicate that your custom code has completed and that Launch may move on to executing subsequent actions. On the other hand, if your custom code failed in some way, you may call onCustomCodeFailure. That will inform Launch to not execute the ubsequent actions.
+When creating an HTML custom code action, a function named `onCustomCodeSuccess` is available to use within your custom code. Call this function to indicate that your custom code has completed and that [!DNL Launch] can execute subsequent actions. On the other hand, if your custom code failed in some way, you can call `onCustomCodeFailure`. That informs [!DNL Launch] not to execute the subsequent actions.
 
 **Example:**
 
