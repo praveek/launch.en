@@ -73,4 +73,3 @@ Any data that you want to send can be sent in the **[!UICONTROL XDM Data]** fiel
 
 There are currently two option for opt-in. **[!UICONTROL All purpose]** sends data to Adobe Experience Platform and **[!UICONTROL No purposes]**, sends no data. These can either be set on the event or pulled from a **[!UICONTROL Data Element]**. 
 
-
