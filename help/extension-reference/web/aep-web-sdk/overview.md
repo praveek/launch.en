@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Plat
 
 # Adobe Experience Platform Extension
 
-The Adobe Experience Platform Extension sends data to the Adobe Experience Platform from web properties. The Adobe Experience Platform extension allows for streaming data into platform, syncing identities, opt-in and automatically collecting context data. 
+The Adobe Experience Platform Extension sends data to the Adobe Experience Cloud from web properties, through the Adobe Experience Platform Edge Network. The Adobe Experience Platform extension allows for streaming data into platform, syncing identities, opt-in and automatically collecting context data. 
 
 ## Configure the Adobe Experience Platform extension
 
