@@ -7,6 +7,29 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 # AEP Extension Release Notes
 
+## May 4, 2020
+
+### AEP Extension 0.1.2
+
+#### Features
+
+* Renamed `configId` to `edgeConfigId`.
+* Renamed `viewStart` to `renderDecisions`, set to false by default. If set to true, we will fetch Personalization offers and auto render them.
+* Changes related to `Get Decisions`:
+- Remove the `getDecisions` command;
+- Added a `scopes` option to the `sendEvent` command. Decisions are returned in the `sendEvent` resolved promise.
+- Added a built-in `__view__` scope which will result in returning page/view wide offers. (VEC offers in Target for example)
+Those decisions will return from the `sendEvent` command only if `renderDecisions` is set to false.
+- Added a `Decisions Received` event which fires when decisions become available. 
+* We now combine multiple Personalization notifications under a single server call.
+* Fixed issue in Event Merge ID where it was being reset every time the data element was referenced.
+* Renamed the `setCustomerIds` action to `syncIdentity`.
+* Added a `getIdentity` command: this can be consumed via custom code only for now.
+* Enabling debug using `_satellite` now enables debugging in the AEP Extension.
+* Added support for typed values in the XDM Object: Booleans, Numbers and Decimals.
+
+
+
 ## February 18, 2020
 
 ### AEP Extension 0.0.7
