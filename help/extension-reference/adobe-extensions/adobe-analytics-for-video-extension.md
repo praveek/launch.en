@@ -144,7 +144,7 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
     ...
    ```
 
-1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
+1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
 
 >[!NOTE]
 >**Testing -** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.

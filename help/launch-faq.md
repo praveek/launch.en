@@ -34,7 +34,7 @@ There is no additional charge for [!DNL Launch]. It is available for any [!DNL A
 
 ## Do I have to change the embed codes in my current DTM implementation?
 
-No, you don't have to change your production embed codes if you're currently using the existing (legacy) [!DNL DTM] system. You can continue to work in your current [!DNL DTM] Company and Web Properties without worrying about changing that embed code. The product team is working to make the migration process as easy and automated as possible. For more details, see the [Launch help docs](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/embed-code-link.html), and this [blog post](https://medium.com/launch-by-adobe/migrating-from-dtm-to-launch-57548251a86d).
+No, you don't have to change your production embed codes if you're currently using the existing (legacy) [!DNL DTM] system. You can continue to work in your current [!DNL DTM] Company and Web Properties without worrying about changing that embed code. The product team is working to make the migration process as easy and automated as possible. For more details, see the [Launch help docs](https://docs.adobe.com/content/help/en/launch/using/reference/upgrade/overview.html), and this [blog post](https://medium.com/launch-by-adobe/migrating-from-dtm-to-launch-57548251a86d).
 
 ## I heard there are plug-ins now. What's that about?
 

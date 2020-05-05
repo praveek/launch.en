@@ -41,7 +41,7 @@ Click **[!UICONTROL Add]** to exclude another path.
 
 ### Variables
 
-Set name-value pairs as [!DNL Experience Cloud ID] instance properties. Use the drop-down to select a variable, then type or select a value. For information about each variable, refer to the [Experience Cloud ID Service documentation](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html).
+Set name-value pairs as [!DNL Experience Cloud ID] instance properties. Use the drop-down to select a variable, then type or select a value. For information about each variable, refer to the [Experience Cloud ID Service documentation](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
 
 ## Experience Cloud ID extension action types
 
