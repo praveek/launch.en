@@ -61,7 +61,7 @@ The embed code(s) is generated for you based on the environment configuration, s
 
 #### Synchronous
 
-If you load the library synchronously, when the browser reads the embed code, it retrieves the Launch library and executes it before continuing to load the page. This is also how [DTM](https://marketing.adobe.com/resources/help/en_US/dtm/) works.
+If you load the library synchronously, when the browser reads the embed code, it retrieves the Launch library and executes it before continuing to load the page. This is also how [DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) works.
 
 In a synchronous deployment, the embed code consists of two `<script>` tags that you need to put within the HTML of your website. One `<script>` tag goes in the `<head>` and one goes at the footer in the bottom of the .
 

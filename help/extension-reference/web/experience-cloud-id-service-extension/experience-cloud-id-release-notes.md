@@ -7,7 +7,7 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 # Experience Cloud ID Release Notes
 
-For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://marketing.adobe.com/resources/help/en\_US/mcvid/mcvid-release-notes.html](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html)
+For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
 ## April 13, 2020
 
