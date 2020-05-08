@@ -7,6 +7,25 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## May 9th, 2020
+
+### Bug Fixes
+
+* When using Safari <= v12, users were not able to access Adobe Platform Launch due to an `X-FRAME-OPTIONS` header that was being set incorrectly.
+* Notification messages were not displaying with the correct format in FireFox.
+
+## April 24th, 2020
+
+### Bug Fixes
+
+* Error states on unselected library edit resources were not always cleared correctly. 
+
+## April 13th, 2020
+
+### Bug Fixes
+
+* Tooltips on the Data Element Selector Dialog were not displaying correctly.
+
 ## March 18th, 2020
 
 ### Bug Fixes
