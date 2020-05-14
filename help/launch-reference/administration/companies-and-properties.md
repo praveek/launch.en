@@ -132,7 +132,7 @@ Before beginning, review the [Best practices for planning properties](companies-
 
 Navigate to your company page, then click [!UICONTROL Add Property], or select an existing property from the list and click [!UICONTROL Configure].
 
-![](/help/assets/property-create.jpg)
+![](/help/assets/property-settings.png)
 
 ### For Web
 
@@ -140,13 +140,12 @@ Navigate to your company page, then click [!UICONTROL Add Property], or select a
 
    **Name:** The name of your property.
 
-   **Domain:** The base URL of the property
+   **Domains:** The base URL of any sites you plan to deploy this property to
 
+1. (Advanced) **[!UICONTROL Run rule components in sequence]** Select this checkbox to make conditions and actions wait for the previous one to complete before they run
 1. (Advanced) **[!UICONTROL Return an empty string for undefined data elements:]** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
 1. (Advanced) **[!UICONTROL Configure for extension development:]** Select this check box if you plan to install development extensions that are being actively developed by your company
 1. Click Save.
-
-   The extension is automatically installed into the new property.
 
 ### For Mobile
 

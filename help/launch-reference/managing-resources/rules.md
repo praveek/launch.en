@@ -13,7 +13,7 @@ Build rules to integrate the data and functionality of marketing and ad tech tha
 
 For an introductory video, see [Rule builder](../../quick-start/videos.md).
 
-Events are where the majority of interactions take place. You can measure and react to these interactions in real-time, without the need for client-side code.
+## Rule Structure
 
 **Events (If):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
 
@@ -23,7 +23,7 @@ You can add more event types. Multiple events are joined with an OR, so the rule
 
 >[!IMPORTANT] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
-## Events and conditions (if)
+### Events and conditions (if)
 
 Events with any conditions are the _If_ portion of a rule.
 
@@ -39,15 +39,13 @@ If a specified event occurs, the conditions are evaluated, then the specified ac
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../../extension-reference/web/core-extension/overview.md#core-extension-event-types).
 
->[!NOTE]  [!DNL DTM] provided page load, event-based, and direct call event types. This is no longer true in [!DNL Launch]. Rather than event types, [!DNL Launch] extensions configure different individual events.
+>[!NOTE]
+>
+>[!DNL DTM] provided page load, event-based, and direct call rule types. [!DNL Launch] just has rules and lets you define the event to trigger the rule.  The different [!DNL DTM] options are still available in [!DNL Launch] as event types.
 
-Only events are required. The conditions and exceptions are optional.
+### Actions (then)
 
-## Actions (then)
-
-Actions are the Then portion of a rule. When an event is triggered, if conditions evaluate to true and exceptions evaluate to false, the actions are performed. You can drag and drop actions to order them as desired.
-
-The action, or _then_ , part of the formula determines what happens when the event takes place and all conditions and exclusions are met.
+Actions are the _Then_ portion of a rule. They define what you want to happen when the rule runs.  When an event is triggered, if conditions evaluate to true and exceptions evaluate to false, the actions are performed. You can drag and drop actions to order them as desired.
 
 ## Create a rule
 
@@ -59,12 +57,11 @@ Create a rule by specifying what actions occur if a condition is met.
 
 1. Name the rule.
 1. Click the Events **[!UICONTROL Add]** icon.
-1. Choose your extension and one of the event types available for that extension, then configure the properties for the event.
-   >[!NOTE] The available event types are defined by the extension.
+1. Choose your extension and one of the event types available for that extension, then configure the settings for the event.  
 
    ![](/help/assets/rule-event-config.png)
 
-   Some events don't have any properties that need to be configured.
+   Available event types depend on the extension you've selected.  Event settings will differ based on the event type.  Some events don't have any ettings that need to be configured.
 
 1. Set the Order parameter, then click **[!UICONTROL Keep Changes]**.
 
@@ -76,27 +73,34 @@ Create a rule by specifying what actions occur if a condition is met.
 
      If you want it to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-1. Click the Conditions **[!UICONTROL Add]** icon, then choose a logic type, extension, condition type and configure the properties for your condition. Then click **[!UICONTROL Keep Changes]**.
+1. Click the Conditions **[!UICONTROL Add]** icon, then choose a logic type, extension, condition type and configure the settings for your condition. Then click **[!UICONTROL Keep Changes]**.
+
+   ![](/help/assets/condition-settings.png)
+
+   Available condition types depend on the extension you've selected.  Condition settings will differ based on the condition type.
 
    Logic type:
 
    * Regular logic type allows actions to be executed if the condition is met
    * Exception logic type prevents actions from being executed if the condition is met
 
-You can add other conditions. Multiple conditions within the same condition are joined with an OR, multiple conditions configurations are joined by AND. The rule's exceptions are evaluated if any of the events are met, along with their conditions.
+   (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  This attribute defines the maximum amount of time allowed for the condition to run.  If the timeout is reached, the condition fails and the remainder of the rule's conditions and actions will be removed from the processing queue.  The default is 2000ms.
 
-1. Click the Actions **[!UICONTROL Add]** icon, then choose your extension and one of the action types available for that extension, configure the properties for the action, then click **[!UICONTROL Keep Changes]**.
-   >[!NOTE]  The available action types are defined by the extension.
+   You can add as many conditions as you'd like. Multiple conditions within the same rule are joined by AND.
 
-   ![](/help/assets/rule-action-config.jpg)
+1. Click the Actions **[!UICONTROL Add]** icon, then choose your extension and one of the action types available for that extension, configure the settings for the action, then click **[!UICONTROL Keep Changes]**.
 
-   You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
+   ![](/help/assets/action-settings.png)
+
+   Available action types depend on the extension you've selected.  Action settings will differ based on the action type.
+
+   (Advanced) Wait to run next action: This option is available when rule component sequencing is enabled on your property.  When checked, Launch will not call the next action until this one is completed.  When unchecked, the next action begins to execute immediately.  The default is **[!UICONTROL Checked]**.
+
+   (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  It defines the maximum amount of time allowed for the action to complete.  If the timeout is reached, the action fails and any subsequent actions for this rule will be removed from the processing queue.  The default is 2000ms.
 
 1. Review your rule, then click **[!UICONTROL Save Rule]**.
 
    Later, when you [publish](/help/launch-reference/publishing/overview.md), you'll add this rule to a library and deploy it.
-
-When you edit or update an existing rule, a new version of the rule is created, which you can then deploy.
 
 When creating or editing rules, you can save and build to your [active library](../publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed.
 
@@ -123,12 +127,42 @@ You can use `document.write` within your custom scripts regardless of the events
 
 You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. [!DNL Launch] ensures that they are executed in that order.
 
-### Rules with page bottom or page top event
+## Rule Bundling
+
+Rule events and conditions are always bundled into the main Launch library.  Actions may be bundled in the main library or loaded late as sub-resources as needed.  Whether the actions are bundled or not is determined by the rule's event type.
+
+### Rules with "Core - Library Loaded" or "Core - Page Top" events 
+
+These events need to be executed almost always (unless conditions evaluate to false), so for efficiency, they are bundled into the main library, the file referenced by your embed code.
 
 * **Javascript:** The JavaScript is embedded in the main [!DNL Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
 * **HTML:** The HTML is embedded in the main Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
 
 ### Rules with any other event
 
-* **JavaScript:** The JavaScript is loaded from the server as regular text, wrapped in a script tag, and added to the document using Postscribe. If the rule has multiple JavaScript custom scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
-* **HTML:** The HTML is loaded from the server and added to the document using Postscribe. If the rule has multiple custom HTML scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
+Adobe cannot guarantee that any other rules will actually be triggered and that their action code will be needed.  For this reason, the actions for all event types that are not listed above are not packaged into the main library. Instead, they are stored as sub-resources and referenced by the main library as needed.
+
+* **JavaScript:** The JavaScript is loaded from the server as regular text, wrapped in a script tag, and added to the document using Postscribe. If the rule has multiple JavaScript custom scripts, they are loaded in parallel from the server, but executed in the same order that was configured in the rule.
+* **HTML:** The HTML is loaded from the server and added to the document using Postscribe. If the rule has multiple custom HTML scripts, they are loaded in parallel from the server, but executed in the same order that was configured in the rule.
+
+## Rule Component Sequencing
+
+The Launch runtime environment's behavior depends on whether **[!UICONTROL Run rule components in sequence]** is on or off for your property.
+
+### Enabled
+
+If enabled, when an event is triggered at runtime, the rule's conditions and actions are added to a processing queue--based on the order you have defined--and processed one at a time on a FIFO basis.  [!DNL Launch] waits for the completion of the component before moving onto the next one.
+
+If a condition evaluates as false or reaches its defined timeout, that rule's subsequent conditions and actions are removed from the queue.
+
+If an action fails or reaches its defined timeout, that rule's subsequent actions are removed from the queue
+
+>[!NOTE] 
+>
+>With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Launch] library synchronously.
+
+### Disabled
+
+If disabled, when an event is triggered at runtime, the rule's conditions are immediately evaluated.  Multiple conditions are evaluated in parallel.  
+
+If all conditions return true (and exceptions return false), the rule's actions are immediately executed.  The actions are called in order, but Launch does not wait for one to complete before calling the next.  If your actions are synchronous, they are still executed in order.  If one or more actions are asynchronous, some actions will run in parallel.
