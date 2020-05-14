@@ -81,8 +81,8 @@ Create a rule by specifying what actions occur if a condition is met.
 
    Logic type:
 
-   * Regular logic type allows actions to be executed if the condition is met
-   * Exception logic type prevents actions from being executed if the condition is met
+  - Regular logic type allows actions to be executed if the condition is met
+  - Exception logic type prevents actions from being executed if the condition is met
 
    (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  This attribute defines the maximum amount of time allowed for the condition to run.  If the timeout is reached, the condition fails and the remainder of the rule's conditions and actions will be removed from the processing queue.  The default is 2000ms.
 
