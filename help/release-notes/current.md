@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## Upcoming May (?) Release
+
+## Features
+
+* Rule Component Sequencing: you check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime will add rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
+* Promises in Core - Custom Code: You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/core-extension/overview.md) doc.
+
 ## May 9th, 2020
 
 ### Bug Fixes
@@ -47,9 +54,8 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* Improved list view pagination:
-** Users can jump to a specific page in a list
-** Users can select the number of rows to display
+* Rows per page: List pages now allow you to specify how many rows you'd like to see on each page.
+* Pagination: List pages now have improved pagination that shows you how many pages are available and lets you jump to a specific page.  Page numbers are based on the number of rows per page
 
 ## February 6, 2020
 
