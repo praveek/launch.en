@@ -9,7 +9,7 @@ seo-description: Adobe Launch release notes
 
 ## Upcoming May (?) Release
 
-## Features
+### Features
 
 * Rule Component Sequencing: you check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime will add rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
 * Promises in Core - Custom Code: You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/core-extension/overview.md) doc.
