@@ -39,7 +39,9 @@ If a specified event occurs, the conditions are evaluated, then the specified ac
 
 The events that are available depend on which extensions are installed. For information about the events in the Core extension, see [Core extension event types](../../extension-reference/web/core-extension/overview.md#core-extension-event-types).
 
->[!NOTE]  [!DNL DTM] provided page load, event-based, and direct call rule types. [!DNL Launch] just has rules and lets you define the event to trigger the rule.  The different [!DNL DTM] options are still available in [!DNL Launch] as event types.
+>[!NOTE]
+>
+>[!DNL DTM] provided page load, event-based, and direct call rule types. [!DNL Launch] just has rules and lets you define the event to trigger the rule.  The different [!DNL DTM] options are still available in [!DNL Launch] as event types.
 
 ### Actions (then)
 
@@ -92,7 +94,7 @@ You can add as many conditions as you'd like. Multiple conditions within the sam
 
    Available action types depend on the extension you've selected.  Action settings will differ based on the action type.
 
-   (Advanced) Wait to run next action: This option is available when rule component sequencing is enabled on your property.  When checked, Launch will not call the next action until this one is completed.  When unchecked, the next action will begin to execute immediately.  The default is **[!UICONTROL Checked]**.
+   (Advanced) Wait to run next action: This option is available when rule component sequencing is enabled on your property.  When checked, Launch will not call the next action until this one is completed.  When unchecked, the next action begins to execute immediately.  The default is **[!UICONTROL Checked]**.
 
    (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  It defines the maximum amount of time allowed for the action to complete.  If the timeout is reached, the action fails and any subsequent actions for this rule will be removed from the processing queue.  The default is 2000ms.
 
@@ -131,34 +133,36 @@ Rule events and conditions are always bundled into the main Launch library.  Act
 
 ### Rules with "Core - Library Loaded" or "Core - Page Top" events 
 
-We know that these events will need to be executed almost always (unless conditions evaluate to false), so for efficiency, these are bundled into the main library - the file referenced by your embed code.
+These events need to be executed almost always (unless conditions evaluate to false), so for efficiency, they are bundled into the main library, the file referenced by your embed code.
 
 * **Javascript:** The JavaScript is embedded in the main [!DNL Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
 * **HTML:** The HTML is embedded in the main Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
 
 ### Rules with any other event
 
-We have no guarantee that any other rules will actually be triggered and that their action code will be needed.  For this reason, the actions for all event types that are not listed above are not packaged into the main library, instead they are stored as sub-resources and referenced by the main library as needed.
+Adobe cannot guarantee that any other rules will actually be triggered and that their action code will be needed.  For this reason, the actions for all event types that are not listed above are not packaged into the main library. Instead, they are stored as sub-resources and referenced by the main library as needed.
 
-* **JavaScript:** The JavaScript is loaded from the server as regular text, wrapped in a script tag, and added to the document using Postscribe. If the rule has multiple JavaScript custom scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
-* **HTML:** The HTML is loaded from the server and added to the document using Postscribe. If the rule has multiple custom HTML scripts, they will be loaded in parallel from the server, but executed in the same order that was configured in the rule.
+* **JavaScript:** The JavaScript is loaded from the server as regular text, wrapped in a script tag, and added to the document using Postscribe. If the rule has multiple JavaScript custom scripts, they are loaded in parallel from the server, but executed in the same order that was configured in the rule.
+* **HTML:** The HTML is loaded from the server and added to the document using Postscribe. If the rule has multiple custom HTML scripts, they are loaded in parallel from the server, but executed in the same order that was configured in the rule.
 
 ## Rule Component Sequencing
 
-The Launch runtime environment will behave differently based on whether **[!UICONTROL Run rule components in sequence]** is on or off for your property.
+The Launch runtime environment's behavior depends on whether **[!UICONTROL Run rule components in sequence]** is on or off for your property.
 
 ### Enabled
 
-If enabled, when an event is triggered at runtime, the rule's conditions and actions will be added to a processing queue - based on the order you have defined - and processed one at a time on a FIFO basis.  [!DNL Launch] will wait for the completion of the component before moving onto the next one.
+If enabled, when an event is triggered at runtime, the rule's conditions and actions are added to a processing queue--based on the order you have defined--and processed one at a time on a FIFO basis.  [!DNL Launch] waits for the completion of the component before moving onto the next one.
 
 If a condition evaluates as false or reaches its defined timeout, that rule's subsequent conditions and actions are removed from the queue.
 
 If an action fails or reaches its defined timeout, that rule's subsequent actions are removed from the queue
 
->[!NOTE] With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Launch] library synchronously.
+>[!NOTE] 
+>
+>With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Launch] library synchronously.
 
 ### Disabled
 
 If disabled, when an event is triggered at runtime, the rule's conditions are immediately evaluated.  Multiple conditions are evaluated in parallel.  
 
-If all conditions all return true (and exceptions return false), the rule's actions are immediately executed.  The actions are called in order, but Launch does not wait for one to complete before calling the next.  If your actions are synchronous, they are still executed in order.  If one or more actions are asynchronous, some actions will be running in parallel.
+If all conditions return true (and exceptions return false), the rule's actions are immediately executed.  The actions are called in order, but Launch does not wait for one to complete before calling the next.  If your actions are synchronous, they are still executed in order.  If one or more actions are asynchronous, some actions will run in parallel.
