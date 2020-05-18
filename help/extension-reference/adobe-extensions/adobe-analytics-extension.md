@@ -73,7 +73,7 @@ Specify the tracker object to be used globally.
 
 #### Open Editor
 
-Lets you [insert core AppMeasurement code](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
+Lets you [insert core AppMeasurement code](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
 >[!NOTE]
 >The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
@@ -121,15 +121,13 @@ _satellite.setCookie("sat_track", "true");
 
 Determines how the image request is encoded. If your implementation or site uses non-ASCII characters, it is important to define character set here. You can select a preset character set or specify a custom character set. Adobe recommends using the same character coding as your site. Typically this value is UTF-8.
 
-Character Set can be set in [!DNL Adobe Analytics] custom code using the variable `s.charSet`.
-
-For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).
+Character Set can be set in [!DNL Adobe Analytics] custom code using the variable `s.charSet`. See [charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 ### Currency Code
 
 Determines the conversion rate to be applied to revenue and currency events. If your site allows visitors to purchase in multiple currencies, setting the currency code ensures the monetary amount is converted and stored correctly.
 
-For more information about the supported currency codes, see the [Multi-Currency Support whitepaper](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/currency_codes.html).
+For more information about the supported currency codes, see the [Currency Codes](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
 
 ### Tracking Server
 
@@ -137,7 +135,7 @@ Used for first-party cookie implementations to dictate where the first-party coo
 
 [!UICONTROL Tracking Server] can be set in [!DNL Adobe Analytics] custom code using the variable `s.trackingServer`.
 
-See [trackingServer](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServer.html) in the Adobe Analytics Implementation guide.
+See [trackingServer](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackingserver.html) in the Adobe Analytics Implementation guide.
 
 ### SSL Tracking Server
 
@@ -145,11 +143,11 @@ Used for SSL first-party cookie implementations to dictate where the first-party
 
 [!DNL SSL Tracking Server] can be set in [!DNL Adobe Analytics] custom code using the variable `s.trackingServerSecure`.
 
-See [trackingServerSecure](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackingServerSecure.html).
+See [trackingServerSecure](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackingserversecure.html).
 
 ## Global Variables
 
-Use this section to set up [eVars and Props](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html), and to create hierarchies.
+Use this section to set up [eVars and Props](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html), and to create hierarchies.
 
 Global variables are variables that are set on the [!DNL Analytics] tracking object when that object is initialized on the page. Any variables you set here will be set when the tracking object is created on each page. Once these variables are set, they are just like any other variables set any other way. Specifically, this means that a rule can modify, change, or clear these variables.
 
@@ -161,25 +159,25 @@ Select an option from the [!UICONTROL Link Tracking] section of the configuratio
 
 ### Enable ClickMap
 
-[ClickMap](https://marketing.adobe.com/resources/help/en_US/sc/user/clickmap.html) is a plug-in for [!DNL Internet Explorer] and [!DNL Firefox], and a module of [!DNL Reports & Analytics].
+[ClickMap](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html) is a plug-in for [!DNL Internet Explorer] and [!DNL Firefox], and a module of [!DNL Reports & Analytics].
 
 ### Track download links
 
 Tracks links to downloadable files on your site.
 
-See [s.trackDownLoadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackDownloadLinks.html).
+See [s.trackDownLoadLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackdownloadlinks.html).
 
 ### Download Extensions
 
 If the [!UICONTROL Track Download Links] option is enabled, you can select the extensions of file links that are included in the Downloads Report If your site contains links to files with any of the listed extensions, the URLs of these links will appear in reporting.
 
-See [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/linkDownloadFileTypes.html).
+See [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html).
 
 ### Track outbound links
 
 Determines whether any link clicked is an exit link.
 
-See [s.trackExternalLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/trackExternalLinks.html).
+See [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackexternallinks.html).
 
 **Single-Page App Considerations:** Because of the way some SPA websites are coded, an internal link to a page on the SPA site might look like it is an outbound link.
 
@@ -198,7 +196,7 @@ Note that these two options are mutually exclusive.
 
 Preserves query strings.
 
-See [s.linkLeaveQueryString](https://marketing.adobe.com/resources/help/en_US/sc/implement/linkLeaveQueryString.html).
+See [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/linkleavequerystring.html).
 
 ## Cookies
 
@@ -208,31 +206,31 @@ Configure field descriptions for the Cookies global settings used for deploying 
 
 Unique value that represents a customer in both the online and offline systems.
 
-See [visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visitorID.html).
+See [visitorID](https://docs.adobe.com/content/help/en/analytics/import/data-sources/data-types-and-categories/datasrc-visitorid.html).
 
 ### Visitor Namespace
 
 Variable to identify the domain with which cookies are set.
 
-See [visitorNamespace](https://marketing.adobe.com/resources/help/en_US/sc/implement/visitorNamespace.html).
+See [visitorNamespace](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/visitornamespace.html).
 
 ### Domain Periods
 
 The domain on which the [!DNL Analytics] cookie `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. This variable is also used by some plug-ins in determining the correct domain to set the plug-in's cookie.
 
-See [s.cookieDomainPeriods](https://marketing.adobe.com/resources/help/en_US/sc/implement/cookiedomainperiods.html).
+See [s.cookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/cookiedomainperiods.html).
 
 ### First-Party Domain Periods
 
 The `fpCookieDomainPeriods` variable is for cookies set by JavaScript (`s_sq`, `s_cc`, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party 2o7.net or omtrdc.net domains.
 
-See [s.fpCookieDomainPeriods](https://marketing.adobe.com/resources/help/en_US/sc/implement/fpCookieDomainPeriods.html).
+See [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/fpcookiedomainperiods.html).
 
 ### Cookie Lifetime
 
 Determines the life span of a cookie.
 
-See [s.cookieLifetime](https://marketing.adobe.com/resources/help/en_US/sc/implement/cookielifetime.html).
+See [s.cookieLifetime](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/cookielifetime.html).
 
 ## Customize Page Code
 
@@ -254,7 +252,7 @@ You can configure advanced settings by showing the advanced settings and enterin
 
 ![](/help/assets/an-ext-aam-adv.png)
 
-For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html).
+For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html).
 
 ## Analytics extension action types
 
@@ -273,7 +271,7 @@ The [!DNL Analytics] extension provides the following actions:
 
 #### eVars
 
-Set one or more [eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
+Set one or more [eVars](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html).
 
 1. Select an eVar from the dropdown.
 1. Specify whether you want to set the eVar as the value (Set As) or copy (Duplicate From) another eVar.
@@ -283,7 +281,7 @@ Set one or more [eVars](https://marketing.adobe.com/resources/help/en_US/sc/impl
 
 #### Props
 
-Set one or more [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html).
+Set one or more [props](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/prop.html).
 
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value (Set As) or copy (Duplicate From) another eVar.
@@ -293,16 +291,16 @@ Set one or more [props](https://marketing.adobe.com/resources/help/en_US/sc/impl
 
 #### Events
 
-Set one or more [events](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-events.html).
+Set one or more [events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/events-overview.html).
 
 1. Select an event from the dropdown.
-1. (Optional) Select or specify a data element used for [event serialization](https://marketing.adobe.com/resources/help/en_US/sc/implement/event_serialization_impl.html).
+1. (Optional) Select or specify a data element used for [event serialization](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html).
 1. (Optional) Click **[!UICONTROL Add event]** to set more events.
 1. Click **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
-Set the [!DNL Analytics] [Hierarchy](https://marketing.adobe.com/resources/help/en_US/reference/hierarchy.html) variable.
+Set the [!DNL Analytics] [Hierarchy](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-hierarchy.html) variable.
 
 Specify each level in the hierarchy.
 

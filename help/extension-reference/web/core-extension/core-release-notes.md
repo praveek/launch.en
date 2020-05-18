@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## April 7th, 2020
+
+v1.7.3
+
+* **Text field length increase** - Text input fields were changed to a flex layout in order to better utilize the user's screen width, and give more space for longer text strings.
+
 ## November 1st, 2019
 
 v1.7.0

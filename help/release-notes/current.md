@@ -7,6 +7,42 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## Upcoming May (?) Release
+
+### Features
+
+* Rule Component Sequencing: you check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime will add rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
+* Promises in Core - Custom Code: You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/core-extension/overview.md) doc.
+
+## May 9th, 2020
+
+### Bug Fixes
+
+* When using Safari <= v12, users were not able to access Adobe Platform Launch due to an `X-FRAME-OPTIONS` header that was being set incorrectly.
+* Notification messages were not displaying with the correct format in FireFox.
+
+## April 24th, 2020
+
+### Bug Fixes
+
+* Error states on unselected library edit resources were not always cleared correctly. 
+
+## April 13th, 2020
+
+### Bug Fixes
+
+* Tooltips on the Data Element Selector Dialog were not displaying correctly.
+
+## March 18th, 2020
+
+### Bug Fixes
+
+* When a user tried to create a rule with a comma in the name, they would receive a false "duplicate name" error.
+
+### Features
+
+* When a rule component (event, condition, or action) is updated, the `updated_at` attribute for the rule it belongs to is also updated. This more accurately reflects that the behavior of the rule has changed by modifying one or more of its components. If you use callbacks for rules, you will see an increase in rule `updated_at` callbacks. See [https://developer.adobelaunch.com/api/reference/1.0/rule_components/](https://developer.adobelaunch.com/api/reference/1.0/rule_components/) for more information.
+
 ## March 3, 2020
 
 ### Updates
@@ -18,9 +54,8 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* Improved list view pagination:
-** Users can jump to a specific page in a list
-** Users can select the number of rows to display
+* Rows per page: List pages now allow you to specify how many rows you'd like to see on each page.
+* Pagination: List pages now have improved pagination that shows you how many pages are available and lets you jump to a specific page.  Page numbers are based on the number of rows per page
 
 ## February 6, 2020
 

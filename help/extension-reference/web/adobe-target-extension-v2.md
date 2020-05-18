@@ -124,6 +124,7 @@ Here are some things to keep in mind when using the pre-hiding snippet:
   * When the page load request times out
   * When the snippet itself times out
 * The "Fire Page Load Request” action should be used on all pages using the pre-hiding snippet to minimize the duration of the pre-hiding.
+* Body hiding must also be enabled in the Page Load Request action in the Page Load rule you use for Target in Launch; otherwise, all Page loads remain hidden for the timeout period.
 
 The pre-hiding code snippet is as follows and can be minified. The configurable options are at the end:
 
@@ -171,13 +172,13 @@ By default, the snippet pre-hides the whole HTML BODY. In some cases, you might 
 
 For example, if you have two regions identified by IDs container-1 and container-2, the style can be replaced with the following:
 
-```js
+```css
 #container-1, #container-2 {opacity: 0 !important}
 ```
 
 Instead of default:
 
-```js
+```css
 body {opacity: 0 !important}
 ```
 

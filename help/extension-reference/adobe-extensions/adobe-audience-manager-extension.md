@@ -42,7 +42,7 @@ Enable Regex if the URL is a regular expression.
 
 #### Use DIL Site Catalyst Module
 
-The [SiteCatalyst module](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_sc_init.html) works with DIL to send Analytics tag elements to [!DNL Audience Manager].
+The [SiteCatalyst module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-modules.html#sitecat-init) works with DIL to send Analytics tag elements to [!DNL Audience Manager].
 
 Use the Code Editor to configure the siteCatalyst.init file.
 
@@ -50,15 +50,15 @@ You can also create a note containing information about this configuration.
 
 #### Use DIL Google Analytics Module
 
-Enable the [Google Analytics module](https://marketing.adobe.com/resources/help/en_US/aam/dil-google-universal-analytics.html).
+Enable the [Google Analytics module](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/dil-modules.html#ga-submit-universal-analytics).
 
 #### DIL.create Initialization Properties
 
-Add initialization properties used by [DIL.create](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_create.html) and the namespace subproperty for the [visitorService object](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_visitor_service.html). Two sample use cases are included in the code comments, in the Code Editor.
+Add initialization properties used by [DIL.create](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-create.html#dil-create) and the namespace subproperty for the [visitorService object](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-create.html#visitor-service-props). Two sample use cases are included in the code comments, in the Code Editor.
 
 Click **[!UICONTROL Choose an Item]** to add additional properties.
 
-Hover over the "i" icons to learn what each property does. You can find more information for the properties in the [Audience Manager DIL documentation](https://marketing.adobe.com/resources/help/en_US/aam/r_dil_create.html).
+Hover over the "i" icons to learn what each property does. You can find more information for the properties in the [Audience Manager DIL documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/dil-api/class-level-dil-methods/dil-create.html#dil-create).
 
 Click **[!UICONTROL Save]** when you have finished configuring the extension.
 

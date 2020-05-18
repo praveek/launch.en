@@ -560,6 +560,26 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 1. Type the custom code.
 1. Click **[!UICONTROL Save]**.
 
+##### Condition Sequencing
+
+When the **[!UICONTROL Action & Condition Sequencing]** option from property settings is enabled you can choose when the next condition is executed.
+
+When you return a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the next condition in the rule executes only when the returned promise is resolved. If the promise is rejected, [!DNL Launch] considers that condition as failed and no action is executed.
+
+**Example:**
+
+```javascript
+return new Promise(function(resolve) {
+  setTimeout(function() {
+    if (new Date().getDay() === 5) {
+      resolve();
+    } else {
+      reject();
+    }
+  }, 1000);
+});
+```
+
 #### Value comparison
 
 Compares two values to determine whether this exception returns true.
@@ -843,3 +863,39 @@ While using document.write after a page has loaded would typically present probl
 #### Custom code validation
 
 The validator used in the [!DNL Launch] code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the [!DNL Launch] validator, which can usually be ignored.
+
+#### Action sequencing
+
+When the **[!UICONTROL Action & Condition Sequencing]** option from property settings is enabled, you can choose when the next action is executed.
+
+You can return a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) when you want to create a JavaScript custom code that is not executed globally. The next action in the rule executes only when the returned promise is resolved. If the promise is rejected, the next actions from the rule is not executed.
+
+**Example:**
+
+```javascript
+return new Promise(function(resolve) {
+  setTimeout(function() {
+    if (new Date().getDay() === 5) {
+      resolve();
+    } else {
+      reject();
+    }
+  }, 1000);
+});
+```
+
+When creating an HTML custom code action, a function named `onCustomCodeSuccess` is available to use within your custom code. Call this function to indicate that your custom code has completed and that [!DNL Launch] can execute subsequent actions. On the other hand, if your custom code failed in some way, you can call `onCustomCodeFailure`. That informs [!DNL Launch] not to execute the subsequent actions.
+
+**Example:**
+
+```html
+<script>
+setTimeout(function() {
+  if (new Date().getDay() === 5) {
+    onCustomCodeSuccess();
+  } else {
+    onCustomCodeFailure();
+  }
+}, 1000);
+</script>
+```

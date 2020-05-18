@@ -11,7 +11,7 @@ Use this documentation for information on installing, configuring, and implement
 
 The [!DNL Video Analytics] (VA) extension adds the core VA JavaScript library (VA 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The VA extension requires two additional extensions:
 
-* [Analytics Extension](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md)
+* [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
@@ -144,7 +144,7 @@ The VA extension exposes the `get-instance` and `media-heartbeat` shared modules
     ...
    ```
 
-1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/js_2.0/) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
+1. Using the Media Heartbeat instance, follow the [VHL SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/video-heartbeat-v2/reference/javascript/index.html) to implement video tracking.
 
 >[!NOTE]
 >**Testing -** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
