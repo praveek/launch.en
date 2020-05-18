@@ -225,8 +225,8 @@ Each of the form event types uses the following settings:
 
 #### Specific Elements \| Any Element
 
-* If you choose ***[!UICONTROL Specific Elements]***, the options to select the elements and property values appear.
-* If you choose ***[!UICONTROL Any Element]***, there are no further options required to narrow down the elements.
+* If you choose **[!UICONTROL Specific Elements]**, the options to select the elements and property values appear.
+* If you choose **[!UICONTROL Any Element]**, there are no further options required to narrow down the elements.
 
 #### Elements matching the CSS selector
 
@@ -272,9 +272,9 @@ Specify the cookie name and value that must exist for an event to trigger an act
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
-1. Click ***[!UICONTROL Open Editor]***.
+1. Click **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click ***[!UICONTROL Save]***.
+1. Click **[!UICONTROL Save]**.
 
 A variable named `event` will automatically be available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
@@ -318,41 +318,41 @@ If you have a rule with multiple conditions, it is possible that this condition 
 
 The following value comparison operators are available:
 
-***Equal:*** The condition returns true if the two values are equal using a non-strict comparison (in JavaScript, the == operator). The values may be of any type. When typing a word like /_true_/, /_false_/, /_null_/, or /_undefined_/ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Equal:** The condition returns true if the two values are equal using a non-strict comparison (in JavaScript, the == operator). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-***Does Not Equal:*** The condition returns true if the two values are not equalusing a non-strict comparison (in JavaScript, the != operator). The values may be of any type. When typing a word like /_true_/, /_false_/, /_null_/, or /_undefined_/ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
+**Does Not Equal:** The condition returns true if the two values are not equalusing a non-strict comparison (in JavaScript, the != operator). The values may be of any type. When typing a word like _true_, _false_, _null_, or _undefined_ into a value field, the word is compared as a string and is not be converted to its JavaScript equivalent.
 
-***Contains:*** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
+**Contains:** The condition returns true if the first value contains the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-***Does Not Contain:*** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true.
+**Does Not Contain:** The condition returns true if the first value does not contain the second value. Numbers are converted to strings. Any value other than a number or string will result in the condition returning true.
 
-***Starts With:*** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
+**Starts With:** The condition returns true if the first value starts with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-***Does Not Start With:*** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
+**Does Not Start With:** The condition returns true if the first value does not start with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-***Ends With:*** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
+**Ends With:** The condition returns true if the first value ends with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-***Does Not End With:*** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
+**Does Not End With:** The condition returns true if the first value does not end with the second value. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-***Matches Regex:*** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
+**Matches Regex:** The condition returns true if the first value matches the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning false.
 
-***Does Not Match Regex:*** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
+**Does Not Match Regex:** The condition returns true if the first value does not match the regular expression. Numbers are converted to strings. Any value other than a number or string results in the condition returning true.
 
-***Is Less Than:*** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
+**Is Less Than:** The condition returns true if the first value is less than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-***Is Less Than Or Equal To:*** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
+**Is Less Than Or Equal To:** The condition returns true if the first value is less than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-***Is Greater Than:*** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
+**Is Greater Than:** The condition returns true if the first value is greater than the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-***Is Greater Than Or Equal To:*** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
+**Is Greater Than Or Equal To:** The condition returns true if the first value is greater than or equal to the second value. Strings representing numbers are converted to numbers. Any value other than a number or a convertible string result in the condition returning false.
 
-***Is True:*** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false.
+**Is True:** The condition returns true if the value is a boolean with the value of true. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of true results in the condition returning false.
 
-***Is Truthy:*** The condition returns true if the value is true after being converted to a boolean. See [MDN’s Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values.
+**Is Truthy:** The condition returns true if the value is true after being converted to a boolean. See [MDN’s Truthy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) for examples of truthy values.
 
-***Is False:*** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false.
+**Is False:** The condition returns true if the value is a boolean with the value of false. The value you provide is not converted to a boolean if it is any other type. Any value other than a boolean with the value of false results in the condition returning false.
 
-***Is Falsy:*** The condition returns true if the value is false after being converted to a boolean. See [MDN’s Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.
+**Is Falsy:** The condition returns true if the value is false after being converted to a boolean. See [MDN’s Falsy documentation](https://developer.mozilla.org/en-US/docs/Glossary/Falsy) for examples of falsy values.
 
 #### Variable
 
@@ -493,7 +493,7 @@ Specify the visitor’s domain.
 
 Specify one or more hash patterns that must exist in the URL.
 
-/>[!NOTE] Multiple hash patterns are joined by an OR./
+>[!NOTE] Multiple hash patterns are joined by an OR.
 
 1. Specify the hash pattern.
 1. (Optional) Enable Regex if this is a regular expression.
@@ -503,7 +503,7 @@ Specify one or more hash patterns that must exist in the URL.
 
 Specify one or more paths that must exist in the URL.  This includes the path and the query string.
 
-/>[!NOTE] Multiple paths are joined by an OR./
+>[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
 1. (Optional) Enable Regex if this is a regular expression.
@@ -513,7 +513,7 @@ Specify one or more paths that must exist in the URL.  This includes the path an
 
 Specify one or more paths that must exist in the URL.  This includes the path, but does not include the query string.
 
-/>[!NOTE] Multiple paths are joined by an OR./
+>[!NOTE] Multiple paths are joined by an OR.
 
 1. Specify the path.
 1. (Optional) Enable Regex if this is a regular expression.
@@ -540,7 +540,7 @@ Specify URL parameter used in the URL.
 
 Specify one or more subdomains that must exist in the URL.
 
-/>[!NOTE] Multiple subdomains are joined by an OR./
+>[!NOTE] Multiple subdomains are joined by an OR.
 
 1. Specify the subdomain.
 1. (Optional) Enable Regex if this is a regular expression.
@@ -681,14 +681,14 @@ Custom JavaScript can be entered into the UI by clicking Open Editor and inserti
 
 A return statement is necessary in the editor window in order to indicate what value should be used as the data element value. If a return statement is not included or the value `null` or `undefined` is returned, the data element’s default value will be used as the data element value.
 
-***Example:***
+**Example:**
 
 ```javascript
 var pageType = $('div.page-wrapper').attr('class').split('')[1];
-/if/ (window.location.pathname == '/') {
-  /return/ 'homepage';
-} /else/ {
-  /return/ pageType;
+if (window.location.pathname == '/') {
+  return 'homepage';
+} else {
+  return pageType;
 }
 ```
 
@@ -780,7 +780,7 @@ Use this data element to generate a random number. It’s often used for samplin
 
 Specify the minimum and maximum values for your random number.
 
-***Defaults:***
+**Defaults:**
 
 Minimum: 0
 
