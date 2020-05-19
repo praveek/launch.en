@@ -1,9 +1,3 @@
----
-title: Adobe Media Analytics for Audio and Video Extension
-seo-title: Adobe Media Analytics for Audio and Video Extension in Adobe Experience Platform Launch
-description: Information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension (Media Analytics extension)
-seo-description: Adobe Media Analytics for Audio and Video Extension in Adobe Experience Platform Launch
----
 
 # Adobe Media Analytics (3.x SDK) for Audio and Video Extension
 
@@ -14,7 +8,7 @@ The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 3.x
 * [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
->[!IMPORTANT]  This extension deploys with Media 3.x SDK which is not backward compatible with Media 2.x SDK. If your page already uses Media 2.x SDK use Adobe Media Analytics for Audio and Video Extension instead of this extension.
+>[!IMPORTANT]  This extension deploys with Media 3.x SDK which is not backward compatible with Media 2.x SDK. If your page already uses Media 2.x SDK use [Adobe Media Analytics for Audio and Video Extension](/help/extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md) instead of this extension.
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
@@ -35,7 +29,7 @@ After you have included all three of the extensions mentioned above in your Laun
 
 | Option | Description |
 | :--- | :--- |
-| Tracking Server | Defines the media collection server (Contact your Adobe representative to get this endpoint) |
+| Collection API Server | Defines the Media Collection API Server (Contact your Adobe representative to get this server) |
 | Application Version | The version of the media player app/SDK |
 | Player Name | Name of the media player in use (e.g., "AVPlayer", "HTML5 Player", "My Custom VideoPlayer") |
 | Channel | Channel name property |
@@ -54,23 +48,24 @@ The MA extension exports the Media APIs in the global window object by enabling 
 
 >[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
-1. **Create Media Instance:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].Media.getInstance`
+1. **Media APIs:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].Media`
 
-    **Return Value:** A `Media` instance which can be used for tracking.
+    This exposes all the APIs and constants from Media SDK: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html)
+    
+1. **Create Media Tracker Instance:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].Media.getInstance`
 
-2. **Access Media Constants:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].Media`
-
-    This exposes all of the constants and static methods from the [`Media`](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html) class.
- 
-    You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/samples/launch/js/3.x). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
-
-3. Create the Media instance as follows:
+    **Return Value:** A `Media` tracker instance for tracking a media session.
 
     ```javascript
     var Media = window["CONFIGURED_VARIABLE_NAME"].Media;
 
     var tracker = Media.getInstance();
     ```
+
+1. Using the Media tracker instance, follow the [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html) to implement media tracking.
+
+You can obtain the sample player here: [MA Sample Player](https://github.com/Adobe-Marketing-Cloud/media-sdks/tree/master/samples/launch/js/3.x). The sample player acts as a reference to showcase how to use the MA extension to support Media Analytics directly from a webapp.
+
 
 ### Using from other extensions
 
@@ -80,19 +75,20 @@ The MA extension exposes `media` as shared module to other extensions. (For addi
 
 1. **Media APIs:**&nbsp;`media` Shared Module
 
-    This module exposes all of the APIs and constants from this class: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html).
+    This exposes all the APIs and constants from Media SDK: [https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/APIReference.html)
 
-1. Create the Media instance as follows:
+1. Create the Media tracker instance as follows:
+
+    **Return Value:** A `Media` tracker instance for tracking a media session.
 
     ```javascript
     var Media =
       turbine.getSharedModule('adobe-media-analytics', 'media');
-    
+
     var tracker = Media.getInstance();
-    ...
     ```
 
-1. Using the Media tracker instance, follow the [Media SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html) to implement media tracking.
+1. Using the Media tracker instance, follow the [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html) to implement media tracking.
 
 >[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
