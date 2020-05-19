@@ -285,7 +285,7 @@ return true;
 
 Run the rule in a browser and inspect the logged event object in the browser’s console. Once you understand what information is available, you can use it for programmatic decisioning within your custom code.
 
-/*Condition Sequencing*/
+*Condition Sequencing*
 
 When the “Run rule components in sequence” option from property settings is enabled you can have subsequent rule components wait while your condition performs an asynchronous task.
 
@@ -294,11 +294,11 @@ When the condition returns a [Promise](https://developer.mozilla.org/en-US/docs/
 An example of a condition that returns a promise:
 
 ```javascript
-/return/ new Promise(function(resolve) {
+return new Promise(function(resolve) {
   setTimeout(function() {
-    /if/ (new Date().getDay() === 5) {
+    if (new Date().getDay() === 5) {
       resolve();
-    } /else/ {
+    } else {
       reject();
     }
   }, 1000);
@@ -615,27 +615,27 @@ The validator used in the Launch code editor is designed to identify issues with
 
 When the “Run rule components in sequence” option from property settings is enabled you can have subsequent rule components wait while your action performs an asynchronous task.  This works differently for JavaScript and HTML custom code.
 
-/*JavaScript*/
+*JavaScript*
 
 When creating a JavaScript custom code action, you may return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) from your action. The next action in the rule will be executed only when the returned promise is resolved. If the promise is rejected, the next actions from the rule will not be executed.
 
-/*Note*/: This only works when your JavaScript is not set to execute globally.  If you are executing your custom code action in the global scope, Launch will treat the promise as immediatly resolved and move on to the next item in the processing queue.
+*Note*: This only works when your JavaScript is not set to execute globally.  If you are executing your custom code action in the global scope, Launch will treat the promise as immediatly resolved and move on to the next item in the processing queue.
 
 An example of a JavaScript custom code action that returns a promise:
 
 ```javascript
-/return/ new Promise(function(resolve) {
+return new Promise(function(resolve) {
   setTimeout(function() {
-    /if/ (new Date().getDay() === 5) {
+    if (new Date().getDay() === 5) {
       resolve();
-    } /else/ {
+    } else {
       reject();
     }
   }, 1000);
 });
 ```
 
-/*HTML*/
+*HTML*
 
 When creating an HTML custom code action, a function named `onCustomCodeSuccess()` will be available to use within your custom code. You may call this function to indicate that your custom code has completed and that Launch may move on to executing subsequent actions. On the other hand, if your custom code failed in some way, you may call `onCustomCodeFailure()`. That will inform Launch to not execute the subsequent actions from that rule.
 
@@ -644,9 +644,9 @@ An example of an HTML custom code action that uses the new callbacks:
 ```html
 <script>
 setTimeout(function() {
-  /if/ (new Date().getDay() === 5) {
+  if (new Date().getDay() === 5) {
     onCustomCodeSuccess();
-  } /else/ {
+  } else {
     onCustomCodeFailure();
   }
 }, 1000);
