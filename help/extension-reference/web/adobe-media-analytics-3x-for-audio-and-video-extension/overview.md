@@ -8,7 +8,9 @@ The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 3.x
 * [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
->[!IMPORTANT]  This extension deploys with Media 3.x SDK which is not backward compatible with Media 2.x SDK. If your page already uses Media 2.x SDK use [Adobe Media Analytics for Audio and Video Extension](/help/extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md) instead of this extension.
+>[!IMPORTANT]
+>
+>This extension deploys with Media 3.x SDK, which is not backward compatible with Media 2.x SDK. If your page already uses Media 2.x SDK, use [Adobe Media Analytics for Audio and Video Extension](/help/extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md) instead of this extension.
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
@@ -17,11 +19,9 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ## Install and configure the MA extension
 
-* **Install -** To install the MA extension, open your extension property, click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics (3.x SDK) for Audio and Video]**.
+* **Install:** To install the MA extension, open your extension property, click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics (3.x SDK) for Audio and Video]** extension, and click **[!UICONTROL Install]**.
 
-  extension, and click **[!UICONTROL Install]**.
-
-* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**:
+* **Configure:** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**:
 
 ![MA Extension Configuration](/help/assets/ext-ma-config.png)
 
@@ -44,9 +44,11 @@ After you have included all three of the extensions mentioned above in your Laun
 
 ### Using from a webpage/JS-app
 
-The MA extension exports the Media APIs in the global window object by enabling the "Export APIs to Window Object" setting in the [!UICONTROL Configuration] page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then Media APIs can be accessed by `window.ADB.Media`.
+The MA extension exports the Media APIs in the global window object by enabling the "Export APIs to Window Object" setting in the [!UICONTROL Configuration] page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB`, then Media APIs can be accessed by `window.ADB.Media`.
 
->[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
+>[!IMPORTANT]
+>
+>The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
 1. **Media APIs:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].Media`
 
@@ -71,7 +73,9 @@ You can obtain the sample player here: [MA Sample Player](https://github.com/Ado
 
 The MA extension exposes `media` as shared module to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/extensions/shared_modules/).)
 
->[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
+>[!IMPORTANT]
+>
+>Shared Modules can only be accessed from other extensions. That is, a webpage/JavaScript app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
 1. **Media APIs:**&nbsp;`media` Shared Module
 
@@ -90,5 +94,7 @@ The MA extension exposes `media` as shared module to other extensions. (For addi
 
 1. Using the Media tracker instance, follow the [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html) to implement media tracking.
 
->[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE] 
+>
+>**Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
