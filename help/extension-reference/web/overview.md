@@ -11,6 +11,7 @@ Documentation for the Launch Extensions provided by Adobe solutions.
 
 * [Analytics Extension](adobe-analytics-extension/overview.md)
 * [Adobe Media Analytics for Audio and Video Extension](adobe-media-analytics-for-audio-and-video-extension/overview.md)
+* [Adobe Media Analytics (3.x SDK) for Audio and Video Extension](adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
 * [Adobe Audience Manager Extension](adobe-audience-manager-extension.md)
 * [Adobe ContextHub Extension](adobe-contexthub-extension.md)
 * [Adobe Privacy Extension](adobe-privacy-extension.md)
