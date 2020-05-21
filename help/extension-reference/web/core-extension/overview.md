@@ -294,7 +294,7 @@ When the condition returns a [Promise](https://developer.mozilla.org/en-US/docs/
 An example of a condition that returns a promise:
 
 ```javascript
-return new Promise(function(resolve) {
+return new Promise(function(resolve, reject) {
   setTimeout(function() {
     if (new Date().getDay() === 5) {
       resolve();
@@ -624,7 +624,7 @@ When creating a JavaScript custom code action, you may return a [Promise](https:
 An example of a JavaScript custom code action that returns a promise:
 
 ```javascript
-return new Promise(function(resolve) {
+return new Promise(function(resolve, reject) {
   setTimeout(function() {
     if (new Date().getDay() === 5) {
       resolve();
