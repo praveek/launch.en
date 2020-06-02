@@ -17,7 +17,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Features
 
-* You will now be able to turn off the activity map in the extension without having to use custom code. The activity map will now be loaded as a separate module (much like the AAM module) and you will be able to turn it off if you want.
+* You can now turn off the activity map in the extension without having to use custom code. The activity map loads as a separate module (much like the AAM module) and you can turn it off if you want.
 * Cleaned up the UI by minimizing hierarchy variables and other options.
 * Added a field to set purchase IDs from the extension configuration UI.
 
