@@ -2,6 +2,7 @@
 audience: end-user
 product: launch
 user-guide-title: Experience Platform Launch User Guide
+user-guide-description: Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
 ---
