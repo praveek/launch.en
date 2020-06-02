@@ -45,7 +45,7 @@ If you select this option, specify one or more report suites for each of the fol
 
 #### Using the activity map module
 
-The activity map is loaded as a separate module (like the AAM module). By default activity map is turned on but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
+The activity map is loaded as a separate module (like the AAM module). By default, the activity map is turned on but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
 
 #### Tracker is accessible on the global variable named
 
