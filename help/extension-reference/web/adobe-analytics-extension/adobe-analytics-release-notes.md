@@ -21,7 +21,6 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 * Cleaned up the UI by minimizing hierarchy variables and other options.
 * Added a field to set purchase IDs from the extension configuration UI.
 
-
 ## March 10, 2020
 
 ### Adobe Analytics Extension 1.8.3
