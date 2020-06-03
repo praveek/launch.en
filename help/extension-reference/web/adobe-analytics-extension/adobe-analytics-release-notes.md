@@ -13,7 +13,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Bug Fixes
 
-* Fixed a bug where the shopping cart events (prodView, scAdd, scView, etc) were not shopping up on the events dropdown. All of these should now be selectable from the dropdown. 
+* Fixed a bug where the shopping cart events (prodView, scAdd, scView, etc) were not showing up on the events dropdown. All of these should now be selectable from the dropdown. 
 
 #### Features
 

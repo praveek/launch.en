@@ -47,6 +47,10 @@ If you select this option, specify one or more report suites for each of the fol
 
 The activity map is loaded as a separate module (like the AAM module). By default, the activity map is turned on but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
 
+#### Using the activity map module
+
+The activity map is loaded as a separate module (like the AAM module). By default activity map is turned on, but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
+
 #### Tracker is accessible on the global variable named
 
 Checking this box allows the tracker object to be used globally. For example, you could define the variable `window.s.pageName` anywhere on your site.
@@ -312,7 +316,7 @@ If desired, configure additional hierarchies.
 
 #### Other information
 
-Specify other information used by your pages. 
+Specify other information used by your pages.
 
 These settings include:
 

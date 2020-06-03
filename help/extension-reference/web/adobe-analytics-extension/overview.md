@@ -43,6 +43,10 @@ If you select this option, specify one or more report suites for each of the fol
 * Staging
 * Production
 
+#### Using the activity map module
+
+The activity map is loaded as a separate module (like the AAM module). By default activity map is turned on, but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
+
 #### Tracker is accessible on the global variable named
 
 Checking this box allows the tracker object to be used globally. For example, you could define the variable `window.s.pageName` anywhere on your site.
@@ -325,12 +329,15 @@ These settings include:
 * Channel
 * Referrer
 * Campaign
+* Purchase ID
 
   Specify either a value or a query parameter
 
 * State
 * Zip
 * Transaction ID
+
+These settings can be found in the "Global Variables" menu by clicking the "Additional Settings" checkbox.
 
 #### Custom Page Code
 
