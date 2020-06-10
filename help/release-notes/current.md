@@ -7,12 +7,18 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
-## Upcoming May (?) Release
+## Upcoming June Release
 
 ### Features
 
 * Rule Component Sequencing: you check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime will add rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
 * Promises in Core - Custom Code: You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/web/core-extension/overview.md) doc.
+
+## June 9th, 2020
+
+### Features
+
+* Property Overview: the overview page was long overdue for an update.  Now after you select your property, we'll show you some some important information about your property including: the most recent production publish date, libraries that need approval, extensions that have available updates, and a list of your most recent activity within that property.  We've also got some helpful links and will use this page to notify you about product releases and technical advisories as needed.
 
 ## May 9th, 2020
 
