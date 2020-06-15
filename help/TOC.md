@@ -104,4 +104,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [!DNL Marketo Munchkin] extension {#marketo-extension}
       * [Marketo Munchkin extension](extension-reference/web/marketo-munchkin-extension/overview.md)
       * [Marketo Munchkin release notes](extension-reference/web/marketo-munchkin-extension/marketo-munchkin-release-notes.md)
+    * Video tracking [!DNL BrightCove] extension {#brightcove-extension}
+      * [Video tracking BrightCove extension](extension-reference/web/video-tracking-brightcove-extension/overview.md)
+      * [Video tracking BrightCove extension release notes](extension-reference/web/video-tracking-brightcove-extension/video-tracking-brightcove-extension-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
