@@ -113,8 +113,8 @@ Some variables in the DTM tool are not supported in the Launch extension. The fo
 * takeTimeoutMetrics
 * trackingServer
 * trackingServerSecure
-* whitelistIframeDomains
-* whitelistParentDomain
+* allowlistIframeDomains
+* allowlistParentDomain
 
 Variables that do not have a value are not copied to Launch.
 

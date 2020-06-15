@@ -13,7 +13,7 @@ Launch connects to your SFTP site using an encrypted key. There are a few steps 
 
 1. You must have a public/private key pair installed on your SFTP server.  You can generate these keys on your server or generate them somewhere else and install them to your server.  See [here](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#generating-a-new-ssh-key)for an example of how to generate keys.
 1. You must encrypt the private key with Launch's public GPG key so that you can provide your private key to Launch during the SFTP host creation process.  See [Encrypting Values](https://developer.adobelaunch.com/api/guides/encrypting_values/) in the Launch developer documentation for instructions and Launch's public GPG keys.  Unless you know you need a different one, use the Production Environment's GPG key.  Finally, you can encrypt your private key from any  machine, so you do not need to install GPG on your server to complete this step.
-1. You might need to whitelist the Launch IP addresses with your company firewall to allow Launch to be able to reach your SFTP server and connect to it.  Those IP Addresses are:
+1. You might need to approve the Launch IP addresses with your company firewall to allow Launch to be able to reach your SFTP server and connect to it.  Those IP Addresses are:
    * `35.170.215.3`
    * `34.202.8.57`
    * `52.21.198.46`
