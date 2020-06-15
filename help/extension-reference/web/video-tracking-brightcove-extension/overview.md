@@ -84,10 +84,10 @@ The following Video Extension objects are to be included:
 **Actions** :
 
 1. In an Analytics "Set Variables" action, set:
-  * The event for **Video Start** (example: event17)
-  * A prop/eVar for the **Video Name Data Element** (example: eVar10)
-  * A prop/eVar for the **Video Duration Data Element** (example: eVar11)
-  * A prop/eVar for for the **Current Video Place** Data Element (example: eVar12)
+   * The event for **Video Start** (example: event17)
+   * A prop/eVar for the **Video Name Data Element** (example: eVar10)
+   * A prop/eVar for the **Video Duration Data Element** (example: eVar11)
+   * A prop/eVar for for the **Current Video Place** Data Element (example: eVar12)
 2. The Analytics "Send Beacon" action (`s.tl`)
 3. The Analytics "Clear Variables" action
 
