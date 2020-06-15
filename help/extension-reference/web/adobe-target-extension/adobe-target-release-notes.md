@@ -7,6 +7,12 @@ seo-description: Release notes for Adobe Target extension in Adobe Experience Pl
 
 # Adobe Target Release Notes
 
+## June 15, 2020
+
+### Adobe Target Extension 0.11.2
+
+* Fixed an issue when using CNAME and edge override, where at.js 1.x might incorrectly create the server domain, resulting in the Target request failing
+
 ## March 25, 2020
 
 ### Adobe Target Extension 0.11.1
