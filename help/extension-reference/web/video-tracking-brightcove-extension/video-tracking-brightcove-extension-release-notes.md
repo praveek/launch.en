@@ -13,4 +13,4 @@ seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience 
 
 #### Features
 
-* Custom link tracking-based solution for Adobe Analytics that enables Brightcove players that use embedded <videojs> tags for easy configuration of video events like start, pause, resume, complete, etc., and customizable cue points.
+* Custom link tracking-based solution for Adobe Analytics that enables Brightcove players that use embedded `<videojs>` tags for easy configuration of video events like start, pause, resume, complete, etc., and customizable cue points.
