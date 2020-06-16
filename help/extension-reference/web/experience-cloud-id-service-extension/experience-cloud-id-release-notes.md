@@ -9,6 +9,14 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://marketing.adobe.com/resources/help/en\_US/mcvid/mcvid-release-notes.html](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html)
 
+## June 15, 2020
+
+### Experience Cloud ID Extension 5.0.0
+
+#### **Features**
+
+* Adding support for `IAB TCF` – Transparency & Consent Framework – `Version 2.0`.
+
 ## April 13, 2020
 
 ### Experience Cloud ID Extension 4.6.0
