@@ -7,6 +7,27 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 # AEP Extension Release Notes
 
+## June 22, 2020
+
+### AEP Extension 1.1.0
+
+#### Features
+
+* Pass `environment: browser` in the implementation details context data.
+* Support Alloy Monitors ([Read more](https://github.com/adobe/alloy/wiki/Monitoring-Hooks)
+* Override dataset ID on sendEvent command.
+* Remove the `syncIdentity` command. A different approach to syncing identity is being worked on.
+
+
+## May 26, 2020
+
+### AEP Extension 1.0.0
+
+#### Features
+
+* Support selecting the environment from the Configuration Service.
+
+
 ## May 4, 2020
 
 ### AEP Extension 0.1.2
