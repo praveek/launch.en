@@ -9,7 +9,7 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 ## June 15, 2020
 
-### Adobe Target v2 Extension 0.13.1
+### Adobe Target v2 Extension 0.13.2
 
 * Fixed an issue when using CNAME and edge override, where at.js 1.x might incorrectly create the server domain, resulting in the Target request failing
 * Fixed an issue where, when using Target Launch extension v2 and Adobe Analytics Launch extension, Target delayed the Analytics sendBeacon call
