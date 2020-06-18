@@ -7,26 +7,26 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
-## [Tentative] July 7th, 2020
+## (Tentative) July 7th, 2020
 
 ### Features
 
-* Rule Component Sequencing: you check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime will add rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
-* Promises in Core - Custom Code: You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/web/core-extension/overview.md) doc.
+* **Rule Component Sequencing:** Check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime adds rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
+* **Promises in Core - Custom Code:** You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/web/core-extension/overview.md) doc.
 
 ## June 18th, 2020
 
 ### Features
 
-* Left-rail navigation - The main pages for your day-to-day work within a property are moving from under the property name into a collapsible left-rail.  We've also organized them into some logical groups based on usage intent and patterns.
-* App breadcrumbs - We've added breadcrumbs throughout the app.  You should always have context now, regardless of what screen you're looking at.  This includes showing you rule names when you're modifying components, telling you how you got four levels deep in the compare screen you're looking at, and a few other things.  We also reorganized a few of the things on the top of the screen to maximize the amount of screen space you have for your day-to-day tasks.  You should still be able to find everything you're looking for with ease.
-* A new endpoint was added `{{extension_package_id}}/versions` which allows API users to see all versions of extension packages that are public. API users can also see version information for extension packages that are in devlopment or private for orgs they belong to. See [https://developer.adobelaunch.com/api/reference/1.0/extension_packages/](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/)
+* **Left-rail navigation:** The main pages for your day-to-day work within a property are moving from under the property name into a collapsible left-rail. These are nowbalso organized into some logical groups based on usage intent and patterns.
+* **App breadcrumbs:** Breadcrumbs have been added throughout the app.  You should always have context now, regardless of what screen you're looking at.  This includes showing you rule names when you're modifying components, telling you how you got four levels deep in the compare screen you're looking at, and a few other things.  The top of the screen has been reorganized to maximize the amount of screen space you have for your day-to-day tasks.  You should still be able to find everything you're looking for with ease.
+* **A new endpoint was added:** `{{extension_package_id}}/versions` allows API users to see all versions of extension packages that are public. API users can also see version information for extension packages that are in devlopment or private for orgs they belong to. See [https://developer.adobelaunch.com/api/reference/1.0/extension_packages/](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/)
 
 ### Bug Fixes
 
-* Notes now show show the name of the user that entered the note
-* In some cases users were not able to download previous versions of archive production libraries due to a CORS issue, this has been fixed. 
-* A `no-cache` header was added to the UI, previously users had to hard refresh to get updates when JS files changed.
+* Notes now show show the name of the user who entered the note.
+* In some cases, users were not able to download previous versions of archive production libraries due to a CORS issue. This has been fixed. 
+* A `no-cache` header was added to the UI. Previously users had to hard refresh to get updates when JS files changed.
 
 ## June 9th, 2020
 
