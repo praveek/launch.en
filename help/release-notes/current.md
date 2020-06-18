@@ -34,11 +34,11 @@ seo-description: Adobe Launch release notes
 
 * Property Overview: the overview page was long overdue for an update.  Now after you select your property, we'll show you some some important information about your property including: the most recent production publish date, libraries that need approval, extensions that have available updates, and a list of your most recent activity within that property.  We've also got some helpful links and will use this page to notify you about product releases and technical advisories as needed.
 
-## June 2th, 2020
+## June 2nd, 2020
 
 ### Features
 
-* Discontinue Extension Packages: Extension developers can now discontinue their extension packages.  A discontinued extension package will no longer be available for new installations from the Launch catalog, however existing installations will continue to work as normal.  Please see [Discontinue an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/discontinue/) in the developer docs for more details.
+* **Discontinue Extension Packages:** Extension developers can now discontinue their extension packages.  A discontinued extension package is no longer available for new installations from the Launch catalog. However, existing installations continue to work as expected.  Please see [Discontinue an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/discontinue/) in the developer docs for more details.
 
 ## May 9th, 2020
 
