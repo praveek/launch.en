@@ -9,7 +9,7 @@ seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience 
 
 ## June 14, 2020
 
-### Video Tracking | BrightCove  1.0.2
+### Video Tracking | BrightCove  1.0.3
 
 #### Features
 
