@@ -7,12 +7,14 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
-## Upcoming May Release
+## July 6th, 2020
 
 v1.8.0
 
 * **Promises in Custom Code** - Custom Code conditions and JavaScript actions that do not execute in the global scope can now return Promises.  You can use them to have subsequent conditions and actions wait for the completion of an asynchronous process in your Custom Code before moving on to the next item.
 * **Callbacks in HTML Custom Code Actions** - You can achieve the same thing in HTML Custom Code actions using the `onCustomCodeSuccess()` and `onCustomCodeFailure()` callbacks.
+
+Please refer to the [Core Extension reference](./overview.md) in the Conditions > Custom Code and Actions > Custom Code for more detailed information.
 
 ## April 7th, 2020
 

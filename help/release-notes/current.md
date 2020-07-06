@@ -7,7 +7,7 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
-## (Tentative) July 7th, 2020
+## July 7th, 2020
 
 ### Features
 
