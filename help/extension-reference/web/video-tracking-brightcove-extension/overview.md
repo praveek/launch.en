@@ -61,8 +61,8 @@ There will be one Launch Rule for every Video Event (the seven events listed abo
 The rules have three actions:
 
 1. Set the Adobe Analytics variables. (Create Data Elements for all or some of the Data Elements listed above.)
-2. Send the Adobe Analytics beacon.
-3. Clear the Adobe Analytics variables.
+1. Send the Adobe Analytics beacon.
+1. Clear the Adobe Analytics variables.
 
 _Example Launch Rule for &quot;Video Start&quot;_
 
