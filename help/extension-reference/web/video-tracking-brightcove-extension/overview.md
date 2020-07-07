@@ -72,15 +72,17 @@ The following Video Extension objects are to be included:
 
 1. &quot;Video Start&quot;: This event causes the rule to fire when the visitor starts playing a BrightCove video.
 
-**Condition** : None
+**Condition**: None
 
-**Actions** :
+**Actions**:
 
 1. In an Analytics &quot;Set Variables&quot; action, set:
-   * The event for **Video Start** (example: event17)
-   * A prop/eVar for the **Video Name Data Element** (example: eVar10)
-   * A prop/eVar for the **Video Duration Data Element** (example: eVar11)
-   * A prop/eVar for for the **Current Video Place** Data Element (example: eVar12)
+
+    * The event for **Video Start** (example: event17)
+    * A prop/eVar for the **Video Name Data Element** (example: eVar10)
+    * A prop/eVar for the **Video Duration Data Element** (example: eVar11)
+    * A prop/eVar for for the **Current Video Place** Data Element (example: eVar12)
+
 1. The Analytics &quot;Send Beacon&quot; action (`s.tl`)
 1. The Analytics &quot;Clear Variables&quot; action
 
