@@ -52,7 +52,7 @@ There are seven events available within the extension, only Custom Cue Point Tra
 * **Video Pause:** This event triggers when the video is paused.
 * **Video Resume:** This event triggers when the video content is resumed after a pause event.
 * **Video Screen Change:** The event triggers when the video switches in or out of full screen mode.
-7. **Video Start:** This event triggers when video content starts for the first time.
+* **Video Start:** This event triggers when video content starts for the first time.
 
 **Usage**
 
@@ -81,8 +81,8 @@ The following Video Extension objects are to be included:
   * A prop/eVar for the **Video Name Data Element** (example: eVar10)
   * A prop/eVar for the **Video Duration Data Element** (example: eVar11)
   * A prop/eVar for for the **Current Video Place** Data Element (example: eVar12)
-2. The Analytics &quot;Send Beacon&quot; action (`s.tl`)
-3. The Analytics &quot;Clear Variables&quot; action
+1. The Analytics &quot;Send Beacon&quot; action (`s.tl`)
+1. The Analytics &quot;Clear Variables&quot; action
 
 >[!Tip]
 >
