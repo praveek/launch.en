@@ -1,19 +1,13 @@
 ---
-title: Video Tracking | BrightCove Release Notes
-seo-title: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
+title: Video Tracking | BrightCove Extension
+seo-title: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
+description: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
+seo-description: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
 ---
 
-# Video Tracking | BrightCove Release Notes
+# Video Custom Cue Tracker: BrightCove Extension documentation
 
-## July 6, 2020
-
-### Video Tracking | BrightCove  1.1.0
-
-**Video Custom Cue Tracker: BrightCove | Extension Documentation**
-
-**Pre-Requisites**
+## Pre-Requisites
 
 Each Launch property needs the following extensions installed and configured in the Extension screen:
 
@@ -29,7 +23,7 @@ On pages with multiple videos, note that each video uses the same configuration 
 
 If the webpage you are planning to use with this extension has a chance of interacting with the video before the Launch tag has had a chance to completely load, consider loading the Launch library synchronously, and place the `<script type="text/javascript">\_satellite.pageBottom();\</script\>` tag before the video embed on the page to mitigate potential timing issues. For reference, see [https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer](https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer), on the BrightCove API that is used with this extension.
 
-**Data Elements**
+## Data Elements
 
 There are seven data elements available within the extension, none of which require configuration.
 
@@ -41,7 +35,7 @@ There are seven data elements available within the extension, none of which requ
 * **Video Name:** This data element specifies the descriptive, or friendly name of the video.
 * **Video Tags:** This data element specifies the tags associated with the video.
 
-**Events**
+## Events
 
 There are seven events available within the extension, only Custom Cue Point Tracking requires configuration.
 
@@ -54,7 +48,7 @@ There are seven events available within the extension, only Custom Cue Point Tra
 * **Video Screen Change:** The event triggers when the video switches in or out of full screen mode.
 * **Video Start:** This event triggers when video content starts for the first time.
 
-**Usage**
+## Usage
 
 There will be one Launch Rule for every Video Event (the seven events listed above). Create a specific Launch rule for each event you want to track. In other words, if you don&#39;t want to track Video Pause, don&#39;t create a rule for it.
 
@@ -68,11 +62,13 @@ _Example Launch Rule for &quot;Video Start&quot;_
 
 The following Video Extension objects are to be included:
 
-**Events** :
+**Events**:
 
 1. &quot;Video Start&quot;: This event causes the rule to fire when the visitor starts playing a BrightCove video.
 
-**Condition**: None
+**Condition**: 
+
+None
 
 **Actions**:
 
