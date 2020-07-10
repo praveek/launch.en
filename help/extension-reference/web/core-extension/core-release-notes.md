@@ -7,11 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
-## Upcoming July Release
+## July 10th, 2020
 
 v1.8.1
 
-* Fixed a bug with HTML encoding/decoding for `style` and `script` tags inside HTML Custom Code
+* Fixed a bug where custom HTML entities inside attributes of `script` and `style` tags were not correctly decoded before being written to the page."
+* Fixed a bug where the library build would fail, using an SFTP host, that includes a rule with an empty custom code action, or a custom code action that includes comments only.
 
 ## July 6th, 2020
 
