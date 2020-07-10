@@ -12,7 +12,7 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 v1.8.1
 
 * Fixed a bug where custom HTML entities inside attributes of `script` and `style` tags were not correctly decoded before being written to the page."
-* Fixed a bug where the library build would fail, using an SFTP host, that includes a rule with an empty custom code action, or a custom code action that includes comments only.
+* Fixed a bug where an error happens when an external custom code action has no content. External custom code action is the action that is loaded from a different file than the library (this happens when the event triggering the rule is not libraryLoaded or pageBottom)
 
 ## July 6th, 2020
 
