@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## July 13th, 2020
+
+v1.8.2
+
+* Fixed a bug where the custom code action was throwing an error for HTML code that contains tokens without a tag name (eg. comments).
+
 ## July 10th, 2020
 
 v1.8.1
