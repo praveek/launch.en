@@ -59,7 +59,8 @@ After you have included all three of the extensions mentioned above in your Laun
 
 The VA extension exports the MediaHeartbeat APIs in the global window object by enabling the **[!UICONTROL "Export APIs to Window Object"]** setting in the Configuration page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
->[!IMPORTANT]  
+>[!IMPORTANT]
+>
 >The VA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
 1. **Create MediaHeartbeat Instance:** `window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
@@ -83,7 +84,9 @@ The VA extension exports the MediaHeartbeat APIs in the global window object by 
 
 The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).)
 
->[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
+>[!IMPORTANT]
+>
+>Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
 1. **Create MediaHeartbeat Instance:** `get-instance` Shared Module
 

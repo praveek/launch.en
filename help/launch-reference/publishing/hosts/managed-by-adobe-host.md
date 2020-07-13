@@ -33,7 +33,9 @@ When you choose to have Adobe manage your hosting, you do not have control over 
 
 As of September 25, 2019, there is a 24-hour TTL on all builds managed by Adobe.  If you require different cache control headers, you need to host your own files.  Please see the [Self-hosting Guide](/help/launch-reference/publishing/hosts/self-hosting-libraries.md) for more info.
 
->[!NOTE]  It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
+>[!NOTE]
+>
+>It is up to browsers to receive and respect the cache control headers. Some browsers might ignore them.
 
 ### Cache Invalidations {#cache-invalidation}
 

@@ -11,7 +11,9 @@ An extension is a packaged set of code that extends the [!DNL Launch] interface 
 
 Adding an extension adds new data elements and new options for creating rules.
 
->[!NOTE] Extensions are similar to _tools_ in the previous [!DNL Dynamic Tag Management].
+>[!NOTE]
+>
+>Extensions are similar to _tools_ in the previous [!DNL Dynamic Tag Management].
 
 Extensions determine the elements that are available when building properties, rules, and data elements. They provide:
 
@@ -23,7 +25,9 @@ Use the links at the top of the Extensions list to view installed extensions, th
 
 Select an extension, then click [!UICONTROL Configure] to view and change the extension's settings. See [Add a new extension](#add-a-new-extension) for information about extension options.
 
->[!IMPORTANT] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!IMPORTANT]
+>
+>Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 By default, [!DNL Adobe] provides extensions that support common integrations. Extensions can be modified with custom configurations. Configurations are provided through the extensions. To create a configuration, click the extension card, then click [!UICONTROL Add New Configuration].
 
@@ -78,6 +82,8 @@ When creating or editing elements, you can save and build to your [active librar
 
 Mouse over an installed extension and click [!UICONTROL Configure].
 
->[!NOTE] Some extensions do not require configuration and do not offer configuration options.
+>[!NOTE]
+>
+>Some extensions do not require configuration and do not offer configuration options.
 
 Each configurable extension has unique options. Refer to [Extensions Reference](../../../extension-reference/web/overview.md) for information about the options available for each [!DNL Adobe] extension.

@@ -55,7 +55,9 @@ Remember the following information:
 
 This information helps you roundtrip a V3 acquisition campaign link based on a device fingerprint.
 
->[!IMPORTANT]  V3 Acquisition refers to the acquisition links that you create with the Acquisition Builder in the Adobe Mobile Services UI. To use this feature, you must upgrade to iOS SDK version 4.6.0 or later.
+>[!IMPORTANT]
+>
+>V3 Acquisition refers to the acquisition links that you create with the Acquisition Builder in the Adobe Mobile Services UI. To use this feature, you must upgrade to iOS SDK version 4.6.0 or later.
 
 If the mobile app is not yet in the App Store, when you create the campaign link, select any mobile app as a destination. This only affects the app to which the acquisition server redirects you after you click the acquisition link, but does not affect the ability to test the link.
 

@@ -11,7 +11,9 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Target extension
 
->[!IMPORTANT]  The Adobe Target extension requires at.js. It does not support mbox.js.
+>[!IMPORTANT]
+>
+> The Adobe Target extension requires at.js. It does not support mbox.js.
 
 If the Adobe Target extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Target extension, and click **[!UICONTROL Install]**.
 

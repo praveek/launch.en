@@ -94,7 +94,7 @@ The MA extension exposes `media` as shared module to other extensions. (For addi
 
 1. Using the Media tracker instance, follow the [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript_3x/index.html) to implement media tracking.
 
->[!NOTE] 
+>[!NOTE]
 >
 >**Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 

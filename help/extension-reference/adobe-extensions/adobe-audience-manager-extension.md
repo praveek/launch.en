@@ -11,7 +11,8 @@ With the [!DNL Audience Manager] extension, you can integrate the DIL code used 
 
 Use this reference for information about the options available when using this extension to build a rule.
 
->[!NOTE] 
+>[!NOTE]
+>
 >This extension is not meant to be used for server-side forwarding of Adobe Analytics data. For server-side forwarding, use the [Adobe Analytics extension](adobe-analytics-extension.md).
 
 ## Configure the Adobe Audience Manager extension

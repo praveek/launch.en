@@ -14,7 +14,9 @@ The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x
 * [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
 
->[!IMPORTANT]  Audio tracking requires Analytics Extension v1.6 or higher.
+>[!IMPORTANT]
+>
+>Audio tracking requires Analytics Extension v1.6 or higher.
 
 After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
 
@@ -53,7 +55,9 @@ After you have included all three of the extensions mentioned above in your Laun
 
 The MA extension exports the MediaHeartbeat APIs in the global window object by enabling the "Export APIs to Window Object" setting in the [!UICONTROL Configuration] page. It exports the APIs under the configured variable name. For example, if the variable name is configured to be `ADB` then MediaHeartbeat can be accessed by `window.ADB.MediaHeartbeat`.
 
->[!IMPORTANT]  The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
+>[!IMPORTANT]
+>
+>The MA extension exports the APIs only when `window["CONFIGURED_VARIABLE_NAME"]` is undefined and does not override existing variables.
 
 1. **Create MediaHeartbeat Instance:**&nbsp;`window["CONFIGURED_VARIABLE_NAME"].MediaHeartbeat.getInstance`
 
@@ -101,7 +105,9 @@ The MA extension exports the MediaHeartbeat APIs in the global window object by 
 
 The MA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/extensions/shared_modules/).)
 
->[!IMPORTANT]  Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
+>[!IMPORTANT]
+>
+>Shared Modules can only be accessed from other extensions. That is, a webpage/JS app cannot access the shared modules, or use `turbine` (see code sample below) outside of an extension.
 
 1. **Create MediaHeartbeat Instance:**&nbsp;`get-instance` Shared Module
 
@@ -164,7 +170,9 @@ The MA extension exposes the `get-instance` and `media-heartbeat` shared modules
 
 1. Using the Media Heartbeat instance, follow the [Media SDK JS documentation](https://docs.adobe.com/content/help/en/media-analytics/using/sdk-implement/setup/set-up-js.html) and [JS API documentation](https://adobe-marketing-cloud.github.io/media-sdks/reference/javascript/index.html) to implement media tracking.
 
->[!NOTE] **Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
+>[!NOTE]
+>
+>**Testing:** For this release, to test your extension you must upload it to [Adobe Experience Platform Launch](https://github.com/Adobe-Marketing-Cloud/reactor-user-docs/tree/73a73bd5ff53162339ce5ded3f4bba4712146d20/extension-reference/launch.adobe.com), where you have access to all dependent extensions.
 
 
 <!--
