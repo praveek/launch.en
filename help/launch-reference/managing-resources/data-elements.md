@@ -11,7 +11,9 @@ Data elements are the building blocks for your data dictionary (or data map). Us
 
 A single data element is a variable whose value can be mapped to query strings, URLs, cookie values, JavaScript variables, and so on. You can reference this value by its variable name throughout [!DNL Launch]. This collection of data elements becomes the dictionary of defined data that you can use to build your rules (events, conditions, and actions). This data dictionary is shared across all of [!DNL Launch] for use with any extension you've added to your property.
 
->[!IMPORTANT]  Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!IMPORTANT]
+>
+>Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 Use data elements as widely as possible throughout rule creation to consolidate the definition of dynamic data and to improve the efficiency of your tagging process. You define data rules once and then use them in multiple places.
 
@@ -21,7 +23,9 @@ For example, if there is a particular way that you reference page names or produ
 
 Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within the website. In [!DNL Launch], you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name (for example, you have been referencing `document.title` but you now want to reference a particular data layer), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
 
->[!NOTE]  If a data element is not referenced in a rule, it is not loaded on any page unless specifically called in custom script
+>[!NOTE]
+>
+>If a data element is not referenced in a rule, it is not loaded on any page unless specifically called in custom script
 
 Data elements are populated with data when they are used in rules or when manually called in a script. At a high level, you:
 

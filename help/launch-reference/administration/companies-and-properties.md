@@ -33,7 +33,9 @@ There are a few ways to handle multiple geo markets, business units, domains, an
 
 For example, you might have three properties within your company account where one contains all of your blog sites, another contains all of your ecommerce sites, and the third contains all of your lead-generation sites.
 
->[!NOTE]  Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when [!DNL Dynamic Tag Management] is first installed on your site.
+>[!NOTE]
+>
+>Each property requires its own client-side code in your templates. Any domains or subdomains you want included in a particular property would have the same code in the page templates when [!DNL Dynamic Tag Management] is first installed on your site.
 
 ### Can we use separate instances for each?
 
@@ -126,7 +128,9 @@ Click a property to see an overview of that property. The overview shows any act
 
 Create or configure a property in [!DNL Launch].
 
->[!NOTE]  Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
+>[!NOTE]
+>
+>Only a user with sufficient rights can create a property. See [User Management](user-permissions.md).
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
@@ -162,7 +166,9 @@ After your property is created, [!DNL Launch] automatically adds a default host,
 
 Delete a property from [!DNL Launch].
 
->[!NOTE]  Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
+>[!NOTE]
+>
+>Property removal cannot be reversed. The requestor must be an admin-level user. This request cannot be undone.
 
 1. In the Properties list, select the property you want to delete.
 

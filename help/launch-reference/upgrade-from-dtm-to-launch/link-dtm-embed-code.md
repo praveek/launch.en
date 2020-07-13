@@ -35,7 +35,9 @@ In the diagram below, Step 3 represents Launch publishing its container tag over
 
 ![](/help/assets/launch_publishing.png)
 
->[!IMPORTANT]  This overwriting works both ways. If you publish Launch, then subsequently publish from DTM, the DTM container tag overwrites the Launch one. You have two systems publishing to the same location. This means you don't have to change the code on your page, but it also means you need to be careful when you publish. It's recommended that you disable your DTM property to prevent this situation.
+>[!IMPORTANT]
+>
+>This overwriting works both ways. If you publish Launch, then subsequently publish from DTM, the DTM container tag overwrites the Launch one. You have two systems publishing to the same location. This means you don't have to change the code on your page, but it also means you need to be careful when you publish. It's recommended that you disable your DTM property to prevent this situation.
 
 ## Linking Prerequisites {#linking-prerequisites}
 
@@ -57,7 +59,9 @@ Before you link your embed code:
 
 Launch validates a number of things and tells you whether linking was successful.
 
->[!IMPORTANT]  You can only have one Production environment in Launch. If you have already created one on this property, you need to delete the existing Production environment so you can create a new linked environment. The new one does not have the same embed code as the old one, so don't do this unless you are familiar with the process.
+>[!IMPORTANT]
+>
+>You can only have one Production environment in Launch. If you have already created one on this property, you need to delete the existing Production environment so you can create a new linked environment. The new one does not have the same embed code as the old one, so don't do this unless you are familiar with the process.
 
 ## Recommended Test Process {#recommended-test-process}
 

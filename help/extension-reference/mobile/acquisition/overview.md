@@ -14,4 +14,6 @@ To configure the Acquistion extension in Adobe Experience Platform Launch, see t
 * For more information about elements, see [Data elements](/help/launch-reference/managing-resources/data-elements.md).
 * For more information about buildng your own extension, see [Build your own Extension](../build-your-own-extension/).
 
->[!TIP] The keys in the [Events](../build-your-own-extension/events/) section can be used as data elements.
+>[!TIP]
+>
+>The keys in the [Events](../build-your-own-extension/events/) section can be used as data elements.

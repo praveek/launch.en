@@ -25,7 +25,9 @@ For properties, rules, and data elements, simply select the resource you want to
 
 If you are copying a rule or a data element, in the copy dialog you may use the drop-down menu to select a Destination Property you want to copy to (default setting is the current property). Extensions cannot be copied to the same property, so those will not provide that option.
 
->[!NOTE]  In the Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
+>[!NOTE]
+>
+>In the Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
 
 Once you've configured the behavior you want, click **[!UICONTROL Copy]**.
 

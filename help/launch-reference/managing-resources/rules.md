@@ -21,7 +21,9 @@ For an introductory video, see [Rule builder](../../quick-start/videos.md).
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
->[!IMPORTANT] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!IMPORTANT]
+>
+>Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 ### Events and conditions (if)
 
@@ -155,9 +157,9 @@ If enabled, when an event is triggered at runtime, the rule's conditions and act
 
 If a condition evaluates as false or reaches its defined timeout, that rule's subsequent conditions and actions are removed from the queue.
 
-If an action fails or reaches its defined timeout, that rule's subsequent actions are removed from the queue
+If an action fails or reaches its defined timeout, that rule's subsequent actions are removed from the queue.
 
->[!NOTE] 
+>[!NOTE]
 >
 >With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Launch] library synchronously.
 

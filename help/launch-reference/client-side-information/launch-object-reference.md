@@ -191,7 +191,9 @@ This example demonstrates the object values:
 
 ### notify
 
->[!NOTE] This method has been deprecated. Please use `_satellite.logger.log()` instead.
+>[!NOTE]
+>
+>This method has been deprecated. Please use `_satellite.logger.log()` instead.
 
 #### Code
 
@@ -219,7 +221,9 @@ If you do not provide a logging level or pass any other level value, the message
 
 ### setCookie
 
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.set()` instead.
+>[!NOTE]
+>
+>This method has been deprecated. Please use `_satellite.cookie.set()` instead.
 
 #### Code
 
@@ -237,7 +241,9 @@ Sets a cookie in the user's browser. The cookie will persist for the number of d
 
 ### readCookie
 
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.get()` instead.
+>[!NOTE]
+>
+>This method has been deprecated. Please use `_satellite.cookie.get()` instead.
 
 #### Code
 
@@ -255,7 +261,9 @@ Reads a cookie from the user's browser.
 
 ### removeCookie
 
->[!NOTE] This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
+>[!NOTE]
+>
+>This method has been deprecated. Please use `_satellite.cookie.remove()` instead.
 
 #### Code
 
@@ -285,7 +293,9 @@ _satellite._container
 
 #### Example
 
->[!IMPORTANT] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!IMPORTANT]
+>
+>This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 ### monitor
 
@@ -297,7 +307,9 @@ _satellite._monitors
 
 #### Example
 
->[!IMPORTANT] This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
+>[!IMPORTANT]
+>
+>This function should not be accessed from production code. It is intended only for debugging purposes and will change over time as needed.
 
 #### Sample
 
@@ -359,7 +371,9 @@ Called after a rule has been triggered and one of its conditions has failed. The
 
 If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` will be called shortly thereafter.
 
->[!NOTE] A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
+>[!NOTE]
+>
+>A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
 
 #### Testing the Monitor
 

@@ -7,7 +7,9 @@ seo-description: This page contains tips and templates about the event page stru
 
 # Event Description Template
 
->[!NOTE]  This page contains tips&templates about the event page structure.
+>[!NOTE]
+>
+>This page contains tips&templates about the event page structure.
 
 Currently the events are splitted into two markdown files for each module - one is for the events dispatched by a specific module and one is for the events handled by the module (dispatched by the same module/another module). E.g.:
 

@@ -55,7 +55,9 @@ You would enter the following path in the "Variable for product ID/name" field t
 digitalData.transaction.item.productInfo.productName
 ```
 
->[!NOTE] If you're using a data element to populate the field, it should be configured using the Constant or Custom Code data element type and must return the path above as a string literal.
+>[!NOTE]
+>
+>If you're using a data element to populate the field, it should be configured using the Constant or Custom Code data element type and must return the path above as a string literal.
 
 ### Price Type
 
