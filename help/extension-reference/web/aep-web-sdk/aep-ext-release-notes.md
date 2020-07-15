@@ -6,17 +6,20 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 ---
 
 # AEP Extension Release Notes
+[Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
 ## June 22, 2020
 
-### AEP Extension 2.0.0
+### AEP Extension 2.1.0
 
 #### Features
 
 * Pass `environment: browser` in the implementation details context data.
-* Support Alloy Monitors ([Read more](https://github.com/adobe/alloy/wiki/Monitoring-Hooks)
+* Support Alloy Monitors ([Read more](https://github.com/adobe/alloy/wiki/Monitoring-Hooks))
 * Override dataset ID on sendEvent command.
-* Remove the `syncIdentity` command. A different approach to syncing identity is being worked on.
+* Remove the `syncIdentity` command and support passing those IDs in the `sendEvent` command.
+* Support IAB 2.0 Consent Standard.
+* Support passing additional IDs in the `setConsent` command.
 
 
 ## May 26, 2020
