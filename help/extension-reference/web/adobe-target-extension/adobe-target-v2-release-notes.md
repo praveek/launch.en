@@ -7,6 +7,12 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 # Adobe Target v2 Extension Release Notes
 
+## July 21, 2020
+
+### Adobe Target v2 Extension 0.13.3
+
+* Fixed a bug that caused QA mode links not to work for inactive activities
+
 ## June 15, 2020
 
 ### Adobe Target v2 Extension 0.13.2
