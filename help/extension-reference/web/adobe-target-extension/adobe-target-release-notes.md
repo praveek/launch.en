@@ -7,6 +7,12 @@ seo-description: Release notes for Adobe Target extension in Adobe Experience Pl
 
 # Adobe Target Release Notes
 
+## July 24, 2020
+
+### Adobe Target Extension 0.11.3
+
+* Fixed a bug when the extension fails if a script or code adds `default` property to the `window` or `document`
+
 ## June 15, 2020
 
 ### Adobe Target Extension 0.11.2
