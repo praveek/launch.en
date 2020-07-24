@@ -116,7 +116,6 @@ Browser support in the [!DNL Launch] application interface:
 * [!DNL Chrome] (latest)
 * [!DNL Safari] (latest)
 * [!DNL Firefox] (latest)
-* [!DNL Internet Explorer] (11 and above)
 * [!DNL Microsoft Edge] (latest)
 
 Legacy [!DNL DTM] supported older versions of [!DNL Internet Explorer], but over the last few years, the percentage of overall web users with older, outdated browsers has dropped to a small segment for our clients. Most [!DNL Adobe] clients now leverage more modern web platform features in current browsers and create better user experiences, including single page applications and interactive Ajax-heavy web sites and pages. As most clients move to more modern approaches with their sites, they demand a solution like [!DNL Launch] that enables those approaches.
