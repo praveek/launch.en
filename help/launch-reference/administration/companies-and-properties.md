@@ -7,11 +7,15 @@ seo-description: Adobe Experience Platform Launch companies and properties
 
 # Companies and properties
 
+## Companies
+
+In [!DNL Launch], there is a 1:1 relationship between your company and your [!DNL Experience Cloud] organizations.  Companies may contain any number properties.  Each individual property can be deployed on any number of sites and apps depending on your needs.
+
+Some customers one property that controls many sites and apps.  Some have one property for each.  
+
 ## Web properties
 
-A property, or web property, is a collection of rules, data elements, configured extensions, environments, and libraries. There is only one publish embed code per property.
-
-A property can be any grouping of one or more domains and subdomains. You can manage and track these assets similarly. For example, suppose that you have multiple websites based on one template, and you want to track the same assets on all of them. You can apply one property to multiple domains.
+A web property is a collection of rules, data elements, configured extensions, environments, and libraries.  Each web property has its own set of embed codes and can be deployed on any number of distinct web sites (different domains).
 
 ## Mobile properties
 
@@ -19,22 +23,21 @@ A mobile property type can contain multiple applications. For example, in a mobi
 
 For a video tutorial, see [Creating your first property](../../quick-start/videos.md).
 
-## Companies
-
-In [!DNL Launch], there is a 1:1 relationship between your company and your [!DNL Experience Cloud] organizations.  Companies may contain any number properties.  Each individual property can be deployed on any number of sites and apps depending on your needs.
-
-Some customers one property that controls many sites and apps.  Some have one property for each.  
-
 ## Best practices for planning properties {#best-practices-for-planning-properties}
 
-Each implementation can be very different in [!DNL Launch], with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. Using the flexible User Management features and properties, you can create a configuration that matches your workflow and processes.
+Each [!DNL Launch] implementation can be very different, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. You should structure your properties in a way that matches your company, workflow, and processes.
 
 Considering the following when planning properties:
 
+* Code structure
 * Data
 * Variables
 * Extensions, tags, and systems
 * People
+
+### Code structure
+
+Sites are based on HTML, mobile applications on code.  If the underlying HTML templates or codebases are the same for multiple sites and applications, you may want to consider using a single [!DNL Launch] property to manage multiple sites or apps.
 
 ### Data
 

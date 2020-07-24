@@ -43,11 +43,11 @@ Within a Product Profile, [!DNL Launch] permissions are divided across four dime
 
 #### Platforms
 
-Each property has a platform.  There are currently two platforms that you can use [!DNL Launch] with: *Web* and *Mobile*.  You can use this permission type to restrict or grant access to a particular type of property.  This can be useful when the team that manages your mobile apps is different from the one that manages your web sites.
+Each property has a platform.  There are currently two platforms that you can use in [!DNL Launch]: *Web* and *Mobile*.  You can use this permission type to restrict or grant access to a particular type of property.  This can be useful when the team that manages your mobile apps is different from the one that manages your web sites.
 
 #### Properties
 
-This is a list of all Properties that exist within your company.  You can use this permission type to restrict or grant access to specific properties (by name).
+This is a list of all Properties that exist within your company.  You can use this permission type to restrict or grant access to specific existing properties (by name).
 
 #### Property rights
 
