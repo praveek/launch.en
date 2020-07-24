@@ -32,17 +32,30 @@ A Product Administrator (or Product Admin) is similar to an Org Admin, but is na
 
 ### Launch permissions
 
-Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profile.
+Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profiles.
 
-Within a Product Profile, [!DNL Launch] permissions are divided into two categories, property rights and company rights.
+Within a Product Profile, [!DNL Launch] permissions are divided across four dimensions.
+
+1. Platforms
+2. Properties
+3. Property Rights
+4. Company Rights
+
+#### Platforms
+
+Each property has a platform.  There are currently two platforms that you can use in [!DNL Launch]: *Web* and *Mobile*.  You can use this permission type to restrict or grant access to a particular type of property.  This can be useful when the team that manages your mobile apps is different from the one that manages your web sites.
+
+#### Properties
+
+This is a list of all Properties that exist within your company.  You can use this permission type to restrict or grant access to specific existing properties (by name).
 
 #### Property rights
 
 Any properties you create in [!DNL Launch] become available in the Admin Console for you to assign permissions. If a given Product Profile does not have access to Property A1, users who belong to that profile cannot see or modify any settings within Property A1.
 
-Assuming that a user belongs to a profile with access to Property A1, what they can do within Property A1 is determined by the rights they have been granted. Users with permissions to Property A1, but no assigned rights, have read-only access.
+Assuming that a user belongs to a profile with access to Property A1, what they can do within Property A1 is determined by the rights they have been granted from this permission group. Users with permissions to Property A1, but no assigned rights, have read-only access.
 
-You can set the following property rights:
+The permissions available within this group are:
 
 * **Develop:** Grants the ability to create rules and data elements. You can also create libraries and build them in existing development environments. You can submit a library for approval when ready.  Most day-to-day tasks in [!DNL Launch] require this right.
 * **Approve:** Grants the ability to take a submitted library and build to the staging environment.  You can also approve a library for publishing once testing has been completed.
