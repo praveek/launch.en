@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## July 28, 2020
+
+v1.8.3
+
+* Fixed a bug where the CSP nonce was read only once upon extension startup instead of being pulled fresh during custom code action invocation.
+
 ## July 13th, 2020
 
 v1.8.2
