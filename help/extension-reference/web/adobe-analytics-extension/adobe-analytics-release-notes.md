@@ -13,7 +13,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Bug Fixes
 
-* The incorrect cookie name in the AAM module settings was being set when the this field was left blank, this has now been corrected. 
+* The incorrect cookie name in the AAM module settings was being set when the this field was left blank. This has now been corrected. 
 
 #### Features
 
