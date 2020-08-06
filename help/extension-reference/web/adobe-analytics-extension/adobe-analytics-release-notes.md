@@ -7,6 +7,19 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 # Adobe Analytics Release Notes
 
+## August 6, 2020
+
+### Adobe Analytics Extension 1.8.5
+
+#### Bug Fixes
+
+* The incorrect cookie name in the AAM module settings was being set when the this field was left blank, this has now been corrected. 
+
+#### Features
+
+* Updated [AppMeasurement to 2.22.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html).
+* Small UI change so the additional setting now appear collapsed in an accordion instead of a checkbox.
+
 ## June 2, 2020
 
 ### Adobe Analytics Extension 1.8.4
