@@ -121,7 +121,9 @@ Navigate to your company page, then click [!UICONTROL Add Property], or select a
    * **Name:** The name of your property. 
    * **Privacy:** By default the privacy setting is set to Opted In, meaning that you would like for the SDK to collect and send data to solutions. If you select Opted Out, the SDK by default will NOT send data to solutions. If you choose Unknown as the setting, the SDK will require that the application first propmpt the user to allow for data collection and sharing.
 
-     >[!NOTE]These settings can be further controlled via API in the mobile application. 
+     >[!NOTE]
+     >
+     >These settings can be further controlled via API in the mobile application. 
 
    * **Use HTTPS:** Choose if all data communication should be sent over HTTP or HTTPS.
 
