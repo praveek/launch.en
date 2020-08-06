@@ -6,6 +6,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 ---
 
 # AEP Extension Release Notes
+
 [Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
 ## August 5, 2020
