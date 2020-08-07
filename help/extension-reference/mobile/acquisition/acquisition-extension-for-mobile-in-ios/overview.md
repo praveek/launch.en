@@ -110,7 +110,9 @@ An ad creator can create an ad on Facebook as a deep link. When users click the 
    }
    ```
 
-**Tip**: Ensure that the deep link URL has a key with the name `a.deeplink.id`. No URL parameters will be appended to the context data if the URL missed the a.deeplink.id parameter.
+>[!TIP]
+>
+>Ensure that the deep link URL has a key with the name `a.deeplink.id`. No URL parameters will be appended to the context data if the URL missed the a.deeplink.id parameter.
 
 If the application is set up as described above, the current Mobile SDK version will append the deep link data to correctly install and/or launch Analytics calls.
 

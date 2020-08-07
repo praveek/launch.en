@@ -278,7 +278,7 @@ Specify any custom code that must exist as a condition of the event. Use the bui
 
 A variable named `event` will automatically be available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
-```javascipt
+```javascript
 console.log(event);
 return true;
 ```
@@ -595,7 +595,7 @@ Provide the code that runs after the event is triggered and conditions are evalu
 
 When JavaScript is selected as the language, a variable named `event` will automatically be available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
-```javascipt
+```javascript
 console.log(event);
 ```
 
@@ -702,7 +702,7 @@ if (window.location.pathname == '/') {
 
 If the custom code data element is being retrieved as part of a rule execution, a variable named `event` automatically becomes available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
-```javascipt
+```javascript
 console.log(event);
 return true;
 ```
