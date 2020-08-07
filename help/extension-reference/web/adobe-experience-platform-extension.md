@@ -61,7 +61,7 @@ You first need to select the dataset where the data will be stored. Generally, d
 
 ![](/help/assets/adobe_experience_platform_send_beacon_dataset_selected1.png)
 
-Once you select the dataset where the data will be stored, you will see details about the schema that is linked to the selected dataset.
+After you select the dataset where the data will be stored, you will see details about the schema that is linked to the selected dataset.
 
 ### Schema Mapping
 

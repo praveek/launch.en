@@ -25,7 +25,9 @@ If you are using the Acquisition links that were created on Adobe Mobile Service
 * Prefix an acquisition variable with `adb`.
 * The custom data keys will be prefixed with `a.acquisition.custom`.
 
-**Tip**: If you are sending data to multiple report suites, use the acquisition data from the app that is associated with the first report suite in your list of report suite IDs.
+>[!TIP]
+>
+>If you are sending data to multiple report suites, use the acquisition data from the app that is associated with the first report suite in your list of report suite IDs.
 
 The updates in this section enable the Adobe Cloud Platform SDKs to send acquisition data from an acquisition link.
 
@@ -127,7 +129,9 @@ You can set up the Adobe Cloud Platform SDKs to add Facebook deep linking suppor
 
 If the application is set up correctly, `trackAdobeDeepLink()` enables collecting the deep link information from the Facebook acquisition campaign and sends the information to Adobe Analytics. If the install hit has not been sent to Adobe Analytics at the first launch, this information will be added to the Lifecycle hit. Otherwise, it will be sent as an deep link Adobe Analytics hit.
 
-**Tip**: Ensure that the deep link URL has a key called `a.deeplink.id`. If the URL is missing the deep link ID parameter, the URL parameters will not be appended to the context data.
+>[!TIP]
+>
+>Ensure that the deep link URL has a key called `a.deeplink.id`. If the URL is missing the deep link ID parameter, the URL parameters will not be appended to the context data.
 
 If the link can be attributed to an acquisition, the Adobe Cloud Platform SDKs will store the acquisition data from the Facebook deep link that was used to call `trackAdobeDeepLink()`. This data will be available to the Adobe Cloud Platform SDKs in future launches.
 

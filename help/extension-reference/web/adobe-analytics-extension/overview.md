@@ -197,7 +197,9 @@ For example, if you have a spa/\#/about page, you could put "about" in the Alway
 
 The "about" page is the only outbound link that is tracked. Any other links on the page (for example, [https://www.google.com](https://www.google.com)) are not tracked.
 
-Note that these two options are mutually exclusive.
+>[!NOTE]
+>
+>These two options are mutually exclusive.
 
 ### Keep URL Parameters
 

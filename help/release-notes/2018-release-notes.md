@@ -348,7 +348,9 @@ The following changes were made to be more descriptive of the actual behavior in
 
 Release date: **November 8, 2017**
 
-.[!IMPORTANT] Launch is being rolled out incrementally to Adobe Experience Cloud customers. If you have would like a chance to get early access, please put let us know by entering the required information in the [!DNL Launch] Release Form.
+>[!IMPORTANT] 
+>
+>Launch is being rolled out incrementally to Adobe Experience Cloud customers. If you have would like a chance to get early access, please put let us know by entering the required information in the [!DNL Launch] Release Form.
 
 This is the first release of [!DNL Launch].
 

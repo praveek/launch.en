@@ -57,7 +57,7 @@ What makes [!DNL Launch] truly unique among tag management systems is that these
 * Session and local storage
 * Just about everything else
 
-Once defined in a data element, you can use the element anywhere throughout Launch for any extension. (See [Data Elements](../launch-reference/managing-resources/data-elements.md).)
+AFter the data element is defined, you can use the element anywhere throughout Launch for any extension. (See [Data Elements](../launch-reference/managing-resources/data-elements.md).)
 
 **Rules** are at the logical core of your implementation and control the what, when, where, and how of all the tags on your site. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../launch-reference/managing-resources/rules.md).
 
