@@ -127,8 +127,7 @@ _satellite.cookie.set("sat_track", "true");
 Determines how the image request is encoded. If your implementation or site uses non-ASCII characters, it is important to define character set here. You can select a preset character set or specify a custom character set. Adobe recommends using the same character coding as your site. Typically this value is UTF-8.
 
 Character Set can be set in Analytics custom code using the variable `s.charSet`.
-
-<!--For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).-->
+For more information about character sets, see the [charSet documentation](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 ### Currency Code
 
