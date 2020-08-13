@@ -128,13 +128,13 @@ Determines how the image request is encoded. If your implementation or site uses
 
 Character Set can be set in Analytics custom code using the variable `s.charSet`.
 
-For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).
+<!--For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).-->
 
 ### Currency Code
 
 Determines the conversion rate to be applied to revenue and currency events. If your site allows visitors to purchase in multiple currencies, setting the currency code ensures the monetary amount is converted and stored correctly.
 
-For more information about the supported currency codes, see the [Multi-Currency Support whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/currency/currency_codes.html).
+<!--For more information about the supported currency codes, see the [Multi-Currency Support whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/currency/currency_codes.html).-->
 
 ### Tracking Server
 
@@ -190,7 +190,7 @@ See [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/impl
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
+* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, `http://testsite.com/spa/\#`. All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
 * If there are some links that you want to track on your SPA, use the Always Track section.
 
 For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.

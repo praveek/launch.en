@@ -18,7 +18,7 @@ If the [!DNL Adobe Target] extension is not yet installed, open your property, t
 
 To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
 
-![](/help/assets/ext-target-config.png)
+![](../../assets/ext-target-config.png)
 
 ### at.js settings
 
@@ -59,7 +59,7 @@ Determines where [!DNL Target] sets cookies in the browsers.
 
 If the response from [!DNL Target] is not received within the defined period, the request times out and default content is displayed. Additional requests continue to be attempted during the visitor's session. The default is 3000ms, which might be different from the Timeout configured in the [!DNL Target] user interface.
 
-For more information about how the Timeout setting works, refer to the [Adobe Target help](hhttps://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html).
+For more information about how the Timeout setting works, refer to the [Adobe Target help](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html).
 
 #### Other at.js settings available in the Target user interface
 

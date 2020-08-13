@@ -345,7 +345,7 @@ If a variable is nested within an object or array, you may use dot notation to r
 
 Consider the following object on window:
 
-```
+```Javascript
 window.dataLayer = {
   products: [
     {
@@ -651,7 +651,7 @@ If a variable is nested within an object or array, you may use dot notation to r
 
 Consider the following object on window:
 
-```
+```javascript
 window.dataLayer = {
   products: [
     {

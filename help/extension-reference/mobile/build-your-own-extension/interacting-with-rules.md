@@ -15,10 +15,9 @@ Your extension should publish the rules support it provides to Launch. This is d
 
 ### Publishing data elements supported
 
-Data elements may be supported by publishing the shared state keys you wish to use in a rule as described here:
-https://developer.adobelaunch.com/guides/extensions/extension-manifest/#type-definition
+Data elements may be supported by publishing the shared state keys you wish to use in a rule as described [here](https://developer.adobelaunch.com/extensions/reference/extension-manifest/#type-definition).
 
-```
+```javascript
   "dataElements": [
     {
       "displayName": "My Custom Value",
@@ -35,12 +34,11 @@ https://developer.adobelaunch.com/guides/extensions/extension-manifest/#type-def
 
 ### Publishing conditions supported
 
-Conditions may be supported by publishing the shared state keys or events you wish to use in a rule as described here:
-https://developer.adobelaunch.com/guides/extensions/extension-manifest/#type-definition
+Conditions may be supported by publishing the shared state keys or events you wish to use in a rule as described [here](https://developer.adobelaunch.com/extensions/reference/extension-manifest/#type-definition).
 
 Here is an example:
 
-```
+```javascript
     "events":[
     {
       "displayName": "My Custom Event",
@@ -69,12 +67,11 @@ Here is an example:
 
 ### Publishing actions supported
 
-Conditions may be supported by publishing the events you wish to use in a rule as described here:
-https://developer.adobelaunch.com/guides/extensions/extension-manifest/#type-definition
+Conditions may be supported by publishing the events you wish to use in a rule as described [here](https://developer.adobelaunch.com/extensions/reference/extension-manifest/#type-definition)
 
 Here is an example:
 
-```
+```javascript
     "actions": [
     {
       "displayName": "My Custom Action",
@@ -98,12 +95,12 @@ You should provide support for the events, actions and conditions you published 
 
 ### Publishing a shared state `condition` at runtime
 
-Any shared state published by your extension can be used as a `condition` when configuring a rule in Launch. To learn how you can publish a shared state, see [Updating the Shared State](#updating-the-shared-state).
+Any shared state published by your extension can be used as a `condition` when configuring a rule in Launch. <!--To learn how you can publish a shared state, see [Updating the Shared State](#updating-the-shared-state).-->
 
 ### Dispatching an event `condition` at runtime
 
-Any event dispatched by your extension can be used as a `condition` when configuring a rule in Launch. To learn how you can dispatch an event, see [Dispatching Events from your Extension](#dispatching-events-from-your-extension).
+Any event dispatched by your extension can be used as a `condition` when configuring a rule in Launch. <!--To learn how you can dispatch an event, see [Dispatching Events from your Extension](#dispatching-events-from-your-extension).-->
 
 ### Handling an event `action` at runtime
 
-Any event your extension has registered a listener for can be used as an `action` when configuring a rule in Launch. To learn how you can register an listener for your events, see [Listening for Events](#event-listeners).
+Any event your extension has registered a listener for can be used as an `action` when configuring a rule in Launch. <!--To learn how you can register an listener for your events, see [Listening for Events](#event-listeners).-->

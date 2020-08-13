@@ -39,7 +39,7 @@ This indicates to the browser that when this script tag is parsed, the browser s
 
 As described above, in synchronous deployments, the browser pauses parsing and rendering the page while the Launch library is loaded and executed. In asynchronous deployments, on the other hand, the browser continues parsing and rendering the page while the library loads. The variability of when the [!DNL Launch] library might finish loading in relation to page parsing and rendering must be taken into consideration.
 
-First, because the [!DNL Launch] library can finish loading before or after the bottom of the page has been parsed and executed, you should no longer call `_satellite.pageBottom()` from your page code (`_satellite` won't be available until after the library has loaded). This is explained in [Loading the Launch embed code asynchronously](asynchronous-deployment.md#loading-the-launch-embed-code-asynchronously).
+First, because the [!DNL Launch] library can finish loading before or after the bottom of the page has been parsed and executed, you should no longer call `_satellite.pageBottom()` from your page code (`_satellite` won't be available until after the library has loaded). This is explained in [Loading the Launch embed code asynchronously](#loading-the-launch-embed-code-asynchronously).
 
 Second, the [!DNL Launch] library can finish loading before or after the [`DOMContentLoaded`](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) browser event (DOM Ready) has occurred.
 
@@ -69,7 +69,7 @@ When applying these principles to your own website, consider the following:
 
 If you see things occurring out of order, it is likely that you have some timing issues to work through. Deployments requiring precise timing might need to use event listeners and the Custom Event or Direct Call event type to make their implementations more robust and consistent.
 
-## Loading the Launch embed code asynchronously {#loading-the-launch-embed-code-asynchronously}
+## Loading the Launch embed code asynchronously
 
 [!DNL Launch] provides a toggle to turn on asynchronous loading when creating an embed code when you configure an [environment](../publishing/environments.md). You can also configure asynchronous loading yourself:
 

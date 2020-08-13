@@ -31,7 +31,7 @@ There is currently no capability to downgrade your extension to a previous versi
 
 ## Upgrade Process
 
-Installing an upgrade is pretty much the same as [installing the extension](#add-a-new-extension) for the first time.
+Installing an upgrade is pretty much the same as installing the extension for the first time.
 
 1. Click the **[!UICONTROL Upgrade]** button to go to the [!UICONTROL Extension Configuration] screen.
 1. Make any configuration changes you'd like to make.
@@ -45,7 +45,7 @@ Extension Upgrades are not permitted if you have a library in the `Approved` or 
 
 After the upgraded extension is installed on your property, you must include it in all Libraries from that point forward. A build failure message displays for any libraries that do not include it.
 
-Beyond that, adding the upgraded extension to your library is the same as [adding any other change](../../publishing/libraries.md#add-to-a-library) to a library.
+Beyond that, adding the upgraded extension to your library is the same as [adding any other change](../../publishing/libraries.md) to a library.
 
 From the [!UICONTROL Edit Library] screen, you can use the "[!UICONTROL Add All Changed Resources]" button or you can use the "[!UICONTROL Add a Resource]" button and select the upgraded extension on its own.
 
