@@ -82,7 +82,7 @@ The VA extension exports the MediaHeartbeat APIs in the global window object by 
 
 ### Using from other extensions
 
-The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. (For additional information on Shared Modules, see [Shared Modules documentation](https://developer.adobelaunch.com/guides/extensions/shared-modules/).)
+The VA extension exposes the `get-instance` and `media-heartbeat` shared modules to other extensions. 
 
 >[!IMPORTANT]
 >

@@ -32,7 +32,7 @@ A Product Administrator (or Product Admin) is similar to an Org Admin, but is na
 
 ### Launch permissions
 
-Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profiles.
+Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see "Experience Cloud Permissions" above). Individual users are then assigned to one or more Product Profiles.
 
 Within a Product Profile, [!DNL Launch] permissions are divided across four dimensions.
 
@@ -139,7 +139,7 @@ Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](
 
 ### 1. Sign in to Experience Cloud
 
-Sign in to [https://experiencecloud.adobe.com/](http://experiencecloud.adobe.com/) with your [!DNL Adobe] ID, then choose the organization to use within [!DNL Launch] from the [!UICONTROL Navigation] menu.
+Sign in to [https://experiencecloud.adobe.com/](https://experiencecloud.adobe.com/) with your [!DNL Adobe] ID, then choose the organization to use within [!DNL Launch] from the [!UICONTROL Navigation] menu.
 
 ![](/help/assets/nav-menu.png)
 

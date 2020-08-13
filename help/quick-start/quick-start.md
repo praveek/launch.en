@@ -11,13 +11,13 @@ seo-description: Adobe Experience Platform Launch Quick Start
 
 The basic [!DNL Launch] workflow:
 
-1. [Set up groups and users](#1.-set-up-groups-and-users).
-1. [Log in](#2.-log-in).
-1. [Create a property](#3.-create-a-property).
-1. [Install extensions](#4.-install-extensions).
-1. [Create data elements and rules](#5.-create-data-elements-and-rules).
-1. [Test in your dev environment](#6.-test-in-your-dev-environment).
-1. [Promote to production](#7.-promote-to-production).
+1. Set up groups and users.
+1. Log in.
+1. Create a property.
+1. Install extensions.
+1. Create data elements and rules.
+1. Test in your dev environment.
+1. Promote to production.
 
 For an introductory video, see [Introduction to Experience Platform Launch](videos.md).
 
@@ -130,7 +130,7 @@ To learn more about [!DNL Launch], refer to these resources:
 
 * **[Launch Community](https://forums.adobe.com/community/experience-cloud/platform/launch)**: Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your [!DNL Adobe] ID.
 * **[Launch Webinars](https://adobe.com/go/launchme)**: Sign up for upcoming webinars and watch recordings of past webinars.
-* **[Developer Docs](http://developer.adobelaunch.com/)**: Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
+* **[Developer Docs](https://developer.adobelaunch.com/)**: Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
 * **[Videos](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)**
 
   These videos introduce you to [!DNL Launch] concepts and tasks.
