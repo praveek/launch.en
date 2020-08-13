@@ -7,7 +7,7 @@ seo-description: Self-hosting libraries in Adobe Experience Platform Launch
 
 # Self-hosting libraries
 
-Everything you do in Launch has the ultimate goal of producing a set of files to control the behavior of your application at run-time. This set of files is called a [build](/help/launch-reference/publishing/builds.md).
+Everything you do in Launch has the ultimate goal of producing a set of files to control the behavior of your application at run-time. This set of files is called a [build](../builds.md).
 
 Builds need to be hosted somewhere so client devices can retrieve them at run-time as needed.
 
@@ -17,7 +17,7 @@ Launch can either manage the hosting of these files for you or you can do it you
 
 Adobe is not in the business of web-hosting.  If you choose to have Adobe manage the hosting, your builds are delivered to a third-party content delivery network (CDN) that we have a contract with.
 
-Currently, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of [assets.adobedtm.com](https://assets.adobedtm.com).
+Currently, the primary CDN provider is Akamai. Files hosted on Akamai have a domain of `assets.adobedtm.com`.
 
 ### Why use managed hosting?
 
@@ -50,10 +50,10 @@ There are two methods you can use to acquire completed builds so that you can se
 
 You can have Launch deliver builds as a packaged .zip file (encryption optional). You can then unzip the package and insert the contents into your release cycle to place them on your own servers.
 
-Use a [Managed by Adobe](self-hosting-libraries.md) host and select the [Archive](/help/launch-reference/publishing/environments.md) option on your environment. The environment provides a download link. Whenever a build is created, you can retrieve it from the environment's download link.
+Use a [Managed by Adobe](self-hosting-libraries.md) host and select the [Archive](../environments.md) option on your environment. The environment provides a download link. Whenever a build is created, you can retrieve it from the environment's download link.
 
 #### Direct Delivery
 
 You can have Launch deliver builds directly to an SFTP server that you created. You take responsibility to get these filed into your release cycle and push them live.
 
-To perform a direct delivery, you should create an [SFTP host](/help/launch-reference/publishing/hosts/sftp-host.md) and assign that host to your environment. Whenever you build a library in that environment, the files are delivered to your SFTP server.
+To perform a direct delivery, you should create an [SFTP host](sftp-host.md) and assign that host to your environment. Whenever you build a library in that environment, the files are delivered to your SFTP server.

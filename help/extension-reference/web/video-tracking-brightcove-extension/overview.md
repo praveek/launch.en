@@ -88,7 +88,7 @@ None
 >
 >To do this, create a new data element called something like &quot;Video MetaData&quot; and program it to pull in all the Video Data Elements (listed above) and concatenate them together.
 
-```
+```javascript
 var r = [];
 
 r.push( \_satellite.getVar( &#39;Video ID&#39; ) );

@@ -16,7 +16,7 @@ To work in [!DNL Launch], there are two user permissions to understand:
 
 This article examines these different permissions types in detail.
 
-### Experience Cloud permissions {#experience-cloud-permissions}
+### Experience Cloud permissions
 
 This section discusses factors that are important to understand when using [!DNL Launch]. See [Administrative Roles in the Enterprise User Guide](https://helpx.adobe.com/au/enterprise/using/admin-roles.html) for a comprehensive view of [!DNL Experience Cloud] permissions.
 
@@ -32,7 +32,7 @@ A Product Administrator (or Product Admin) is similar to an Org Admin, but is na
 
 ### Launch permissions
 
-Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see [Experience Cloud Permissions](user-permissions.md#experience-cloud-permissions) above). Individual users are then assigned to one or more Product Profiles.
+Within the [!DNL Experience Cloud], no rights or permissions are assigned to individual users. They are assigned to a Product Profile (see "Experience Cloud Permissions" above). Individual users are then assigned to one or more Product Profiles.
 
 Within a Product Profile, [!DNL Launch] permissions are divided across four dimensions.
 
@@ -76,7 +76,7 @@ An individual user's total permissions are determined by their total membership 
 
 For example: Product Profile A grants Henry the Develop right for Property 1. Product Profile B grants Henry the Publish right for Property 2. Henry can Develop in Property 1 and Publish in Property 2, but he cannot publish in Property 1 or Develop in Property 2 because he has not been granted explicit rights to do so.
 
-## Rights scenarios {#rights-scenarios}
+## Rights scenarios 
 
 Different companies have different needs when creating new Product Profiles. These needs vary based on company size, org structure, number of sites, number of people involved in managing tags, and so on.
 
@@ -139,7 +139,7 @@ Steps 1-3 below can be bypassed by navigating directly to [Adobe Admin Console](
 
 ### 1. Sign in to Experience Cloud
 
-Sign in to [https://experiencecloud.adobe.com/](http://experiencecloud.adobe.com/) with your [!DNL Adobe] ID, then choose the organization to use within [!DNL Launch] from the [!UICONTROL Navigation] menu.
+Sign in to [https://experiencecloud.adobe.com/](https://experiencecloud.adobe.com/) with your [!DNL Adobe] ID, then choose the organization to use within [!DNL Launch] from the [!UICONTROL Navigation] menu.
 
 ![](/help/assets/nav-menu.png)
 
@@ -220,7 +220,7 @@ Assign the rights you want to be part of your group definition. Open the [!UICON
 
 ![](/help/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the [!UICONTROL + Add All] button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](user-permissions.md#rights-scenarios). Click [!UICONTROL Save] when finished. If [!UICONTROL Save] is not available, you didn't make any changes and the profile won't give you any rights.
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the [!UICONTROL + Add All] button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](#rights-scenarios). Click [!UICONTROL Save] when finished. If [!UICONTROL Save] is not available, you didn't make any changes and the profile won't give you any rights.
 
 First, assign Property Rights:
 

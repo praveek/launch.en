@@ -11,17 +11,17 @@ seo-description: Adobe Experience Platform Launch Quick Start
 
 The basic [!DNL Launch] workflow:
 
-1. [Set up groups and users](#set-up-groups-and-users).
-1. [Log in](#log-in).
-1. [Create a property](#create-a-property).
-1. [Install extensions](#install-extensions).
-1. [Create data elements and rules](#create-data-elements-and-rules).
-1. [Test in your dev environment](#test-in-your-dev-environment).
-1. [Promote to production](#promote-to-production).
+1. Set up groups and users.
+1. Log in.
+1. Create a property.
+1. Install extensions.
+1. Create data elements and rules.
+1. Test in your dev environment.
+1. Promote to production.
 
 For an introductory video, see [Introduction to Experience Platform Launch](videos.md).
 
-## 1. Set up groups and users {#set-up-groups-and-users}
+## 1. Set up groups and users
 
 [!DNL Launch] is fully integrated with your [!DNL Adobe] ID. User permissions are managed through the Admin Console with other Adobe products and solutions from the [!DNL Creative Cloud], [!DNL Document Cloud], and [!DNL Experience Cloud].
 
@@ -29,17 +29,17 @@ Unlike [!DNL DTM], [!DNL Launch] has rights-based user management. ([!DNL DTM] w
 
 For detailed instructions on how to create groups and add users for [!DNL Launch], see [Users](../launch-reference/administration/user-permissions.md).
 
-## 2. Log in {#log-in}
+## 2. Log in
 
 After [!DNL Launch] rights have been added to your [!DNL Adobe] ID, you need to log in to [!DNL Launch]. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud (https://experiencecloud.adobe.com)](https://experiencecloud.adobe.com), navigating to the [!UICONTROL Activation] page, and clicking on **[!UICONTROL Launch]**.
 
-## 3. Create a property {#create-a-property}
+## 3. Create a property 
 
 Once you're in [!DNL Launch], the first thing to do is create a property. A property is basically a container that you fill with extensions, rules, data elements, and libraries as you deploy tags to your site. Many people create a property for each website (or group of closely related sites) where they want to deploy the same set of tags.
 
 For more about creating properties, see [Create a property](../launch-reference/administration/companies-and-properties.md).
 
-## 4. Install extensions {#install-extensions}
+## 4. Install extensions
 
 An extension is an integration built by [!DNL Adobe] or an [!DNL Adobe] partner that adds new and endless options for the tags that you can deploy to your sites. If you think of [!DNL Launch] as an operating system, extensions are the apps that you install so [!DNL Launch] can do the things you need it to do.
 
@@ -47,7 +47,7 @@ All new properties come with the [Core extension](../extension-reference/web/cor
 
 What makes [!DNL Launch] truly unique among tag management systems is that these extensions can be built by anyone. Do you need to drop a Facebook remarketing pixel on your site? Check out the extension that Facebook built. Do you want the same for Twitter or Linked In? Use those extensions. Do you need to run a survey? Look at Question Pro or Foresee. Do you need to manage privacy and consent from your end users to help out with [!DNL GDPR]? Take a good look at Evidon and Trust Arc. Would you like to see really granular insight into the behavior of individual users on your site? Maybe take a look at Clicktale. For more information, see [Add a new extension](../launch-reference/managing-resources/extensions/overview.md#add-a-new-extension).
 
-## 5. Create data elements and rules {#create-data-elements-and-rules}
+## 5. Create data elements and rules
 
 **Data elements** are pointers to the information that you want to collect and send to different places on your page:
 
@@ -61,11 +61,11 @@ AFter the data element is defined, you can use the element anywhere throughout L
 
 **Rules** are at the logical core of your implementation and control the what, when, where, and how of all the tags on your site. Define an event, set conditions and exceptions, then define the actions and order. Finally, publish your changes to see the results. For more information, see [Rules](../launch-reference/managing-resources/rules.md).
 
-## 6. Test in your Dev environment {#test-in-your-dev-environment}
+## 6. Test in your Dev environment 
 
 ### Libraries and builds
 
-Nothing in [!DNL Launch] is published automatically. Each set of changes you make is encapsulated into a [library](../launch-reference/publishing/libraries.md). Each library you create automatically inherits anything upstream (published, approved, or submitted) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](/help/launch-reference/publishing/builds.md). A build is the actual set of JavaScript files that are deployed and used.
+Nothing in [!DNL Launch] is published automatically. Each set of changes you make is encapsulated into a [library](../launch-reference/publishing/libraries.md). Each library you create automatically inherits anything upstream (published, approved, or submitted) as a baseline, so all you need to do is define the changes you'd like to make. This library serves as the blueprint for a [build](../launch-reference/publishing/builds.md). A build is the actual set of JavaScript files that are deployed and used.
 
 To make sense of that process, there are some relationships between [!DNL Launch], your web page, and your hosting location that you need to understand.
 
@@ -87,7 +87,7 @@ An host is a connection between [!DNL Launch] and your hosting location. [!DNL L
 
 If you want to self-host, you can have [!DNL Launch] push directly to your servers through SFTP or you can push it to [!DNL Akamai] and download it (using your environment's Archive option).
 
-For more information, see [Hosts](/help/launch-reference/publishing/hosts/hosts-overview.md).
+For more information, see [Hosts](../launch-reference/publishing/hosts/hosts-overview.md).
 
 ### Environments
 
@@ -108,7 +108,7 @@ Now that you understand the basic components, the publishing process should make
 1. Create a library and assign it to the dev environment you created.
 1. Build your library.
 
-## 7. Promote to production {#promote-to-production}
+## 7. Promote to production 
 
 After you've tested your build in your dev environment, the promotion process is pretty straightforward. Before you try it out, make sure to create your stage and production environments and put the embed codes in the necessary places. (You can reuse existing hosts.)
 
@@ -130,7 +130,7 @@ To learn more about [!DNL Launch], refer to these resources:
 
 * **[Launch Community](https://forums.adobe.com/community/experience-cloud/platform/launch)**: Ask and answer questions, submit ideas, vote on the ideas of others. Log in with your [!DNL Adobe] ID.
 * **[Launch Webinars](https://adobe.com/go/launchme)**: Sign up for upcoming webinars and watch recordings of past webinars.
-* **[Developer Docs](http://developer.adobelaunch.com/)**: Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
+* **[Developer Docs](https://developer.adobelaunch.com/)**: Get involved with the [!DNL Launch] developer community to build extensions or use the [!DNL Launch] APIs
 * **[Videos](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)**
 
   These videos introduce you to [!DNL Launch] concepts and tasks.
