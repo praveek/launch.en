@@ -17,6 +17,22 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 
 * Adding support for `IAB TCF` – Transparency & Consent Framework – `Version 2.0`.
 
+## Aug 13, 2020
+
+### Experience Cloud ID Extension 5.0.1
+
+#### **Features**
+
+* Updating to VisitorJS 5.0.1 patch with a fix for adding d_cf flag when the IAB consent string has changed.
+
+## June 15, 2020
+
+### Experience Cloud ID Extension 5.0.0
+
+#### **Features**
+
+* Adding support for `IAB TCF` – Transparency & Consent Framework – `Version 2.0`.
+
 ## April 13, 2020
 
 ### Experience Cloud ID Extension 4.6.0
