@@ -133,7 +133,7 @@ For more information about character sets, see the [charSet documentation](https
 
 Determines the conversion rate to be applied to revenue and currency events. If your site allows visitors to purchase in multiple currencies, setting the currency code ensures the monetary amount is converted and stored correctly.
 
-<!--For more information about the supported currency codes, see the [Multi-Currency Support whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/currency/currency_codes.html).-->
+For more information about the supported currency codes, see [currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html).
 
 ### Tracking Server
 
