@@ -7,6 +7,16 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## August 19th, 2020
+
+### Features
+
+* **Platform Permissions:** When setting up permissions in the [admin console](https://adminconsole.adobe.com/) for Adobe Launch, a new option is available to allow or restirct access based on the platform type. Currently 'Web' or 'Mobile' property types. With this change users cannot create, edit, or delete properties & extensions packages they do not have the appropriate platform permissions for.  By default all users will be given access to both platforms.
+
+### Bug Fixes
+
+* A user could discontinue an extension package that was in development, creating an issue where the user could no longer POST or PATCH new versions of the extension package.  This has been resoved by removing the ability to discontinue extension packages in development. See [Discontinue an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/discontinue/) for more info.
+
 ## July 7th, 2020
 
 ### Features
