@@ -59,7 +59,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
 1. Provide any requested information about the chosen type in the fields provided.
 1. (Optional) Enter a default value.
 
-   If you do not provide a value, no value is sent. Some people choose to enter something like "none" or "n/a" so they can determine what is sent if there isn't a value. Different solutions deal with an empty variable differently. This creates consistency even if a value doesn't exist.
+   If you do not select this option, there will be no default value.  The vast majority of users leave this in its default state.  Different systems deal with an empty variable differently.  Some people choose to enter something like "none" or "n/a" so they can create consistency in reporting when the data element does not return a value.
 
 1. Select whether to force a lowercase value and whether to remove line breaks and spaces.
 1. Select a duration.
@@ -101,7 +101,7 @@ Any available domain cookie can be referenced in the cookie name field.
 
 Custom JavaScript can be entered into the UI by clicking [!UICONTROL Open Editor] and inserting code into the editor window.
 
-A return statement is necessary in the editor window in order to indicate what value should be set as the data element value. If a return statement is not included, the default value or an empty string will be returned as the data element value.
+A return statement is necessary in the editor window in order to indicate what value should be set as the data element value. If a return statement is not included, the data element will resolve to `undefined`.  This will trigger the fallback to look for a stored value and then a default value if no stored value is present.
 
 **Example:**
 
