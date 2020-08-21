@@ -18,6 +18,10 @@ Launch connects to your SFTP site using an encrypted key. There are a few steps 
    * `34.202.8.57`
    * `52.21.198.46`
 
+>[!NOTE]
+>
+> The structure of Launch builds has changed over time.  They use symbolic links (symlinks) internally to maintain backward compatibility so that previous embed codes will continue to work with the latest build structure.  Your SFTP server must support the usage of symlinks in order to serve as a valid destination for Launch builds.
+
 There is a full guide on how to setup SFTP servers for Launch delivery [on the Launch blog](https://medium.com/launch-by-adobe/configuring-an-sftp-server-for-use-with-adobe-launch-bc626027e5a6).
 
 ## Create an SFTP host
