@@ -82,7 +82,7 @@ None
 1. The Analytics &quot;Send Beacon&quot; action (`s.tl`)
 1. The Analytics &quot;Clear Variables&quot; action
 
->[!Tip]
+>[!TIP]
 >
 >For those who might not want to provision multiple eVars or props for each video element, data elements values can be concatenated within Launch, and then parsed into Classification reports using the Classification Rule Builder Tool, [https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html), and then applied as a segment in Analysis Workspace.
 >
