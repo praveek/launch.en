@@ -9,6 +9,15 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 [Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
+## August 26, 2020
+
+### AEP Extension 2.1.1
+
+#### Features
+
+* Fixes an issue where AEP sandboxes on the XDM Object view displayed incorrectly.
+
+
 ## August 5, 2020
 
 ### AEP Extension 2.1.0
