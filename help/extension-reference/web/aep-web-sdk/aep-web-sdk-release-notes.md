@@ -15,7 +15,9 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 #### Features
 
-* Fixes an issue where AEP sandboxes on the XDM Object view displayed incorrectly.
+* Fixes an issue where AEP sandboxes on the XDM Object view displayed incorrectly. If, when using this version of the 
+extension, an expected sandbox is not displayed in the list, the user should check with their AEP administrator to
+ensure access permissions are set correctly.
 
 
 ## August 5, 2020
