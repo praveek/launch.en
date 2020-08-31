@@ -5,13 +5,22 @@ description: Adobe Experience Platform Web Extension in Adobe Experience Platfor
 seo-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
 ---
 
-# AEP Extension Release Notes
+# AEP Web SDK Release Notes
 
 [Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
+## August 26, 2020
+
+### AEP Web SDK 2.1.1
+
+#### Features
+
+* Fixes an issue where Adobe Experience Platform sandboxes on the XDM Object view displayed incorrectly. If, when using this version of the extension, an expected sandbox is not displayed in the list, the user should check with their Adobe Experience Platform administrator to ensure access permissions are set correctly.
+
+
 ## August 5, 2020
 
-### AEP Extension 2.1.0
+### AEP Web SDK 2.1.0
 
 #### Features
 
@@ -26,7 +35,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## May 26, 2020
 
-### AEP Extension 1.0.0
+### AEP Web SDK 1.0.0
 
 #### Features
 
@@ -35,7 +44,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## May 4, 2020
 
-### AEP Extension 0.1.2
+### AEP Web SDK 0.1.2
 
 #### Features
 
@@ -51,12 +60,12 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 * Fixed issue in Event Merge ID where it was being reset every time the data element was referenced.
 * Renamed the `setCustomerIds` action to `syncIdentity`.
 * Added a `getIdentity` command. This can be consumed via custom code only for now.
-* Enabling debug using `_satellite` now enables debugging in the AEP Extension.
+* Enabling debug using `_satellite` now enables debugging in the AEP Web SDK.
 * Added support for typed values in the XDM Object: Booleans, Numbers and Decimals.
 
 ## March 16, 2020
 
-### AEP Extension 0.0.10
+### AEP Web SDK 0.0.10
 
 #### Features
 
@@ -65,7 +74,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## February 18, 2020
 
-### AEP Extension 0.0.7
+### AEP Web SDK 0.0.7
 
 #### Features
 
@@ -78,7 +87,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## December 20, 2019
 
-### AEP Extension 0.0.5
+### AEP Web SDK 0.0.5
 
 #### Features 
 
@@ -107,7 +116,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 25, 2019
 
-### AEP Extension 0.0.3
+### AEP Web SDK 0.0.3
 
 #### Features 
 
@@ -121,7 +130,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 18, 2019
 
-### AEP Extension 0.0.2
+### AEP Web SDK 0.0.2
 
 #### Features
 
