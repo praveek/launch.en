@@ -11,7 +11,7 @@ seo-description: Adobe Launch release notes
 
 ### Feature
 
-* **Data Element Default Value** The default value for Data Elements has changed from being an empty string, to being null. See the [Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/coming-soon-data-element-quot-default-value-quot-changes/ba-p/374101) for more information
+* **Data Element Default Value** Newly created data elements will no longer have a default value assigned automatically. See the [Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/coming-soon-data-element-quot-default-value-quot-changes/ba-p/374101) for more information
 
 ## August 19th, 2020
 
