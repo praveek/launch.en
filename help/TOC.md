@@ -81,9 +81,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Experience Platform extension {#aep-extension}
       * [Adobe Experience Platform extension overview](extension-reference/web/aep-web-sdk/overview.md)
       * [Adobe Experience Platform extension release notes](extension-reference/web/aep-web-sdk/aep-web-sdk-release-notes.md)
-    * Adobe Media Analytics extension {#media-analytics-extension}
-      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+    * AEM Asset Insights extension {#aem-asset-insights-extension}
+      * [AEM Asset Insights extension](extension-reference/web/aem-asset-insights/aem-asset-insights.md)
+      * [AEM Asset Insights extension release notes](extension-reference/web/aem-asset-insights/aem-asset-insights-release-notes.md)
     * Adobe Media Analytics (3.x SDK) extension {#media-analytics-3x-extension}
       * [Adobe Media Analytics (3.x SDK) for Audio and Video extension](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
       * [Adobe Media Analytics (3.x SDK) for Audio and Video release notes](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/adobe-media-analytics-3x-for-audio-and-video-extension-release-notes.md)
