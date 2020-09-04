@@ -1,8 +1,8 @@
 # AEM Asset Insights Release Notes
 
-## September 16, 2020
+## September 11, 2020
 
-**AEM Asset Insights Extension 1.0.0**
+**AEM Asset Insights Extension 1.0.1**
 
 **Features**
 
