@@ -22,7 +22,7 @@ Documentation for the Launch Extensions provided by Adobe solutions.
 * [Experience Cloud ID Service Extension](experience-cloud-id-service-extension/overview.md)
 * [Adobe Experience Platform Demo Extension](adobe-experience-platform-extension.md)
 * [Adobe Experience Platform Extension](aep-web-sdk/overview.md)
-* [AEM Asset Insights extension](aem-asset-insights/aem-asset-insights.html)
+* [AEM Asset Insights extension](aem-asset-insights/aem-asset-insights.md)
 * [Marketo Munchkin Extension](marketo-munchkin-extension/overview.md)
 * [Video Tracking BrightCove Extension](video-tracking-brightcove-extension/overview.md)
 
