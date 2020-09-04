@@ -87,6 +87,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Media Analytics (3.x SDK) extension {#media-analytics-3x-extension}
       * [Adobe Media Analytics (3.x SDK) for Audio and Video extension](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
       * [Adobe Media Analytics (3.x SDK) for Audio and Video release notes](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/adobe-media-analytics-3x-for-audio-and-video-extension-release-notes.md)
+    * Adobe Media Analytics for Audio and Video extension {#media-analytics-extension}
+      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
+      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
     * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
     * Adobe Target extension {#target-extension}
       * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
