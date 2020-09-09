@@ -2,7 +2,7 @@
 
 ## September 11, 2020
 
-**AEM Asset Insights Extension 1.0.1**
+**AEM Asset Insights Extension 1.0.2**
 
 **Features**
 
