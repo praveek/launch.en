@@ -39,6 +39,34 @@ The "*Adobe Analytics*" Launch extension must be installed into the same Launch 
 
     ![Disable UUID Tracking](assets/disableassets.jpg)
     
+## Configure Adobe Experience Manager (AEM)
+
+This section describes how to configure AEM with Launch, how to enable Asset Insight in AEM, and how to Enable UUID tracking for Assets.
+
+### Integrate AEM with Adobe Launch
+
+The recommended integration of [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/overview.html) with Adobe Experience Manager is done via Adobe I/O.
+
+1. [Connect AEM with Adobe Launch using Adobe I/O](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/connect-aem-launch-adobe-io.html).
+
+1. [Create a Launch Cloud Service configuration](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/experience-platform-launch/create-launch-cloud-service.html).
+
+### Enable Asset Insight in AEM
+
+For instructions on enabling Asset Insights, see the [Experience Manager 6.5 Assets user guide](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html).
+
+### Enable UUID tracking for Assets
+
+Track assets in Analytics using the UUID of the asset in AEM. 
+
+To enable tracking with the UUID of the asset, open the component policy console of the editable template and uncheck the "Disable UUID tracking" property. (By default, this property is checked for the OOTB image component.)
+ 
+![](assets/uuid.png)
+
+After you enable the UUID, you should see the "data-asset-id" data element being populated with the UUID of the asset. Analytics tracks the asset click or impression with this UUID.
+ 
+![](assets/uuid-code.png)
+
 ## Extension usage
     
 This extension has two events and one action.
