@@ -23,13 +23,13 @@ There are also two metrics:
 * Asset Impressions
 * Asset Clicks. 
 
-These reports must be enabled using the Analytics Administrator (click **[!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; _report suite_ &gt; Edit Settings &gt; AEM &gt; AEM Assets Reporting]**) before they can be populated using this extension.
+These reports must be enabled using the Analytics Administrator (click **[!UICONTROL Analytics > Admin > Report Suites > _report suite_ > Edit Settings > AEM > AEM Assets Reporting]**) before they can be populated using this extension.
 
 The "*Adobe Analytics*" Launch extension must be installed into the same Launch Web Property.
         
 ### Adobe Experience Manager (AEM)
                         
-1. Enable [AEM Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html). In AEM, click **[!UICONTROL Tools &gt; Assets]**, then open the **[!UICONTROL Insights Configuration]** panel. 
+1. Enable [AEM Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html). In AEM, click **[!UICONTROL Tools > Assets]**, then open the **[!UICONTROL Insights Configuration]** panel. 
                         
 1. Disable UUID Tracking. 
 
