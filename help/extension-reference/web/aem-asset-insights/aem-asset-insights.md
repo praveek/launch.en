@@ -23,7 +23,7 @@ There are also two metrics:
 * Asset Impressions
 * Asset Clicks. 
 
-These reports must be enabled using the Analytics Administrator (click **[!UICONTROL Analytics > Admin > Report Suites > <report suite> > Edit Settings > AEM > AEM Assets Reporting]**) before they can be populated using this extension.
+These reports must be enabled using the Analytics Administrator (click **[!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > `<report suite>` > [!UICONTROL Edit Settings] > [!UICONTROL AEM] > [!UICONTROL AEM Assets Reporting]**) before they can be populated using this extension.
 
 The "*Adobe Analytics*" Launch extension must be installed into the same Launch Web Property.
         
