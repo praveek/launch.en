@@ -57,7 +57,7 @@ From the Publishing screen:
 
 Downloading an Archived library is more straightforward.  You aren't directly referencing these .zip files anywhere, so you can simply download the older library to your computer and run your usual process.
 
-### How to Download and older library
+### How to Download an older library
 
 ![Download a library](assets/retrieve_download.png)
 
