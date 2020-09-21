@@ -63,7 +63,21 @@ Create a rule by specifying what actions occur if a condition is met.
 
    ![](/help/assets/rule-event-config.png)
 
-   Available event types depend on the extension you've selected.  Event settings will differ based on the event type.  Some events don't have any ettings that need to be configured.
+   Available event types depend on the extension you've selected.  Event settings will differ based on the event type.  Some events don't have any settings that need to be configured.
+
+   >[!IMPORTANT]
+   >
+   >In a client-side rule, data elements are tokenized with a `%` at the beginning and end of the data element name. For example, `%viewportHeight%`. In a server-side rule, data elements are tokenized with `{{` at the beginning and `}}` at the end of the data element name. For example, `{{viewportHeight}}`. 
+
+   To reference data from the Edge network, the data element path must be `arc.event._<element>_`.
+    
+    `arc` stands for Adobe Response Context.
+
+    For example: `arc.event.xdm.web.webPageDetails.URL`
+    
+    >[!IMPORTANT]
+    >
+    >If this path in specified incorrectly, data is not collected. 
 
 1. Set the Order parameter, then click **[!UICONTROL Keep Changes]**.
 
@@ -100,6 +114,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
    (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  It defines the maximum amount of time allowed for the action to complete.  If the timeout is reached, the action fails and any subsequent actions for this rule will be removed from the processing queue.  The default is 2000ms.
 
+
 1. Review your rule, then click **[!UICONTROL Save Rule]**.
 
    Later, when you [publish](/help/launch-reference/publishing/overview.md), you'll add this rule to a library and deploy it.
@@ -115,6 +130,10 @@ It is often important to have your rules fire in a specific order. Examples: (1)
 Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you're using. For [!DNL Adobe] extensions, [!DNL Adobe] makes sure this works properly. For 3rd-party extensions, [!DNL Adobe] provides guidance to extension developers to implement this properly, but it is up to them to do so.
 
 [!DNL Adobe] highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, [!DNL Adobe] recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. [!DNL Launch] supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
+
+>[!IMPORTANT]
+>
+>In the Action section of a rule, server-side rules are executed sequentially. The order cannot be changed. Make sure the order is correct when you create the rule. Behavior cannot be chosen like it can on the client side.
 
 ### Scenarios
 
@@ -138,6 +157,12 @@ Rule events and conditions are always bundled into the main Launch library.  Act
 These events need to be executed almost always (unless conditions evaluate to false), so for efficiency, they are bundled into the main library, the file referenced by your embed code.
 
 * **Javascript:** The JavaScript is embedded in the main [!DNL Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
+
+   >
+   >[!NOTE]
+   >
+   >Experience Platform Launch Client Side uses JavaScript version es5. Server Side uses version es6.
+   
 * **HTML:** The HTML is embedded in the main Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
 
 ### Rules with any other event
