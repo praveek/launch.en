@@ -5,7 +5,11 @@ description: Getting started with Experience Platform Launch Server Side
 seo-description: Getting started with Experience Platform Launch Server Side
 ---
 
-# Getting started with Experience Platform Launch Server Side
+# Getting started with Experience Platform Launch Server Side (Beta)
+
+>[!NOTE]
+>
+>This beta documentation desribed features that are not yet publicly available. It is subject to change and might not be complete or correct.
 
 Data can be sent to Edge Network using one of three options:
 
