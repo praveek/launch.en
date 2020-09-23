@@ -7,19 +7,21 @@ seo-description: Getting started with Experience Platform Launch Server Side
 
 # Getting started with Experience Platform Launch Server Side
 
-There are three ways to get data to the Edge network:
+Data can be sent to Edge Network using one of three options:
 
 * AEP Web SDK
-* Mobile SDK
-* Server-to-server API (coming soon)
+* AEP Mobile SDK
+* Server-to-Server API (coming soon)
 
-Use one or more of these to send data to the Edge network.
+>[!NOTE]
+>
+>The AEP Web SDK and AEP Mobile SDK do not require deployment through Experience Platform Launch Client Side. However, using Launch Client Side to deploy these SDKs is the recommended approach.
 
 After you send data to the Edge network, you can toggle on Adobe solutions to send data there. To send data to a non-Adobe solution, you need to set that up in Launch Server Side.
 
 ## Prerequisites
 
-* Experience Platform Launch
+* Adobe Experience Platform Launch Server Side
 * AEP Web SDK extension in Experience Platform Launch, configured to send data to Edge network
 * XDM
 
@@ -43,7 +45,7 @@ For more information about schemas, see [Experience Data Model (XDM) System Help
 
 ## Create Launch Server Side property
 
-In Experience Platform Launch, create your property.
+In Experience Platform Launch, create a property of type "Edge."
 
 1. Click **[!UICONTROL New property]**. 
 
@@ -86,7 +88,7 @@ Next, configure the ability to send data to Adobe Experience Platform and to Ado
 
     * Server Side Launch requires an environment ID, which is the publish path from the Server Side Launch property.
 
-Once configured, make note of the Environment IDs for the new property.
+After configuring, make note of the Environment IDs for the new property.
 
 ## Configure the Launch Client Side AEP Web SDK extension to send data to the Edge configuration that you created
 

@@ -19,21 +19,17 @@ Experience Platform Launch Server Side makes it possible to:
 
 * Protect marketing data and campaigns through first-party tracking so data can still be delivered when browsers block cookies.
 
-* Create a server-side rule to send previously collected data to a new destination.
+* Create a server-side rule to send previously tracked data to a new destination.
 
 ## Improved performance
 
-In an increasingly competitive environment, businesses must prioritize performance to maintain market share.Experience Platform Launch Server Side improves Website and app performance across mobile, IoT, and OTT devices. Website conversion rates increase due to faster load times, mobile apps don't drain batteries as quickly, and OTT apps feel as responsive as those same apps running on mobile devices. As performance increases, so do conversion rates. 
+In an increasingly competitive environment, businesses must prioritize performance to maintain market share. Experience Platform Launch Server Side improves Website and app performance across mobile, IoT, and OTT devices. Website conversion rates can increase due to faster load times, mobile apps don't drain batteries as quickly, and OTT apps feel as responsive as those same apps running on mobile devices. As performance increases, it's common for conversion rates to also increase. 
 
 ## Better data governance
 
 As the technology stack grows and data is sent to more and more destinations, the challenge to control what data is sent where becomes more difficult. The normalization of regulations like GDPR and CCPA force companies to exert more control over a data problem that’s increasingly becoming harder.
 
-Experience Platform Launch Server Side helps marketing teams grow their business while controlling data. It decreases the number of technologies that marketers need to use to reach their target market. This makes it easier for implementation teams to deploy this technology.   
-
-## Reduced need for cookies and local storage
-
-As more and more consumers block third-party cookies, businesses struggle to hit performance indicators as the top of their marketing funnel contracts. Web browsers are increasingly introducing default settings that block third-party cookies. Today, some customers see up to 15% of their traffic blocking third-party cookies, either by opt-in or default browser settings. Experience Platform Launch Server Side reduces the need to use third-party cookies. 
+Experience Platform Launch Server Side helps marketing teams grow their business while controlling data. It decreases the number of client-side technologies that marketers need to use to reach their target market. This makes it easier for implementation teams to manage the data flowing from their various systems.   
 
 ## Differences between Experience Platform Launch Server Side and Client Side
 
@@ -60,7 +56,7 @@ It is important to note the following differences between [!DNL Experience Platf
 
 * Sequence of rule actions
 
-    In the Action section of a rule, server-side rules are executed sequentially. The order cannot be changed. Make sure the order is correct when you create the rule. Behavior cannot be chosen like it can on the client side.
+    In the Action section of a rule, server-side rules are always executed sequentially. Make sure the order of actions is correct when you save a rule. This execution sequence cannot be chosen like it can on Launch Client Side.
 
 * Custom code JavaScript versions
 
