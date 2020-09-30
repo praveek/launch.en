@@ -9,6 +9,20 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 [Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
+## October 1, 2020
+
+### AEP Web SDK 2.2.0
+
+#### Bug Fixes
+
+* When customers tried to create an XDM object from sandbox schemas they were running into authentication issues. The API that calls AEP will now be aware of environments so that users are only presented with those schemas that they have access to edit. 
+
+#### Features
+
+* When using the `identityMap` data element we will now pre-populate the namespaces in a dropwdown so you don't have to fill this in manually. 
+* We have revamped the UI for the `xdmObject` data element. In the new UI you will be able to see which fields have been populated without having to enter each item in the object.
+
+
 ## August 26, 2020
 
 ### AEP Web SDK 2.1.1
