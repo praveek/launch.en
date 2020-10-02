@@ -29,7 +29,7 @@ This section describes the action types available inthe  [!DNL Marketo Munchkin]
 
 ### Visit Web page
 
-![](/help/assets/munchkin-Init.png)
+![](/help/assets/munchkin-visit-page.png)
 
 **url: (required)** The URL file path used to record a page visit.
 
@@ -39,7 +39,7 @@ This section describes the action types available inthe  [!DNL Marketo Munchkin]
 
 ### Click Clink
 
-![](/help/assets/munchkin-Init.png)
+![](/help/assets/munchkin-click-link.png)
 
 **href: (required)** The URL file path used to record a link click.
 
