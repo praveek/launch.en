@@ -46,7 +46,7 @@ There is a full guide on how to setup SFTP servers for Launch delivery [on the L
    
    >[!NOTE]
    >
-   >Adobe is continuously improving security and reducing risk exposure. Limiting the allowed outgoing ports is required by the Adobe network and security teams to enhance the infrastructure that supports Experience Platform Launch.
+   >As a security best practice, Adobe limits the number of ports that can be used for outgoing traffic. The selected ports are commonly allowed through corporate firewalls, plus they include some ranges for flexibility.
 
 1. Click **[!UICONTROL Save]**.
 
