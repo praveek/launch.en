@@ -5,19 +5,13 @@ description: Adobe Experience Platform Launch hosts
 seo-description: Adobe Experience Platform Launch hosts
 ---
 
-# Adobe-managed hosts
+# Adobe-managed hosts overview
 
-Hosts which are managed by Adobe are the default host setting for deploying your library builds in Adobe Experience Platform Launch, with the other option being [SFTP hosts](./managed-by-adobe-host.md). When you create a new property through the Launch user interface, a default Adobe-managed host is created for you. 
+Adobe-managed hosts are the default host setting for deploying your library builds in Adobe Experience Platform Launch. When you create a new property through the Launch user interface, a default Adobe-managed host is created for you. 
 
 With Adobe-managed hosts, library builds are delivered to a third-party content delivery network (CDN) that Adobe has contracted with. These CDNs operate independently from Adobe, so even when Launch is undergoing maintenance or is otherwise down, your deployed code will continue to function as normal on your sites and applications. The embed code for an Adobe-managed host references the main library file on the CDN so a client device can retrieve the files at runtime.
 
-This document provides an overview of Adobe-managed hosts in Launch, including important considerations that should be made when using this option as well as how to create a new Adobe-managed host in the UI.
-
-<!-- 
->[!NOTE]
->
->For Adobe-managed hosts, the very first published library to any new environment can take up to five minutes to propagate out to the global CDN. 
--->
+This document provides an overview of Adobe-managed hosts in Launch, and provides steps on how to create a new Adobe-managed host in the UI.
 
 ## About Akamai
 
@@ -31,10 +25,9 @@ Akamai also has access to edge nodes in China, so end-users in China get traffic
 
 Files hosted on Akamai have a domain of `assets.adobedtm.com`. This can be referenced securely or not (`http://` or `https://`) based on how it is called within in your `<script>` code.
 
-<!-- 
-### Can I avoid errors in case of CDN unavailability?
-
-No. Launch can do nothing if the library is unavailable from the Akamai network. -->
+>[!WARNING]
+>
+>If your library is unavailable from the Akamai network, Launch is unable to prevent any errors that may arise because of it.
 
 ## Embed code caching
 
@@ -45,9 +38,21 @@ When using Adobe-managed hosts, your CDN embed code is cached for your applicati
 
 ### Edge caching {#edge}
 
-Copies of your build are cached on many different edge nodes around the world so that they can be served to end-users as quickly as possible.
+The primary purpose of a CDN is to intelligently distribute content to servers that are geographically closer to end-users, so that the content can be retrieved more quickly by client devices. CDNs achieve this by making copies of the content available on geographically distributed "edge" nodes around the world.
 
-When an edge node receives a request for a specific file, the node first checks the the time-to-live (TTL) on the file. If the TTL has not expired, the edge node serves the cached version. If the TTL has expired, then the edge node requests a new copy from the nearest origin, serves that refreshed copy, and then caches the refreshed copy with a new TTL.
+Once your build has been deployed to the Adobe-managed host, the CDN distributes the build on several centralized servers ("origins"), who then send copies of the build to many different edge nodes around the world for caching. The cached versions of the build stored on these edge nodes are then ultimately served to client devices.
+
+![](../assets/cdn-diagram.png)
+
+>[!NOTE]
+>
+>For Adobe-managed hosts, the very first published library to any new environment can take up to five minutes to propagate out to the global CDN. 
+
+When an edge node receives a request for a specific file (such as your embed code), the node first checks the the time-to-live (TTL) value on the file. If the TTL has not expired, the edge node serves the cached version. If the TTL has expired, then the edge node requests a new copy from the nearest origin, serves that refreshed copy, and then caches the refreshed copy with a new TTL.
+
+>[!NOTE]
+>
+>In addition to edge node caching, there may also be intermediate networks (such as corporate or mobile networks) that perform their own caching. If your embed codes are not caching as expected, these networks may be the underlying cause.
 
 #### Edge cache invalidation {#invalidation}
 
@@ -75,16 +80,19 @@ The time-to-live (TTL) for your browser-cached embed code (determined by the `ca
 
 As the table above indicates, browser caching is not supported on development and staging environments. As such, you should not use the development or staging embed codes in high-traffic or production contexts.
 
-Cache control headers are only are only applied for the main library build. Any sub-resources below the main library are always considered net-new, and therefore there is no need to cache them on the browser.
+Cache control headers are only applied for the main library build. Any sub-resources below the main library are always considered net-new, and therefore there is no need to cache them on the browser.
 
-## How to use managed hosting
+## Using Adobe-managed hosting in the Launch UI
 
-To have Adobe manage your hosting, you need to create a Managed by Adobe host, then assign your environments to use this host.
+In order to have Adobe manage your hosting, you must first create an Adobe-managed host in the UI, then assign your environments to use this host:
 
-## Create Managed by Adobe host
+1. In the [Launch UI](http://launch.adobe.com/), select the **[!UICONTROL Hosts]** tab.
+1. Create and name a new host.
+1. Select **[!UICONTROL Managed by Adobe]** as the host type, then select **[!UICONTROL Save]**.
 
-1. Open the [!UICONTROL Hosts] tab.
-1. Create the new host.
-1. Name the host.
-1. Select **[!UICONTROL Managed by Adobe]** as the host type.
-1. Click **[!UICONTROL Save]**.
+## Next steps
+
+This document provided an overview of Adobe-managed hosting in Launch. For information on other hosting options, refer to the following documentation:
+
+* [SFTP hosting](./sftp-host.md)
+* [Self-hosting libraries](./self-hosting-libraries)
