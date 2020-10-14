@@ -88,8 +88,8 @@ When you first create a property in the [Launch UI](http://launch.adobe.com/), a
 >
 >If the default Adobe-managed host is unassigned from all environments, the host can be deleted. If you want to switch back to an Adobe-managed host after doing this, you can create a new host through the following steps:
 >
->* Select the **[!UICONTROL Hosts]** tab on your property, then select **[!UICONTROL Add Host]**.
->* Provide a name for the host, select **[!UICONTROL Managed by Adobe]** as the host type, then select **[!UICONTROL Save]**.
+>1. Select the **[!UICONTROL Hosts]** tab on your property, then select **[!UICONTROL Add Host]**.
+>1. Provide a name for the host, select **[!UICONTROL Managed by Adobe]** as the host type, then select **[!UICONTROL Save]**.
 >
 >You can then re-assign your environments to the Adobe-managed host as desired.
 
