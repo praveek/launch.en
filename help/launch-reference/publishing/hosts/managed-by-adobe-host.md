@@ -21,17 +21,15 @@ Specifically, Akamai runs more than 137,000 servers in 87 countries within more 
 
 If an entire node goes down, Akamai serves from the next-closest node with the same cached content. Nodes are dynamically selected based on visitor location, traffic load, and other factors so that content is consistently served from the best local node for each visitor.
 
-Akamai also has access to edge nodes in China, so end-users in China get traffic from nodes that are geographically close to them.
-
-Files hosted on Akamai have a domain of `assets.adobedtm.com`. This can be referenced securely or not (`http://` or `https://`) based on how it is called within in your `<script>` code.
+Files hosted on Akamai have a domain of `assets.adobedtm.com`. This can be referenced securely or not (`http://` or `https://`) based on how it is called within in your embedded `<script>` code.
 
 >[!WARNING]
 >
 >If your library is unavailable from the Akamai network, Launch is unable to prevent any errors that may arise because of it.
 
-## Embed code caching
+## Library build caching
 
-When using Adobe-managed hosts, your CDN embed code is cached for your application in two locations:
+When using Adobe-managed hosts, your library builds are cached in two locations:
 
 * [Edge caching](#edge)
 * [Browser caching](#browser)
@@ -48,11 +46,11 @@ Once your build has been deployed to the Adobe-managed host, the CDN distributes
 >
 >For Adobe-managed hosts, the very first published library to any new environment can take up to five minutes to propagate out to the global CDN. 
 
-When an edge node receives a request for a specific file (such as your embed code), the node first checks the the time-to-live (TTL) value on the file. If the TTL has not expired, the edge node serves the cached version. If the TTL has expired, then the edge node requests a new copy from the nearest origin, serves that refreshed copy, and then caches the refreshed copy with a new TTL.
+When an edge node receives a request for a specific file (such as your library build), the node first checks the the time-to-live (TTL) value on the file. If the TTL has not expired, the edge node serves the cached version. If the TTL has expired, then the edge node requests a new copy from the nearest origin, serves that refreshed copy, and then caches the refreshed copy with a new TTL.
 
 >[!NOTE]
 >
->In addition to edge node caching, there may also be intermediate networks (such as corporate or mobile networks) that perform their own caching. If your embed codes are not caching as expected, these networks may be the underlying cause.
+>In addition to edge node caching, there may also be intermediate networks (such as corporate or mobile networks) that perform their own caching. If your builds are not caching as expected, these networks may be the underlying cause.
 
 #### Edge cache invalidation {#invalidation}
 
@@ -68,9 +66,9 @@ These staggered cache invalidations give the origin server groups time to replic
 
 ### Browser caching {#browser}
 
-The CDN embed code is also cached on the browser through the use of the `cache-control` HTTP header. When using Adobe-managed hosts, you do not have control over the headers returned in API responses, so the Adobe default for caching is used. In other words, you cannot utilize custom headers for Adobe-managed hosts. If you require a custom `cache-control` header, you may want to consider [self-hosting](self-hosting-libraries.md) instead.
+Library builds are also cached on the browser through the use of the `cache-control` HTTP header. When using Adobe-managed hosts, you do not have control over the headers returned in API responses, so the Adobe default for caching is used. In other words, you cannot utilize custom headers for Adobe-managed hosts. If you require a custom `cache-control` header, you may want to consider [self-hosting](self-hosting-libraries.md) instead.
 
-The time-to-live (TTL) for your browser-cached embed code (determined by the `cache-control` header) will vary depending on the environment you are using:
+The time-to-live (TTL) for your browser-cached library build (determined by the `cache-control` header) will vary depending on the Launch environment you are using:
 
 | Environment | `cache-control` value |
 | --- | --- |
@@ -84,15 +82,22 @@ Cache control headers are only applied for the main library build. Any sub-resou
 
 ## Using Adobe-managed hosting in the Launch UI
 
-In order to have Adobe manage your hosting, you must first create an Adobe-managed host in the UI, then assign your environments to use this host:
+When you first create a property in the [Launch UI](http://launch.adobe.com/), an Adobe-managed host is automatically created for you. All environments that are provided out-of-the-box for the property are also assigned to the Adobe-managed host by default.
 
-1. In the [Launch UI](http://launch.adobe.com/), select the **[!UICONTROL Hosts]** tab.
-1. Create and name a new host.
-1. Select **[!UICONTROL Managed by Adobe]** as the host type, then select **[!UICONTROL Save]**.
+>[!NOTE]
+>
+>If the default Adobe-managed host is unassigned from all environments, the host can be deleted. If you want to switch back to an Adobe-managed host after doing this, you can create a new host through the following steps:
+>
+>* Select the **[!UICONTROL Hosts]** tab on your property, then select **[!UICONTROL Add Host]**.
+>* Provide a name for the host, select **[!UICONTROL Managed by Adobe]** as the host type, then select **[!UICONTROL Save]**.
+>
+>You can then re-assign your environments to the Adobe-managed host as desired.
 
 ## Next steps
 
 This document provided an overview of Adobe-managed hosting in Launch. For information on other hosting options, refer to the following documentation:
 
 * [SFTP hosting](./sftp-host.md)
-* [Self-hosting libraries](./self-hosting-libraries)
+* [Self-hosting libraries](./self-hosting-libraries.md)
+
+For details on how to manage hosts for your environments, see the [environments guide](../environments.md).
