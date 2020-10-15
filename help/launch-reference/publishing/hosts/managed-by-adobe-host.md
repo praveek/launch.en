@@ -13,7 +13,7 @@ With Adobe-managed hosts, library builds are delivered to a third-party content 
 
 This document provides an overview of Adobe-managed hosts in Launch, and provides steps on how to create a new Adobe-managed host in the UI.
 
-## About Akamai
+## Akamai
 
 Currently, the primary CDN provider for Adobe is [Akamai](https://www.akamai.com/). Akamai's robust CDN is built to serve content to a global, high-volume audience of web visitors. The CDN runs redundant networks of load-balanced, geo-optimized nodes in order to serve content as quickly as possible to visitors located throughout the world.
 
@@ -36,7 +36,7 @@ When using Adobe-managed hosts, your library builds are cached in two locations:
 
 ### Edge caching {#edge}
 
-The primary purpose of a CDN is to intelligently distribute content to servers that are geographically closer to end-users, so that the content can be retrieved more quickly by client devices. CDNs achieve this by making copies of the content available on geographically distributed "edge" nodes around the world.
+The primary purpose of a CDN is to intelligently distribute content to servers that are geographically closer to end-users, so that the content can be retrieved more quickly by client devices. CDNs achieve this by making copies of the content available on geographically distributed servers around the world ("edge nodes").
 
 Once your build has been deployed to the Adobe-managed host, the CDN distributes the build on several centralized servers ("origins"), who then send copies of the build to many different edge nodes around the world for caching. The cached versions of the build stored on these edge nodes are then ultimately served to client devices.
 
@@ -54,7 +54,7 @@ When an edge node receives a request for a specific file (such as your library b
 
 #### Edge cache invalidation {#invalidation}
 
-When you upload a new library build, Launch invalidates the caches on all applicable edge nodes, which means that each node considers its cached version to be invalid, regardless of the how recently it retrieved a fresh copy. The next time an edge node receives a request for that file, the node retrieves a fresh copy from the origin.
+When you upload a new library build, Launch invalidates the caches on all applicable edge nodes, which means that each node considers its cached version to be invalid, regardless of how recently it retrieved a fresh copy. The next time an edge node receives a request for that file, the node retrieves a fresh copy from the origin.
 
 Because Akamai has multiple origin servers that replicate files between each other, and because there is no way of knowing which origin received your file first, it is possible for these node requests to hit an origin that does not have the latest version, and then cache the older version again. To prevent this from occurring, Launch performs multiple cache invalidations for each new build on the following intervals:
 
@@ -62,7 +62,7 @@ Because Akamai has multiple origin servers that replicate files between each oth
 * 5 minutes after upload
 * 60 minutes after upload
 
-These staggered cache invalidations give the origin server groups time to replicate the latest version of the file between themselves so they all have the latest when the the file is retrieved.
+These staggered cache invalidations give the origin server groups time to replicate the latest version of the file between themselves so they all have the latest version when the file is retrieved.
 
 ### Browser caching {#browser}
 
