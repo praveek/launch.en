@@ -107,7 +107,7 @@ For more information on this setting, see the guide on [asynchronous deployment]
 
 Since embed codes are generated based on your environment configurations, some configuration changes will automatically update the embed code for the environment in question. These changes include:
 
-* Switching from an Adobe-managed (Akamai) host to an SFTP host, or vice versa.
+* Switching from an Adobe-managed host to an SFTP host, or vice versa.
 * Changing the archive setting.
 * Updating the path field if the archive setting is enabled.
 
