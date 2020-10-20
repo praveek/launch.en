@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch environments
 
 # Environments
 
-When you create a library in Adobe Experience Platform Launch, you must assign it to an environment before ultimately installing it into your website or app, allowing you to utilize that library's extensions, rules, and data elements. This document provides an steps on how to install, configure, and create environments in the Launch user interface.
+When you create a library in Adobe Experience Platform Launch, you must assign it to an environment before ultimately installing it into your website or app, allowing you to utilize that library's extensions, rules, and data elements. This document provides an steps on how to install, configure, and create different environments in the Launch user interface.
 
 ## Environment types
 
@@ -19,23 +19,23 @@ Launch supports three different environment types, each corresponding to a diffe
 | Staging | This environment corresponds with the **Submitted** and **Approved** columns in the publishing workflow. |
 | Production | This environment corresponds with the **Published** column in the publishing workflow. |
 
-Different Launch artifacts can exist in each environment. This allows you to test different libraries in different environments as you push them through your publishing workflow.
+Different Launch artifacts can exist in each environment. This allows you to test different libraries in different environments as you push them through the publishing workflow.
 
 ## Installation
 
-Each environment has a set of instructions used to connect it to your application. For web properties, these instructions provide embed codes. For mobile properties, these instructions provide the code necessary to instantiate the libraries you're using and retrieve the configuration at run-time.
+Each environment has a set of instructions used to connect it to your application. For web properties, these instructions provide embed codes. For mobile properties, these instructions provide the code necessary to instantiate the libraries you're using and retrieve the configuration at runtime.
 
 >[!IMPORTANT]
 >
->Each environment type has its own corresponding embed code. Depending on the environment you are using, you must ensure that you are using the correct corresponding embed code.
+>Each environment type has its own corresponding installation instructions. Depending on the environment you are using, you must ensure that you are using the correct corresponding embed codes and/or dependencies.
 >
->For example, the production embed code supports browser caching, whereas the development and staging embed codes do not. As such, you should not use development or staging embed codes in high-traffic or production contexts.
+>For example, the production embed code for a web property supports browser caching, whereas the development and staging embed codes do not. As such, you should not use development or staging embed codes in high-traffic or production contexts.
 
-To access the installation instructions, navigate to the **[!UICONTROL Environments]** tab for your property, and then select the **[!UICONTROL Install]** icon for the environment you wish to use.
+To access the installation instructions for an environment, navigate to the **[!UICONTROL Environments]** tab for your property, and then select the **[!UICONTROL Install]** icon for that environment.
 
 ![](./assets/environments/install-buttons.png)
 
-If using a web property, you are given an embed code to be used in the `<head>` tag of your document. You are also presented with the option to load library files synchronously or asynchronously. Depending on the setting you choose, the displayed install instructions will be different. Embed codes are explained in further detail later in this document.
+If using a web property, you are given an embed code to be used in the `<head>` tag of your document. You are also presented with the option to deploy library files synchronously or asynchronously at runtime. Depending on the setting you choose, the displayed install instructions will be different. Embed codes are explained in further detail later in this document.
 
 ![](./assets/environments/web-instructions.png)
 
@@ -57,17 +57,17 @@ In the [!UICONTROL Environments] tab, select a listed environment to display its
 
 ### Host {#host}
 
-Select the **[!UICONTROL Host]** dropdown menu to choose a pre-configured host for your property.
+Select the **[!UICONTROL Host]** dropdown menu to choose a pre-configured host for the environment.
 
 ![](./assets/environments/select-host.png)
 
-When a build is created, Launch delivers that build to the location you specified for the assigned host. For more information on hosting in Launch, refer to the [hosts overview](./hosts/hosts-overview.md).
+When a build is created, Launch delivers that build to the location you specified for the assigned host. For information on how to create and configure hosts in Launch, refer to the [hosts overview](./hosts/hosts-overview.md).
 
 ### Archive setting {#archive}
 
-Most builds consist of multiple files. Multi-file builds contain a main library file (linked in the embed code) that contains internal references to the other files. Those other files are pulled in as needed.
+Most builds consist of multiple files. Multi-file builds contain a main library file (linked in the embed code) that contains internal references to the other files which are pulled in as needed.
 
-An environment's archive setting can be configured on the environment's details page. By default, the archive option is switched off and the build is delivered in a format that executes at runtime as-is (JavaScript for web properties, and JSON for mobile properties).
+The **[!UICONTROL Create archive]** button allows you to toggle the environment's archive setting. By default, the archive option is switched off and the build is delivered in a format that executes as-is (JavaScript for web properties, and JSON for mobile properties).
 
 If you choose to turn the archive setting on, additional configuration settings appear in the UI, enabling you to optionally encrypt the archive file and define a path to the library if you are using self-hosting.
 
@@ -83,9 +83,13 @@ If you use the archive option, all build files are delivered as a ZIP file inste
 
 ### Embed code {#embed-code}
 
-The embed code is a `<script>` tag that must be placed in the `<head>` sections of your website pages in order to load and execute the code you build in Launch. Embed codes are generated based on the environment configuration, so you only need to copy and paste it into your site on the pages where you want Launch to run.
+An embed code is a `<script>` tag that must be placed in the `<head>` sections of your website pages in order to load and execute the code you build in Launch. Each environment configuration automatically generates its own embed code, so you only need to copy and paste it into your site on the pages where you want Launch to run.
 
 When you view the installation instructions, you can choose to have the script load the library files synchronously or asynchronously. This setting is not persistent and does not reflect how you actually have implemented Launch on your site. Rather, it is only meant to show the appropriate way to install the environment.
+
+>[!WARNING]
+>
+>Depending on the contents of your Launch library, the behavior of your rules and other elements can change between synchronous and asynchronous deployment. It is therefore important to thoroughly test any changes you make.
 
 #### Synchronous deployment
 
@@ -97,10 +101,6 @@ Synchronous embed codes consist of two `<script>` tags that must be placed withi
 
 Asynchronous deployment allows the browser to continue loading the rest of the page while the library is being retrieved. There is only one embed code when using this setting, which must be placed in the document `<head>`.
 
->[!WARNING]
->
->Depending on the contents of your Launch library, asynchronous deployment can change the behavior of your rules and other elements when compared to synchronous deployment, so be sure to thoroughly test any changes you make.
-
 For more information on this setting, see the guide on [asynchronous deployment](../client-side-information/asynchronous-deployment.md).
 
 #### Embed code updates
@@ -111,11 +111,13 @@ Since embed codes are generated based on your environment configurations, some c
 * Changing the archive setting.
 * Updating the path field if the archive setting is enabled.
 
-When the embed code changes in Launch, you must manually to update the embed codes in your HTML. As such, you should only update your embed code(s) when absolutely necessary.
+>[!WARNING]
+>
+>When an environment's embed code changes in Launch, you must manually to update the embed codes in your HTML. To avoid costly maintenance, you should only update your embed code(s) when absolutely necessary.
 
 ## Create an environment
 
-Three environments are automatically assigned to a property when that property is first created: development, staging, and production. This is enough to run the publishing workflow. However, you may add additional development environments if desired, as this can be useful on larger teams with multiple developers working on different projects at the same time.
+Three environments are automatically assigned to a property when that property is first created: development, staging, and production. This is enough to run the publishing workflow. However, you may add additional development environments if desired, as this can be useful on larger teams where multiple developers are working on different projects at the same time.
 
 On the [!UICONTROL Environments] tab for your property, select **[!UICONTROL Create New Environment]**.
 
@@ -135,6 +137,6 @@ The [!UICONTROL Environments] tab reappears, with the install instructions for t
 
 ## Next steps
 
-By reading this document, you should have a working understanding for configuring and installing your environments. You are now ready to start publishing your library builds.
+By reading this document, you should have a working understanding for configuring environments in the UI and installing them into your website or app. You are now ready to start publishing your library builds.
 
 As you publish iterations of your library over time, you may find it necessary to track and archive previous builds for troubleshooting and rollback purposes. See the guide on [republishing older libraries](./republish.md) for more information.
