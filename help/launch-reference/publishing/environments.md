@@ -119,7 +119,7 @@ Since embed codes are generated based on your environment configurations, some c
 
 Three environments are automatically assigned to a property when that property is first created: development, staging, and production. This is enough to run the publishing workflow. However, you may add additional development environments if desired, as this can be useful on larger teams where multiple developers are working on different projects at the same time.
 
-On the [!UICONTROL Environments] tab for your property, select **[!UICONTROL Create New Environment]**.
+On the [!UICONTROL Environments] tab for your property, select **[!UICONTROL Add Environment]**.
 
 ![](./assets/environments/create-new.png)
 
