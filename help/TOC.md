@@ -53,6 +53,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [[!DNL Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
     * [Deploy JavaScript tags to opt in to [!DNL Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
     * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
+    * [Subresource Integrity (SRI)](./launch-reference/client-side-information/sri.md)
   * Administration {#admin}
     * [Administration overview](launch-reference/administration/overview.md)
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
