@@ -7,70 +7,96 @@ seo-description: Content Security Policy (CSP) in Adobe Experience Platform Laun
 
 # Content Security Policy (CSP)
 
-The primary goal of a Content Security Policy (CSP) is to prevent cross-site scripting attacks (XSS). This happens when the browser is tricked into running malicious content that appears to come from a trusted source, but is really coming from somewhere else. CSP allows the browser (on behalf of the user) to verify that the script is actually coming from a trusted source.
+The primary goal of a Content Security Policy (CSP) is to prevent cross-site scripting attacks (XSS). This happens when the browser is tricked into running malicious content that appears to come from a trusted source, but is really coming from somewhere else. CSP allows the browser (on behalf of the user) to verify that the script is actually coming from a trusted source. CSP is implemented by adding the `Content-Security-Policy` HTTP header to your server responses.
 
-CSP is implemented by adding the `Content-Security-Policy` HTTP header to your server responses. You can read more about CSP on the Mozilla Developer Network site: [https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+> [!NOTE]
+>
+> For more detailed information on CSP, refer to the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 
-## Issues to Overcome
+As a tag management system, Adobe Experience Platform Launch is designed to dynamically load scripts on your website. CSP is designed to block these dynamically loaded scripts because they can cause security problems. This document provides guidance on how to configure [!DNL Launch] and your CSP to work together.
 
-Tag management systems are designed to dynamically load scripts. CSP is designed to block these dynamically loaded scripts because they can cause security problems.
+## Issues to overcome
 
-If you want Launch to work with your CSP, there are two main challenges to overcome:
+If you want [!DNL Launch] to work with your CSP, there are two main challenges to overcome:
 
-* **The source for your Launch library must be trusted.** If this condition is not met, the Launch library and other required JavaScript files are blocked by the browser and won't load on the page.
-* **Inline scripts must be allowed.** If this condition is not met, Custom Code rule actions are blocked on the page and won't execute properly.
+- **The source for your [!DNL Launch] library must be trusted.** If this condition is not met, the [!DNL Launch] library and other required JavaScript files are blocked by the browser and will not load on the page.
+- **Inline scripts must be allowed.** If this condition is not met, custom code rule actions are blocked on the page and will not execute properly.
 
-If you want to use Launch _and_ have a CSP in place, you have to fix both of these problems without incorrectly marking other scripts as safe. Increasing security comes at the price of increasing the amount of work on your part.
+If you want to use [!DNL Launch] and have a CSP in place, you have to fix both of these problems without incorrectly marking other scripts as safe. The rest of this document provides guidance on how to safely resolve these issues.
 
-## Trusted Sources
+## Add [!DNL Launch] as a trusted source
 
-If you are self hosting your library, then the source for your library is probably your own domain. You can specify that the host domain is a safe source like this:
+When using a CSP, you must include any trusted domains within the value of the `Content-Security-Policy` header. The value you must provide for [!DNL Launch] will vary depending on the type of hosting you are using, 
 
-`script-src 'self'`
+### Self-hosting
 
-If you are having Adobe host the library (with the Managed by Adobe host), then your library is maintained on assets.adobedtm.com. In this case, you want your policy to look something like this:
+If you are [self-hosting](../publishing/hosts/self-hosting-libraries.md) your library, then the source for your library is probably your own domain. You can specify that the host domain is a safe source by using the following header:
 
-`script-src 'self' assets.adobedtm.com`
+`Content-Security-Policy: script-src 'self'`
 
-You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Launch library won't load on the page.
+### Adobe-managed hosting
 
-You can read more about trusted sources on the [Mozilla Developer Network site](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
+If you are using an [Adobe-manage host](../publishing/hosts/managed-by-adobe-host.md), then your library is maintained on `assets.adobedtm.com`. In this case, you should use the following header:
 
-## Inline Scripts
+`Content-Security-Policy: script-src 'self' assets.adobedtm.com`
 
-Inline scripts present a challenge for CSP because they are disallowed by default. You have two options to allow inline scripts:
+You should specify `self` as a safe domain so that any scripts that you are already loading continue to work, but you also need `assets.adobedtm.com` to be listed as safe or your [!DNL Launch] library won't load on the page.
 
-* Allow all inline scripts (least secure)
-* Allow by nonce (good security)
+## Inline scripts
 
-The CSP specification has details for a 3rd option using hashes, but this approach is not feasible to use with a TMS of any kind for a number of reasons, some of them very complicated.
+CSP disallows inline scripts by default, and therefore must be manually configured to allow them. You have two options to allow inline scripts:
 
-### Good Security - Nonces {#nonce}
+- Allow all inline scripts (least secure)
+- Allow by nonce (good security)
 
-This method involves generating a nonce and adding it to your CSP and to each inline script. When the browser receives an instruction to load an inline script with a nonce on it, compare the nonce value to what is contained within the CSP header. If it matches, the script is loaded.
+>[!NOTE]
+>
+>The CSP specification has details for a third option using hashes, but this approach is not feasible to use with a tag management system of any kind for a number of reasons. For more information on the limitations of using hashes in [!DNL Launch], see the [Subresource Integrity (SRI) guide](./sri.md).
 
-This nonce should be changed with each new page load.
+### Nonces (good security) {#nonce}
 
-There is a very important prerequisite: You must load the Launch library [asynchronously](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html). This does not work with a synchronous load of the Launch library (which results in console errors and rules not executing properly).
+This method involves generating a cryptographic nonce and adding it to your CSP and to each inline script on your site. When the browser receives an instruction to load an inline script with a nonce on it, the browser compares the nonce value to what is contained within the CSP header. If it matches, the script is loaded. This nonce should be changed with each new page load.
 
-You can add your nonce to the above Adobe-hosted CSP example like this:
+>[!IMPORTANT]
+>
+>In order to use this method, you must load the [!DNL Launch] library asynchronously. This does not work with a synchronous load of the [!DNL Launch] library, which results in console errors and rules not executing properly. See the guide on [asynchronous deployment](./asynchronous-deployment.md) for more information.
 
-`script-src 'self' assets.adobedtm.com 'nonce-2726c7f26c'`
+The examples below show how can add your nonce to the CSP header.
 
-You must then tell Launch where to find the nonce. Launch uses it when loading an inline script. For Launch to use the nonce when loading the script, you must:
+**Self-hosting**
+
+`Content-Security-Policy: script-src 'self' 'nonce-2726c7f26c'`
+
+**Adobe-managed hosting**
+
+`Content-Security-Policy: script-src 'self' assets.adobedtm.com 'nonce-2726c7f26c'`
+
+You must then tell [!DNL Launch] where to find the nonce when loading an inline script. For [!DNL Launch] to use the nonce when loading the script, you must:
 
 1. Create a data element that references your nonce (wherever you put it in your data layer).
 2. Configure the Core Extension and specify which data element you used.
 3. Publish your data element and Core Extension changes.
 
-One additional note: This only handles loading of your custom code. It doesn't handle what you do in your custom code. It is possible for you to write custom code that is not compliant with your CSP, in which case the CSP has precedence. For example, if you use custom code to load an inline script by appending it to the DOM, Launch cannot find that or add the nonce correctly, so that particular custom code action will not work as expected.
+>[!NOTE]
+>
+>The above process only handles loading your custom code, not what that custom code does. If an inline script contains custom code that is not compliant with your CSP, the CSP takes precedence. For example, if you use custom code to load an inline script by appending it to the DOM, [!DNL Launch] cannot find that or add the nonce correctly, so that particular custom code action will not work as expected.
 
-### Low Security - Allow Inline {#unsafe-inline}
+### Allow inline (low security) {#unsafe-inline}
 
-If the above option does not work for you, you can tell your CSP to allow all inline scripts. This is the least secure option, but is also easier to implement and maintain.
+If using nonces does not work for you, you can configure your CSP to allow all inline scripts. This is the least secure option, but is also easier to implement and maintain.
 
-Again, assuming you are having Adobe manage the hosting and you mark assets.adobedtm.com domain as a trusted source, your CSP would look something like this:
+The examples below show how can allow all inline scripts in the CSP header.
 
-`script-src 'self' assets.adobedtm.com 'unsafe-inline'`
+**Self-hosting**
 
-For more information on allowing inline scripts, see [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src) on the MDN site.
+`Content-Security-Policy: script-src 'self' 'unsafe-inline'`
+
+**Adobe-managed hosting**
+
+`Content-Security-Policy: script-src 'self' assets.adobedtm.com 'unsafe-inline'`
+
+## Next steps
+
+By reading this document, you should now understand how to configure [!DNL Launch] to be compatible with your CSP.
+
+As an additional security measure, you may also opt to use Subresource Integrity (SRI) to validate fetched library builds. However, this feature has some major limitations when it comes to deploying different iterations of your library across your site. See the guide on [SRI compatibility in [!DNL Launch]](./sri.md) for more information.
