@@ -9,7 +9,7 @@ seo-description: Content Security Policy (CSP) in Adobe Experience Platform Laun
 
 A Content Security Policy (CSP) is a security feature that helps prevent cross-site scripting attacks (XSS). This happens when the browser is tricked into running malicious content that appears to come from a trusted source, but is really coming from somewhere else. CSPs allow the browser (on behalf of the user) to verify that the script is actually coming from a trusted source. CSPs are implemented by adding a `Content-Security-Policy` HTTP header to your server responses.
 
-> [!NOTE]
+>[!NOTE]
 >
 > For more detailed information on CSP, refer to the [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 
