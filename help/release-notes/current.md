@@ -7,6 +7,14 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## October 16th, 2020
+
+### Updates
+
+* Extensions linked to discontinued extension packages now have an indicator on their extension cards. When copying properties, discontinued extensions are not copied to the target property.
+* Newly created properties now have "Run rule components in sequence" on by default.
+* SFTP Hosts must now use a port on the allowed list. (See [SFTP Hosts](../launch-reference/publishing/hosts/sftp-host.md) for the full list.)
+
 ## August 19th, 2020
 
 ### Features
