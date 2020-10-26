@@ -11,8 +11,8 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* From the library edit dialog, labels were added to resource revisions to make it easier for a user to determine what resources are "Live" in production and which are yet to be published.
-* When viewing a resource on the library edit dialog, such as rules or data elements, a button has been added allowing the user to compare revisions of the resource.
+* Revisions now have tags that show which ones are Latest, Published, and Live.  These show up anywhere you look at revisions, but will be most noticeable in the Library Edit view and the revision selection dropdown in Compare View.  But you'll also find it on the resource edit views and a few other places.  This will make it much easier to pick the correct revision.
+* You can now initiate a resource comparison from the Library Edit page.
 
 ## October 16th, 2020
 
