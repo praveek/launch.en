@@ -7,7 +7,9 @@ seo-description: Adobe Experience Platform Launch environments
 
 # Environments
 
-When you create a library in Adobe Experience Platform Launch, you must assign it to an environment before ultimately installing it into your website or app, allowing you to utilize that library's extensions, rules, and data elements. This document provides steps on how to install, configure, and create different environments in the Launch user interface.
+Environments in Adobe Experience Platform Launch define the actual name of the library you are deploying. When you create a library in [!DNL Launch], you must assign it to an environment. The library's extensions, rules, and data elements are then compiled and placed into the assigned environment. Each environment provides a unique embed code that allows you to integrate its assigned library into your site.
+
+This document provides steps on how to install, configure, and create different environments in the Launch user interface.
 
 ## Environment types
 
