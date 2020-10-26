@@ -133,7 +133,7 @@ Ultimately, the responsibility for executing actions in order lie with the exten
 
 >[!IMPORTANT]
 >
->In the Action section of a rule, server-side rules are executed sequentially. The order cannot be changed. Make sure the order is correct when you create the rule. Behavior cannot be chosen like it can on the client side.
+>In the Action section of a rule, server-side rules are executed sequentially. Make sure the order is correct when you create the rule. 
 
 ### Scenarios
 

@@ -34,7 +34,7 @@ a non-Adobe solution, you need to set that up in Platform Launch Server Side.
 
 In Adobe Experience Platform, create your schema.
 
-1. Create a new schema by clicking “Create Schema” and selecting the `XDM ExperienceEvent` option.
+1. Create a new schema by clicking **[!UICONTROL Schemas]**>**[!UICONTROL Create Schema]** and selecting the **[!UICONTROL XDM ExperienceEvent]** option.
 
 1. Give the schema a name and short description.
 
@@ -52,7 +52,7 @@ For more information about schemas, see [Experience Data Model (XDM) System Help
 
 In Platform Launch, create a property of type "Edge."
 
-1. Click **[!UICONTROL New property]**. 
+1. Click **[!UICONTROL New Property]**. 
 
 1. Name the property. 
 
@@ -124,13 +124,11 @@ Create a new page load rule using the Platform Web SDK extension and the “Send
 
 1. Click the **[!UICONTROL Events Add]** icon.
 
-1. Add an event by choosing an extension and one of the event types available for that extension, then
-configure the settings for the event. 
-    For example, select **[!UICONTROL Core - Window Loaded]**.
+1. Add an event by choosing an extension and one of the event types available for that extension, then configure the settings for the event. For example, select **[!UICONTROL Core - Window Loaded]**.
 
 1. Add an action using the Platform Web SDK extension. Select **[!UICONTROL Send Event]** from the **[!UICONTROL Action Type]** list, select the desired Instance (Alloy instance configured earlier), and then select a data element to add to the XDM Data block within the Alloy hit.
 
-1. The rest of the settings can be left as default for this example, so click **[UICONTROL Save]**.
+1. Leave the rest of the settings as default for this example, and click **[UICONTROL Save]**.
 
 For another example, you might create a rule that sends the data layer to Edge if the user hovers over a specified button.
 

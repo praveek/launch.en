@@ -63,4 +63,4 @@ It is important to note the following differences between [!DNL Platform Launch]
 
     Platform Launch Client Side uses JavaScript version es5. Platform Launch Server Side uses version es6.
 
-<!--doc Adobe Cloud Connector extension, get from Jon>
+<!--doc Adobe Cloud Connector extension, get from Jon-->
