@@ -11,8 +11,8 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* Revisions now have tags that show which ones Latest, Published, and Live.  These show up anywhere you look at revisions, but will be most noticeable in the Library Edit view and the revision selection dropdown in Compare View.  You'll also find it on the resource edit views and a few other places.
-* Determining which revision to add to your Library should be much easier now because you can now initiate a revision comparison directly on the Library Edit page.
+* Revisions now have tags that show which ones are Latest, Published, and Live.  These show up anywhere you look at revisions, but will be most noticeable in the Library Edit screen and the revision selection dropdown on the Compare screen.  You'll also find it on the resource edit screens and a few other places.
+* Determining which revision to add to your Library should be much easier now because you can now initiate a Compare directly from the Library Edit screen.
 
 ## October 16th, 2020
 
