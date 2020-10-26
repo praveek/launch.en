@@ -26,7 +26,7 @@ If you want to use [!DNL Launch] and have a CSP in place, you have to address bo
 
 ## Add [!DNL Launch] as a trusted source
 
-When using a CSP, you must include any trusted domains within the value of the `Content-Security-Policy` header. The value you must provide for [!DNL Launch] will vary depending on the type of hosting you are using, 
+When using a CSP, you must include any trusted domains within the value of the `Content-Security-Policy` header. The value you must provide for [!DNL Launch] will vary depending on the type of hosting you are using.
 
 ### Self-hosting
 
@@ -55,7 +55,7 @@ CSP disallows inline scripts by default, and therefore must be manually configur
 
 ### Allow by nonce {#nonce}
 
-This method involves generating a cryptographic nonce and adding it to your CSP and each inline script on your site. When the browser receives an instruction to load an inline script with a nonce on it, the browser compares the nonce value to what is contained within the CSP header. If it matches, the script is loaded. This nonce should be changed with each new page load.
+This method involves generating a cryptographic nonce and adding it to your CSP and every inline script on your site. When the browser receives an instruction to load an inline script with a nonce on it, the browser compares the nonce value to what is contained within the CSP header. If it matches, the script is loaded. This nonce should be changed with each new page load.
 
 >[!IMPORTANT]
 >
@@ -99,4 +99,4 @@ The examples below show how can allow all inline scripts in the CSP header.
 
 By reading this document, you should now understand how to configure your CSP header to accept the [!DNL Launch] library file and inline scripts.
 
-As an additional security measure, you may also opt to use Subresource Integrity (SRI) to validate fetched library builds. However, this feature has some major limitations when it comes to deploying different iterations of your library across your site. See the guide on [SRI compatibility in [!DNL Launch]](./sri.md) for more information.
+As an additional security measure, you may also opt to use Subresource Integrity (SRI) to validate fetched library builds. However, this feature has some major limitations when used with tag management systems like [!DNL Launch]. See the guide on [SRI compatibility in [!DNL Launch]](./sri.md) for more information.
