@@ -11,25 +11,28 @@ seo-description: Getting started with Experience Platform Launch Server Side
 >
 >This beta documentation desribed features that are not yet publicly available. It is subject to change and might not be complete or correct.
 
-Data can be sent to Edge Network using one of three options:
+To use Adobe Experience Platform Launch Server Side, data must be sent to Adobe Experience Platform Edge
+Network using one of three options:
 
-* AEP Web SDK
-* AEP Mobile SDK
-* Server-to-Server API (coming soon)
+* Adobe Experience Platform Web SDK
+* Adobe Experience Platform Mobile SDK
+* Server-to-Server API (coming in H2 2021)
 
 >[!NOTE]
->
->The AEP Web SDK and AEP Mobile SDK do not require deployment through Experience Platform Launch Client Side. However, using Launch Client Side to deploy these SDKs is the recommended approach.
+>The AEP Web SDK and AEP Mobile SDK do not require deployment through Adobe Experience
+Platform Launch Client Side. However, using Launch Client Side to deploy these SDKs is the
+recommended approach.
 
-After you send data to the Edge network, you can toggle on Adobe solutions to send data there. To send data to a non-Adobe solution, you need to set that up in Launch Server Side.
+After you send data to Edge network, you can toggle on Adobe solutions to send data there. To send data to
+a non-Adobe solution, you need to set that up in Platform Launch Server Side.
 
 ## Prerequisites
 
 * Adobe Experience Platform Launch Server Side
-* AEP Web SDK extension in Experience Platform Launch, configured to send data to Edge network
-* XDM
+* Adobe Experience Platform Web or Mobile SDK, configured to send data to Edge Network
+* Data should be in Experience Data Model (XDM) (This mapping can be done server-side.)
 
-## Create a schema
+## Create an XDM schema
 
 In Adobe Experience Platform, create your schema.
 
@@ -59,7 +62,10 @@ In Experience Platform Launch, create a property of type "Edge."
 
 1. Click **[!UICONTROL Save]**.
 
-After you create the property, go to the **[!UICONTROL Environments]** tab for the new property and make note of the Environment IDs. You can copy the Environment ID from the Environments tab to paste it when creating an Edge configuration.
+After you create the property, go to the **[!UICONTROL Environments]** tab for the new property and make
+note of the Environment IDs. You can copy the Environment ID from the **[!UICONTROL Environments]** tab to paste it when
+creating an Edge configuration, if the Adobe Org used in Edge Configuration differs from the Adobe Org used
+in Launch Server Side. Otherwise, you can select the Launch Server Side Environment from a drop-down menu.
 
 ## Create Edge Configuration
 
@@ -76,9 +82,9 @@ In AEP Edge Configuration, create your edge configuration. You will need the Env
 
 
 
-## Enable Launch Server Side.
+## Enable Launch Server Side
 
-Next, configure the ability to send data to Adobe Experience Platform and to Adobe Experience Cloud applications.
+Next, configure Edge Network to send data to Launch Server Side, and to other Adobe products.
 
 1. In the Edge Configuration UI, select the property you created.
 
@@ -90,13 +96,13 @@ Next, configure the ability to send data to Adobe Experience Platform and to Ado
 
     * Adobe Analytics requires a report suite ID.
 
-    * Server Side Launch requires an environment ID, which is the publish path from the Server Side Launch property.
+    * SLaunch erver Side requires an environment ID, which is the publish path for the Launch Server Side property.
 
 After configuring, make note of the Environment IDs for the new property.
 
 ## Configure the Launch Client Side AEP Web SDK extension to send data to the Edge configuration that you created
 
-In Client Side Launch, create your property, then use the AEP Web SDK extension to configure it.
+In Launch Client Side, create your property, then use the Adobe Experience Platform Web SDK extension to configure it.
 
 1. Name the property.
 
@@ -110,7 +116,7 @@ See the [Web SDK extension documentation](https://docs.adobe.com/content/help/en
 
 ## Create a Launch Client Side rule to send data to AEP Web SDK
 
-After all of the above is in place, you can build necessary data definitions, rules, and so on that leverage both server side and client side Launch, but that need only a single request from the page.
+After all of the above is in place, you can build necessary data definitions, rules, and so on that leverage both Launch Server Side and Launch Client Side, but that need only a single request from the page.
 
 Create a new page load rule using the AEP Web SDK extension and the “Send Event” action type:
 
@@ -120,9 +126,11 @@ Create a new page load rule using the AEP Web SDK extension and the “Send Even
 
 1. Click the **[!UICONTROL Events Add]** icon.
 
-1. Choose your extension and one of the event types available for that extension, then configure the settings for the event. For example, select **[UICONTROL Core - Window Loaded]**.
+1. Add an event by choosing an extension and one of the event types available for that extension, then
+configure the settings for the event. 
+    For example, select **[!UICONTROL Core - Window Loaded]**.
 
-1. In the action configuration on the right side of the screen, populate the **[UICONTROL XDM Data]** field using the XDM data element created in an earlier step.
+1. Add an action using the Platform Web SDK extension. Select **[!UICONTROL Send Event]** from the **[!UICONTROL Action Type]** list, select the desired Instance (Alloy instance configured earlier), and then select a data element to add to the XDM Data block within the Alloy hit.
 
 1. The rest of the settings can be left as default for this example, so click **[UICONTROL Save]**.
 
@@ -130,12 +138,13 @@ For another example, you might create a rule that sends the data layer to Edge i
 
 ## Summary
 
-You should have the following in place:
+With the following in place, you can now create Launch Server Side rules to forward data to
+non-Adobe destinations.
 
-* Adobe Experience Platform schema (Note the name you gave it.)
-* Server Side Launch property (Keep track of the environment IDs.)
-* AEP Edge Configuration (Note the environment ID.)
-* Client Side Launch property
+* Experience Data Model schema (Note the name you gave it.)
+* Launch Server Side property (Keep track of the environment IDs.)
+* Adobe Experience Platform Edge Configuration (Note the environment ID.)
+* Launch Client Side property
 
 
 <!--
