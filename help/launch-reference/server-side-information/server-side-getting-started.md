@@ -128,7 +128,7 @@ Create a new page load rule using the Platform Web SDK extension and the “Send
 
 1. Add an action using the Platform Web SDK extension. Select **[!UICONTROL Send Event]** from the **[!UICONTROL Action Type]** list, select the desired Instance (Alloy instance configured earlier), and then select a data element to add to the XDM Data block within the Alloy hit.
 
-1. Leave the rest of the settings as default for this example, and click **[UICONTROL Save]**.
+1. Leave the rest of the settings as default for this example, and click **[!UICONTROL Save]**.
 
 For another example, you might create a rule that sends the data layer to Edge if the user hovers over a specified button.
 
