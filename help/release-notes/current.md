@@ -7,6 +7,13 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+## October 26th, 2020
+
+### Updates
+
+* From the library edit dialog, labels were added to resource revisions to make it easier for a user to determine what resources are "Live" in production and which are yet to be published.
+* When viewing a resource on the library edit dialog, such as rules or data elements, a button has been added allowing the user to compare revisions of the resource.
+
 ## October 16th, 2020
 
 ### Updates
