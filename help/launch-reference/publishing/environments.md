@@ -7,13 +7,19 @@ seo-description: Adobe Experience Platform Launch environments
 
 # Environments
 
-Environments in Adobe Experience Platform Launch define the actual name of the library you are deploying. When you create a library in [!DNL Launch], you must assign it to an environment. The library's extensions, rules, and data elements are then compiled and placed into the assigned environment. Each environment provides a unique embed code that allows you to integrate its assigned library into your site.
+Environments in Adobe Experience Platform Launch define several key aspects of the library builds you deploy on your website or app:
+
+* The filename of the build.
+* The domain and path of the build, depending on the environment's assigned host.
+* The file format of the build, depending on the archive option chosen.
+
+When you create a library build in [!DNL Platform Launch], you must assign it to an environment. The build's extensions, rules, and data elements are then compiled and placed into the assigned environment. Each environment provides a unique embed code that allows you to integrate its assigned build into your site.
 
 This document provides steps on how to install, configure, and create different environments in the Launch user interface.
 
 ## Environment types
 
-Launch supports three different environment types, each corresponding to a different state in the [publishing workflow](./approval-workflow.md):
+[!DNL Platform Launch] supports three different environment types, each corresponding to a different state in the [publishing workflow](./approval-workflow.md):
 
 | Environment type | Description |
 | --- | --- |
@@ -21,7 +27,11 @@ Launch supports three different environment types, each corresponding to a diffe
 | Staging | This environment corresponds with the **Submitted** and **Approved** columns in the publishing workflow. |
 | Production | This environment corresponds with the **Published** column in the publishing workflow. |
 
-Different Launch artifacts can exist in each environment. This allows you to test different libraries in different environments as you push them through the publishing workflow.
+Different [!DNL Platform Launch] artifacts can exist in each environment. This allows you to test different libraries in different environments as you push them through the publishing workflow.
+
+>[!NOTE]
+>
+>Each environment can only be assigned one library build at a time. However, it is expected that a single environment will contain many different builds over time as you move them through the publishing workflow, reassigning builds between environments as necessary.
 
 ## Installation
 
@@ -47,7 +57,7 @@ If you are using a mobile property, you are given separate instructions for inst
 
 ## Web configuration
 
-For web properties, Launch uses the settings from the assigned environment to determine the following:
+For web properties, [!DNL Platform Launch] uses the settings from the assigned environment to determine the following:
 
 * **Host**: The server location where you want your build to be deployed.
 * **Archive setting**: Whether the system should output a deployable set of files or have them compressed in an archive format.
@@ -63,7 +73,7 @@ Select the **[!UICONTROL Host]** dropdown menu to choose a pre-configured host f
 
 ![](./assets/environments/select-host.png)
 
-When a build is created, Launch delivers that build to the location you specified for the assigned host. For information on how to create and configure hosts in Launch, refer to the [hosts overview](./hosts/hosts-overview.md).
+When a build is created, [!DNL Platform Launch] delivers that build to the location you specified for the assigned host. For information on how to create and configure hosts in [!DNL Platform Launch], refer to the [hosts overview](./hosts/hosts-overview.md).
 
 ### Archive setting {#archive}
 
@@ -85,25 +95,25 @@ If you use the archive option, all build files are delivered as a ZIP file inste
 
 ### Embed code {#embed-code}
 
-An embed code is a `<script>` tag that must be placed in the `<head>` sections of your website pages in order to load and execute the code you build in Launch. Each environment configuration automatically generates its own embed code, so you only need to copy and paste it into your site on the pages where you want Launch to run.
+An embed code is a `<script>` tag that must be placed in the `<head>` sections of your website pages in order to load and execute the code you build in [!DNL Platform Launch]. Each environment configuration automatically generates its own embed code, so you only need to copy and paste it into your site on the pages where you want [!DNL Platform Launch] to run.
 
-When you view the installation instructions, you can choose to have the script load the library files synchronously or asynchronously. This setting is not persistent and does not reflect how you actually have implemented Launch on your site. Rather, it is only meant to show the appropriate way to install the environment.
+When you view the installation instructions, you can choose to have the script load the library files synchronously or asynchronously. This setting is not persistent and does not reflect how you actually have implemented [!DNL Platform Launch] on your site. Rather, it is only meant to show the appropriate way to install the environment.
 
 >[!WARNING]
 >
->Depending on the contents of your Launch library, the behavior of your rules and other elements can change between synchronous and asynchronous deployment. It is therefore important to thoroughly test any changes you make.
-
-#### Synchronous deployment
-
-When the browser reads an embed code using synchronous deployment, it retrieves the Launch library and executes it before continuing to load the page. This is also how [Dynamic Tag Management (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) works.
-
-Synchronous embed codes consist of two `<script>` tags that must be placed within the HTML of your website. One `<script>` tag must be placed in the document `<head>`, while the other must be placed just before the closing `</body>` tag.
+>Depending on the contents of your [!DNL Platform Launch] library, the behavior of your rules and other elements can change between synchronous and asynchronous deployment. It is therefore important to thoroughly test any changes you make.
 
 #### Asynchronous deployment
 
 Asynchronous deployment allows the browser to continue loading the rest of the page while the library is being retrieved. There is only one embed code when using this setting, which must be placed in the document `<head>`.
 
 For more information on this setting, see the guide on [asynchronous deployment](../client-side-information/asynchronous-deployment.md).
+
+#### Synchronous deployment
+
+When the browser reads an embed code using synchronous deployment, it retrieves the [!DNL Platform Launch] library and executes it before continuing to load the page. This is also how [Dynamic Tag Management (DTM)](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) works.
+
+Synchronous embed codes consist of two `<script>` tags that must be placed within the HTML of your website. One `<script>` tag must be placed in the document `<head>`, while the other must be placed just before the closing `</body>` tag.
 
 #### Embed code updates
 
@@ -115,7 +125,7 @@ Since embed codes are generated based on your environment configurations, some c
 
 >[!WARNING]
 >
->When an environment's embed code changes in Launch, you must manually to update the embed codes in your HTML. To avoid costly maintenance, you should only update your embed code(s) when absolutely necessary.
+>When an environment's embed code changes in [!DNL Platform Launch], you must manually to update the embed codes in your HTML. To avoid costly maintenance, you should only update your embed code(s) when absolutely necessary.
 
 ## Create an environment
 
