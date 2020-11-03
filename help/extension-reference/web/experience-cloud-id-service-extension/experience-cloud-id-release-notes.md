@@ -9,6 +9,14 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
+## Nov 3, 2020
+
+### Experience Cloud ID Extension 5.1.1
+
+#### **Features**
+
+* This patch contains a fix for writing cookies from an iFrame with attribute `SameSite=None` in Google chrome browser.
+
 ## Oct 27, 2020
 
 ### Experience Cloud ID Extension 5.1.0
