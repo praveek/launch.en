@@ -8,6 +8,7 @@ seo-description: Adobe Launch release notes
 # Release notes
 
 =======
+
 ## October 26th, 2020
 
 ### Updates
