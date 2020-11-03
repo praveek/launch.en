@@ -7,6 +7,22 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+=======
+## October 26th, 2020
+
+### Updates
+
+* Revisions now have tags that show which ones are Latest, Published, and Live.  These show up anywhere you look at revisions, but will be most noticeable in the Library Edit screen and the revision selection dropdown on the Compare screen.  You'll also find it on the resource edit screens and a few other places.
+* Determining which revision to add to your Library should be much easier now because you can now initiate a Compare directly from the Library Edit screen.
+
+## October 16th, 2020
+
+### Updates
+
+* Extensions linked to discontinued extension packages now have an indicator on their extension cards. When copying properties, discontinued extensions are not copied to the target property.
+* Newly created properties now have "Run rule components in sequence" on by default.
+* SFTP Hosts must now use a port on the allowed list. (See [SFTP Hosts](../launch-reference/publishing/hosts/sftp-host.md) for the full list.)
+
 ## Sept 1st, 2020
 
 ### Feature

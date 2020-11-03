@@ -2,7 +2,8 @@
 audience: end-user
 product: launch
 user-guide-title: Experience Platform Launch User Guide
-user-guide-description: Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+breadcrumb-title: Launch Guide
+user-guide-description: Learn to deploy and manage analytics, marketing, and advertising tags to power customer experiences.
 index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
 ---
@@ -81,19 +82,22 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe Experience Platform extension {#aep-extension}
       * [Adobe Experience Platform extension overview](extension-reference/web/aep-web-sdk/overview.md)
       * [Adobe Experience Platform extension release notes](extension-reference/web/aep-web-sdk/aep-web-sdk-release-notes.md)
-    * Adobe Media Analytics extension {#media-analytics-extension}
-      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+    * AEM Asset Insights extension {#aem-asset-insights-extension}
+      * [AEM Asset Insights extension](extension-reference/web/aem-asset-insights/aem-asset-insights.md)
+      * [AEM Asset Insights extension release notes](extension-reference/web/aem-asset-insights/aem-asset-insights-release-notes.md)
     * Adobe Media Analytics (3.x SDK) extension {#media-analytics-3x-extension}
       * [Adobe Media Analytics (3.x SDK) for Audio and Video extension](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
       * [Adobe Media Analytics (3.x SDK) for Audio and Video release notes](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/adobe-media-analytics-3x-for-audio-and-video-extension-release-notes.md)
+    * Adobe Media Analytics for Audio and Video extension {#media-analytics-extension}
+      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
+      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
     * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
     * Adobe Target extension {#target-extension}
       * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
       * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
     * Adobe Target v2 extension {#targetv2-extension}
       * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
-      * [Adobe Target V2 release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
+      * [Adobe Target v2 release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
     * Common Analytics Plugins extension {#plugins-extension}
       * [Common Analytics Plugins extension](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins.md)
       * [Common Analytics Plugins extension release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
