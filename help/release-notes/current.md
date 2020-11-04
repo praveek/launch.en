@@ -7,6 +7,8 @@ seo-description: Adobe Launch release notes
 
 # Release notes
 
+=======
+
 ## October 26th, 2020
 
 ### Updates
@@ -21,6 +23,12 @@ seo-description: Adobe Launch release notes
 * Extensions linked to discontinued extension packages now have an indicator on their extension cards. When copying properties, discontinued extensions are not copied to the target property.
 * Newly created properties now have "Run rule components in sequence" on by default.
 * SFTP Hosts must now use a port on the allowed list. (See [SFTP Hosts](../launch-reference/publishing/hosts/sftp-host.md) for the full list.)
+
+## Sept 1st, 2020
+
+### Feature
+
+* **Data Element Default Value** Newly created data elements will no longer have a default value assigned automatically. See the [Experience League Community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/coming-soon-data-element-quot-default-value-quot-changes/ba-p/374101) for more information
 
 ## August 19th, 2020
 
