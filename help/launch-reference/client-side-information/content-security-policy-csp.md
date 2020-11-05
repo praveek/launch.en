@@ -40,7 +40,7 @@ If you are [self-hosting](../publishing/hosts/self-hosting-libraries.md) your li
 Content-Security-Policy: script-src 'self'
 ```
 
-**HTML \<meta> tag**
+**HTML `<meta>` tag**
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
@@ -56,7 +56,7 @@ If you are using an [Adobe-managed host](../publishing/hosts/managed-by-adobe-ho
 Content-Security-Policy: script-src 'self' assets.adobedtm.com
 ```
 
-**HTML \<meta> tag**
+**HTML `<meta>` tag**
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' assets.adobedtm.com">
@@ -91,7 +91,7 @@ The examples below show how you can add your nonce to the CSP configuration for 
 Content-Security-Policy: script-src 'self' assets.adobedtm.com 'nonce-2726c7f26c'
 ```
 
-**HTML \<meta> tag**
+**HTML `<meta>` tag**
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' assets.adobedtm.com 'nonce-2726c7f26c'">
@@ -123,7 +123,7 @@ Use the following configurations if you are using self-hosting:
 Content-Security-Policy: script-src 'self' 'unsafe-inline'
 ```
 
-**HTML \<meta> tag**
+**HTML `<meta>` tag**
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'">
@@ -139,7 +139,7 @@ Use the following configurations if you are using Adobe-managed hosting:
 Content-Security-Policy: script-src 'self' assets.adobedtm.com 'unsafe-inline'
 ```
 
-**HTML \<meta> tag**
+**HTML `<meta>` tag**
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' assets.adobedtm.com 'unsafe-inline'">
