@@ -210,7 +210,7 @@ For example, given the `interact` call from the client to Edge Network has the f
                             "siteSection": "Landing Page" 
                      }] 
 ```
- 
+
 To enter a path that references `pageName`, enter the following in the path field: 
 
 ```javascript
