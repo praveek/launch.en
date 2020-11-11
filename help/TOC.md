@@ -104,6 +104,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Common Analytics Plugins extension release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
     * [!DNL Launch] Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
+      * [Launch Server Side Core extension](extension-reference/web/core-extension/overview-launch-server-side.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
     * [!DNL Marketo Munchkin] extension {#marketo-extension}
       * [Marketo Munchkin extension](extension-reference/web/marketo-munchkin-extension/overview.md)
