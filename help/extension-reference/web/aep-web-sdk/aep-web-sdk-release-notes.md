@@ -9,6 +9,18 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 [Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
+## November 4, 2020
+
+### AEP Web SDK 2.3.0
+
+Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
+
+#### Features
+
+* Added support for using a data element when configuring default consent.
+* Added ability to search for XDM schemas with the XDM Object data element type.
+* Added cloning of XDM data within the Send Event action type to ensure any subsequent changes to the XDM data object will not be reflected in the request.
+
 ## October 1, 2020
 
 ### AEP Web SDK 2.2.0
