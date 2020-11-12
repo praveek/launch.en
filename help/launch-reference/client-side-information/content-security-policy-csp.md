@@ -73,8 +73,8 @@ You should specify `self` as a safe domain so that any scripts that you are alre
 
 CSP disallows inline scripts by default, and therefore must be manually configured to allow them. You have two options to allow inline scripts:
 
-- [Allow by nonce](#nonce) (good security)
-- [Allow all inline scripts](#unsafe-inline) (least secure)
+* [Allow by nonce](#nonce) (good security)
+* [Allow all inline scripts](#unsafe-inline) (least secure)
 
 >[!NOTE]
 >
