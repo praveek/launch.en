@@ -15,12 +15,12 @@ CSP is implemented by adding the `Content-Security-Policy` HTTP header to your s
 
 Tag management systems are designed to dynamically load scripts. CSP is designed to block these dynamically loaded scripts because they can cause security problems.
 
-If you want Launch to work with your CSP, there are two main challenges to overcome:
+If you want Adobe Experience Platform Launch to work with your CSP, there are two main challenges to overcome:
 
-* **The source for your Launch library must be trusted.** If this condition is not met, the Launch library and other required JavaScript files are blocked by the browser and won't load on the page.
+* **The source for your Platform Launch library must be trusted.** If this condition is not met, the Platform Launch library and other required JavaScript files are blocked by the browser and won't load on the page.
 * **Inline scripts must be allowed.** If this condition is not met, Custom Code rule actions are blocked on the page and won't execute properly.
 
-If you want to use Launch _and_ have a CSP in place, you have to fix both of these problems without incorrectly marking other scripts as safe. Increasing security comes at the price of increasing the amount of work on your part.
+If you want to use Platform Launch _and_ have a CSP in place, you have to fix both of these problems without incorrectly marking other scripts as safe. Increasing security comes at the price of increasing the amount of work on your part.
 
 ## Trusted Sources
 
@@ -32,7 +32,7 @@ If you are having Adobe host the library (with the Managed by Adobe host), then 
 
 `script-src 'self' assets.adobedtm.com`
 
-You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Launch library won't load on the page.
+You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Platform Launch library won't load on the page.
 
 You can read more about trusted sources on the [Mozilla Developer Network site](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP).
 
@@ -51,19 +51,19 @@ This method involves generating a nonce and adding it to your CSP and to each in
 
 This nonce should be changed with each new page load.
 
-There is a very important prerequisite: You must load the Launch library [asynchronously](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html). This does not work with a synchronous load of the Launch library (which results in console errors and rules not executing properly).
+There is a very important prerequisite: You must load the Platform Launch library [asynchronously](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html). This does not work with a synchronous load of the Platform Launch library (which results in console errors and rules not executing properly).
 
 You can add your nonce to the above Adobe-hosted CSP example like this:
 
 `script-src 'self' assets.adobedtm.com 'nonce-2726c7f26c'`
 
-You must then tell Launch where to find the nonce. Launch uses it when loading an inline script. For Launch to use the nonce when loading the script, you must:
+You must then tell Platform Launch where to find the nonce. Platform Launch uses it when loading an inline script. For Platform Launch to use the nonce when loading the script, you must:
 
 1. Create a data element that references your nonce (wherever you put it in your data layer).
 2. Configure the Core Extension and specify which data element you used.
 3. Publish your data element and Core Extension changes.
 
-One additional note: This only handles loading of your custom code. It doesn't handle what you do in your custom code. It is possible for you to write custom code that is not compliant with your CSP, in which case the CSP has precedence. For example, if you use custom code to load an inline script by appending it to the DOM, Launch cannot find that or add the nonce correctly, so that particular custom code action will not work as expected.
+One additional note: This only handles loading of your custom code. It doesn't handle what you do in your custom code. It is possible for you to write custom code that is not compliant with your CSP, in which case the CSP has precedence. For example, if you use custom code to load an inline script by appending it to the DOM, Platform Launch cannot find that or add the nonce correctly, so that particular custom code action will not work as expected.
 
 ### Low Security - Allow Inline {#unsafe-inline}
 

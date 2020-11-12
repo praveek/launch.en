@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch rules
 
 # Rules
 
-[!DNL Launch] is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or client-side code you identified.
+[!DNL Adobe Experience Platform Launch] is a rule-based system. It looks for user interaction and associated data. When the criteria outlined in your rules are met, the rule triggers the extension, script, or client-side code you identified.
 
 Build rules to integrate the data and functionality of marketing and ad tech that unifies disparate products into a single solution.
 
@@ -17,7 +17,7 @@ For an introductory video, see [Rule builder](../../quick-start/videos.md).
 
 **Events (If):** The event is what you want the rule to look for. This is defined by choosing an event, any applicable conditions, and any exceptions.
 
-**Actions (Then):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in [!DNL Launch] can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
+**Actions (Then):** Triggers occur after a rule's events take place and all conditions are satisfied. A rule in [!DNL Platform Launch] can trigger as many discrete actions as you want, and you can control the order in which these actions occur. For example, a single rule for an e-commerce Thank You page can trigger your analytics tools and third-party tags from a single rule. There is no need to create separate rules for each extension or tag.
 
 You can add more event types. Multiple events are joined with an OR, so the rule's conditions will be evaluated if any of the events are met.
 
@@ -43,7 +43,7 @@ The events that are available depend on which extensions are installed. For info
 
 >[!NOTE]
 >
->[!DNL DTM] provided page load, event-based, and direct call rule types. [!DNL Launch] just has rules and lets you define the event to trigger the rule.  The different [!DNL DTM] options are still available in [!DNL Launch] as event types.
+>[!DNL DTM] provided page load, event-based, and direct call rule types. [!DNL Platform Launch] just has rules and lets you define the event to trigger the rule.  The different [!DNL DTM] options are still available in [!DNL Platform Launch] as event types.
 
 ### Actions (then)
 
@@ -96,7 +96,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
    Available action types depend on the extension you've selected.  Action settings will differ based on the action type.
 
-   (Advanced) Wait to run next action: This option is available when rule component sequencing is enabled on your property.  When checked, Launch will not call the next action until this one is completed.  When unchecked, the next action begins to execute immediately.  The default is **[!UICONTROL Checked]**.
+   (Advanced) Wait to run next action: This option is available when rule component sequencing is enabled on your property.  When checked, Platform Launch will not call the next action until this one is completed.  When unchecked, the next action begins to execute immediately.  The default is **[!UICONTROL Checked]**.
 
    (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  It defines the maximum amount of time allowed for the action to complete.  If the timeout is reached, the action fails and any subsequent actions for this rule will be removed from the processing queue.  The default is 2000ms.
 
@@ -114,7 +114,7 @@ It is often important to have your rules fire in a specific order. Examples: (1)
 
 Ultimately, the responsibility for executing actions in order lie with the extension developer of the event type that you're using. For [!DNL Adobe] extensions, [!DNL Adobe] makes sure this works properly. For 3rd-party extensions, [!DNL Adobe] provides guidance to extension developers to implement this properly, but it is up to them to do so.
 
-[!DNL Adobe] highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, [!DNL Adobe] recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. [!DNL Launch] supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
+[!DNL Adobe] highly recommends that you order your rules with positive numbers between 1 and 100 (default is 50). Simpler is better. Remember you have to maintain your order. However, [!DNL Adobe] recognizes there might be edge cases where that will feel limiting, so other numbers are allowed. [!DNL Platform Launch] supports numbers between +/- 2,147,483,648.  You can also use about a dozen decimal places - but if you're in a scenario where you think you need to do that, you should rethink some of the decisions you've made to get to where you are now.
 
 ### Scenarios
 
@@ -127,18 +127,18 @@ The load order for rules depends on whether the rule action is configured with J
 
 You can use `document.write` within your custom scripts regardless of the events configured for the rule.
 
-You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. [!DNL Launch] ensures that they are executed in that order.
+You can order different custom code types among each other. For example, you can now have a JavaScript custom code action, then an HTML custom code action, then a JavaScript custom code action. [!DNL Platform Launch] ensures that they are executed in that order.
 
 ## Rule Bundling
 
-Rule events and conditions are always bundled into the main Launch library.  Actions may be bundled in the main library or loaded late as sub-resources as needed.  Whether the actions are bundled or not is determined by the rule's event type.
+Rule events and conditions are always bundled into the main Platform Launch library.  Actions may be bundled in the main library or loaded late as sub-resources as needed.  Whether the actions are bundled or not is determined by the rule's event type.
 
 ### Rules with "Core - Library Loaded" or "Core - Page Top" events 
 
 These events need to be executed almost always (unless conditions evaluate to false), so for efficiency, they are bundled into the main library, the file referenced by your embed code.
 
-* **Javascript:** The JavaScript is embedded in the main [!DNL Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
-* **HTML:** The HTML is embedded in the main Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
+* **Javascript:** The JavaScript is embedded in the main [!DNL Platform Launch] library. The custom script is wrapped in a script tag and written to the document using `document.write`. If the rule has multiple custom scripts, they're written in order.
+* **HTML:** The HTML is embedded in the main Platform Launch library. `document.write` is used to write the HTML to the document. If the rule has multiple custom scripts, they're written in order.
 
 ### Rules with any other event
 
@@ -149,11 +149,11 @@ Adobe cannot guarantee that any other rules will actually be triggered and that 
 
 ## Rule Component Sequencing
 
-The Launch runtime environment's behavior depends on whether **[!UICONTROL Run rule components in sequence]** is on or off for your property.
+The Platform Launch runtime environment's behavior depends on whether **[!UICONTROL Run rule components in sequence]** is on or off for your property.
 
 ### Enabled
 
-If enabled, when an event is triggered at runtime, the rule's conditions and actions are added to a processing queue--based on the order you have defined--and processed one at a time on a FIFO basis.  [!DNL Launch] waits for the completion of the component before moving onto the next one.
+If enabled, when an event is triggered at runtime, the rule's conditions and actions are added to a processing queue--based on the order you have defined--and processed one at a time on a FIFO basis.  [!DNL Platform Launch] waits for the completion of the component before moving onto the next one.
 
 If a condition evaluates as false or reaches its defined timeout, that rule's subsequent conditions and actions are removed from the queue.
 
@@ -161,10 +161,10 @@ If an action fails or reaches its defined timeout, that rule's subsequent action
 
 >[!NOTE]
 >
->With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Launch] library synchronously.
+>With this setting enabled, all conditions and actions are executed asynchronously, even if you loaded the [!DNL Platform Launch] library synchronously.
 
 ### Disabled
 
 If disabled, when an event is triggered at runtime, the rule's conditions are immediately evaluated.  Multiple conditions are evaluated in parallel.  
 
-If all conditions return true (and exceptions return false), the rule's actions are immediately executed.  The actions are called in order, but Launch does not wait for one to complete before calling the next.  If your actions are synchronous, they are still executed in order.  If one or more actions are asynchronous, some actions will run in parallel.
+If all conditions return true (and exceptions return false), the rule's actions are immediately executed.  The actions are called in order, but Platform Launch does not wait for one to complete before calling the next.  If your actions are synchronous, they are still executed in order.  If one or more actions are asynchronous, some actions will run in parallel.

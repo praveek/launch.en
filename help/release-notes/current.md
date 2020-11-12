@@ -1,8 +1,8 @@
 ---
 title: Release notes
-seo-title: Adobe Launch Release notes
-description: Adobe Launch release notes
-seo-description: Adobe Launch release notes
+seo-title: Adobe Experience Platform Launch Release notes
+description: Adobe Experience Platform Launch release notes
+seo-description: Adobe Experience Platform Launch release notes
 ---
 
 # Release notes
@@ -19,7 +19,7 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* **Platform Permissions:** When setting up permissions in the [admin console](https://adminconsole.adobe.com/) for Adobe Launch, a new option is available to allow or restrict access based on the platform type. Currently, the platform types are "Web" and "Mobile." With this change, users cannot create, edit, or delete properties & extensions packages if they do not have the appropriate platform permission.  By default, all users are given access to both platforms.
+* **Platform Permissions:** When setting up permissions in the [admin console](https://adminconsole.adobe.com/) for [!DNL Platform Launch], a new option is available to allow or restrict access based on the platform type. Currently, the platform types are "Web" and "Mobile." With this change, users cannot create, edit, or delete properties & extensions packages if they do not have the appropriate platform permission.  By default, all users are given access to both platforms.
 
 ### Bug Fixes
 
@@ -29,7 +29,7 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* **Rule Component Sequencing:** Check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the Launch runtime adds rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
+* **Rule Component Sequencing:** Check **[!UICONTROL Run rule components in sequence]** in your property settings.  When enabled, the [!DNL Platform Launch]  runtime adds rule conditions and actions to a processing queue when the rule event is triggered.  The queue is processed on a FIFO basis with timeouts available on individual components.  See the [Rules page](../launch-reference/managing-resources/rules.md) for more information on available settings and details.
 * **Promises in Core - Custom Code:** You can do asynchronous tasks in Core - Custom Code boxes.  In order to achieve this, you can return a Promise from your JavaScript custom code or use the new `onCustomCodeSuccess()` and `onCustomCodeFailure()` functions in HTML custom code.  More information is available in the [Core Extension reference](../extension-reference/web/core-extension/overview.md) doc.
 
 ## June 18th, 2020
@@ -56,13 +56,13 @@ seo-description: Adobe Launch release notes
 
 ### Features
 
-* **Discontinue Extension Packages:** Extension developers can now discontinue their extension packages.  A discontinued extension package is no longer available for new installations from the Launch catalog. However, existing installations continue to work as expected.  Please see [Discontinue an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/discontinue/) in the developer docs for more details.
+* **Discontinue Extension Packages:** Extension developers can now discontinue their extension packages.  A discontinued extension package is no longer available for new installations from the [!DNL Platform Launch]  catalog. However, existing installations continue to work as expected.  Please see [Discontinue an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/discontinue/) in the developer docs for more details.
 
 ## May 9th, 2020
 
 ### Bug Fixes
 
-* When using Safari <= v12, users were not able to access Adobe Platform Launch due to an `X-FRAME-OPTIONS` header that was being set incorrectly.
+* When using Safari <= v12, users were not able to access Adobe Experience Platform Launch due to an `X-FRAME-OPTIONS` header that was being set incorrectly.
 * Notification messages were not displaying with the correct format in FireFox.
 
 ## April 24th, 2020
@@ -91,8 +91,8 @@ seo-description: Adobe Launch release notes
 
 ### Updates
 
-* The Launch sign-in and sign-out UI has been significantly improved. Switching between Launch and other Adobe products is now also much smoother. Finally, if you have a single account with rights to multiple companies, this is also dramatically improved.
-* The structure of Launch URLs is now more consistent with other Adobe products. The new URL format replaces `https://launch.adobe.com` with `https://experience.adobe.com/#/@companyID/launch/`. The old URLs redirect to the new ones, but you should update your bookmarks to save a few seconds each time you access Launch.
+* The [!DNL Platform Launch]  sign-in and sign-out UI has been significantly improved. Switching between [!DNL Platform Launch]  and other Adobe products is now also much smoother. Finally, if you have a single account with rights to multiple companies, this is also dramatically improved.
+* The structure of [!DNL Platform Launch]  URLs is now more consistent with other Adobe products. The new URL format replaces `https://launch.adobe.com` with `https://experience.adobe.com/#/@companyID/launch/`. The old URLs redirect to the new ones, but you should update your bookmarks to save a few seconds each time you access [!DNL Platform Launch] .
 
 ## February 19, 2020
 
@@ -112,7 +112,7 @@ seo-description: Adobe Launch release notes
 
 ### Bug Fixes
 
-* The republish library feature would sometimes not purge the Launch asset on Akamai properly and result in the original library still being served.
+* The republish library feature would sometimes not purge the [!DNL Platform Launch]  asset on Akamai properly and result in the original library still being served.
 
 ### Features
 

@@ -7,7 +7,7 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 # Experience Cloud ID Release Notes
 
-For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
+For release notes on the Experience Cloud ID Service itself and not just the Adobe Experience Platform Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
 ## Aug 13, 2020
 
@@ -85,7 +85,7 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 #### **Features**
 
 * Updated visitor.js to 4.3
-* Added data element type for ECID as part of Launch Extension
+* Added data element type for ECID as part of the Platform Launch Extension
 
   ![](/help/assets/ecid-data-element.png)
 

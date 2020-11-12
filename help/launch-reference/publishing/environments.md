@@ -15,7 +15,7 @@ When you create a Library, you must assign it to an Environment. Each Environmen
 * The Staging Environment goes with the Submitted and Approved columns
 * The Production Environment goes with the Published column
 
-Different Launch artifacts can exist in each Environment. This allows you to test different Libraries in different environments as you push them through your Workflow.
+Different Adobe Experience Platform Launch artifacts can exist in each Environment. This allows you to test different Libraries in different environments as you push them through your Workflow.
 
 ## Installation instructions
 
@@ -27,7 +27,7 @@ Installation instructions can be accessed by clicking the **[!UICONTROL Install]
 
 ## Web Configuration
 
-For web properties, Launch also uses the settings from the assigned Environment to determine the following:
+For web properties, Platform Launch also uses the settings from the assigned Environment to determine the following:
 
 * **Destination:** This is the location where you want your build to be deployed. It is controlled by selecting a host for the environment to use.
 * **Archive Format:** You can get a deployable set of files or have it zipped up in an archive format. This is controlled by the archive settings.
@@ -37,7 +37,7 @@ For web properties, Launch also uses the settings from the assigned Environment 
 
 On the environment screen, you have a drop-down menu to select from the existing hosts on your property.
 
-When a build is created, Launch will deliver that build to whatever location you've specified with the assigned host.
+When a build is created, Platform Launch will deliver that build to whatever location you've specified with the assigned host.
 
 ### Archive {#archive}
 
@@ -53,21 +53,21 @@ If you use the archive option, all build files are delivered as a .zip file (opt
 
 ### Embed code {#embed-code}
 
-The embed code is a `<script>` tag that you put on the pages of your site to load and execute the code you build in Launch.
+The embed code is a `<script>` tag that you put on the pages of your site to load and execute the code you build in Platform Launch.
 
-When you view the installation instructions, you can choose to have this tag be synchronous or [asynchronous](../client-side-information/asynchronous-deployment.md). This setting is not persistent and does not reflect how you actually have implemented Launch on your site. It is only to show different ways to install it.
+When you view the installation instructions, you can choose to have this tag be synchronous or [asynchronous](../client-side-information/asynchronous-deployment.md). This setting is not persistent and does not reflect how you actually have implemented Platform Launch on your site. It is only to show different ways to install it.
 
-The embed code(s) is generated for you based on the environment configuration, so the only required action for you is to copy and paste it into your site on the pages where you want Launch to run.
+The embed code(s) is generated for you based on the environment configuration, so the only required action for you is to copy and paste it into your site on the pages where you want Platform Launch to run.
 
 #### Synchronous
 
-If you load the library synchronously, when the browser reads the embed code, it retrieves the Launch library and executes it before continuing to load the page. This is also how [DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) works.
+If you load the library synchronously, when the browser reads the embed code, it retrieves the Platform Launch library and executes it before continuing to load the page. This is also how [DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) works.
 
 In a synchronous deployment, the embed code consists of two `<script>` tags that you need to put within the HTML of your website. One `<script>` tag goes in the `<head>` and one goes at the footer in the bottom of the .
 
 #### Asynchronous
 
-If you load the library asynchronously, the while the library is being retrieved, the browser will continue to load the rest of the page in parallel. If you implement this way, there is only one embed code, which you put in the `<head>`. Depending on what's in your Launch library, the switch from sync to async can change the behavior of your rules and other elements, so be sure to thoroughly test any changes.
+If you load the library asynchronously, the while the library is being retrieved, the browser will continue to load the rest of the page in parallel. If you implement this way, there is only one embed code, which you put in the `<head>`. Depending on what's in your Platform Launch library, the switch from sync to async can change the behavior of your rules and other elements, so be sure to thoroughly test any changes.
 
 For more information about asynchronous deployment, see [Asynchronous Deployment of Experience Cloud JavaScript](../client-side-information/asynchronous-deployment.md).
 
@@ -79,7 +79,7 @@ The embed code depends on the configuration of the environment. Some Environment
 * Marking the Archive box
 * Updating the path field (the embed code changes in real time as you update the path)
 
-When the embed code changes in Launch, you'll need to update the embed codes in your HTML. For obvious reasons, many people try to avoid changing embed codes after they've been implemented.
+When the embed code changes in Platform Launch, you'll need to update the embed codes in your HTML. For obvious reasons, many people try to avoid changing embed codes after they've been implemented.
 
 ## Create an Environment
 

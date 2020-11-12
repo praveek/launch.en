@@ -97,7 +97,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 * Request made during ID migration is sent to demdex endpoint to improve cross-domain identification when demdex cookie is not set
 * Request made during ID migration always expects a response to ensure identity cookie gets set
 * When executing an invalid command, a list of valid command names will be logged in the console
-* Added checkbox for toggling third-party cookie support to the Launch extension. This disables calls to demdex.net
+* Added checkbox for toggling third-party cookie support to the Adobe Experience Platform Launch extension. This disables calls to demdex.net
 
 ## December 20, 2019
 
@@ -105,10 +105,10 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 #### Features 
 
-* Add Activity Tracker configs to Launch Extension
+* Add Activity Tracker configs to Platform Launch Extension
 * Expose EventType and EventMergeId on event command
-* Add onBeforeEventSend config to Launch Extension
-* Add edgeBasePath config to Launch Extension
+* Add onBeforeEventSend config to Platform Launch Extension
+* Add edgeBasePath config to Platform Launch Extension
 
 #### Update to Alloy v. 0.0.10 which includes the following changes:
 

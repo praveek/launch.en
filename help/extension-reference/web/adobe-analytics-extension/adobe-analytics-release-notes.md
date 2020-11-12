@@ -247,7 +247,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 #### **Features**
 
 * AppMeasurement has been updated to version 2.6
-* The initialized Analytics tracker is now exposed through a shared module in the Launch extension so other extensions can include code to interact with it.
+* The initialized Analytics tracker is now exposed through a shared module in the Adobe Experience Platform Launch extension so other extensions can include code to interact with it.
 
 #### **Bug fixes**
 

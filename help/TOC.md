@@ -1,8 +1,8 @@
 ---
 audience: end-user
-product: launch
+product: Adobe Experience Platform Launch
 user-guide-title: Experience Platform Launch User Guide
-breadcrumb-title: Launch Guide
+breadcrumb-title: Adobe Experience Platform Launch Guide
 user-guide-description: Learn to deploy and manage analytics, marketing, and advertising tags to power customer experiences.
 index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
@@ -10,7 +10,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 
 # Experience Platform Launch User Guide {#using}
 
-* [[!DNL Launch] User Guide](overview.md)
+* [[!DNL Platform Launch] User Guide](overview.md)
 * Introduction {#intro}
   * Release notes {#release-notes}
     * [Latest](release-notes/current.md)
@@ -22,7 +22,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Videos](quick-start/videos.md)
   * [FAQ](launch-faq.md)
   * [Additional Resources](quick-start/additional-resources.md)
-* [!DNL Launch] Reference {#reference}
+* [!DNL Platform Launch] Reference {#reference}
   * Managing Resources {#manage-resources}
     * [Managing Resources overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
@@ -50,14 +50,14 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * Client-side information {#client-side-info}
     * [Client-side information](launch-reference/client-side-information/overview.md)
     * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
-    * [[!DNL Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
-    * [Deploy JavaScript tags to opt in to [!DNL Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+    * [[!DNL Platform Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
+    * [Deploy JavaScript tags to opt in to [!DNL Platform Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
     * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
   * Administration {#admin}
     * [Administration overview](launch-reference/administration/overview.md)
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
     * [User permissions](launch-reference/administration/user-permissions.md)
-  * Upgrade from DTM to [!DNL Launch] {#upgrade}
+  * Upgrade from DTM to [!DNL Platform Launch] {#upgrade}
     * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
     * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
     * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
@@ -101,7 +101,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Common Analytics Plugins extension {#plugins-extension}
       * [Common Analytics Plugins extension](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins.md)
       * [Common Analytics Plugins extension release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
-    * [!DNL Launch] Core extension {#core-extension}
+    * [!DNL Platform Launch] Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
     * [!DNL Marketo Munchkin] extension {#marketo-extension}

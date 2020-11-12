@@ -9,7 +9,7 @@ seo-description: Adobe Experience Platform Launch companies and properties
 
 ## Companies
 
-In [!DNL Launch], there is a 1:1 relationship between your company and your [!DNL Experience Cloud] organizations.  Companies may contain any number properties.  Each individual property can be deployed on any number of sites and apps depending on your needs.
+In [!DNL Adobe Experience Platform Launch], there is a 1:1 relationship between your company and your [!DNL Experience Cloud] organizations.  Companies may contain any number properties.  Each individual property can be deployed on any number of sites and apps depending on your needs.
 
 Some customers one property that controls many sites and apps.  Some have one property for each.  
 
@@ -25,7 +25,7 @@ For a video tutorial, see [Creating your first property](../../quick-start/video
 
 ## Best practices for planning properties {#best-practices-for-planning-properties}
 
-Each [!DNL Launch] implementation can be very different, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. You should structure your properties in a way that matches your company, workflow, and processes.
+Each [!DNL Platform Launch] implementation can be very different, with a wide variety of data-collection needs, variable usage, extensions, third-party tags, other systems and technologies, people, teams, geographic regions, and so on. You should structure your properties in a way that matches your company, workflow, and processes.
 
 Considering the following when planning properties:
 
@@ -37,7 +37,7 @@ Considering the following when planning properties:
 
 ### Code structure
 
-Sites are based on HTML, mobile applications on code.  If the underlying HTML templates or codebases are the same for multiple sites and applications, you may want to consider using a single [!DNL Launch] property to manage multiple sites or apps.
+Sites are based on HTML, mobile applications on code.  If the underlying HTML templates or codebases are the same for multiple sites and applications, you may want to consider using a single [!DNL Platform Launch] property to manage multiple sites or apps.
 
 ### Data
 
@@ -55,9 +55,9 @@ For example, if eVar27 is used for the same source value across all of your webs
 
 ### Extensions, tags, and systems
 
-Are the extensions, tags and systems you are going to deploy through [!DNL Launch] very similar, somewhat similar, or unique?
+Are the extensions, tags and systems you are going to deploy through [!DNL Platform Launch] very similar, somewhat similar, or unique?
 
-If the extensions, tags, and systems you are going to deploy through [!DNL Launch] are very similar across your sites or applications, you might want to include them in the same property.
+If the extensions, tags, and systems you are going to deploy through [!DNL Platform Launch] are very similar across your sites or applications, you might want to include them in the same property.
 
 If you are deploying [!DNL Adobe Analytics] on only one site or application, and your other extensions and tags are also unique, you might want to create separate properties so that you have more control.
 
@@ -65,9 +65,9 @@ For example, If you are deploying [!DNL Adobe Analytics], [!DNL Target], and the
 
 ### People
 
-For the individuals, teams, and organizations that are working in [!DNL Launch], will they need access to all of your websites and applications, some of them, or just one?
+For the individuals, teams, and organizations that are working in [!DNL Platform Launch], will they need access to all of your websites and applications, some of them, or just one?
 
-The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that [!DNL Launch] company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users (non-admins) by not giving them any role in that property.
+The User Management features allow you to assign different roles to different people for all of your properties, or on a per-property basis. If someone has sufficient rights, that person can perform administrative actions across all the properties in that [!DNL Platform Launch] company. All the other roles can be assigned on a per-property basis. You can even hide a property from certain users (non-admins) by not giving them any role in that property.
 
 ## Properties page
 
@@ -89,7 +89,7 @@ Click a property to see an overview of that property. The overview shows any act
 
 ## Create or configure a property
 
-Create or configure a property in [!DNL Launch].
+Create or configure a property in [!DNL Platform Launch].
 
 >[!NOTE]
 >
@@ -129,11 +129,11 @@ Navigate to your company page, then click [!UICONTROL Add Property], or select a
 
 1. Click **[!UICONTROL Save]**.
 
-After your property is created, [!DNL Launch] automatically adds a default host, a set of environments (Development, Staging, and Production) and the default extensions.
+After your property is created, [!DNL Platform Launch] automatically adds a default host, a set of environments (Development, Staging, and Production) and the default extensions.
 
 ## Delete a property
 
-Delete a property from [!DNL Launch].
+Delete a property from [!DNL Platform Launch].
 
 >[!NOTE]
 >

@@ -7,11 +7,11 @@ seo-description: Adobe Experience Platform Launch hosts
 
 # Adobe-managed hosts overview
 
-Adobe-managed hosts are the default host setting for deploying your library builds in Adobe Experience Platform Launch. When you create a new property through the Launch user interface, a default Adobe-managed host is created for you. 
+Adobe-managed hosts are the default host setting for deploying your library builds in Adobe Experience Platform Launch. When you create a new property through the Platform Launch user interface, a default Adobe-managed host is created for you. 
 
-With Adobe-managed hosts, library builds are delivered to a third-party content delivery network (CDN) that Adobe has contracted with. These CDNs operate independently from Adobe, so even when Launch is undergoing maintenance or is otherwise down, your deployed code will continue to function as normal on your sites and applications. The embed code for an Adobe-managed host references the main library file on the CDN so a client device can retrieve the files at runtime.
+With Adobe-managed hosts, library builds are delivered to a third-party content delivery network (CDN) that Adobe has contracted with. These CDNs operate independently from Adobe, so even when Platform Launch is undergoing maintenance or is otherwise down, your deployed code will continue to function as normal on your sites and applications. The embed code for an Adobe-managed host references the main library file on the CDN so a client device can retrieve the files at runtime.
 
-This document provides an overview of Adobe-managed hosts in Launch, and provides steps on how to create a new Adobe-managed host in the UI.
+This document provides an overview of Adobe-managed hosts in Platform Launch, and provides steps on how to create a new Adobe-managed host in the UI.
 
 ## Akamai
 
@@ -25,7 +25,7 @@ Files hosted on Akamai have a domain of `assets.adobedtm.com`. This can be refer
 
 >[!WARNING]
 >
->If your library is unavailable from the Akamai network, Launch is unable to prevent any errors that may arise because of it.
+>If your library is unavailable from the Akamai network, Platform Launch is unable to prevent any errors that may arise because of it.
 
 ## Library build caching
 
@@ -54,9 +54,9 @@ When an edge node receives a request for a specific file (such as your library b
 
 #### Edge cache invalidation {#invalidation}
 
-When you upload a new library build, Launch invalidates the caches on all applicable edge nodes, which means that each node considers its cached version to be invalid, regardless of how recently it retrieved a fresh copy. The next time an edge node receives a request for that file, the node retrieves a fresh copy from the origin.
+When you upload a new library build, Platform Launch invalidates the caches on all applicable edge nodes, which means that each node considers its cached version to be invalid, regardless of how recently it retrieved a fresh copy. The next time an edge node receives a request for that file, the node retrieves a fresh copy from the origin.
 
-Because Akamai has multiple origin servers that replicate files between each other, and because there is no way of knowing which origin received your file first, it is possible for these node requests to hit an origin that does not have the latest version, and then cache the older version again. To prevent this from occurring, Launch performs multiple cache invalidations for each new build on the following intervals:
+Because Akamai has multiple origin servers that replicate files between each other, and because there is no way of knowing which origin received your file first, it is possible for these node requests to hit an origin that does not have the latest version, and then cache the older version again. To prevent this from occurring, Platform Launch performs multiple cache invalidations for each new build on the following intervals:
 
 * Immediately after upload
 * 5 minutes after upload
@@ -68,7 +68,7 @@ These staggered cache invalidations give the origin server groups time to replic
 
 Library builds are also cached on the browser through the use of the `cache-control` HTTP header. When using Adobe-managed hosts, you do not have control over the headers returned in API responses, so the Adobe default for caching is used. In other words, you cannot utilize custom headers for Adobe-managed hosts. If you require a custom `cache-control` header, you may want to consider [self-hosting](self-hosting-libraries.md) instead.
 
-The time-to-live (TTL) for your browser-cached library build (determined by the `cache-control` header) will vary depending on the Launch environment you are using:
+The time-to-live (TTL) for your browser-cached library build (determined by the `cache-control` header) will vary depending on the Platform Launch environment you are using:
 
 | Environment | `cache-control` value |
 | --- | --- |
@@ -80,9 +80,9 @@ As the table above indicates, browser caching is not supported on development an
 
 Cache control headers are only applied for the main library build. Any sub-resources below the main library are always considered net-new, and therefore there is no need to cache them on the browser.
 
-## Using Adobe-managed hosting in the Launch UI
+## Using Adobe-managed hosting in the Platform Launch UI
 
-When you first create a property in the [Launch UI](http://launch.adobe.com/), an Adobe-managed host is automatically created for you. All environments that are provided out-of-the-box for the property are also assigned to the Adobe-managed host by default.
+When you first create a property in the [Platform Launch UI](http://launch.adobe.com/), an Adobe-managed host is automatically created for you. All environments that are provided out-of-the-box for the property are also assigned to the Adobe-managed host by default.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ When you first create a property in the [Launch UI](http://launch.adobe.com/), a
 
 ## Next steps
 
-This document provided an overview of Adobe-managed hosting in Launch. For information on other hosting options, refer to the following documentation:
+This document provided an overview of Adobe-managed hosting in Platform Launch. For information on other hosting options, refer to the following documentation:
 
 * [SFTP hosting](./sftp-host.md)
 * [Self-hosting libraries](./self-hosting-libraries.md)

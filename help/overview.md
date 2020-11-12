@@ -1,17 +1,17 @@
 ---
-title: [!DNL Launch] Overview
-seo-title: [!DNL Launch] Overview in [!DNL Adobe Experience Platform Launch]
-description: [!DNL Adobe Experience Platform Launch] overview
-seo-description: [!DNL Adobe Experience Platform Launch] overview
+title: Adobe Experience Platform Launch Overview
+seo-title: Adobe Experience Platform Launch Overview in Adobe Experience Platform Launch
+description: Adobe Experience Platform Launch overview
+seo-description: Adobe Experience Platform Launch overview
 ---
 
-# Launch Overview
+# Adobe Experience Platform Launch Overview
 
-[!DNL Launch] is the next-generation of tag management capabilities from [!DNL Adobe]. [!DNL Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+[!DNL Adobe Experience Platform Launch] is the next-generation of tag management capabilities from [!DNL Adobe]. [!DNL Platform Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
-[!DNL Launch] empowers anyone to build and maintain their own integrations with [!DNL Launch], called _extensions_. These extensions are available to [!DNL Launch] customers in an app-store experience so they can quickly install, configure, and deploy their tags.
+[!DNL Platform Launch] empowers anyone to build and maintain their own integrations, called _extensions_. These extensions are available to [!DNL Platform Launch] customers in an app-store experience so they can quickly install, configure, and deploy their tags.
 
-[!DNL Launch] is offered to [!DNL Adobe Experience Cloud] customers as an included, value-add feature. [!DNL Launch] is an entirely new product with a new code base, designed to replace the previous [!DNL Dynamic Tag Management (DTM)] service. However, [!DNL DTM] will continue to be supported for the foreseeable future. [!DNL Adobe] will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy [!DNL DTM].
+[!DNL Platform Launch] is offered to [!DNL Adobe Experience Cloud] customers as an included, value-add feature. [!DNL Platform Launch] is an entirely new product with a new code base, designed to replace the previous [!DNL Dynamic Tag Management (DTM)] service. However, [!DNL DTM] will continue to be supported for the foreseeable future. [!DNL Adobe] will continue to fix any significant bugs and ensure consistent performance. At this time, no major feature enhancements are planned for legacy [!DNL DTM].
 
 ## Key benefits
 
@@ -23,7 +23,7 @@ seo-description: [!DNL Adobe Experience Platform Launch] overview
 
 ### Extensions
 
-An extension is a package of code (JavaScript, HTML, and CSS) that extends the [!DNL Launch] UI and client functionality. Build, manage, and update your integrations using a virtually self-service interface. You can think of [!DNL Launch] as an operating system, and extensions are the apps you use to achieve your tasks.
+An extension is a package of code (JavaScript, HTML, and CSS) that extends the [!DNL Platform Launch] UI and client functionality. Build, manage, and update your integrations using a virtually self-service interface. You can think of [!DNL Platform Launch] as an operating system, and extensions are the apps you use to achieve your tasks.
 
 ### Extension Catalog
 
@@ -60,18 +60,18 @@ The publishing process enables teams to publish code to pages. Different people 
 
 Automate implementations of individual technologies, or a group of technologies.
 
-* Launch interacts with the Reactor APIs.
+* [!DNL Platform Launch]  interacts with the Reactor APIs.
 * Deployments can be automated through APIs.
-* Integrate the Launch APIs with your own internal systems.
+* Integrate the [!DNL Platform Launch]  APIs with your own internal systems.
 * You can build your own user interface, if desired.
 
 ### Light, Modular Container tag
 
-The [!DNL Launch] container tag is 60% lighter than [!DNL DTM] and 40% lighter than [!DNL Google Tag Manager]. The content of your container is minified, including your custom code. Everything is modular. If you don't need an item, it is not included in your library. The result is an implementation that is fast and compact. See [Minification](/help/launch-reference/publishing/builds.md).
+The [!DNL Platform Launch] container tag is 60% lighter than [!DNL DTM] and 40% lighter than [!DNL Google Tag Manager]. The content of your container is minified, including your custom code. Everything is modular. If you don't need an item, it is not included in your library. The result is an implementation that is fast and compact. See [Minification](/help/launch-reference/publishing/builds.md).
 
 ## Other highlights
 
-Launch provides several improvements over similar systems, including:
+[!DNL Platform Launch]  provides several improvements over similar systems, including:
 
 * No use of `document.write ()` where Chrome doesn't allow it.
 * The Page Top and Page Bottom rules are bundled into the main library to minimize unnecessary HTTP calls.
@@ -80,8 +80,8 @@ Launch provides several improvements over similar systems, including:
 
 ## Requirements
 
-[!DNL Launch] requires the following:
+[!DNL Platform Launch] requires the following:
 
 * You must be an [!DNL Adobe Experience Cloud] customer.
-* You must deploy the [!DNL Launch] or [!DNL DTM] embed code on your web pages.
+* You must deploy the [!DNL Adobe Experience Platform Launch] or [!DNL DTM] embed code on your web pages.
 
