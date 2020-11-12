@@ -198,7 +198,6 @@ A path to a key-value pair on an event sent to Adobe Experience Platform Edge Ne
 To reference the entire object of an event, enter `arc` as the path. The acronym `arc` stands for Adobe Resource Context and is the top-level path for an event sent to Adobe Experience Platform Edge Network.  
 
 For example, given the `interact` call from the client to Edge Network has the following request as seen from the browser console: 
- 
 
 ```javascript
 "events": [ 
