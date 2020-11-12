@@ -27,7 +27,7 @@ If you are copying a rule or a data element, in the copy dialog you may use the 
 
 >[!NOTE]
 >
->In the Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
+>In the Adobe Experience Platform Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
 
 Once you've configured the behavior you want, click **[!UICONTROL Copy]**.
 
@@ -52,11 +52,11 @@ When you copy an extension to another property, there are a few things that you 
 
 ## Copying rules and data elements
 
-All rules and data elements are provided by an extension, so when you copy across properties, [!DNL Launch] must account for these underlying extensions.
+All rules and data elements are provided by an extension, so when you copy across properties, [!DNL Platform Launch] must account for these underlying extensions.
 
 ![Copying a Rule to my Demo Property](/help/assets/copy-rules-dialog1.png)
 
-An explanation of exactly what [!DNL Launch] is planning to do is available inside the Copy dialog before you actually begin copying.  The above dialog is for a rule, but the same applies to data elements.
+An explanation of exactly what [!DNL Platform Launch] is planning to do is available inside the Copy dialog before you actually begin copying.  The above dialog is for a rule, but the same applies to data elements.
 
 1. **Extensions required by these rules are copied.** This lets you know that required extensions will go along with the rule.  These copies follow the same rules as a regular extension copy outlined above.
 1. **Extension settings will NOT be copied if the extension is already installed.** This means if the required extensions already exist on the destination property, the extension remains as is.  If you wish to copy the extension settings as well, you can use the **Replace extension settings on destination property** toggle and the explanation is updated accordingly.

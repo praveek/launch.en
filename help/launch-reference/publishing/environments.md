@@ -15,6 +15,8 @@ Environments in Adobe Experience Platform Launch define several key aspects of t
 
 When you create a library build in [!DNL Platform Launch], you must assign it to an environment. The build's extensions, rules, and data elements are then compiled and placed into the assigned environment. Each environment provides a unique embed code that allows you to integrate its assigned build into your site.
 
+Different Adobe Experience Platform Launch artifacts can exist in each Environment. This allows you to test different Libraries in different environments as you push them through your Workflow.
+
 This document provides steps on how to install, configure, and create different environments in the Launch user interface.
 
 ## Environment types

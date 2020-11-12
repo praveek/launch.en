@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch administration
 
 # Administration
 
-This section contains information that is useful for [!DNL Launch] administrators.
+This section contains information that is useful for [!DNL Adobe Experience Platform Launch] administrators.
 
 * [**User Permissions**](user-permissions.md)
 

@@ -17,12 +17,12 @@ CSPs are implemented by adding a `Content-Security-Policy` HTTP header to your s
 
 As a tag management system, Adobe Experience Platform Launch is designed to dynamically load scripts on your website. A default CSP blocks these dynamically loaded scripts due to potential security problems. This document provides guidance on how to configure your CSP to allow dynamically loaded scripts from [!DNL Platform Launch].
 
-## Issues to overcome
+If you want Adobe Experience Platform Launch to work with your CSP, there are two main challenges to overcome:
 
-If you want [!DNL Platform Launch] to work with your CSP, there are two main challenges to overcome:
+* **The source for your Platform Launch library must be trusted.** If this condition is not met, the Platform Launch library and other required JavaScript files are blocked by the browser and won't load on the page.
+* **Inline scripts must be allowed.** If this condition is not met, Custom Code rule actions are blocked on the page and won't execute properly.
 
-- **The source for your library build must be trusted.** If this condition is not met, the library build and other required JavaScript files are blocked by the browser and will not load on the page.
-- **Inline scripts must be allowed.** If this condition is not met, custom scripts are blocked on the page and will not execute properly.
+If you want to use Platform Launch _and_ have a CSP in place, you have to fix both of these problems without incorrectly marking other scripts as safe. Increasing security comes at the price of increasing the amount of work on your part.
 
 If you want to use [!DNL Platform Launch] and have a CSP in place, you have to address both of these issues without incorrectly marking other scripts as safe. The rest of this document provides guidance on how to achieve this.
 
@@ -33,6 +33,8 @@ When using a CSP, you must include any trusted domains within the value of the `
 ### Self-hosting
 
 If you are [self-hosting](../publishing/hosts/self-hosting-libraries.md) your library, then the source for your build is probably your own domain. You can specify that the host domain is a safe source by using the following configuration:
+
+You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Platform Launch library won't load on the page.
 
 **HTTP header**
 
@@ -58,6 +60,9 @@ Content-Security-Policy: script-src 'self' assets.adobedtm.com
 
 **HTML `<meta>` tag**
 
+
+There is a very important prerequisite: You must load the Platform Launch library [asynchronously](https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html). This does not work with a synchronous load of the Platform Launch library (which results in console errors and rules not executing properly).
+
 ```html
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' assets.adobedtm.com">
 ```
@@ -68,8 +73,8 @@ You should specify `self` as a safe domain so that any scripts that you are alre
 
 CSP disallows inline scripts by default, and therefore must be manually configured to allow them. You have two options to allow inline scripts:
 
-- [Allow by nonce](#nonce) (good security)
-- [Allow all inline scripts](#unsafe-inline) (least secure)
+* [Allow by nonce](#nonce) (good security)
+* [Allow all inline scripts](#unsafe-inline) (least secure)
 
 >[!NOTE]
 >

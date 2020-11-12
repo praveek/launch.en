@@ -52,7 +52,7 @@ Available actions for a library in Development state are:
 
 * Delete
 
-  Deleting a library removes it from Launch. It does not remove the build from the environment.
+  Deleting a library removes it from Adobe Experience Platform Launch. It does not remove the build from the environment.
 
 ### Submitted {#submitted}
 

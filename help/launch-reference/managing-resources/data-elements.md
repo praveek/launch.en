@@ -9,7 +9,7 @@ seo-description: Data Elements in Adobe Experience Platform Launch
 
 Data elements are the building blocks for your data dictionary (or data map). Use data elements to collect, organize, and deliver data across marketing and ad technology.
 
-A single data element is a variable whose value can be mapped to query strings, URLs, cookie values, JavaScript variables, and so on. You can reference this value by its variable name throughout [!DNL Launch]. This collection of data elements becomes the dictionary of defined data that you can use to build your rules (events, conditions, and actions). This data dictionary is shared across all of [!DNL Launch] for use with any extension you've added to your property.
+A single data element is a variable whose value can be mapped to query strings, URLs, cookie values, JavaScript variables, and so on. You can reference this value by its variable name throughout [!DNL Adobe Experience Platform Launch]. This collection of data elements becomes the dictionary of defined data that you can use to build your rules (events, conditions, and actions). This data dictionary is shared across all of [!DNL Platform Launch] for use with any extension you've added to your property.
 
 >[!IMPORTANT]
 >
@@ -19,9 +19,9 @@ Use data elements as widely as possible throughout rule creation to consolidate 
 
 The concept of reusable data elements is very powerful and you should use them as best practice.
 
-For example, if there is a particular way that you reference page names or product IDs, or grab information from query string parameters from an affiliate marketing link or from [!DNL AdWords], and so forth, you can create a data dictionary (data elements) by getting information from its source and then using this data in various [!DNL Launch] rules.
+For example, if there is a particular way that you reference page names or product IDs, or grab information from query string parameters from an affiliate marketing link or from [!DNL AdWords], and so forth, you can create a data dictionary (data elements) by getting information from its source and then using this data in various [!DNL Platform Launch] rules.
 
-Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within the website. In [!DNL Launch], you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name (for example, you have been referencing `document.title` but you now want to reference a particular data layer), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
+Using page name as an example, suppose you use a particular page-name schema by referencing a data layer, `document.title` element, or a title tag within the website. In [!DNL Platform Launch], you can create a data element as a single point of reference for that particular point of data. You can then use this data element in any rule that needs to reference the page name. If for some reason in the future you decide to change the way you reference page name (for example, you have been referencing `document.title` but you now want to reference a particular data layer), you don't need to edit many different rules to change that reference. You simply change the reference once in the data element and all rules that reference that data element automatically update.
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
 1. Name the data element.
 1. Select an extension and type.
 
-   The available data element types are determined by the extension. For information about the types available with the Launch Core extension, refer to [Types of data elements](data-elements.md#types-of-data-elements).
+   The available data element types are determined by the extension. For information about the types available with the Platform Launch Core extension, refer to [Types of data elements](data-elements.md#types-of-data-elements).
 
 1. Provide any requested information about the chosen type in the fields provided.
 1. (Optional) Enter a default value.
@@ -132,7 +132,7 @@ Get the value of:
 
 Any available JavaScript object or variable can be referenced using the path field.
 
-When you have JavaScript variables, or object properties in your markup, and you want to collect those values in [!DNL Launch] to use with any of your extensions or rules, one way to capture those values is to use data elements in [!DNL Launch]. This way, you can refer to the data element throughout your rules, and if the source of the data ever changes, you only need to change your reference to the source (the data element) in one place in [!DNL Launch].
+When you have JavaScript variables, or object properties in your markup, and you want to collect those values in [!DNL Platform Launch] to use with any of your extensions or rules, one way to capture those values is to use data elements in [!DNL Platform Launch]. This way, you can refer to the data element throughout your rules, and if the source of the data ever changes, you only need to change your reference to the source (the data element) in one place in [!DNL Platform Launch].
 
 For example, let's say your markup contains a JavaScript variable called `Page_Name`, like this:
 
@@ -143,7 +143,7 @@ For example, let's say your markup contains a JavaScript variable called `Page_N
 </script>
 ```
 
-When you create the data element in [!DNL Launch], simply provide the path to that variable.
+When you create the data element in [!DNL Platform Launch], simply provide the path to that variable.
 
 If you use a data collector object as party of your data layer, simply use dot notation in the path to reference the object and property you want to capture into the data element, like `_myData.pageName`, or `digitalData.pageName`, etc.
 
@@ -228,7 +228,7 @@ Some common use cases include:
 
 ## Built-in data elements
 
-If you used any of the following data elements in the past, you must create custom data element in [!DNL Launch]:
+If you used any of the following data elements in the past, you must create custom data element in [!DNL Platform Launch]:
 
 * URI
 * Protocol

@@ -21,7 +21,7 @@ To configure the extension, open the **[!UICONTROL Extensions]** tab, hover over
 
 ### Instance Name
 
-The Adobe Experience Platform extension supports multiple instances on the page. This is used to send data to multiple organizations with a single launch configuration. The **[!UICONTROL Name]** defaults to alloy. However, you can change the instance name to any valid JavaScript object name. The Adobe Experience Platform extension requires that each instance have a different **[!UICONTROL Config ID]** and a different **[!UICONTROL Organization ID]**. 
+The Adobe Experience Platform extension supports multiple instances on the page. This is used to send data to multiple organizations with a single Adobe Experience Platform Launch configuration. The **[!UICONTROL Name]** defaults to alloy. However, you can change the instance name to any valid JavaScript object name. The Adobe Experience Platform extension requires that each instance have a different **[!UICONTROL Config ID]** and a different **[!UICONTROL Organization ID]**. 
 
 ## **[!UICONTROL Config ID]**
 
@@ -38,7 +38,7 @@ The **[!UICONTROL Edge Domain]** is the domain that the Adobe Experience Platfor
 
 ### **[!UICONTROL Enable Errors]**
 
-By default, if there is an error with the extension, it logs the error to the console. If you want to hide the errors in a production environment, you can uncheck the **[!UICONTROL Enable Errors]** checkbox. Errors still print out when debugging is turned on in Launch. 
+By default, if there is an error with the extension, it logs the error to the console. If you want to hide the errors in a production environment, you can uncheck the **[!UICONTROL Enable Errors]** checkbox. Errors still print out when debugging is turned on in Platform Launch. 
 
 ### **[!UICONTROL Enable Opt-in]**
 

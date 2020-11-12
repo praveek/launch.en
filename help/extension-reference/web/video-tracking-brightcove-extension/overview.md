@@ -9,7 +9,7 @@ seo-description: Video Tracking | BrightCove Extension for Adobe Experience Plat
 
 ## Pre-Requisites
 
-Each Launch property needs the following extensions installed and configured in the Extension screen:
+Each Adobe Experience Platform Launch property needs the following extensions installed and configured in the Extension screen:
 
 * Adobe Analytics
 * Experience Cloud Visitor ID Service
@@ -19,15 +19,15 @@ Per [https://studio.support.brightcove.com/publish/choosing-correct-embed-code.h
 
 While this extension version 1.1.0 supports embedding multiple BrightCove videos on a single Web page, be sure that the `id` property within the advanced embed tags, if they exist, have different values, like: `player1`, `player2`, and so on.
 
-On pages with multiple videos, note that each video uses the same configuration set in the Launch rule executing on that page. For example, if you create a rule with an event that triggers on a video that is 50% complete, each video on the page triggers the rule at the 50% cue point.
+On pages with multiple videos, note that each video uses the same configuration set in the Platform Launch rule executing on that page. For example, if you create a rule with an event that triggers on a video that is 50% complete, each video on the page triggers the rule at the 50% cue point.
 
-If the webpage you are planning to use with this extension has a chance of interacting with the video before the Launch tag has had a chance to completely load, consider loading the Launch library synchronously, and place the `<script type="text/javascript">\_satellite.pageBottom();\</script\>` tag before the video embed on the page to mitigate potential timing issues. For reference, see [https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer](https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer), on the BrightCove API that is used with this extension.
+If the webpage you are planning to use with this extension has a chance of interacting with the video before the Platform Launch tag has had a chance to completely load, consider loading the Platform Launch library synchronously, and place the `<script type="text/javascript">\_satellite.pageBottom();\</script\>` tag before the video embed on the page to mitigate potential timing issues. For reference, see [https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer](https://docs.brightcove.com/brightcove-player/1.x/Player.html#vjsplayer), on the BrightCove API that is used with this extension.
 
 ## Data Elements
 
 There are seven data elements available within the extension, none of which require configuration.
 
-* **Playhead Position:** This data element records the place, in seconds, of the playhead position on the video timeline, when it is called upon within a Launch Rule.
+* **Playhead Position:** This data element records the place, in seconds, of the playhead position on the video timeline, when it is called upon within a Platform Launch Rule.
 * **Video Account ID:** This data element records the ID of the Brightcove account that published the video.
 * **Video Duration:** This data element records the total duration, in seconds, of the video content. Additionally, a Calculated Metric can be created within Analytics to convert the number in seconds, to minutes or hours.
 * **Video Ad Support:** This data elements specifies whether ads are supported within the video or not.
@@ -50,7 +50,7 @@ There are seven events available within the extension, only Custom Cue Point Tra
 
 ## Usage
 
-There will be one Launch Rule for every Video Event (the seven events listed above). Create a specific Launch rule for each event you want to track. In other words, if you don&#39;t want to track Video Pause, don&#39;t create a rule for it.
+There will be one Platform Launch rule for every Video Event (the seven events listed above). Create a specific Platform Launch rule for each event you want to track. In other words, if you don&#39;t want to track Video Pause, don&#39;t create a rule for it.
 
 The rules have three actions:
 
@@ -58,7 +58,7 @@ The rules have three actions:
 1. Send the Adobe Analytics beacon.
 1. Clear the Adobe Analytics variables.
 
-_Example Launch Rule for &quot;Video Start&quot;_
+_Example Platform Launch Rule for &quot;Video Start&quot;_
 
 The following Video Extension objects are to be included:
 
@@ -84,7 +84,7 @@ None
 
 >[!TIP]
 >
->For those who might not want to provision multiple eVars or props for each video element, data elements values can be concatenated within Launch, and then parsed into Classification reports using the Classification Rule Builder Tool, [https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html), and then applied as a segment in Analysis Workspace.
+>For those who might not want to provision multiple eVars or props for each video element, data elements values can be concatenated within Platform Launch, and then parsed into Classification reports using the Classification Rule Builder Tool, [https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html), and then applied as a segment in Analysis Workspace.
 >
 >To do this, create a new data element called something like &quot;Video MetaData&quot; and program it to pull in all the Video Data Elements (listed above) and concatenate them together.
 
