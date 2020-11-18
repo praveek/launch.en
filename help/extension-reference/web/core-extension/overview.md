@@ -573,6 +573,10 @@ Specify the maximum number of times the condition returns true. You can select f
 * Weeks
 * Months
 
+For the condition max frequency 1 per session, these two `localStorage` items are compared. If the `visitorTracking.sessionCount` is greater than the `maxFrequency.session` count, then the sampling condition is true. If they are equal, the condition is false.
+
+`sessionCount` is a `visitorTracking` item, so you the visitor API must be enabled for the sampling condition to work.
+
 #### Sampling
 
 Specify the percentage of the time the condition returns true.
