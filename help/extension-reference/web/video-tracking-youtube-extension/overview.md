@@ -79,15 +79,17 @@ Condition: None
 
 Actions: Use the Analytics extension to:
 
-1. ”Set Variables” action, to map:
-  * The event for Video Star,
-  * A prop/eVar for the Video Duration data element
-  * A prop/eVar for the Video ID data element
-  * A prop/eVar for the Video Name data element
-  * A prop/eVar for the Video URL data element
-1. Then, include the ”Send Beacon” action (`s.tl`) with link name ”video start," followeded by a ”Clear Variables” action.
+”Set Variables” action, to map:
 
->[!Tip]
+* The event for Video Star,
+* A prop/eVar for the Video Duration data element
+* A prop/eVar for the Video ID data element
+* A prop/eVar for the Video Name data element
+* A prop/eVar for the Video URL data element
+
+Then, include the ”Send Beacon” action (`s.tl`) with link name ”video start," followeded by a ”Clear Variables” action.
+
+> [!Tip]
 > 
 > For implementations where multiple eVars or props for each video element can't be used, data element values can be concatenated within Platform Launch, parsed into classification reports using the Classification Rule Builder tool, as explained in [https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html), and then applied as a segment in Analysis Workspace.
 
