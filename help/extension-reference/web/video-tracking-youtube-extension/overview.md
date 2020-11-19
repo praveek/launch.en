@@ -5,7 +5,7 @@ description: Video Tracking | YouTube Release Notes for Adobe Experience Platfor
 seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
 ---
 
-# Video Custom Cue Tracker: YouTube Extension Documentation
+# Video Custom Cue Tracker: YouTube extension documentation
 
 **Prerequisites**
 
@@ -34,7 +34,7 @@ document.onreadystatechange = function () {
 
 Therefore, there will be a slight flicker after the page loads. This behavior is expected.
 
-## Data Elements
+## Data elements
 
 There are five data elements available within the extension, none of which require configuration.
 
