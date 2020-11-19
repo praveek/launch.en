@@ -5,13 +5,7 @@ description: Video Tracking | YouTube Release Notes for Adobe Experience Platfor
 seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
 ---
 
-# Video Tracking | YouTube Release Notes
-
-## November 19, 2020
-
-### Video Tracking | YouTube  1.0.0
-
-**Video Custom Cue Tracker: YouTube | Extension Documentation**
+# Video Custom Cue Tracker: YouTube Extension Documentation
 
 **Pre-Requisites**
 
