@@ -111,4 +111,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Video tracking [!DNL BrightCove] extension {#brightcove-extension}
       * [Video tracking BrightCove extension](extension-reference/web/video-tracking-brightcove-extension/overview.md)
       * [Video tracking BrightCove extension release notes](extension-reference/web/video-tracking-brightcove-extension/video-tracking-brightcove-extension-release-notes.md)
+    * Video tracking [!DNL YouTube] extension {#youtubee-extension}
+      * [Video tracking YouTube extension](extension-reference/web/video-tracking-youtube-extension/overview.md)
+      * [Video tracking YouTube extension release notes](extension-reference/web/video-tracking-youtube-extension/video-tracking-youtube-extension-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
