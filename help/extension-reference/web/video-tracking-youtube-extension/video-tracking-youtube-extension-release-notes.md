@@ -14,4 +14,4 @@ seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Pla
 
 #### Features
 
-* Custom Cue Tracking for YouTube Videos
+* Custom cue tracking for YouTube videos
