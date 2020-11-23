@@ -57,6 +57,14 @@ If you are using a mobile property, you are given separate instructions for inst
 
 ![](./assets/environments/mobile-instructions.png)
 
+## Mobile configuration
+
+For mobile properties, you can view the configuration options for an environment by selecting it from the list. From here, you can change the name of the environment. Mobile environments currently can only use Adobe-managed hosts.
+
+![](./assets/environments/mobile-config.png)
+
+See the overview on [hosts](./hosts/hosts-overview.md) for more information.
+
 ## Web configuration
 
 For web properties, [!DNL Platform Launch] uses the settings from the assigned environment to determine the following:
