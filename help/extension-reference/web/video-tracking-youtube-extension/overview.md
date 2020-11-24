@@ -46,7 +46,7 @@ There are five data elements available within the extension, none of which requi
 
 ## Events
 
-There are seven events available within the extension, only Custom Cue Point Tracking requires configuration.
+There are eight events available within the extension, only Custom Cue Point Tracking requires configuration.
 
 * **Video Ready:** Triggers when the video is cued, and ready to play.
 * **Video Start:** Triggers when the video is first started, and when `player.getCurrentTime() === 0`
