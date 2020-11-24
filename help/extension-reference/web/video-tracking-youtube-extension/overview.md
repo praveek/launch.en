@@ -2,7 +2,7 @@
 title: Video Tracking | YouTube Release Notes
 seo-title: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
 description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
+seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
 ---
 
 # Video Custom Cue Tracker: YouTube extension documentation
