@@ -2,7 +2,7 @@
 title: Video Tracking | YouTube Release Notes
 seo-title: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
 description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
+seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
 ---
 
 # Video Custom Cue Tracker: YouTube extension documentation
@@ -17,7 +17,7 @@ Each Adobe Experience Platform Launch property requires that the following exten
 
 Per [https://developers.google.com/youtube/player_parameters](https://developers.google.com/youtube/player_parameters), use the ”Embed a player using an tag” code snippet in the HTML of each Web page where a video player is to render.
 
-This extension version 1.0.0 supports embedding one or more YouTube videos on a single Web page by inserting an `id` attribute with a unique value in the iframe tag, and appending `?enablejsapi=1` to the end of the `src` attribute value. For example:
+This extension version 1.0.1 supports embedding one or more YouTube videos on a single Web page by inserting an `id` attribute with a unique value in the iframe tag, and appending `?enablejsapi=1` to the end of the `src` attribute value. For example:
 
 `<iframe id="player1" width="560" height="315" src="https://www.youtube.com/embed/xpatB77BzYE?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
@@ -46,10 +46,11 @@ There are five data elements available within the extension, none of which requi
 
 ## Events
 
-There are seven events available within the extension, only Custom Cue Point Tracking requires configuration.
+There are eight events available within the extension, only Custom Cue Point Tracking requires configuration.
 
 * **Video Ready:** Triggers when the video is cued, and ready to play.
 * **Video Start:** Triggers when the video is first started, and when `player.getCurrentTime() === 0`
+* **Video Replay:** Triggers when the video is cued, and replayed after the initial start. This trigger will fire on every replay.
 * **Video Pause:** Triggers when the video is paused.
 * **Video Resume:** Triggers when the video is resumed, and when `player.getCurrentTime() !== 0`
 * **Custom Cue Tracking:** Triggers when the video reaches the specified video threshold percentage. 
