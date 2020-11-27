@@ -42,8 +42,10 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
       * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
       * [SFTP Hosts](launch-reference/publishing/hosts/sftp-host.md)
+    * Environments {#environments}
+      * [Overview](launch-reference/publishing/environments.md)
+      * [Test embed codes using Adobe Experience Platform Debugger](launch-reference/publishing/embed-code-testing.md)
     * [Builds](launch-reference/publishing/builds.md)
-    * [Environments](launch-reference/publishing/environments.md)
     * [Libraries](launch-reference/publishing/libraries.md)
     * [Self-hosting libraries](launch-reference/publishing/hosts/self-hosting-libraries.md)
     * [Republish library](launch-reference/publishing/republish.md)
