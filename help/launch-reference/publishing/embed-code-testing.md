@@ -13,14 +13,14 @@ As you make changes to your library builds in Adobe Experience Platform Launch, 
 
 This tutorial requires a working understanding of the use of environments and embed codes in Platform Launch. See the [environments overview](./environments.md) for more information.
 
-This tutorial also requires that you have the Platform Debugger browser extension installed. Use one of the following links to install the extension before starting the tutorial:
+This tutorial also requires that you have the Platform Debugger browser extension installed. Platform Debugger is only available for Chrome and Firefox browsers. Use one of the following links to install the extension before starting the tutorial:
 
 * [Platform Debugger for Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob)
 * [Platform Debugger for Firefox](https://addons.mozilla.org/en-US/firefox/addon/adobe-experience-platform-dbg/)
 
 ## Open Platform Debugger on your website
 
-Using your browser of choice, navigate to your website and open the Platform Debugger extension. If Platform Launch is currently running on your site, it will be listed in the [!UICONTROL Summary] tab.
+Using your browser of choice, navigate to your website and open the Platform Debugger extension. The site that Platform Debugger is currently connected to is displayed at the bottom of the window. If Platform Launch is currently running on your site, it will be listed in the [!UICONTROL Summary] tab.
 
 ![](./assets/embed-code-testing/summary.png)
 
@@ -44,7 +44,7 @@ Paste the embed code you want to test in the provided text box, then select **[!
 
 ![](./assets/embed-code-testing/paste-code.png)
 
-The [!UICONTROL Configuration] tab reappears, showing that the live embed code has been replaced with the one you provided. You can now use the web browser to see if the embed code you are testing is working as expected.
+The **[!UICONTROL Configuration]** tab reappears, showing that the live embed code has been replaced with the one you provided. You can now use the web browser to see if the embed code you are testing is working as expected.
 
 ![](./assets/embed-code-testing/code-replaced.png)
 
