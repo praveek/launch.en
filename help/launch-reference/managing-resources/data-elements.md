@@ -105,8 +105,12 @@ A return statement is necessary in the editor window in order to indicate what v
 
 **Example:**
 
-```
-@@ -114,6 +114,25 @@ if (window.location.pathname == '/') {
+```text
+var pageType = $('div.page-wrapper').attr('class').split('')[1];
+if (window.location.pathname == '/') {
+  return 'homepage';
+} else {
+  return pageType;
 }
 ```
 
