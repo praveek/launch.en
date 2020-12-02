@@ -42,7 +42,3 @@ This section describes the action types available inthe  [!DNL Marketo Munchkin]
 ![](/help/assets/munchkin-click-link.png)
 
 **href: (required)** The URL file path used to record a link click.
-
-### Associate Lead
-
-**attributes:** Comma-separated key:value pairs to associate lead with.
