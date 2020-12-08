@@ -34,8 +34,6 @@ When using a CSP, you must include any trusted domains within the value of the `
 
 If you are [self-hosting](../publishing/hosts/self-hosting-libraries.md) your library, then the source for your build is probably your own domain. You can specify that the host domain is a safe source by using the following configuration:
 
-You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Platform Launch library won't load on the page.
-
 **HTTP header**
 
 ```http
@@ -50,7 +48,7 @@ Content-Security-Policy: script-src 'self'
 
 ### Adobe-managed hosting
 
-If you are using an [Adobe-managed host](../publishing/hosts/managed-by-adobe-host.md), then your build is maintained on `assets.adobedtm.com`. In this case, you should use the following configuration:
+If you are using an [Adobe-managed host](../publishing/hosts/managed-by-adobe-host.md), then your build is maintained on `assets.adobedtm.com`. You should specify `self` as a safe domain so you don't break any scripts that you are already loading, but you also need `assets.adobedtm.com` to be listed as safe or your Platform Launch library won't load on the page. In this case, you should use the following configuration:
 
 **HTTP header**
 
