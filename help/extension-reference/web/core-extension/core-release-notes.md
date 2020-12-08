@@ -7,6 +7,12 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 # Core Extension Release Notes
 
+## December 8, 2020
+
+v1.8.4
+
+* Fixed a bug where a user was unable to clear or unset the CSP nonce.
+
 ## July 28, 2020
 
 v1.8.3
