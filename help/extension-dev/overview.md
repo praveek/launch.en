@@ -32,6 +32,7 @@ Condition types typically consist of (1) a view shown within the Platform Launch
 [Learn more](./modules/condition-types.md)
 
 ## Action types
+
 A rule action is something that is performed after the rule event has occurred and conditions have passed evaluation.
 
 As an example, an extension could provide a "show support chat" action type which could display a support chat dialog to help users who may be struggling while checking out.
