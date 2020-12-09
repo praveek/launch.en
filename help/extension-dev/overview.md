@@ -1,8 +1,8 @@
 ---
 title: Extension development overview
 seo-title: Extension development overview
-description: Documentation for the Adobe Experience Platform Launch Extensions provided by Adobe solutions.
-seo-description: Documentation for the Adobe Experience Platform Launch Extensions provided by Adobe solutions.
+description: Extension development overview
+seo-description: Extension development overview
 ---
 
 # Extension development overview
@@ -51,7 +51,7 @@ Data element types typically consist of (1) a view shown within the Platform Lau
 
 [Learn more](./modules/data-element-types.md)
 
-## Extension Configuration
+## Extension configuration
 
 Extension configuration is the manner by which an extension gathers global settings from a user. For example, consider an extension that allows the user to send a beacon using a Send Beacon action and the beacon must always contain an account ID. We don't want to trouble users by asking them for the account ID each time they configure a Send Beacon action. Instead, the extension should ask for the account ID once from the extension configuration view. Each time a beacon is to be sent, the Send Beacon action library module can pull the account ID from the extension configuration and add it to the beacon.
 
@@ -61,7 +61,7 @@ Extension configuration consists of a view component which will export settings 
 
 [Learn more](./configuration.md)
 
-## Shared Modules
+## Shared modules
 
 These are library modules that are emitted within the Platform Launch runtime library. A shared module is a module exposed by one extension to be accessed by another. This can be a very useful mechanism for communicating between extensions. For example, Extension A may load a piece of data asynchronously and make it available to Extension B via a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
 
@@ -71,7 +71,7 @@ Shared modules do not have a view component.
 
 [Learn more](./modules/shared.md)
 
-## Extension Structure
+## Extension structure
 
 An extension consists of a directory of files. An overview of how these files should be structured is as follows. Details on file content can be found in other sections.
 
