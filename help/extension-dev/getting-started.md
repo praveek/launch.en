@@ -45,7 +45,7 @@ For example, this can return if the user’s browser is Chrome, if they're using
 * [Action types](./modules/action-types.md): The action to perform when an event occurs. For example, send an analytics beacon, show an offer, save a cookie, or open a support chat.
 * [Data element types](./modules/data-element-types.md): A data element type retrieves a piece of data. This data could be in local storage, in a cookie, in a DOM element, or in a custom location.
 * [Shared modules](./modules/shared.md): A shared module is a mechanism by which extensions may communicate with other extensions.
-* [Views](./modules/view.md): Each event, condition, action, or data element type may provide a view allowing a user to supply settings.
+* [Views](./modules/views.md): Each event, condition, action, or data element type may provide a view allowing a user to supply settings.
 
 >[!NOTE]
 >
