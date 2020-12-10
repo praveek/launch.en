@@ -37,7 +37,7 @@ As we walk through the steps below, we'll assume you're using Mac OS with node a
 
 Once your team is satisfied with the performance of your extension and the results they see in the [Sandbox](https://www.npmjs.com/package/@adobe/reactor-sandbox#running-the-sandbox) tool, you should be ready to upload your extension package to Launch. 
 
-Before uploading, please validate that any required fields or settings are present. For example, reviewing your [extension manifest](../manifest.md), your [extension configuration](../configuration.md), your [views](../views.md), and your [library modules](../modules/format.md) (at a minimum) would be good practice. 
+Before uploading, please validate that any required fields or settings are present. For example, reviewing your [extension manifest](../manifest.md), your [extension configuration](../configuration.md), your [views](../modules/views.md), and your [library modules](../modules/format.md) (at a minimum) would be good practice. 
 
 A specific example is your logo file:  Add an `"iconPath": "example.svg",` line to your `extension.json` file and include that logo image file in your project. This is the relative path to the icon that will be displayed for the extension within Launch. It should not begin with a slash. It must reference an SVG file with a `.svg` extension. The SVG should appear normally when rendered square and may be scaled by our user interface. See [How to Scale SVG](https://css-tricks.com/scale-svg/) for more details.
 
@@ -72,8 +72,6 @@ npx @adobe/reactor-uploader
 `npx` allows you to download and run an npm package without actually installing it on your machine.  This is the simplest way to run the Uploader.
 
 The Uploader will ask you to input several pieces of information.  The technical account ID, API key and other bits of information can be retrieved from the Adobe I/O console.  Navigate to the [Integrations page](https://console.adobe.io/integrations) in the I/O console.  Select the correct Org from the dropdown, find the right integration and click the "View" button.
-
-![](../images/access-token/IO-9.png)
 
 * What is the path to your private key? /path/to/private.key. This is the place you saved your private key in step 2 above.
 * What is your Org ID? Copy/paste this from the I/O Console overview page that you left open earlier.
