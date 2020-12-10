@@ -9,11 +9,11 @@ seo-description: Getting started with extension development
 
 To get you up and running and building extensions, we will be using the open-source scaffolding tool, provided by Adobe Experience Platform Launch engineers to create the necessary files and file structure for your extension package, so all you have left to do is the valuable part: actually write the code.
 
-### Prerequisites
+## Prerequisites
 
-- Install [Node.js](https://nodejs.org/en/download/).
+* Install [Node.js](https://nodejs.org/en/download/).
 
-### Extension Setup
+## Extension Setup
 
 Create a directory where your extension files will live.
 
@@ -49,7 +49,7 @@ For example, this can return if the user’s browser is Chrome, if they're using
 
 >[!NOTE]
 >
->- Subsequent runs of the scaffolding tool will skip over the initial configuration.
->- More than one of each event, condition, action, may be added.
->- Only one configuration view may exist.
+>* Subsequent runs of the scaffolding tool will skip over the initial configuration.
+>* More than one of each event, condition, action, may be added.
+>* Only one configuration view may exist.
 
