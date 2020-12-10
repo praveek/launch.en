@@ -15,7 +15,7 @@ With that knowledge you can plan out what components should be provided in your 
 
 With a plan in place, these guides can help you understand the extension development process:
 
-* The [getting started guide](/extensions/guides/quickstart) and most of the other documents under "Extension development" in the left navigation are great reference material for understanding what extensions can do, how user information is stored and passed between your extension and Platform Launch, how your code is bundled into Platform Launch libraries, and how your extension code is interpreted and used at runtime in the browser.
+* The [getting started guide](../getting-started.md) and most of the other documents under "Extension development" in the left navigation are great reference material for understanding what extensions can do, how user information is stored and passed between your extension and Platform Launch, how your code is bundled into Platform Launch libraries, and how your extension code is interpreted and used at runtime in the browser.
 * The recently updated [tutorial video](https://youtu.be/rxjtC9o4rl0) is a great place to start.
 * The [Introduction to Extensions](https://www.youtube.com/playlist?list=PLOdw8u2F8CIgynzKrPEwCPuDxzHW1WP5m) YouTube playlist walks through the process of creating extension packages.
 * [Understanding JSON Schema](https://spacetelescope.github.io/understanding-json-schema/index.html#) article.
