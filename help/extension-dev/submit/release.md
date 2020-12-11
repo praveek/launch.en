@@ -18,14 +18,14 @@ Once you've completed testing and documenting, you are ready to release. There a
 
 You must release your extension as a private extension before you can release it publicly.
 
-## Release - Private
+## Private release
 
 The easiest way to release your extension to private availability is to use the [Platform Launch Extension Releaser](https://www.npmjs.com/package/@adobe/reactor-releaser). More instructions are found within its documentation.
 
-If you'd like to release your extension to private availability using the API directly, see [Release Private](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/release_private/) in the API docs for more detail.
+If you'd like to release your extension to private availability using the API directly, see the example call for [privately releasing an extension package](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/release_private/) in the API docs for more detail.
 
-## Release - Public
+## Public release
 
 Once you have completed the private release, you can ask Adobe to release it publicly.  This will make your extension available in the public catalog.  Any Platform Launch user can install your extension to any property.
 
-Please complete the [Public Release Request Form](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=7DRB5U) to begin the release process.
+Please complete the [public release request form](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=7DRB5U) to begin the release process.

@@ -34,7 +34,7 @@ There are also a number of npm tools to help you with your extension package dev
 * [Platform Launch Extension Uploader](https://www.npmjs.com/package/@adobe/reactor-uploader) is an interactive command line tool to help you input your technical account credentials and upload your extension package to Platform Launch
 * [Platform Launch Extension Releaser](https://www.npmjs.com/package/@adobe/reactor-releaser) is an interactive command line tool to help you release your extension to private availability
 
-## Example Extensions
+## Example extensions
 
 There are example extensions on Github you can review or use as starter projects:
 
@@ -43,7 +43,7 @@ There are example extensions on Github you can review or use as starter projects
 * [Typekit example extension](https://github.com/jeffchasin/extension-typekit)
 * [Pinterest example extension](https://github.com/jeffchasin/extension-pinterest)
 
-## Slack Workspace
+## Slack workspace
 
 There is a Slack community workspace where extension authors can support each other. You can request access at [http://join.launchdevelopers.chat](http://join.launchdevelopers.chat).
 
