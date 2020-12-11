@@ -41,7 +41,7 @@ Action types typically consist of (1) a view shown within the Platform Launch ap
 
 [Learn more](./modules/action-types.md)
 
-## Data Element types
+## Data element types
 
 Data elements are essentially aliases to pieces of data on a page regardless of whether that data is found in query string parameters, cookies, DOM elements, or some other place. A data element can be referenced by rules and acts as an abstraction for accessing these pieces of data. When the location of the data changes in the future (for example, from a DOM element's `innerHTML` to a JavaScript variable's value), a single data element can be reconfigured while all the rules referencing that data element can remain unchanged.
 

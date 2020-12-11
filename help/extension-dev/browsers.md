@@ -7,7 +7,7 @@ seo-description: Supported browsers
 
 # Supported browsers
 
-The Launch runtime (delivered to clients' websites) is designed to support the following browsers:
+The Adobe Experience Platform Launch runtime (delivered to clients' websites) is designed to support the following browsers:
 
 - Chrome (latest)
 - Safari (latest)
@@ -19,11 +19,11 @@ The Launch runtime (delivered to clients' websites) is designed to support the f
 
 Any extension code included in the runtime should also strive to support these browsers.
 
-The Launch user interface is designed to support the following browsers:
+The Platform Launch user interface is designed to support the following browsers:
 
 - Chrome (latest)
 - Safari (latest)
 - Firefox (latest)
 - Edge (latest)
 
-Any extension code displayed in within the Launch user interface should also strive to support these browsers.
+Any extension code displayed in within the Platform Launch user interface should also strive to support these browsers.

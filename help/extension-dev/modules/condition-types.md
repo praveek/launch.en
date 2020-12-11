@@ -17,7 +17,7 @@ module.exports = function(settings) {
 };
 ```
 
-Now, consider a situation where you want to make the hostname configurable by the Launch user. You may allow the user to input a hostname and then save the hostname to the settings object. The object might look something like this:
+Now, consider a situation where you want to make the hostname configurable by the Adobe Experience Platform Launch user. You may allow the user to input a hostname and then save the hostname to the settings object. The object might look something like this:
 
 ```js
 {

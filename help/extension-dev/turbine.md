@@ -15,25 +15,7 @@ The `turbine` object is a "free variable" within the scope of your extension's l
 console.log(turbine.buildInfo.turbineBuildDate);
 ```
 
-An object containing information about the build of the current Platform Launch runtime library. The object will contain the following values:
-
-* `buildInfo.turbineVersion: string`
-
-  The [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) version used inside the current library.
-
-* `buildInfo.turbineBuildDate: string`
-
-  The ISO 8601 date when the version of [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) used inside the container was built.
-
-* `buildInfo.buildDate: string`
-
-  The ISO 8601 date when the current library was built.
-
-* `buildInfo.environment: string`
-
-  The environment for which this library was built. The possible values are: 'development', 'staging', 'production.'
-
-This is an example demonstrating the object values.
+`turbine.buildInfo` is an object containing build information about the current Platform Launch runtime library.
 
 ```js
 {
@@ -43,6 +25,14 @@ This is an example demonstrating the object values.
     environment: "development"
 }
 ```
+
+| Property | Description |
+| --- | --- |
+| `turbineVersion` | The [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) version used inside the current library. |
+|`turbineBuildDate` | The ISO 8601 date when the version of [Turbine](https://www.npmjs.com/package/@adobe/reactor-turbine) used inside the container was built. |
+|`buildDate` | The ISO 8601 date when the current library was built. |
+|`environment` | The environment for which this library was built. Accepted values are `development`, `staging`, and `production`. |
+
 
 ## [!DNL debugEnabled]
 
@@ -107,7 +97,7 @@ By passing a callback function into `turbine.onDebugChanged`, Platform Launch wi
 
 If you are simply attempting to log messages, it's unlikely you will need to use this. Instead, always log messages using `turbine.logger` and Platform Launch will ensure your messages are only printed to the console when Platform Launch debugging is enabled. 
 
-### [!DNL propertySettings]
+### [!DNL propertySettings] {#property-settings}
 
 ```js
 console.log(turbine.propertySettings.domains);
