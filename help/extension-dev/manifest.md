@@ -111,7 +111,7 @@ A type definition is an object used to describe an event, condition, action, or 
       <td>The text that will be used to represent the type within the Platform Launch user interface. It should be human-readable.</td>
     </tr>
     <tr>
-      <td><code>categoryName</code> *(Optional)*</td>
+      <td><code>categoryName</code> <em>(Optional)</em></td>
       <td>When provided, the <code>displayName</code> will be listed under the <code>categoryName</code> within the Platform Launch UI. All types with the same <code>categoryName</code> will be listed under the same category. For example, if your extension provided a <code>keyUp</code> event type and a <code>keyDown</code> event type and they both had a <code>categoryName</code> of <code>Keyboard</code>, both event types would be listed under the Keyboard category while the user is selecting from the list of available event types when building a rule. The value of <code>categoryName</code> should be human-readable.</td>
     </tr>
     <tr>
@@ -119,7 +119,7 @@ A type definition is an object used to describe an event, condition, action, or 
       <td>The relative path to the type&#39;s library module. It should not not begin with a slash. It must reference a JavaScript file with a <code>.js</code> extension.</td>
     </tr>
     <tr>
-      <td><code>viewPath</code> *(Optional)*</td>
+      <td><code>viewPath</code> <em>(Optional)</em></td>
       <td>The relative URL to the type&#39;s view. It should be relative to <code>viewBasePath</code> and should not begin with a slash. It must reference an HTML file with a <code>.html</code> extension. Query strings and fragment identifiers (hashes) are acceptable. If your type&#39;s library module does not use any settings from a user, you may exclude this property and Platform Launch will instead display a placeholder stating that no configuration is necessary.</td>
     </tr>
     <tr>
@@ -144,7 +144,7 @@ A type definition is an object used to describe an event, condition, action, or 
       We recommend using a tool like <a href="http://www.jsonschemavalidator.net/">JSON Schema validator</a> to manually test your schema.</td>
     </tr>
     <tr>
-      <td><code>transforms</code> *(Optional)*</td>
+      <td><code>transforms</code> <em>(Optional)</em></td>
       <td>An array of objects where each object represents a transformation that should be performed on every corresponding settings object when it is emitted into the runtime library. See the section on <a href="#transforms">transforms</a> for more information on why this may be needed and how it is used.</td>
     </tr>
   </tbody>
