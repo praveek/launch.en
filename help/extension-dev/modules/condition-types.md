@@ -43,11 +43,11 @@ module.exports = function(settings, event) {
 };
 ```
 
-The `event` object will contain the following information:
+The `event` object must contain the following properties:
 
-* `event.$type`: The extension name and event name, joined using a period. For example, `youtube.play`.
-* `event.$rule`: An object containing information about the currently executing rule. The object must contain the following properties:
-  * `event.$rule.id`: The ID of the currently executing rule.
-  * `event.$rule.name`: The name of the currently executing rule.
+| Property | Description |
+| --- | --- |
+| `$type` | A string describing the extension name and event name, joined using a period. For example, `youtube.play`. |
+| `$rule` | An object containing information about the currently executing rule. The object must contain the following sub-properties:<ul><li>`id`: The ID of the currently executing rule.</li><li>`name`: The name of the currently executing rule.</li></ul> |
 
 The extension providing the event type that triggered the rule may optionally add any other useful information to this `event` object.
