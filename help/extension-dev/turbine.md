@@ -68,7 +68,7 @@ Returns the settings object that was last saved from the [extension configuratio
 
 Please note that values within the returned settings objects may be coming from data elements. Because of this, calling `getExtensionSettings()` at different times may yield different results if the values of the data elements have changed. To get the most up-to-date values, please wait until as late as possible before calling `getExtensionSettings()`.
 
-### [!DNL getHostedLibFileUrl]
+### [!DNL getHostedLibFileUrl] {#get-hosted-lib-file}
 
 ```js
 var loadScript = require('@adobe/reactor-load-script');
