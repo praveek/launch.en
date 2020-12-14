@@ -9,6 +9,10 @@ seo-description: Action types
 
 An action type library module is intended to take an action--any action. What this action does is entirely up to you. Do you want to send a beacon, show an offer, thank the user for visiting, save a cookie, or open a support chat?
 
+>[!NOTE]
+>
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
+
 For example, if you wanted to show an alert thanking the user for visiting our site, your module may look like this:
 
 ```js

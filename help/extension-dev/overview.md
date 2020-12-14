@@ -9,9 +9,21 @@ seo-description: Extension development overview
 
 One of the primary goals of Adobe Experience Platform Launch is to create an open ecosystem where engineers outside of the core Platform Launch engineering team can expose additional functionality through Platform Launch. This is done through Reactor extensions. Once an extension has been installed on a Platform Launch property by a user, that extension's functionality then becomes available for use by all users of the property.
 
-The primary components of an extension include the following:
+The sections below outline the primary components of an extension, and provide links for further documentation to guide you on the extension development process.
 
-## Event types
+## Library modules
+
+Library modules are pieces of reusable code provided by an extension that are emitted inside the Platform Launch runtime library. For details on the required format for implementing library modules in your extension, see the [module format overview](./modules/format.md).
+
+In addition to the [core modules](./modules/core.md) provided by Adobe, you can define your own library modules in your extensions. These can be categorized into the following types:
+
+* [Event types](#event)
+* [Condition types](#condition)
+* [Action types](#action)
+* [Data element types](#data-element)
+* [Shared modules](#data-element)
+
+### Event types {#event}
 
 A rule event is some activity that must occur before a rule fires.
 
@@ -21,7 +33,7 @@ Event types typically consist of (1) a view shown within the Platform Launch app
 
 [Learn more](./modules/event-types.md)
 
-## Condition types
+### Condition types {#condition}
 
 A rule condition is evaluated after a rule event has occurred. All conditions must return true in order for the rule to continue processing. The exception is when users explicitly place conditions into an "exception" bucket in which case all conditions within the bucket must return false for the rule to continue processing.
 
@@ -31,7 +43,7 @@ Condition types typically consist of (1) a view shown within the Platform Launch
 
 [Learn more](./modules/condition-types.md)
 
-## Action types
+### Action types {#action}
 
 A rule action is something that is performed after the rule event has occurred and conditions have passed evaluation.
 
@@ -41,7 +53,7 @@ Action types typically consist of (1) a view shown within the Platform Launch ap
 
 [Learn more](./modules/action-types.md)
 
-## Data element types
+### Data element types {#data-element}
 
 Data elements are essentially aliases to pieces of data on a page regardless of whether that data is found in query string parameters, cookies, DOM elements, or some other place. A data element can be referenced by rules and acts as an abstraction for accessing these pieces of data. When the location of the data changes in the future (for example, from a DOM element's `innerHTML` to a JavaScript variable's value), a single data element can be reconfigured while all the rules referencing that data element can remain unchanged.
 
@@ -50,6 +62,16 @@ A data element type enables users to configure data elements to access a piece o
 Data element types typically consist of (1) a view shown within the Platform Launch application that allows users to modify settings for the data element and (2) a library module emitted within the Platform Launch runtime library to interpret the settings and retrieve pieces of data.
 
 [Learn more](./modules/data-element-types.md)
+
+### Shared modules {#shared}
+
+A shared module is a module exposed by one extension to be accessed by another. This can be a very useful mechanism for communicating between extensions. For example, Extension A may load a piece of data asynchronously and make it available to Extension B via a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
+
+Shared modules are included in the library even when they are never called from inside other extensions. In order to not increase the library size unnecessarily, you should be careful about what you expose as a shared module.
+
+Shared modules do not have a view component.
+
+[Learn more](./modules/shared.md)
 
 ## Extension configuration
 
@@ -60,16 +82,6 @@ When users install an extension to a Platform Launch property, they will be show
 Extension configuration consists of a view component which will export settings that are then emitted within the Platform Launch runtime library as a plain object.
 
 [Learn more](./configuration.md)
-
-## Shared modules
-
-These are library modules that are emitted within the Platform Launch runtime library. A shared module is a module exposed by one extension to be accessed by another. This can be a very useful mechanism for communicating between extensions. For example, Extension A may load a piece of data asynchronously and make it available to Extension B via a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise).
-
-Shared modules are included in the library even when they are never called from inside other extensions. In order to not increase the library size unnecessarily, you should be careful about what you expose as a shared module.
-
-Shared modules do not have a view component.
-
-[Learn more](./modules/shared.md)
 
 ## Extension structure
 

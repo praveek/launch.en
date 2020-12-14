@@ -9,13 +9,24 @@ seo-description: Event types
 
 An event type library module has one goal: detect when an activity happens and, when it does, call a function to fire the associated rule. What is being detected is up to you. Are you detecting when a user makes a certain gesture? When a user scrolls rapidly? When a user interacts with something?
 
-The module exports should look like this:
+>[!NOTE]
+>
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
+
+In addition to the `settings` parameter that is common to other module types, the `module.exports` for an event type accepts a second parameter, `trigger`:
 
 ```js
 module.exports = function(settings, trigger) { … };
 ```
 
-The exported function will be called once for each rule that has been configured to use your event type. `settings` will be an object containing whatever the user configured in the event type's view. You have ultimate control over what goes into the settings object. `trigger` will be a function that the module should call whenever the rule should be fired. There's a one-to-one relationship amongst a settings object, a trigger function, and a rule. In other words, the trigger function you received for one rule cannot be used to fire a different rule.
+| Parameter | Description |
+| --- | --- |
+`settings` | An object containing any settings the user configured in the event type's view. You have ultimate control over what goes into this object. |
+| `trigger` | A function that the module should call whenever the rule should be fired. There's a one-to-one relationship amongst a `settings` object, a `trigger` function, and a rule. In other words, the trigger function you received for one rule cannot be used to fire a different rule. |
+
+>[!NOTE]
+>
+>The exported function will be called once for each rule that has been configured to use your event type.
 
 Let's assume the activity we're detecting is when five seconds have passed. After five seconds pass, the activity has taken place and the rule should fire. Our module may look like this:
 
@@ -77,7 +88,7 @@ trigger({
 });
 ```
 
-## Respecting Rule Order
+## Respecting rule order
 
 Platform Launch gives users the ability to order rules. For example, a user might create two rules which both use the orientation change event type and the user would like to customize the order in which the rules fire. Let's assume that the Platform Launch user specifies an order value of `2` for the orientation change event in Rule A and an order value of `1` for the orientation change event in Rule B. This indicates that when the orientation changes on a mobile device, Rule B should fire before Rule A (rules with lower order values fire first).
 

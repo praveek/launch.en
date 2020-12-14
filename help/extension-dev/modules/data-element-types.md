@@ -9,11 +9,9 @@ seo-description: Data element types
 
 A data element type library module has one goal: retrieve a piece of data. How this piece of data is retrieved is up to you. For example, you can use a data element type to allow Adobe Experience Platform Launch users to retrieve a piece of data from local storage, a cookie, or a DOM element.
 
-The module exports should look like this:
-
-```js
-module.exports = function(settings) { ... };
-```
+>[!NOTE]
+>
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
 
 Consider a situation where you want to allow users to retrieve a piece of data from a local storage item named `productName`. Your module may look like this:
 
