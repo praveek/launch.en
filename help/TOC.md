@@ -141,5 +141,6 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Data element types](./extension-dev/modules/data-element-types.md)
     * [Shared modules](./extension-dev/modules/shared.md)
     * [Views](./extension-dev/modules/views.md)
+  * [Hosting third-party libraries](./extension-dev/third-party-libraries.md)
   * [Turbine free variable](./extension-dev/turbine.md)
   * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)
