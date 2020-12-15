@@ -146,7 +146,7 @@ var product = _satellite.cookie.get('product');
 _satellite.cookie.remove('product');
 ```
 
-A utility for reading and writing cookies. This is an exposed copy of the third-party library js-cookie. For more advanced usage, please review the [js-cookie usage documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fjs-cookie%23basic-usage).
+A utility for reading and writing cookies. This is an exposed copy of the third-party library js-cookie. For more advanced usage, please review the [js-cookie usage documentation](https://www.npmjs.com/package/js-cookie#basic-usage) (external link).
 
 ### buildInfo
 
