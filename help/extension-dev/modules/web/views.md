@@ -160,7 +160,7 @@ At runtime, before passing the settings object to your library module, Platform 
 
 To indicate where it may be helpful for users to use data elements and to make it easy for users to enter a data element, we highly recommend adding an icon button next to such fields as shown here:
 
-![data element field](../images/data-element-field.png)
+![data element field](../../images/data-element-field.png)
 
 When the button next to the text field is clicked by a user, call `window.extensionBridge.openDataElementSelector` as [outlined above](#open-data-element). This will display a list of the user's data elements that the user can choose from rather than forcing them to remember the name and type percent signs. Once the user has selected a data element, you will receive the name of the selected data element wrapped in percent signs (unless you've set the `tokenize` option to `false`). We encourage you to then populate the text field with the result.
 

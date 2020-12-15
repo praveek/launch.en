@@ -124,7 +124,7 @@ module.exports = function() {
 
 Optionally, you can take additional steps to refactor this implementation. Since the variables `scriptElement` and `firstScriptElement` are now scoped to the exported function, you can remove the IIFE since these variables don't run the risk of becoming globals.
 
-In addition, Platform Launch provides several [core modules](/extensions/reference/core-modules/) which are utilities that any extension can use. Specifically, the `@adobe/reactor-load-script` module loads a script from a remote location by creating a script element and adding it to the document. By using this module for the script loading process, you can refactor the action code even further:
+In addition, Platform Launch provides several [core modules](./modules/web/core.md) which are utilities that any extension can use. Specifically, the `@adobe/reactor-load-script` module loads a script from a remote location by creating a script element and adding it to the document. By using this module for the script loading process, you can refactor the action code even further:
 
 ```js
 var loadScript = require('@adobe/reactor-load-script');
@@ -165,7 +165,7 @@ Once the library file is in your project, you must update your [extension manife
 }
 ```
 
-Finally, you must configure your action code to load the vendor library from the same server that hosts the main library. The example below uses the action code built in the [previous section](#vendor-host) as a starting point. Using the [turbine object](/extensions/reference/turbine-free-variable/), you must pass the filename (without any path) of the vendor file like so:
+Finally, you must configure your action code to load the vendor library from the same server that hosts the main library. The example below uses the action code built in the [previous section](#vendor-host) as a starting point. Using the [turbine object](./turbine.md), you must pass the filename (without any path) of the vendor file like so:
 
 ```js
 var loadScript = require('@adobe/reactor-load-script');
