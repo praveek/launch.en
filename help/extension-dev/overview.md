@@ -13,9 +13,9 @@ The sections below outline the primary components of an extension, and provide l
 
 ## Library modules
 
-Library modules are pieces of reusable code provided by an extension that are emitted inside the Platform Launch runtime library. For details on the required format for implementing library modules in your extension, see the [module format overview](./modules/format.md).
+Library modules are pieces of reusable code provided by an extension that are emitted inside the Platform Launch runtime library. For details on the required format for implementing library modules in your extension, see the [module format overview](./modules/web/format.md).
 
-In addition to the [core modules](./modules/core.md) provided by Adobe, you can define your own library modules in your extensions. These can be categorized into the following types:
+In addition to the [core modules](./modules/web/core.md) provided by Adobe, you can define your own library modules in your extensions. These can be categorized into the following types:
 
 * [Event types](#event)
 * [Condition types](#condition)
@@ -31,7 +31,7 @@ As an example, an extension could provide a "gesture" event type that watches fo
 
 Event types typically consist of (1) a view shown within the Platform Launch application that allows users to modify settings for the event and (2) a library module emitted within the Platform Launch runtime library to interpret the settings and watch for a certain activity to occur.
 
-[Learn more](./modules/event-types.md)
+[Learn more](./modules/web/event-types.md)
 
 ### Condition types {#condition}
 
@@ -41,7 +41,7 @@ As an example, an extension could provide a "viewport contains" condition type w
 
 Condition types typically consist of (1) a view shown within the Platform Launch application that allows users to modify settings for the condition and (2) a library module emitted within the Platform Launch runtime library to interpret the settings and evaluate a condition.
 
-[Learn more](./modules/condition-types.md)
+[Learn more](./modules/web/condition-types.md)
 
 ### Action types {#action}
 
@@ -51,7 +51,7 @@ As an example, an extension could provide a "show support chat" action type whic
 
 Action types typically consist of (1) a view shown within the Platform Launch application that allows users to modify settings for the action and (2) a library module emitted within the Platform Launch runtime library to interpret the settings and perform an action.
 
-[Learn more](./modules/action-types.md)
+[Learn more](./modules/web/action-types.md)
 
 ### Data element types {#data-element}
 
@@ -61,7 +61,7 @@ A data element type enables users to configure data elements to access a piece o
 
 Data element types typically consist of (1) a view shown within the Platform Launch application that allows users to modify settings for the data element and (2) a library module emitted within the Platform Launch runtime library to interpret the settings and retrieve pieces of data.
 
-[Learn more](./modules/data-element-types.md)
+[Learn more](./modules/web/data-element-types.md)
 
 ### Shared modules {#shared}
 
@@ -71,7 +71,7 @@ Shared modules are included in the library even when they are never called from 
 
 Shared modules do not have a view component.
 
-[Learn more](./modules/shared.md)
+[Learn more](./modules/web/shared.md)
 
 ## Extension configuration
 

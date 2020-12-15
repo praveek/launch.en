@@ -76,7 +76,7 @@ The base code creates a script element, sets it to load asynchronously, and sets
 
 ## Implementation options in Platform Launch
 
-The sections below demonstrate the different ways you can load vendor libraries in your extensions, using the Pinterest base code shown previously as an example. Each of these examples involve creating an [action type for a web extension](./modules/action-types.md) that loads the library on your website.
+The sections below demonstrate the different ways you can load vendor libraries in your extensions, using the Pinterest base code shown previously as an example. Each of these examples involve creating an [action type for a web extension](./modules/web/action-types.md) that loads the library on your website.
 
 {% alert info, Note %}
 While the examples below use action types for demonstration purposes, you can apply the same principles to any function that loads the Platform Launch library on your site.
