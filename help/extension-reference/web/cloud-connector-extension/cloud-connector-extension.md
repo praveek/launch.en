@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Platform Cloud Connector extension
-seo-title: Cloud Connector extension for Adobe Experience Platform Launch
-description: Cloud Connector extension for Adobe Experience Platform Launch
-seo-description: Cloud Connector extension for Adobe Experience Platform Launch
+seo-title: Cloud Connector extension for Adobe Experience Platform Launch Server Side
+description: Cloud Connector extension for Adobe Experience Platform Launch Server Side
+seo-description: Cloud Connector extension for Adobe Experience Platform Launch Server Side
 ---
 
 # Cloud Connector extension
 
-The Adobe Experience Platform Adobe Experience Platform Cloud Connector extension allows you to create custom HTTP requests to send data to a destination or retrieve data from a destination. The Cloud Connector extension is like having Postman on Adobe Experience Platform Edge Network and can be used to send data to an endpoint that does not have a dedicated extension yet. 
+The Adobe Experience Platform Launch Server Side Cloud Connector extension allows you to create custom HTTP requests to send data to a destination or retrieve data from a destination. The Cloud Connector extension is like having Postman on Adobe Experience Platform Edge Network and can be used to send data to an endpoint that does not have a dedicated extension yet. 
 
 Use this reference for information about the options available when using this extension to build a rule. 
 
@@ -105,7 +105,7 @@ Define a key and value for each key-value pair you want to send in the body of t
 
 ### Advanced 
 
-Actions within rules in Platform Launch Server Side execute sequentially. There could be situations where you want to retrieve data from an external source that is not present on the incoming event from the client and then take this response and either transform or send this data to a final destination in a subsequent action with a single rule. The “Save the request response” in the advanced section enables this.  
+Actions within rules in Platform Launch Server Side execute sequentially. There could be situations where you want to retrieve data from an external source that is not present on the incoming event from the client and then take this response and either transform or send this data to a final destination in a subsequent action within a single rule. The “Save the request response” in the advanced section enables this.  
 
 To save the response body from an endpoint check the **[!UICONTROL Save the request response]** box and define a response key in the text field.  
 
