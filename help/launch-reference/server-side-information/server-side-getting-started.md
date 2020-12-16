@@ -5,17 +5,15 @@ description: Getting started with Experience Platform Launch Server Side
 seo-description: Getting started with Experience Platform Launch Server Side
 ---
 
-# Getting started with Experience Platform Launch Server Side (Beta)
+# Getting started with Experience Platform Launch Server Side
 
 >[!NOTE]
 >
->This beta documentation describes features that are not yet publicly available. It is subject to change and might not be complete or correct.
-
 To use Adobe Experience Platform Launch Server Side, data must be sent to Adobe Experience Platform Edge
 Network using one of three options:
 
 * Adobe Experience Platform Web SDK
-* Adobe Experience Platform Mobile SDK
+* Adobe Experience Platform Mobile SDK (coming in H2 2021)
 * Server-to-Server API (coming in H2 2021)
 
 >[!NOTE]
@@ -28,7 +26,7 @@ a non-Adobe solution, you need to set that up in Platform Launch Server Side.
 
 * Platform Launch Server Side
 * Adobe Experience Platform Web or Mobile SDK, configured to send data to Edge Network
-* Data should be in Experience Data Model (XDM) (This mapping can be done server-side.)
+* Data should be mapped to Experience Data Model (XDM) (This mapping can be done Platform Launch Client Side)
 
 ## Create an XDM schema
 
@@ -67,14 +65,14 @@ in Platform Launch Server Side. Otherwise, you can select the environment from a
 
 ## Create Edge Configuration
 
-In Adobe Experience Platform Edge Configuration, create your edge configuration. You will need the Environment ID generated when you created the server-side property.
+In Adobe Experience Platform Edge Configuration, create your edge configuration. You will need the Environment ID generated when you created the Platform Launch Server Side property.
 
 1. Open the Adobe Experience Platform Edge Configuration interface through Platform Launch, from the link in the left rail.
 
 1. Click **[!UICONTROL New Edge Configuration]**.
 
 1. Name the configuration and provide an optional description. 
-    The description helps to identify configurations ina  list of several configurations. 
+    The description helps to identify configurations in a list of several configurations. 
 
 1. Click **[!UICONTROL Save]**.
 
@@ -94,7 +92,7 @@ Next, configure Edge Network to send data to Launch Server Side, and to other Ad
 
     * Adobe Analytics requires a report suite ID.
 
-    * Platform Launch Server Side requires an environment ID, which is the publish path for the Launch Server Side property.
+    * Platform Launch Server Side requires a property ID and environment ID, which is the publish path for the Launch Server Side property.
 
 After configuring, make note of the Environment IDs for the new property.
 
@@ -138,6 +136,6 @@ With the following in place, you can now create Platform Launch Server Side rule
 non-Adobe destinations.
 
 * Experience Data Model schema (Note the name you gave it.)
-* Platform Launch Server Side property (Keep track of the environment IDs.)
-* Adobe Experience Platform Edge Configuration (Note the environment ID.)
+* Platform Launch Server Side property (Keep track of the property ID and environment IDs.)
+* Adobe Experience Platform Edge Configuration (Note the environment ID, not to be confused with the environment ID from Launch Server Side.)
 * Platform Launch Client Side property
