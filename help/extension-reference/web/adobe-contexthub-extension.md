@@ -23,7 +23,7 @@ Select the ContextHub type. The following configuration options are available:
 
 ### Default ContextHub Data Layer
 
-Use this option if you want Launch to reference the default ContextHub schema for this integration. If you have made changes to your ContextHub schema, or want to use use a different data layer, use the customized option.
+Use this option if you want Adobe Experience Platform Launch to reference the default ContextHub schema for this integration. If you have made changes to your ContextHub schema, or want to use use a different data layer, use the customized option.
 
 ### Customized ContextHub Data Layer
 

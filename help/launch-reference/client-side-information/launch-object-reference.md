@@ -1,15 +1,15 @@
 ---
-title: Launch object reference
-seo-title: Launch object reference in Adobe Experience Platform Launch
+title: Adobe Experience Platform Launch object reference
+seo-title: Platform Launch object reference in Adobe Experience Platform Launch
 description: Adobe Experience Platform Launch object reference
 seo-description: Adobe Experience Platform Launch object reference
 ---
 
-# Launch object reference
+# Adobe Experience Platform Launch object reference
 
-In many form fields in the [!DNL Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+In many form fields in the [!DNL Platform Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
-## Launch Object Reference
+## Platform Launch Object Reference
 
 This reference documents the `_satellite` object and the things you can do with it.
 
@@ -45,7 +45,7 @@ var product = _satellite.getVar('product');
 
 If a data element exists with a matching name, the data element's value will be returned. If no matching data element exists, it will then check to see if a custom variable with a matching name has previously been set using `_satellite.setVar()`. If a matching custom variable is found, its value will be returned.
 
-Note that in many form fields in the [!DNL Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
+Note that in many form fields in the [!DNL Platform Launch] user interface, you can use the `%%` syntax to reference variables, reducing the need to call `_satellite.getVar()`. For example, using %product% will access the value of the product data element or custom variable.
 
 ### setVar
 
@@ -111,7 +111,7 @@ _satellite.logger.error(message: string)
 _satellite.logger.error('No product ID found.');
 ```
 
-Logs a message to the browser console. The message will only be displayed if [!DNL Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
+Logs a message to the browser console. The message will only be displayed if [!DNL Platform Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 ### cookie
 
@@ -146,7 +146,7 @@ var product = _satellite.cookie.get('product');
 _satellite.cookie.remove('product');
 ```
 
-A utility for reading and writing cookies. This is an exposed copy of the third-party library js-cookie. For more advanced usage, please review the [js-cookie usage documentation](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fjs-cookie%23basic-usage).
+A utility for reading and writing cookies. This is an exposed copy of the third-party library js-cookie. For more advanced usage, please review the [js-cookie usage documentation](https://www.npmjs.com/package/js-cookie#basic-usage) (external link).
 
 ### buildInfo
 
@@ -156,7 +156,7 @@ A utility for reading and writing cookies. This is an exposed copy of the third-
 _satellite.buildInfo
 ```
 
-This object contains information about the build of the current [!DNL Launch] runtime library. The object contains the following properties:
+This object contains information about the build of the current [!DNL Platform Launch] runtime library. The object contains the following properties:
 
 #### turbineVersion
 
@@ -207,7 +207,7 @@ _satellite.notify(message: string[, level: number])
 _satellite.notify('Hello world!');
 ```
 
-Logs a message to the browser console. The message will only be displayed if [!DNL Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
+Logs a message to the browser console. The message will only be displayed if [!DNL Platform Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 An optional logging level can be passed which will affect styling and filtering of the message being logged. Supported levels are as follows:
 
@@ -313,7 +313,7 @@ _satellite._monitors
 
 #### Sample
 
-On your web page running a Launch library, add a snippet of code to your HTML. Typically, the code is placed in the `<head>` tag before the `<script>` tag that loads the [!DNL Launch] library. This allows the monitor to catch the earliest system events that occur in the [!DNL Launch] library. For example:
+On your web page running a [!DNL Platform Launch] library, add a snippet of code to your HTML. Typically, the code is placed in the `<head>` tag before the `<script>` tag that loads the [!DNL Platform Launch] library. This allows the monitor to catch the earliest system events that occur in the [!DNL Platform Launch] library. For example:
 
 ```html
 <!DOCTYPE html>
@@ -355,7 +355,7 @@ On your web page running a Launch library, add a snippet of code to your HTML. T
 </html>
 ```
 
-In the first script tag, because the [!DNL Launch] library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array. The monitor object can specify the following methods which will later be called by the [!DNL Launch] library:
+In the first script tag, because the [!DNL Platform Launch] library has not been loaded yet, the initial `_satellite` object is created and an array on `_satellite._monitors` is initialized. The script then adds a monitor object to that array. The monitor object can specify the following methods which will later be called by the [!DNL Platform Launch] library:
 
 #### ruleTriggered
 
@@ -373,11 +373,11 @@ If `ruleTriggered` is called, either `ruleCompleted` or `ruleConditionFailed` wi
 
 >[!NOTE]
 >
->A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Launch works with whatever supported methods have been provided by the monitor.
+>A monitor doesn't have to specify all three methods (`ruleTriggered`, `ruleCompleted`, and `ruleConditionFailed`). Platform Launch works with whatever supported methods have been provided by the monitor.
 
 #### Testing the Monitor
 
-The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the [!DNL Launch] library:
+The example above specifies all three methods in the monitor. When they're called, the monitor logs out relevant information. To test this, set up two rules in the [!DNL Platform Launch] library:
 
 1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Chrome].
 1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Firefox].

@@ -7,7 +7,20 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 # Experience Cloud ID Release Notes
 
-For release notes on the Experience Cloud ID Service itself and not just the Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
+For release notes on the Experience Cloud ID Service itself and not just the Adobe Experience Platform Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
+
+## Oct 27, 2020
+
+### Experience Cloud ID Extension 5.1.0
+
+#### **Features**
+
+* Adding `sameSiteCookie` config to specify the `SameSite` attribute of the `AMCV` cookie. This config supports the following values for `SameSite` attribute:
+  * `Strict`
+  * `Lax`
+  * `None`
+
+Details of these attribute values are on [web.dev](https://web.dev/samesite-cookies-explained/) and [chromium](https://www.chromium.org/updates/same-site)
 
 ## Aug 13, 2020
 
@@ -85,7 +98,7 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 #### **Features**
 
 * Updated visitor.js to 4.3
-* Added data element type for ECID as part of Launch Extension
+* Added data element type for ECID as part of the Platform Launch Extension
 
   ![](/help/assets/ecid-data-element.png)
 

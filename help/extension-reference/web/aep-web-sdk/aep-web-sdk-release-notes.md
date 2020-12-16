@@ -1,17 +1,43 @@
 ---
-title: Adobe Experience Platform Web Extension
-seo-title: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-seo-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
+title: Adobe Experience Platform Web SDK Extension
+seo-title: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+description: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+seo-description: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
 ---
 
-# AEP Web SDK Release Notes
+# Adobe Experience Platform Web SDK Release Notes
 
-[Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
+[Learn More: Adobe Experience Platform Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
+
+## November 4, 2020
+
+### Adobe Experience Platform Web SDK 2.3.0
+
+Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
+
+#### Features
+
+* Added support for using a data element when configuring default consent.
+* Added ability to search for XDM schemas with the XDM Object data element type.
+* Added cloning of XDM data within the Send Event action type to ensure any subsequent changes to the XDM data object will not be reflected in the request.
+
+## October 1, 2020
+
+### Adobe Experience Platform Web SDK 2.2.0
+
+#### Bug Fixes
+
+* When customers tried to create an XDM object from sandbox schemas, they were running into authentication issues. The API that calls AEP is now aware of environments so users are only presented with those schemas that they have access to edit. 
+
+#### Features
+
+* When using the `identityMap` data element, the namespaces is now pre-populated in a dropwdown so you don't have to fill this in manually. 
+* Revamped the UI for the `xdmObject` data element. In the new UI, you can see which fields have been populated without having to enter each item in the object.
+
 
 ## August 26, 2020
 
-### AEP Web SDK 2.1.1
+### Adobe Experience Platform Web SDK 2.1.1
 
 #### Features
 
@@ -20,7 +46,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## August 5, 2020
 
-### AEP Web SDK 2.1.0
+### Adobe Experience Platform Web SDK 2.1.0
 
 #### Features
 
@@ -35,7 +61,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## May 26, 2020
 
-### AEP Web SDK 1.0.0
+### Adobe Experience Platform Web SDK 1.0.0
 
 #### Features
 
@@ -44,7 +70,7 @@ seo-description: Adobe Experience Platform Web Extension in Adobe Experience Pla
 
 ## May 4, 2020
 
-### AEP Web SDK 0.1.2
+### Adobe Experience Platform Web SDK 0.1.2
 
 #### Features
 
@@ -65,7 +91,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## March 16, 2020
 
-### AEP Web SDK 0.0.10
+### Adobe Experience Platform Web SDK 0.0.10
 
 #### Features
 
@@ -74,7 +100,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## February 18, 2020
 
-### AEP Web SDK 0.0.7
+### Adobe Experience Platform Web SDK 0.0.7
 
 #### Features
 
@@ -83,18 +109,18 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 * Request made during ID migration is sent to demdex endpoint to improve cross-domain identification when demdex cookie is not set
 * Request made during ID migration always expects a response to ensure identity cookie gets set
 * When executing an invalid command, a list of valid command names will be logged in the console
-* Added checkbox for toggling third-party cookie support to the Launch extension. This disables calls to demdex.net
+* Added checkbox for toggling third-party cookie support to the Adobe Experience Platform Launch extension. This disables calls to demdex.net
 
 ## December 20, 2019
 
-### AEP Web SDK 0.0.5
+### Adobe Experience Platform Web SDK 0.0.5
 
 #### Features 
 
-* Add Activity Tracker configs to Launch Extension
+* Add Activity Tracker configs to Platform Launch Extension
 * Expose EventType and EventMergeId on event command
-* Add onBeforeEventSend config to Launch Extension
-* Add edgeBasePath config to Launch Extension
+* Add onBeforeEventSend config to Platform Launch Extension
+* Add edgeBasePath config to Platform Launch Extension
 
 #### Update to Alloy v. 0.0.10 which includes the following changes:
 
@@ -116,7 +142,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 25, 2019
 
-### AEP Web SDK 0.0.3
+### Adobe Experience Platform Web SDK 0.0.3
 
 #### Features 
 
@@ -130,7 +156,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 18, 2019
 
-### AEP Web SDK 0.0.2
+### Adobe Experience Platform Web SDK 0.0.2
 
 #### Features
 

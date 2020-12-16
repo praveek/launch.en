@@ -81,7 +81,7 @@ Lets you [insert core AppMeasurement code](https://docs.adobe.com/help/en/analyt
 
 >[!NOTE]
 >
->The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+>The validator used in the Adobe Experience Platform Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Platform Launch validator, which can usually be ignored.
 
 #### Set the following report suites on tracker
 
@@ -103,7 +103,7 @@ Select an option from the General section of the configuration page. The followi
 
 Enables or disables tracking based on the EU privacy cookie.
 
-When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
+When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Platform Launch uses to track your opt-out status for receiving other cookies.
 
 When a page is loaded, the system checks to see if a cookie called sat\_track is set (or the custom cookie name specified on the Edit Property page). Consider the following information:
 

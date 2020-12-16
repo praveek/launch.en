@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch extensions
 
 # Extensions
 
-An extension is a packaged set of code that extends the [!DNL Launch] interface and the library functionality. [!DNL Launch] is the platform, and extensions are like apps that run on the platform.
+An extension is a packaged set of code that extends the [!DNL Adobe Experience Platform Launch] interface and the library functionality. [!DNL Platform Launch] is the platform, and extensions are like apps that run on the platform.
 
 Adding an extension adds new data elements and new options for creating rules.
 
@@ -55,9 +55,9 @@ See [Extensions Reference](/help/extension-reference/web/overview.md) for detail
 
 ## Add a new extension {#add-a-new-extension}
 
-[!DNL Launch] is highly extendible. Extensions add core functionality to [!DNL Launch].
+[!DNL Platform Launch] is highly extendible. Extensions add core functionality to [!DNL Platform Launch].
 
-A common use of extensions is to create integrations with other applications. In the predecessor of [!DNL Launch], known as [!DNL Dynamic Tag Management], extensions were called _tools_.
+A common use of extensions is to create integrations with other applications. In the predecessor of [!DNL Platform Launch], known as [!DNL Dynamic Tag Management], extensions were called _tools_.
 
 1. From a property's overview page, open the [!UICONTROL Extensions] tab.
 1. Select an extension.

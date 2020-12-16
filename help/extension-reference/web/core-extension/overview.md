@@ -7,7 +7,7 @@ seo-description: Core Extension in Adobe Experience Platform Launch
 
 # Core Extension
 
-The Core extension is the default extension released with Launch.
+The Core extension is the default extension released with Adobe Experience Platform Launch.
 
 Use this reference for information about the options available when using this extension to build a rule.
 
@@ -129,7 +129,7 @@ Trigger the event if the specified element is clicked.
 
 Optionally, you can specify property values that must be true for the element before the event is triggered.
 
-You can also specify whether to delay navigation until the rule runs if the element is a link. When you click the check box, a field opens where you can enter the desired delay in milliseconds. This specifies how long Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. (That is, user won’t always wait the full length of the delay.)
+You can also specify whether to delay navigation until the rule runs if the element is a link. When you click the check box, a field opens where you can enter the desired delay in milliseconds. This specifies how long Platform Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Platform Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. (That is, user won’t always wait the full length of the delay.)
 
 In addition, specify that the event is triggered after a specific amount of time.
 
@@ -163,7 +163,7 @@ Enter the data element name. You can select the data element from a list by clic
 
 Designed to bypass event detection and lookup systems.
 
-Direct call rules are ideal for situations where you want to tell Launch exactly what is happening. Also, they are ideal when Launch cannot detect an event in the DOM, such as with Adobe Flash.
+Direct call rules are ideal for situations where you want to tell Platform Launch exactly what is happening. Also, they are ideal when Platform Launch cannot detect an event in the DOM, such as with Adobe Flash.
 
 Specify the `_satellite.track` string.
 
@@ -203,13 +203,13 @@ There are no settings for this event type.
 
 #### Library Loaded (Page Top) {#library-loaded-page-top}
 
-Trigger the event as soon as the Launch library is loaded.
+Trigger the event as soon as the Platform Launch library is loaded.
 
 There are no settings for this event type.
 
 #### Page Bottom {#page-bottom}
 
-Trigger the event once `_satellite.pageBottom();` has been called. When loading the Launch library asynchronously, this event type should not be used.
+Trigger the event once `_satellite.pageBottom();` has been called. When loading the Platform Launch library asynchronously, this event type should not be used.
 
 There are no settings for this event type.
 
@@ -289,7 +289,7 @@ Run the rule in a browser and inspect the logged event object in the browser’s
 
 When the “Run rule components in sequence” option from property settings is enabled you can have subsequent rule components wait while your condition performs an asynchronous task.
 
-When the condition returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the next condition in the rule will not execute until the returned promise is resolved. If the promise is rejected, Launch considers that condition as failed and no further conditions or actions from that rule will be executed.
+When the condition returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise), the next condition in the rule will not execute until the returned promise is resolved. If the promise is rejected, Platform Launch considers that condition as failed and no further conditions or actions from that rule will be executed.
 
 An example of a condition that returns a promise:
 
@@ -573,6 +573,10 @@ Specify the maximum number of times the condition returns true. You can select f
 * Weeks
 * Months
 
+For the condition max frequency 1 per session, these two `localStorage` items are compared. If the `visitorTracking.sessionCount` is greater than the `maxFrequency.session` count, then the sampling condition is true. If they are equal, the condition is false.
+
+`sessionCount` is a `visitorTracking` item, so you the visitor API must be enabled for the sampling condition to work.
+
 #### Sampling
 
 Specify the percentage of the time the condition returns true.
@@ -603,11 +607,11 @@ Run the rule in a browser and inspect the logged event object in the browser’s
 
 ### Custom Code action processing
 
-The Core extension, available to all Launch users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
+The Core extension, available to all Platform Launch users, contains a Custom Code action for executing user-provided JavaScript or HTML. It is often helpful for users to understand how rules with Custom Code actions are processed.
 
 #### Rules using the page top or page bottom events
 
-Code from custom actions is embedded in the main Launch library. The code is written to the document using document.write. If a rule has multiple Custom Code actions, the code is written in the order configured in the rule.
+Code from custom actions is embedded in the main Platform Launch library. The code is written to the document using document.write. If a rule has multiple Custom Code actions, the code is written in the order configured in the rule.
 
 #### Rules using any event other than page top or page bottom
 
@@ -617,7 +621,7 @@ While using document.write after a page has loaded would typically present probl
 
 #### Custom Code Validation
 
-The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process—such as the AppMeasurement.js code downloaded from the Code Manager—might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+The validator used in the Platform Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process—such as the AppMeasurement.js code downloaded from the Code Manager—might be falsely flagged as having issues by the validator, which can usually be ignored.
 
 #### Action sequencing
 
@@ -627,7 +631,7 @@ When the “Run rule components in sequence” option from property settings is 
 
 When creating a JavaScript custom code action, you may return a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) from your action. The next action in the rule will be executed only when the returned promise is resolved. If the promise is rejected, the next actions from the rule will not be executed.
 
-*Note*: This only works when your JavaScript is not set to execute globally.  If you are executing your custom code action in the global scope, Launch will treat the promise as immediatly resolved and move on to the next item in the processing queue.
+*Note*: This only works when your JavaScript is not set to execute globally.  If you are executing your custom code action in the global scope, Platform Launch will treat the promise as immediatly resolved and move on to the next item in the processing queue.
 
 An example of a JavaScript custom code action that returns a promise:
 
@@ -645,7 +649,7 @@ return new Promise(function(resolve, reject) {
 
 *HTML*
 
-When creating an HTML custom code action, a function named `onCustomCodeSuccess()` will be available to use within your custom code. You may call this function to indicate that your custom code has completed and that Launch may move on to executing subsequent actions. On the other hand, if your custom code failed in some way, you may call `onCustomCodeFailure()`. That will inform Launch to not execute the subsequent actions from that rule.
+When creating an HTML custom code action, a function named `onCustomCodeSuccess()` will be available to use within your custom code. You may call this function to indicate that your custom code has completed and that Platform Launch may move on to executing subsequent actions. On the other hand, if your custom code failed in some way, you may call `onCustomCodeFailure()`. That will inform Platform Launch to not execute the subsequent actions from that rule.
 
 An example of an HTML custom code action that uses the new callbacks:
 
@@ -663,7 +667,7 @@ setTimeout(function() {
 
 ## Core extension data element types
 
-Data Element types are determined by the extension. There is no limit to the types that can be created.
+Data element types are determined by the extension. There is no limit to the types that can be created.
 
 The following sections describe the types of data elements available in the Core extension. Other extensions use other types of data elements.
 
@@ -727,7 +731,7 @@ Get the value of:
 
 Any available JavaScript object or variable can be referenced using the path field.
 
-When you have JavaScript variables, or object properties in your markup, and you want to collect those values in Launch to use with any of your extensions or rules, one way to capture those values is to use Data Elements in Launch. This way, you can refer to the Data Element throughout your Rules, and if the source of the data ever changes, you only need to change your reference to the source (the Data Element) in one place in Launch.
+When you have JavaScript variables, or object properties in your markup, and you want to collect those values in Platform Launch to use with any of your extensions or rules, one way to capture those values is to use data elements in Platform Launch. This way, you can refer to the data element throughout your Rules, and if the source of the data ever changes, you only need to change your reference to the source (the data element) in one place in Platform Launch.
 
 For example, let’s say your markup contains a JavaScript variable called `Page_Name`, like this:
 
@@ -738,9 +742,9 @@ For example, let’s say your markup contains a JavaScript variable called `Page
 </script>
 ```
 
-When you create the Data Element in Launch, simply provide the path to that variable.
+When you create the data element in Launch, simply provide the path to that variable.
 
-If you use a data collector object as party of your data layer, simply use dot notation in the Path to reference the object and property you want to capture into the Data Element, like `_myData.pageName`, or `digitalData.pageName`, etc.
+If you use a data collector object as party of your data layer, simply use dot notation in the Path to reference the object and property you want to capture into the data element, like `_myData.pageName`, or `digitalData.pageName`, etc.
 
 #### Example:
 

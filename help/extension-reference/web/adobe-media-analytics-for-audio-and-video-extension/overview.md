@@ -9,7 +9,7 @@ seo-description: Adobe Media Analytics for Audio and Video Extension in Adobe Ex
 
 Use this documentation for information on installing, configuring, and implementing the Adobe Media Analytics for Audio and Video extension (Media Analytics extension). Included are the options available when using this extension to build a rule, along with examples and links to samples.
 
-The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to a Launch site or project. The MA extension requires two additional extensions:
+The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x SDK). This extension provides the functionality for adding the `MediaHeartbeat` tracker instance to an Adobe Experience Platform Launch site or project. The MA extension requires two additional extensions:
 
 * [Analytics Extension](/help/extension-reference/web/adobe-analytics-extension/overview.md)
 * [Experience Cloud ID Extension](/help/extension-reference/web/experience-cloud-id-service-extension/overview.md)
@@ -18,7 +18,7 @@ The Media Analytics (MA) extension adds the core JavaScript Media SDK (Media 2.x
 >
 >Audio tracking requires Analytics Extension v1.6 or higher.
 
-After you have included all three of the extensions mentioned above in your Launch project, you can proceed in one of two ways:
+After you have included all three of the extensions mentioned above in your Platform Launch project, you can proceed in one of two ways:
 
 * Use `MediaHeartbeat` APIs from your web app
 * Include, or build, a player-specific extension that maps specific media player events to the APIs on the `MediaHeartbeat` tracker instance. This instance is exposed through the MA extension.

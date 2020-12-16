@@ -1,8 +1,8 @@
 ---
 audience: end-user
-product: launch
+product: Adobe Experience Platform Launch
 user-guide-title: Experience Platform Launch User Guide
-breadcrumb-title: Launch Guide
+breadcrumb-title: Adobe Experience Platform Launch Guide
 user-guide-description: Learn to deploy and manage analytics, marketing, and advertising tags to power customer experiences.
 index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
@@ -10,7 +10,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 
 # Experience Platform Launch User Guide {#using}
 
-* [[!DNL Launch] User Guide](overview.md)
+* [[!DNL Platform Launch] User Guide](overview.md)
 * Introduction {#intro}
   * Release notes {#release-notes}
     * [Latest](release-notes/current.md)
@@ -22,7 +22,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Videos](quick-start/videos.md)
   * [FAQ](launch-faq.md)
   * [Additional Resources](quick-start/additional-resources.md)
-* [!DNL Launch] Reference {#reference}
+* [!DNL Platform Launch] Reference {#reference}
   * Managing Resources {#manage-resources}
     * [Managing Resources overview](launch-reference/managing-resources/overview.md)
     * Extensions {#extensions}
@@ -42,25 +42,29 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
       * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
       * [SFTP Hosts](launch-reference/publishing/hosts/sftp-host.md)
+    * Environments {#environments}
+      * [Overview](launch-reference/publishing/environments.md)
+      * [Test embed codes using Adobe Experience Platform Debugger](launch-reference/publishing/embed-code-testing.md)
     * [Builds](launch-reference/publishing/builds.md)
-    * [Environments](launch-reference/publishing/environments.md)
     * [Libraries](launch-reference/publishing/libraries.md)
     * [Self-hosting libraries](launch-reference/publishing/hosts/self-hosting-libraries.md)
     * [Republish library](launch-reference/publishing/republish.md)
   * Client-side information {#client-side-info}
     * [Client-side information](launch-reference/client-side-information/overview.md)
     * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
-    * [[!DNL Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
-    * [Deploy JavaScript tags to opt in to [!DNL Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+    * [[!DNL Platform Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
+    * [Deploy JavaScript tags to opt in to [!DNL Platform Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
     * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
   * Server-side information (Beta) {server-side-info}
     * [Server-side overview (Beta)](launch-reference/server-side-information/server-side-overview.md)
     * [Getting started with Experience Platform Launch Server Side (Beta)](launch-reference/server-side-information/server-side-getting-started.md)
     * Administration {#admin}
+    * [Subresource Integrity (SRI)](./launch-reference/client-side-information/sri.md)
+  * Administration {#admin}
     * [Administration overview](launch-reference/administration/overview.md)
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
     * [User permissions](launch-reference/administration/user-permissions.md)
-  * Upgrade from DTM to [!DNL Launch] {#upgrade}
+  * Upgrade from DTM to [!DNL Platform Launch] {#upgrade}
     * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
     * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
     * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
@@ -104,7 +108,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Common Analytics Plugins extension {#plugins-extension}
       * [Common Analytics Plugins extension](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins.md)
       * [Common Analytics Plugins extension release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
-    * [!DNL Launch] Core extension {#core-extension}
+    * [!DNL Platform Launch] Core extension {#core-extension}
       * [Core extension](extension-reference/web/core-extension/overview.md)
       * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
     * [!DNL Marketo Munchkin] extension {#marketo-extension}
@@ -113,4 +117,33 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Video tracking [!DNL BrightCove] extension {#brightcove-extension}
       * [Video tracking BrightCove extension](extension-reference/web/video-tracking-brightcove-extension/overview.md)
       * [Video tracking BrightCove extension release notes](extension-reference/web/video-tracking-brightcove-extension/video-tracking-brightcove-extension-release-notes.md)
+    * Video tracking [!DNL YouTube] extension {#youtubee-extension}
+      * [Video tracking YouTube extension](extension-reference/web/video-tracking-youtube-extension/overview.md)
+      * [Video tracking YouTube extension release notes](extension-reference/web/video-tracking-youtube-extension/video-tracking-youtube-extension-release-notes.md)
   * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
+* Extension development {#extension-dev}
+  * [Overview](./extension-dev/overview.md)
+  * [Getting started](./extension-dev/getting-started.md)
+  * [Supported browsers](./extension-dev/browsers.md)
+  * Submission process {#submit}
+    * [Overview](./extension-dev/submit/overview.md)
+    * [Company setup](./extension-dev/submit/setup.md)
+    * [Grant user access](./extension-dev/submit/access.md)
+    * [Develop an extension](./extension-dev/submit/develop.md)
+    * [Create an exchange listing](./extension-dev/submit/create-listing.md)
+    * [Upload and implement end-to-end testing](./extension-dev/submit/upload-and-test.md)
+    * [Release an extension](./extension-dev/submit/release.md)
+  * [Extension flow](./extension-dev/flow.md)
+  * [Extension configuration](./extension-dev/configuration.md)
+  * [Extension manifest](./extension-dev/manifest.md)
+  * Library modules {#modules}
+    * [Library module format](./extension-dev/modules/format.md)
+    * [Core modules](./extension-dev/modules/core.md)
+    * [Event types](./extension-dev/modules/event-types.md)
+    * [Condition types](./extension-dev/modules/condition-types.md)
+    * [Action types](./extension-dev/modules/action-types.md)
+    * [Data element types](./extension-dev/modules/data-element-types.md)
+    * [Shared modules](./extension-dev/modules/shared.md)
+    * [Views](./extension-dev/modules/views.md)
+  * [Turbine free variable](./extension-dev/turbine.md)
+  * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)

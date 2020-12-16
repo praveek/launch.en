@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Launch notes
 
 # Notes
 
-Notes are textual annotations that you can add to certain Launch resources.  Notes can be attached to the following resources:
+Notes are textual annotations that you can add to certain Adobe Experience Platform Launch resources.  Notes can be attached to the following resources:
 
 * Extensions
 * Data elements
@@ -35,6 +35,6 @@ Click the [!UICONTROL Notes] icon to expand the right rail and display the notes
 
 ## Other
 
-* Notes in Launch match the behavior of notes in DTM, in that they are immutable and cannot be edited or deleted.
+* Notes in Platform Launch match the behavior of notes in DTM, in that they are immutable and cannot be edited or deleted.
 * When viewing older revisions of a resource, only the notes that were created prior to that revision's `created_at` date are displayed.
 * When you delete a resource, all notes attached to the resource are also deleted.
