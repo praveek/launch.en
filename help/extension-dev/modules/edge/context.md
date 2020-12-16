@@ -1,8 +1,8 @@
 ---
-title: Action types
-seo-title: Action types
-description: Action types
-seo-description: Action types
+title: Library module context
+seo-title: Library module context
+description: This document covers the properties provided by the context object and the role they play in library modules.
+seo-description: This document covers the properties provided by the context object and the role they play in library modules.
 ---
 
 # Library module context

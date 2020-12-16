@@ -1,11 +1,11 @@
 ---
-title: Library module format
-seo-title: Library module format
-description: Library module format
-seo-description: Library module format
+title: Library modules in edge extensions
+seo-title: Library modules in edge extensions
+description: This document covers the library module format for edge extensions in Platform Launch.
+seo-description: This document covers the library module format for edge extensions in Platform Launch.
 ---
 
-# Library module format
+# Library modules in edge extensions
 
 >[!IMPORTANT]
 >

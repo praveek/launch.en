@@ -10,12 +10,10 @@ seo-description: Action types
 >[!IMPORTANT]
 >
 >This document covers action types for edge extensions. If you are developing a web extension, see the guide on [action types for web extensions](../web/action-types.md) instead.
+>
+>This document also assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. If you require an introduction, see the overview on [library module formatting](./format.md) before returning to this guide.
 
 An action-type library module is intended to take an action--any action. What this action does is entirely up to you. Would you like to send a beacon or perhaps transform some data from the event?
-
->[!NOTE]
->
->This document assumes you are familiar with library modules and how they are integrated in edge extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
 
 For example, if you wanted to forward some data to a third-party party endpoint, your module may look like this:
 
