@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Platform Web Extension
-seo-title: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-seo-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
+title: Adobe Experience Platform Web SDK Extension
+seo-title: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+description: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+seo-description: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
 ---
 
-# AEP Web SDK Release Notes
+# Adobe Experience Platform Web SDK Release Notes
 
-[Learn More: AEP Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
+[Learn More: Adobe Experience Platform Web SDK Release Notes](https://docs.adobe.com/content/help/en/experience-platform/edge/release-notes.html)
 
 ## November 4, 2020
 
-### AEP Web SDK 2.3.0
+### Adobe Experience Platform Web SDK 2.3.0
 
 Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
@@ -23,7 +23,7 @@ Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
 ## October 1, 2020
 
-### AEP Web SDK 2.2.0
+### Adobe Experience Platform Web SDK 2.2.0
 
 #### Bug Fixes
 
@@ -37,7 +37,7 @@ Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
 ## August 26, 2020
 
-### AEP Web SDK 2.1.1
+### Adobe Experience Platform Web SDK 2.1.1
 
 #### Features
 
@@ -46,7 +46,7 @@ Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
 ## August 5, 2020
 
-### AEP Web SDK 2.1.0
+### Adobe Experience Platform Web SDK 2.1.0
 
 #### Features
 
@@ -61,7 +61,7 @@ Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
 ## May 26, 2020
 
-### AEP Web SDK 1.0.0
+### Adobe Experience Platform Web SDK 1.0.0
 
 #### Features
 
@@ -70,7 +70,7 @@ Contains version 2.3.0 of the Adobe Experience Platform Web SDK library.
 
 ## May 4, 2020
 
-### AEP Web SDK 0.1.2
+### Adobe Experience Platform Web SDK 0.1.2
 
 #### Features
 
@@ -91,7 +91,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## March 16, 2020
 
-### AEP Web SDK 0.0.10
+### Adobe Experience Platform Web SDK 0.0.10
 
 #### Features
 
@@ -100,7 +100,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## February 18, 2020
 
-### AEP Web SDK 0.0.7
+### Adobe Experience Platform Web SDK 0.0.7
 
 #### Features
 
@@ -113,7 +113,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## December 20, 2019
 
-### AEP Web SDK 0.0.5
+### Adobe Experience Platform Web SDK 0.0.5
 
 #### Features 
 
@@ -142,7 +142,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 25, 2019
 
-### AEP Web SDK 0.0.3
+### Adobe Experience Platform Web SDK 0.0.3
 
 #### Features 
 
@@ -156,7 +156,7 @@ Those decisions return from the `sendEvent` command only if `renderDecisions` is
 
 ## November 18, 2019
 
-### AEP Web SDK 0.0.2
+### Adobe Experience Platform Web SDK 0.0.2
 
 #### Features
 
