@@ -71,10 +71,10 @@ Any data that you want to send can be sent in the **[!UICONTROL XDM Data]** fiel
 
 ### Set Consent
 
-Once you have received consent from yor user this must be communicated to the AEP Web SDK, you do this by using the "Set Consent" action type. Currently two types of standards are supported "Adobe" and "IAB TCF". If using the Adobe standard you can current set the consent as "In", "Out", or you can procide it by using a data element. If using the IAB TCF standard you will need to provide the version and value that you want to use and you will also provide additional information regarding GDPR. 
+After you have received consent from your user, this must be communicated to the AEP Web SDK. You do this by using the "Set Consent" action type. Currently, two types of standards are supported: "Adobe" and "IAB TCF." If using the Adobe standard, you can currently set the consent as "In," "Out," or you can provide it by using a data element. If using the IAB TCF standard, provide the version and value that you want to use, and additional information regarding GDPR. 
 
-In this action you are also provided with an optional field to include an Identity Map so that identities can by synced once consent is received. This can be useful when the consent is configured as "Pending" since the consent call will likely be the first call to fire. 
+In this action you are also provided with an optional field to include an Identity Map so that identities can by synced once consent is received. This can be useful when the consent is configured as "Pending" because the consent call will likely be the first call to fire. 
 
 ### Reset Event Merge ID
 
-If you would liek to reset your event merge ID you can do so with this action. To reset your ID you will need to select the Merge ID you want to reset and fire the action as needed.
+If you would like to reset your event merge ID you can do so with this action. To reset your ID you will need to select the Merge ID you want to reset and fire the action as needed.
