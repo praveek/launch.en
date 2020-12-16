@@ -16,6 +16,7 @@ Use this reference for information about the options available when using this e
 This section describes the Send Data action type available in the Adobe Experience Platform Cloud Connector extension. 
  
 ### Request type 
+
 To select the type of request required by the endpoint, select the appropriate type under the [!UICONTROL Request Type] dropdown. 
 
 |Method|Description|
@@ -81,10 +82,10 @@ The following table lists the predefined headers. You are not limited to these h
 |[If-Unmodified-Since](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)| |
 |[Max-Forwards](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since)| |
 |[Origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin)| |
-|[Pragma](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Pragma)|Implementation-specific header that may have various effects anywhere along the request-response chain. Used for backwards compatibility with HTTP/1.0 caches where the Cache-Control header is not yet present.|
+|[Pragma](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Pragma)|Implementation-specific header that may have various effects anywhere along the request-response chain. Used for backwards compatibility with HTTP/1.0 caches where the Cache-Control header is not yet present.| |
 |[Proxy-Authorization](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Proxy-Authorization) 
 |[Range](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range)|Indicates the part of a document that the server should return.|
-|[Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)|The address of the previous web page from which a link to the currently requested page was followed. |
+|[Referer](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer)|The address of the previous web page from which a link to the currently requested page was followed. | |
 |TE|Specifies the transfer encodings the user agent is willing to accept. (You could informally call it `Accept-Transfer-Encoding`, which would be more intuitive). 
 |Upgrade|The relevant RFC document for the [`Upgrade` header field is RFC 7230, section 6.7](https://tools.ietf.org/html/rfc7230#section-6.7). The standard establishes rules for upgrading or changing to a different protocol on the current client, server, transport protocol connection. For example, this header standard allows a client to change from HTTP 1.1 to HTTP 2.0, assuming the server decides to acknowledge and implement the `Upgrade` header field. Neither party is required to accept the terms specified in the `Upgrade` header field. It can be used in both client and server headers. If the `Upgrade` header field is specified, then the sender MUST also send the `Connection` header field with the `upgrade` option specified.|
 |[User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent)|Contains a characteristic string that allows the network protocol peers to identify the application type, operating system, software vendor or software version of the requesting software user agent. |
