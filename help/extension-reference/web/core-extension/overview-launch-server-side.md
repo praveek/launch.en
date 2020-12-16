@@ -34,7 +34,7 @@ getDataElementValue('productName')
 In your custom code, you might also use the `ruleStash` object.
 
 ```javascript
-context.arc.ruleStash: Object<string, *>`
+arc.ruleStash: Object<string, *>`
 ```
 
 ```javascript
@@ -98,7 +98,6 @@ If you have a rule with multiple conditions, it is possible that this condition 
 
 1. Provide a value.
 1. Select the operator. Refer to the list of  value comparison operators, below, for more details.
-1. (Where required) Select whether the comparison should be case-insensitive.
 1. Provide another value for the comparison.
 
 The following value comparison operators are available:
