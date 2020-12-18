@@ -10,7 +10,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 
 # Experience Platform Launch {#using}
 
-* [[!DNL Platform Launch] User Guide](overview.md)
+* [[!DNL Platform Launch] user guide](overview.md)
 * Getting started {#get-started}
   * [Quick Start](quick-start/quick-start.md)
   * [Implementation Guides](quick-start/implementation-guides.md)
