@@ -23,8 +23,7 @@ Platform Launch Server Side, coupled with the Adobe Experience Platform Web and 
 
 ## Improved performance
 
-In an increasingly competitive environment, businesses must prioritize performance to maintain and expand market share. Platform Launch Server Side improves website and app performance across mobile, IoT, and OTT devices. Website conversion rates can increase due to faster load times, mobile apps don't drain batteries as quickly, and OTT apps feel as responsive as those same apps running on mobile devices. As performance increases, it's
-also common for conversion rates to increase.
+In an increasingly competitive environment, businesses must prioritize performance to maintain and expand market share. Platform Launch Server Side improves website and app performance across mobile, IoT, and OTT devices. Website conversion rates can increase due to faster load times, mobile apps don't drain batteries as quickly, and OTT apps feel as responsive as those same apps running on mobile devices. As performance increases, it's also common for conversion rates to increase.
 
 ## Better data governance
 
