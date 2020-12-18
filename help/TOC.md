@@ -34,30 +34,30 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
   * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
 * Publishing {#publish}
-    * [Publishing overview](launch-reference/publishing/overview.md)
-    * [Approval workflow](launch-reference/publishing/approval-workflow.md)
-    * Hosts {#hosts}
-      * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
-      * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
-      * [SFTP Hosts](launch-reference/publishing/hosts/sftp-host.md)
-    * Environments {#environments}
-      * [Overview](launch-reference/publishing/environments.md)
-      * [Test embed codes using Adobe Experience Platform Debugger](launch-reference/publishing/embed-code-testing.md)
-    * [Builds](launch-reference/publishing/builds.md)
-    * [Libraries](launch-reference/publishing/libraries.md)
-    * [Self-hosting libraries](launch-reference/publishing/hosts/self-hosting-libraries.md)
-    * [Republish library](launch-reference/publishing/republish.md)
-  * Client-side information {#client-side-info}
-    * [Client-side information](launch-reference/client-side-information/overview.md)
-    * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
-    * [[!DNL Platform Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
-    * [Deploy JavaScript tags to opt in to [!DNL Platform Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
-    * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
-    * [Subresource Integrity (SRI)](./launch-reference/client-side-information/sri.md)
-  * Administration {#admin}
-    * [Administration overview](launch-reference/administration/overview.md)
-    * [Companies and properties](launch-reference/administration/companies-and-properties.md)
-    * [User permissions](launch-reference/administration/user-permissions.md)
+  * [Publishing overview](launch-reference/publishing/overview.md)
+  * [Approval workflow](launch-reference/publishing/approval-workflow.md)
+  * Hosts {#hosts}
+    * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
+    * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
+    * [SFTP Hosts](launch-reference/publishing/hosts/sftp-host.md)
+  * Environments {#environments}
+    * [Overview](launch-reference/publishing/environments.md)
+    * [Test embed codes using Adobe Experience Platform Debugger](launch-reference/publishing/embed-code-testing.md)
+  * [Builds](launch-reference/publishing/builds.md)
+  * [Libraries](launch-reference/publishing/libraries.md)
+  * [Self-hosting libraries](launch-reference/publishing/hosts/self-hosting-libraries.md)
+  * [Republish library](launch-reference/publishing/republish.md)
+* Client-side information {#client-side-info}
+  * [Client-side information](launch-reference/client-side-information/overview.md)
+  * [Asynchronous deployment](launch-reference/client-side-information/asynchronous-deployment.md)
+  * [[!DNL Platform Launch] object reference](launch-reference/client-side-information/launch-object-reference.md)
+  * [Deploy JavaScript tags to opt in to [!DNL Platform Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
+  * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
+  * [Subresource Integrity (SRI)](./launch-reference/client-side-information/sri.md)
+* Administration {#admin}
+  * [Administration overview](launch-reference/administration/overview.md)
+  * [Companies and properties](launch-reference/administration/companies-and-properties.md)
+  * [User permissions](launch-reference/administration/user-permissions.md)
 * Extensions reference {#extensions-ref}
   * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
   * Adobe extensions {#adobe-extension}
@@ -145,7 +145,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Hosting third-party libraries](./extension-dev/third-party-libraries.md)
   * [Turbine free variable](./extension-dev/turbine.md)
   * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)
-* [FAQ](launch-faq.md)
+* [FAQ](./faq.md)
 * Release notes {#release-notes}
   * [Latest](release-notes/current.md)
   * [2019 release notes](release-notes/2019-release-notes.md)
