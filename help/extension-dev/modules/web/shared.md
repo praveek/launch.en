@@ -16,7 +16,7 @@ var userIdPromise = new Promise(/* load user id, then resolve promise */);
 module.exports = userIdPromise;
 ```
 
-In the [extension manifest](../manifest.md) you have to provide a name for this shared module. If you name it `user-id-promise`, a different extension could then access this shared module as follows:
+In the [extension manifest](../../manifest.md) you have to provide a name for this shared module. If you name it `user-id-promise`, a different extension could then access this shared module as follows:
 
 ```javascript
 var userIdPromise = turbine.getSharedModule('user-extension', 'user-id-promise');
