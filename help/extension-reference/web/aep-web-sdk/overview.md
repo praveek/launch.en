@@ -1,17 +1,17 @@
 ---
-title: Adobe Experience Platform Web Extension
-seo-title: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-description: Adobe Experience Platform Web Extension in Adobe Experience Platform Launch
-seo-description: Adobe Experience Platform Web Extensionin Adobe Experience Platform Launch
+title: Adobe Experience Platform Web SDK Extension
+seo-title: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+description: Adobe Experience Platform Web SDK Extension in Adobe Experience Platform Launch
+seo-description: Adobe Experience Platform Web SDK Extension Adobe Experience Platform Launch
 ---
 
-# Adobe Experience Platform Extension
+# Adobe Experience Platform Web SDK Extension
 
-The Adobe Experience Platform Extension sends data to the Adobe Experience Cloud from web properties, through the Adobe Experience Platform Edge Network. The Adobe Experience Platform extension allows for streaming data into platform, syncing identities, opt-in and automatically collecting context data. 
+The AEP Web SDK Extension sends data to the Adobe Experience Cloud from web properties, through the Adobe Experience Platform Edge Network. The Adobe Experience Platform Web SDK extension allows for streaming data into platform, syncing identities, opt-in and automatically collecting context data. 
 
-## Configure the Adobe Experience Platform extension
+## Configure the AEP Web SDK extension
 
-This section provides a reference for the options available when configuring the Adobe Experience Platform extension.
+This section provides a reference for the options available when configuring the Adobe Experience Platform Web SDK extension.
 
 If the Adobe Experience Platform Web SDK extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Experience Platform Web SDK extension, and click **[!UICONTROL Install]**.
 
@@ -21,7 +21,7 @@ To configure the extension, open the **[!UICONTROL Extensions]** tab, hover over
 
 ### Instance Name
 
-The Adobe Experience Platform extension supports multiple instances on the page. This is used to send data to multiple organizations with a single Adobe Experience Platform Launch configuration. The **[!UICONTROL Name]** defaults to alloy. However, you can change the instance name to any valid JavaScript object name. The Adobe Experience Platform extension requires that each instance have a different **[!UICONTROL Config ID]** and a different **[!UICONTROL Organization ID]**. 
+The AEP Web SDK extension supports multiple instances on the page. This is used to send data to multiple organizations with a single Adobe Experience Platform Launch configuration. The **[!UICONTROL Name]** defaults to alloy. However, you can change the instance name to any valid JavaScript object name. The Adobe Experience Platform extension requires that each instance have a different **[!UICONTROL Config ID]** and a different **[!UICONTROL Organization ID]**. 
 
 ## **[!UICONTROL Config ID]**
 
@@ -42,11 +42,11 @@ By default, if there is an error with the extension, it logs the error to the co
 
 ### **[!UICONTROL Enable Opt-in]**
 
-If **[!UICONTROL Enable Opt-in]** is enabled, Adobe Experience Platform extension can hold hits until opt-in is received. The extension exposes an action to set the opt-in preferences. 
+If **[!UICONTROL Enable Opt-in]** is enabled, AEP Web SDK extension can hold hits until opt-in is received. The extension exposes an action to set the opt-in preferences. 
 
 ### **[!UICONTROL Enable Migrate ECID]**
 
-The Adobe Experience Platform extension uses a new cookie to store the ECID. This setting enables compatibility between the new cookie and the old cookie for migration purposes. Adobe highly recommends this be enabled, unless you have no existing visitors with an ECID. 
+The AEP Web SDK extension uses a new cookie to store the ECID. This setting enables compatibility between the new cookie and the old cookie for migration purposes. Adobe highly recommends this be enabled, unless you have no existing visitors with an ECID. 
 
 ### **[!UICONTROL Use 3rd Party Cookies]**
 
@@ -69,7 +69,12 @@ Sends an event to Adobe Experience Platform so that Adobe Experience Platform ca
 
 Any data that you want to send can be sent in the **[!UICONTROL XDM Data]** field. This should be a JSON object that conforms to the structure of your XDM schema. This object can either be created on your page or through a **[!UICONTROL Custom Code]** **[!UICONTROL Data Element]**.
 
-### Set Opt-in Preferences
+### Set Consent
 
-There are currently two option for opt-in. **[!UICONTROL All purpose]** sends data to Adobe Experience Platform and **[!UICONTROL No purposes]**, sends no data. These can either be set on the event or pulled from a **[!UICONTROL Data Element]**. 
+After you have received consent from your user, this must be communicated to the AEP Web SDK. You do this by using the "Set Consent" action type. Currently, two types of standards are supported: "Adobe" and "IAB TCF." If using the Adobe standard, you can currently set the consent as "In," "Out," or you can provide it by using a data element. If using the IAB TCF standard, provide the version and value that you want to use, and additional information regarding GDPR. 
 
+In this action you are also provided with an optional field to include an Identity Map so that identities can by synced once consent is received. This can be useful when the consent is configured as "Pending" because the consent call will likely be the first call to fire. 
+
+### Reset Event Merge ID
+
+If you would like to reset your event merge ID you can do so with this action. To reset your ID you will need to select the Merge ID you want to reset and fire the action as needed.
