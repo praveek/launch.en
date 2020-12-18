@@ -11,17 +11,12 @@ git-repo: https://github.com/AdobeDocs/launch.en
 # Experience Platform Launch {#using}
 
 * [[!DNL Platform Launch] User Guide](overview.md)
-* Introduction {#intro}
-  * Release notes {#release-notes}
-    * [Latest](release-notes/current.md)
-    * [2019 release notes](release-notes/2019-release-notes.md)
-    * [2018 release notes](release-notes/2018-release-notes.md)
-  * Quick start and videos {#get-started}
-    * [Quick Start](quick-start/quick-start.md)
-    * [Implementation Guides](quick-start/implementation-guides.md)
-    * [Videos](quick-start/videos.md)
-  * [FAQ](launch-faq.md)
-  * [Additional Resources](quick-start/additional-resources.md)
+* Getting started {#get-started}
+  * [Quick Start](quick-start/quick-start.md)
+  * [Implementation Guides](quick-start/implementation-guides.md)
+  * [Videos](quick-start/videos.md)
+* [FAQ](launch-faq.md)
+* [Additional Resources](quick-start/additional-resources.md)
 * [!DNL Platform Launch] Reference {#reference}
   * Managing Resources {#manage-resources}
     * [Managing Resources overview](launch-reference/managing-resources/overview.md)
@@ -153,3 +148,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Hosting third-party libraries](./extension-dev/third-party-libraries.md)
   * [Turbine free variable](./extension-dev/turbine.md)
   * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)
+  * Release notes {#release-notes}
+    * [Latest](release-notes/current.md)
+    * [2019 release notes](release-notes/2019-release-notes.md)
+    * [2018 release notes](release-notes/2018-release-notes.md)
