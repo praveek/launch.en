@@ -8,7 +8,7 @@ index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
 ---
 
-# Experience Platform Launch
+# Experience Platform Launch {#using}
 
 * [[!DNL Platform Launch] User Guide](overview.md)
 * Introduction {#intro}
