@@ -11,7 +11,7 @@ An event type library module has one goal: detect when an activity happens and, 
 
 >[!NOTE]
 >
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
 
 In addition to the `settings` parameter that is common to other module types, the `module.exports` for an event type accepts a second parameter, `trigger`:
 
