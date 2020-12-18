@@ -43,6 +43,10 @@ If you select this option, specify one or more report suites for each of the fol
 * Staging
 * Production
 
+#### Using the activity map module
+
+The activity map is loaded as a separate module (like the AAM module). By default activity map is turned on, but if you would prefer to turn it off you can do so by unchecking the box in the configuration.  
+
 #### Tracker is accessible on the global variable named
 
 Checking this box allows the tracker object to be used globally. For example, you could define the variable `window.s.pageName` anywhere on your site.
@@ -75,7 +79,9 @@ Specify the tracker object to be used globally.
 
 Lets you [insert core AppMeasurement code](https://docs.adobe.com/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html). This code is populated automatically when using the automatic configuration method.
 
->[!NOTE] The validator used in the Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Launch validator, which can usually be ignored.
+>[!NOTE]
+>
+>The validator used in the Adobe Experience Platform Launch code editor is designed to identify issues with developer-written code. Code that has gone through a minification process--such as the AppMeasurement.js code downloaded from the Code Manager--might be falsely flagged as having issues by the Platform Launch validator, which can usually be ignored.
 
 #### Set the following report suites on tracker
 
@@ -97,7 +103,7 @@ Select an option from the General section of the configuration page. The followi
 
 Enables or disables tracking based on the EU privacy cookie.
 
-When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Launch uses to track your opt-out status for receiving other cookies.
+When you check the EU Compliance check box, the [!UICONTROL Tracking Cookie Name] field appears. The Tracking Cookie overrides the default tracking cookie name. You can customize the name that Platform Launch uses to track your opt-out status for receiving other cookies.
 
 When a page is loaded, the system checks to see if a cookie called sat\_track is set (or the custom cookie name specified on the Edit Property page). Consider the following information:
 
@@ -107,13 +113,13 @@ When a page is loaded, the system checks to see if a cookie called sat\_track is
 You are responsible for setting the sat\_track (or custom named) cookie to false if a visitor opts out. You can accomplish this using custom code:
 
 ```javascript
-_satellite.setCookie("sat_track", "false");
+_satellite.cookie.set("sat_track", "false");
 ```
 
 You must also have a mechanism to set that cookie to true if you want a visitor to be able to opt in later:
 
 ```javascript
-_satellite.setCookie("sat_track", "true");
+_satellite.cookie.set("sat_track", "true");
 ```
 
 ### Character Set
@@ -121,14 +127,13 @@ _satellite.setCookie("sat_track", "true");
 Determines how the image request is encoded. If your implementation or site uses non-ASCII characters, it is important to define character set here. You can select a preset character set or specify a custom character set. Adobe recommends using the same character coding as your site. Typically this value is UTF-8.
 
 Character Set can be set in Analytics custom code using the variable `s.charSet`.
-
-For more information about character sets, see the [Multi-Byte Character Sets whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/multibyte/multibyte_encodings.html).
+For more information about character sets, see the [charSet documentation](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html).
 
 ### Currency Code
 
 Determines the conversion rate to be applied to revenue and currency events. If your site allows visitors to purchase in multiple currencies, setting the currency code ensures the monetary amount is converted and stored correctly.
 
-For more information about the supported currency codes, see the [Multi-Currency Support whitepaper](https://experiencecloud.adobe.com/resources/help/en_US/whitepapers/currency/currency_codes.html).
+For more information about the supported currency codes, see [currencyCode](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/currencycode.html).
 
 ### Tracking Server
 
@@ -184,14 +189,16 @@ See [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/impl
 
 You can use one of the following methods to track outbound links from SPA sites:
 
-* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, [http://testsite.com/spa/\#](http://testsite.com/spa/#)  All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
+* If you do not want to track any outbound links from your SPA, insert an entry into the Never Track section.  For example, `http://testsite.com/spa/\#`. All \# links to this host are ignored. All outbound links to other hosts are tracked, such as [https://www.google.com](https://www.google.com).
 * If there are some links that you want to track on your SPA, use the Always Track section.
 
 For example, if you have a spa/\#/about page, you could put "about" in the Always Track section.
 
 The "about" page is the only outbound link that is tracked. Any other links on the page (for example, [https://www.google.com](https://www.google.com)) are not tracked.
 
-Note that these two options are mutually exclusive.
+>[!NOTE]
+>
+>These two options are mutually exclusive.
 
 ### Keep URL Parameters
 
@@ -325,12 +332,15 @@ These settings include:
 * Channel
 * Referrer
 * Campaign
+* Purchase ID
 
   Specify either a value or a query parameter
 
 * State
 * Zip
 * Transaction ID
+
+These settings can be found in the "Global Variables" menu by clicking the "Additional Settings" checkbox.
 
 #### Custom Page Code
 

@@ -9,7 +9,9 @@ seo-description: Remove resources from an Adobe Experience Platform Launch libra
 
 When you no longer want a resource to have an effect inside a build, you must remove it from the library that contains that resource and create a new build.
 
->[!IMPORTANT]  Resources in libraries are interdependent. Removing a resource from a build may change the behavior of other resources in the build.
+>[!IMPORTANT]
+>
+>Resources in libraries are interdependent. Removing a resource from a build may change the behavior of other resources in the build.
 
 The removal process works a little differently depending on which state the library is in.
 

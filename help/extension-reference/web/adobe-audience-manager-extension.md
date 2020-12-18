@@ -11,7 +11,9 @@ With the Audience Manager extension, you can integrate the DIL code used by Audi
 
 Use this reference for information about the options available when using this extension to build a rule.
 
->[!NOTE] This extension is not meant to be used for server-side forwarding of Adobe Analytics data. For server-side forwarding, use the [Adobe Analytics extension](/help/extension-reference/adobe-extensions/adobe-analytics-extension.md).
+>[!NOTE]
+>
+>This extension is not meant to be used for server-side forwarding of Adobe Analytics data. For server-side forwarding, use the [Adobe Analytics extension](/help/extension-reference/web/adobe-analytics-extension/overview.md).
 
 ## Configure the Adobe Audience Manager extension
 

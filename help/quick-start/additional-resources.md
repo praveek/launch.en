@@ -7,7 +7,7 @@ seo-description: Additional resources to help you get the most out of Adobe Expe
 
 # Additional Resources
 
-The [!DNL  Launch] community is full of talented professionals who share useful tips, tutorials, and tools across the web. This is a collection of some of the best things supplied by the community so far.
+The Adobe Experience Platform Launch community is full of talented professionals who share useful tips, tutorials, and tools across the web. This is a collection of some of the best things supplied by the community so far.
 
 ## General Usage
 

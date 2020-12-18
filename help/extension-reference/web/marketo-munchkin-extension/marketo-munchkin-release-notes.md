@@ -7,6 +7,13 @@ seo-description: Marketo Munchkin Extension Release Notes in Adobe Experience Pl
 
 # Marketo Munchkin Extension Release Notes
 
+## December 2, 2020
+
+### Marketo Munchkin Extension 1.3.0
+
+* Updated Logo to Adobe's red Adobe A on the white background
+* Removed the Associate Lead action that is soon to be deprecated 
+
 ## January 28, 2020
 
 ### Marketo Munchkin Extension 1.1.0

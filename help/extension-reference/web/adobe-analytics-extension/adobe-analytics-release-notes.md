@@ -26,14 +26,13 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 
 #### Bug Fixes
 
-* Fixed a bug where the shopping cart events (prodView, scAdd, scView, etc) were not shopping up on the events dropdown. All of these should now be selectable from the dropdown. 
+* Fixed a bug where the shopping cart events (prodView, scAdd, scView, etc) were not showing up on the events dropdown. All of these should now be selectable from the dropdown. 
 
 #### Features
 
 * You can now turn off the activity map in the extension without having to use custom code. The activity map loads as a separate module (much like the AAM module) and you can turn it off if you want.
 * Cleaned up the UI by minimizing hierarchy variables and other options.
 * Added a field to set purchase IDs from the extension configuration UI.
-
 
 ## March 10, 2020
 
@@ -248,7 +247,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 #### **Features**
 
 * AppMeasurement has been updated to version 2.6
-* The initialized Analytics tracker is now exposed through a shared module in the Launch extension so other extensions can include code to interact with it.
+* The initialized Analytics tracker is now exposed through a shared module in the Adobe Experience Platform Launch extension so other extensions can include code to interact with it.
 
 #### **Bug fixes**
 

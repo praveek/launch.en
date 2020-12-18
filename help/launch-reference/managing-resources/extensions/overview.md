@@ -7,11 +7,13 @@ seo-description: Adobe Experience Platform Launch extensions
 
 # Extensions
 
-An extension is a packaged set of code that extends the [!DNL Launch] interface and the library functionality. [!DNL Launch] is the platform, and extensions are like apps that run on the platform.
+An extension is a packaged set of code that extends the [!DNL Adobe Experience Platform Launch] interface and the library functionality. [!DNL Platform Launch] is the platform, and extensions are like apps that run on the platform.
 
 Adding an extension adds new data elements and new options for creating rules.
 
->[!NOTE] Extensions are similar to _tools_ in the previous [!DNL Dynamic Tag Management].
+>[!NOTE]
+>
+>Extensions are similar to _tools_ in the previous [!DNL Dynamic Tag Management].
 
 Extensions determine the elements that are available when building properties, rules, and data elements. They provide:
 
@@ -23,7 +25,9 @@ Use the links at the top of the Extensions list to view installed extensions, th
 
 Select an extension, then click [!UICONTROL Configure] to view and change the extension's settings. See [Add a new extension](#add-a-new-extension) for information about extension options.
 
->[!Important] Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
+>[!IMPORTANT]
+>
+>Changes do not take effect until they are [published](/help/launch-reference/publishing/overview.md).
 
 By default, [!DNL Adobe] provides extensions that support common integrations. Extensions can be modified with custom configurations. Configurations are provided through the extensions. To create a configuration, click the extension card, then click [!UICONTROL Add New Configuration].
 
@@ -51,9 +55,9 @@ See [Extensions Reference](/help/extension-reference/web/overview.md) for detail
 
 ## Add a new extension {#add-a-new-extension}
 
-[!DNL Launch] is highly extendible. Extensions add core functionality to [!DNL Launch].
+[!DNL Platform Launch] is highly extendible. Extensions add core functionality to [!DNL Platform Launch].
 
-A common use of extensions is to create integrations with other applications. In the predecessor of [!DNL Launch], known as [!DNL Dynamic Tag Management], extensions were called _tools_.
+A common use of extensions is to create integrations with other applications. In the predecessor of [!DNL Platform Launch], known as [!DNL Dynamic Tag Management], extensions were called _tools_.
 
 1. From a property's overview page, open the [!UICONTROL Extensions] tab.
 1. Select an extension.
@@ -78,6 +82,8 @@ When creating or editing elements, you can save and build to your [active librar
 
 Mouse over an installed extension and click [!UICONTROL Configure].
 
->[!NOTE] Some extensions do not require configuration and do not offer configuration options.
+>[!NOTE]
+>
+>Some extensions do not require configuration and do not offer configuration options.
 
 Each configurable extension has unique options. Refer to [Extensions Reference](../../../extension-reference/web/overview.md) for information about the options available for each [!DNL Adobe] extension.

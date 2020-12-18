@@ -52,7 +52,7 @@ Available actions for a library in Development state are:
 
 * Delete
 
-  Deleting a library removes it from Launch. It does not remove the build from the environment.
+  Deleting a library removes it from Adobe Experience Platform Launch. It does not remove the build from the environment.
 
 ### Submitted {#submitted}
 
@@ -90,7 +90,9 @@ Available actions for a library in Approved state are:
 
   Unassigns the library from the staging environment, assigns the library to the production environment, and deploys it.
 
-  >[!IMPORTANT]  When this option is selected, your library becomes live in your production environment, so be sure before you click the button.
+  >[!IMPORTANT]
+  >
+  >When this option is selected, your library becomes live in your production environment, so be sure before you click the button.
 
 * Reject
 
