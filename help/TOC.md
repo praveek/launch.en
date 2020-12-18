@@ -15,22 +15,25 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Quick Start](quick-start/quick-start.md)
   * [Implementation Guides](quick-start/implementation-guides.md)
   * [Videos](quick-start/videos.md)
-* [FAQ](launch-faq.md)
-* [Additional Resources](quick-start/additional-resources.md)
-* [!DNL Platform Launch] Reference {#reference}
-  * Managing Resources {#manage-resources}
-    * [Managing Resources overview](launch-reference/managing-resources/overview.md)
-    * Extensions {#extensions}
-      * [Extensions overview](launch-reference/managing-resources/extensions/overview.md)
-      * [Extensions upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
-    * [Data elements](launch-reference/managing-resources/data-elements.md)
-    * [Rules](launch-reference/managing-resources/rules.md)
-    * [Notes](launch-reference/managing-resources/notes.md)
-    * [Copying resources](launch-reference/managing-resources/copying-resources.md)
-    * [Compare resource revisions](launch-reference/managing-resources/compare-resource-revisions.md)
-    * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
-    * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
-  * Publishing {#publish}
+  * Upgrade from DTM to [!DNL Platform Launch] {#upgrade}
+    * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
+    * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
+    * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
+    * [Link DTM embed code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
+    * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
+* Platform Launch UI {#ui}
+  * [Overview](launch-reference/managing-resources/overview.md)
+  * Extensions {#extensions}
+    * [Extensions overview](launch-reference/managing-resources/extensions/overview.md)
+    * [Extensions upgrade](launch-reference/managing-resources/extensions/extension-upgrade.md)
+  * [Data elements](launch-reference/managing-resources/data-elements.md)
+  * [Rules](launch-reference/managing-resources/rules.md)
+  * [Notes](launch-reference/managing-resources/notes.md)
+  * [Copying resources](launch-reference/managing-resources/copying-resources.md)
+  * [Compare resource revisions](launch-reference/managing-resources/compare-resource-revisions.md)
+  * [Deleting resources](launch-reference/managing-resources/delete-resources.md)
+  * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
+* Publishing {#publish}
     * [Publishing overview](launch-reference/publishing/overview.md)
     * [Approval workflow](launch-reference/publishing/approval-workflow.md)
     * Hosts {#hosts}
@@ -55,12 +58,6 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Administration overview](launch-reference/administration/overview.md)
     * [Companies and properties](launch-reference/administration/companies-and-properties.md)
     * [User permissions](launch-reference/administration/user-permissions.md)
-  * Upgrade from DTM to [!DNL Platform Launch] {#upgrade}
-    * [Upgrade overview](launch-reference/upgrade-from-dtm-to-launch/overview.md)
-    * [Upgrade FAQ](launch-reference/upgrade-from-dtm-to-launch/upgrade-faq.md)
-    * [Upgrade preparation guide](launch-reference/upgrade-from-dtm-to-launch/upgrade-preparation-guide.md)
-    * [Link DTM embed code](launch-reference/upgrade-from-dtm-to-launch/link-dtm-embed-code.md)
-    * [Link DTM to Experience Cloud](launch-reference/upgrade-from-dtm-to-launch/link-dtm-to-experience-cloud.md)
 * Extensions reference {#extensions-ref}
   * [Extension reference overview](extension-reference/adobe-extensions/overview.md)
   * Adobe extensions {#adobe-extension}
@@ -148,7 +145,9 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Hosting third-party libraries](./extension-dev/third-party-libraries.md)
   * [Turbine free variable](./extension-dev/turbine.md)
   * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)
-  * Release notes {#release-notes}
-    * [Latest](release-notes/current.md)
-    * [2019 release notes](release-notes/2019-release-notes.md)
-    * [2018 release notes](release-notes/2018-release-notes.md)
+* [FAQ](launch-faq.md)
+* Release notes {#release-notes}
+  * [Latest](release-notes/current.md)
+  * [2019 release notes](release-notes/2019-release-notes.md)
+  * [2018 release notes](release-notes/2018-release-notes.md)
+* [Additional resources](quick-start/additional-resources.md)
