@@ -1,11 +1,11 @@
 ---
-title: Library module context
-seo-title: Library module context
+title: Context in edge extension modules
+seo-title: Context in edge extension modules
 description: This document covers the properties provided by the context object and the role they play in library modules.
 seo-description: This document covers the properties provided by the context object and the role they play in library modules.
 ---
 
-# Library module context
+# Context in edge extension modules
 
 All library modules in edge extensions are provided a `context` object when they are executed. This document covers the properties provided by the `context` object and the role they play in library modules.
 

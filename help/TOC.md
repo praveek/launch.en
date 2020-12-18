@@ -8,7 +8,7 @@ index: yes
 git-repo: https://github.com/AdobeDocs/launch.en
 ---
 
-# Experience Platform Launch User Guide {#using}
+# Experience Platform Launch
 
 * [[!DNL Platform Launch] User Guide](overview.md)
 * Introduction {#intro}
@@ -131,8 +131,8 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Release an extension](./extension-dev/submit/release.md)
   * [Extension configuration](./extension-dev/configuration.md)
   * [Extension manifest](./extension-dev/manifest.md)
-  * Library modules and views {#modules}
-    * Modules and views for web extensions {#web}
+  * Library modules {#modules}
+    * Modules for web extensions {#web}
       * [Extension flow](./extension-dev/modules/web/flow.md)
       * [Library module format](./extension-dev/modules/web/format.md)
       * [Views](./extension-dev/modules/web/views.md)
@@ -142,7 +142,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Data element types](./extension-dev/modules/web/data-element-types.md)
       * [Core modules](./extension-dev/modules/web/core.md)
       * [Shared modules](./extension-dev/modules/web/shared.md)
-    * Modules and views for edge extensions {#edge}
+    * Modules for edge extensions {#edge}
       * [Extension flow](./extension-dev/modules/edge/flow.md)
       * [Library module format](./extension-dev/modules/edge/format.md)
       * [Views](./extension-dev/modules/web/views.md)
