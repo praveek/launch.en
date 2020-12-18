@@ -149,6 +149,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
       * [Condition types](./extension-dev/modules/edge/condition-types.md)
       * [Action types](./extension-dev/modules/edge/action-types.md)
       * [Data element types](./extension-dev/modules/edge/data-element-types.md)
+      * [Context parameter](./extension-dev/modules/edge/context.md)
   * [Hosting third-party libraries](./extension-dev/third-party-libraries.md)
   * [Turbine free variable](./extension-dev/turbine.md)
   * [Backwards compatibility standard](./extension-dev/backwards-compatibility.md)
