@@ -78,9 +78,10 @@ The base code creates a script element, sets it to load asynchronously, and sets
 
 The sections below demonstrate the different ways you can load vendor libraries in your extensions, using the Pinterest base code shown previously as an example. Each of these examples involve creating an [action type for a web extension](./modules/web/action-types.md) that loads the library on your website.
 
-{% alert info, Note %}
-While the examples below use action types for demonstration purposes, you can apply the same principles to any function that loads the Platform Launch library on your site.
-{% endalert %}
+>[!NOTE]
+>
+>While the examples below use action types for demonstration purposes, you can apply the same principles to any function that loads the Platform Launch library on your site.
+
 
 The following methods are covered:
 
@@ -151,9 +152,9 @@ Using a vendor CDN for library hosting poses several risks: the CDN may fail, th
 
 To address these concerns, you can choose to include the vendor library as a separate file within your extension. The extension can then be configured so that the file is hosted alongside the main Platform Launch library. At runtime, the extension loads the vendor library from the same sever that delivered the main library to the website.
 
-{% alert info, Important %}
-In some cases, the vendor library may load additional code from third-party servers, as is the case with the Pinterest vendor library. In these cases, bundling the vendor library with your extension might not fully alleviate all risk-related concerns.
-{% endalert %}
+>[!IMPORTANT]
+>
+>In some cases, the vendor library may load additional code from third-party servers, as is the case with the Pinterest vendor library. In these cases, bundling the vendor library with your extension might not fully alleviate all risk-related concerns.
 
 To implement this, you must first download the vendor library onto your machine. In the case of Pinterest, the vendor library is found at [https://s.pinimg.com/ct/core.js](https://s.pinimg.com/ct/core.js). Once you have downloaded the file, you must place it within your extension project. In the example below, the file is named `pinterest.js` and is located within a `vendor` folder in the project directory.
 
