@@ -26,6 +26,16 @@ The `event` object represents the event that triggered the rule. `event` contain
 | `rule.xdm` | The XDM object of the event. |
 | `rule.data` | The custom data layer. |
 
+### [!DNL request]
+
+```js
+logger.log(context.arc.request)
+```
+
+Not to be confused with a request from the client device, `request` is a slightly modified object that comes from Adobe Experience Platform Edge Network.
+
+The `request` object has two top-level properties: `body` and `head`. The `body` property contains Experience Data Model (XDM) information and can be inspected in Adobe Experience Platform Debugger when you navigate to **[!UICONTROL Launch]** and select the **[!UICONTROL Edge Trace]** tab.
+
 ### [!DNL ruleStash] {#rulestash}
 
 ```js
