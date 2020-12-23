@@ -13,19 +13,19 @@ Frequently asked questions about Adobe Experience Platform Launch.
 
 [!DNL Platform Launch] is the next-generation of the [!DNL Adobe] tag-management capability, built into the [!DNL Adobe Experience Platform]. [!DNL Platform Launch] enables clients to:
 
-* Deploy client-side web products using integrations called _extensions_
-* Dynamically deliver configuration to update client implementations in native mobile applications
-* Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from [!DNL Adobe]
+- Deploy client-side web products using integrations called _extensions_
+- Dynamically deliver configuration to update client implementations in native mobile applications
+- Consistently capture, define, manage, and share data between marketing and advertising products from other vendors and from [!DNL Adobe]
 
 [!DNL Platform Launch] is an advanced code and configuration delivery system that evaluates conditions and executes actions to efficiently and effectively deploy client-side libraries and products. It also provides a highly scalable approach to managing and building integrations and has a robust set of APIs for programmatic interaction.
 
 ## Is Platform Launch just an updated DTM?
 
-No. [!DNL Platform Launch] is a tag manager, but it is not an update to DTM.  [!DNL Platform Launch]  is an entirely new product with a new code base. It has been redesigned from scratch using modern front-end development practices and an API-first approach. Everything is built on a robust set of APIs, which makes the system very powerful, flexible, and customizable.
+No. [!DNL Platform Launch] is a tag manager, but it is not an update to DTM. [!DNL Platform Launch] is an entirely new product with a new code base. It has been redesigned from scratch using modern front-end development practices and an API-first approach. Everything is built on a robust set of APIs, which makes the system very powerful, flexible, and customizable.
 
 ## Will the current DTM product remain available?
 
-For now, yes, but not indefinitely.  DTM has a [defined sunset plan](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/dtm-plans-for-a-sunset/ba-p/331077) with specific milestones that will progressively limit its functionality.  The next Milestone is set for October of 2020 when DTM properties will become read-only. At this time, no major feature enhancements are planned for legacy [!DNL DTM].
+For now, yes, but not indefinitely. DTM has a [defined sunset plan](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/dtm-plans-for-a-sunset/ba-p/331077) with specific milestones that will progressively limit its functionality. The next Milestone is set for October of 2020 when DTM properties will become read-only. At this time, no major feature enhancements are planned for legacy [!DNL DTM].
 
 A migration assistant is available to copy properties from DTM into [!DNL Platform Launch] , you can read more about that [here](https://docs.adobe.com/content/help/en/launch/using/reference/upgrade/overview.html) and [here](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/launch-web/migrate-from-dynamic-tag-manager-to-launch.html).
 
@@ -39,7 +39,7 @@ No, you don't have to change your production embed codes if you're currently usi
 
 ## I heard there are plug-ins now. What's that about?
 
-[!DNL Platform Launch] is built into the [!DNL Adobe Experience Platform] and it is fully extensible. Customers, [!DNL Adobe] Partners, agencies, and marketing or advertising technology vendors can build [!DNL Platform Launch] extensions that add new functionality or modify existing functionality. The system allows partners and clients to build, manage, and update their own integrations. This is just one way [!DNL Adobe] is opening up the [!DNL Adobe Experience Platform] so customers and partners can build products and businesses on it.  This helps everyone connect Adobe technology to the marketing and advertising technologies from other vendors with greater ease. 
+[!DNL Platform Launch] is built into the [!DNL Adobe Experience Platform] and it is fully extensible. Customers, [!DNL Adobe] Partners, agencies, and marketing or advertising technology vendors can build [!DNL Platform Launch] extensions that add new functionality or modify existing functionality. The system allows partners and clients to build, manage, and update their own integrations. This is just one way [!DNL Adobe] is opening up the [!DNL Adobe Experience Platform] so customers and partners can build products and businesses on it. This helps everyone connect Adobe technology to the marketing and advertising technologies from other vendors with greater ease.
 
 ## Will all third-party extensions be available right away?
 
@@ -57,31 +57,31 @@ We have many customers who also choose to build their own private extensions for
 
 ## When can I move to Platform Launch?
 
-Now!  You should move to Platform Launch now.  The migration process makes easy to copy your DTM properties into [!DNL Platform Launch].  We recommend extensive testing, but we've automated as much as we can (no on-page embed code changes, and automated migration of rules and data elements).
+Now! You should move to Platform Launch now. The migration process makes easy to copy your DTM properties into [!DNL Platform Launch]. We recommend extensive testing, but we've automated as much as we can (no on-page embed code changes, and automated migration of rules and data elements).
 
 ## Which capabilities exist in Platform Launch that don't exist in legacy DTM?
 
 [!DNL Platform Launch] many major capabilities that aren't comparable to legacy [!DNL DTM]:
 
-* Deploy non-[!DNL Adobe] client-side browser technologies quickly and easily
+- Deploy non-[!DNL Adobe] client-side browser technologies quickly and easily
 
   Using extensions, clients and partners can easily control in-browser technologies in the interface, without managing custom code.
 
-* Enterprise-grade publishing
+- Enterprise-grade publishing
 
   Compartmentalize and control each piece of your libraries to deploy precisely what you need, where you need it, and when you need it.
 
-* Robust approval workflows
+- Robust approval workflows
 
   Flexible approval workflows allow custom processes to match your existing internal approval processes.
 
-* Granular rights management
+- Granular rights management
 
   Administrators will designate which extensions users can, and can't use. They will also control which areas within [!DNL Platform Launch] are accessible to certain users.
 
-* APIs
+- APIs
 
-  Many customers different integrations with [!DNL Platform Launch]  using the APIs.  Some have hooked [!DNL Platform Launch]  into into their site deployment pipelines, others have made proeprty cloning tools, while others have made applications to download local copies of their properties where they can make changes and sync them back to [!DNL Platform Launch].
+  Many customers different integrations with [!DNL Platform Launch] using the APIs. Some have hooked [!DNL Platform Launch] into into their site deployment pipelines, others have made proeprty cloning tools, while others have made applications to download local copies of their properties where they can make changes and sync them back to [!DNL Platform Launch].
 
 ## Does Platform Launch support single page apps and my favorite framework?
 
@@ -103,20 +103,20 @@ Event types are available through extensions. The pre-loaded [!DNL DTM] extensio
 
 Browser support in the [!DNL Platform Launch] client-side libraries:
 
-* [!DNL Chrome] (latest)
-* [!DNL Safari] (latest)
-* [!DNL Firefox] (latest)
-* [!DNL Microsoft Edge] (latest)
-* [!DNL Internet Explorer] (10 and above)
-* [!DNL iOS Safari] (latest)
-* [!DNL Android Chrome] (latest)
+- [!DNL Chrome] (latest)
+- [!DNL Safari] (latest)
+- [!DNL Firefox] (latest)
+- [!DNL Microsoft Edge] (latest)
+- [!DNL Internet Explorer] (10 and above)
+- [!DNL iOS Safari] (latest)
+- [!DNL Android Chrome] (latest)
 
 Browser support in the [!DNL Platform Launch] application interface:
 
-* [!DNL Chrome] (latest)
-* [!DNL Safari] (latest)
-* [!DNL Firefox] (latest)
-* [!DNL Microsoft Edge] (latest)
+- [!DNL Chrome] (latest)
+- [!DNL Safari] (latest)
+- [!DNL Firefox] (latest)
+- [!DNL Microsoft Edge] (latest)
 
 Legacy [!DNL DTM] supported older versions of [!DNL Internet Explorer], but over the last few years, the percentage of overall web users with older, outdated browsers has dropped to a small segment for our clients. Most [!DNL Adobe] clients now leverage more modern web platform features in current browsers and create better user experiences, including single page applications and interactive Ajax-heavy web sites and pages. As most clients move to more modern approaches with their sites, they demand a solution like [!DNL Platform Launch] that enables those approaches.
 
@@ -126,6 +126,6 @@ Yes! [!DNL Platform Launch] now supports mobile properties and configuration for
 
 ## What if I have other questions?
 
-If you have other questions, please ask in the [!DNL Adobe] Community on the main [!DNL Platform Launch]  page located at [https://adobe.com/go/launchme](https://adobe.com/go/launchme).
+If you have other questions, please ask in the [!DNL Adobe] Community on the main [!DNL Platform Launch] page located at [https://adobe.com/go/launchme](https://adobe.com/go/launchme).
 
 [!DNL Platform Launch] is just one example of where our platform is headed: more open, more integrated and as always dedicated to customer success.
