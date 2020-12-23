@@ -15,11 +15,11 @@ The `arc` property is an object that provides information about the event trigge
 
 ### [!DNL event]
 
+The `event` object represents the event that triggered the rule. `event` contains a single property, `rule`, which itself contains the following values:
+
 ```js
 logger.log(context.arc.event);
 ```
-
-The `event` object represents the event that triggered the rule. `event` contains a single property, `rule`, which itself contains the following values:
 
 | Property | Description |
 | --- | --- |
@@ -28,21 +28,21 @@ The `event` object represents the event that triggered the rule. `event` contain
 
 ### [!DNL request]
 
+Not to be confused with a request from the client device, `request` is a slightly modified object that comes from Adobe Experience Platform Edge Network.
+
 ```js
 logger.log(context.arc.request)
 ```
-
-Not to be confused with a request from the client device, `request` is a slightly modified object that comes from Adobe Experience Platform Edge Network.
 
 The `request` object has two top-level properties: `body` and `head`. The `body` property contains Experience Data Model (XDM) information and can be inspected in Adobe Experience Platform Debugger when you navigate to **[!UICONTROL Launch]** and select the **[!UICONTROL Edge Trace]** tab.
 
 ### [!DNL ruleStash] {#rulestash}
 
+`ruleStash` is an object that will collect every result from action modules.
+
 ```js
 logger.log(context.arc.ruleStash);
 ```
-
-`ruleStash` is an object that will collect every result from action modules.
 
 Each extension has its own namespace. For example, if your extension has the name `send-beacon`, all results from `send-beacon` actions will be stored on the `ruleStash['send-beacon']` namespace.
 
