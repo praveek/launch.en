@@ -46,7 +46,7 @@ You can now make a copy of a rule within the same property. Before you ask, the 
 
 ### Updates
 
-* Conditions and exceptions have been combined in the rule builder, because order matters.  This more accurately reflects how they are treated within the system and at runtime. To make an exception, click the **[!UICONTROL Add]** button under Conditions and choose **[!UICONTROL Exception]** from the [!UICONTROL Logic Type] selector.
+* Conditions and exceptions have been combined in the rule builder, because order matters.  This more accurately reflects how they are treated within the system and at runtime. To make an exception, select the **[!UICONTROL Add]** button under [!UICONTROL Conditions] and choose **[!UICONTROL Exception]** from the [!UICONTROL Logic Type] selector.
 * If you're using the Managed by [!DNL Adobe] host, older builds will now be cleaned up when new builds are published.
 * There is now an icon next to the property name to indicate property type.
 
@@ -341,7 +341,7 @@ The following changes were made to be more descriptive of the actual behavior in
 
 * Fixed an issue where the [!DNL Platform Launch] library would load twice in certain edge cases.
 * There are now audit log entries for Property Delete.
-* Improved the load speed of the Revision Selector when you quickly click from one entry to another.
+* Improved the load speed of the Revision Selector when you quickly navigate from one entry to another.
 * Help links now open in a new tab.
 
 ## Initial release

@@ -127,7 +127,7 @@ seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Lau
 #### Features
 
 * Updated the Adobe Analytics Extension to [AppMeasurement 2.14.0](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html) which includes a fix to a known clearVars issue
-* Added an Exchange link to the extension. The Exchange listing can be reached by clicking on the dropdown and selecting "extension info"
+* Added an Exchange link to the extension. The Exchange listing can be reached by selecting the dropdown and choosing "extension info"
 
 #### Bug fixes
 

@@ -23,13 +23,13 @@ There are also two metrics:
 * Asset Impressions
 * Asset Clicks. 
 
-These reports must be enabled using the Analytics Administrator (click **[!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > `<report suite>` > [!UICONTROL Edit Settings] > [!UICONTROL AEM] > [!UICONTROL AEM Assets Reporting]**) before they can be populated using this extension.
+These reports must be enabled using the Analytics Administrator (select **[!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > `<report suite>` > [!UICONTROL Edit Settings] > [!UICONTROL AEM] > [!UICONTROL AEM Assets Reporting]**) before they can be populated using this extension.
 
 The "*Adobe Analytics*" extension for Adobe Experience Platform Launch must be installed into the same Platform Launch Web Property.
         
 ### Adobe Experience Manager (AEM)
                         
-1. Enable [AEM Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html). In AEM, click **[!UICONTROL Tools > Assets]**, then open the **[!UICONTROL Insights Configuration]** panel. 
+1. Enable [AEM Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html). In AEM, select **[!UICONTROL Tools > Assets]**, then open the **[!UICONTROL Insights Configuration]** panel. 
                         
 1. Disable UUID Tracking. 
 
@@ -71,9 +71,9 @@ After you enable the UUID, you should see the "data-asset-id" data element being
     
 This extension has two events and one action.
         
-* **Asset Clicked:** An _event_ that fires when the visitor clicks an AEM Asset that is enabled for tracking and has a destination (href attribute).
+* **Asset Clicked:** An _event_ that fires when the visitor selects an AEM Asset that is enabled for tracking and has a destination (href attribute).
         
-* **Asset Clicked (No Destination):** An _event_ that fires when the visitor clicks an AEM Asset that is enabled for tracking and does not have a destination (no href attribute).
+* **Asset Clicked (No Destination):** An _event_ that fires when the visitor selects an AEM Asset that is enabled for tracking and does not have a destination (no href attribute).
         
 * **Set AA Variables:** An _action_ that sets the Analytics variables reserved for AEM Assets (context data variables `a.assets.source`, `a.assets.idlist` and `a.asset.clickedid`) depending on which event was used and how the event and action are configured. This extension does not use any Analytics events, props, or eVars.
 
@@ -101,7 +101,6 @@ The "Asset Clicked" event also supports an "Asset Clicked image request" setting
 Configure a third rule that will fire when there are Assets on the pages that do not have a destination (no `href` attribute). At a minimum, the new rule needs to use the "Asset Clicked (No Destination)" event as well as the "Set AA Variables" and "Adobe Analytics - Send Beacon" actions. Additonal conditions and actions can be added as required. 
     
 ![Asset Clicks no destination](assets/sendClickOnClickNoDestination.jpg)
-
     
 ### Extension testing tips
     
@@ -115,7 +114,7 @@ Configure three Rules as described above:
 
 1. Navigate to a page that contains AEM assets. 
 
-1. If there are no assets visible in the browser, scroll until you can see at least one asset and click that asset or just navigate to another page.
+1. If there are no assets visible in the browser, scroll until you can see at least one asset and select that asset, or just navigate to another page.
 
 1. Look at the Analytics image request. 
 
@@ -131,18 +130,18 @@ Configure three Rules as described above:
 
 1. Navigate to a page that contains AEM assets.
 
-1. Click one of the Assets. 
+1. Select one of the Assets. 
 
-In the resulting Analytics image request (from the next page), if `a.assets.idlist` has the Asset IDs on the destination page and `a.assets.clickedid` has the Asset ID of the asset that was clicked on the originating page, the rule is working correctly. 
+In the resulting Analytics image request (from the next page), if `a.assets.idlist` has the Asset IDs on the destination page and `a.assets.clickedid` has the Asset ID of the asset that was selected on the originating page, the rule is working correctly. 
 
-If `a.assets.clickedid` is not in the image request, it's mostly likely because the Asset that was clicked did not have [Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html) enabled in AEM.
+If `a.assets.clickedid` is not in the image request, it's mostly likely because the Asset that was selected did not have [Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html) enabled in AEM.
     
 **Clicks with no destination** 
 
 1. Navigate to a page that contains at least one AEM asset that has no destination (no `href` attribute).
 
-1. Click that asset. 
+1. Select that asset. 
 
 In the resulting Analytics image request, if `a.assets.clickedid` has the Asset ID, the rule is working correctly. 
 
-If `a.assets.clickedid` is not in the image request, it's mostly likely because the asset that was clicked did not have [Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html) enabled in AEM.
+If `a.assets.clickedid` is not in the image request, it's mostly likely because the asset that was selected did not have [Asset Insights](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-configuring-asset-insights.html) enabled in AEM.

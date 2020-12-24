@@ -43,7 +43,7 @@ Notes: You can now add textual annotations to `notable` resources.  These includ
 
 ### Updates
 
-* Property Copy: You can now make a copy of a property and everything in it.  From the Properties list page, simply select a property and click Copy in the toolbar.
+* Property Copy: You can now make a copy of a property and everything in it.  From the Properties list page, simply choose a property and select **[!UICONTROL Copy]** in the toolbar.
 * Working Library Build button: For users who use the Working Library, there's now a build button.  When you have set the working library and make edits to a resource, the default action is now *Save and Add* instead of *Save and Build*.  This will allow users to make edits to multiple resources and then build when you are ready.
 * Visual tweaks to code checks in code editor: We made some visual tweaks to soften the appearance of the Code Validation that we released back in August.
 
@@ -205,7 +205,7 @@ The [!DNL Reactor] API that powers [!DNL Platform Launch] is officially reaching
 
 ### Features
 
-* Cross-property Copy - You can now copy resources from one property to another.  After selecting a resource and clicking the **[!UICONTROL Copy]** button, you can select a target property to copy to.  This is available on extensions, data elements, and rules.  Read more about copying resources [here](../launch-reference/managing-resources/copying-resources.md).
+* Cross-property Copy - You can now copy resources from one property to another.  After choosing a resource and selecting **[!UICONTROL Copy]**, you can select a target property to copy to.  This is available on extensions, data elements, and rules.  Read more about copying resources [here](../launch-reference/managing-resources/copying-resources.md).
 
 ## January 29, 2019
 

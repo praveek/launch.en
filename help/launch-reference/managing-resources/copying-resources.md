@@ -15,11 +15,11 @@ Copying a resource creates a duplicate of that resource in the specified destina
 
 ## Initiate a copy
 
-You can initiate a copy of an extension by viewing your installed extensions, clicking the drop-down arrow on the **[!UICONTROL Configure]** button and selecting **[!UICONTROL Copy]**.
+You can initiate a copy of an extension by viewing your installed extensions, selecting  the drop-down arrow on the **[!UICONTROL Configure]** button and selecting **[!UICONTROL Copy]**.
 
 ![Copying the Analytics extension](/help/assets/copy-initiate-extension.png)
 
-For properties, rules, and data elements, simply select the resource you want to copy and then click the **[!UICONTROL Copy]** button in the actions menu.
+For properties, rules, and data elements, simply select the resource you want to copy and then select **[!UICONTROL Copy]** in the actions menu.
 
 ![Copying my Analytics rule](/help/assets/copy-initiate-rule.png)
 
@@ -29,7 +29,7 @@ If you are copying a rule or a data element, in the copy dialog you may use the 
 >
 >In the Adobe Experience Platform Launch user interface, it is not possible to copy resources to another Property if one Property is configured for extension development and the other Property is not.
 
-Once you've configured the behavior you want, click **[!UICONTROL Copy]**.
+Once you've configured the behavior you want, select **[!UICONTROL Copy]**.
 
 ## Copying properties
 

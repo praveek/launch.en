@@ -17,9 +17,9 @@ Use this reference for information about the options available when using this e
 
 ## Configure the Adobe Audience Manager extension
 
-If the Adobe Audience Manager extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Audience Manager extension, and click **[!UICONTROL Install]**.
+If the Adobe Audience Manager extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Audience Manager extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ### DIL Settings
 
@@ -37,7 +37,7 @@ This setting cannot be changed.
 
 If the URL matches any of the excluded paths, the extension is not loaded.
 
-Click **[!UICONTROL Add Path]** to specify an excluded URL.
+Select **[!UICONTROL Add Path]** to specify an excluded URL.
 
 Enable Regex if the URL is a regular expression.
 
@@ -57,11 +57,11 @@ Enable the [Google Analytics module](https://experiencecloud.adobe.com/resources
 
 Add initialization properties used by [DIL.create](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_create.html) and the namespace subproperty for the [visitorService object](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_visitor_service.html). Two sample use cases are included in the code comments, in the Code Editor.
 
-Click **[!UICONTROL Choose an Item]** to add additional properties.
+Select **[!UICONTROL Choose an Item]** to add additional properties.
 
 Hover over the "i" icons to learn what each property does. You can find more information for the properties in the [Audience Manager DIL documentation](https://experiencecloud.adobe.com/resources/help/en_US/aam/r_dil_create.html).
 
-Click **[!UICONTROL Save]** when you have finished configuring the extension.
+Select **[!UICONTROL Save]** when you have finished configuring the extension.
 
 ## Adobe Audience Manager extension action types
 

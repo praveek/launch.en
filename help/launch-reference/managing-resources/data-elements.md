@@ -50,7 +50,7 @@ You can use data elements in custom scripts by using the `_satellite` object syn
 
 Data elements are the building blocks for rules. Data elements let you create a data dictionary (or data map) of commonly used items on a page, regardless of where they originate (query strings, URLs, or cookie values) for any object that is contained on your site.
 
-1. From a Property page, open the [!UICONTROL Data Elements] tab, then click [!UICONTROL Create New Data Element].
+1. From a Property page, open the [!UICONTROL Data Elements] tab, then select **[!UICONTROL Create New Data Element]**.
 1. Name the data element.
 1. Select an extension and type.
 
@@ -79,7 +79,7 @@ Data elements are the building blocks for rules. Data elements let you create a 
    * Visitor
      * The value is stored indefinitely in the brower's local storage.
 
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 When creating or editing elements, you can save and build to your [active library](/help/launch-reference/publishing/libraries.md#active-library). This immediately saves your change to your library and executes a build. The status of the build is displayed. You can also create a new library from the [!UICONTROL Active Library] drop down.
 
@@ -99,7 +99,7 @@ Any available domain cookie can be referenced in the cookie name field.
 
 ### Custom code
 
-Custom JavaScript can be entered into the UI by clicking [!UICONTROL Open Editor] and inserting code into the editor window.
+Custom JavaScript can be entered into the UI by selecting  [!UICONTROL Open Editor] and inserting code into the editor window.
 
 A return statement is necessary in the editor window in order to indicate what value should be set as the data element value. If a return statement is not included, the data element resolves to `undefined`.  This triggers the fallback to look for a stored value, and then a default value if no stored value is present.
 

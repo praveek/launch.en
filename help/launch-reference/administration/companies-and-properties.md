@@ -85,7 +85,7 @@ The Properties list shows the following information:
 * Platform
 * Status
 
-Click a property to see an overview of that property. The overview shows any activity performed on the property. It also lists the metrics and extensions for the property.
+Select a property to see an overview of that property. The overview shows any activity performed on the property. It also lists the metrics and extensions for the property.
 
 ## Create or configure a property
 
@@ -97,7 +97,7 @@ Create or configure a property in [!DNL Platform Launch].
 
 Before beginning, review the [Best practices for planning properties](companies-and-properties.md#best-practices-for-planning-properties) for properties.
 
-Navigate to your company page, then click [!UICONTROL Add Property], or select an existing property from the list and click [!UICONTROL Configure].
+Navigate to your company page, then select **[!UICONTROL Add Property]**, or select an existing property from the list and select **[!UICONTROL Configure]**.
 
 ![](/help/assets/property-settings.png)
 
@@ -112,7 +112,7 @@ Navigate to your company page, then click [!UICONTROL Add Property], or select a
 1. (Advanced) **[!UICONTROL Run rule components in sequence]** Select this checkbox to make conditions and actions wait for the previous one to complete before they run
 1. (Advanced) **[!UICONTROL Return an empty string for undefined data elements:]** Select this check box if you want data elements that resolve to null or undefined values to be converted to empty strings.
 1. (Advanced) **[!UICONTROL Configure for extension development:]** Select this check box if you plan to install development extensions that are being actively developed by your company
-1. Click Save.
+1. Select **[!UICONTROL Save]**.
 
 ### For Mobile
 
@@ -127,7 +127,7 @@ Navigate to your company page, then click [!UICONTROL Add Property], or select a
 
    * **Use HTTPS:** Choose if all data communication should be sent over HTTP or HTTPS.
 
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 After your property is created, [!DNL Platform Launch] automatically adds a default host, a set of environments (Development, Staging, and Production) and the default extensions.
 
@@ -143,4 +143,4 @@ Delete a property from [!DNL Platform Launch].
 
    You can select multiple properties to delete.
 
-1. Click **[!UICONTROL Delete]**, then confirm the removal of the property.
+1. Select **[!UICONTROL Delete]**, then confirm the removal of the property.

@@ -70,4 +70,4 @@ Before you can delete a resource, you must remove it from any libraries that con
 
 ## Delete a resource
 
-From the appropriate list view, select the resource you want to delete, then click **[!UICONTROL Delete]**.
+From the appropriate list view, select the resource you want to delete, then select **[!UICONTROL Delete]**.

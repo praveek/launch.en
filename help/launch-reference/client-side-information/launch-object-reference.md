@@ -382,7 +382,7 @@ The example above specifies all three methods in the monitor. When they're calle
 1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Chrome].
 1. A rule that has a click event and a browser condition that passes only if the browser is [!DNL Firefox].
 
-If you open the page in [!DNL Chrome], open the browser console, and click the page, the following appears in the console:
+If you open the page in [!DNL Chrome], open the browser console, and select the page, the following appears in the console:
 
 ![](/help/assets/debug.png)
 

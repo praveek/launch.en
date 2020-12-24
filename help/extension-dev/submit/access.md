@@ -24,7 +24,7 @@ Your Adobe Experience Cloud organization administrator should sign in to the [Ad
 
 ![](../images/getting-started/admin-console-overview.jpg)
 
-Some of you may have access to more than one Organization. In order to add the Platform Launch product to the correct Org, click the name of the Organization you see in the upper right corner of the screen, then choose the one where you want to use Platform Launch:
+Some of you may have access to more than one Organization. In order to add the Platform Launch product to the correct Org, select the name of the Organization you see in the upper right corner of the screen, then choose the one where you want to use Platform Launch:
 
 ![](../images/getting-started/admin-console-choose-org.jpg)
 
@@ -36,7 +36,7 @@ Choose the "Products" link at the top, and "LAUNCH, BY ADOBE" on the left. If yo
 
 ![](../images/getting-started/admin-console-products-launch.jpg)
 
-The screenshot above shows one existing Profile for Platform Launch, you may not have one yet. To create one, click the blue "New Profile" button. On the Create a New Profile screen, just add a Profile Name (Platform Launch, for example), and an optional Description, then click Done:
+The screenshot above shows one existing Profile for Platform Launch, you may not have one yet. To create one, select the blue "New Profile" button. On the Create a New Profile screen, just add a Profile Name (Platform Launch, for example), and an optional Description, then select Done:
 
 ![](../images/getting-started/admin-console-create-a-new-profile.jpg)
 
@@ -44,11 +44,11 @@ Now that we have the Product Profile in our Organization, let's add our users.
 
 ## Assign Users to the Product Profile
 
-Notice that the Product Profile shows zero for Entitled Users and Admins. Click the name of the Product Profile you created (Adobe Lunch in our example):
+Notice that the Product Profile shows zero for Entitled Users and Admins. Select the name of the Product Profile you created (Adobe Lunch in our example):
 
 ![](../images/getting-started/admin-console-profiles-add-user.jpg)
 
-Click on the Users tab, then you can add users by clicking the blue Add User link:
+Select the Users tab, then you can add users by selecting the blue Add User link:
 
 ![](../images/getting-started/admin-console-add-launch-user.jpg)
 
@@ -56,7 +56,7 @@ Here you can search for existing Adobe ID users by email, or add new ones as Use
 
 ![](../images/getting-started/admin-console-add-user.jpg)
 
-Click the blue Save link when you add the user. When you have all the users you need in this Product Profile, we'll add Permissions for them. Click the Permissions tab:
+Select the blue Save link when you add the user. When you have all the users you need in this Product Profile, we'll add Permissions for them. Select the Permissions tab:
 
 ![](../images/getting-started/admin-console-profile-permissions.jpg)
 
@@ -64,7 +64,7 @@ On the Permissions screen you'll see PROPERTIES, COMPANY RIGHTS, and PROPERTY RI
 
 ![](../images/getting-started/admin_console_rights.png)
 
-To author extensions, you and your team need - at minimum - `Manage Properties` from the Company group as well as `Manage Extensions`, `Manage Environments`, and `Develop` from the Property group. You can create additional Product Profiles with more limited rights later if you like, but for now it is simplest to click "+ Add all" for both Company Rights and Property Rights, being sure to click blue "Save" link on each:
+To author extensions, you and your team need - at minimum - `Manage Properties` from the Company group as well as `Manage Extensions`, `Manage Environments`, and `Develop` from the Property group. You can create additional Product Profiles with more limited rights later if you like, but for now it is simplest to select "+ Add all" for both Company Rights and Property Rights, being sure to select "Save" on each:
 
 ![](../images/getting-started/admin_console_add_all_company_rights.png)
 
