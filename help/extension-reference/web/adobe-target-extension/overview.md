@@ -15,9 +15,9 @@ Use this reference for information about the options available when using this e
 >
 > The Adobe Target extension requires at.js. It does not support mbox.js.
 
-If the Adobe Target extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Target extension, and click **[!UICONTROL Install]**.
+If the Adobe Target extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Target extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-target-config.png)
 
@@ -87,14 +87,14 @@ No configuration is needed.
 Add parameters to all mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-1. Click the Plus icon to add more parameters.
+1. Select the **plus (+)** icon to add more parameters.
 
 ### Add Global Mbox Params
 
 Add parameters only to your global mbox requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-1. Click the Plus icon to add more parameters.
+1. Select the **plus (+)** icon to add more parameters.
 
 ### Fire Global Mbox
 

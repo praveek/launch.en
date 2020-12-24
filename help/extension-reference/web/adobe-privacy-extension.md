@@ -18,8 +18,8 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 * Target
 * Visitor Service
 * AdCloud
-* Select one or more solutions, then click Update.
-* When you have selected and configured your solutions, click Save. The Adobe Privacy Extension is added to your installed extensions list.
+* Select one or more solutions, then select Update.
+* When you have selected and configured your solutions, select Save. The Adobe Privacy Extension is added to your installed extensions list.
 
   The options for each solution are described below.
 
@@ -29,13 +29,13 @@ When you install the Adobe Privacy extension from the Extension Catalog, you are
 
 By default, you must provide your report suite by entering a string or selecting a data element.
 
-To configure other items, click **[!UICONTROL Choose an Item]**, select the item you want to configure, then click **[!UICONTROL Add]** and enter the requested parameter or a data element.
+To configure other items, select **[!UICONTROL Choose an Item]**, select the item you want to configure, then select **[!UICONTROL Add]** and enter the requested parameter or a data element.
 
 ### Audience Manager
 
 ![](/help/assets/ext-privacy-aam.jpg)
 
-Click **[!UICONTROL Choose an Item]**, select the item you want to configure, then click **[!UICONTROL Add]** and enter the requested parameter or a data element. Currently, you can configure only the `aamUUIDCookieName`.
+Select **[!UICONTROL Choose an Item]**, select the item you want to configure, then select **[!UICONTROL Add]** and enter the requested parameter or a data element. Currently, you can configure only the `aamUUIDCookieName`.
 
 ### Target
 
@@ -57,7 +57,7 @@ There are no specific parameters to configure for AdCloud.
 
 ## Configure the Adobe Privacy Extension
 
-After you install the extension, you can disable or delete it. Click **[!UICONTROL Configure]** on the Adobe Privacy card in your installed extensions, then select either **[!UICONTROL Disable]** or **[!UICONTROL Uninstall]**.
+After you install the extension, you can disable or delete it. Select **[!UICONTROL Configure]** on the Adobe Privacy card in your installed extensions, then select either **[!UICONTROL Disable]** or **[!UICONTROL Uninstall]**.
 
 ## Actions
 

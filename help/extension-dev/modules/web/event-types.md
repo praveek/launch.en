@@ -80,7 +80,7 @@ This can be useful for marketers trying to access any information from the nativ
 
 ### [!DNL element]
 
-If there's a strong relationship between an element and the event that occurred, we recommend setting the `element` property to the element's DOM node. For example, let's assume your extension is providing a `click` event type and you allow marketers to configure it so the rule would fire only if an element with the ID of `herobanner` is clicked. In this case, if the user clicks inside the hero banner, we would recommend calling `trigger` and setting `element` to the hero banner's DOM node.
+If there's a strong relationship between an element and the event that occurred, we recommend setting the `element` property to the element's DOM node. For example, let's assume your extension is providing a `click` event type and you allow marketers to configure it so the rule would fire only if an element with the ID of `herobanner` is selected. In this case, if the user selects the hero banner, we would recommend calling `trigger` and setting `element` to the hero banner's DOM node.
 
 ```js
 trigger({

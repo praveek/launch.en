@@ -39,13 +39,13 @@ Use each of these tabs (Query Params, Headers, and Body Data Elements) to contro
 
 Define a key and value for each key-value pair you want to send as a query string parameter. To manually enter a data element, use the curly brace data element tokenization for Platform Launch Server Side. To reference the value of a data element named “siteSection” as a key or value, enter `{{siteSection}}`. Or, select the previously-created data element by selecting it in the dropdown menu. 
 
-To add more query parameters, click **[!UICONTROL Add Another]**.
+To add more query parameters, select **[!UICONTROL Add Another]**.
 
 #### Headers
 
 Define a key and value for each key-value pair you want to send as a header. To manually enter a data element, use the curly brace data element tokenization for Platform Launch Server Side. To reference the value of a data element named “pageName” as a key or value, enter `{{pageName}}`. Or, select the previously created data element by selecting it in the dropdown menu.  
 
-To add more headers, click **[!UICONTROL Add Another]**. 
+To add more headers, select **[!UICONTROL Add Another]**. 
 
 The following table lists the predefined headers. You are not limited to these headers and can add your own custom headers if required, but they are made available for your convenience. 
 
@@ -98,7 +98,7 @@ The following table lists the predefined headers. You are not limited to these h
 
 Define a key and value for each key-value pair you want to send in the body of the request. To manually enter a data element, use the curly brace data element tokenization for Platform Launch Server Side. To reference the value of a data element named “appSection” as a key or value, enter `{{appSection}}`. Or, select the previously-created data element by selecting it in the dropdown menu.  
 
-To add additional key-value pairs, click **[!UICONTROL Add Another]**. 
+To add additional key-value pairs, select **[!UICONTROL Add Another]**. 
 
 #### Body as Raw 
 

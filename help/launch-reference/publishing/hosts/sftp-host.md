@@ -48,6 +48,6 @@ There is a full guide on how to setup SFTP servers for Platform Launch delivery 
    >
    >As a security best practice, Adobe limits the number of ports that can be used for outgoing traffic. The selected ports are commonly allowed through corporate firewalls, plus they include some ranges for flexibility.
 
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
-When you click **[!UICONTROL Save]**, Platform Launch tests whether it is able to connect and deliver files to your SFTP server. It creates a folder, writes a file within that folder, checks to make sure the file is there, then cleans up after itself. If the user account on your SFTP server (the one attached to the secure certificate you provided to Platform Launch) does not have the necessary permissions to perform this action, then the Host goes into a "Failed" status.
+When you select **[!UICONTROL Save]**, Platform Launch tests whether it is able to connect and deliver files to your SFTP server. It creates a folder, writes a file within that folder, checks to make sure the file is there, then cleans up after itself. If the user account on your SFTP server (the one attached to the secure certificate you provided to Platform Launch) does not have the necessary permissions to perform this action, then the Host goes into a "Failed" status.

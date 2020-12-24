@@ -31,7 +31,7 @@ Notes are comments that have no impact on the behavior of the resources they are
 
 Noteable resources display a narrow rail on the right-hand side of the screen.  The rail includes an icon for notes.  This icon displays the current number of notes attached to the resource.
 
-Click the [!UICONTROL Notes] icon to expand the right rail and display the notes, with the most recent notes at the top.  To add a new note, enter your note text in the box at the top and click **[!UICONTROL Add Note]**.
+Select **[!UICONTROL Notes]** to expand the right rail and display the notes, with the most recent notes at the top.  To add a new note, enter your note text in the box at the top and select **[!UICONTROL Add Note]**.
 
 ## Other
 

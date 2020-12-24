@@ -92,7 +92,7 @@ Available actions for a library in Approved state are:
 
   >[!IMPORTANT]
   >
-  >When this option is selected, your library becomes live in your production environment, so be sure before you click the button.
+  >When this option is selected, your library becomes live in your production environment, so be sure before you select the button.
 
 * Reject
 

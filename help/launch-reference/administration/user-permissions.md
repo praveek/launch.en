@@ -143,7 +143,7 @@ Sign in to [https://experiencecloud.adobe.com/](https://experiencecloud.adobe.co
 
 ![](/help/assets/nav-menu.png)
 
-Open the solution picker by clicking the 9-dots icon from the [!UICONTROL Navigation] menu, then click [!UICONTROL Administration].
+Open the solution picker by selecting  the 9-dots icon from the [!UICONTROL Navigation] menu, then select [!UICONTROL Administration].
 
 ![](/help/assets/choose-admin.png)
 
@@ -160,17 +160,17 @@ In either case, ask an org admin to perform these steps for you, or to make you 
 
 ### 2. Open Admin Console
 
-Click **Platform Launch Admin Console**.
+Select **Platform Launch Admin Console**.
 
 ![](/help/assets/launch-admin-console-button.png)
 
-Click the **[!DNL Experience Platform Launch] - `Company Name`** card.
+Select the **[!DNL Experience Platform Launch] - `Company Name`** card.
 
 ![](/help/assets/launch-card.png)
 
 <!-- Scott, update above image. Rebranding. -->
 
-You can also click [!UICONTROL Products] in the top nav, then select **[!DNL Experience Platform Launch] - `Company Name`** from the left nav.
+You can also select [!UICONTROL Products] in the top nav, then select **[!DNL Experience Platform Launch] - `Company Name`** from the left nav.
 
 ![](/help/assets/products-select-launch.png)
 
@@ -186,9 +186,9 @@ If you are editing an existing product profile, skip this step.
 
 Choose to edit this product profile, or create a new one.
 
-To create a new product profile, click [!UICONTROL New Profile].
+To create a new product profile, select [!UICONTROL New Profile].
 
-Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then click [!UICONTROL Done].
+Give your new profile a name and a description, configure whether users should receive emails when they are added or removed from this profile, and then select [!UICONTROL Done].
 
 ![](/help/assets/profile-new.png)
 
@@ -208,11 +208,11 @@ A list shows your [!DNL Platform Launch] properties.
 
 By default, new product configurations automatically include properties. This means that all properties (present and future) are included in the group definition.
 
-If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by clicking [!UICONTROL Add].
+If Auto-include is disabled, all currently available properties are listed on the left. You can move properties into this group definition by selecting  [!UICONTROL Add].
 
 ![](/help/assets/profile-properties-add.png)
 
-Click [!UICONTROL Save] when finished.
+Select [!UICONTROL Save] when finished.
 
 ### 5. Assign rights
 
@@ -220,7 +220,7 @@ Assign the rights you want to be part of your group definition. Open the [!UICON
 
 ![](/help/assets/profile-rights-select.png)
 
-Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the [!UICONTROL + Add All] button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](#rights-scenarios). Click [!UICONTROL Save] when finished. If [!UICONTROL Save] is not available, you didn't make any changes and the profile won't give you any rights.
+Rights are not automatically included. You must assign each right to your profile. You can quickly add all rights to this profile by using the [!UICONTROL + Add All] button or you can assign individual rights by using the individual + buttons. For more information on what permissions are associated with each right, see [Rights scenarios](#rights-scenarios). Select [!UICONTROL Save] when finished. If [!UICONTROL Save] is not available, you didn't make any changes and the profile won't give you any rights.
 
 First, assign Property Rights:
 
@@ -243,17 +243,17 @@ Some important notes:
 
 ### 6. Assign users to groups
 
-To assign users to be part of your group, open the [!UICONTROL Users] tab, then click [!UICONTROL Add User].
+To assign users to be part of your group, open the [!UICONTROL Users] tab, then select [!UICONTROL Add User].
 
 ![](/help/assets/profile-user.png)
 
-Click [!UICONTROL ...] for additional options, such as bulk user operations.
+Select [!UICONTROL ...] for additional options, such as bulk user operations.
 
 >[!NOTE]
 >
 >Being an Org Admin or a Product Admin does not grant you any rights within the [!DNL Platform Launch] product. You must belong to at least one product profile.
 
-Search for the user you'd like to add to the group. You can search by name or by email address. This auto-populates from existing users in your Org. Once you have found the user you want, click on their name.
+Search for the user you'd like to add to the group. You can search by name or by email address. This auto-populates from existing users in your Org. Once you have found the user you want, select their name.
 
 Once you've added users, they receive an email letting them know that they now have rights to [!DNL Platform Launch]. They can login to [!DNL Platform Launch] at [https://launch.adobe.com](https://launch.adobe.com).
 

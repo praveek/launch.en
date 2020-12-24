@@ -19,7 +19,7 @@ This guide is intended to outline the process and help you complete each step.  
 1. [Upload and test your extension](./upload-and-test.md)
 1. [Release your extension](./release.md)
 
-For more information on each of these steps, please click the appropriate link.
+For more information on each of these steps, please select the appropriate link.
 
 ## Support
 

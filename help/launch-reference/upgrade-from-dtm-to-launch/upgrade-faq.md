@@ -21,7 +21,7 @@ Not everything you can do in DTM is compatible with [!DNL Platform Launch] . A l
 
 ## How do I start the upgrade? {#how-do-i-start-the-upgrade}
 
-Log in to DTM through the Experience Cloud, select your DTM property, then click **[!UICONTROL Upgrade to Launch]**.
+Log in to DTM through the Experience Cloud, select your DTM property, then select **[!UICONTROL Upgrade to Launch]**.
 
 ![](/help/assets/upgrade_to_launch.png)
 

@@ -53,12 +53,12 @@ Actions are the _Then_ portion of a rule. They define what you want to happen wh
 
 Create a rule by specifying what actions occur if a condition is met.
 
-1. Open the [!UICONTROL Rules] tab, then click **[!UICONTROL Create New Rule]**.
+1. Open the [!UICONTROL Rules] tab, then select **[!UICONTROL Create New Rule]**.
 
    ![](/help/assets/launch-rule-builder.jpg)
 
 1. Name the rule.
-1. Click the Events **[!UICONTROL Add]** icon.
+1. Select the Events **[!UICONTROL Add]** icon.
 1. Choose your extension and one of the event types available for that extension, then configure the settings for the event.  
 
    ![](/help/assets/rule-event-config.png)
@@ -79,7 +79,7 @@ Create a rule by specifying what actions occur if a condition is met.
     >
     >If this path in specified incorrectly, data is not collected. 
 
-1. Set the Order parameter, then click **[!UICONTROL Keep Changes]**.
+1. Set the Order parameter, then select **[!UICONTROL Keep Changes]**.
 
    Default order for all rule components is 50. If you want one to run sooner, give it a number lower than 50.
 
@@ -89,7 +89,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
      If you want it to run later, give it a number higher than 50. For more information about ordering, see [Rule ordering](rules.md#rule-ordering).
 
-1. Click the Conditions **[!UICONTROL Add]** icon, then choose a logic type, extension, condition type and configure the settings for your condition. Then click **[!UICONTROL Keep Changes]**.
+1. Select the Conditions **[!UICONTROL Add]** icon, then choose a logic type, extension, condition type and configure the settings for your condition. Next, select **[!UICONTROL Keep Changes]**.
 
    ![](/help/assets/condition-settings.png)
 
@@ -104,7 +104,7 @@ Create a rule by specifying what actions occur if a condition is met.
 
    You can add as many conditions as you'd like. Multiple conditions within the same rule are joined by AND.
 
-1. Click the Actions **[!UICONTROL Add]** icon, then choose your extension and one of the action types available for that extension, configure the settings for the action, then click **[!UICONTROL Keep Changes]**.
+1. Select the Actions **[!UICONTROL Add]** icon, then choose your extension and one of the action types available for that extension, configure the settings for the action, then select **[!UICONTROL Keep Changes]**.
 
    ![](/help/assets/action-settings.png)
 
@@ -115,7 +115,7 @@ Create a rule by specifying what actions occur if a condition is met.
    (Advanced) Timeout: This option is available when rule component sequencing is enabled on your property.  It defines the maximum amount of time allowed for the action to complete.  If the timeout is reached, the action fails and any subsequent actions for this rule will be removed from the processing queue.  The default is 2000ms.
 
 
-1. Review your rule, then click **[!UICONTROL Save Rule]**.
+1. Review your rule, then select **[!UICONTROL Save Rule]**.
 
    Later, when you [publish](/help/launch-reference/publishing/overview.md), you'll add this rule to a library and deploy it.
 

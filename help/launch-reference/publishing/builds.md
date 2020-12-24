@@ -42,7 +42,7 @@ However, in certain cases, you might prefer a .zip archive of the files rather t
 
 Regardless of file format, the build is always delivered to the location specified by the Host.
 
-To complete a build, select a library and click the Build option that is available at that level of the publishing process (Build for Development, Build for Staging, and so on.
+To complete a build, select a library and select the Build option that is available at that level of the publishing process (Build for Development, Build for Staging, and so on.
 
 ## Minification
 

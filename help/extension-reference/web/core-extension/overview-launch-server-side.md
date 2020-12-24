@@ -19,9 +19,9 @@ This section describes the condition types available in the Core extension.  The
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code. Platform Launch Server Side supports ES6.  
 
-1. Click **[!UICONTROL Open Editor]**.
+1. Select **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 To access the value of a data element in custom code, use the `getDataElementValue` method. For example, to retrieve the value of a data element named `productName, write the following: 
 
@@ -51,7 +51,7 @@ The namespace will be overridden with the returned result from each action. Ther
 
 If the result of the `generate-fullname` action is `Firstname Lastname`, then the rule stash appears as follows after the action is completed:
 
-```json
+```js
 {
   transform: 'Firstname Lastname`
 }
@@ -59,7 +59,7 @@ If the result of the `generate-fullname` action is `Firstname Lastname`, then th
 
 If the result of the `generate-address` action is `3900 Adobe Way`, then the rule stash appears as follows after the action is completed:
 
-```json
+```js
 {
   transform: '3900 Adobe Way`
 }
@@ -84,7 +84,7 @@ The first time this action is executed, the `ruleStash` is `undefined` and it is
 
 You need to be careful to always return the full extension rule stash in this case. If you were to return only a value (for example, 5), then the rule stash would look like:
 
-```json
+```js
 {
   transform: 5
 }
@@ -149,8 +149,8 @@ This section describes the action types available in the Core extension.
 Provide the code that runs after the event is triggered and conditions are evaluated. Platform Launch Server Side supports ES6.
 
 1. Name the action code.
-1. Click **[!UICONTROL Open Editor]**.
-1. Edit the code, then click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Open Editor]**.
+1. Edit the code, then select **[!UICONTROL Save]**.
 
 To access the value of a data element in custom code, use the `getDataElementValue` method. For example, to retrieve the value of a data element named `productName`, write the following: 
 
@@ -174,7 +174,7 @@ The following sections describe the types of data elements available in the Core
 
 ### Custom code
 
-Custom JavaScript can be entered into the UI by clicking **[!UICONTROL Open Editor]** and inserting code into the editor window.
+Custom JavaScript can be entered into the UI by selecting  **[!UICONTROL Open Editor]** and inserting code into the editor window.
 
 A return statement is necessary in the editor window to indicate what value should be used as the data element value. If a return statement is not included or the value `null` or `undefined` is returned, the data element’s default value reflects `null` or `undefined`.  
 

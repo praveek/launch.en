@@ -13,9 +13,9 @@ The AEP Web SDK Extension sends data to the Adobe Experience Cloud from web prop
 
 This section provides a reference for the options available when configuring the Adobe Experience Platform Web SDK extension.
 
-If the Adobe Experience Platform Web SDK extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Experience Platform Web SDK extension, and click **[!UICONTROL Install]**.
+If the Adobe Experience Platform Web SDK extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Experience Platform Web SDK extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the **[!UICONTROL Extensions]** tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the **[!UICONTROL Extensions]** tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-aep-config.png)
 

@@ -13,9 +13,9 @@ Use this reference for information about configuring the Adobe Analytics extensi
 
 This section provides a reference for the options available when configuring the Adobe Analytics extension.
 
-If the Adobe Analytics extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Analytics extension, and click **[!UICONTROL Install]**.
+If the Adobe Analytics extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Analytics extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the Extensions tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ![](/help/assets/ext-analytics-config.png)
 
@@ -181,7 +181,7 @@ See [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/i
 
 ### Track outbound links
 
-Determines whether any link clicked is an exit link.
+Determines whether any selected link is an exit link.
 
 See [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/trackexternallinks.html).
 
@@ -267,7 +267,7 @@ You can configure advanced settings by showing the advanced settings and enterin
 
 ![](/help/assets/an-ext-aam-adv.png)
 
-For information about each setting, click the info icon, or refer to the [Adobe Audience Manager documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html).
+For information about each setting, select the info icon, or refer to the [Adobe Audience Manager documentation](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html).
 
 ## Analytics extension action types
 
@@ -290,8 +290,8 @@ Set one or more [eVars](https://docs.adobe.com/help/en/analytics/implementation/
 1. Select an eVar from the dropdown.
 1. Specify whether you want to set the eVar as the value (Set As) or copy (Duplicate From) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate.
-1. (Optional) Click Add eVar to set more eVars.
-1. Click **[!UICONTROL Keep Changes]**.
+1. (Optional) Select Add eVar to set more eVars.
+1. Select **[!UICONTROL Keep Changes]**.
 
 #### Props
 
@@ -300,8 +300,8 @@ Set one or more [props](https://docs.adobe.com/help/en/analytics/implementation/
 1. Select a prop from the dropdown.
 1. Specify whether you want to set the prop as the value (Set As) or copy (Duplicate From) another eVar.
 1. Provide a Set As value, or select the eVar you want to duplicate the prop from.
-1. (Optional) Click **[!UICONTROL Add prop]** to set more props.
-1. Click **[!UICONTROL Keep Changes]**.
+1. (Optional) Select **[!UICONTROL Add prop]** to set more props.
+1. Select **[!UICONTROL Keep Changes]**.
 
 #### Events
 
@@ -309,8 +309,8 @@ Set one or more [events](https://docs.adobe.com/content/help/en/analytics/implem
 
 1. Select an event from the dropdown.
 1. (Optional) Select or specify a data element used for [event serialization](https://docs.adobe.com/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html).
-1. (Optional) Click **[!UICONTROL Add event]** to set more events.
-1. Click **[!UICONTROL Keep Changes]**.
+1. (Optional) Select **[!UICONTROL Add event]** to set more events.
+1. Select **[!UICONTROL Keep Changes]**.
 
 #### Hierarchy
 
@@ -340,7 +340,7 @@ These settings include:
 * Zip
 * Transaction ID
 
-These settings can be found in the "Global Variables" menu by clicking the "Additional Settings" checkbox.
+These settings can be found in the "Global Variables" menu by selecting  the "Additional Settings" checkbox.
 
 #### Custom Page Code
 
@@ -350,9 +350,9 @@ Use the editor to specify your custom page code.
 
 **Settings**
 
-1. Click **[!UICONTROL Open Editor]**.
+1. Select **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 ### Send Beacon {#send-beacon}
 
@@ -378,7 +378,7 @@ Select if you do not want to increment a pageview.
    * Custom Link: Specify the link name.
    * Download Link: Specify a file name.
    * Exit Link: Specify the destination URL.
-1. Click **[!UICONTROL Keep Changes]**.
+1. Select **[!UICONTROL Keep Changes]**.
 
 ### Clear Variables {#clear-variables}
 

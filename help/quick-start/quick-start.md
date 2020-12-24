@@ -31,7 +31,7 @@ For detailed instructions on how to create groups and add users for [!DNL Platfo
 
 ## 2. Log in
 
-After [!DNL Platform Launch] rights have been added to your [!DNL Adobe] ID, you need to log in to [!DNL Platform Launch]. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud (https://experiencecloud.adobe.com)](https://experiencecloud.adobe.com), navigating to the [!UICONTROL Activation] page, and clicking on **[!UICONTROL Launch]**.
+After [!DNL Platform Launch] rights have been added to your [!DNL Adobe] ID, you need to log in to [!DNL Platform Launch]. You can do this by navigating directly to [https://launch.adobe.com](https://launch.adobe.com) or by logging in to the [Experience Cloud (https://experiencecloud.adobe.com)](https://experiencecloud.adobe.com), navigating to the [!UICONTROL Activation] page, and selecting **[!UICONTROL Launch]**.
 
 ## 3. Create a property 
 

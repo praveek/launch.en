@@ -28,11 +28,11 @@ After you send data to Edge network, you can toggle on Adobe solutions to send d
 
 In Adobe Experience Platform, create your schema.
 
-1. Create a new schema by clicking **[!UICONTROL Schemas]**>**[!UICONTROL Create Schema]** and selecting the **[!UICONTROL XDM ExperienceEvent]** option.
+1. Create a new schema by selecting **[!UICONTROL Schemas]**>**[!UICONTROL Create Schema]** and choosing the **[!UICONTROL XDM ExperienceEvent]** option.
 
 1. Give the schema a name and short description.
 
-1. You can add the “ExperienceEvent web details” mixin by clicking **[!UICONTROL Add]** next to **[!UICONTROL Mixins]**. 
+1. You can add the “ExperienceEvent web details” mixin by selecting **[!UICONTROL Add]** next to **[!UICONTROL Mixins]**. 
 
     >[!NOTE]
     >
@@ -46,13 +46,13 @@ For more information about schemas, see [Experience Data Model (XDM) System Help
 
 In Platform Launch, create a property of type "Edge."
 
-1. Click **[!UICONTROL New Property]**. 
+1. Select **[!UICONTROL New Property]**. 
 
 1. Name the property. 
 
 1. Choose the “Edge” platform type.
 
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 After you create the property, go to the **[!UICONTROL Environments]** tab for the new property and make
 note of the environment IDs. You can copy the Environment ID from the **[!UICONTROL Environments]** tab to paste it when
@@ -65,12 +65,12 @@ In Adobe Experience Platform Edge Configuration, create your edge configuration.
 
 1. Open the Adobe Experience Platform Edge Configuration interface through Platform Launch, from the link in the left rail.
 
-1. Click **[!UICONTROL New Edge Configuration]**.
+1. Select **[!UICONTROL New Edge Configuration]**.
 
 1. Name the configuration and provide an optional description. 
     The description helps to identify configurations in a list of several configurations. 
 
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 
 
@@ -82,7 +82,7 @@ Next, configure Edge Network to send data to Launch Server Side, and to other Ad
 
 1. Select the Development, Production, or Staging environment.
 
-    Or, to send data to a Launch Server Side environment outside the Adobe org, click **[!UICONTROL Switch to Advanced Mode] and paste in an ID. The ID is provided when you create a Server Side property.
+    Or, to send data to a Launch Server Side environment outside the Adobe org, select **[!UICONTROL Switch to Advanced Mode] and paste in an ID. The ID is provided when you create a Server Side property.
 
 1. Toggle on the necessary tools and configure as required.
 
@@ -112,17 +112,17 @@ After all of the above is in place, you can build necessary data definitions, ru
 
 Create a new page load rule using the Platform Web SDK extension and the “Send Event” action type:
 
-1. Open the **[!UICONTROL Rules]** tab, then click **[!UICONTROL Create New Rule]**.
+1. Open the **[!UICONTROL Rules]** tab, then select **[!UICONTROL Create New Rule]**.
 
 1. Name the rule.
 
-1. Click the **[!UICONTROL Events Add]** icon.
+1. Select **[!UICONTROL Events Add]**.
 
 1. Add an event by choosing an extension and one of the event types available for that extension, then configure the settings for the event. For example, select **[!UICONTROL Core - Window Loaded]**.
 
 1. Add an action using the Platform Web SDK extension. Select **[!UICONTROL Send Event]** from the **[!UICONTROL Action Type]** list, select the desired Instance (Alloy instance configured earlier), and then select a data element to add to the XDM Data block within the Alloy hit.
 
-1. Leave the rest of the settings as default for this example, and click **[!UICONTROL Save]**.
+1. Leave the rest of the settings as default for this example, and select **[!UICONTROL Save]**.
 
 For another example, you might create a rule that sends the data layer to Edge if the user hovers over a specified button.
 
