@@ -77,4 +77,28 @@ In this action you are also provided with an optional field to include an Identi
 
 ### Reset Event Merge ID
 
-If you would like to reset your event merge ID you can do so with this action. To reset your ID you will need to select the Merge ID you want to reset and fire the action as needed.
+If you would like to reset your event merge ID on your page you can do so with this action. To reset your ID you need to select the Merge ID you want to reset and fire the action as needed.
+
+## Data Element Types
+
+### Event Merge ID
+
+This data element provides an event merge ID when used. No configuration is needed for this data element. The data element that is provided stays the same until the visitor leaves the page or until the "Reset Event Merge ID" action type is used.
+
+### Identity Map
+
+The identity map data element allows you to create identities from other data elements or other values that you specify. All identities that you create must be tied back to a corresponding namespace. This data element provides a dropdown that shows all the default namespaces, as well as any that you have created.   
+
+![](/help/assets/identity-map-data-element.png)
+
+### XDM Object
+
+Any data that you send to the Adobe Experience Platform Web SDK should be in XDM format. Formatting your data is easier with the XDM object data element. When you first open this data element, select the correct Adobe Experience Platform sandbox and schema. After you have selected your schema you will see the structure of your schema, which you can easily fill out.
+
+![](/help/assets/XDM-object.png)
+
+Notice that when you open certain fields of your schema, such as `web.webPageDetails.URL`, that some items are automatically collected. Even though several items are automatically collected, you have the option to overwrite any, if needed. All the values can be filled in manually or using other data elements. 
+
+>[!NOTE]
+>
+>You only need to fill in the pieces of information you are interested in collecting. Anything that is not filled in will be ommited when the data is sent to the solutions. 
