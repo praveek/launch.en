@@ -11,7 +11,7 @@ seo-description: Release notes for the Adobe Experience Platform Launch core ext
 
 v1.9.0
 
-* **New “Trigger Direct Call” Action** - The Core extension now includes a new action type called `Trigger Direct Call`.  This can be used when you want to trigger a direct call rule via an action from a different rule. It maps directly to the _satellite.track() method. Many thanks to [Jan Exner](https://twitter.com/jexner) for this contribution.
+* **New “Trigger Direct Call” Action** - The Core extension now includes a new action type called `Trigger Direct Call`.  This can be used when you want to trigger a direct call rule via an action from a different rule. It maps directly to the `_satellite.track()` method. Many thanks to [Jan Exner](https://twitter.com/jexner) for this contribution.
 
 ## December 8, 2020
 
