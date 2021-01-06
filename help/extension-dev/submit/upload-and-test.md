@@ -37,7 +37,7 @@ As we walk through the steps below, we'll assume you're using Mac OS with node a
 
 Once your team is satisfied with the performance of your extension and the results they see in the [Sandbox](https://www.npmjs.com/package/@adobe/reactor-sandbox#running-the-sandbox) tool, you should be ready to upload your extension package to Platform Launch. 
 
-Before uploading, please validate that any required fields or settings are present. For example, reviewing your [extension manifest](../manifest.md), your [extension configuration](../configuration.md), your [views](../modules/views.md), and your [library modules](../modules/format.md) (at a minimum) would be good practice. 
+Before uploading, please validate that any required fields or settings are present. For example, reviewing your [extension manifest](../manifest.md), your [extension configuration](../configuration.md), your [views](../modules/web/views.md), and your [library modules](../modules/web/format.md) (at a minimum) would be good practice. 
 
 A specific example is your logo file:  Add an `"iconPath": "example.svg",` line to your `extension.json` file and include that logo image file in your project. This is the relative path to the icon that will be displayed for the extension within Platform Launch. It should not begin with a slash. It must reference an SVG file with a `.svg` extension. The SVG should appear normally when rendered square and may be scaled by our user interface. See [How to Scale SVG](https://css-tricks.com/scale-svg/) for more details.
 
@@ -71,7 +71,7 @@ npx @adobe/reactor-uploader
 
 `npx` allows you to download and run an npm package without actually installing it on your machine.  This is the simplest way to run the Uploader.
 
-The Uploader will ask you to input several pieces of information.  The technical account ID, API key and other bits of information can be retrieved from the Adobe I/O console.  Navigate to the [Integrations page](https://console.adobe.io/integrations) in the I/O console.  Select the correct Org from the dropdown, find the right integration and click the "View" button.
+The Uploader will ask you to input several pieces of information.  The technical account ID, API key and other bits of information can be retrieved from the Adobe I/O console.  Navigate to the [Integrations page](https://console.adobe.io/integrations) in the I/O console.  Select the correct Org from the dropdown, find the right integration and select **[!UICONTROL View]**.
 
 * What is the path to your private key? /path/to/private.key. This is the place you saved your private key in step 2 above.
 * What is your Org ID? Copy/paste this from the I/O Console overview page that you left open earlier.
@@ -82,9 +82,13 @@ The Uploader will ask you to input several pieces of information.  The technical
 
 Your extension package will then be uploaded and the uploader will give you the ID of the extension_package.
 
-**Note**: When uploading or patching, extension packages are placed into a pending state while the system asynchronously extracts the package and deploys. While this process is taking place, you can poll the `extension_package` ID for its status using the API and within PlatformLaunch, you'll see an extension card in the catalog marked as Pending.
+>[!NOTE]
+>
+>When uploading or patching, extension packages are placed into a pending state while the system asynchronously extracts the package and deploys. While this process is taking place, you can poll the `extension_package` ID for its status using the API and within PlatformLaunch, you'll see an extension card in the catalog marked as Pending.
 
-**Note**: If you plan to run the uploader often, putting all this information each time in can be a burden. You can also pass these in as argument from the command line.  Check out the [Command Line Arguments section](https://www.npmjs.com/package/@adobe/reactor-uploader#command-line-arguments) of the NPM docs for more info.
+>[!NOTE]
+>
+>If you plan to run the uploader often, putting all this information each time in can be a burden. You can also pass these in as argument from the command line.  Check out the [Command Line Arguments section](https://www.npmjs.com/package/@adobe/reactor-uploader#command-line-arguments) of the NPM docs for more info.
 
 ## Create a development property {#property}
 
@@ -92,23 +96,23 @@ When you sign in to PlatformLaunch you'll see the Properties screen first.  A pr
 
 ![](../images/getting-started/properties-screen.jpg)
 
-You see my 'test' property here but you won't see any properties on your screen the first time you sign in. Click **New Property** to create one. Enter a name and a URL. You'll probably want to use the URL of your test site or page where you'll be testing your extension. This domain field can be used by some extensions or by a condition using the Core extension (which we'll look at later). Note that `localhost` won't work, so if you're on a `localhost` URL, just use any value for this testing, like example.com.
+You see my 'test' property here but you won't see any properties on your screen the first time you sign in. Select **New Property** to create one. Enter a name and a URL. You'll probably want to use the URL of your test site or page where you'll be testing your extension. This domain field can be used by some extensions or by a condition using the Core extension (which we'll look at later). Note that `localhost` won't work, so if you're on a `localhost` URL, just use any value for this testing, like example.com.
 
 Because you want to use this property for extension development testing, you also need to expand the Advanced Options and make sure to check the box for "Configure for extension development".
 
 ![](../images/getting-started/launch_create_a_dev_property.png)
 
-Click the blue **Save** link at the bottom to save your new property.
+Select **Save** at the bottom to save your new property.
 
-This brings you back to the Properties screen. Click on the name of your property that you just created. This is the Overview screen in a property. Not much work happens here, but there are links to each area of the system, with the global navigation links at the top.
+This brings you back to the Properties screen. Select the name of your property that you just created. This is the Overview screen in a property. Not much work happens here, but there are links to each area of the system, with the global navigation links at the top.
 
 ## Install your extension {#install-extension}
 
-To install your extension in this property, click on the **Extensions** link in the main navigation links at the top.
+To install your extension in this property, select the **Extensions** link in the main navigation links at the top.
 
 ![](../images/getting-started/extensions.jpg)
 
-You'll see the **Core** extension on this **Installed** screen. The Core extension contains all the tag management functionality within Platform Launch. To add your extension, click on the **Catalog**:
+You'll see the **Core** extension on this **Installed** screen. The Core extension contains all the tag management functionality within Platform Launch. To add your extension, select the **Catalog**:
 
 ![](../images/getting-started/catalog.jpg)
 
@@ -116,11 +120,11 @@ The catalog displays card icons for each available extension. If your extension 
 
 If you are convinced you've done everything correctly, and you still don't see a Pending or Failed extension package in the catalog, you may want to hit the API directly to check the status of your extension package.  For more info on that, please read [Get an ExtensionPackage](https://developer.adobelaunch.com/api/reference/1.0/extension_packages/fetch/) in the API docs.
 
-Assuming that your extension package has finished processing, the card here will have an **Install** button for you to click:
+Assuming that your extension package has finished processing, the card here will have an **Install** button for you to select:
 
 ![](../images/getting-started/install-extension.jpg)
 
-This will bring up the configuration screen you built for your extension (if you have one). Add any information needed to configure your extension and click the blue **Save** link at the bottom.  If your extension does not have configuration, then it will be installed as soon as you click Install.
+This will bring up the configuration screen you built for your extension (if you have one). Add any information needed to configure your extension and select **Save** at the bottom.  If your extension does not have configuration, then it will be installed as soon as you select **Install**.
 
 Here's an example with the Facebook extension:
 
@@ -162,29 +166,31 @@ Continuing with the Facebook example, let's add an event for any time a page loa
 
 ![](../images/getting-started/load-event.jpg)
 
-With the `Window Loaded` Event Type, any time a page loads on our site this rule will be triggered. Click **Save**. For this example, let's skip Conditions and Exceptions as we want this rule triggered for any page on our site - our "global" On Load rule so to speak.
+With the `Window Loaded` Event Type, any time a page loads on our site this rule will be triggered. Select **Save**. For this example, let's skip Conditions and Exceptions as we want this rule triggered for any page on our site - our "global" On Load rule so to speak.
 
-Under Actions click **Add**. On this Action Configuration screen we can choose the extension we want to work with and the action we want to occur when this rule is triggered. Let's choose the **Facebook Pixel** under Extension, and **Send Page View** under Action Type:
+Under Actions select **Add**. On this Action Configuration screen we can choose the extension we want to work with and the action we want to occur when this rule is triggered. Let's choose the **Facebook Pixel** under Extension, and **Send Page View** under Action Type:
 
 ![](../images/getting-started/action-configuration.jpg)
 
-Click the blue **Keep Changes** at the bottom, and **Save Rule** on the next screen. When testing your extension, you can select any events, conditions, etc. supplied by your extension in any number of rules.
+Select **Keep Changes** at the bottom, and **Save Rule** on the next screen. When testing your extension, you can select any events, conditions, etc. supplied by your extension in any number of rules.
 
 ## Publish your changes {#publish}
 
-In the main navigation, click on **Publishing**, then on the blue **Add New Library** link:
+In the main navigation, select **Publishing**, then on **Add New Library** link:
 
 ![](../images/getting-started/add-new-library.jpg)
 
 A library is a set of instructions for how extensions, data elements, and rules will interact with one another and with a website. Libraries are compiled into builds. A library can contain as many changes as a user is comfortable making or testing at once.
 
-On the Create New Library screen, add a Name and choose an Environment. Platform Launch provides a default development environment helpfully named `Development`, so select that one from the Environment list.  For now, we'll add all available resources, so click on **Add All Changed Resources**.
+On the Create New Library screen, add a Name and choose an Environment. Platform Launch provides a default development environment helpfully named `Development`, so select that one from the Environment list.  For now, we'll add all available resources, so select **Add All Changed Resources**.
 
-**Note**: When you add a resource to a library, a snapshot of that resource as of that exact moment is taken and added to the library.  When you make changes to your resources later (for example, as a result of fixes you need to make), you'll need to also update the library to include the latest changes to your resources.  The **Add All Changed Resources** button is useful for this purpose as well.
+>[!NOTE]
+>
+>When you add a resource to a library, a snapshot of that resource as of that exact moment is taken and added to the library.  When you make changes to your resources later (for example, as a result of fixes you need to make), you'll need to also update the library to include the latest changes to your resources.  The **Add All Changed Resources** button is useful for this purpose as well.
 
 ![](../images/getting-started/create-new-library.jpg)
 
-Then click the blue **Save** link at the bottom. Now that we have all our changes included in this `dev` library, let's build it:
+Then select **Save** at the bottom. Now that we have all our changes included in this `dev` library, let's build it:
 
 ![](../images/getting-started/build-for-dev.jpg)
 
@@ -198,11 +204,11 @@ The Platform Launch library is now published and waiting to be used.  We now nee
 
 Installation instructions are available from the Environments tab, so let's navigate there now.  
 
-On this page, you'll see all available environments and you have the ability to create more.  We published our library to the Development environment, so let's get the installation instructions for that Environment by clicking the box icon in the Install column on the Development row.
+On this page, you'll see all available environments and you have the ability to create more.  We published our library to the Development environment, so let's get the installation instructions for that Environment by selecting the box icon in the Install column on the Development row.
 
 ![](../images/getting-started/launch_installation_instructions.png)
 
-We're now looking at the installation instructions for the Development environment. All we need to do here is copy the `<script>` tag in the box, so click the copy button.
+We're now looking at the installation instructions for the Development environment. All we need to do here is copy the `<script>` tag in the box, so select the copy button.
 
 ![](../images/getting-started/launch_installation_instructions_copy.png)
 

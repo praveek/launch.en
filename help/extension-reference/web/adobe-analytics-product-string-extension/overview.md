@@ -71,7 +71,7 @@ The `price` parameter in the [!DNL Adobe Analytics] product string must reflect 
 
 If your implementation uses custom events or merchandising eVars, follow these steps:
 
-1. Click the associated **[!UICONTROL Add]** button.
+1. Select the associated **[!UICONTROL Add]** button.
 1. Choose the event or eVar you need to set from the dropdown.
 1. Enter the path to the appropriate data layer variable using the same syntax described above.
 

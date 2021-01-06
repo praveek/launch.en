@@ -125,11 +125,11 @@ There are no settings for this event type.
 
 #### Click
 
-Trigger the event if the specified element is clicked.
+Trigger the event if the specified element is selected (clicked).
 
 Optionally, you can specify property values that must be true for the element before the event is triggered.
 
-You can also specify whether to delay navigation until the rule runs if the element is a link. When you click the check box, a field opens where you can enter the desired delay in milliseconds. This specifies how long Platform Launch waits for tags to fire on clicked links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Platform Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. (That is, user won’t always wait the full length of the delay.)
+You can also specify whether to delay navigation until the rule runs if the element is a link. When you select the check box, a field opens where you can enter the desired delay in milliseconds. This specifies how long Platform Launch waits for tags to fire on selected links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Platform Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. (That is, user won’t always wait the full length of the delay.)
 
 In addition, specify that the event is triggered after a specific amount of time.
 
@@ -157,7 +157,7 @@ Specify the name of the custom event type, then configure the other settings as 
 
 Trigger the event if a specified data element changes.
 
-Enter the data element name. You can select the data element from a list by clicking the icon and then selecting the data element.
+Enter the data element name. You can select the data element from a list by selecting  the icon and then selecting the data element.
 
 #### Direct Call
 
@@ -272,9 +272,9 @@ Specify the cookie name and value that must exist for an event to trigger an act
 
 Specify any custom code that must exist as a condition of the event. Use the built-in code editor to enter the custom code.
 
-1. Click **[!UICONTROL Open Editor]**.
+1. Select **[!UICONTROL Open Editor]**.
 1. Type the custom code.
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 A variable named `event` will automatically be available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
@@ -594,8 +594,8 @@ Provide the code that runs after the event is triggered and conditions are evalu
    * JavaScript
    * HTML
 1. Select whether to execute the action code globally.
-1. Click Open Editor.
-1. Edit the code, then click Save.
+1. Select **[!UICONTROL Open Editor]**.
+1. Edit the code, then select **[!UICONTROL Save]**.
 
 When JavaScript is selected as the language, a variable named `event` will automatically be available, which you can reference from within your custom code. The `event` object will contain useful information about the event that triggered the rule. The easiest way to determine what event data is available is to log `event` to the console from within your custom code:
 
@@ -689,7 +689,7 @@ Any constant string value that can be then referenced in actions or conditions.
 
 ### Custom code
 
-Custom JavaScript can be entered into the UI by clicking Open Editor and inserting code into the editor window.
+Custom JavaScript can be entered into the UI by selecting  Open Editor and inserting code into the editor window.
 
 A return statement is necessary in the editor window in order to indicate what value should be used as the data element value. If a return statement is not included or the value `null` or `undefined` is returned, the data element’s default value will be used as the data element value.
 

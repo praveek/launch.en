@@ -55,7 +55,7 @@ Before you link your embed code:
 1. Toggle the **[!UICONTROL Link DTM embed code]** option on.
 1. Paste your DTM production embed code into the **[!UICONTROL DTM Embed Code]** field in [!DNL Platform Launch] .
 1. Finish configuring your [!DNL Platform Launch]  Production environment (archive setup, etc).
-1. Click **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Save]**.
 
 [!DNL Platform Launch]  validates a number of things and tells you whether linking was successful.
 

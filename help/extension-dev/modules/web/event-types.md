@@ -11,7 +11,7 @@ An event type library module has one goal: detect when an activity happens and, 
 
 >[!NOTE]
 >
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
 
 In addition to the `settings` parameter that is common to other module types, the `module.exports` for an event type accepts a second parameter, `trigger`:
 
@@ -80,7 +80,7 @@ This can be useful for marketers trying to access any information from the nativ
 
 ### [!DNL element]
 
-If there's a strong relationship between an element and the event that occurred, we recommend setting the `element` property to the element's DOM node. For example, let's assume your extension is providing a `click` event type and you allow marketers to configure it so the rule would fire only if an element with the ID of `herobanner` is clicked. In this case, if the user clicks inside the hero banner, we would recommend calling `trigger` and setting `element` to the hero banner's DOM node.
+If there's a strong relationship between an element and the event that occurred, we recommend setting the `element` property to the element's DOM node. For example, let's assume your extension is providing a `click` event type and you allow marketers to configure it so the rule would fire only if an element with the ID of `herobanner` is selected. In this case, if the user selects the hero banner, we would recommend calling `trigger` and setting `element` to the hero banner's DOM node.
 
 ```js
 trigger({

@@ -15,9 +15,9 @@ Use this reference for information about the options available when using this e
 >
 >The Adobe Target extension requires At.js 2.x.
 
-If the Adobe Target extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Target extension, and click **[!UICONTROL Install]**.
+If the Adobe Target extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Target extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the Extensions tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the Extensions tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ![](/help/assets/targetv2config.png)
 
@@ -70,14 +70,14 @@ No configuration is needed.
 Add parameters to all Target requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the add icon to add more parameters.
+2. Select the add icon to add more parameters.
 
 ### Add Params to Page Load Request
 
 Add parameters only to your page load requests. The Load Target action must be used earlier.
 
 1. Specify the name and value of any parameter you want to add.
-2. Click the add icon to add more parameters.
+2. Select the add icon to add more parameters.
 
 ### Fire Page Load Request
 

@@ -79,7 +79,7 @@ In the [!UICONTROL Environments] tab, select a listed environment to display its
 
 ### Host {#host}
 
-Select the **[!UICONTROL Host]** dropdown menu to choose a pre-configured host for the environment.
+Select **[!UICONTROL Host]** to choose a pre-configured host for the environment from the dropdown menu.
 
 ![](./assets/environments/select-host.png)
 
@@ -145,7 +145,7 @@ On the [!UICONTROL Environments] tab for your property, select **[!UICONTROL Add
 
 ![](./assets/environments/create-new.png)
 
-On the next screen, select the [!UICONTROL Development] option.
+On the next screen, select the **[!UICONTROL Development]** option.
 
 ![](./assets/environments/create-development.png)
 

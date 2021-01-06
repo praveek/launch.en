@@ -39,7 +39,7 @@ Instead, you must disable the resource. This disabling is a change that you then
 
 1. Disable the resource.
    1. Select the resource from the list view.
-   2. Click **[!UICONTROL Disable]**.
+   2. Select **[!UICONTROL Disable]**.
 1. Create a new Development library.
 1. Add the `latest` version of the disabled resource.
 1. Save and Build.

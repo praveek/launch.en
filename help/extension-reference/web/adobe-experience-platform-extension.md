@@ -25,17 +25,17 @@ This extension will be deprecated in favor of the [AEP Web SDK](aep-web-sdk/over
 
 This section provides a reference for the options available when configuring the Adobe Experience Platform extension.
 
-If the Adobe Experience Platform extension is not yet installed, open your property, then click **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Experience Platform extension, and click **[!UICONTROL Install]**.
+If the Adobe Experience Platform extension is not yet installed, open your property, then select **[!UICONTROL Extensions > Catalog]**, hover over the Adobe Experience Platform extension, and select **[!UICONTROL Install]**.
 
-To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**.
+To configure the extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then select **[!UICONTROL Configure]**.
 
 ![](/help/assets/adobe_experience_platform_extension_configuration.png)
 
 ### Streaming Connection
 
-Choosing a streaming connection is the first step for you to start streaming data to Adobe Experience Platform. You can select one from the streaming connection combobox. Streaming connection is a required field. In case you don't have any streaming connection created, you can create one by clicking the **[!UICONTROL Create a streaming connection]** button.
+Choosing a streaming connection is the first step for you to start streaming data to Adobe Experience Platform. You can select one from the streaming connection combobox. Streaming connection is a required field. In case you don't have any streaming connection created, you can create one by selecting the **[!UICONTROL Create a streaming connection]** button.
 
-If you click on the **[!UICONTROL Create a streaming connection]** button a modal window will appear.
+If you select **[!UICONTROL Create a streaming connection]** a modal window will appear.
 
 ![](/help/assets/adobe_experienc_platform_create_streaming_connection.png)
 
@@ -69,13 +69,13 @@ After selecting the dataset you can define your schema mapping.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_schema_mapping.png)
 
-The source value field accepts a value or a data element. You can add a data element by clicking on the data element button that is located next to the source value field.
+The source value field accepts a value or a data element. You can add a data element by selecting the data element button that is located next to the source value field.
 
 The target schema field contains the path of a XDM field defined in the dataset schema. For fields defined deeper in the schema hierarchy you can use the dot as a separator between the path parts  (eg. timeSeriesEvents.eventType).
 
 ### Schema Field Selector
 
-The extension offers also the possibility to select a target schema field using a visual selector. If you click on the target button that sits next to the target schema field input, a modal will be shown where you will see the dataset's schema tree. You can select a field, then click the Select button and the target schema field input will be updated the contain the correct XDM path.
+The extension offers also the possibility to select a target schema field using a visual selector. If you select the target button that sits next to the target schema field input, a modal will be shown where you will see the dataset's schema tree. You can choose a field, then select the **Select** button and the target schema field input will be updated the contain the correct XDM path.
 
 ![](/help/assets/adobe_experience_platform_send_beacon_schema_field_selector.png)
 

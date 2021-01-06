@@ -50,8 +50,8 @@ For this reason, [!DNL Platform Launch] notifies you that a property is in a rep
 From the Publishing screen:
 
 1. Find the library in the Published column that you'd like to republish.
-2. Click the triple-dots in the upper right of the Library card.
-3. Click **[!UICONTROL Republish]**.
+2. Select the ellipsis (`...`) in the upper-right corner of the Library card.
+3. Select **[!UICONTROL Republish]**.
 
 ## Download
 
@@ -64,5 +64,5 @@ Downloading an Archived library is more straightforward.  You aren't directly re
 From the Publishing screen:
 
 1. Find the library in the Published column that you'd like to download.
-2. Click the triple-dots in the upper right of the Library card.
-3. Click **[!UICONTROL Download]**.
+2. Select the ellipsis (`...`) in the upper-right corner of the Library card.
+3. Select **[!UICONTROL Download]**.

@@ -25,11 +25,9 @@ After you have included all three of the extensions mentioned above in your Plat
 
 ## Install and configure the MA extension
 
-* **Install -** To install the MA extension, open your extension property, click **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]**.
+* **Install -** To install the MA extension, open your extension property, select **[!UICONTROL Extensions > Catalog]**, hover over the **[!UICONTROL Adobe Media Analytics for Audio and Video]** extension, and select **[!UICONTROL Install]**.
 
-  extension, and click **[!UICONTROL Install]**.
-
-* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then click **[!UICONTROL Configure]**:
+* **Configure -** To configure the MA extension, open the [!UICONTROL Extensions] tab, hover over the extension, and then select **[!UICONTROL Configure]**:
 
 ![MA Extension Configuration](/help/assets/ext-va-config.jpg)
 

@@ -11,7 +11,7 @@ A condition type library module has one goal: evaluate whether something is true
 
 >[!NOTE]
 >
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on the [library module format](./format.md) for an introduction to their implementation before returning to this guide.
+>This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
 
 For example, if you wanted to evaluate whether the user is on the host `example.com`, your module may look like this:
 
