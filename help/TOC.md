@@ -54,6 +54,10 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Deploy JavaScript tags to opt in to [!DNL Platform Launch]](launch-reference/client-side-information/deploy-javascript-tags-to-opt-in-to-launch.md)
   * [Content Security Policy \(CSP\)](launch-reference/client-side-information/content-security-policy-csp.md)
   * [Subresource Integrity (SRI)](./launch-reference/client-side-information/sri.md)
+* Server-side information (Beta) {#server-side-info}
+    * [Server-side overview (Beta)](launch-reference/server-side-information/server-side-overview.md)
+    * [Getting started with Experience Platform Launch Server Side (Beta)](launch-reference/server-side-information/server-side-getting-started.md)
+    * Administration {#admin}
 * Administration {#admin}
   * [Administration overview](launch-reference/administration/overview.md)
   * [Companies and properties](launch-reference/administration/companies-and-properties.md)
