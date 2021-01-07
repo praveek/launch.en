@@ -1,6 +1,6 @@
 ---
 audience: end-user
-product: Adobe Experience Platform Launch
+product: launch
 user-guide-title: Experience Platform Launch User Guide
 breadcrumb-title: Adobe Experience Platform Launch Guide
 user-guide-description: Learn to deploy and manage analytics, marketing, and advertising tags to power customer experiences.
