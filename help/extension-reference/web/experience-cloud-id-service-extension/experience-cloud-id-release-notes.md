@@ -9,6 +9,14 @@ seo-description: Experience Cloud ID extension Release Notes in Adobe Experience
 
 For release notes on the Experience Cloud ID Service itself and not just the Adobe Experience Platform Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
+## Jan 12, 2021
+
+### Experience Cloud ID Extension 5.2.0
+
+#### **Features**
+
+* Updating to VisitorJS 5.2.0 patch with a fix for ECID DataElement could not get updated when receive consent.
+
 ## Oct 27, 2020
 
 ### Experience Cloud ID Extension 5.1.0
