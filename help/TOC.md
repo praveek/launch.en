@@ -156,6 +156,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 * [FAQ](./faq.md)
 * Release notes {#release-notes}
   * [Latest](release-notes/current.md)
+  * [2020 release notes](release-notes/2020-release-notes.md)
   * [2019 release notes](release-notes/2019-release-notes.md)
   * [2018 release notes](release-notes/2018-release-notes.md)
 * [Additional resources](quick-start/additional-resources.md)
