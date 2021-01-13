@@ -22,6 +22,30 @@ For release notes on the Experience Cloud ID Service itself and not just the Ado
 
 Details of these attribute values are on [web.dev](https://web.dev/samesite-cookies-explained/) and [chromium](https://www.chromium.org/updates/same-site)
 
+## Nov 3, 2020
+
+### Experience Cloud ID Extension 5.1.1
+
+#### **Features**
+
+* This patch contains a fix for writing cookies from an iFrame with attribute `SameSite=None` in Google Chrome browser.
+
+## Oct 27, 2020
+
+### Experience Cloud ID Extension 5.1.0
+
+#### **Features**
+
+* Adding `sameSiteCookie` config to specify the `SameSite` attribute of the `AMCV` cookie.
+This config supports the following values for `SameSite` attribute:
+
+  * `Strict`
+  * `Lax`
+  * `None`
+
+Details of these attribute values are on [web.dev](https://web.dev/samesite-cookies-explained/) and [chromium](https://www.chromium.org/updates/same-site)
+
+
 ## Aug 13, 2020
 
 ### Experience Cloud ID Extension 5.0.1
