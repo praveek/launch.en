@@ -15,7 +15,7 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 
 #### **Features**
 
-* This patch contains a fix for writing cookies from an iFrame with attribute `SameSite=None` in Google chrome browser.
+* This patch contains a fix for writing cookies from an iFrame with attribute `SameSite=None` in Google Chrome browser.
 
 ## Oct 27, 2020
 
