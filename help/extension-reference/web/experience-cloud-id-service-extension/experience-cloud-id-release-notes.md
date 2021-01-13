@@ -26,9 +26,9 @@ For release notes on the Experience Cloud ID Service itself and not just the Lau
 * Adding `sameSiteCookie` config to specify the `SameSite` attribute of the `AMCV` cookie.
 This config supports the following values for `SameSite` attribute:
 
-- `Strict`
-- `Lax`
-- `None`
+  * `Strict`
+  * `Lax`
+  * `None`
 
 Details of these attribute values are on [web.dev](https://web.dev/samesite-cookies-explained/) and [chromium](https://www.chromium.org/updates/same-site)
 
