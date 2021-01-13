@@ -69,7 +69,7 @@ loadScript(turbine.getHostedLibFileUrl('AppMeasurement.js')).then(function() {
 
 The [hostedLibFiles](./manifest.md) property can be defined inside the extension manifest in order to host various files along with the Platform Launch runtime library. This module returns the URL where the given library file is hosted.
 
-### [!DNL getSharedModule]
+### [!DNL getSharedModule] {#shared}
 
 ```js
 var mcidInstance = turbine.getSharedModule('adobe-mcid', 'mcid-instance');

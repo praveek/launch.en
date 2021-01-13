@@ -68,6 +68,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Adobe extensions overview](extension-reference/web/overview.md)
     * Adobe Analytics extension {#analytics-extension}
       * [Analytics extension](extension-reference/web/adobe-analytics-extension/overview.md)
+      * [Shared modules for the Analytics extension](./extension-reference/web/adobe-analytics-extension/shared-modules.md)
       * [Adobe Analytics release notes](extension-reference/web/adobe-analytics-extension/adobe-analytics-release-notes.md)
     * Adobe Analytics Product String extension {#product-string-extension}
       * [Adobe Analytics Product String extension](extension-reference/web/adobe-analytics-product-string-extension/overview.md)
