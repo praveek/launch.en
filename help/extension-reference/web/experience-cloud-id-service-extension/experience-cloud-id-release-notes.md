@@ -1,11 +1,11 @@
 ---
-title: Experience Cloud ID Release Notes
+title: Experience Cloud ID Extension Release Notes
 seo-title: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
 description: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
 seo-description: Experience Cloud ID extension Release Notes in Adobe Experience Platform Launch
 ---
 
-# Experience Cloud ID Release Notes
+# Experience Cloud ID extension release notes
 
 For release notes on the Experience Cloud ID Service itself and not just the Adobe Experience Platform Launch Extension, please reference: [https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)
 
