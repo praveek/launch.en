@@ -7,17 +7,13 @@ seo-description: Data element types
 
 # Data-element types in edge extensions
 
+A data-element-type library module retrieves a piece of data. How this piece of data is retrieved is up to you. For example, you can use a data element type to allow Adobe Experience Platform Launch users to retrieve a piece of data from the XDM layer or their custom data layer?
+
 >[!IMPORTANT]
 >
 >This document covers data-element types for edge extensions. If you are developing a web extension, see the guide on [data-element types for web extensions](../web/data-element-types.md) instead.
 >
 >This document also assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. If you require an introduction, see the overview on [library module formatting](./format.md) before returning to this guide.
-
-A data-element-type library module retrieves a piece of data. How this piece of data is retrieved is up to you. For example, you can use a data element type to allow Adobe Experience Platform Launch users to retrieve a piece of data from the XDM layer or their custom data layer?
-
->[!NOTE]
->
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
 
 Consider a situation where you want to allow users to retrieve a piece of data from the custom data layer. Your module may look like this:
 

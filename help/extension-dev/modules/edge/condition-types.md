@@ -1,19 +1,19 @@
 ---
-title: Condition types
-seo-title: Condition types
-description: Condition types
-seo-description: Condition types
+title: Condition types for edge extensions
+seo-title: Condition types for edge extensions
+description: Condition types for edge extensions
+seo-description: Condition types for edge extensions
 ---
 
-# Condition types in edge extensions
+# Condition types for edge extensions
+
+A condition-type library module evaluates whether something is true or false. What it evaluates is up to you.
 
 >[!IMPORTANT]
 >
 >This document covers condition types for edge extensions. If you are developing a web extension, see the guide on [condition types for web extensions](../web/condition-types.md) instead.
 >
 >This document also assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. If you require an introduction, see the overview on [library module formatting](./format.md) before returning to this guide.
-
-A condition-type library module evaluates whether something is true or false. What it evaluates is up to you.
 
 For example, if you wanted to evaluate whether the user is on the host `example.com`, your module may look like this:
 
