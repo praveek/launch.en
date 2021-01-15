@@ -1,11 +1,15 @@
 ---
-title: Library module format
-seo-title: Library module format
-description: Library module format
-seo-description: Library module format
+title: Library modules in web extensions
+seo-title: Library modules in web extensions
+description: Library modules in web extensions
+seo-description: Library modules in web extensions
 ---
 
-# Library module format
+# Library modules in web extensions
+
+>[!IMPORTANT]
+>
+>This document covers the library module format for web extensions. If you are developing an edge extension, see the guide on [formatting edge extension modules](../edge/format.md) instead.
 
 A library module is a piece of reusable code provided by an extension that is emitted inside the Adobe Experience Platform Launch runtime library (the library that runs on the client's website). For example, a `gesture` event type will have a library module that will run on the client's website and detects user gestures.
 
