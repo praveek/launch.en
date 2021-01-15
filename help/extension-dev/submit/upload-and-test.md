@@ -1,11 +1,11 @@
 ---
-title: Upload an implement end-to-end testing
-seo-title: Upload an implement end-to-end testing
-description: Upload an implement end-to-end testing
-seo-description: Upload an implement end-to-end testing
+title: Upload and implement end-to-end testing
+seo-title: Upload and implement end-to-end testing
+description: Upload and implement end-to-end testing
+seo-description: Upload and implement end-to-end testing
 ---
 
-# Upload an implement end-to-end testing
+# Upload and implement end-to-end testing
 
 Testing extensions involves using the Adobe Experience Platform Launch API and/or command-line tools to upload your extension packages, then using the Platform Launch UI to install your extension package to a property and exercise its capabilities inside a Platform Launch library and build.
 

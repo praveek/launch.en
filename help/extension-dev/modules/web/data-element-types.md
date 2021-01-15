@@ -1,17 +1,19 @@
 ---
-title: Data element types
-seo-title: Data element types
-description: Data element types
-seo-description: Data element types
+title: Data element types for edge extensions
+seo-title: Data element types for edge extensions
+description: Data element types for edge extensions
+seo-description: Data element types for edge extensions
 ---
 
-# Data element types
+# Data element types for edge extensions
 
 A data element type library module has one goal: retrieve a piece of data. How this piece of data is retrieved is up to you. For example, you can use a data element type to allow Adobe Experience Platform Launch users to retrieve a piece of data from local storage, a cookie, or a DOM element.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
+>This document covers data-element types for web extensions. If you are developing an edge extension, see the guide on [data-element types for edge extensions](../edge/data-element-types.md) instead.
+>
+>This document also assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. If you require an introduction, see the overview on [library module formatting](./format.md) before returning to this guide.
 
 Consider a situation where you want to allow users to retrieve a piece of data from a local storage item named `productName`. Your module may look like this:
 

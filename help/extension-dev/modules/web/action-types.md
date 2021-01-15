@@ -1,19 +1,19 @@
 ---
-title: Action types
-seo-title: Action types
-description: Action types
-seo-description: Action types
+title: Action types for web extensions
+seo-title: Action types for web extensions
+description: Action types for web extensions
+seo-description: Action types for web extensions
 ---
 
-# Action types
+# Action types for web extensions
 
 An action type library module is intended to take an action--any action. What this action does is entirely up to you. Do you want to send a beacon, show an offer, thank the user for visiting, save a cookie, or open a support chat?
 
->[!NOTE]
+>[!IMPORTANT]
 >
->This document assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. See the overview on [library module formatting](./format.md) for an introduction to their implementation before returning to this guide.
-
-For example, if you wanted to show an alert thanking the user for visiting our site, your module may look like this:
+>This document covers action types for web extensions. If you are developing an edge extension, see the guide on [action types for edge extensions](../edge/action-types.md) instead.
+>
+>This document also assumes you are familiar with library modules and how they are integrated in Platform Launch extensions. If you require an introduction, see the overview on [library module formatting](./format.md) before returning to this guide.
 
 ```js
 module.exports = function(settings) {
