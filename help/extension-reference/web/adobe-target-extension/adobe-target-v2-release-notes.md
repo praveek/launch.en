@@ -7,6 +7,13 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 
 # Adobe Target v2 Extension Release Notes
 
+## January 14, 2021
+
+### Adobe Target v2 Extension 0.13.5
+
+* Adds support for unified profile/platform ID to delivery API customerIds
+* Fixes invalid style tag injection
+
 ## November 25, 2020
 
 ### Adobe Target v2 Extension 0.13.4
