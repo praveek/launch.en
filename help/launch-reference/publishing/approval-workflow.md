@@ -79,6 +79,7 @@ The following table outlines the available actions for a library in the [!UICONT
 | [!UICONTROL Open] | View the contents of the library. Changes are not allowed. If changes are needed, the library should be rejected so changes can be made in [!UICONTROL Development]. |
 | [!UICONTROL Build and Publish to Production] | Unassign the library from the staging environment, assign the library to the production environment, and deploy it.<br><br>**Important**: When this option is selected, your library becomes live in your production environment. Ensure that the library contains the changes you want before you select this option. |
 | [!UICONTROL Reject] | Unassign the library from the staging environment and move the library to the [!UICONTROL Development] column for further changes. |
+
 ### [!UICONTROL Published] {#published}
 
 Libraries under the [!UICONTROL Published] column are live in the production environment. This column shows which libraries have been published and their publish dates. You can view these libraries, but you cannot make changes to them. If you want to change what is in your production environment, you must create a new library and move it through the complete publishing process.
