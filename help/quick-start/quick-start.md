@@ -120,7 +120,7 @@ Promoting a library all the way through to production typically requires coordin
 
 You can assign all these rights to a single person.
 
-For more information about the different states and options available during the publishing process, see [Approval Workflow](../launch-reference/publishing/approval-workflow.md).
+For more information about the different states and options available during the publishing process, see [Approval Workflow](../launch-reference/publishing/publishing-flow.md).
 
 ## Additional resources
 

@@ -15,19 +15,19 @@ The sections below cover the details about permissions, library state, and the u
 
 ## Permissions {#permissions}
 
-There are three levels of permission that are important for the publishing flow:
+There are different levels of user permissions that are important for the publishing flow; specifically, the [!UICONTROL Develop], [!UICONTROL Approve], and [!UICONTROL Publish] property rights:
 
-* **The develop right:** Includes the ability to create libraries, build for development, and submit for approval
-* **The approve right:** Includes the ability to build for staging and approve
-* **The publish right:** Includes the ability to publish an approved library
+* **[!UICONTROL Develop]**: Includes the ability to create libraries, build for development, and submit for approval.
+* **[!UICONTROL Approve]**: Includes the ability to build for staging and approve staged builds.
+* **[!UICONTROL Publish]**: Includes the ability to publish an approved library.
 
-The rights are not inclusive. For a single person to perform the workflow from start to finish, that person must be granted all three rights within a given property.
+These rights are not inclusive. For a single person to perform the workflow from start to finish, that person must be granted all three rights within a given property.
 
 For more information on managing permissions for Platform Launch, see the [user permissions guide](../administration/user-permissions.md).
 
 ## Library state {#state}
 
-There are four basic states that a library can be in:
+When it comes to the publishing flow, there are four basic states that a library can be in:
 
 * [[!UICONTROL Development]](#development)
 * [[!UICONTROL Submitted]](#submitted)
@@ -38,7 +38,7 @@ These four states are represented as columns within the **[!UICONTROL Publishing
 
 ![](./assets/approval-workflow/flow-ui.png)
 
-Specific actions must be taken to move a library between these states. The following diagram outlines each action that moves libraries between states, as well as the contrasting flow of the [upstream](#upstream) that affects the contents of each library depending on state:
+Specific actions must be taken to move a library between these states. The following diagram outlines each action that moves a library between states, as well as the contrasting flow of the [upstream](#upstream) that affects the contents of each library depending on where they are in the publishing flow:
 
 ![](./assets/approval-workflow/library-state.png)
 
@@ -51,44 +51,44 @@ The following table outlines the available actions for a library in the [!UICONT
 | Action | Description |
 | --- | --- |
 | [!UICONTROL Edit] | Use the [!UICONTROL Edit Library] screen to add or remove components from the library. |
-| [!UICONTROL Build for Development] | Create a build for the library. The build is compiled and deployed to the environment the library is assigned to. This step fails if the library has not been assigned to an environment, or contains a change that is already defined in the upstream. |
-| [!UICONTROL Submit for Approval] | Unassign the library from its development environment and move the library to the [!UICONTROL Submitted] column for a user with approver permissions to work on. |
+| [!UICONTROL Build for Development] | Create a build for the library. The build is compiled and deployed to the environment that the library is assigned to. This step fails if the library has not been assigned to an environment, or contains a change that is already defined in the upstream. |
+| [!UICONTROL Submit for Approval] | Unassign the library from the development environment, and move the library to the [!UICONTROL Submitted] column for a user with approval permissions to work on. The last build for the library must be successful in order for this option to be enabled. |
 | [!UICONTROL Delete] | Remove the library from Platform Launch. This does not remove the build from the environment. |
 
 ### [!UICONTROL Submitted] {#submitted}
 
-When a library is in the [!UICONTROL Submitted] state, a user with approval permissions can test the library in a staging environment. When testing is completed, the library can be approved or rejected. Rejected builds go back to [!UICONTROL Development] so additional changes can be made before restarting the publishing flow.
+When a library is in the [!UICONTROL Submitted] state, a user with approval permissions can test the library in the staging environment. When testing is completed, the library can be approved or rejected. Rejected builds go back to [!UICONTROL Development] so additional changes can be made before restarting the publishing flow.
 
 The following table outlines the available actions for a library in the [!UICONTROL Submitted] state:
 
 | Action | Description |
 | --- | --- |
-| [!UICONTROL Open] | View the contents of the library. Changes are not allowed. If changes are needed, the library should be rejected so changes can be made in [!UICONTROL Development]. |
-| [!UICONTROL Build for Staging] | Assign the library to the staging environment for deployment. |
-| [!UICONTROL Approve for Publishing] | Move the library to the [!UICONTROL Approved] column for a user with publishing permissions to publish. |
+| [!UICONTROL Open] | View the contents of the library. Changes are not allowed for libraries outside of the [!UICONTROL Development] column. If changes are needed, the library should be rejected so changes can be made in [!UICONTROL Development]. |
+| [!UICONTROL Build for Staging] | Build the library in the staging environment for deployment. |
+| [!UICONTROL Approve for Publishing] | Move the library to the [!UICONTROL Approved] column for a user with publishing permissions to work on. |
 | [!UICONTROL Reject] | Unassign the library from the staging environment and move the library back to the [!UICONTROL Development] column for further changes. |
 
 ### [!UICONTROL Approved] {#approved}
 
-Once a library have been approved, a user with publishing permissions can publish or reject the library. Rejected builds go back to [!UICONTROL Development] so that further changes can be made before the publishing flow begins again.
+Once a library has been approved, a user with publishing permissions can publish or reject the library. Rejected builds go back to [!UICONTROL Development] so that further changes can be made before the publishing flow begins again.
 
 The following table outlines the available actions for a library in the [!UICONTROL Approved] state:
 
 | Action | Description |
 | --- | --- |
-| [!UICONTROL Open] | View the contents of the library. Changes are not allowed. If changes are needed, the library should be rejected so changes can be made in [!UICONTROL Development]. |
+| [!UICONTROL Open] | View the contents of the library. Changes are not allowed for libraries outside of the [!UICONTROL Development] column. If changes are needed, the library should be rejected so changes can be made in [!UICONTROL Development]. |
 | [!UICONTROL Build and Publish to Production] | Unassign the library from the staging environment, assign the library to the production environment, and deploy it.<br><br>**Important**: When this option is selected, your library becomes live in your production environment. Ensure that the library contains the changes you want before you select this option. |
 | [!UICONTROL Reject] | Unassign the library from the staging environment and move the library to the [!UICONTROL Development] column for further changes. |
 
 ### [!UICONTROL Published] {#published}
 
-Libraries under the [!UICONTROL Published] column are live in the production environment. This column shows which libraries have been published and their publish dates. You can view these libraries, but you cannot make changes to them. If you want to change what is in your production environment, you must create a new library and move it through the complete publishing process.
+Libraries under the [!UICONTROL Published] column are live on the production environment. This column shows which libraries have been published and their publish dates. You can view these libraries, but you cannot make changes to them. If you want to change what is in your production environment, you must create a new library and move it through the complete publishing process.
 
 ## Upstream {#upstream}
 
 After you have published your first library, it becomes important to understand the role of the upstream as you move newer libraries through the publishing flow.
 
-If a library is currently in the [!UICONTROL Development], [!UICONTROL Submitted], or [!UICONTROL Approved] stage, that library will inherit the rules, data elements, and extensions of any libraries that are upstream of it. These inherited resources constitute a "baseline" for each library as they move through the publishing flow. Essentially, you can think of each new library simply as a series of changes to the baseline that is established by the upstream. This ensures that nothing gets unexpectedly overwritten from a previous library when each new iteration is published.
+If a library is currently in the [!UICONTROL Development], [!UICONTROL Submitted], or [!UICONTROL Approved] stage, that library will inherit the rules, data elements, and extensions of any libraries that are on the upstream. These inherited resources constitute a "baseline" for each library as they move through the publishing flow. Essentially, you can think of each new library simply as a series of changes to the baseline that is established by the upstream. This ensures that nothing gets unexpectedly overwritten from a previous library when a new iteration is published.
 
 What is included in the upstream depends on the current stage of the library. For example, libraries in the [!UICONTROL Approved] column only inherit resources from the [!UICONTROL Published] library, whereas libraries under [!UICONTROL Development] inherit resources from all other columns.
 

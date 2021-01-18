@@ -35,7 +35,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Remove resources from a library](launch-reference/managing-resources/remove-resources-from-library.md)
 * Publishing {#publish}
   * [Publishing overview](launch-reference/publishing/overview.md)
-  * [Approval workflow](launch-reference/publishing/approval-workflow.md)
+  * [Approval workflow](launch-reference/publishing/publishing-flow.md)
   * Hosts {#hosts}
     * [Hosts](launch-reference/publishing/hosts/hosts-overview.md)
     * [Managed by Adobe Hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
