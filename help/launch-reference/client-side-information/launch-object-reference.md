@@ -114,11 +114,13 @@ _satellite.logger.error('No product ID found.');
 Logs a message to the browser console. The message will only be displayed if [!DNL Platform Launch] debugging is enabled by the user (by calling `_satellite.setDebug(true)` or using an appropriate browser extension).
 
 #### Logging Deprecation Warnings
+
 ```javascript
 _satellite.logger.deprecation(message: string)
 ```
 
 #### Example
+
 ```javascript
 _satellite.logger.deprecation('This method is no longer supported, plese use [new example] instead.');
 ```
