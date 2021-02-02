@@ -38,7 +38,7 @@ These four states are represented as columns within the **[!UICONTROL Publishing
 
 ![](./assets/approval-workflow/flow-ui.png)
 
-Specific actions must be taken to move a library between these states. The following diagram outlines each action that moves a library between states, as well as the contrasting flow of the [upstream](#upstream) that affects the contents of each library depending on where they are in the publishing flow:
+Specific actions must be taken to move a library between these states. The following diagram outlines each action that moves a library between states:
 
 ![](./assets/approval-workflow/library-state.png)
 
@@ -88,7 +88,7 @@ Libraries under the [!UICONTROL Published] column are live on the production env
 
 After you have published your first library, it becomes important to understand the role of the upstream as you move newer libraries through the publishing flow.
 
-If a library is currently in the [!UICONTROL Development], [!UICONTROL Submitted], or [!UICONTROL Approved] stage, that library will inherit the rules, data elements, and extensions of any libraries that are on the upstream. These inherited resources constitute a "baseline" for each library as they move through the publishing flow. Essentially, you can think of each new library simply as a series of changes to the baseline that is established by the upstream. This ensures that nothing gets unexpectedly overwritten from a previous library when a new iteration is published.
+If a library is currently in the [!UICONTROL Development], [!UICONTROL Submitted], or [!UICONTROL Approved] stage, that library will inherit the rules, data elements, and extensions of any libraries that are upstream. These inherited resources constitute a "baseline" for each library as they move through the publishing flow. Essentially, you can think of each new library simply as a series of changes to the baseline that is established by the upstream. This ensures that nothing gets unexpectedly overwritten from a previous library when a new iteration is published.
 
 What is included in the upstream depends on the current stage of the library. For example, libraries in the [!UICONTROL Approved] column only inherit resources from the [!UICONTROL Published] library, whereas libraries under [!UICONTROL Development] inherit resources from all other columns.
 
