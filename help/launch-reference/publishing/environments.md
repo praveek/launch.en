@@ -21,7 +21,7 @@ This document provides steps on how to install, configure, and create different 
 
 ## Environment types
 
-[!DNL Platform Launch] supports three different environment types, each corresponding to a different state in the [publishing workflow](./approval-workflow.md):
+[!DNL Platform Launch] supports three different environment types, each corresponding to a different state in the [publishing workflow](./publishing-flow.md):
 
 | Environment type | Description |
 | --- | --- |
