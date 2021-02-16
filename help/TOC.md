@@ -81,7 +81,6 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * [Adobe Experience Platform Demo extension](extension-reference/web/adobe-experience-platform-extension.md)
     * Adobe Experience Platform extension {#aep-extension}
       * [Adobe Experience Platform extension overview](extension-reference/web/aep-web-sdk/overview.md)
-      * [Adobe Experience Platform extension release notes](extension-reference/web/aep-web-sdk/aep-web-sdk-release-notes.md)
     * Adobe Experience Platform Cloud Connector extension {#aep-cloud-extension}
       * [Adobe Experience Platform Cloud Connector extension overview](extension-reference/web/cloud-connector-extension/cloud-connector-extension.md)
     * AEM Asset Insights extension {#aem-asset-insights-extension}
