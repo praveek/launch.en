@@ -7,7 +7,7 @@ description: The latest release notes for the YouTube Video Tracking extension i
 
 ## November 24, 2020
 
-###  YouTube Video Tracking extension  1.0.1
+### YouTube Video Tracking extension 1.0.1
 
 #### Features
 
@@ -16,7 +16,7 @@ description: The latest release notes for the YouTube Video Tracking extension i
 
 ## November 19, 2020
 
-###  YouTube Video Tracking extension  1.0.0
+### YouTube Video Tracking extension 1.0.0
 
 #### Features
 
