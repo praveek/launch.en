@@ -1,8 +1,6 @@
 ---
-title: Release an extension
-seo-title: Release an extension
-description: Release an extension
-seo-description: Release an extension
+title: Release an Extension
+description: Learn how to privately or publicly release an Adobe Experience Platform Launch extension.
 ---
 
 # Release an extension

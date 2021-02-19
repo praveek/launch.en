@@ -1,8 +1,6 @@
 ---
-title: Getting started with extension development
-seo-title: Getting started with extension development
-description: Getting started with extension development
-seo-description: Getting started with extension development
+title: Getting Started with Extension Development
+description: Get started with developing your own extensions in Adobe Experience Platform Launch.
 ---
 
 # Getting started with extension development

@@ -1,8 +1,6 @@
 ---
-title: Extension manifest
-seo-title: Extension manifest
-description: Extension manifest
-seo-description: Extension manifest
+title: Extension Manifest
+description: Learn how to configure a JSON manifest file that informs Adobe Experience Platform Launch how to properly consume your extension. 
 ---
 
 # Extension manifest

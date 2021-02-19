@@ -1,8 +1,6 @@
 ---
-title: Extension configuration
-seo-title: Extension configuration
-description: Extension configuration
-seo-description: Extension configuration
+title: Extension Configuration
+description: Learn how to configure an Adobe Experience Platform Launch extension to gather global settings from a user.
 ---
 
 # Extension configuration

@@ -1,8 +1,6 @@
 ---
-title: Condition types for edge extensions
-seo-title: Condition types for edge extensions
-description: Condition types for edge extensions
-seo-description: Condition types for edge extensions
+title: Condition Types for Edge Extensions
+description: Learn how to define an condition-type library module for an edge extension in Adobe Experience Platform Launch.
 ---
 
 # Condition types for edge extensions

@@ -1,8 +1,6 @@
 ---
-title: Backwards compatibility standard
-seo-title: Backwards compatibility standard
-description: Backwards compatibility standard
-seo-description: Backwards compatibility standard
+title: Backwards Compatibility Standard
+description: Learn about the backwards compatibility standard that ensures updated versions of Adobe Experience Platform Launch extensions are compatible with previous versions.
 ---
 
 # Backwards compatibility standard

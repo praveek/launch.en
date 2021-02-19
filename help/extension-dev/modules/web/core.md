@@ -1,13 +1,11 @@
 ---
-title: Core modules
-seo-title: Core modules
-description: Core modules
-seo-description: Core modules
+title: Core Library Modules for Web Extensions
+description: Learn about the core library modules you can use within your Adobe Experience Platform Launch web extensions.
 ---
 
-# Core modules
+# Core library modules for web extensions
 
-This document provides a list of core modules that you may use within your library modules. You may access these modules using `require('@adobe/{MODULE}')`, where `{MODULE}` is the name of the core module want to use.
+This document provides a list of core library modules that you may use within your web extensions. You may access these modules using `require('@adobe/{MODULE}')`, where `{MODULE}` is the name of the core module want to use.
 
 ## [!DNL reactor-object-assign]
 

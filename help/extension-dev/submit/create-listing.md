@@ -1,11 +1,9 @@
 ---
-title: Create an exchange listing
-seo-title: Create an exchange listing
-description: Create an exchange listing
-seo-description: Create an exchange listing
+title: Create an Exchange Listing for an Extension
+description: Learn how to add your Adobe Experience Platform Launch extension to the public catalog.
 ---
 
-# Create an exchange listing
+# Create an exchange listing for an extension
 
 Adobe Experience Platform Launch has two catalogs for extensions: Private and Public.
 

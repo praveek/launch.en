@@ -1,8 +1,6 @@
 ---
-title: Turbine free variable
-seo-title: Turbine free variable
-description: Turbine free variable
-seo-description: Turbine free variable
+title: Turbine Free Variable
+description: Learn about the turbine object, a free variable which provides information and utilities specific to the Adobe Experience Platform Launch runtime.
 ---
 
 # Turbine free variable

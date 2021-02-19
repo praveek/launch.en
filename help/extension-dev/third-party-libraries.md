@@ -1,8 +1,6 @@
 ---
-title: Implementing third-party libraries
-seo-title: Implementing third-party libraries
-description: This document covers the different methods of hosting third-party libraries within your Platform Launch extensions.
-seo-description: This document covers the different methods of hosting third-party libraries within your Platform Launch extensions.
+title: Implementing Third-Party Libraries
+description: Learn about the different methods of hosting third-party libraries within your Adobe Experience Platform Launch extensions.
 ---
 
 # Implementing third-party libraries

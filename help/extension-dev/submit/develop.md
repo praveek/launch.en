@@ -1,8 +1,6 @@
 ---
-title: Develop an extension
-seo-title: Develop an extension
-description: Develop an extension
-seo-description: Develop an extension
+title: Develop an Extension
+description: This document provides a general overview of the extension development process, with links to further documentation for more detailed processes.
 ---
 
 # Develop an extension

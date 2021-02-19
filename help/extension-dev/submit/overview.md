@@ -1,8 +1,6 @@
 ---
-title: Extension submission process overview
-seo-title: Extension submission process overview
-description: Extension submission process overview
-seo-description: Extension submission process overview
+title: Extension Submission Process Overview
+description: Learn the steps for submitting your Adobe Experience Launch extension from development to release.
 ---
 
 # Extension submission process overview

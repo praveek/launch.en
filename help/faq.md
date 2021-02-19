@@ -1,13 +1,11 @@
 ---
-title: [!DNL Platform Launch] FAQ
-seo-title: [!DNL Platform Launch] FAQ in [!DNL Adobe Experience Platform Launch]
-description: [!DNL Adobe Experience Platform Launch] FAQ
-seo-description: [!DNL Adobe Experience Platform Launch] FAQ
+title: FAQ
+description: Get answers to frequently asked questions about Adobe Experience Platform Launch.
 ---
 
 # Adobe Experience Platform Launch FAQ
 
-Frequently asked questions about Adobe Experience Platform Launch.
+This document provides answers to frequently asked questions about Adobe Experience Platform Launch.
 
 ## What is Platform Launch?
 

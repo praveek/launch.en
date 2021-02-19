@@ -1,8 +1,6 @@
 ---
-title: Extension flow
-seo-title: Extension flow
-description: Extension flow
-seo-description: Extension flow
+title: Edge Extension Flow
+description: Learn how the components of an Adobe Experience Platform Launch edge extension interact with each other at runtime.
 ---
 
 # Edge extension flow

@@ -1,8 +1,6 @@
 ---
-title: Supported browsers
-seo-title: Supported browsers
-description: Supported browsers
-seo-description: Supported browsers
+title: Supported Browsers
+description: The Adobe Experience Platform Launch runtime is compatible with multiple browsers.
 ---
 
 # Supported browsers
