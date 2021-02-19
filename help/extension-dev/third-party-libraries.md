@@ -11,7 +11,7 @@ There are several methods to host third-party (vendor) libraries within your ext
 
 ## Prerequisites
 
-This document requires a working understanding of extensions within Platform Launch, including what they can do and how they are composed. See the [extensions overview](../overview.md) for more information.
+This document requires a working understanding of extensions within Platform Launch, including what they can do and how they are composed. See the [extension development overview](./overview.md) for more information.
 
 ## Base code loading process
 
