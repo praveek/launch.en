@@ -77,46 +77,48 @@ git-repo: https://github.com/AdobeDocs/launch.en
     * Adobe ContextHub extension {#contexthub}
       * [Overview](./extension-reference/web/contexthub/overview.md)
     * Adobe Experience Cloud ID Service extension {#id-service-extension}
-      * [Experience Cloud ID Service extension](extension-reference/web/experience-cloud-id-service-extension/overview.md)
-      * [Experience Cloud ID release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
-    * [Adobe Experience Platform Demo extension](extension-reference/web/adobe-experience-platform-extension.md)
-    * Adobe Experience Platform extension {#aep-extension}
-      * [Adobe Experience Platform extension overview](extension-reference/web/aep-web-sdk/overview.md)
+      * [Overview](extension-reference/web/experience-cloud-id-service-extension/overview.md)
+      * [Release notes](extension-reference/web/experience-cloud-id-service-extension/experience-cloud-id-release-notes.md)
+    * Adobe Experience Platform Demo extension {#platform-demo}
+      * [Overview](./extension-reference/web/platform-demo/overview.md)
+    * Adobe Experience Platform Web SDK extension {#aep-extension}
+      * [Overview](extension-reference/web/aep-web-sdk/overview.md)
     * Adobe Experience Platform Cloud Connector extension {#aep-cloud-extension}
-      * [Adobe Experience Platform Cloud Connector extension overview](extension-reference/web/cloud-connector-extension/cloud-connector-extension.md)
+      * [Overview](extension-reference/web/cloud-connector-extension/cloud-connector-extension.md)
     * AEM Asset Insights extension {#aem-asset-insights-extension}
-      * [AEM Asset Insights extension](extension-reference/web/aem-asset-insights/aem-asset-insights.md)
-      * [AEM Asset Insights extension release notes](extension-reference/web/aem-asset-insights/aem-asset-insights-release-notes.md)
+      * [Overview](extension-reference/web/aem-asset-insights/aem-asset-insights.md)
+      * [Release notes](extension-reference/web/aem-asset-insights/aem-asset-insights-release-notes.md)
     * Adobe Media Analytics (3.x SDK) extension {#media-analytics-3x-extension}
-      * [Adobe Media Analytics (3.x SDK) for Audio and Video extension](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics (3.x SDK) for Audio and Video release notes](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/adobe-media-analytics-3x-for-audio-and-video-extension-release-notes.md)
+      * [Overview](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/overview.md)
+      * [Release notes](extension-reference/web/adobe-media-analytics-3x-for-audio-and-video-extension/adobe-media-analytics-3x-for-audio-and-video-extension-release-notes.md)
     * Adobe Media Analytics for Audio and Video extension {#media-analytics-extension}
-      * [Adobe Media Analytics for Audio and Video extension](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
-      * [Adobe Media Analytics for Audio and Video release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
-    * [Adobe Privacy extension](extension-reference/web/adobe-privacy-extension.md)
+      * [Overview](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/overview.md)
+      * [Release notes](extension-reference/web/adobe-media-analytics-for-audio-and-video-extension/adobe-media-analytics-for-audio-and-video-extension-release-notes.md)
+    * Adobe Privacy extension {#privacy}
+      * [Overview](./extension-reference/web/privacy/overview.md)
     * Adobe Target extension {#target-extension}
-      * [Adobe Target extension](extension-reference/web/adobe-target-extension/overview.md)
-      * [Adobe Target release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
+      * [Overview](extension-reference/web/adobe-target-extension/overview.md)
+      * [Release notes](extension-reference/web/adobe-target-extension/adobe-target-release-notes.md)
     * Adobe Target v2 extension {#targetv2-extension}
-      * [Adobe Target v2 extension](extension-reference/web/adobe-target-extension-v2.md)
-      * [Adobe Target v2 release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
+      * [Overview](extension-reference/web/adobe-target-extension-v2.md)
+      * [Release notes](extension-reference/web/adobe-target-extension/adobe-target-v2-release-notes.md)
     * Common Analytics Plugins extension {#plugins-extension}
-      * [Common Analytics Plugins extension](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins.md)
-      * [Common Analytics Plugins extension release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
-    * [!DNL Platform Launch] Core extension {#core-extension}
-      * [Core extension](extension-reference/web/core-extension/overview.md)
-      * [[!DNL Platform Launch] Server Side Core extension](extension-reference/web/core-extension/overview-launch-server-side.md)
-      * [Core release notes](extension-reference/web/core-extension/core-release-notes.md)
+      * [Overview](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins.md)
+      * [Release notes](extension-reference/web/common-analytics-plugins-extension/common-analytics-plugins-release-notes.md)
+    * [!DNL Platform Launch] core extension {#core-extension}
+      * [Overview](extension-reference/web/core-extension/overview.md)
+      * [Server-side core extension](extension-reference/web/core-extension/overview-launch-server-side.md)
+      * [Release notes](extension-reference/web/core-extension/core-release-notes.md)
     * [!DNL Marketo Munchkin] extension {#marketo-extension}
-      * [Marketo Munchkin extension](extension-reference/web/marketo-munchkin-extension/overview.md)
-      * [Marketo Munchkin release notes](extension-reference/web/marketo-munchkin-extension/marketo-munchkin-release-notes.md)
-    * Video tracking [!DNL BrightCove] extension {#brightcove-extension}
-      * [Video tracking BrightCove extension](extension-reference/web/video-tracking-brightcove-extension/overview.md)
-      * [Video tracking BrightCove extension release notes](extension-reference/web/video-tracking-brightcove-extension/video-tracking-brightcove-extension-release-notes.md)
-    * Video tracking [!DNL YouTube] extension {#youtubee-extension}
-      * [Video tracking YouTube extension](extension-reference/web/video-tracking-youtube-extension/overview.md)
-      * [Video tracking YouTube extension release notes](extension-reference/web/video-tracking-youtube-extension/video-tracking-youtube-extension-release-notes.md)
-  * [Third-Party extensions](extension-reference/3rd-party-extensions.md)
+      * [Overview](extension-reference/web/marketo-munchkin-extension/overview.md)
+      * [Release notes](extension-reference/web/marketo-munchkin-extension/marketo-munchkin-release-notes.md)
+    * [!DNL BrightCove] video tracking extension {#brightcove-extension}
+      * [Overview](extension-reference/web/video-tracking-brightcove-extension/overview.md)
+      * [Release notes](extension-reference/web/video-tracking-brightcove-extension/video-tracking-brightcove-extension-release-notes.md)
+    * [!DNL YouTube] video tracking extension {#youtubee-extension}
+      * [Overview](extension-reference/web/video-tracking-youtube-extension/overview.md)
+      * [Release notes](extension-reference/web/video-tracking-youtube-extension/video-tracking-youtube-extension-release-notes.md)
+  * [Third-party extensions](extension-reference/3rd-party-extensions.md)
 * Extension development {#extension-dev}
   * [Overview](./extension-dev/overview.md)
   * [Getting started](./extension-dev/getting-started.md)
