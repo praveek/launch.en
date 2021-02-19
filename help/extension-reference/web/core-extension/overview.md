@@ -1,11 +1,9 @@
 ---
-title: Core Extension
-seo-title: Core Extension in Adobe Experience Platform Launch
-description: The Core extension is the default extension released with Launch
-seo-description: Core Extension in Adobe Experience Platform Launch
+title: Core Extension Overview
+description: Learn about the Core extension in Adobe Experience Platform Launch.
 ---
 
-# Core Extension
+# Core extension overview
 
 The Core extension is the default extension released with Adobe Experience Platform Launch.
 

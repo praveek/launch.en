@@ -1,11 +1,9 @@
 ---
-title: Adobe Media Analytics for Audio and Video Release Notes
-seo-title: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
-seo-description: Adobe Media Analytics for Audio and Video Release Notes in Adobe Experience Platform Launch
+title: Release Notes for the Adobe Media Analytics for Audio and Video Extension
+description: The latest release notes for the Adobe Media Analytics for Audio and Video extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Media Analytics for Audio and Video Release Notes
+# Adobe Media Analytics for Audio and Video release notes
 
 ## October 25, 2019
 

@@ -1,11 +1,9 @@
 ---
-title: Adobe Experience Platform Cloud Connector extension
-seo-title: Cloud Connector extension for Adobe Experience Platform Launch Server Side
-description: Cloud Connector extension for Adobe Experience Platform Launch Server Side
-seo-description: Cloud Connector extension for Adobe Experience Platform Launch Server Side
+title: Cloud Connector Extension Overview
+description: Learn about the Server Side Cloud Connector extension in Adobe Experience Platform Launch.
 ---
 
-# Cloud Connector extension
+# Cloud Connector extension overview
 
 The Adobe Experience Platform Launch Server Side Cloud Connector extension allows you to create custom HTTP requests to send data to a destination or retrieve data from a destination. The Cloud Connector extension is like having Postman on Adobe Experience Platform Edge Network and can be used to send data to an endpoint that does not have a dedicated extension yet. 
 

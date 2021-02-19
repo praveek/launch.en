@@ -1,11 +1,9 @@
 ---
-title: Adobe Target Extension
-seo-title: Adobe Target Extension in Adobe Experience Platform Launch
-description: Information about the options available when using the Adobe Target extension to build a rule
-seo-description: Adobe Target Extension in Adobe Experience Platform Launch
+title: Adobe Target Extension Overview
+description: Learn about the Adobe Target extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Target Extension
+# Adobe Target extension overview
 
 Use this reference for information about the options available when using this extension to build a rule.
 

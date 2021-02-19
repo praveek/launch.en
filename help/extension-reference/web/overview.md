@@ -1,13 +1,11 @@
 ---
-title: Adobe Extensions
-seo-title: Adobe Extensions in Adobe Experience Platform Launch
-description: Documentation for the Launch Extensions provided by Adobe solutions
-seo-description: Documentation for the Launch Extensions provided by Adobe solutions
+title: Adobe Extensions Reference
+description: Find documentation for for Adobe Experience Platform Launch extensions provided by Adobe solutions.
 ---
 
-# Adobe Extensions
+# Adobe extensions reference
 
-Documentation for the Adobe Experience Platform Launch extensions provided by Adobe solutions.
+The following is a list of documentation for the Adobe Experience Platform Launch extensions provided by Adobe solutions:
 
 * [Analytics extension](adobe-analytics-extension/overview.md)
 * [Adobe Analytics Product String extension](adobe-analytics-product-string-extension/overview.md)

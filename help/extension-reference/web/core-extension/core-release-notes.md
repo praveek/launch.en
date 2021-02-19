@@ -1,11 +1,9 @@
 ---
-title: Core Release Notes
-seo-title: Core extension Release Notes in Adobe Experience Platform Launch
-description: Release notes for the Adobe Experience Platform Launch core extension
-seo-description: Release notes for the Adobe Experience Platform Launch core extension
+title: Release Notes for the Core Extension
+description: The latest release notes for the Core extension in Adobe Experience Platform Launch.
 ---
 
-# Core Extension Release Notes
+# Core Extension release notes
 
 ## January 6, 2021
 

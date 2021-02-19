@@ -1,11 +1,9 @@
 ---
-title: Marketo Munchkin Extension Release Notes
-seo-title: Marketo Munchkin Extension Release Notes in Adobe Experience Platform Launch
-description: Marketo Munchkin Extension Release Notes in Adobe Experience Platform Launch
-seo-description: Marketo Munchkin Extension Release Notes in Adobe Experience Platform Launch
+title: Release Notes for the Marketo Munchkin Extension
+description: The latest release notes for the Marketo Munchkin extension in Adobe Experience Platform Launch.
 ---
 
-# Marketo Munchkin Extension Release Notes
+# Marketo Munchkin Extension release notes
 
 ## December 2, 2020
 

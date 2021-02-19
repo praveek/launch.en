@@ -1,11 +1,9 @@
 ---
-title: Core extension for Adobe Experience Platform Launch Server Side
-seo-title: Core extension in Adobe Experience Platform Launch Server Side
-description: The Core extension is the default extension released with Adobe Experience Platform Launch Server Side
-seo-description: Core extension in Adobe Experience Platform Launch Server Side
+title: Core Extension Overview
+description: Learn about the server-side Core extension in Adobe Experience Platform Launch.
 ---
 
-# Core extension for Adobe Experience Platform Launch Server Side
+# Server-side Core extension overview
 
 The Core extension is the default extension released with Adobe Experience Platform Launch Server Side. 
 

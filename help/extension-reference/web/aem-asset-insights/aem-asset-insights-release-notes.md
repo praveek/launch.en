@@ -1,4 +1,9 @@
-# AEM Asset Insights Release Notes
+---
+title: Release Notes for the AEM Asset Insights Extension
+description: The latest release notes for the AEM Asset Insights extension in Adobe Experience Platform Launch.
+---
+
+# AEM Asset Insights release notes
 
 ## September 9, 2020
 
