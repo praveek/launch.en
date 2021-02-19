@@ -7,7 +7,7 @@ seo-description: Adobe Experience Platform Extension in Adobe Experience Platfor
 
 # Adobe Experience Platform Demo Extension
 
-This extension will be deprecated in favor of the [AEP Web SDK](aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
+This extension will be deprecated in favor of the [AEP Web SDK](../aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
 
 | AEP Demo Extension | AEP Web SDK |
 | ------------------ | ----------- |
