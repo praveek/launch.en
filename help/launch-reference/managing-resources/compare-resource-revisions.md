@@ -1,8 +1,6 @@
 ---
-title: Compare resource revisions
-seo-title: Compare resource revisions in Adobe Experience Platform Launch
-description: Compare resource revisions in Adobe Experience Platform Launch
-seo-description: Compare resource revisions in Adobe Experience Platform Launch
+title: Compare Resource Revisions
+description: Learn how to to view the history of revisions for a resource in Adobe Experience Platform Launch.
 ---
 
 # Compare resource revisions

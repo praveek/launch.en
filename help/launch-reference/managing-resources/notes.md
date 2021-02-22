@@ -1,8 +1,6 @@
 ---
 title: Notes
-seo-title: Notes in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch notes
-seo-description: Adobe Experience Platform Launch notes
+description: Learn how to textual annotations to certain resources in Adobe Experience Platform Launch.
 ---
 
 # Notes

@@ -1,13 +1,13 @@
 ---
-title: Subresource integrity (SRI)
-seo-title: Subresource integrity (SRI) in Adobe Experience Platform Launch
-description: Subresource integrity (SRI) in Adobe Experience Platform Launch
-seo-description: Subresource integrity (SRI) in Adobe Experience Platform Launch
+title: Subresource Integrity (SRI) Support
+description: Learn how subresource integrity (SRI) is supported in Adobe Experience Platform Launch
 ---
 
-# Subresource integrity (SRI) in Adobe Experience Platform Launch
+# Subresource integrity (SRI) support
 
-Modern websites are built by referencing images, content, and scripts from various locations around the web. Subresource integrity (SRI) allows a browser to verify that the contents of a requested file have not been unexpectedly modified.
+This document covers how subresource integrity (SRI) is supported in Adobe Experience Platform Launch.
+
+Modern websites are built by referencing images, content, and scripts from various locations around the web. SRI allows a browser to verify that the contents of a requested file have not been unexpectedly modified.
 
 While their use cases compliment each other, SRI is different from a Content Security Policy (CSP), which ensures that only files from trusted sources are allowed on your website. SRI goes one step further by ensuring that the content of these files match your expectations.
 

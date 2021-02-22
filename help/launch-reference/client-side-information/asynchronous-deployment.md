@@ -1,8 +1,6 @@
 ---
-title: Asynchronous deployment
-seo-title: Asynchronous deployment in Adobe Experience Platform Launch
-description: Asynchronous deployment with Adobe Experience Platform Launch
-seo-description: Asynchronous deployment with Adobe Experience Platform Launch
+title: Asynchronous Deployment
+description: Learn how to asynchronously deploy Adobe Experience Platform Launch libraries on your website.
 ---
 
 # Asynchronous deployment
