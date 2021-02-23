@@ -12,7 +12,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
 
 * [[!DNL Platform Launch] overview](./home.md)
 * Getting started {#get-started}
-  * [Quick start guide](quick-start/quick-start.md)
+  * [Quickstart guide](quick-start/quick-start.md)
   * [Implementation guides](quick-start/implementation-guides.md)
   * [Videos](quick-start/videos.md)
   * Upgrade from DTM to [!DNL Platform Launch] {#upgrade}
@@ -38,7 +38,7 @@ git-repo: https://github.com/AdobeDocs/launch.en
   * [Publishing flow](launch-reference/publishing/publishing-flow.md)
   * Hosts {#hosts}
     * [Overview](launch-reference/publishing/hosts/hosts-overview.md)
-    * [Managed by Adobe hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
+    * [Adobe-managed hosts](launch-reference/publishing/hosts/managed-by-adobe-host.md)
     * [SFTP hosts](launch-reference/publishing/hosts/sftp-host.md)
   * Environments {#environments}
     * [Overview](launch-reference/publishing/environments.md)

@@ -1,8 +1,6 @@
 ---
-title: Publishing flow
-seo-title: Publishing flow in Adobe Experience Platform Launch
-description: Learn about the process of creating libraries, testing builds, and approving them for production in Platform Launch.
-seo-description: Learn about the process of creating libraries, testing builds, and approving them for production in Platform Launch.
+title: Publishing Flow
+description: Learn about the process of creating libraries, testing builds, and approving them for production in Adobe Experience Platform Launch.
 ---
 
 # Publishing flow

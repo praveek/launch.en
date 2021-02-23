@@ -1,8 +1,6 @@
 ---
-title: Getting started with Experience Platform Launch Server Side
-seo-title: Getting started with Experience Platform Launch Server Side
-description: Getting started with Experience Platform Launch Server Side
-seo-description: Getting started with Experience Platform Launch Server Side
+title: Getting started with Adobe Experience Platform Launch Server Side
+description: Follow this step-by-step tutorial to get started using Adobe Experience Platform Launch Server Side.
 ---
 
 # Getting started with Experience Platform Launch Server Side

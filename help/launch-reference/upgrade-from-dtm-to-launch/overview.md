@@ -1,8 +1,6 @@
 ---
 title: Upgrade From DTM to Adobe Experience Platform Launch
-seo-title: Upgrade From DTM to Adobe Experience Platform Launch in Adobe Experience Platform Launch
-description: Upgrade From DTM to Adobe Experience Platform Launch
-seo-description: Upgrade From DTM to Adobe Experience Platform Launch
+description: Learn how to upgrade from Dynamic Tag Management (DTM) to Adobe Experience Platform Launch.
 ---
 
 # Upgrade From DTM to Adobe Experience Platform Launch

@@ -1,11 +1,9 @@
 ---
-title: Upgrade FAQ
-seo-title: Upgrade FAQ in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch upgrade FAQ
-seo-description: Adobe Experience Platform Launch upgrade FAQ
+title: FAQ for Upgrading from DTM to Platform Launch
+description: Find answers to frequently asked questions about upgrading from Dynamic Tag Management (DTM) to Adobe Experience Platform Launch.
 ---
 
-# Upgrade FAQ
+# DTM to Platform Launch upgrade FAQ
 
 ## What does the Adobe Experience Platform Launch Upgrade do? {#what-does-the-launch-upgrade-do}
 
