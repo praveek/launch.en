@@ -5,9 +5,9 @@ description: Learn about the Adobe Experience Platform Demo extension in Adobe E
 
 # Adobe Experience Platform Demo Extension
 
-This extension will be deprecated in favor of the [AEP Web SDK](../aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
+This extension will be deprecated in favor of the [Adobe Experience Platform Web SDK](../aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
 
-| AEP Demo Extension | AEP Web SDK |
+| Platform Demo Extension | Platform Web SDK |
 | ------------------ | ----------- |
 | Support for Custom Customer IDs | Support for Custom Cusotmer IDs|
 | Client Side Mapping UI for XDM | Build in ECID (No need for visitor.js)|
