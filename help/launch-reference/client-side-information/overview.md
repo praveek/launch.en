@@ -1,6 +1,6 @@
 ---
 title: Client-Side Information
-description: managing client-side operations of Adobe Experience Platform Launch
+description: Learn how to manage client-side operations in Adobe Experience Platform Launch.
 ---
 
 # Client-side information
