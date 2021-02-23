@@ -1,8 +1,6 @@
 ---
-title: Action types for web extensions
-seo-title: Action types for web extensions
-description: Action types for web extensions
-seo-description: Action types for web extensions
+title: Action Types for Web Extensions
+description: Learn how to define an action-type library module for a web extension in Adobe Experience Platform Launch.
 ---
 
 # Action types for web extensions

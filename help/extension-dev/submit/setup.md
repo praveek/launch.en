@@ -1,8 +1,6 @@
 ---
-title: Experience Cloud organization setup
-seo-title: Experience Cloud organization setup
-description: Experience Cloud organization setup
-seo-description: Experience Cloud organization setup
+title: Experience Cloud Organization Setup
+description: Learn how to register an Adobe Experience Cloud organization in order to start developing extensions for Adobe Experience Platform Launch.
 ---
 
 # Experience Cloud organization setup

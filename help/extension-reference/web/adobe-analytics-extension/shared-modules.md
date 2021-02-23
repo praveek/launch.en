@@ -1,8 +1,6 @@
 ---
 title: Shared modules for the Adobe Analytics extension
-seo-title: Shared modules for the Adobe Analytics extension
-description: Shared modules for the Adobe Analytics extension
-seo-description: Shared modules for the Adobe Analytics extension
+description: Learn about the shared library modules provided by the Adobe Analytics extension in Adobe Experience Platform Launch.
 ---
 
 # Shared modules for the Adobe Analytics extension

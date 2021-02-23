@@ -1,11 +1,9 @@
 ---
-title: Adobe Target Release Notes
-seo-title: Adobe Target Release Notes in Adobe Experience Platform Launch
-description: Release notes for Adobe Target extension in Adobe Experience Platform Launch
-seo-description: Release notes for Adobe Target extension in Adobe Experience Platform Launch
+title: Release Notes for the Adobe Target Extension
+description: The latest release notes for the Adobe Target extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Target Release Notes
+# Adobe Target release notes
 
 ## July 24, 2020
 

@@ -1,11 +1,9 @@
 ---
-title: Shared modules
-seo-title: Shared modules
-description: Shared modules
-seo-description: Shared modules
+title: Shared Modules in Web Extensions
+description: Learn how to defined shared library modules in your Adobe Experience Platform Launch web extensions.
 ---
 
-# Shared modules
+# Shared modules in web extensions
 
 A shared module is a mechanism by which you can communicate with other extensions. In JavaScript implementations, all shared modules are instantiated using the [`getSharedModule`](../../turbine.md#shared) method provided by the `turbine` free variable.
 

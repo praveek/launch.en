@@ -1,8 +1,6 @@
 ---
 title: Environments
-seo-title: Environments in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch environments
-seo-description: Adobe Experience Platform Launch environments
+description: Learn about the concept of environments and how they function within Adobe Experience Platform Launch.
 ---
 
 # Environments

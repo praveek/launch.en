@@ -1,8 +1,6 @@
 ---
 title: Extensions
-seo-title: Extensions in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch extensions
-seo-description: Adobe Experience Platform Launch extensions
+description: Learn how extensions function in Adobe Experience Platform Launch.
 ---
 
 # Extensions

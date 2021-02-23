@@ -1,8 +1,6 @@
 ---
-title: Upload and implement end-to-end testing
-seo-title: Upload and implement end-to-end testing
-description: Upload and implement end-to-end testing
-seo-description: Upload and implement end-to-end testing
+title: Upload and Implement End-to-End Testing for an Extension
+description: Learn how to validate, upload, and test your Adobe Experience Platform Launch extension.
 ---
 
 # Upload and implement end-to-end testing

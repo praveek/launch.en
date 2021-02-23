@@ -1,11 +1,9 @@
 ---
-title: Adobe Target v2 Extension
-seo-title: Adobe Target v2 Extension in Adobe Experience Platform Launch
-description: Information about configuring the Adobe Target v2 extension, and the options available when using this extension to build a rule
-seo-description: Adobe Target v2 Extension in Adobe Experience Platform Launch
+title: Adobe Target v2 Extension Overview
+description: Learn about the Adobe Target v2 extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Target v2 Extension
+# Adobe Target v2 extension overview
 
 Use this reference for information about the options available when using this extension to build a rule.
 

@@ -1,13 +1,9 @@
 ---
-title: Release notes
-seo-title: Adobe Experience Platform Launch Release notes
-description: Adobe Experience Platform Launch release notes
-seo-description: Adobe Experience Platform Launch release notes
+title: 2020 Release Notes
+description: 2020 release notes for Adobe Experience Platform Launch
 ---
 
-# Release notes
-
-=======
+# 2020 release notes
 
 ## October 26th, 2020
 

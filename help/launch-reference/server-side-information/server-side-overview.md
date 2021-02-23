@@ -1,8 +1,6 @@
 ---
-title: Experience Platform Launch Server Side Overview
-seo-title: Experience Platform Launch Server Side overview
-description: Experience Platform Launch Server Side overview
-seo-description: Experience Platform Launch Server Side overview
+title: Adobe Experience Platform Launch Server Side Overview
+description: Learn about Adobe Experience Platform Launch Server Side, which allows you to use the Platform Edge Network to execute tasks without changing your client-side implementation.
 ---
 
 # Adobe Experience Platform Launch Server Side overview

@@ -1,13 +1,11 @@
 ---
-title: Link DTM Embed Code
-seo-title: Link DTM Embed Code in Adobe Experience Platform Launch
-description: Link DTM Embed Code using Adobe Experience Platform Launch
-seo-description: Link DTM Embed Code using Adobe Experience Platform Launch
+title: Link a DTM Embed Code
+description: Learn how to link a Dynamic Tag Management (DTM) embed code using Adobe Experience Platform Launch.
 ---
 
-# Link DTM Embed Code
+# Link a DTM embed code
 
-Linking embed codes primarily applies to DTM and Adobe Experience Platform Launch users who use built-in Akamai hosting. Those who are self-hosting, please see the [self-hosting section](#self-hosting) at the end of this article.
+Linking embed codes primarily applies to Dynamic Tag Management (DTM) and Adobe Experience Platform Launch users who use built-in Akamai hosting. Those who are self-hosting, please see the [self-hosting section](#self-hosting) at the end of this article.
 
 ## Embed Code {#embed-code}
 

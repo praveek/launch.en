@@ -1,11 +1,9 @@
 ---
-title: Publishing
-seo-title: Publishing in Adobe Experience Platform Launch
-description: Publishing in Adobe Experience Platform Launch
-seo-description: Publishing in Adobe Experience Platform Launch
+title: Publishing Overview
+description: Learn about the process of publishing changes to your tag-management code libraries in Adobe Experience Platform Launch.
 ---
 
-# Publishing libraries
+# Publishing overview
 
 Adobe Experience Platform Launch allows you to encapsulate changes to your tag-management code within individual libraries. Since Platform Launch provides the flexibility for multiple libraries to be developed in parallel by different teams, these libraries must follow a deliberate, permissioned process for merging changes together before being pushed to your production environment.
 

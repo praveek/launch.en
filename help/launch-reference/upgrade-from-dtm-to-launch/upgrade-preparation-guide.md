@@ -1,11 +1,9 @@
 ---
 title: Upgrade Preparation Guide
-seo-title: Upgrade Preparation Guide in Adobe Experience Platform Launch
-description: Preparing to upgrade with Adobe Experience Platform Launch
-seo-description: Preparing to upgrade with Adobe Experience Platform Launch
+description: Follow this preparation guide to get started upgrading from Dynamic Tag Management (DTM) to Adobe Experience Platform Launch.
 ---
 
-# Upgrade Preparation Guide
+# Upgrade preparation guide
 
 Adobe Experience Platform Launch is an entirely different system than DTM. Conceptually, they achieve the same goal, but the way they do so is different.
 

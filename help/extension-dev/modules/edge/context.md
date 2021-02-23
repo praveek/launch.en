@@ -1,8 +1,6 @@
 ---
-title: Context in edge extension modules
-seo-title: Context in edge extension modules
-description: This document covers the properties provided by the context object and the role they play in library modules.
-seo-description: This document covers the properties provided by the context object and the role they play in library modules.
+title: Context in Edge Extension Modules
+description: Learn about the context object and the role it plays in interacting with library modules in Adobe Experience Platform Launch edge extensions.
 ---
 
 # Context in edge extension modules

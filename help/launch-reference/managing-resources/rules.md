@@ -1,8 +1,6 @@
 ---
 title: Rules
-seo-title: Rules in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch rules
-seo-description: Adobe Experience Platform Launch rules
+description: Learn how extensions function in Adobe Experience Platform Launch.
 ---
 
 # Rules

@@ -1,13 +1,11 @@
 ---
 title: Link DTM to Experience Cloud
-seo-title: Link DTM to Experience Cloud in Adobe Experience Platform Launch
-description: Link DTM to Experience Cloud using Adobe Experience Platform Launch
-seo-description: Link DTM to Experience Cloud using Adobe Experience Platform Launch
+description: Learn how to link Dynamic Tag Management (DTM) to Adobe Experience Cloud using Adobe Experience Platform Launch.
 ---
 
 # Link DTM to Experience Cloud
 
-If you've been using DTM for a while, it's possible that your company's account is older than the Experience Cloud (or even the Marketing Cloud). Unless you've already gone through the process to link your DTM account to the Experience Cloud, this work still lies ahead of you.
+If you've been using Dynamic Tag Management (DTM) for a while, it's possible that your company's account is older than the Experience Cloud (or even the Marketing Cloud). Unless you've already gone through the process to link your DTM account to the Experience Cloud, this work still lies ahead of you.
 
 This document explains the reasons you may want to do that work and what you need to know about linking to the Experience Cloud.
 

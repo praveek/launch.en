@@ -1,13 +1,11 @@
 ---
-title: Adobe Experience Platform Extension
-seo-title: Adobe Experience Platform Extension in Adobe Experience Platform Launch
-description: Information about configuring the Adobe Experience Platform extension, and the options available when using this extension to build a rule
-seo-description: Adobe Experience Platform Extension in Adobe Experience Platform Launch
+title: Adobe Experience Platform Demo Extension Overview
+description: Learn about the Adobe Experience Platform Demo extension in Adobe Experience Platform Launch.
 ---
 
 # Adobe Experience Platform Demo Extension
 
-This extension will be deprecated in favor of the [AEP Web SDK](aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
+This extension will be deprecated in favor of the [AEP Web SDK](../aep-web-sdk/overview.md). The features of this extension are being ported over to new extension. Here is a quick comparison of current features. 
 
 | AEP Demo Extension | AEP Web SDK |
 | ------------------ | ----------- |
@@ -48,8 +46,6 @@ Once you selected a streaming endpoint, you will the streaming endpoint URL and 
 ## Adobe Experience Platform extension action types
 
 This section describes the action types available in the Adobe Experience Platform extension.
-
-The extension provides a [Send Beacon](adobe-experience-platform-extension.md#send-beacon) action type.
 
 ### Send Beacon {#send-beacon}
 

@@ -1,8 +1,6 @@
 ---
-title: Library modules in edge extensions
-seo-title: Library modules in edge extensions
-description: This document covers the library module format for edge extensions in Platform Launch.
-seo-description: This document covers the library module format for edge extensions in Platform Launch.
+title: Library Modules in Edge Extensions
+description: Learn how to format library modules for edge extensions in Adobe Experience Platform Launch.
 ---
 
 # Library modules in edge extensions

@@ -1,11 +1,9 @@
 ---
-title: Managing Resources
-seo-title: Managing Resources in Adobe Experience Platform Launch
-description: Managing Adobe Experience Platform Launch Resources
-seo-description: Managing Adobe Experience Platform Launch Resources
+title: Manage Resources
+description: Learn how to manage various resources in Adobe Experience Platform Launch, including extensions, data elements, and rules.
 ---
 
-# Managing Resources
+# Manage resources
 
 In [!DNL Adobe Experience Platform Launch], the word "resources" refers to any of the following:
 

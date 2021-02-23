@@ -1,11 +1,9 @@
 ---
-title: Adobe Analytics Release Notes
-seo-title: Adobe Analytics Release Notes for Adobe Experience Platform Launch
-description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
-seo-description: Adobe Analytics Release Notes for Adobe Experience Platform Launch
+title: Release Notes for the Adobe Analytics Extension
+description: The latest release notes for the Adobe Analytics extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Analytics Release Notes
+# Adobe Analytics extension release notes
 
 ## August 6, 2020
 

@@ -1,5 +1,9 @@
+---
+title: Adobe Media Analytics (3.x SDK) for Audio and Video Extension Overview
+description: Learn about the Adobe Media Analytics (3.x SDK) for Audio and Video extension in Adobe Experience Platform Launch.
+---
 
-# Adobe Media Analytics (3.x SDK) for Audio and Video Extension
+# Adobe Media Analytics (3.x SDK) for Audio and Video extension overview
 
 Use this documentation for information on installing, configuring, and implementing the Adobe Media Analytics (3.x SDK) for Audio and Video extension (Media Analytics extension). Included are the options available when using this extension to build a rule, along with examples and links to samples.
 

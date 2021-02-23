@@ -1,11 +1,9 @@
 ---
-title: Adobe Analytics Extension
-seo-title: Adobe Analytics Extension in Adobe Experience Platform Launch
-description: Adobe Analytics Extension in Adobe Experience Platform Launch
-seo-description: Adobe Analytics Extension in Adobe Experience Platform Launch
+title: Adobe Analytics Extension Overview
+description: Learn about the Adobe Analytics extension in Adobe Experience Platform Launch.
 ---
 
-# Adobe Analytics Extension
+# Adobe Analytics extension overview
 
 Use this reference for information about configuring the Adobe Analytics extension, and the options available when using this extension to build a rule.
 

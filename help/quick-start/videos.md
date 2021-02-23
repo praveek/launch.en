@@ -1,8 +1,6 @@
 ---
 title: Videos
-seo-title: Videos in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch videos
-seo-description: Adobe Experience Platform Launch videos
+description: Watch videos that cover various capabilities and processes in Adobe Experience Platform Launch.
 ---
 
 # Videos

@@ -1,8 +1,6 @@
 ---
-title: Remove resources from a library
-seo-title: Remove resources from a library in Adobe Experience Platform Launch
-description: Remove resources from an Adobe Experience Platform Launch library
-seo-description: Remove resources from an Adobe Experience Platform Launch library
+title: Remove Resources from a Library
+description: Learn how to remove resources from an Adobe Experience Platform Launch library.
 ---
 
 # Remove resources from a library

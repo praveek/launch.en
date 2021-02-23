@@ -1,8 +1,6 @@
 ---
-title: Action types for edge extensions
-seo-title: Action types for edge extensions
-description: Action types for edge extensions
-seo-description: Action types for edge extensions
+title: Action Types for Edge Extensions
+description: Learn how to define an action-type library module for an edge extension in Adobe Experience Platform Launch.
 ---
 
 # Action types for edge extensions

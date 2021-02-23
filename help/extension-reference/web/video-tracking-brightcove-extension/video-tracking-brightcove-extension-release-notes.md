@@ -1,16 +1,14 @@
 ---
-title: Video Tracking | BrightCove Release Notes
-seo-title: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience Platform Launch
+title: Release Notes for the BrightCove Video Tracking Extension
+description: The latest release notes for the BrightCove Video Tracking extension in Adobe Experience Platform Launch.
 ---
 
-# Video Tracking | BrightCove Release Notes
+# BrightCove Video Tracking extension release notes
 
 
 ## July 6, 2020
 
-### Video Tracking | BrightCove  1.1.0
+### BrightCove Video Tracking  1.1.0
 
 #### Features
 
@@ -18,7 +16,7 @@ seo-description: Video Tracking | BrightCove Release Notes for Adobe Experience 
 
 ## June 14, 2020
 
-### Video Tracking | BrightCove  1.0.3
+### BrightCove Video Tracking  1.0.3
 
 #### Features
 

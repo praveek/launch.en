@@ -1,8 +1,6 @@
 ---
-title: Event types
-seo-title: Event types
-description: Event types
-seo-description: Event types
+title: Event Types for Web Extensions
+description: Learn how to define an event-type library module for a web extension in Adobe Experience Platform Launch.
 ---
 
 # Event types

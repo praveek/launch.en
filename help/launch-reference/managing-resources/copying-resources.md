@@ -1,11 +1,9 @@
 ---
-title: Copying resources
-seo-title: Copying resources in Adobe Experience Platform Launch
-description: Copying resources in Adobe Experience Platform Launch
-seo-description: Copying resources in Adobe Experience Platform Launch
+title: Copy Resources
+description: Learn how to create a new resource using the settings of an existing resource in Adobe Experience Platform Launch.
 ---
 
-# Copying resources
+# Copy resources
 
 Sometimes, it is convenient to make a new resource using the settings of an existing resource.  In these cases, you can make a copy.
 

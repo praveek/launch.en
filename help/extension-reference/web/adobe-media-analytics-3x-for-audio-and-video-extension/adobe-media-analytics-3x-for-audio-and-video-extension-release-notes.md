@@ -1,5 +1,9 @@
+---
+title: Release Notes for the Adobe Media Analytics (3.x SDK) for Audio and Video Extension
+description: The latest release notes for the Adobe Media Analytics (3.x SDK) for Audio and Video extension in Adobe Experience Platform Launch.
+---
 
-# Adobe Media Analytics (3.x SDK) for Audio and Video Release Notes
+# Adobe Media Analytics (3.x SDK) for Audio and Video release notes
 
 ## May 10, 2020
 

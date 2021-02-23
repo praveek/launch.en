@@ -1,8 +1,6 @@
 ---
-title: Grant user access
-seo-title: Grant user access
-description: Grant user access
-seo-description: Grant user access
+title: Grant User Access
+description: Learn how to set up your team members with user accounts and permissions for Adobe Experience Platform Launch.
 ---
 
 # Grant user access

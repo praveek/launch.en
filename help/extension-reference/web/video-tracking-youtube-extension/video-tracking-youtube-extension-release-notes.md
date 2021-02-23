@@ -1,17 +1,13 @@
 ---
-title: Video Tracking | YouTube Release Notes
-seo-title: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
+title: Release Notes for the YouTube Video Tracking Extension
+description: The latest release notes for the YouTube Video Tracking extension in Adobe Experience Platform Launch.
 ---
 
-# Video Tracking | YouTube Release Notes
-
-
+# YouTube Video Tracking extension release notes
 
 ## November 24, 2020
 
-### Video Tracking | YouTube  1.0.1
+### YouTube Video Tracking extension 1.0.1
 
 #### Features
 
@@ -20,7 +16,7 @@ seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Pla
 
 ## November 19, 2020
 
-### Video Tracking | YouTube  1.0.0
+### YouTube Video Tracking extension 1.0.0
 
 #### Features
 

@@ -1,11 +1,9 @@
 ---
-title: Video Tracking | YouTube Release Notes
-seo-title: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
-seo-description: Video Tracking | YouTube Release Notes for Adobe Experience Platform Launch
+title: YouTube Video Tracking Extension Overview
+description: Learn about the YouTube Video Tracking extension in Adobe Experience Platform Launch.
 ---
 
-# Video Custom Cue Tracker: YouTube extension documentation
+# YouTube Video Tracking extension overview
 
 **Prerequisites**
 

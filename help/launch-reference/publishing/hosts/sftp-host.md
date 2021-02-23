@@ -1,11 +1,9 @@
 ---
 title: SFTP Hosts
-seo-title: SFTP Hosts in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch hosts
-seo-description: Adobe Experience Platform Launch hosts
+description: Learn how to configure Adobe Experience Platform Launch to deliver library builds to a secured, self-hosted SFTP server.
 ---
 
-# SFTP Hosts
+# SFTP hosts
 
 If you do not want to have Adobe manage your hosted libraries, your other option is to have Adobe Experience Platform Launch deliver builds to a secured SFTP server that you host.
 

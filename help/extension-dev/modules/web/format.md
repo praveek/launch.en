@@ -1,8 +1,6 @@
 ---
-title: Library modules in web extensions
-seo-title: Library modules in web extensions
-description: Library modules in web extensions
-seo-description: Library modules in web extensions
+title: Library Modules in Web Extensions
+description: Learn how to format library modules for web extensions in Adobe Experience Platform Launch.
 ---
 
 # Library modules in web extensions

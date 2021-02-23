@@ -1,13 +1,11 @@
 ---
 title: Adobe Experience Platform Launch Overview
-seo-title: Adobe Experience Platform Launch Overview in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch overview
-seo-description: Adobe Experience Platform Launch overview
+description: Adobe Experience Platform Launch is the next generation of tag management capabilities from Adobe. Platform Launch gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 ---
 
-# Adobe Experience Platform Launch Overview
+# Adobe Experience Platform Launch overview
 
-[!DNL Adobe Experience Platform Launch] is the next-generation of tag management capabilities from [!DNL Adobe]. [!DNL Platform Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
+[!DNL Adobe Experience Platform Launch] is the next generation of tag management capabilities from [!DNL Adobe]. [!DNL Platform Launch] gives customers a simple way to deploy and manage all of the analytics, marketing, and advertising tags necessary to power relevant customer experiences.
 
 [!DNL Platform Launch] empowers anyone to build and maintain their own integrations, called _extensions_. These extensions are available to [!DNL Platform Launch] customers in an app-store experience so they can quickly install, configure, and deploy their tags.
 

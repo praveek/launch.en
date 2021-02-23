@@ -1,8 +1,6 @@
 ---
-title: 2019 Release notes
-seo-title: 2019 Adobe Experience Platform Launch Release notes
-description: 2019 Adobe Experience Platform Launch release notes
-seo-description: 2019 Adobe Experience Platform Launch release notes
+title: 2019 Release Notes
+description: 2019 release notes for Adobe Experience Platform Launch.
 ---
 
 # Release notes

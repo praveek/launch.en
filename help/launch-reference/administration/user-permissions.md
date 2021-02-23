@@ -1,8 +1,6 @@
 ---
-title: User permissions
-seo-title: User permissions in Adobe Experience Platform Launch
-description: User permissions in Adobe Experience Platform Launch
-seo-description: User permissions in Adobe Experience Platform Launch
+title: User Permissions
+description: Learn about the different available permissions for Adobe Experience Platform Launch users.
 ---
 
 # User permissions

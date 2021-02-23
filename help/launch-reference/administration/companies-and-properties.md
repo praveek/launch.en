@@ -1,8 +1,6 @@
 ---
-title: Companies and properties
-seo-title: Companies and properties in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch companies and properties
-seo-description: Adobe Experience Platform Launch companies and properties
+title: Companies and Properties
+description: Learn how your extensions, environments, and libraries are organized and grouped for your organization in Adobe Experience Platform Launch.
 ---
 
 # Companies and properties

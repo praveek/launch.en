@@ -1,8 +1,6 @@
 ---
-title: Condition types for web extensions
-seo-title: Condition types for web extensions
-description: Condition types for web extensions
-seo-description: Condition types for web extensions
+title: Condition Types for Web Extensions
+description: Learn how to define a condition-type library module for a web extension in Adobe Experience Platform Launch.
 ---
 
 # Condition types for web extensions

@@ -1,8 +1,6 @@
 ---
-title: Managed by Adobe Hosts
-seo-title: Managed by Adobe Hosts in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch hosts
-seo-description: Adobe Experience Platform Launch hosts
+title: Adobe-Managed Hosts Overview
+description: Learn about the default hosting option for deploying library builds in Adobe Experience Platform Launch.
 ---
 
 # Adobe-managed hosts overview

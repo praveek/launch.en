@@ -1,11 +1,9 @@
 ---
-title: Republish Library
-seo-title: Republishing Libraries in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch library republish
-seo-description: Adobe Experience Platform Launch library republish
+title: Republish a Library
+description: Learn how to republish a previous library in Adobe Experience Platform Launch.
 ---
 
-# Republish library
+# Republish a library
 
 The five most recent libraries that have been published to your production environment on a Web property are available for later retrieval.  
 

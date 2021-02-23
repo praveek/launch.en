@@ -1,8 +1,6 @@
 ---
 title: Libraries
-seo-title: Libraries in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch libraries
-seo-description: Adobe Experience Platform Launch libraries
+description: Learn about the concept of libraries and how they function within Adobe Experience Platform Launch.
 ---
 
 # Libraries

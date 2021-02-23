@@ -1,8 +1,6 @@
 ---
-title: Test embed codes using Adobe Experience Platform Debugger
-seo-title: Test Adobe Experience Platform Launch embed codes using Adobe Experience Platform Debugger
-description: Learn how to use Platform Debugger to locally test different embed codes for Platform Launch on your website.
-seo-description: Learn how to use Platform Debugger to locally test different embed codes for Platform Launch on your website.
+title: Test Embed Codes using Adobe Experience Platform Debugger
+description: Learn how to use Platform Debugger to locally test different embed codes for Adobe Experience Platform Launch on your website.
 ---
 
 # Test embed codes using Adobe Experience Platform Debugger

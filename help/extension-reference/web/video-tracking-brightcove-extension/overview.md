@@ -1,11 +1,9 @@
 ---
-title: Video Tracking | BrightCove Extension
-seo-title: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
-description: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
-seo-description: Video Tracking | BrightCove Extension for Adobe Experience Platform Launch
+title: BrightCove Video Tracking Extension Overview
+description: Learn about the BrightCove Video Tracking extension in Adobe Experience Platform Launch.
 ---
 
-# Video Custom Cue Tracker: BrightCove Extension documentation
+# BrightCove Video Tracking extension overview
 
 ## Pre-Requisites
 

@@ -1,8 +1,6 @@
 ---
 title: Extension development overview
-seo-title: Extension development overview
-description: This document outlines the primary components of different extension types, and provides links for further documentation to guide you on the extension development process.
-seo-description: This document outlines the primary components of different extension types, and provides links for further documentation to guide you on the extension development process.
+description: Learn about the primary components of different extension types and the extension development process in Adobe Experience Platform Launch.
 ---
 
 # Extension development overview

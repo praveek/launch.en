@@ -1,8 +1,6 @@
 ---
-title: Data element types
-seo-title: Data element types
-description: Data element types
-seo-description: Data element types
+title: Data Element Types for Edge Extensions
+description: Learn how to define an data-element-type library module for an edge extension in Adobe Experience Platform Launch.
 ---
 
 # Data-element types in edge extensions

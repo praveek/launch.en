@@ -1,8 +1,6 @@
 ---
 title: Builds
-seo-title: Builds in Adobe Experience Platform Launch
-description: Adobe Experience Platform Launch builds
-seo-description: Adobe Experience Platform Launch builds
+description: Learn about the concept of builds and how they function within Adobe Experience Platform Launch.
 ---
 
 # Builds
