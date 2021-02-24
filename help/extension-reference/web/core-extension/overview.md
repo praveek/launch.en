@@ -127,7 +127,15 @@ Trigger the event if the specified element is selected (clicked).
 
 Optionally, you can specify property values that must be true for the element before the event is triggered.
 
-You can also specify whether to delay navigation until the rule runs if the element is a link. When you select the check box, a field opens where you can enter the desired delay in milliseconds. This specifies how long Platform Launch waits for tags to fire on selected links before moving to the next page. The default value is 100 milliseconds. Longer delays improve tracking accuracy. Adobe recommends a delay of 500 milliseconds or less, which the user will not perceive. Platform Launch will wait up to the time specified, but if the beacon fires sooner, the delay is cut short. (That is, user won’t always wait the full length of the delay.)
+If the element is a link (an `<a>` tag), you can also specify whether to delay navigation for a period of time.  This can be useful if your rule requires extra time to execute and would not normally complete before page navigation takes place.
+
+>[!WARNING]
+>
+>This option should be used with extreme caution due to the potential negative consequences it poses to the user experience if used incorrectly.
+
+When you use link delay, Platform Launch will actually prevent the browser from navigating off the page, then perform a JavaScript redirect to the original destination after the specified timeout.  This is especially dangerous when when your page markup has `<a>` tags where the intended functionality does not actually navigate the user away from the page.  If you cannot solve your problem in any other way, you should be extremely precise with your selector definition so that this event will trigger exactly where you need it and nowhere else.
+
+The default link delay value is 100 milliseconds. Please note that Platform Launch will always wait for the amount of time specified and is not connected to the execution of the rule’s actions in any way. It is possible that the delay will force the user to wait longer than is necessary, and also possible that the delay will not be long enough for all the rule’s actions to successfully complete.  Longer delays provide more time for rule execution, but also make for a worse user experience.  
 
 In addition, specify that the event is triggered after a specific amount of time.
 
