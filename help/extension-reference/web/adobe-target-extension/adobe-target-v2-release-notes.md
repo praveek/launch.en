@@ -55,8 +55,8 @@ seo-description: Release notes for Adobe Target v2 extension in Adobe Experience
 - Improved performance for integrations between Experience Cloud ID library (ECID) v4.4 and at.js 2.2.
 - Previously, the ECID library made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.
 
-> [!NOTE]
-> Please upgrade your ECID extension for Platform Launch to v4.4.1 to take advantage of this performance enhancement.
+>[!NOTE]
+>Please upgrade your ECID extension for Platform Launch to v4.4.1 to take advantage of this performance enhancement.
 
 ## July 31, 2019
 
