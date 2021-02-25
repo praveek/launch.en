@@ -15,6 +15,14 @@ For release notes on the Experience Cloud Identity Service itself and not just t
 
 * This patch contains a fix for writing cookies from an iFrame with attribute `SameSite=None` in Google Chrome browser.
 
+## Jan 12, 2021
+
+### Experience Cloud ID Extension 5.2.0
+
+#### **Features**
+
+* Updating to VisitorJS 5.2.0 patch with a fix for ECID DataElement could not get updated when receive consent.
+
 ## Oct 27, 2020
 
 ### Experience Cloud ID Extension 5.1.0
