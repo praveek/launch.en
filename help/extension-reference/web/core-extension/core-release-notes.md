@@ -5,6 +5,14 @@ description: The latest release notes for the Core extension in Adobe Experience
 
 # Core Extension release notes
 
+## March 9, 2021
+
+v2.0.4
+
+* Added Data Element Support for various fields - Data Element support has been added to the following events: 'Time on Page', 'Enters Viewport', 'Hover' and 'Media Time Played'. As well as the following Conditions: 'Time on Site' and 'Value Comparison'
+* Adds support for default behavior for ctrl/cmd + click, and middle mouse click when using Link Delay
+* **Marked link delay on the click event as “no longer supported”.** - more information can be found on the [Adobe Exprience Platform Launch Blog](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-platform-launch/explainer-link-delay/ba-p/398403)
+
 ## January 6, 2021
 
 v1.9.0
