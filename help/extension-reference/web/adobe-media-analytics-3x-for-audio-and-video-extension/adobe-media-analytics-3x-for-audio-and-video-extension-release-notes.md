@@ -5,11 +5,16 @@ description: The latest release notes for the Adobe Media Analytics (3.x SDK) fo
 
 # Adobe Media Analytics (3.x SDK) for Audio and Video release notes
 
+## April 5, 2021
+
+### v3.0.2
+* Update Media SDK to [v3.0.2](https://github.com/Adobe-Marketing-Cloud/media-sdks/releases/tag/js-v3.0.2)
+
 ## May 10, 2020
 
-### Adobe Media Analytics (3.x SDK) for Audio and Video Extension 1.0
+### v3.0.0
 
-* Wrapper around Media SDK v3.0.0
+* Wrapper around Media SDK [v3.0.0](https://github.com/Adobe-Marketing-Cloud/media-sdks/releases/tag/js-v3.0.0)
 * Uses Media Collection API for tracking media
 * Supports player state tracking
 
